@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Reaper Pepper",
-  "nbttag": "{ExtraAttributes:{id:\"REAPER_PEPPER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"01c1ceeb-3b00-3f05-91e3-23374d89377b\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIzMWE4MTEyNWI1M2VjOGZmMTFkMDlkYjM3YTJkZDQ0MmM0MjdiNWMzNmQ0YzZiYTVjMTlkY2QwMmU2MzEifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Consume this §7§odangerous §7pepper to\",1:\"§7permanently gain §c+1❤ Health §7and\",2:\"§b+1❄ Cold Resistance§7.\",3:\"\",4:\"§7You may eat up to §a5 §7peppers before\",5:\"§7it's considered truly dangerous.\",6:\"\",7:\"§6§lLEGENDARY\"],Name:\"§6Reaper Pepper\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Reaper Pepper\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Reaper Pepper\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consume this \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"dangerous \\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true},{\\\"text\\\":\\\"pepper to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"permanently gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+1❄ Cold Resistance\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"You may eat up to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"peppers before\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"it\u0027s considered truly dangerous.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REAPER_PEPPER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIzMWE4MTEyNWI1M2VjOGZmMTFkMDlkYjM3YTJkZDQ0MmM0MjdiNWMzNmQ0YzZiYTVjMTlkY2QwMmU2MzEifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Consume this §7§odangerous §7pepper to",
-    "§7permanently gain §c+1❤ Health §7and",
-    "§b+1❄ Cold Resistance§7.",
-    "",
-    "§7You may eat up to §a5 §7peppers before",
-    "§7it's considered truly dangerous.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consume this \",\"color\":\"gray\"},{\"text\":\"dangerous \",\"color\":\"gray\",\"italic\":true},{\"text\":\"pepper to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"permanently gain \",\"color\":\"gray\"},{\"text\":\"+1❤ Health \",\"color\":\"red\"},{\"text\":\"and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+1❄ Cold Resistance\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"You may eat up to \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"green\"},{\"text\":\"peppers before\",\"color\":\"gray\"}]}",
+    "{\"text\":\"it\u0027s considered truly dangerous.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "REAPER_PEPPER",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Reaper_Pepper",
     "https://wiki.hypixel.net/Reaper_Pepper"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:banner",
-  "displayname": "§fBlack Banner",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlack Banner\"},ExtraAttributes:{id:\"BANNER\"}}",
+  "displayname": "{\"text\":\"Black Banner\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:banner\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Black Banner\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BANNER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "BANNER",
   "modver": "1.3-REL",
@@ -20,5 +20,8 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

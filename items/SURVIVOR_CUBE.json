@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Survivor Cube",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bf7681ca-8f68-3e7d-9931-346569c257a6\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE4MTI4NTJjZjA3NDU5Y2Y4MmExNDAwMmZiNTY5NzgyZTZkNzU0MGY4ODg0YzAyYmY3ZDY3NzQzYTY0OWI3MCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Vitality: §a+5\",1:\"\",2:\"§7Grants §4+5♨ Vitality§7, which\",3:\"§7increases incoming healing.\",4:\"\",5:\"§7§4☠ §cRequires §5Spider Slayer 7§c.\",6:\"§8§l* §8Soulbound §8§l*\",7:\"§9§lRARE ACCESSORY\"],Name:\"§9Survivor Cube\"},ExtraAttributes:{id:\"SURVIVOR_CUBE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Survivor Cube\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Survivor Cube\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vitality: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5♨ Vitality\\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\", which\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"increases incoming healing.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Spider Slayer 7\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE ACCESSORY\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SURVIVOR_CUBE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Vitality: §a+5",
-    "",
-    "§7Grants §4+5♨ Vitality§7, which",
-    "§7increases incoming healing.",
-    "",
-    "§7§4☠ §cRequires §5Spider Slayer 7§c.",
-    "§8§l* §8Soulbound §8§l*",
-    "§9§lRARE ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Vitality: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+5♨ Vitality\",\"color\":\"dark_red\"},{\"text\":\", which\",\"color\":\"gray\"}]}",
+    "{\"text\":\"increases incoming healing.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Spider Slayer 7\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE ACCESSORY\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SURVIVOR_CUBE",
   "crafttext": "Requires: Spider Slayer 7",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Survivor_Cube",
     "https://wiki.hypixel.net/Survivor_Cube"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

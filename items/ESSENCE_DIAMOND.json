@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dDiamond Essence",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"3a489532-121f-31bd-a2b2-b8af970e4b55\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0ZjI1Y2ZmZjc1NGYyODdhOTgzOGQ4ZWZlMDM5OTgwNzNjMjJkZjdhOWQzMDI1YzQyNWUzZWQ3ZmY1MmMyMCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7§oSo pristine...so\",1:\"§7§omagnificent!\"],Name:\"§dDiamond Essence\"},ExtraAttributes:{id:\"ESSENCE_DIAMOND\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Diamond Essence\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Essence\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"So pristine...so\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"magnificent!\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ESSENCE_DIAMOND\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§oSo pristine...so",
-    "§7§omagnificent!"
+    "{\"text\":\"So pristine...so\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"magnificent!\",\"color\":\"gray\",\"italic\":true}"
   ],
   "internalname": "ESSENCE_DIAMOND",
   "modver": "2.1.0-REL",
@@ -15,5 +15,8 @@
     "https://wiki.hypixel.net/Diamond_Essence"
   ],
   "crafttext": "",
-  "clickcommand": ""
+  "clickcommand": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

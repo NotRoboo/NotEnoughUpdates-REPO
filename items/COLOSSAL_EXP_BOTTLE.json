@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:experience_bottle",
-  "displayname": "§5Colossal Experience Bottle",
-  "nbttag": "{ExtraAttributes:{id:\"COLOSSAL_EXP_BOTTLE\"},HideFlags:254,ItemModel:\"minecraft:experience_bottle\",display:{Lore:[0:\"§7Smash it open to receive experience!\",1:\"\",2:\"§5§lEPIC\"],Name:\"§5Colossal Experience Bottle\"},ench:[]}",
+  "displayname": "{\"text\":\"Colossal Experience Bottle\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:experience_bottle\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Colossal Experience Bottle\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Smash it open to receive experience!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COLOSSAL_EXP_BOTTLE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Smash it open to receive experience!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Smash it open to receive experience!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "COLOSSAL_EXP_BOTTLE",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

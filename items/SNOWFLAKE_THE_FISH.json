@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:cooked_fish",
-  "displayname": "§cFlake the Fish",
-  "nbttag": "{ExtraAttributes:{id:\"SNOWFLAKE_THE_FISH\"},HideFlags:254,ItemModel:\"minecraft:cooked_salmon\",display:{Lore:[0:\"§7I'm a special snowflake\",1:\"\",2:\"§c§lSPECIAL\"],Name:\"§cFlake the Fish\"},ench:[]}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Flake the Fish\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:cooked_fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Flake the Fish\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"I\u0027m a special snowflake\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SNOWFLAKE_THE_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7I'm a special snowflake",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"I\u0027m a special snowflake\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "SNOWFLAKE_THE_FISH",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Flake_the_Fish",
     "https://wiki.hypixel.net/Flake_The_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:spruce_stairs",
-  "displayname": "§fSpruce Stairs",
-  "nbttag": "{ExtraAttributes:{id:\"SPRUCE_WOOD_STAIRS\"},HideFlags:254,ItemModel:\"minecraft:spruce_stairs\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fSpruce Stairs\"}}",
+  "displayname": "{\"text\":\"Spruce Stairs\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:spruce_stairs\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spruce Stairs\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPRUCE_WOOD_STAIRS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SPRUCE_WOOD_STAIRS",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "WOOD-1:1",
     "C3": "WOOD-1:1",
     "count": 4
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

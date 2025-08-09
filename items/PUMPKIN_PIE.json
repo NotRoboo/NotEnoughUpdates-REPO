@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:pumpkin_pie",
-  "displayname": "§fPumpkin Pie",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPumpkin Pie\"},ExtraAttributes:{id:\"PUMPKIN_PIE\"}}",
+  "displayname": "{\"text\":\"Pumpkin Pie\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:pumpkin_pie\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pumpkin Pie\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PUMPKIN_PIE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "PUMPKIN_PIE",
   "modver": "1.3-REL",
@@ -20,5 +20,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

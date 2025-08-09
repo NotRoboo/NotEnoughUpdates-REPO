@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§5Speedster Boots",
-  "nbttag": "{ExtraAttributes:{color:\"224:252:247\",id:\"SPEEDSTER_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+65\",1:\"§7Speed: §a+15\",2:\"\",3:\"§6Full Set Bonus: Bonus Speed\",4:\"§7Increases §f✦ Speed §7by\",5:\"§a+20§7.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§5§lEPIC BOOTS\"],Name:\"§5Speedster Boots\",color:14744823}}",
+  "displayname": "{\"text\":\"Speedster Boots\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Speedster Boots\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+65\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Bonus Speed\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✦ Speed \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"by\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC BOOTS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"224:252:247\",\"id\":\"SPEEDSTER_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+65",
-    "§7Speed: §a+15",
-    "",
-    "§6Full Set Bonus: Bonus Speed",
-    "§7Increases §f✦ Speed §7by",
-    "§a+20§7.",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+65\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Bonus Speed\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases \",\"color\":\"gray\"},{\"text\":\"✦ Speed \",\"color\":\"white\"},{\"text\":\"by\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+20\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC BOOTS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SPEEDSTER_BOOTS",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

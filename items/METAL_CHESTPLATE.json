@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§5Metal Chestplate",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d250\",1:\"§7Defense: §a+230\",2:\"\",3:\"§7While in Dungeons, players\",4:\"§7within §e10 §7blocks of you take\",5:\"§7§c8% §7less damage. This range\",6:\"§7is extended to §e30 §7blocks\",7:\"§7while playing as a Tank.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§7§4❣ §cRequires §aThe Catacombs Floor\",11:\"§aIII Completion§c.\",12:\"§5§lEPIC DUNGEON CHESTPLATE\"],color:14277081,Name:\"§5Metal Chestplate\"},ExtraAttributes:{id:\"METAL_CHESTPLATE\",shop_dungeon_floor_completion_required:3}}",
+  "displayname": "{\"text\":\"Metal Chestplate\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Metal Chestplate\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"250\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+230\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"While in Dungeons, players\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"within \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10 \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"blocks of you take\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"8% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"less damage. This range\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"is extended to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"30 \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"blocks\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"while playing as a Tank.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"The Catacombs Floor\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"III Completion\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"METAL_CHESTPLATE\",\"shop_dungeon_floor_completion_required\":3},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d250",
-    "§7Defense: §a+230",
-    "",
-    "§7While in Dungeons, players",
-    "§7within §e10 §7blocks of you take",
-    "§7§c8% §7less damage. This range",
-    "§7is extended to §e30 §7blocks",
-    "§7while playing as a Tank.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aThe Catacombs Floor",
-    "§aIII Completion§c.",
-    "§5§lEPIC DUNGEON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"250\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+230\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"While in Dungeons, players\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"within \",\"color\":\"gray\"},{\"text\":\"10 \",\"color\":\"yellow\"},{\"text\":\"blocks of you take\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"8% \",\"color\":\"red\"},{\"text\":\"less damage. This range\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"is extended to \",\"color\":\"gray\"},{\"text\":\"30 \",\"color\":\"yellow\"},{\"text\":\"blocks\",\"color\":\"gray\"}]}",
+    "{\"text\":\"while playing as a Tank.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"The Catacombs Floor\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"III Completion\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "METAL_CHESTPLATE",
   "crafttext": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Metal_Chestplate",
     "https://wiki.hypixel.net/Metal_Chestplate"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

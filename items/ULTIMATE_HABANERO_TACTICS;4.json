@@ -1,30 +1,30 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9§d§lHabanero Tactics IV\",1:\"§8ℏ §7Heal §a+6% §7more from wands.\",2:\"§7§8ℏ §7Deal §c+20% damage §7with Slayer weapons.\",3:\"§7§8ℏ §7Gain §3+2.5☯ Combat Wisdom §7with Slayer\",4:\"§7weapons.\",5:\"§7§8ℏ §7With §aSmoldering Polarization§7, gain §b+10✯\",6:\"§bMagic Find §7on your slayer weapon.\",7:\"\",8:\"§7§cYou can only have 1 Ultimate\",9:\"§cEnchantment on an item!\",10:\"\",11:\"§7Use this on an item in an Anvil to\",12:\"§7apply it!\",13:\"\",14:\"§6Source:\",15:\"§aIV-V: §7Chili Pepper Collection\",16:\"\",17:\"§6Applied To:\",18:\"§7- §fArmor\",19:\"\",20:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"ULTIMATE_HABANERO_TACTICS;4\",enchantments:{ultimate_habanero_tactics:4}}}",
+  "displayname": "{\"text\":\"Enchanted Book\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:enchanted_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Book\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Habanero Tactics IV\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"ℏ \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Heal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+6% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"more from wands.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"ℏ \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20% damage \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"with Slayer weapons.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"ℏ \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2.5☯ Combat Wisdom \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"with Slayer\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"weapons.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"ℏ \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"With \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Smoldering Polarization\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10✯\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Magic Find \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"on your slayer weapon.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You can only have 1 Ultimate\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"Enchantment on an item!\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Use this on an item in an Anvil to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"apply it!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Source:\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"IV-V: \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Chili Pepper Collection\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Applied To:\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"- \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Armor\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ULTIMATE_HABANERO_TACTICS;4\",\"enchantments\":\"{ultimate_habanero_tactics:4\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§9§d§lHabanero Tactics IV",
-    "§8ℏ §7Heal §a+6% §7more from wands.",
-    "§7§8ℏ §7Deal §c+20% damage §7with Slayer weapons.",
-    "§7§8ℏ §7Gain §3+2.5☯ Combat Wisdom §7with Slayer",
-    "§7weapons.",
-    "§7§8ℏ §7With §aSmoldering Polarization§7, gain §b+10✯",
-    "§bMagic Find §7on your slayer weapon.",
-    "",
-    "§7§cYou can only have 1 Ultimate",
-    "§cEnchantment on an item!",
-    "",
-    "§7Use this on an item in an Anvil to",
-    "§7apply it!",
-    "",
-    "§6Source:",
-    "§aIV-V: §7Chili Pepper Collection",
-    "",
-    "§6Applied To:",
-    "§7- §fArmor",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Habanero Tactics IV\",\"color\":\"light_purple\",\"bold\":true}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"ℏ \",\"color\":\"dark_gray\"},{\"text\":\"Heal \",\"color\":\"gray\"},{\"text\":\"+6% \",\"color\":\"green\"},{\"text\":\"more from wands.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"ℏ \",\"color\":\"dark_gray\"},{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"+20% damage \",\"color\":\"red\"},{\"text\":\"with Slayer weapons.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"ℏ \",\"color\":\"dark_gray\"},{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+2.5☯ Combat Wisdom \",\"color\":\"dark_aqua\"},{\"text\":\"with Slayer\",\"color\":\"gray\"}]}",
+    "{\"text\":\"weapons.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"ℏ \",\"color\":\"dark_gray\"},{\"text\":\"With \",\"color\":\"gray\"},{\"text\":\"Smoldering Polarization\",\"color\":\"green\"},{\"text\":\", gain \",\"color\":\"gray\"},{\"text\":\"+10✯\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Magic Find \",\"color\":\"aqua\"},{\"text\":\"on your slayer weapon.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You can only have 1 Ultimate\",\"color\":\"red\"}",
+    "{\"text\":\"Enchantment on an item!\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Use this on an item in an Anvil to\",\"color\":\"gray\"}",
+    "{\"text\":\"apply it!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Source:\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"IV-V: \",\"color\":\"green\"},{\"text\":\"Chili Pepper Collection\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Applied To:\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"- \",\"color\":\"gray\"},{\"text\":\"Armor\",\"color\":\"white\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "STUFFED_CHILI_PEPPER:1",
@@ -44,5 +44,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ultimate_Enchantments"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

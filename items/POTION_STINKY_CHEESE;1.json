@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fDouce Pluie de Stinky Cheese I Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:12b,Amplifier:0b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§eDouce Pluie de Stinky Cheese I §f(1:00:00)\",2:\"§7Gain §2+20ൠ Bonus Pest Chance§7.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fDouce Pluie de Stinky Cheese I Potion\"},ExtraAttributes:{potion_level:1,potion:\"stinky_cheese\",effects:[0:{level:1,effect:\"stinky_cheese\",duration_ticks:72000}],potion_type:\"POTION\",id:\"POTION_STINKY_CHEESE;1\",splash:0b}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Douce Pluie de Stinky Cheese I Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Douce Pluie de Stinky Cheese I Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Douce Pluie de Stinky Cheese I \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"(1:00:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20ൠ Bonus Pest Chance\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":1,\"potion\":\"stinky_cheese\",\"effects\":\"[0:{level:1\",\"effect\":\"stinky_cheese\",\"duration_ticks\":72000},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§eDouce Pluie de Stinky Cheese I §f(1:00:00)",
-    "§7Gain §2+20ൠ Bonus Pest Chance§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Douce Pluie de Stinky Cheese I \",\"color\":\"yellow\"},{\"text\":\"(1:00:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+20ൠ Bonus Pest Chance\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_STINKY_CHEESE;1",
   "crafttext": "",
   "clickcommand": "",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

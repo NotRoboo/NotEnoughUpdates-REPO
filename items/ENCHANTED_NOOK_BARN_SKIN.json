@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:stained_glass",
-  "displayname": "§5Enchanted Nook Barn Skin",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Consume this item to unlock the\",1:\"§7§fEnchanted Nook Barn Skin §7on §aThe\",2:\"§aGarden§7!\",3:\"\",4:\"§eClick to consume!\",5:\"\",6:\"§5§lEPIC COSMETIC\"],Name:\"§5Enchanted Nook Barn Skin\"},ExtraAttributes:{id:\"ENCHANTED_NOOK_BARN_SKIN\"}}",
-  "damage": 10,
+  "displayname": "{\"text\":\"Enchanted Nook Barn Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:stained_glass\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Nook Barn Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consume this item to unlock the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Enchanted Nook Barn Skin \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_NOOK_BARN_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7Consume this item to unlock the",
-    "§7§fEnchanted Nook Barn Skin §7on §aThe",
-    "§aGarden§7!",
-    "",
-    "§eClick to consume!",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Consume this item to unlock the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Enchanted Nook Barn Skin \",\"color\":\"white\"},{\"text\":\"on \",\"color\":\"gray\"},{\"text\":\"The\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Garden\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_NOOK_BARN_SKIN",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Nook_Barn_Skin",
     "https://wiki.hypixel.net/Enchanted_Nook_Barn_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

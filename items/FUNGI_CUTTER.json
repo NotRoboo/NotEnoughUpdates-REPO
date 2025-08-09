@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:golden_hoe",
-  "displayname": "§5Fungi Cutter",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\" §8[§8☘§8] §8[§8☘§8]\",1:\"\",2:\"§6Ability: Fun Guy Bonus  §e§lRIGHT CLICK\",3:\"§8Toggles On/Off on use\",4:\"§7Switches between red and brown\",5:\"§7mushroom cutting modes.\",6:\"\",7:\"§eMode: §6Brown Mushrooms\",8:\"\",9:\"§7§7Gain §6+30☘ Farming Fortune §7for\",10:\"§7§6Brown Mushrooms§7.\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§7§4❣ §cRequires §aFarming Skill 10§c.\",14:\"§5§lEPIC HOE\"],Name:\"§5Fungi Cutter\"},ExtraAttributes:{id:\"FUNGI_CUTTER\"}}",
+  "displayname": "{\"text\":\"Fungi Cutter\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_hoe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fungi Cutter\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"☘\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"☘\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Fun Guy Bonus \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Toggles On/Off on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Switches between red and brown\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"mushroom cutting modes.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mode: \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"Brown Mushrooms\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30☘ Farming Fortune \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Brown Mushrooms\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 10\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC HOE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FUNGI_CUTTER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    " §8[§8☘§8] §8[§8☘§8]",
-    "",
-    "§6Ability: Fun Guy Bonus  §e§lRIGHT CLICK",
-    "§8Toggles On/Off on use",
-    "§7Switches between red and brown",
-    "§7mushroom cutting modes.",
-    "",
-    "§eMode: §6Brown Mushrooms",
-    "",
-    "§7§7Gain §6+30☘ Farming Fortune §7for",
-    "§7§6Brown Mushrooms§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 10§c.",
-    "§5§lEPIC HOE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"☘\",\"color\":\"dark_gray\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"☘\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Fun Guy Bonus \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Toggles On/Off on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Switches between red and brown\",\"color\":\"gray\"}",
+    "{\"text\":\"mushroom cutting modes.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mode: \",\"color\":\"yellow\"},{\"text\":\"Brown Mushrooms\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+30☘ Farming Fortune \",\"color\":\"gold\"},{\"text\":\"for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Brown Mushrooms\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 10\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC HOE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FUNGI_CUTTER",
   "crafttext": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fungi_Cutter",
     "https://wiki.hypixel.net/Fungi_Cutter"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

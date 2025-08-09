@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:prismarine_shard",
-  "displayname": "§5Enchanted Shark Fin",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SHARK_FIN\"},HideFlags:254,ItemModel:\"minecraft:prismarine_shard\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A razor-sharp shark fin designed to\",3:\"§7craft powerful items.\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§5§lEPIC\"],Name:\"§5Enchanted Shark Fin\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Shark Fin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:prismarine_shard\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Shark Fin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A razor-sharp shark fin designed to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"craft powerful items.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_SHARK_FIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7A razor-sharp shark fin designed to",
-    "§7craft powerful items.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A razor-sharp shark fin designed to\",\"color\":\"gray\"}",
+    "{\"text\":\"craft powerful items.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_SHARK_FIN",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "",
     "C2": "SHARK_FIN:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

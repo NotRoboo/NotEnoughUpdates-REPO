@@ -1,26 +1,26 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Titanium Tesseract",
-  "nbttag": "{ExtraAttributes:{id:\"TITANIUM_TESSERACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"180fd74a-1dd0-395e-8c7b-b67a7bce84fb\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxODI5NjcyMzc0NiwKICAicHJvZmlsZUlkIiA6ICJmZDIwMGYwMDE4OTI0NzgxODI5OWIzZjE5Yzc4Y2E3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dXNnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4OGY4YjU1MTBiNzNhNTA0NWY1OTIxN2UxY2FjNDg5NDZhNzA0MGM0MTkyNDJkYjljMDRlNGM1ZDBiZjdhM2EiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Dimensional §7reforge when\",4:\"§7combined with armor.\",5:\"\",6:\"§9Dimensional §7(§6Legendary§7):\",7:\"§7Mining Speed: §a+40\",8:\"§7Mining Wisdom: §a+2\",9:\"\",10:\"§9Dimensional Bonus\",11:\"§fTitanium Ore §7drops §2+10 Mithril\",12:\"§2Powder §7when mined.\",13:\"\",14:\"§7Requires §aMining Skill Level XX§7!\",15:\"\",16:\"§9§lRARE REFORGE STONE\"],Name:\"§9Titanium Tesseract\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Titanium Tesseract\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Titanium Tesseract\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Reforge Stone\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Combinable in Reforge Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applies the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Dimensional \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"reforge when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"combined with armor.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Dimensional \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"(\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Legendary\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"):\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Wisdom: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Dimensional Bonus\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Titanium Ore \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"drops \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10 Mithril\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Powder \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"when mined.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mining Skill Level XX\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE REFORGE STONE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TITANIUM_TESSERACT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxODI5NjcyMzc0NiwKICAicHJvZmlsZUlkIiA6ICJmZDIwMGYwMDE4OTI0NzgxODI5OWIzZjE5Yzc4Y2E3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dXNnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4OGY4YjU1MTBiNzNhNTA0NWY1OTIxN2UxY2FjNDg5NDZhNzA0MGM0MTkyNDJkYjljMDRlNGM1ZDBiZjdhM2EiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Reforge Stone",
-    "§8Combinable in Reforge Anvil",
-    "",
-    "§7Applies the §9Dimensional §7reforge when",
-    "§7combined with armor.",
-    "",
-    "§9Dimensional §7(§6Legendary§7):",
-    "§7Mining Speed: §a+40",
-    "§7Mining Wisdom: §a+2",
-    "",
-    "§9Dimensional Bonus",
-    "§fTitanium Ore §7drops §2+10 Mithril",
-    "§2Powder §7when mined.",
-    "",
-    "§7Requires §aMining Skill Level XX§7!",
-    "",
-    "§9§lRARE REFORGE STONE"
+    "{\"text\":\"Reforge Stone\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Combinable in Reforge Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applies the \",\"color\":\"gray\"},{\"text\":\"Dimensional \",\"color\":\"blue\"},{\"text\":\"reforge when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"combined with armor.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Dimensional \",\"color\":\"blue\"},{\"text\":\"(\",\"color\":\"gray\"},{\"text\":\"Legendary\",\"color\":\"gold\"},{\"text\":\"):\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Wisdom: \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Dimensional Bonus\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Titanium Ore \",\"color\":\"white\"},{\"text\":\"drops \",\"color\":\"gray\"},{\"text\":\"+10 Mithril\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Powder \",\"color\":\"dark_green\"},{\"text\":\"when mined.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"Mining Skill Level XX\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE REFORGE STONE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "TITANIUM_TESSERACT",
   "clickcommand": "viewrecipe",
@@ -42,5 +42,8 @@
       "overrideOutputId": "TITANIUM_TESSERACT",
       "duration": 21600
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fWounded II Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:5b,Amplifier:1b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§4Wounded II §f(3:00)\",2:\"§7Reduces §c50% §7of healing.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fWounded II Potion\"},ExtraAttributes:{potion_level:2,potion:\"wounded\",effects:[0:{level:2,effect:\"wounded\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_WOUNDED;2\"}}",
-  "damage": 9,
+  "displayname": "{\"text\":\"Wounded II Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wounded II Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Wounded II \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Reduces \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"of healing.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":2,\"potion\":\"wounded\",\"effects\":\"[0:{level:2\",\"effect\":\"wounded\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§4Wounded II §f(3:00)",
-    "§7Reduces §c50% §7of healing.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Wounded II \",\"color\":\"dark_red\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Reduces \",\"color\":\"gray\"},{\"text\":\"50% \",\"color\":\"red\"},{\"text\":\"of healing.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_WOUNDED;2",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

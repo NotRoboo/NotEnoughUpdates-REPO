@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:blaze_rod",
-  "displayname": "§5Tactical Insertion",
-  "nbttag": "{ExtraAttributes:{id:\"TACTICAL_INSERTION\"},HideFlags:254,ItemModel:\"minecraft:blaze_rod\",display:{Lore:[0:\"§6Ability: Gorilla Tactics  §e§lRIGHT CLICK\",1:\"§7Marks your location and teleport back there\",2:\"§7after §a3s§7.\",3:\"\",4:\"§7On coming back, §6burn §7enemies within §b3 §7blocks\",5:\"§7and set your §c❤ Health §7to HALF of what it was.\",6:\"\",7:\"§7The §6burn §7deals §c10% §7of ALL damage you dealt\",8:\"§7within the §a3s§7, spread over §66s§7.\",9:\"§8Mana Cost: §3200\",10:\"§8Cooldown: §a20s\",11:\"\",12:\"§4☠ §cRequires §5Blaze Slayer 5§c.\",13:\"§5§lEPIC\"],Name:\"§5Tactical Insertion\"},ench:[]}",
+  "displayname": "{\"text\":\"Tactical Insertion\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:blaze_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tactical Insertion\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Gorilla Tactics \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Marks your location and teleport back there\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"after \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"On coming back, \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"burn \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"enemies within \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3 \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"blocks\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and set your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"to HALF of what it was.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"burn \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"of ALL damage you dealt\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"within the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", spread over \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"6s\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"200\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"20s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Blaze Slayer 5\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TACTICAL_INSERTION\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Gorilla Tactics  §e§lRIGHT CLICK",
-    "§7Marks your location and teleport back there",
-    "§7after §a3s§7.",
-    "",
-    "§7On coming back, §6burn §7enemies within §b3 §7blocks",
-    "§7and set your §c❤ Health §7to HALF of what it was.",
-    "",
-    "§7The §6burn §7deals §c10% §7of ALL damage you dealt",
-    "§7within the §a3s§7, spread over §66s§7.",
-    "§8Mana Cost: §3200",
-    "§8Cooldown: §a20s",
-    "",
-    "§4☠ §cRequires §5Blaze Slayer 5§c.",
-    "§5§lEPIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Gorilla Tactics \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Marks your location and teleport back there\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"after \",\"color\":\"gray\"},{\"text\":\"3s\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"On coming back, \",\"color\":\"gray\"},{\"text\":\"burn \",\"color\":\"gold\"},{\"text\":\"enemies within \",\"color\":\"gray\"},{\"text\":\"3 \",\"color\":\"aqua\"},{\"text\":\"blocks\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and set your \",\"color\":\"gray\"},{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"to HALF of what it was.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The \",\"color\":\"gray\"},{\"text\":\"burn \",\"color\":\"gold\"},{\"text\":\"deals \",\"color\":\"gray\"},{\"text\":\"10% \",\"color\":\"red\"},{\"text\":\"of ALL damage you dealt\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"within the \",\"color\":\"gray\"},{\"text\":\"3s\",\"color\":\"green\"},{\"text\":\", spread over \",\"color\":\"gray\"},{\"text\":\"6s\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"200\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"20s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Blaze Slayer 5\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "TACTICAL_INSERTION",
   "clickcommand": "",
@@ -39,5 +39,8 @@
     "C2": "",
     "C3": ""
   },
-  "slayer_req": "BLAZE_4"
+  "slayer_req": "BLAZE_4",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

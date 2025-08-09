@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5⸕ Flawless Amber Gemstone",
-  "nbttag": "{ExtraAttributes:{id:\"FLAWLESS_AMBER_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4ba0166e-5f5b-3d51-9d33-3b5cc86a2fe8\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Jk1MIoOsvvDGy5CCId3IjUV6DepvlusFIq1Ow1fQ14FqfsO1idZlw/AZYUAtzoiVA7QETs6ikn7JEzxI3UqH5Oo1eMX+Q7Y5/7AcIy496WykZLZFd/WpZ1OpIuhnBpZo8zUs0zM8yK1z78bbw1pqgblT1bs/4nanfCBZFcpXszXGozs+zcgzFlBmilRtNJeaApF+TrCvWml41PKsOLpsC4Y2wml3Jpo4HoJevVKC5bD5NxAmphH5/Y85evPMhmDMeMHa8i1me1ROOiF4BL7RstiXjF7Mxwz0zDBivbdoZLR0Jehk1UypaYgncSuD4dO7gb/7BbZm8I9lC4BLRFFcqlDkWLRUC/bgtWpwTNP/3yWAXZyIMM7b808sA6kikdQkQ1rCahCWbsPbpZmRgWVYKfjOWI71bt6muMEv4WgQlaZm5k+buwAjaZ19R/TLEzS9Ds54vCfGdocUvLO6V/sUTepZFQojdu+Dsr2eZ32aY8P+FNdS/HkWh5B/tPhWu2ZG2bNnBLf//FfsJHPcf7NX8mrtNzZw5lUA3xd61TpnGu45bE1BUfh083ZPjAVbm9s8APMbIzXWod+YjBO8bR3m3UoGnKAEefuyeUH5MCxwmb8Qjixd1qRI80yhihTIeQfzxkyNJFRXYGURyLk7cbrGkaUhny311syOAF5m/v6d4Ho=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4NTE3NjQ5NiwKICAicHJvZmlsZUlkIiA6ICJiNWRkZTVmODJlYjM0OTkzYmMwN2Q0MGFiNWY2ODYyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJsdXhlbWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlkY2U2MmY3MGFjMDQ2Yjg4MTExM2M2Y2Y4NjI5ODc3Mjc3NzRlMjY1ODg1NTAxYzlhMjQ1YjE4MGRiMDhjMGQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A near perfect version of §6Amber§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§6⸕ Mining Speed§7.\",7:\"\",8:\"§5§lEPIC GEMSTONE\"],Name:\"§5⸕ Flawless Amber Gemstone\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"⸕ Flawless Amber Gemstone\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"⸕ Flawless Amber Gemstone\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"A near perfect version of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Amber\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Some say that when \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"harnessed\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"properly\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\", it can give its owner extra\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"⸕ Mining Speed\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC GEMSTONE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLAWLESS_AMBER_GEM\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4NTE3NjQ5NiwKICAicHJvZmlsZUlkIiA6ICJiNWRkZTVmODJlYjM0OTkzYmMwN2Q0MGFiNWY2ODYyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJsdXhlbWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlkY2U2MmY3MGFjMDQ2Yjg4MTExM2M2Y2Y4NjI5ODc3Mjc3NzRlMjY1ODg1NTAxYzlhMjQ1YjE4MGRiMDhjMGQiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7A near perfect version of §6Amber§7.",
-    "",
-    "§7Some say that when §eharnessed",
-    "§eproperly§7, it can give its owner extra",
-    "§6⸕ Mining Speed§7.",
-    "",
-    "§5§lEPIC GEMSTONE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"A near perfect version of \",\"color\":\"gray\"},{\"text\":\"Amber\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Some say that when \",\"color\":\"gray\"},{\"text\":\"harnessed\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"properly\",\"color\":\"yellow\"},{\"text\":\", it can give its owner extra\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"⸕ Mining Speed\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC GEMSTONE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FLAWLESS_AMBER_GEM",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "",
     "C2": "FINE_AMBER_GEM:16",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:wooden_button",
-  "displayname": "§fWooden Button",
-  "nbttag": "{ExtraAttributes:{id:\"WOOD_BUTTON\"},HideFlags:254,ItemModel:\"minecraft:oak_button\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fWooden Button\"}}",
+  "displayname": "{\"text\":\"Wooden Button\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_button\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wooden Button\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WOOD_BUTTON\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WOOD_BUTTON",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

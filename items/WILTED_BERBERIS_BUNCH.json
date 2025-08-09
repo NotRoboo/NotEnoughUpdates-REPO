@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:deadbush",
-  "displayname": "§aWilted Berberis Bunch",
-  "nbttag": "{ExtraAttributes:{id:\"WILTED_BERBERIS_BUNCH\"},HideFlags:254,ItemModel:\"minecraft:dead_bush\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7The plant equivalent of... ALIEN\",3:\"§7revenant viscera?\",4:\"\",5:\"§5§kX§5 Rift-Transferable §r§kX\",6:\"§a§lUNCOMMON\"],Name:\"§aWilted Berberis Bunch\"},ench:[]}",
+  "displayname": "{\"text\":\"Wilted Berberis Bunch\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:deadbush\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wilted Berberis Bunch\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"The plant equivalent of... ALIEN\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"revenant viscera?\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WILTED_BERBERIS_BUNCH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7The plant equivalent of... ALIEN",
-    "§7revenant viscera?",
-    "",
-    "§5§kX§5 Rift-Transferable §r§kX",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"The plant equivalent of... ALIEN\",\"color\":\"gray\"}",
+    "{\"text\":\"revenant viscera?\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"obfuscated\":true}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "WILTED_BERBERIS_BUNCH",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "",
     "C2": "WILTED_BERBERIS:4",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

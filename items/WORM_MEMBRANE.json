@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:rotten_flesh",
-  "displayname": "§f§f§aWorm Membrane",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§f§f§aWorm Membrane\"},ExtraAttributes:{id:\"WORM_MEMBRANE\"},AttributeModifiers:[]}",
+  "displayname": "{\"text\":\"Worm Membrane\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:rotten_flesh\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Worm Membrane\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WORM_MEMBRANE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§a§lUNCOMMON"
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "WORM_MEMBRANE",
   "crafttext": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Worm_Membrane",
     "https://wiki.hypixel.net/Worm_Membrane"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

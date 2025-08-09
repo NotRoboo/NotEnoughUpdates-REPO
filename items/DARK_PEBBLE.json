@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:flint",
-  "displayname": "§fDark Pebble",
-  "nbttag": "{ExtraAttributes:{id:\"DARK_PEBBLE\"},HideFlags:254,ItemModel:\"minecraft:flint\",display:{Lore:[0:\"§5§kX§5 Rift-Transferable §5§kX\",1:\"§f§lCOMMON\"],Name:\"§fDark Pebble\"}}",
+  "displayname": "{\"text\":\"Dark Pebble\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:flint\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dark Pebble\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DARK_PEBBLE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§5§kX§5 Rift-Transferable §5§kX",
-    "§f§lCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DARK_PEBBLE",
   "clickcommand": "",
@@ -15,5 +15,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dark_Pebble",
     "https://wiki.hypixel.net/Dark_Pebble"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

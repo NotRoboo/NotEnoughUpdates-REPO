@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§eYellow Crab Hat of Celebration - 2022 Edition",
-  "nbttag": "{ExtraAttributes:{id:\"PARTY_HAT_CRAB_YELLOW_ANIMATED\",party_hat_color:\"yellow\",party_hat_year:2022},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"91d36f3d-a181-33c0-8fd5-9c3dcd0befef\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NDc5MzcyNjExNywKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I1ODcwZDUyZmU4MzBiYTkyMzRlZjI2ODcwNzM5YzkzMjQ2NDliMjBjZTBmZmJiZmZlNGI1MDBiNmQ5MWM5MCIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Magic Find: §a+1\",1:\"\",2:\"§6Ability: Party Time!\",3:\"§7Gain §b+1✎ Intelligence §7while\",4:\"§7on your head for each SkyBlock\",5:\"§7year you've been playing.\",6:\"\",7:\"§7Obtained: §e2022\",8:\"\",9:\"§c§lSPECIAL HATCESSORY\"],Name:\"§eYellow Crab Hat of Celebration - 2022 Edition\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Yellow Crab Hat of Celebration - 2022 Edition\",\"color\":\"yellow\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Yellow Crab Hat of Celebration - 2022 Edition\\\",\\\"color\\\":\\\"yellow\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Magic Find: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Party Time!\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1✎ Intelligence \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"while\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"on your head for each SkyBlock\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"year you\u0027ve been playing.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2022\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL HATCESSORY\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"party_hat_color\":\"yellow\",\"party_hat_year\":2022,\"id\":\"PARTY_HAT_CRAB_YELLOW_ANIMATED\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY1NDc5MzcyNjExNywKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I1ODcwZDUyZmU4MzBiYTkyMzRlZjI2ODcwNzM5YzkzMjQ2NDliMjBjZTBmZmJiZmZlNGI1MDBiNmQ5MWM5MCIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Magic Find: §a+1",
-    "",
-    "§6Ability: Party Time!",
-    "§7Gain §b+1✎ Intelligence §7while",
-    "§7on your head for each SkyBlock",
-    "§7year you've been playing.",
-    "",
-    "§7Obtained: §e2022",
-    "",
-    "§c§lSPECIAL HATCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Magic Find: \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Party Time!\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+1✎ Intelligence \",\"color\":\"aqua\"},{\"text\":\"while\",\"color\":\"gray\"}]}",
+    "{\"text\":\"on your head for each SkyBlock\",\"color\":\"gray\"}",
+    "{\"text\":\"year you\u0027ve been playing.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained: \",\"color\":\"gray\"},{\"text\":\"2022\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL HATCESSORY\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "PARTY_HAT_CRAB_YELLOW_ANIMATED",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Crab_Hat_of_Celebration",
     "https://wiki.hypixel.net/Crab_Hat_Of_Celebration"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

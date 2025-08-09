@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Voidling Minion II",
-  "nbttag": "{ExtraAttributes:{id:\"VOIDLING_GENERATOR_2\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c353c826-0b0a-3442-9e62-aef30b4d56ca\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Mh2gPLMXBMVblgStjfAehd+A5O6ZSta6govQc5rY5wNuZmKrm190mxYOwOLobEdajfhld7DdQUS1EMveeIg3Znqb98wHrEtUvF/ZnXLsni4t3kVDYUP19HoFHa01qswDVobk1eswXFvlMVIbsig3B4kGjqsyTWg7ODscfCchW9EyErFD9osURdRmDLwzeA4so0jCjOa/MHYiVuHjZf+npxwCOAYgeKvHhukCLVuazSabHVbPiWXVbcG0coc0VMpq6lgV6DYUNgyYk9pEP1QkXv3M64wh8b1GvzbqcCzrjgWR/y3A7WOiCq2RpMGQefMNM821MqZeFN+hJjQMWKoeAzYVYzl690SCy1tS9lZy4HLVmfELgo4xVsHPAg44ZPIjHUUSnru/fUwEaADWtlFJUGVH946Mb8sMu1jlDQYLhJ1cQ0VdPBg57GtXEwZSYNCAZnczIPQBpkcno4H74F1hIYgvOm1+xGMobjGe8grLSWsHygaYew0/qqilWISV/r7Ti6+9U+9RR01KRc0bu2mpP5cou578eo5wezI6KJn5stlMnCtKLIDiaUacKvWQkGOn0QNPxalcb/jIl6UmVZf6zDFGMSuGfITiorvGZb+dwnw2Mg7SLTIJE13KurVUi5cbxcEFKkJgEVKBMw6gPC4vQ1RS2OQdndddYzj9wTlVw0k=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTk0MDU5NDc0OSwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYzQ5NGFmNmI0NTk4MGNiMmIwMzUwMDdjMjVlMWI0ZTE2OTM3MWM0MTBmZTVkMjcwOGRhYTRmNjk1NjY4ZmQyIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and slaying Voidlings!\",2:\"§7Minions also work when you are\",3:\"§7offline!\",4:\"\",5:\"§7Time Between Actions: §a45s\",6:\"§7Max Storage: §e192\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Voidling Minion II\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Voidling Minion II\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Voidling Minion II\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and slaying Voidlings!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Minions also work when you are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"45s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"192\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"VOIDLING_GENERATOR_2\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTk0MDU5NDc0OSwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYzQ5NGFmNmI0NTk4MGNiMmIwMzUwMDdjMjVlMWI0ZTE2OTM3MWM0MTBmZTVkMjcwOGRhYTRmNjk1NjY4ZmQyIgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and slaying Voidlings!",
-    "§7Minions also work when you are",
-    "§7offline!",
-    "",
-    "§7Time Between Actions: §a45s",
-    "§7Max Storage: §e192",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and slaying Voidlings!\",\"color\":\"gray\"}",
+    "{\"text\":\"Minions also work when you are\",\"color\":\"gray\"}",
+    "{\"text\":\"offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"45s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"192\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "VOIDLING_GENERATOR_2",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "NULL_SPHERE:20",
     "C2": "OBSIDIAN_GENERATOR_1:1",
     "C3": "NULL_SPHERE:20"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

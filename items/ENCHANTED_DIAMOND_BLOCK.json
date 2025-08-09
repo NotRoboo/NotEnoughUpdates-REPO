@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:diamond_block",
-  "displayname": "§9Enchanted Diamond Block",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_DIAMOND_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:diamond_block\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE ORE\"],Name:\"§9Enchanted Diamond Block\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Diamond Block\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Diamond Block\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE ORE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_DIAMOND_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§9§lRARE ORE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE ORE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_DIAMOND_BLOCK",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "ENCHANTED_DIAMOND:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

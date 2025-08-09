@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:paper",
-  "displayname": "§cBingo Card",
-  "nbttag": "{ExtraAttributes:{bingo_event:17,id:\"BINGO_CARD\",player:\"§6Eisengolem\",playtime:925},HideFlags:254,ItemModel:\"minecraft:paper\",display:{Lore:[0:\"§7Obtained during the §618th Bingo Event\",1:\"§7during §aMay 2023 §7for completing the\",2:\"§7entire Bingo Card!\",3:\"\",4:\"§7Player: §6Eisengolem\",5:\"§7Playtime: §a15h\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§c§lSPECIAL\"],Name:\"§cBingo Card\"}}",
+  "displayname": "{\"text\":\"Bingo Card\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:paper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bingo Card\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"18th Bingo Event\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"during \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"May 2023 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"for completing the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"entire Bingo Card!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Player: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Eisengolem\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Playtime: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"15h\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"bingo_event\":17,\"id\":\"BINGO_CARD\",\"playtime\":925,\"player\":\"§6Eisengolem\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Obtained during the §618th Bingo Event",
-    "§7during §aMay 2023 §7for completing the",
-    "§7entire Bingo Card!",
-    "",
-    "§7Player: §6Eisengolem",
-    "§7Playtime: §a15h",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§c§lSPECIAL"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained during the \",\"color\":\"gray\"},{\"text\":\"18th Bingo Event\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"during \",\"color\":\"gray\"},{\"text\":\"May 2023 \",\"color\":\"green\"},{\"text\":\"for completing the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"entire Bingo Card!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Player: \",\"color\":\"gray\"},{\"text\":\"Eisengolem\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Playtime: \",\"color\":\"gray\"},{\"text\":\"15h\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "BINGO_CARD",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bingo_Card",
     "https://wiki.hypixel.net/Bingo_Card"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

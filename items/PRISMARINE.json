@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:prismarine",
-  "displayname": "§fPrismarine",
-  "nbttag": "{ExtraAttributes:{id:\"PRISMARINE\"},HideFlags:254,ItemModel:\"minecraft:prismarine\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPrismarine\"}}",
+  "displayname": "{\"text\":\"Prismarine\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:prismarine\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Prismarine\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PRISMARINE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "PRISMARINE",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:name_tag",
-  "displayname": "§aAgatha\u0027s Coupon",
-  "nbttag": "{ExtraAttributes:{id:\"AGATHA_COUPON\"},HideFlags:254,ItemModel:\"minecraft:name_tag\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aAgatha\u0027s Coupon\"}}",
+  "displayname": "{\"text\":\"Agatha\u0027s Coupon\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:name_tag\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Agatha\u0027s Coupon\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"AGATHA_COUPON\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§a§lUNCOMMON"
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "AGATHA_COUPON",
   "clickcommand": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Agatha%27s_Coupon",
     "https://wiki.hypixel.net/Agatha%27s_Coupon"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

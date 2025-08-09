@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:slime",
-  "displayname": "§aLaunch Pad",
-  "nbttag": "{ExtraAttributes:{id:\"LAUNCH_PAD\"},HideFlags:254,ItemModel:\"minecraft:slime_block\",display:{Lore:[0:\"§7Launches you in the direction you\",1:\"§7are facing!\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aLaunch Pad\"}}",
+  "displayname": "{\"text\":\"Launch Pad\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:slime\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Launch Pad\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Launches you in the direction you\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"are facing!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LAUNCH_PAD\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Launches you in the direction you",
-    "§7are facing!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Launches you in the direction you\",\"color\":\"gray\"}",
+    "{\"text\":\"are facing!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "LAUNCH_PAD",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "ENCHANTED_SLIME_BALL:1",
     "C2": "ENCHANTED_SLIME_BALL:1",
     "C3": "ENCHANTED_SLIME_BALL:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

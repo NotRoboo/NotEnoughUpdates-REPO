@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:blaze_rod",
-  "displayname": "§6Builder's Ruler",
-  "nbttag": "{ExtraAttributes:{id:\"BUILDERS_RULER\"},HideFlags:254,ItemModel:\"minecraft:blaze_rod\",display:{Lore:[0:\"§6Ability: Area Planner §e§lRIGHT CLICK\",1:\"§7Right-Click the top of a block\",2:\"§7to place a line of blocks.\",3:\"\",4:\"§6Ability: Organised Builder §e§lSNEAK RIGHT CLICK\",5:\"§7Sneak Right-Click a block to\",6:\"§7collect all blocks in a line.\",7:\"\",8:\"§6Ability: Built-in Storage §e§lLEFT CLICK\",9:\"§7Opens the ruler storage. Blocks\",10:\"§7will be placed from your\",11:\"§7inventory or the ruler storage.\",12:\"\",13:\"§6§lLEGENDARY\"],Name:\"§6Builder's Ruler\"},ench:[]}",
+  "displayname": "{\"text\":\"Builder\u0027s Ruler\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:blaze_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Builder\u0027s Ruler\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Area Planner \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Right-Click the top of a block\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to place a line of blocks.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Organised Builder \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"SNEAK RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Sneak Right-Click a block to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"collect all blocks in a line.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Built-in Storage \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"LEFT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Opens the ruler storage. Blocks\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"will be placed from your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"inventory or the ruler storage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BUILDERS_RULER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Area Planner §e§lRIGHT CLICK",
-    "§7Right-Click the top of a block",
-    "§7to place a line of blocks.",
-    "",
-    "§6Ability: Organised Builder §e§lSNEAK RIGHT CLICK",
-    "§7Sneak Right-Click a block to",
-    "§7collect all blocks in a line.",
-    "",
-    "§6Ability: Built-in Storage §e§lLEFT CLICK",
-    "§7Opens the ruler storage. Blocks",
-    "§7will be placed from your",
-    "§7inventory or the ruler storage.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Area Planner \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Right-Click the top of a block\",\"color\":\"gray\"}",
+    "{\"text\":\"to place a line of blocks.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Organised Builder \",\"color\":\"gold\"},{\"text\":\"SNEAK RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Sneak Right-Click a block to\",\"color\":\"gray\"}",
+    "{\"text\":\"collect all blocks in a line.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Built-in Storage \",\"color\":\"gold\"},{\"text\":\"LEFT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Opens the ruler storage. Blocks\",\"color\":\"gray\"}",
+    "{\"text\":\"will be placed from your\",\"color\":\"gray\"}",
+    "{\"text\":\"inventory or the ruler storage.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "BUILDERS_RULER",
   "clickcommand": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Builder%27s_Ruler",
     "https://wiki.hypixel.net/Builder%27s_Ruler"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

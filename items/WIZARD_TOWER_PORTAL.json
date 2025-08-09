@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§fPortal to The Wizard Tower",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2689fe1a-0382-3cb8-9552-80b4562721d7\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NTkxNDEyMjMzNjIsInByb2ZpbGVJZCI6ImEyZjgzNDU5NWM4OTRhMjdhZGQzMDQ5NzE2Y2E5MTBjIiwicHJvZmlsZU5hbWUiOiJiUHVuY2giLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJmNjlhYjJmNGU3MzQxYWMyNjI1OTcwODNjYTM4YWQwMWJmYmJmODczMGZiZmJkZDEwY2E5MGFlZTMzN2EyZGQifX19\"}]}},display:{Lore:[0:\"§7Placing this item on your\",1:\"§7private island will create a\",2:\"§7portal to §b§dThe Wizard Tower§7\",3:\"§7for you to use whenever you\",4:\"§7want!\",5:\"\",6:\"§7§8The portal will spawn facing\",7:\"§8you on the block you click on.\",8:\"\",9:\"§f§lCOMMON PORTAL\"],Name:\"§f§f§fPortal to The Wizard Tower\"},ExtraAttributes:{id:\"WIZARD_TOWER_PORTAL\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Portal to The Wizard Tower\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Portal to The Wizard Tower\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Placing this item on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"private island will create a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"portal to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Wizard Tower\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"for you to use whenever you\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"want!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"The portal will spawn facing\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"you on the block you click on.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON PORTAL\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WIZARD_TOWER_PORTAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Placing this item on your",
-    "§7private island will create a",
-    "§7portal to §b§dThe Wizard Tower§7",
-    "§7for you to use whenever you",
-    "§7want!",
-    "",
-    "§7§8The portal will spawn facing",
-    "§8you on the block you click on.",
-    "",
-    "§f§lCOMMON PORTAL"
+    "{\"text\":\"Placing this item on your\",\"color\":\"gray\"}",
+    "{\"text\":\"private island will create a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"portal to \",\"color\":\"gray\"},{\"text\":\"The Wizard Tower\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"for you to use whenever you\",\"color\":\"gray\"}",
+    "{\"text\":\"want!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"The portal will spawn facing\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"you on the block you click on.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON PORTAL\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WIZARD_TOWER_PORTAL",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Portal_To_The_Wizard_Tower"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

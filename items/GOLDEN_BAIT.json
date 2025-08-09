@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aGolden Bait",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"341b5583-eb74-35f3-af85-eee6bbce133a\",hypixelPopulated:1b,Properties:{textures:[0:{Signature:\"W2JOX/+JfF+8wyZIjqkk/X3TNtJNoWE2a7biIs1tuv9FAKznWEmmsK4UaR4xSqFRdDE5vOmH5h/EvUYhqORImKEGmow0Er4/MID0jL6ARNOFAcirOTZplANNUm44r4KREZATQXCRvRVb/zMhmXwdbQTR8S5sW3oUNQwFeDK6ZTQmJz20t1jdg0QG3TAsF3O4DAHWSfkSYTMxlOub/F61bKC6xr+OYvGNhxjfvURt2yGXPi5JXuxW9nZXpJzHPLbh6AZOyRhxt2OdRygfzlKqC9jGBcizs2r4QVREdIqiLC85BqHAzsAQp2xf2mXI1nUYFnFnOCi9byKln3sDgXycwNZnyb9BX/I46XL4MRdLTx4w6rieDww3KpJsbns+xPJTpqwguKT2CGxtMcLFKoKcEIR0WTrxdynHU3kDf5Gn+yVh92yDfqCmv87kB1ORJw+oPmsUy+m54q6VSzs2CTgGI+z+J/gP9Vgvuk7Ld3YQJDTP7C/+JTroWk5Nthqn/mJq/mU/Xz+Yvn5s9Ay5Bp/C8Qrb2oBOZ7ish47q4/nZYdZezQdm+qLCECCZiOkhDMSmk+PT21jKOWiPsTNFcJcKdUd5JfrwoWznCbu0/gC2hQG6kJz0Xp0BeJB9jA3/2TCUfelCk3owg2kkUftZ3d3v+dNW4CMBBBEAT/6BMwyIGDs\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczNjQyNzU0MjE0NywKICAicHJvZmlsZUlkIiA6ICJlMjc5NjliODYyNWY0NDg1YjkyNmM5NTBhMDljMWMwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaVp6YVhQIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcyZTI5MDhkYmIxMTJkY2QwYjM2N2RmNDNmYWZjYzQxYTU2ZDljZjgwM2U5MGEzNjc4MzRiNDkxMWY4NGYzOTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§8Fishing Bait\",1:\"§8Consumes on Cast\",2:\"\",3:\"§7Grants §6+4⛃ Treasure Chance§7.\",4:\"\",5:\"§a§lUNCOMMON BAIT\"],Name:\"§aGolden Bait\"},ExtraAttributes:{id:\"GOLDEN_BAIT\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Golden Bait\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Golden Bait\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Fishing Bait\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Consumes on Cast\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4⛃ Treasure Chance\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON BAIT\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLDEN_BAIT\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Fishing Bait",
-    "§8Consumes on Cast",
-    "",
-    "§7Grants §6+4⛃ Treasure Chance§7.",
-    "",
-    "§a§lUNCOMMON BAIT"
+    "{\"text\":\"Fishing Bait\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Consumes on Cast\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+4⛃ Treasure Chance\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON BAIT\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "GOLDEN_BAIT",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Golden_Bait",
     "https://wiki.hypixel.net/Golden_Bait"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

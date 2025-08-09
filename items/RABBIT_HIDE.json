@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:rabbit_hide",
-  "displayname": "§fRabbit Hide",
-  "nbttag": "{ExtraAttributes:{id:\"RABBIT_HIDE\"},HideFlags:254,ItemModel:\"minecraft:rabbit_hide\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRabbit Hide\"}}",
+  "displayname": "{\"text\":\"Rabbit Hide\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:rabbit_hide\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rabbit Hide\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RABBIT_HIDE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "RABBIT_HIDE",
   "clickcommand": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://wiki.hypixel.net/Rabbit_Hide"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

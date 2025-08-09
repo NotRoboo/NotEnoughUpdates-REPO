@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§5Moby-Duck: Collector's Edition",
-  "nbttag": "{ExtraAttributes:{id:\"MOBY_DUCK_COLLECTOR_EDITION\"},HideFlags:254,ItemModel:\"minecraft:book\",display:{Lore:[0:\"§7Consume to gain §3+30☯ Fishing Wisdom\",1:\"§7for §a60m§7!\",2:\"\",3:\"§6Bookworm\",4:\"§7Consuming this grants permanent\",5:\"§3+1☯ Fishing Wisdom§7.\",6:\"\",7:\"§7You may consume §a1 §7of these before\",8:\"§7they lose their magical energy.\",9:\"\",10:\"§8§oA series of tales following a fellow\",11:\"§8§onamed Moby and his waterfowl best\",12:\"§8§ofriend. Who would be so egregious as\",13:\"§8§oto thrust such a literary\",14:\"§8§omasterpiece into the sea?\",15:\"\",16:\"§5§lEPIC\"],Name:\"§5Moby-Duck: Collector's Edition\"},ench:[]}",
+  "displayname": "{\"text\":\"Moby-Duck: Collector\u0027s Edition\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Moby-Duck: Collector\u0027s Edition\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consume to gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30☯ Fishing Wisdom\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"60m\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Bookworm\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Consuming this grants permanent\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+1☯ Fishing Wisdom\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"You may consume \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of these before\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"they lose their magical energy.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A series of tales following a fellow\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"named Moby and his waterfowl best\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"friend. Who would be so egregious as\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"to thrust such a literary\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"masterpiece into the sea?\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MOBY_DUCK_COLLECTOR_EDITION\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Consume to gain §3+30☯ Fishing Wisdom",
-    "§7for §a60m§7!",
-    "",
-    "§6Bookworm",
-    "§7Consuming this grants permanent",
-    "§3+1☯ Fishing Wisdom§7.",
-    "",
-    "§7You may consume §a1 §7of these before",
-    "§7they lose their magical energy.",
-    "",
-    "§8§oA series of tales following a fellow",
-    "§8§onamed Moby and his waterfowl best",
-    "§8§ofriend. Who would be so egregious as",
-    "§8§oto thrust such a literary",
-    "§8§omasterpiece into the sea?",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consume to gain \",\"color\":\"gray\"},{\"text\":\"+30☯ Fishing Wisdom\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"60m\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Bookworm\",\"color\":\"gold\"}",
+    "{\"text\":\"Consuming this grants permanent\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+1☯ Fishing Wisdom\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"You may consume \",\"color\":\"gray\"},{\"text\":\"1 \",\"color\":\"green\"},{\"text\":\"of these before\",\"color\":\"gray\"}]}",
+    "{\"text\":\"they lose their magical energy.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A series of tales following a fellow\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"named Moby and his waterfowl best\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"friend. Who would be so egregious as\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"to thrust such a literary\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"masterpiece into the sea?\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "MOBY_DUCK_COLLECTOR_EDITION",
   "clickcommand": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Moby-Duck:_Collector%27s_Edition",
     "https://wiki.hypixel.net/Moby-Duck:_Collector%27s_Edition"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

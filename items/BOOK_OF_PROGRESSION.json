@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§6Book of Progression",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7This book, imbued with great\",1:\"§7power, upgrades as you do.\",2:\"\",3:\"§7§8§oA wise novel once thought to\",4:\"§8§obe the cure to all problems.\",5:\"\",6:\"§eClick to select modifiers!\",7:\"\",8:\"§8§l* §8Soulbound §8§l*\",9:\"§6§lLEGENDARY ACCESSORY\"],Name:\"§6Book of Progression\"},ExtraAttributes:{id:\"BOOK_OF_PROGRESSION\",upgradedRarity:\"LEGENDARY\"}}",
+  "displayname": "{\"text\":\"Book of Progression\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Book of Progression\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This book, imbued with great\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"power, upgrades as you do.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A wise novel once thought to\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"be the cure to all problems.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Click to select modifiers!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"LEGENDARY ACCESSORY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BOOK_OF_PROGRESSION\",\"upgradedRarity\":\"LEGENDARY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7This book, imbued with great",
-    "§7power, upgrades as you do.",
-    "",
-    "§7§8§oA wise novel once thought to",
-    "§8§obe the cure to all problems.",
-    "",
-    "§eClick to select modifiers!",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§6§lLEGENDARY ACCESSORY"
+    "{\"text\":\"This book, imbued with great\",\"color\":\"gray\"}",
+    "{\"text\":\"power, upgrades as you do.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A wise novel once thought to\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"be the cure to all problems.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Click to select modifiers!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"LEGENDARY ACCESSORY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "BOOK_OF_PROGRESSION",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Book_of_Progression",
     "https://wiki.hypixel.net/Book_Of_Progression"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

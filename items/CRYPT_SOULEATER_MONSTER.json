@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Crypt Souleater (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"68b4c885-7447-3382-b86b-b661b464d76e\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjI0Mjc0MTA5MTQsInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZmMzQ5MjcwYTNiODUxODk2Y2RhZDg0MmY1ZWVjNmUxNDBiZDkxMTliNzVjMDc0OTU1YzNiZTc4NjVlMjdjNyJ9fX0\"}]}},display:{Lore:[0:\"§7A soul a day keeps the doctor away.\",1:\"\",2:\"§c❤ Health§8: §c18,000 - 800,000\",3:\"§c❤ Health §8(MM) : §c1,100,000 - 20,000,000\"],Name:\"§9Crypt Souleater (Monster)\"},ExtraAttributes:{id:\"CRYPT_SOULEATER_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Crypt Souleater (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Crypt Souleater (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A soul a day keeps the doctor away.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"18,000 - 800,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(MM) : \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1,100,000 - 20,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"CRYPT_SOULEATER_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7A soul a day keeps the doctor away.",
-    "",
-    "§c❤ Health§8: §c18,000 - 800,000",
-    "§c❤ Health §8(MM) : §c1,100,000 - 20,000,000"
+    "{\"text\":\"A soul a day keeps the doctor away.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"18,000 - 800,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"(MM) : \",\"color\":\"dark_gray\"},{\"text\":\"1,100,000 - 20,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "CRYPT_SOULEATER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

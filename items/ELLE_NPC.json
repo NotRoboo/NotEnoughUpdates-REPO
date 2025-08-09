@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Elle (NPC)",
-  "nbttag": "{ExtraAttributes:{id:\"ELLE_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"55f7ac0e-b1ac-2e5e-b618-430f8c6a0ea2\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMzM2FhMjQxNGJjZjFjMjkxZmRkZjZhOWIwZjgwNWY5OTY1NDZlYzQxNTBmZjNjZWYxMGJkNTI5Y2M5ODI2MSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI1NWY3YWMwZWIxYWMyZTVlYjYxODQzMGY4YzZhMGVhMiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUyMTU4MDk1NjUyfQ\u003d\u003d\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Elle (NPC)\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Elle (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Elle (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"ELLE_NPC\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMzM2FhMjQxNGJjZjFjMjkxZmRkZjZhOWIwZjgwNWY5OTY1NDZlYzQxNTBmZjNjZWYxMGJkNTI5Y2M5ODI2MSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI1NWY3YWMwZWIxYWMyZTVlYjYxODQzMGY4YzZhMGVhMiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUyMTU4MDk1NjUyfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "ELLE_NPC",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "island": "crimson_isle",
   "x": -365,
   "y": 80,
-  "z": -477
+  "z": -477,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

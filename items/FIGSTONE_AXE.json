@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:stone_axe",
-  "displayname": "§5Figstone Splitter",
-  "nbttag": "{ExtraAttributes:{id:\"FIGSTONE_AXE\"},HideFlags:254,ItemModel:\"minecraft:stone_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+15\",2:\"§7Foraging Fortune: §a+35\",3:\"§7Sweep: §a+24\",4:\" §8[☘] [☘]\",5:\"\",6:\"§6Ability: Super Frenzy \",7:\"§7Gains §21∮ Sweep §7every §a10,000 Logs\",8:\"§7cut on §2Galatea§7. §8(max 20)\",9:\"§7Current Bonus: §2+0∮\",10:\"§7Next Upgrade: §2+1∮ §8(§a0§7/§c10,000§8)\",11:\"\",12:\"§7Logs Cut: §b0\",13:\"\",14:\"§8This item can be reforged!\",15:\"§4❣ §cRequires §aForaging Skill 15§c.\",16:\"§5§lEPIC AXE\"],Name:\"§5Figstone Splitter\"}}",
+  "displayname": "{\"text\":\"Figstone Splitter\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:stone_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Figstone Splitter\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Foraging Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sweep: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+24\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[☘] [☘]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Super Frenzy \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gains \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1∮ Sweep \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10,000 Logs\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"cut on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Galatea\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\". \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"(max 20)\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Current Bonus: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+0∮\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Next Upgrade: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1∮ \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"(\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10,000\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\")\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Logs Cut: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Foraging Skill 15\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC AXE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FIGSTONE_AXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+50",
-    "§7Strength: §c+15",
-    "§7Foraging Fortune: §a+35",
-    "§7Sweep: §a+24",
-    " §8[☘] [☘]",
-    "",
-    "§6Ability: Super Frenzy ",
-    "§7Gains §21∮ Sweep §7every §a10,000 Logs",
-    "§7cut on §2Galatea§7. §8(max 20)",
-    "§7Current Bonus: §2+0∮",
-    "§7Next Upgrade: §2+1∮ §8(§a0§7/§c10,000§8)",
-    "",
-    "§7Logs Cut: §b0",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aForaging Skill 15§c.",
-    "§5§lEPIC AXE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Foraging Fortune: \",\"color\":\"gray\"},{\"text\":\"+35\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sweep: \",\"color\":\"gray\"},{\"text\":\"+24\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[☘] [☘]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Super Frenzy \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gains \",\"color\":\"gray\"},{\"text\":\"1∮ Sweep \",\"color\":\"dark_green\"},{\"text\":\"every \",\"color\":\"gray\"},{\"text\":\"10,000 Logs\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"cut on \",\"color\":\"gray\"},{\"text\":\"Galatea\",\"color\":\"dark_green\"},{\"text\":\". \",\"color\":\"gray\"},{\"text\":\"(max 20)\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Current Bonus: \",\"color\":\"gray\"},{\"text\":\"+0∮\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Next Upgrade: \",\"color\":\"gray\"},{\"text\":\"+1∮ \",\"color\":\"dark_green\"},{\"text\":\"(\",\"color\":\"dark_gray\"},{\"text\":\"0\",\"color\":\"green\"},{\"text\":\"/\",\"color\":\"gray\"},{\"text\":\"10,000\",\"color\":\"red\"},{\"text\":\")\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Logs Cut: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Foraging Skill 15\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC AXE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FIGSTONE_AXE",
   "clickcommand": "",
@@ -45,5 +45,8 @@
       "count": 1,
       "overrideOutputId": "FIGSTONE_AXE"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

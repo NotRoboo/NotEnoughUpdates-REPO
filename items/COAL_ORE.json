@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:coal_ore",
-  "displayname": "§fCoal Ore",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON ORE\"],Name:\"§fCoal Ore\"},ExtraAttributes:{id:\"COAL_ORE\"}}",
+  "displayname": "{\"text\":\"Coal Ore\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:coal_ore\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Coal Ore\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON ORE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COAL_ORE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON ORE"
+    "{\"text\":\"COMMON ORE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "COAL_ORE",
   "modver": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://wiki.hypixel.net/Coal_Ore"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

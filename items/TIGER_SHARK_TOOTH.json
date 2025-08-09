@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:ghast_tear",
-  "displayname": "§5Tiger Shark Tooth",
-  "nbttag": "{ExtraAttributes:{id:\"TIGER_SHARK_TOOTH\"},HideFlags:254,ItemModel:\"minecraft:ghast_tear\",display:{Lore:[0:\"§7Dropped by a Shark during\",1:\"§7Fishing Festival.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Tiger Shark Tooth\"},ench:[]}",
+  "displayname": "{\"text\":\"Tiger Shark Tooth\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:ghast_tear\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tiger Shark Tooth\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Dropped by a Shark during\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Fishing Festival.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TIGER_SHARK_TOOTH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Dropped by a Shark during",
-    "§7Fishing Festival.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Dropped by a Shark during\",\"color\":\"gray\"}",
+    "{\"text\":\"Fishing Festival.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "TIGER_SHARK_TOOTH",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Tiger_Shark_Tooth",
     "https://wiki.hypixel.net/Tiger_Shark_Tooth"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

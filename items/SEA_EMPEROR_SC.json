@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3The Sea Emperor (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b6bdd479-20ef-5967-aeea-2b948d81b7e1\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDQ0YjY1M2JiYjcyN2I1Yzg2NWE4ZWZjNzUwOTJhZmU5MzllMmMzZTY4NjEzZGI5YWJhZTRmMWI2NGY5OWY4In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7The Sea Emperor is a Sea Creature that can\",1:\"§7appear while fishing once a player\u0027s fishing\",2:\"§7level is 20 or higher. \",3:\"\",4:\"§c❤ Health§8: §c750,000\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§3The Sea Emperor (Sea Creature)\"},ExtraAttributes:{id:\"SEA_EMPEROR_SC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"The Sea Emperor (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"The Sea Emperor (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Sea Emperor is a Sea Creature that can\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"appear while fishing once a player\u0027s fishing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"level is 20 or higher. \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"750,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SEA_EMPEROR_SC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Sea Emperor is a Sea Creature that can",
-    "§7appear while fishing once a player\u0027s fishing",
-    "§7level is 20 or higher. ",
-    "",
-    "§c❤ Health§8: §c750,000",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"The Sea Emperor is a Sea Creature that can\",\"color\":\"gray\"}",
+    "{\"text\":\"appear while fishing once a player\u0027s fishing\",\"color\":\"gray\"}",
+    "{\"text\":\"level is 20 or higher. \",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"750,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "SEA_EMPEROR_SC",
   "clickcommand": "viewrecipe",
@@ -99,5 +99,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

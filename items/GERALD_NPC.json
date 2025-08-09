@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Gerald (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"35e70db2-6906-205d-896a-eecdebeb4627\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E2NzVmMDcxZWZiMGNmMjdiZjE2MDgxZTNmODJmOWI1ZjhhZTg4ZWNhOWVlOTUyM2I2MjE2ZTYxN2Y2ZjQ1YzkifX19\"}]},Name:\"35e70db2-6906-205d-896a-eecdebeb4627\"},display:{Lore:[0:\"\"],Name:\"§9Gerald (NPC)\"},ExtraAttributes:{id:\"GERALD_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Gerald (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gerald (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"GERALD_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "GERALD_NPC",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gerald"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

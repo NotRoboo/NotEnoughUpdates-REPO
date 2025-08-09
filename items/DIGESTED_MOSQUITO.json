@@ -1,20 +1,23 @@
 {
   "internalname": "DIGESTED_MOSQUITO",
   "itemid": "minecraft:rotten_flesh",
-  "displayname": "§6Digested Mosquito",
+  "displayname": "{\"text\":\"Digested Mosquito\",\"color\":\"gold\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§6§lLEGENDARY\"],Name:\"§6Digested Mosquito\"},ExtraAttributes:{id:\"DIGESTED_MOSQUITO\"}}",
+  "nbttag": "{\"id\":\"minecraft:rotten_flesh\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Digested Mosquito\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIGESTED_MOSQUITO\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Digested_Mosquito",
     "https://wiki.hypixel.net/Digested_Mosquito"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

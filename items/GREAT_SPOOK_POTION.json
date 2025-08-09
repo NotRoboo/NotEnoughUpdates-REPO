@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fGreat Spook Potion",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"778b43d3-68ec-36da-9fe3-6f5244ee867a\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NDE3Mjc0NTU2MSwKICAicHJvZmlsZUlkIiA6ICI0NGNlMmMwZTFjNTM0ZDhmYmExNmNkNDhlYjkyYTUxZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4WGlyYW56dThYeCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NWZkMzBjNjA5NjRmMWQxNjU0MTdmZmRiMGI4NjU0ODgxMjZhYmU0ODA3N2U4YjI5ZjIzNzhhZTIwMmRhZjVlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7§7Consuming this potion grants\",1:\"§7§a+3 §5Fear §7for §b24 hours§7.\",2:\"\",3:\"§8§l* §8Soulbound §8§l*\",4:\"§f§lCOMMON\"],Name:\"§fGreat Spook Potion\"},ExtraAttributes:{id:\"GREAT_SPOOK_POTION\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Great Spook Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Great Spook Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consuming this potion grants\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+3 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Fear \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"24 hours\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GREAT_SPOOK_POTION\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7Consuming this potion grants",
-    "§7§a+3 §5Fear §7for §b24 hours§7.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§f§lCOMMON"
+    "{\"text\":\"Consuming this potion grants\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+3 \",\"color\":\"green\"},{\"text\":\"Fear \",\"color\":\"dark_purple\"},{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"24 hours\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GREAT_SPOOK_POTION",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Great_Spook_Potion",
     "https://wiki.hypixel.net/Great_Spook_Potion"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

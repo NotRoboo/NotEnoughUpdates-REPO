@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:stone",
-  "displayname": "§fPolished Andesite",
-  "nbttag": "{ExtraAttributes:{id:\"STONE-6\"},HideFlags:254,ItemModel:\"minecraft:polished_andesite\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPolished Andesite\"}}",
-  "damage": 6,
+  "displayname": "{\"text\":\"Polished Andesite\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stone\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Polished Andesite\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STONE-6\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STONE-6",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 4
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

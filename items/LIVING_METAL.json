@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:stained_glass",
-  "displayname": "§9Living Metal",
-  "nbttag": "{ExtraAttributes:{id:\"LIVING_METAL\"},HideFlags:254,ItemModel:\"minecraft:blue_stained_glass\",display:{Lore:[0:\"§7It snakes around your blocky hand\",1:\"§7as you hold it.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Living Metal\"}}",
-  "damage": 11,
+  "displayname": "{\"text\":\"Living Metal\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:stained_glass\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Living Metal\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"It snakes around your blocky hand\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"as you hold it.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LIVING_METAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7It snakes around your blocky hand",
-    "§7as you hold it.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"It snakes around your blocky hand\",\"color\":\"gray\"}",
+    "{\"text\":\"as you hold it.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "LIVING_METAL",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Living_Metal",
     "https://wiki.hypixel.net/Living_Metal"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

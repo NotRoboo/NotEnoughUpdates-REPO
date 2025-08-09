@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§fTrue Essence",
-  "nbttag": "{ExtraAttributes:{id:\"TRUE_ESSENCE\"},HideFlags:254,ItemModel:\"minecraft:gray_dye\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fTrue Essence\"},ench:[]}",
-  "damage": 8,
+  "displayname": "{\"text\":\"True Essence\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"True Essence\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TRUE_ESSENCE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "TRUE_ESSENCE",
   "clickcommand": "",
@@ -23,5 +23,8 @@
       "cost": "ENCHANTED_EMERALD:5",
       "result": "TRUE_ESSENCE"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

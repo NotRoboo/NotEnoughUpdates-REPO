@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Armadillo Mask",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"18fe73c6-0f03-3510-a193-2a143671bf71\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjIwMjU0NSwKICAicHJvZmlsZUlkIiA6ICIyNDc2OWQ0ODM1MDU0N2JmYjg4OThiZTJlYzQ5ODZiMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJidXNfQTM4TyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MjU5YTM0MmJlNGYxMzk5MzM0YzlhNDBlYzI1MDBiODFkMWU3M2FmZThmMjk2ZmU3NjcxMjVkZWRlYzM4ZTRmIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Health: §a+1\",1:\"\",2:\"§6Ability: Soiling! Soiling! Soiling! \",3:\"§7Gain §6+50☘ Mining Fortune §7on\",4:\"§7non-ore blocks.\",5:\"§7\",6:\"§7§8§oWhat does the Armadillo say?!\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§9§lRARE CARNIVAL MASK\"],Name:\"§9Armadillo Mask\"},ExtraAttributes:{id:\"ARMADILLO_MASK\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Armadillo Mask\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Armadillo Mask\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Soiling! Soiling! Soiling! \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50☘ Mining Fortune \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"on\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"non-ore blocks.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"What does the Armadillo say?!\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE CARNIVAL MASK\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ARMADILLO_MASK\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Health: §a+1",
-    "",
-    "§6Ability: Soiling! Soiling! Soiling! ",
-    "§7Gain §6+50☘ Mining Fortune §7on",
-    "§7non-ore blocks.",
-    "§7",
-    "§7§8§oWhat does the Armadillo say?!",
-    "",
-    "§7§8This item can be reforged!",
-    "§9§lRARE CARNIVAL MASK"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Soiling! Soiling! Soiling! \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+50☘ Mining Fortune \",\"color\":\"gold\"},{\"text\":\"on\",\"color\":\"gray\"}]}",
+    "{\"text\":\"non-ore blocks.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"What does the Armadillo say?!\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE CARNIVAL MASK\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ARMADILLO_MASK",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Armadillo_Mask",
     "https://wiki.hypixel.net/Armadillo_Mask"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Emerald Chest+",
-  "nbttag": "{ExtraAttributes:{id:\"EMERALD_CHEST\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"57c5b07b-de0c-3856-9db2-362769522fc6\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjAsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MWM1YWFlNmFlYTA5NDAwZDI3MThhMjFlNjJkZTQwZTIzYWI1MzBiNmY4ZjQ4NmNkMzNiNjYxNGMxZjQ3ZGEwIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"§8Storage\",2:\"\",3:\"§7You can store three pages of\",4:\"§7items in this chest\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Emerald Chest+\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Emerald Chest+\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Emerald Chest+\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Storage\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You can store three pages of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"items in this chest\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EMERALD_CHEST\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjAsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MWM1YWFlNmFlYTA5NDAwZDI3MThhMjFlNjJkZTQwZTIzYWI1MzBiNmY4ZjQ4NmNkMzNiNjYxNGMxZjQ3ZGEwIn19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "§8Storage",
-    "",
-    "§7You can store three pages of",
-    "§7items in this chest",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Storage\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You can store three pages of\",\"color\":\"gray\"}",
+    "{\"text\":\"items in this chest\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "EMERALD_CHEST",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Emerald_Chest+",
     "https://wiki.hypixel.net/Emerald_Chest+"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

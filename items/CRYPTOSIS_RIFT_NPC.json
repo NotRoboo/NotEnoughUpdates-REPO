@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dCryptosis (Rift NPC)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"\"],Name:\"§dCryptosis (Rift NPC)\"},ExtraAttributes:{id:\"CRYPTOSIS_RIFT_NPC\"}}",
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Cryptosis (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cryptosis (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"CRYPTOSIS_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "CRYPTOSIS_RIFT_NPC",
   "clickcommand": "",
@@ -28,5 +28,8 @@
       ],
       "result": "SKYBLOCK_ENIGMA_SOUL:1"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

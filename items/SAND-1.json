@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:sand",
-  "displayname": "§fRed Sand",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Brewing Ingredient\",1:\"§7§8Collection Item\",2:\"\",3:\"§f§lCOMMON BLOCK\"],Name:\"§fRed Sand\"},ExtraAttributes:{id:\"SAND-1\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Red Sand\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:sand\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Red Sand\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON BLOCK\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SAND-1\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§8Brewing Ingredient",
-    "§7§8Collection Item",
-    "",
-    "§f§lCOMMON BLOCK"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON BLOCK\",\"color\":\"white\",\"bold\":true}"
   ],
   "parent": "SAND",
   "internalname": "SAND-1",
@@ -15,5 +15,8 @@
   "vanilla": true,
   "clickcommand": "",
   "crafttext": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cSiamese Lynxes (Mythological Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"664dd492-3fcd-443b-9e61-4c7ebd9e4e10\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY1N2NkNWMyOTg5ZmY5NzU3MGZlYzRkZGNkYzY5MjZhNjhhMzM5MzI1MGMxYmUxZjBiMTE0YTFkYjEifX19\"}]}},display:{Lore:[0:\"§7Siamese Lynxes, also known as Bagheera and Azrael,\",1:\"§7in-game are the second most common mobs found in\",2:\"§7the Mythological Ritual. Their health scales\",3:\"§7depending on the rarity of your Griffin Pet. You\",4:\"§7have to hit the lynxes one at a time, the correct\",5:\"§7one being indicated by angry villager particles.\",6:\"\",7:\"§c❤ Health§8:\",8:\"§8[§fGriffin§8/§aGriffin§8] §c2 × 30,000 ❤\",9:\"§8[§9Griffin§8/§5Griffin§8] §c2 × 150,000 ❤\",10:\"§8[§6Griffin§8] §c2 × 800,000 ❤\",11:\"\",12:\"§a§lUNCOMMON\"],Name:\"§cSiamese Lynxes (Mythological Creature)\"},ExtraAttributes:{id:\"SIAMESE_LYNXES_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Siamese Lynxes (Mythological Creature)\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Siamese Lynxes (Mythological Creature)\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Siamese Lynxes, also known as Bagheera and Azrael,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in-game are the second most common mobs found in\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the Mythological Ritual. Their health scales\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"depending on the rarity of your Griffin Pet. You\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"have to hit the lynxes one at a time, the correct\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"one being indicated by angry villager particles.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\":\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2 × 30,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2 × 150,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2 × 800,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7Siamese Lynxes, also known as Bagheera and Azrael,",
-    "§7in-game are the second most common mobs found in",
-    "§7the Mythological Ritual. Their health scales",
-    "§7depending on the rarity of your Griffin Pet. You",
-    "§7have to hit the lynxes one at a time, the correct",
-    "§7one being indicated by angry villager particles.",
-    "",
-    "§c❤ Health§8:",
-    "§8[§fGriffin§8/§aGriffin§8] §c2 × 30,000 ❤",
-    "§8[§9Griffin§8/§5Griffin§8] §c2 × 150,000 ❤",
-    "§8[§6Griffin§8] §c2 × 800,000 ❤",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Siamese Lynxes, also known as Bagheera and Azrael,\",\"color\":\"gray\"}",
+    "{\"text\":\"in-game are the second most common mobs found in\",\"color\":\"gray\"}",
+    "{\"text\":\"the Mythological Ritual. Their health scales\",\"color\":\"gray\"}",
+    "{\"text\":\"depending on the rarity of your Griffin Pet. You\",\"color\":\"gray\"}",
+    "{\"text\":\"have to hit the lynxes one at a time, the correct\",\"color\":\"gray\"}",
+    "{\"text\":\"one being indicated by angry villager particles.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\":\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"white\"},{\"text\":\"/\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"green\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"2 × 30,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"blue\"},{\"text\":\"/\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"dark_purple\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"2 × 150,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"gold\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"2 × 800,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SIAMESE_LYNXES_MONSTER",
   "clickcommand": "viewrecipe",
@@ -111,5 +111,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

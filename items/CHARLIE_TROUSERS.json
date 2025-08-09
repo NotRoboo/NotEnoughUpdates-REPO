@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§fCharlie's Trousers",
-  "nbttag": "{ExtraAttributes:{id:\"CHARLIE_TROUSERS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+45\",1:\"§7Defense: §a+15\",2:\"§7Foraging Fortune: §a+6\",3:\"\",4:\"§8This item can be reforged!\",5:\"§8§l* §8Soulbound §8§l*\",6:\"§f§lCOMMON LEGGINGS\"],Name:\"§fCharlie's Trousers\",color:16178769}}",
+  "displayname": "{\"text\":\"Charlie\u0027s Trousers\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Charlie\u0027s Trousers\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+45\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Foraging Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+6\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"COMMON LEGGINGS\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CHARLIE_TROUSERS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+45",
-    "§7Defense: §a+15",
-    "§7Foraging Fortune: §a+6",
-    "",
-    "§8This item can be reforged!",
-    "§8§l* §8Soulbound §8§l*",
-    "§f§lCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+45\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Foraging Fortune: \",\"color\":\"gray\"},{\"text\":\"+6\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"COMMON LEGGINGS\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "CHARLIE_TROUSERS",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Charlie%27s_Trousers"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

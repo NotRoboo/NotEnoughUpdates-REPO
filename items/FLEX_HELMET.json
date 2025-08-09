@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Flex Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"FLEX_HELMET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9fd1efae-303d-426b-ace8-2022f48dfd3a\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQxOGJjZWM0MGZhZWI5ZDhkZGUwZWY0M2QzYThkZTE0NzQzYjU1NGVhNDNiYzM5MjM3YTE3OWJmZmFkZmM3ZSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Costs §d100 Motes §7per\",1:\"§7second to wear.\",2:\"\",3:\"§7Worn: §a0 seconds\",4:\"\",5:\"§eLeft-click to pick animal!\",6:\"\",7:\"§5§kX§5 Rift-Transferable §5§kX\",8:\"§6§lLEGENDARY HELMET\"],Name:\"§6Flex Helmet\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Flex Helmet\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Flex Helmet\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Costs \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"100 Motes \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"per\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"second to wear.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Worn: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0 seconds\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Left-click to pick animal!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"LEGENDARY HELMET\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLEX_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQxOGJjZWM0MGZhZWI5ZDhkZGUwZWY0M2QzYThkZTE0NzQzYjU1NGVhNDNiYzM5MjM3YTE3OWJmZmFkZmM3ZSJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Costs §d100 Motes §7per",
-    "§7second to wear.",
-    "",
-    "§7Worn: §a0 seconds",
-    "",
-    "§eLeft-click to pick animal!",
-    "",
-    "§5§kX§5 Rift-Transferable §5§kX",
-    "§6§lLEGENDARY HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Costs \",\"color\":\"gray\"},{\"text\":\"100 Motes \",\"color\":\"light_purple\"},{\"text\":\"per\",\"color\":\"gray\"}]}",
+    "{\"text\":\"second to wear.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Worn: \",\"color\":\"gray\"},{\"text\":\"0 seconds\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Left-click to pick animal!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"LEGENDARY HELMET\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "FLEX_HELMET",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Flex_Helmet",
     "https://wiki.hypixel.net/Flex_Helmet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

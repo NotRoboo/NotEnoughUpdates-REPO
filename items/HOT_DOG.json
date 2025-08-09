@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fHot Dog",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d881b57d-d79e-37b1-b741-4b4f97627753\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI0Yzg2NjdlMWU2NzA5NTI0ZDhmNzYzZDFhZGQwNWE4NDVlNWJhMGE0ZmU5MDc2ZmUwYjU4NzE5MWVmNWMwIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Deposit on Joey\u0027s plate.\",1:\"\",2:\"§8§l* §8Soulbound §8§l*\",3:\"§f§lCOMMON\"],Name:\"§fHot Dog\"},ExtraAttributes:{id:\"HOT_DOG\",dontSaveToProfile:1b}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Hot Dog\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hot Dog\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Deposit on Joey\u0027s plate.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HOT_DOG\",\"dontSaveToProfile\":true},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Deposit on Joey\u0027s plate.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§f§lCOMMON"
+    "{\"text\":\"Deposit on Joey\u0027s plate.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "HOT_DOG",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hot_Dog",
     "https://wiki.hypixel.net/Hot_Dog"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

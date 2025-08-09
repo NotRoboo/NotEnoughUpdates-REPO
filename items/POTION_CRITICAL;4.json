@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aCritical IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:7b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§4Critical IV §f(3:00)\",2:\"§7Increases §9☣ Crit Chance §7by §a25% §7and\",3:\"§7§9☠ Crit Damage §7by §a40%§7.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aCritical IV Potion\"},ExtraAttributes:{potion_level:4,potion:\"critical\",effects:[0:{level:4,effect:\"critical\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_CRITICAL;4\"}}",
-  "damage": 12,
+  "displayname": "{\"text\":\"Critical IV Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Critical IV Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Critical IV \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"☣ Crit Chance \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"25% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ Crit Damage \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"40%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":4,\"potion\":\"critical\",\"effects\":\"[0:{level:4\",\"effect\":\"critical\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§4Critical IV §f(3:00)",
-    "§7Increases §9☣ Crit Chance §7by §a25% §7and",
-    "§7§9☠ Crit Damage §7by §a40%§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Critical IV \",\"color\":\"dark_red\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases \",\"color\":\"gray\"},{\"text\":\"☣ Crit Chance \",\"color\":\"blue\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"25% \",\"color\":\"green\"},{\"text\":\"and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ Crit Damage \",\"color\":\"blue\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"40%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_CRITICAL;4",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "2.4.0",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

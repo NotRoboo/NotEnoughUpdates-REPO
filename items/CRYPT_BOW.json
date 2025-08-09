@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§9Soulstealer Bow",
-  "nbttag": "{ExtraAttributes:{id:\"CRYPT_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d129\",1:\"§7Strength: §c+50\",2:\"§7Intelligence: §a+157\",3:\"\",4:\"§7Replaces the arrows that you shoot\",5:\"§7with exploding wither skulls!\",6:\"\",7:\"§8This item can be reforged!\",8:\"§4❣ §cRequires Catacombs Skill 5.\",9:\"§9§lRARE DUNGEON BOW\"],Name:\"§9Soulstealer Bow\"}}",
+  "displayname": "{\"text\":\"Soulstealer Bow\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Soulstealer Bow\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"129\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+157\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Replaces the arrows that you shoot\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"with exploding wither skulls!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 5.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE DUNGEON BOW\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CRYPT_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d129",
-    "§7Strength: §c+50",
-    "§7Intelligence: §a+157",
-    "",
-    "§7Replaces the arrows that you shoot",
-    "§7with exploding wither skulls!",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Catacombs Skill 5.",
-    "§9§lRARE DUNGEON BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"129\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+157\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Replaces the arrows that you shoot\",\"color\":\"gray\"}",
+    "{\"text\":\"with exploding wither skulls!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 5.\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE DUNGEON BOW\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "CRYPT_BOW",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Soulstealer_Bow",
     "https://wiki.hypixel.net/Soulstealer_Bow"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

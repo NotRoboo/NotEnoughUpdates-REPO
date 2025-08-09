@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§6Werewolf Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+125\",1:\"§7Intelligence: §a+50\",2:\"§7Ferocity: §a+10\",3:\"\",4:\"§6Full Set Bonus: Regenerative Howl\",5:\"§7Upon activating §c⫽ Ferocity\",6:\"§c§7heal players within §925\",7:\"§9§7blocks for §91% §7of your §a❈\",8:\"§aDefense §7and gain §a50❈ Defense\",9:\"§a§7for 5s (up to 10 stacks).\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§6§lLEGENDARY BOOTS\"],color:1904901,Name:\"§6Werewolf Boots\"},ExtraAttributes:{id:\"WEREWOLF_BOOTS\"}}",
+  "displayname": "{\"text\":\"Werewolf Boots\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Werewolf Boots\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+125\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ferocity: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Regenerative Howl\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Upon activating \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"⫽ Ferocity\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"heal players within \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"25\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"blocks for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1% \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"of your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❈\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"and gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50❈ Defense\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"for 5s (up to 10 stacks).\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY BOOTS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WEREWOLF_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+125",
-    "§7Intelligence: §a+50",
-    "§7Ferocity: §a+10",
-    "",
-    "§6Full Set Bonus: Regenerative Howl",
-    "§7Upon activating §c⫽ Ferocity",
-    "§c§7heal players within §925",
-    "§9§7blocks for §91% §7of your §a❈",
-    "§aDefense §7and gain §a50❈ Defense",
-    "§a§7for 5s (up to 10 stacks).",
-    "",
-    "§7§8This item can be reforged!",
-    "§6§lLEGENDARY BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+125\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ferocity: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Regenerative Howl\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Upon activating \",\"color\":\"gray\"},{\"text\":\"⫽ Ferocity\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"heal players within \",\"color\":\"gray\"},{\"text\":\"25\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"blocks for \",\"color\":\"gray\"},{\"text\":\"1% \",\"color\":\"blue\"},{\"text\":\"of your \",\"color\":\"gray\"},{\"text\":\"❈\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense \",\"color\":\"green\"},{\"text\":\"and gain \",\"color\":\"gray\"},{\"text\":\"50❈ Defense\",\"color\":\"green\"}]}",
+    "{\"text\":\"for 5s (up to 10 stacks).\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"LEGENDARY BOOTS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "WEREWOLF_SKIN:4",
@@ -37,5 +37,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Werewolf_Boots",
     "https://wiki.hypixel.net/Werewolf_Boots"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

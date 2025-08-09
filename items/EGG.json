@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:egg",
-  "displayname": "§fEgg",
-  "nbttag": "{ExtraAttributes:{id:\"EGG\"},HideFlags:254,ItemModel:\"minecraft:egg\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fEgg\"}}",
+  "displayname": "{\"text\":\"Egg\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Egg\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EGG\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "EGG",
   "clickcommand": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://wiki.hypixel.net/Egg"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

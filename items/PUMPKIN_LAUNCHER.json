@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:pumpkin",
-  "displayname": "§5Pumpkin Launcher",
-  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_LAUNCHER\"},HideFlags:254,ItemModel:\"minecraft:carved_pumpkin\",display:{Lore:[0:\"§7Shoots §6Blast o' Lanterns§7. Deals §a2\",1:\"§7damage to §6Spooky §7enemies and §c3,021\",2:\"§7damage against non-scary enemies!\",3:\"\",4:\"§7Blast o' Lanterns: §60§8/20k\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Pumpkin Launcher\"},ench:[]}",
+  "displayname": "{\"text\":\"Pumpkin Launcher\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:pumpkin\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pumpkin Launcher\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Shoots \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Blast o\u0027 Lanterns\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\". Deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"damage to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Spooky \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"enemies and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3,021\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"damage against non-scary enemies!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Blast o\u0027 Lanterns: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"/20k\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PUMPKIN_LAUNCHER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Shoots §6Blast o' Lanterns§7. Deals §a2",
-    "§7damage to §6Spooky §7enemies and §c3,021",
-    "§7damage against non-scary enemies!",
-    "",
-    "§7Blast o' Lanterns: §60§8/20k",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Shoots \",\"color\":\"gray\"},{\"text\":\"Blast o\u0027 Lanterns\",\"color\":\"gold\"},{\"text\":\". Deals \",\"color\":\"gray\"},{\"text\":\"2\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"damage to \",\"color\":\"gray\"},{\"text\":\"Spooky \",\"color\":\"gold\"},{\"text\":\"enemies and \",\"color\":\"gray\"},{\"text\":\"3,021\",\"color\":\"red\"}]}",
+    "{\"text\":\"damage against non-scary enemies!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Blast o\u0027 Lanterns: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"gold\"},{\"text\":\"/20k\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PUMPKIN_LAUNCHER",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "PUMPKIN_GUTS:4",
     "C2": "ECTOPLASM:20",
     "C3": "PUMPKIN_GUTS:4"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

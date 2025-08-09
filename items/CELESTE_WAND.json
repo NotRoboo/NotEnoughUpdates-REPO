@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§aCeleste Wand",
-  "nbttag": "{ExtraAttributes:{id:\"CELESTE_WAND\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§6Ability: Lightning Strike §e§lRIGHT CLICK\",1:\"§7Strikes lightning up to §f10\",2:\"§fblocks §7away, dealing §c237.6\",3:\"§7damage to the nearest monster.\",4:\"§8Mana Cost: §370\",5:\"\",6:\"§4❣ §cRequires §aCombat Skill 4§c.\",7:\"§a§lUNCOMMON WAND\"],Name:\"§aCeleste Wand\"}}",
+  "displayname": "{\"text\":\"Celeste Wand\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Celeste Wand\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Lightning Strike \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strikes lightning up to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"blocks \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"away, dealing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"237.6\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"damage to the nearest monster.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"70\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 4\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON WAND\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CELESTE_WAND\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Lightning Strike §e§lRIGHT CLICK",
-    "§7Strikes lightning up to §f10",
-    "§fblocks §7away, dealing §c237.6",
-    "§7damage to the nearest monster.",
-    "§8Mana Cost: §370",
-    "",
-    "§4❣ §cRequires §aCombat Skill 4§c.",
-    "§a§lUNCOMMON WAND"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Lightning Strike \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strikes lightning up to \",\"color\":\"gray\"},{\"text\":\"10\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"blocks \",\"color\":\"white\"},{\"text\":\"away, dealing \",\"color\":\"gray\"},{\"text\":\"237.6\",\"color\":\"red\"}]}",
+    "{\"text\":\"damage to the nearest monster.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"70\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 4\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON WAND\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CELESTE_WAND",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Celeste_Wand",
     "https://wiki.hypixel.net/Celeste_Wand"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

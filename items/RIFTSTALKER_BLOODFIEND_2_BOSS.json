@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§4Riftstalker Bloodfiend II (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"267e70c5-17d6-2c6c-a9d7-599bf08e9593\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFhMjllYTk2MTc1N2RjM2M5MGJmYWJmMzAyYzVhYmU5ZDMwOGZiNGE3ZDM4NjRlNTc4OGFkMmNjOTE2MGFhMiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Strong\",1:\"\",2:\"§7Health: §c1,100❤\",3:\"§7Damage: §c1 §7per second\",4:\"\",5:\"§7Has §c5 §7abilities over §43\",6:\"§4§7phases!\"],Name:\"§4Riftstalker Bloodfiend II (Boss)\"},ExtraAttributes:{id:\"RIFTSTALKER_BLOODFIEND_2_BOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Riftstalker Bloodfiend II (Boss)\",\"color\":\"dark_red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Riftstalker Bloodfiend II (Boss)\\\",\\\"color\\\":\\\"dark_red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Strong\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1,100❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per second\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Has \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"abilities over \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3\\\",\\\"color\\\":\\\"dark_red\\\"}]}\",\"{\\\"text\\\":\\\"phases!\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"RIFTSTALKER_BLOODFIEND_2_BOSS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Strong",
-    "",
-    "§7Health: §c1,100❤",
-    "§7Damage: §c1 §7per second",
-    "",
-    "§7Has §c5 §7abilities over §43",
-    "§4§7phases!"
+    "{\"text\":\"Strong\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"1,100❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"1 \",\"color\":\"red\"},{\"text\":\"per second\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Has \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"red\"},{\"text\":\"abilities over \",\"color\":\"gray\"},{\"text\":\"3\",\"color\":\"dark_red\"}]}",
+    "{\"text\":\"phases!\",\"color\":\"gray\"}"
   ],
   "internalname": "RIFTSTALKER_BLOODFIEND_2_BOSS",
   "clickcommand": "viewrecipe",
@@ -63,5 +63,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

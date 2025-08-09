@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:daylight_detector",
-  "displayname": "§aNight Saver",
-  "nbttag": "{ExtraAttributes:{id:\"NIGHT_SAVER\"},HideFlags:254,ItemModel:\"minecraft:daylight_detector\",display:{Lore:[0:\"§7Control the time on your private\",1:\"§7island when paired with a §aDay Saver§7.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aNight Saver\"}}",
+  "displayname": "{\"text\":\"Night Saver\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:daylight_detector\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Night Saver\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Control the time on your private\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"island when paired with a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Day Saver\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NIGHT_SAVER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Control the time on your private",
-    "§7island when paired with a §aDay Saver§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Control the time on your private\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"island when paired with a \",\"color\":\"gray\"},{\"text\":\"Day Saver\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "NIGHT_SAVER",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "BROWN_MUSHROOM:1",
     "C2": "BROWN_MUSHROOM:1",
     "C3": "BROWN_MUSHROOM:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

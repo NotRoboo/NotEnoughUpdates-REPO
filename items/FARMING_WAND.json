@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:golden_hoe",
-  "displayname": "§9Wand of Farming",
-  "nbttag": "{ExtraAttributes:{id:\"FARMING_WAND\"},HideFlags:254,ItemModel:\"minecraft:golden_hoe\",Unbreakable:1B,display:{Lore:[0:\"§7Allows you to farm the peculiar\",1:\"§7crops from the rift while held.\",2:\"\",3:\"§9§lRARE WAND\"],Name:\"§9Wand of Farming\"},ench:[]}",
+  "displayname": "{\"text\":\"Wand of Farming\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_hoe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wand of Farming\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Allows you to farm the peculiar\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"crops from the rift while held.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE WAND\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FARMING_WAND\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Allows you to farm the peculiar",
-    "§7crops from the rift while held.",
-    "",
-    "§9§lRARE WAND"
+    "{\"text\":\"Allows you to farm the peculiar\",\"color\":\"gray\"}",
+    "{\"text\":\"crops from the rift while held.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE WAND\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "FARMING_WAND",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Wand_of_Farming",
     "https://wiki.hypixel.net/Wand_Of_Farming"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,25 +1,25 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Beady Eyes",
-  "nbttag": "{ExtraAttributes:{id:\"BEADY_EYES\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"af7f01af-e67b-31a1-b3a3-b3ffb26d7a4f\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NTAxMjA3MiwKICAicHJvZmlsZUlkIiA6ICJiZWNlZGU1YmRkODY0YTkwOTc3MTRmODk0ZWUxNmE3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW1hQ29tcG9zZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM2N2ZlODFmMGJiM2RlZDgwZmZhN2M2NDdhZGExMmEwZmYxMWZkMDZkM2NmM2FkYzI0MWFhN2MxMTViMTk2MCIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Beady §7reforge when\",4:\"§7combined with a vacuum.\",5:\"\",6:\"§9Beady §7(§6Legendary§7):\",7:\"§7Damage: §c+25\",8:\"§7Intelligence: §a+50\",9:\"\",10:\"§9Beady Bonus\",11:\"§6Pests §7drop §a+3 §7crops.\",12:\"\",13:\"§7Requires §aMining Skill Level XV§7!\",14:\"\",15:\"§5§lEPIC REFORGE STONE\"],Name:\"§5Beady Eyes\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Beady Eyes\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Beady Eyes\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Reforge Stone\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Combinable in Reforge Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applies the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Beady \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"reforge when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"combined with a vacuum.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Beady \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"(\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Legendary\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"):\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Beady Bonus\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pests \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"drop \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"crops.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mining Skill Level XV\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC REFORGE STONE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BEADY_EYES\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NTAxMjA3MiwKICAicHJvZmlsZUlkIiA6ICJiZWNlZGU1YmRkODY0YTkwOTc3MTRmODk0ZWUxNmE3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW1hQ29tcG9zZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM2N2ZlODFmMGJiM2RlZDgwZmZhN2M2NDdhZGExMmEwZmYxMWZkMDZkM2NmM2FkYzI0MWFhN2MxMTViMTk2MCIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Reforge Stone",
-    "§8Combinable in Reforge Anvil",
-    "",
-    "§7Applies the §9Beady §7reforge when",
-    "§7combined with a vacuum.",
-    "",
-    "§9Beady §7(§6Legendary§7):",
-    "§7Damage: §c+25",
-    "§7Intelligence: §a+50",
-    "",
-    "§9Beady Bonus",
-    "§6Pests §7drop §a+3 §7crops.",
-    "",
-    "§7Requires §aMining Skill Level XV§7!",
-    "",
-    "§5§lEPIC REFORGE STONE"
+    "{\"text\":\"Reforge Stone\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Combinable in Reforge Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applies the \",\"color\":\"gray\"},{\"text\":\"Beady \",\"color\":\"blue\"},{\"text\":\"reforge when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"combined with a vacuum.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Beady \",\"color\":\"blue\"},{\"text\":\"(\",\"color\":\"gray\"},{\"text\":\"Legendary\",\"color\":\"gold\"},{\"text\":\"):\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Beady Bonus\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pests \",\"color\":\"gold\"},{\"text\":\"drop \",\"color\":\"gray\"},{\"text\":\"+3 \",\"color\":\"green\"},{\"text\":\"crops.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"Mining Skill Level XV\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC REFORGE STONE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "BEADY_EYES",
   "clickcommand": "",
@@ -29,5 +29,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Beady_Eyes",
     "https://wiki.hypixel.net/Beady_Eyes"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

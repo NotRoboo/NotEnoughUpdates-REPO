@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fEaster Egg Minion Skin",
-  "nbttag": "{ExtraAttributes:{id:\"EASTER_EGG_PERSONALITY\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0c48bd37-0af7-3a40-ab14-b2f5b013c800\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxNjk1MjcxNjE2NiwKICAicHJvZmlsZUlkIiA6ICIwYWFjMWRlZjUwZmI0N2RjODNmOGU2Njk3MTg1ODRkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQZW50YWdyaWQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNlZGRjMjNmOWQ5NmJhYWEwZDJkN2I5ZWMxODBjZDdiZWE1NDQ3ZDM5YzQyNWNhOWU0NGQ4ODA4ZWExMWVhMCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7This Minion skin changes your\",1:\"§7minion's appearance to an §eEaster\",2:\"§eEgg§7.\",3:\"\",4:\"§7You can place this item in any minion\",5:\"§7of your choice!\",6:\"\",7:\"§f§lCOMMON COSMETIC\"],Name:\"§fEaster Egg Minion Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Easter Egg Minion Skin\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Easter Egg Minion Skin\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This Minion skin changes your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"minion\u0027s appearance to an \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Easter\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Egg\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You can place this item in any minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"of your choice!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON COSMETIC\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EASTER_EGG_PERSONALITY\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxNjk1MjcxNjE2NiwKICAicHJvZmlsZUlkIiA6ICIwYWFjMWRlZjUwZmI0N2RjODNmOGU2Njk3MTg1ODRkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQZW50YWdyaWQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNlZGRjMjNmOWQ5NmJhYWEwZDJkN2I5ZWMxODBjZDdiZWE1NDQ3ZDM5YzQyNWNhOWU0NGQ4ODA4ZWExMWVhMCIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7This Minion skin changes your",
-    "§7minion's appearance to an §eEaster",
-    "§eEgg§7.",
-    "",
-    "§7You can place this item in any minion",
-    "§7of your choice!",
-    "",
-    "§f§lCOMMON COSMETIC"
+    "{\"text\":\"This Minion skin changes your\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"minion\u0027s appearance to an \",\"color\":\"gray\"},{\"text\":\"Easter\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Egg\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You can place this item in any minion\",\"color\":\"gray\"}",
+    "{\"text\":\"of your choice!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON COSMETIC\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "EASTER_EGG_PERSONALITY",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Minion_Skin",
     "https://wiki.hypixel.net/Minion_Skins"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

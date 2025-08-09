@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fSkeleton Talisman",
-  "nbttag": "{ExtraAttributes:{id:\"SKELETON_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7Skeletons by §a5%§7.\",2:\"\",3:\"§f§lCOMMON ACCESSORY\"],Name:\"§fSkeleton Talisman\"}}",
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Skeleton Talisman\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Skeleton Talisman\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Reduces the damage taken from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Skeletons by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON ACCESSORY\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SKELETON_TALISMAN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Reduces the damage taken from",
-    "§7Skeletons by §a5%§7.",
-    "",
-    "§f§lCOMMON ACCESSORY"
+    "{\"text\":\"Reduces the damage taken from\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Skeletons by \",\"color\":\"gray\"},{\"text\":\"5%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON ACCESSORY\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SKELETON_TALISMAN",
   "clickcommand": "",
@@ -24,5 +24,8 @@
       "cost": "EMERALD:10",
       "result": "SKELETON_TALISMAN"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

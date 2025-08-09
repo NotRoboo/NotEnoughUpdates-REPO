@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Archaeologist (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"365ccc20-2a5b-225c-be68-1210c923eb65\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY4NWU4M2EwOTk1MWEyYzJkYjc4MzYwYmM5NTQ2YmIwZDQ1NDk3NWI1ZTVhMzQ0Y2ExZGFmZjQwOGE2N2U5ZjEifX19\"}]},Name:\"365ccc20-2a5b-225c-be68-1210c923eb65\"},display:{Lore:[0:\"\"],Name:\"§9Archaeologist (NPC)\"},ExtraAttributes:{id:\"ARCHAEOLOGIST_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Archaeologist (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Archaeologist (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"ARCHAEOLOGIST_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "ARCHAEOLOGIST_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Archaeologist",
     "https://wiki.hypixel.net/Archaeologist"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

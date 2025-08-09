@@ -1,27 +1,27 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§6Abyssal Leggings",
-  "nbttag": "{ExtraAttributes:{id:\"ABYSSAL_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Sea Creature Chance: §c+2%\",1:\"§7Health: §a+150\",2:\"§7Defense: §a+170\",3:\"§7Respiration: §a+5\",4:\"§7Pressure Resistance: §a+20\",5:\" §8[☂] [☘]\",6:\"\",7:\"§6Full Set Bonus: One with the Fish §7(0/4)\",8:\"§7Grants the ability to breathe\",9:\"§9permanently §7while §9underwater§7.\",10:\"\",11:\"§8Tiered Bonus: Deep Sea Diver (0/4)\",12:\"§7Grants §6+0⛃ Treasure Chance §7while\",13:\"§9underwater§7.\",14:\"\",15:\"§8This item can be reforged!\",16:\"§4❣ §cRequires §aFishing Skill 22§c.\",17:\"§6§lLEGENDARY LEGGINGS\"],Name:\"§6Abyssal Leggings\"}}",
+  "displayname": "{\"text\":\"Abyssal Leggings\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Abyssal Leggings\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+170\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Respiration: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pressure Resistance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[☂] [☘]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: One with the Fish \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Grants the ability to breathe\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"permanently \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"while \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"underwater\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Deep Sea Diver (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+0⛃ Treasure Chance \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"while\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"underwater\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Fishing Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY LEGGINGS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ABYSSAL_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Sea Creature Chance: §c+2%",
-    "§7Health: §a+150",
-    "§7Defense: §a+170",
-    "§7Respiration: §a+5",
-    "§7Pressure Resistance: §a+20",
-    " §8[☂] [☘]",
-    "",
-    "§6Full Set Bonus: One with the Fish §7(0/4)",
-    "§7Grants the ability to breathe",
-    "§9permanently §7while §9underwater§7.",
-    "",
-    "§8Tiered Bonus: Deep Sea Diver (0/4)",
-    "§7Grants §6+0⛃ Treasure Chance §7while",
-    "§9underwater§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aFishing Skill 22§c.",
-    "§6§lLEGENDARY LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+2%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+150\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+170\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Respiration: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pressure Resistance: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[☂] [☘]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: One with the Fish \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Grants the ability to breathe\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"permanently \",\"color\":\"blue\"},{\"text\":\"while \",\"color\":\"gray\"},{\"text\":\"underwater\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Deep Sea Diver (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+0⛃ Treasure Chance \",\"color\":\"gold\"},{\"text\":\"while\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"underwater\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Fishing Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY LEGGINGS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "ABYSSAL_LEGGINGS",
   "clickcommand": "",
@@ -47,5 +47,8 @@
       "count": 1,
       "overrideOutputId": "ABYSSAL_LEGGINGS"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

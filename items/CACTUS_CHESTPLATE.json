@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§fCactus Chestplate",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+25\",2:\"\",3:\"§6Full Set Bonus: Deflect\",4:\"§7Rebound §a33.0% §7of the damage\",5:\"§7you take back at your enemy.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§f§lCOMMON CHESTPLATE\"],color:65280,Name:\"§fCactus Chestplate\"},ExtraAttributes:{color:\"0:255:0\",id:\"CACTUS_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Cactus Chestplate\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cactus Chestplate\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Deflect\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rebound \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"33.0% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of the damage\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"you take back at your enemy.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON CHESTPLATE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"0:255:0\",\"id\":\"CACTUS_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+15",
-    "§7Defense: §a+25",
-    "",
-    "§6Full Set Bonus: Deflect",
-    "§7Rebound §a33.0% §7of the damage",
-    "§7you take back at your enemy.",
-    "",
-    "§7§8This item can be reforged!",
-    "§f§lCOMMON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Deflect\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rebound \",\"color\":\"gray\"},{\"text\":\"33.0% \",\"color\":\"green\"},{\"text\":\"of the damage\",\"color\":\"gray\"}]}",
+    "{\"text\":\"you take back at your enemy.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON CHESTPLATE\",\"color\":\"white\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "CACTUS:1",
@@ -33,5 +33,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Cactus_Chestplate",
     "https://wiki.hypixel.net/Cactus_Chestplate"
   ],
-  "crafttext": "Requires: Cactus II"
+  "crafttext": "Requires: Cactus II",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

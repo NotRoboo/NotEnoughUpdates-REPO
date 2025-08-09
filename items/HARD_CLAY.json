@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:hardened_clay",
-  "displayname": "§fHardened Clay",
-  "nbttag": "{ExtraAttributes:{id:\"HARD_CLAY\"},HideFlags:254,ItemModel:\"minecraft:terracotta\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fHardened Clay\"}}",
+  "displayname": "{\"text\":\"Hardened Clay\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:hardened_clay\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hardened Clay\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HARD_CLAY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "HARD_CLAY",
   "clickcommand": "",
@@ -12,5 +12,8 @@
   "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
   "infoType": "",
   "info": [],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

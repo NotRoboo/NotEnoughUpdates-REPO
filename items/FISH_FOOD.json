@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:fish",
-  "displayname": "§fFish Food",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Despite its name, can be given to any\",1:\"§7pet! Feeding this to your pet will not\",2:\"§7increase its candy count.\",3:\"\",4:\"§7Grants §a1,000 §ePet EXP§7.\",5:\"\",6:\"§7§eRight-click on your summoned pet to\",7:\"§efeed it!\",8:\"\",9:\"§f§lCOMMON\"],Name:\"§fFish Food\"},ExtraAttributes:{id:\"FISH_FOOD\",pet_exp:1000}}",
+  "displayname": "{\"text\":\"Fish Food\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fish Food\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Despite its name, can be given to any\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"pet! Feeding this to your pet will not\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"increase its candy count.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1,000 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Pet EXP\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"feed it!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FISH_FOOD\",\"pet_exp\":1000},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7Despite its name, can be given to any",
-    "§7pet! Feeding this to your pet will not",
-    "§7increase its candy count.",
-    "",
-    "§7Grants §a1,000 §ePet EXP§7.",
-    "",
-    "§7§eRight-click on your summoned pet to",
-    "§efeed it!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Despite its name, can be given to any\",\"color\":\"gray\"}",
+    "{\"text\":\"pet! Feeding this to your pet will not\",\"color\":\"gray\"}",
+    "{\"text\":\"increase its candy count.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"1,000 \",\"color\":\"green\"},{\"text\":\"Pet EXP\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"feed it!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FISH_FOOD",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Fish_Food"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

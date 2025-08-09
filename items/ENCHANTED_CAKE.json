@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:cake",
-  "displayname": "§aEnchanted Cake",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_CAKE\"},HideFlags:254,ItemModel:\"minecraft:cake\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Cake\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Cake\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:cake\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Cake\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_CAKE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_CAKE",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "WHEAT:1",
     "C2": "WHEAT:1",
     "C3": "WHEAT:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

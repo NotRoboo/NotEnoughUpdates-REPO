@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:stone_slab",
-  "displayname": "§fBrick Slab",
-  "nbttag": "{ExtraAttributes:{id:\"STEP-4\"},HideFlags:254,ItemModel:\"minecraft:brick_slab\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBrick Slab\"}}",
-  "damage": 4,
+  "displayname": "{\"text\":\"Brick Slab\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stone_slab\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Brick Slab\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STEP-4\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STEP-4",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 6
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

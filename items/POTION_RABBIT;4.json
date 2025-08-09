@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aRabbit IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:19b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§aRabbit IV §f(3:00)\",2:\"§7Grants Jump Boost II and §a+40 §f✦\",3:\"§fSpeed§7.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aRabbit IV Potion\"},ExtraAttributes:{potion_level:4,potion:\"rabbit\",effects:[0:{level:4,effect:\"rabbit\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_RABBIT;4\"}}",
-  "damage": 4,
+  "displayname": "{\"text\":\"Rabbit IV Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rabbit IV Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rabbit IV \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants Jump Boost II and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"✦\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":4,\"potion\":\"rabbit\",\"effects\":\"[0:{level:4\",\"effect\":\"rabbit\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§aRabbit IV §f(3:00)",
-    "§7Grants Jump Boost II and §a+40 §f✦",
-    "§fSpeed§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rabbit IV \",\"color\":\"green\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants Jump Boost II and \",\"color\":\"gray\"},{\"text\":\"+40 \",\"color\":\"green\"},{\"text\":\"✦\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_RABBIT;4",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

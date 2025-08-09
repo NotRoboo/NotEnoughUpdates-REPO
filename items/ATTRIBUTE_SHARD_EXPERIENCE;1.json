@@ -1,25 +1,28 @@
 {
   "itemid": "minecraft:sea_lantern",
-  "displayname": "§fLapis Zombie Shard",
-  "nbttag": "{ExtraAttributes:{attributes:{experience:1},id:\"ATTRIBUTE_SHARD_EXPERIENCE;1\"},HideFlags:254,ItemModel:\"minecraft:sea_lantern\",display:{Lore:[0:\"§6Experience I\",1:\"§7Grants §a+10% §7more experience orbs\",2:\"§7from killing mobs.\",3:\"\",4:\"§7You can Syphon this shard from\",5:\"§7your §aHunting Box§7.\",6:\"\",7:\"§eRight-click to send to Hunting Box!\",8:\"§eShift Right-click to move all!\",9:\"\",10:\"§f§lCOMMON COMBAT SHARD §8(ID C9)\"],Name:\"§fLapis Zombie Shard\"}}",
+  "displayname": "{\"text\":\"Lapis Zombie Shard\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:sea_lantern\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lapis Zombie Shard\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Experience I\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"more experience orbs\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"from killing mobs.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You can Syphon this shard from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Hunting Box\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to send to Hunting Box!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"Shift Right-click to move all!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"COMMON COMBAT SHARD \\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"(ID C9)\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\"],\"minecraft:custom_data\":{\"attributes\":\"{experience:1\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Experience I",
-    "§7Grants §a+10% §7more experience orbs",
-    "§7from killing mobs.",
-    "",
-    "§7You can Syphon this shard from",
-    "§7your §aHunting Box§7.",
-    "",
-    "§eRight-click to send to Hunting Box!",
-    "§eShift Right-click to move all!",
-    "",
-    "§f§lCOMMON COMBAT SHARD §8(ID C9)"
+    "{\"text\":\"Experience I\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+10% \",\"color\":\"green\"},{\"text\":\"more experience orbs\",\"color\":\"gray\"}]}",
+    "{\"text\":\"from killing mobs.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You can Syphon this shard from\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your \",\"color\":\"gray\"},{\"text\":\"Hunting Box\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to send to Hunting Box!\",\"color\":\"yellow\"}",
+    "{\"text\":\"Shift Right-click to move all!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"COMMON COMBAT SHARD \",\"color\":\"white\",\"bold\":true},{\"text\":\"(ID C9)\",\"color\":\"dark_gray\"}]}"
   ],
   "internalname": "ATTRIBUTE_SHARD_EXPERIENCE;1",
   "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "",
-  "info": []
+  "info": [],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

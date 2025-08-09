@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:furnace",
-  "displayname": "§fFurnace",
-  "nbttag": "{ExtraAttributes:{id:\"FURNACE\"},HideFlags:254,ItemModel:\"minecraft:furnace\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fFurnace\"}}",
+  "displayname": "{\"text\":\"Furnace\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:furnace\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Furnace\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FURNACE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FURNACE",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "COBBLESTONE:1",
     "C2": "COBBLESTONE:1",
     "C3": "COBBLESTONE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

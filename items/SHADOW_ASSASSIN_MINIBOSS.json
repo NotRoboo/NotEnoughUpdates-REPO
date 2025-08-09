@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§d§lShadow Assassin (Miniboss)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ef18719c-db6a-3ffb-97ca-4ed764ce9464\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MjI2ODE3MDkxMSwKICAicHJvZmlsZUlkIiA6ICJkYTQ5OGFjNGU5Mzc0ZTVjYjYxMjdiMzgwODU1Nzk4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaXRyb2hvbGljXzIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM5OWUwMGY0MDQ0MTFlNDY1ZDc0Mzg4ZGYxMzJkNTFmZTg2OGVjZjg2ZjFjMDczZmFmZmExZDkxNzJlYzBmMyIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Slient, but deadly\",1:\"\",2:\"§c❤ Health§8: §c700,000 - 20,000,000\",3:\"§c❤ Health §8(MM) : §c55,000,000 - 145,000,000\"],Name:\"§d§lShadow Assassin (Miniboss)\"},ExtraAttributes:{id:\"SHADOW_ASSASSIN_MINIBOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Shadow Assassin (Miniboss)\",\"color\":\"light_purple\",\"bold\":true}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shadow Assassin (Miniboss)\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Slient, but deadly\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"700,000 - 20,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(MM) : \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"55,000,000 - 145,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"SHADOW_ASSASSIN_MINIBOSS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Slient, but deadly",
-    "",
-    "§c❤ Health§8: §c700,000 - 20,000,000",
-    "§c❤ Health §8(MM) : §c55,000,000 - 145,000,000"
+    "{\"text\":\"Slient, but deadly\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"700,000 - 20,000,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"(MM) : \",\"color\":\"dark_gray\"},{\"text\":\"55,000,000 - 145,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "SHADOW_ASSASSIN_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

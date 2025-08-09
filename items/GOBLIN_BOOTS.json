@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§9Goblin Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+60\",1:\"§7Intelligence: §a-1\",2:\"§7Mining Speed: §a+10\",3:\"§7Mining Fortune: §a+4\",4:\" §8[§7✎§8] §8[§8⸕§8]\",5:\"\",6:\"§6Full Set Bonus: Smart Miner §7(0/4)\",7:\"§7Converts your Intelligence §7into\",8:\"§7Mining Speed§7. §6+§61⸕ Mining Speed §7for\",9:\"§7every §b15✎ Intelligence §7removed.\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§9§lRARE BOOTS\"],color:3649602,Name:\"§9Goblin Boots\"},ExtraAttributes:{id:\"GOBLIN_BOOTS\"}}",
+  "displayname": "{\"text\":\"Goblin Boots\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Goblin Boots\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"-1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"✎\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"⸕\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Smart Miner \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Converts your Intelligence \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"into\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\". \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"1⸕ Mining Speed \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"15✎ Intelligence \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"removed.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE BOOTS\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOBLIN_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+60",
-    "§7Intelligence: §a-1",
-    "§7Mining Speed: §a+10",
-    "§7Mining Fortune: §a+4",
-    " §8[§7✎§8] §8[§8⸕§8]",
-    "",
-    "§6Full Set Bonus: Smart Miner §7(0/4)",
-    "§7Converts your Intelligence §7into",
-    "§7Mining Speed§7. §6+§61⸕ Mining Speed §7for",
-    "§7every §b15✎ Intelligence §7removed.",
-    "",
-    "§7§8This item can be reforged!",
-    "§9§lRARE BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+60\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"-1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Fortune: \",\"color\":\"gray\"},{\"text\":\"+4\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"✎\",\"color\":\"gray\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"⸕\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Smart Miner \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Converts your Intelligence \",\"color\":\"gray\"},{\"text\":\"into\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed\",\"color\":\"gray\"},{\"text\":\". \",\"color\":\"gray\"},{\"text\":\"+\",\"color\":\"gold\"},{\"text\":\"1⸕ Mining Speed \",\"color\":\"gold\"},{\"text\":\"for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"every \",\"color\":\"gray\"},{\"text\":\"15✎ Intelligence \",\"color\":\"aqua\"},{\"text\":\"removed.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE BOOTS\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "GOBLIN_BOOTS",
   "crafttext": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Goblin_Boots",
     "https://wiki.hypixel.net/Goblin_Boots"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

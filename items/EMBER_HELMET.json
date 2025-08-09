@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Ember Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"EMBER_HELMET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"92403afe-dc79-3f5b-9683-f9cc291c379e\",Properties:{textures:[0:{Name:\"textures\",Signature:\"AdmG4ic4chNcXFvbUFfVCS7o21b7/hxnwKHa+Skrdjs2PZUIMqOW65R3rZuXqtGawBCmbE8Wy6yVY4rkOoPO/6IZ1X1bUBOqMycaHF0rNa5525pY4IF/1XnANkNHLMTFWJGB/Yt4dMrmd+z/pNpwkvDw+lUhG0VonUhTJSIA2cKOj+9kDNfVQaCpxf5tnfmuePP2sCKSVUVZmOHG8Qx8qgDMX8fBy4lIwoLkR19krGMChiRXHv5f2plzsulniHemVBL16LfumosPt1dEeRQPosSFUFlTN3vu6jrcde5HZM+ZAYPkVsSgBZweWGSbA2b06bIwigumuyAmySfaJZ591EMzKgVp2e3XmxKhr8pM9z8EEUdh2B4HcotvOQwHPKXwbN46o02ImI65fKfdbCbT9CKUVs95M/W/LpC+ebN2L2WJUX+mC6fY37vfCyf+2Iknzt71OWX1wwABHJt57XsSHlH8o36JjLX3sMqE0I0LXZwi64umgyfaBZKOKzuSsZplvcuPceHjiu/myqZ+7+ex1F3mrsif03IIzCGY7ikv8tWzHrOvNpBKEBSpkBwrZvOz7zkAc/oM1tE7x8DyH3fYoTaFP5KB8+ur2yjAwTUwFbbuYE4sHuncd3AIwE22x22LrmVY2H1SvQt3DdVzEF07F4KtdQWS4g9BVwiSfeJpfBw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MDE0ODAyNTEwOCwKICAicHJvZmlsZUlkIiA6ICJiOWJjMWVkYjRmMjE0NGMwODJlMGUyYjFlMzFlMmEzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTY3l0aGljYWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzhkMTk5ZTIzYzE3NDg4YTAxYTA3MDA1YTQxZmUzMzBiMWQyMmIwNGU5OTk0M2M5ZjhjODk3ZDE1NmU5NTU1YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Health: §a+40\",1:\"§7Defense: §a+35\",2:\"§7Intelligence: §a+5\",3:\"\",4:\"§6Full Set Bonus: Nether Lord §7(0/4)\",5:\"§7Walking over §cLava§7 creates §5Obsidian\",6:\"§7under your feet. You are also immune\",7:\"§7to all damage from §cLava§7 and §cFire§7.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §aCombat Skill 8§c.\",11:\"§5§lEPIC HELMET\"],Name:\"§5Ember Helmet\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Ember Helmet\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ember Helmet\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Nether Lord \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Walking over \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Lava\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" creates \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Obsidian\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"under your feet. You are also immune\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to all damage from \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Lava\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Fire\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 8\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC HELMET\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EMBER_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTU5MDE0ODAyNTEwOCwKICAicHJvZmlsZUlkIiA6ICJiOWJjMWVkYjRmMjE0NGMwODJlMGUyYjFlMzFlMmEzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTY3l0aGljYWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzhkMTk5ZTIzYzE3NDg4YTAxYTA3MDA1YTQxZmUzMzBiMWQyMmIwNGU5OTk0M2M5ZjhjODk3ZDE1NmU5NTU1YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Health: §a+40",
-    "§7Defense: §a+35",
-    "§7Intelligence: §a+5",
-    "",
-    "§6Full Set Bonus: Nether Lord §7(0/4)",
-    "§7Walking over §cLava§7 creates §5Obsidian",
-    "§7under your feet. You are also immune",
-    "§7to all damage from §cLava§7 and §cFire§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 8§c.",
-    "§5§lEPIC HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+35\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Nether Lord \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Walking over \",\"color\":\"gray\"},{\"text\":\"Lava\",\"color\":\"red\"},{\"text\":\" creates \",\"color\":\"gray\"},{\"text\":\"Obsidian\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"under your feet. You are also immune\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to all damage from \",\"color\":\"gray\"},{\"text\":\"Lava\",\"color\":\"red\"},{\"text\":\" and \",\"color\":\"gray\"},{\"text\":\"Fire\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 8\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC HELMET\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "EMBER_HELMET",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

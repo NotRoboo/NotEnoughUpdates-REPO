@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§5Wand of Strength",
-  "nbttag": "{ExtraAttributes:{id:\"WAND_OF_STRENGTH\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+20\",2:\"\",3:\"§6Ability: Life Blood  §e§lRIGHT CLICK\",4:\"§7Use §c10% §7of your max health to boost your\",5:\"§7nearby allies by §c+30❁ Strength §7for 10\",6:\"§7seconds.\",7:\"§8Health Cost: §c12.1\",8:\"§8Cooldown: §a1s\",9:\"\",10:\"§4❣ §cRequires §aCombat Skill 22§c.\",11:\"§5§lEPIC WAND\"],Name:\"§5Wand of Strength\"},ench:[]}",
+  "displayname": "{\"text\":\"Wand of Strength\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wand of Strength\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Life Blood \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Use \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"of your max health to boost your\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"nearby allies by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30❁ Strength \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"for 10\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"seconds.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"12.1\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC WAND\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WAND_OF_STRENGTH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+50",
-    "§7Strength: §c+20",
-    "",
-    "§6Ability: Life Blood  §e§lRIGHT CLICK",
-    "§7Use §c10% §7of your max health to boost your",
-    "§7nearby allies by §c+30❁ Strength §7for 10",
-    "§7seconds.",
-    "§8Health Cost: §c12.1",
-    "§8Cooldown: §a1s",
-    "",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
-    "§5§lEPIC WAND"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Life Blood \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Use \",\"color\":\"gray\"},{\"text\":\"10% \",\"color\":\"red\"},{\"text\":\"of your max health to boost your\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"nearby allies by \",\"color\":\"gray\"},{\"text\":\"+30❁ Strength \",\"color\":\"red\"},{\"text\":\"for 10\",\"color\":\"gray\"}]}",
+    "{\"text\":\"seconds.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health Cost: \",\"color\":\"dark_gray\"},{\"text\":\"12.1\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"1s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC WAND\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "WAND_OF_STRENGTH",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

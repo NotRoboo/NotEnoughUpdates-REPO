@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Four-Eyed Fish",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9a087956-9b35-331a-b7a6-4c77ee1f3046\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4MDIxNzQ3ODIwMSwKICAicHJvZmlsZUlkIiA6ICJhNWVmNzE3YWI0MjA0MTQ4ODlhOTI5ZDA5OTA0MzcwMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZXBsZXRpbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliOWY0M2I1MWJkNDViZWRmMDllNDU4MmQ3NjJkMjZjMDMxODQ3ZmM4ZjMwZDI1MzA1NzkyYzU3NDE4MWQzZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7§7This pet item may only be used on a\",3:\"§7§6Griffin §7pet.\",4:\"\",5:\"§7§7Gain §6+2,000 coins §7when digging up\",6:\"§7any §eGriffin Burrow§7.\",7:\"\",8:\"§7§7Grants §b+10✯ Magic Find§7 and §a+55❈\",9:\"§aDefense§7.\",10:\"\",11:\"§7§eRight-click on your summoned pet to\",12:\"§egive it this item!\",13:\"\",14:\"§5§lEPIC PET ITEM\"],Name:\"§5Four-Eyed Fish\"},ExtraAttributes:{id:\"FOUR_EYED_FISH\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Four-Eyed Fish\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Four-Eyed Fish\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This pet item may only be used on a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Griffin \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"pet.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2,000 coins \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"when digging up\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"any \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Griffin Burrow\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10✯ Magic Find\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\" and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+55❈\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"give it this item!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC PET ITEM\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FOUR_EYED_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Consumed on use",
-    "",
-    "§7§7This pet item may only be used on a",
-    "§7§6Griffin §7pet.",
-    "",
-    "§7§7Gain §6+2,000 coins §7when digging up",
-    "§7any §eGriffin Burrow§7.",
-    "",
-    "§7§7Grants §b+10✯ Magic Find§7 and §a+55❈",
-    "§aDefense§7.",
-    "",
-    "§7§eRight-click on your summoned pet to",
-    "§egive it this item!",
-    "",
-    "§5§lEPIC PET ITEM"
+    "{\"text\":\"Consumed on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This pet item may only be used on a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Griffin \",\"color\":\"gold\"},{\"text\":\"pet.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+2,000 coins \",\"color\":\"gold\"},{\"text\":\"when digging up\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"any \",\"color\":\"gray\"},{\"text\":\"Griffin Burrow\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+10✯ Magic Find\",\"color\":\"aqua\"},{\"text\":\" and \",\"color\":\"gray\"},{\"text\":\"+55❈\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"give it this item!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC PET ITEM\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "ENCHANTED_SPIDER_EYE:64",
@@ -39,5 +39,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Four-Eyed_Fish",
     "https://wiki.hypixel.net/Four-Eyed_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

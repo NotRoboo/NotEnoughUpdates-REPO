@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§aToxic Arrow Poison",
-  "nbttag": "{ExtraAttributes:{id:\"TOXIC_ARROW_POISON\"},HideFlags:254,ItemModel:\"minecraft:lime_dye\",display:{Lore:[0:\"§8Consumed on arrow shot\",1:\"§7Arrows deal an additional\",2:\"§210% §7of damage as poison\",3:\"§7and reduce healing by §224%\",4:\"§7over §b4 §7seconds.\",5:\"\",6:\"§a§lUNCOMMON ARROW POISON\"],Name:\"§aToxic Arrow Poison\"}}",
-  "damage": 10,
+  "displayname": "{\"text\":\"Toxic Arrow Poison\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Toxic Arrow Poison\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on arrow shot\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Arrows deal an additional\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"10% \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"of damage as poison\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and reduce healing by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"24%\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"over \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"4 \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"seconds.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ARROW POISON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TOXIC_ARROW_POISON\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Consumed on arrow shot",
-    "§7Arrows deal an additional",
-    "§210% §7of damage as poison",
-    "§7and reduce healing by §224%",
-    "§7over §b4 §7seconds.",
-    "",
-    "§a§lUNCOMMON ARROW POISON"
+    "{\"text\":\"Consumed on arrow shot\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Arrows deal an additional\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"10% \",\"color\":\"dark_green\"},{\"text\":\"of damage as poison\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and reduce healing by \",\"color\":\"gray\"},{\"text\":\"24%\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"over \",\"color\":\"gray\"},{\"text\":\"4 \",\"color\":\"aqua\"},{\"text\":\"seconds.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ARROW POISON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "TOXIC_ARROW_POISON",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Toxic_Arrow_Poison",
     "https://wiki.hypixel.net/Toxic_Arrow_Poison"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:dirt",
-  "displayname": "§fCoarse Dirt",
-  "nbttag": "{ExtraAttributes:{id:\"DIRT-1\"},HideFlags:254,ItemModel:\"minecraft:coarse_dirt\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCoarse Dirt\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Coarse Dirt\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:dirt\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Coarse Dirt\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIRT-1\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DIRT-1",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 4
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

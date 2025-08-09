@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:wooden_pickaxe",
-  "displayname": "§fWooden Pickaxe",
-  "nbttag": "{ExtraAttributes:{id:\"WOOD_PICKAXE\"},HideFlags:254,ItemModel:\"minecraft:wooden_pickaxe\",display:{Lore:[0:\"§8Breaking Power 1\",1:\"\",2:\"§7Damage: §c+15\",3:\"§7Mining Speed: §a+70\",4:\"\",5:\"§8This item can be reforged!\",6:\"§f§lCOMMON PICKAXE\"],Name:\"§fWooden Pickaxe\"}}",
+  "displayname": "{\"text\":\"Wooden Pickaxe\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wooden Pickaxe\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 1\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+70\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON PICKAXE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WOOD_PICKAXE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 1",
-    "",
-    "§7Damage: §c+15",
-    "§7Mining Speed: §a+70",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON PICKAXE"
+    "{\"text\":\"Breaking Power 1\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+70\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON PICKAXE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WOOD_PICKAXE",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:emerald",
-  "displayname": "§fEmerald",
-  "nbttag": "{ExtraAttributes:{id:\"EMERALD\"},HideFlags:254,ItemModel:\"minecraft:emerald\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON ORE\"],Name:\"§fEmerald\"}}",
+  "displayname": "{\"text\":\"Emerald\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:emerald\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Emerald\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON ORE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EMERALD\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON ORE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON ORE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "EMERALD",
   "clickcommand": "viewrecipe",
@@ -234,5 +234,8 @@
       "max": 41,
       "result": "EMERALD"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

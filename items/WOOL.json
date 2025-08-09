@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:wool",
-  "displayname": "§fWhite Wool",
-  "nbttag": "{ExtraAttributes:{id:\"WOOL\"},HideFlags:254,ItemModel:\"minecraft:white_wool\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fWhite Wool\"}}",
+  "itemid": "minecraft:white_wool",
+  "displayname": "{\"text\":\"White Wool\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:white_wool\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"White Wool\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WOOL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WOOL",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:diamond_axe",
-  "displayname": "§9Advanced Gardening Axe",
-  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Farming Fortune: §a+10\",1:\"\",2:\"§9Replenish I\",3:\"§7Upon breaking crops, nether wart,\",4:\"§7or cocoa, automatically replant from\",5:\"§7materials in your inventory.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§7§4❣ §cRequires §aGarden Level 6§c.\",9:\"§9§lRARE AXE\"],Name:\"§9Advanced Gardening Axe\"},ExtraAttributes:{id:\"ADVANCED_GARDENING_AXE\",enchantments:{replenish:1}}}",
+  "displayname": "{\"text\":\"Advanced Gardening Axe\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Advanced Gardening Axe\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Farming Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Replenish I\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"Upon breaking crops, nether wart,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"or cocoa, automatically replant from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"materials in your inventory.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Garden Level 6\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE AXE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7Farming Fortune: §a+10",
-    "",
-    "§9Replenish I",
-    "§7Upon breaking crops, nether wart,",
-    "§7or cocoa, automatically replant from",
-    "§7materials in your inventory.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aGarden Level 6§c.",
-    "§9§lRARE AXE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Farming Fortune: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Replenish I\",\"color\":\"blue\"}",
+    "{\"text\":\"Upon breaking crops, nether wart,\",\"color\":\"gray\"}",
+    "{\"text\":\"or cocoa, automatically replant from\",\"color\":\"gray\"}",
+    "{\"text\":\"materials in your inventory.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Garden Level 6\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE AXE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ADVANCED_GARDENING_AXE",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Advanced_Gardening_Axe",
     "https://wiki.hypixel.net/Advanced_Gardening_Axe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

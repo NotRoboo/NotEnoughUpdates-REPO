@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fAdrenaline II Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:10b,Amplifier:1b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cAdrenaline II §f(3:00)\",2:\"§7Grants §a+40 §7of absorption and §a+10 §f✦\",3:\"§fSpeed§7.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fAdrenaline II Potion\"},ExtraAttributes:{potion_level:2,potion:\"adrenaline\",effects:[0:{level:2,effect:\"adrenaline\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_ADRENALINE;2\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Adrenaline II Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Adrenaline II Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Adrenaline II \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of absorption and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"✦\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":2,\"potion\":\"adrenaline\",\"effects\":\"[0:{level:2\",\"effect\":\"adrenaline\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§cAdrenaline II §f(3:00)",
-    "§7Grants §a+40 §7of absorption and §a+10 §f✦",
-    "§fSpeed§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Adrenaline II \",\"color\":\"red\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+40 \",\"color\":\"green\"},{\"text\":\"of absorption and \",\"color\":\"gray\"},{\"text\":\"+10 \",\"color\":\"green\"},{\"text\":\"✦\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_ADRENALINE;2",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

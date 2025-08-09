@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Blue Cheese Goblin Omelette",
-  "nbttag": "{ExtraAttributes:{id:\"GOBLIN_OMELETTE_BLUE_CHEESE\",stored_drill_fuel:4857},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b5e74408-adbe-3b4a-83a0-a5e6bf538484\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNDU0NjEzMTc5MCwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I1YmNhYjU1ZDUzZTQyNTU2ZjVlODU4ODc0ZWM4Yjc2YThkYTAwODk4NTIyZTZjYmQ2NzNlM2ZiOTgzM2RlYWYiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Adds §a+1 Level §7to all of your\",3:\"§7unlocked §5Heart of the Mountain §7perks.\",4:\"\",5:\"§7Put this item in the §6Upgrade Module\",6:\"§7slot of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§7§oMay cause illness\",9:\"\",10:\"§4❣ §cRequires §5Heart of the Mountain Tier 5§c.\",11:\"§9§lRARE\"],Name:\"§9Blue Cheese Goblin Omelette\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Blue Cheese Goblin Omelette\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Blue Cheese Goblin Omelette\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Drill Part\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Adds \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1 Level \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"to all of your\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"unlocked \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Heart of the Mountain \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"perks.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Put this item in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Upgrade Module\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"slot of a Drill at a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Drill Mechanic\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"May cause illness\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 5\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"stored_drill_fuel\":4857,\"id\":\"GOBLIN_OMELETTE_BLUE_CHEESE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYyNDU0NjEzMTc5MCwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I1YmNhYjU1ZDUzZTQyNTU2ZjVlODU4ODc0ZWM4Yjc2YThkYTAwODk4NTIyZTZjYmQ2NzNlM2ZiOTgzM2RlYWYiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Drill Part",
-    "",
-    "§7Adds §a+1 Level §7to all of your",
-    "§7unlocked §5Heart of the Mountain §7perks.",
-    "",
-    "§7Put this item in the §6Upgrade Module",
-    "§7slot of a Drill at a §2Drill Mechanic§7!",
-    "",
-    "§7§oMay cause illness",
-    "",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 5§c.",
-    "§9§lRARE"
+    "{\"text\":\"Drill Part\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Adds \",\"color\":\"gray\"},{\"text\":\"+1 Level \",\"color\":\"green\"},{\"text\":\"to all of your\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"unlocked \",\"color\":\"gray\"},{\"text\":\"Heart of the Mountain \",\"color\":\"dark_purple\"},{\"text\":\"perks.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Put this item in the \",\"color\":\"gray\"},{\"text\":\"Upgrade Module\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"slot of a Drill at a \",\"color\":\"gray\"},{\"text\":\"Drill Mechanic\",\"color\":\"dark_green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"May cause illness\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 5\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "GOBLIN_OMELETTE_BLUE_CHEESE",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
       "overrideOutputId": "GOBLIN_OMELETTE_BLUE_CHEESE",
       "duration": 64800
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

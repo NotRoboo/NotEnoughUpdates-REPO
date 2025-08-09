@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Artifact of Control",
-  "nbttag": "{ExtraAttributes:{id:\"ARTIFACT_OF_CONTROL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fe8104a5-9cab-33c4-aca6-160f29d3ad57\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1ODg3MTIxMDY1MywKICAicHJvZmlsZUlkIiA6ICJmNThkZWJkNTlmNTA0MjIyOGY2MDIyMjExZDRjMTQwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ1bnZlbnRpdmV0YWxlbnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFmNzQ4YTQzZjNiM2FkYTA0ZjQ0ZDVkMjkwYThiOWJmNTgzZDkzZTFjODNhYjkzYzYwYzRkZWMxZmRlMWM1YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Holding this artifact will\",1:\"§7grant you §a2x §7voting power in\",2:\"§7Mayor Elections!\",3:\"\",4:\"§6§lLEGENDARY ACCESSORY\"],Name:\"§6Artifact of Control\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Artifact of Control\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Artifact of Control\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Holding this artifact will\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"grant you \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2x \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"voting power in\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Mayor Elections!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY ACCESSORY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ARTIFACT_OF_CONTROL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY1ODg3MTIxMDY1MywKICAicHJvZmlsZUlkIiA6ICJmNThkZWJkNTlmNTA0MjIyOGY2MDIyMjExZDRjMTQwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ1bnZlbnRpdmV0YWxlbnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFmNzQ4YTQzZjNiM2FkYTA0ZjQ0ZDVkMjkwYThiOWJmNTgzZDkzZTFjODNhYjkzYzYwYzRkZWMxZmRlMWM1YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Holding this artifact will",
-    "§7grant you §a2x §7voting power in",
-    "§7Mayor Elections!",
-    "",
-    "§6§lLEGENDARY ACCESSORY"
+    "{\"text\":\"Holding this artifact will\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"grant you \",\"color\":\"gray\"},{\"text\":\"2x \",\"color\":\"green\"},{\"text\":\"voting power in\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Mayor Elections!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY ACCESSORY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "ARTIFACT_OF_CONTROL",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Artifact_of_Control",
     "https://wiki.hypixel.net/Artifact_Of_Control"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

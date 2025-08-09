@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:tnt",
-  "displayname": "§9Superboom TNT",
-  "nbttag": "{ExtraAttributes:{id:\"SUPERBOOM_TNT\"},HideFlags:254,ItemModel:\"minecraft:tnt\",display:{Lore:[0:\"§7Breaks weak walls. Can be used\",1:\"§7to blow up Crypts in §cThe\",2:\"§cCatacombs §7and §3Crystal\",3:\"§3Hollows§7.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Superboom TNT\"},ench:[]}",
+  "displayname": "{\"text\":\"Superboom TNT\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:tnt\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Superboom TNT\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaks weak walls. Can be used\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to blow up Crypts in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Catacombs \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Crystal\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hollows\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SUPERBOOM_TNT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Breaks weak walls. Can be used",
-    "§7to blow up Crypts in §cThe",
-    "§cCatacombs §7and §3Crystal",
-    "§3Hollows§7.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Breaks weak walls. Can be used\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to blow up Crypts in \",\"color\":\"gray\"},{\"text\":\"The\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Catacombs \",\"color\":\"red\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"Crystal\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hollows\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SUPERBOOM_TNT",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Superboom_Tnt"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

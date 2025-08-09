@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fFlying Bats",
-  "nbttag": "{ExtraAttributes:{id:\"FLYING_BATS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ad5da6cb-8227-3129-b3a5-b2f3abe39579\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjAsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hODVmMzEzODI1OTFkMmRhYjBlZmVkNGRkMzFlZDM4NTQ5NGFkOTU2MzQwOWM4YTJlMGVmZDA1NDkyZDYwYjU1In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"§8Halloween Cosmetic\",2:\"\",3:\"§7This exclusive §6Halloween §7cosmetic\",4:\"§7can be placed on your island or\",5:\"§7traded.\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§fFlying Bats\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Flying Bats\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Flying Bats\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Halloween Cosmetic\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This exclusive \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Halloween \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"cosmetic\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"can be placed on your island or\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"traded.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLYING_BATS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjAsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hODVmMzEzODI1OTFkMmRhYjBlZmVkNGRkMzFlZDM4NTQ5NGFkOTU2MzQwOWM4YTJlMGVmZDA1NDkyZDYwYjU1In19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "§8Halloween Cosmetic",
-    "",
-    "§7This exclusive §6Halloween §7cosmetic",
-    "§7can be placed on your island or",
-    "§7traded.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Halloween Cosmetic\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This exclusive \",\"color\":\"gray\"},{\"text\":\"Halloween \",\"color\":\"gold\"},{\"text\":\"cosmetic\",\"color\":\"gray\"}]}",
+    "{\"text\":\"can be placed on your island or\",\"color\":\"gray\"}",
+    "{\"text\":\"traded.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FLYING_BATS",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Flying_Bats",
     "https://wiki.hypixel.net/Flying_Bats"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

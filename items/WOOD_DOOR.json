@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:wooden_door",
-  "displayname": "§fOak Door",
-  "nbttag": "{ExtraAttributes:{id:\"WOOD_DOOR\"},HideFlags:254,ItemModel:\"minecraft:oak_door\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fOak Door\"}}",
+  "displayname": "{\"text\":\"Oak Door\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_door\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Oak Door\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WOOD_DOOR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WOOD_DOOR",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "WOOD:1",
     "C3": "",
     "count": 3
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

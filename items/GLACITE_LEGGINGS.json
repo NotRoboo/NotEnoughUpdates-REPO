@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§f§f§5Glacite Leggings",
-  "nbttag": "{overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+125\",1:\"§7Speed: §a+15\",2:\"§7True Defense: §a+10\",3:\"§7Mining Speed: §a+10\",4:\" §8[§7⸕§8] §8[§8☘§8]\",5:\"\",6:\"§6Full Set Bonus: Expert Miner\",7:\"§7Grants §6+2⸕ Mining Speed §7for\",8:\"§7each of your mining levels.\",9:\"\",10:\"§7The Defense §7of this item is\",11:\"§7doubled while on a mining island\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§5§lEPIC LEGGINGS\"],color:261368,Name:\"§f§f§5Glacite Leggings\"},ExtraAttributes:{color:\"3:252:248\",id:\"GLACITE_LEGGINGS\"},AttributeModifiers:[]}",
+  "displayname": "{\"text\":\"Glacite Leggings\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Glacite Leggings\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+125\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"True Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"⸕\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"☘\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Expert Miner\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2⸕ Mining Speed \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"each of your mining levels.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The Defense \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"of this item is\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"doubled while on a mining island\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC LEGGINGS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"3:252:248\",\"id\":\"GLACITE_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+125",
-    "§7Speed: §a+15",
-    "§7True Defense: §a+10",
-    "§7Mining Speed: §a+10",
-    " §8[§7⸕§8] §8[§8☘§8]",
-    "",
-    "§6Full Set Bonus: Expert Miner",
-    "§7Grants §6+2⸕ Mining Speed §7for",
-    "§7each of your mining levels.",
-    "",
-    "§7The Defense §7of this item is",
-    "§7doubled while on a mining island",
-    "",
-    "§7§8This item can be reforged!",
-    "§5§lEPIC LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+125\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"True Defense: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"⸕\",\"color\":\"gray\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"☘\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Expert Miner\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+2⸕ Mining Speed \",\"color\":\"gold\"},{\"text\":\"for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"each of your mining levels.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The Defense \",\"color\":\"gray\"},{\"text\":\"of this item is\",\"color\":\"gray\"}]}",
+    "{\"text\":\"doubled while on a mining island\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC LEGGINGS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "GLACITE_LEGGINGS",
   "crafttext": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Glacite_Leggings",
     "https://wiki.hypixel.net/Glacite_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

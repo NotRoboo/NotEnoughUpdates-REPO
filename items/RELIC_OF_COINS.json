@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Relic of Coins",
-  "nbttag": "{ExtraAttributes:{id:\"RELIC_OF_COINS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"49873c66-e458-3d10-93b2-c59db969cbec\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTc2OTM4MiwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E0Mjg1MzgyMTc4ZjdhYmQ5ZWU4MjkxMzQwYWFmYmUzZjYxNjc4NWNlZTM5ZGFiNjU0ZTEzNWM5NTI1ZjFhODciCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7A lot of coins start appearing\",1:\"§7around you occasionally on public\",2:\"§7islands. You may even pick up a\",3:\"§5Stock of Stonks§7!\",4:\"\",5:\"§5§lEPIC ACCESSORY\"],Name:\"§5Relic of Coins\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Relic of Coins\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Relic of Coins\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A lot of coins start appearing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"around you occasionally on public\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"islands. You may even pick up a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Stock of Stonks\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC ACCESSORY\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RELIC_OF_COINS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTc2OTM4MiwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E0Mjg1MzgyMTc4ZjdhYmQ5ZWU4MjkxMzQwYWFmYmUzZjYxNjc4NWNlZTM5ZGFiNjU0ZTEzNWM5NTI1ZjFhODciCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7A lot of coins start appearing",
-    "§7around you occasionally on public",
-    "§7islands. You may even pick up a",
-    "§5Stock of Stonks§7!",
-    "",
-    "§5§lEPIC ACCESSORY"
+    "{\"text\":\"A lot of coins start appearing\",\"color\":\"gray\"}",
+    "{\"text\":\"around you occasionally on public\",\"color\":\"gray\"}",
+    "{\"text\":\"islands. You may even pick up a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Stock of Stonks\",\"color\":\"dark_purple\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC ACCESSORY\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "RELIC_OF_COINS",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C1": "",
     "C2": "FRESHLY_MINTED_COINS:16",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

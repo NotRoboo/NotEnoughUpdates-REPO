@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:cooked_fish",
-  "displayname": "§9Tasty Cat Food",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Use on a §2mythological cat §7to\",1:\"§7transform this item.\",2:\"\",3:\"§8Pss-pss-pss-pss\",4:\"§8Good cats only!\",5:\"\",6:\"§5§kX§5 Rift-Transferable §kX\",7:\"§9§lRARE PET ITEM\"],Name:\"§9Tasty Cat Food\"},ExtraAttributes:{id:\"DEAD_CAT_FOOD\"}}",
+  "displayname": "{\"text\":\"Tasty Cat Food\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:cooked_fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tasty Cat Food\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Use on a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"mythological cat \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"transform this item.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Pss-pss-pss-pss\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Good cats only!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"RARE PET ITEM\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DEAD_CAT_FOOD\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Use on a §2mythological cat §7to",
-    "§7transform this item.",
-    "",
-    "§8Pss-pss-pss-pss",
-    "§8Good cats only!",
-    "",
-    "§5§kX§5 Rift-Transferable §kX",
-    "§9§lRARE PET ITEM"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Use on a \",\"color\":\"gray\"},{\"text\":\"mythological cat \",\"color\":\"dark_green\"},{\"text\":\"to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"transform this item.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Pss-pss-pss-pss\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Good cats only!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"RARE PET ITEM\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "DEAD_CAT_FOOD",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Tasty_Cat_Food",
     "https://wiki.hypixel.net/Tasty_Cat_Food"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Hungry Hiker (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3cd268da-3e88-2744-8c7d-8303ca9fa11f\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2ZjliOWI2MjQwNGM1Y2Y5NGMzODVjN2YxYzg2YWRkZTBkOWFlZjlhOWNkMjllMmFiNTgzZmExZGU2M2Y0MjYifX19\"}]},Name:\"3cd268da-3e88-2744-8c7d-8303ca9fa11f\"},display:{Lore:[0:\"\"],Name:\"§9Hungry Hiker (NPC)\"},ExtraAttributes:{id:\"HUNGRY_HIKER_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Hungry Hiker (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hungry Hiker (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"HUNGRY_HIKER_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "HUNGRY_HIKER_NPC",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hungry_Hiker",
     "https://wiki.hypixel.net/Hungry_Hiker"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

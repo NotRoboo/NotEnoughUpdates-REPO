@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§5Lifeguard Chair",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"59e55428-30f9-344d-9ad4-f4af9f9c6b53\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNiZGU0MzExMWY2OWE3ZmRhNmVjNmZhZjIyNjNjODI3OTYxZjM5MGQ3YzYxNjNlZDEyMzEwMzVkMWIwYjkifX19\"}]}},display:{Lore:[0:\"§8Furniture\",1:\"§8Summer Cosmetic\",2:\"\",3:\"§7This exclusive §aSummer\",4:\"§a§7cosmetic can be placed on your\",5:\"§7island or traded.\",6:\"\",7:\"§5§lEPIC\"],Name:\"§f§f§5Lifeguard Chair\"},ExtraAttributes:{id:\"LIFEGUARD_CHAIR\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Lifeguard Chair\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lifeguard Chair\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Summer Cosmetic\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This exclusive \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Summer\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"cosmetic can be placed on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"island or traded.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LIFEGUARD_CHAIR\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "§8Summer Cosmetic",
-    "",
-    "§7This exclusive §aSummer",
-    "§a§7cosmetic can be placed on your",
-    "§7island or traded.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Summer Cosmetic\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This exclusive \",\"color\":\"gray\"},{\"text\":\"Summer\",\"color\":\"green\"}]}",
+    "{\"text\":\"cosmetic can be placed on your\",\"color\":\"gray\"}",
+    "{\"text\":\"island or traded.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "LIFEGUARD_CHAIR",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Lifeguard_Chair"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

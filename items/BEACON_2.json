@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:beacon",
-  "displayname": "§9Beacon II",
-  "nbttag": "{ExtraAttributes:{id:\"BEACON_2\"},HideFlags:254,ItemModel:\"minecraft:beacon\",display:{Lore:[0:\"§7Tier: §bII\",1:\"\",2:\"§7Can be placed on your private island.\",3:\"\",4:\"§7Grants special buffs to the island\",5:\"§7owners when powered by §dPower\",6:\"§dCrystals §7obtained from the forge in\",7:\"§7the §2Dwarven Mines§7.\",8:\"\",9:\"§4❣ §cRequires §5Heart of the Mountain Tier 2§c.\",10:\"§9§lRARE\"],Name:\"§9Beacon II\"},ench:[]}",
+  "displayname": "{\"text\":\"Beacon II\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:beacon\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Beacon II\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Tier: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"II\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Can be placed on your private island.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Grants special buffs to the island\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"owners when powered by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Power\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crystals \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"obtained from the forge in\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Dwarven Mines\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 2\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BEACON_2\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Tier: §bII",
-    "",
-    "§7Can be placed on your private island.",
-    "",
-    "§7Grants special buffs to the island",
-    "§7owners when powered by §dPower",
-    "§dCrystals §7obtained from the forge in",
-    "§7the §2Dwarven Mines§7.",
-    "",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 2§c.",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Tier: \",\"color\":\"gray\"},{\"text\":\"II\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Can be placed on your private island.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Grants special buffs to the island\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"owners when powered by \",\"color\":\"gray\"},{\"text\":\"Power\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crystals \",\"color\":\"light_purple\"},{\"text\":\"obtained from the forge in\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the \",\"color\":\"gray\"},{\"text\":\"Dwarven Mines\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 2\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BEACON_2",
   "clickcommand": "viewrecipe",
-  "crafttext": "Requires: Mithril X & HotM 2",
+  "crafttext": "Requires: Mithril X \u0026 HotM 2",
   "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "WIKI_URL",
   "info": [
@@ -36,5 +36,8 @@
       "overrideOutputId": "BEACON_2",
       "duration": 72000
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

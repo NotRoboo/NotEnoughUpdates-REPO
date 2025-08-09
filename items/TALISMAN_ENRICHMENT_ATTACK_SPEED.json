@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cAttack Speed Enrichment",
-  "nbttag": "{ExtraAttributes:{id:\"TALISMAN_ENRICHMENT_ATTACK_SPEED\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8ad39183-1ae1-3113-919f-490fc2ad2586\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMjM4MDYyNzg1MiwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVjY2RkNjE5Mzk0YmZmYTI1MzU0NjE3ZWM2YjMyN2VlZGU0NWUyYzczZjFjZjdhZmEzYzExYWMxMGVlMWEwZiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Enriches an accessory with the\",3:\"§7power of §e+0.5⚔ Bonus Attack Speed\",4:\"§7when applied to a §6Legendary §7or\",5:\"§dMythic §7accessory.\",6:\"\",7:\"§7Only §7§lONE §7enrichment can be applied\",8:\"§7to a given accessory.\",9:\"\",10:\"§c§lSPECIAL\"],Name:\"§cAttack Speed Enrichment\"},ench:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Attack Speed Enrichment\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Attack Speed Enrichment\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Enriches an accessory with the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"power of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+0.5⚔ Bonus Attack Speed\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"when applied to a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Legendary \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"or\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mythic \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"accessory.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Only \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"ONE \\\",\\\"color\\\":\\\"gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"enrichment can be applied\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"to a given accessory.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TALISMAN_ENRICHMENT_ATTACK_SPEED\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxMjM4MDYyNzg1MiwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVjY2RkNjE5Mzk0YmZmYTI1MzU0NjE3ZWM2YjMyN2VlZGU0NWUyYzczZjFjZjdhZmEzYzExYWMxMGVlMWEwZiIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Enriches an accessory with the",
-    "§7power of §e+0.5⚔ Bonus Attack Speed",
-    "§7when applied to a §6Legendary §7or",
-    "§dMythic §7accessory.",
-    "",
-    "§7Only §7§lONE §7enrichment can be applied",
-    "§7to a given accessory.",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Enriches an accessory with the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"power of \",\"color\":\"gray\"},{\"text\":\"+0.5⚔ Bonus Attack Speed\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"when applied to a \",\"color\":\"gray\"},{\"text\":\"Legendary \",\"color\":\"gold\"},{\"text\":\"or\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mythic \",\"color\":\"light_purple\"},{\"text\":\"accessory.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Only \",\"color\":\"gray\"},{\"text\":\"ONE \",\"color\":\"gray\",\"bold\":true},{\"text\":\"enrichment can be applied\",\"color\":\"gray\"}]}",
+    "{\"text\":\"to a given accessory.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "TALISMAN_ENRICHMENT_ATTACK_SPEED",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enrichments",
     "https://wiki.hypixel.net/Attack_Speed_Enrichment"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§aVoidwalker Katana",
-  "nbttag": "{ExtraAttributes:{id:\"VOIDWALKER_KATANA\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+105\",1:\"§7Strength: §c+40\",2:\"§7Crit Damage: §c+15%\",3:\"\",4:\"§7Deal §a+150% §7damage to Endermen.\",5:\"§7Receive §a3% §7less damage from\",6:\"§7Endermen when held.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§a§lUNCOMMON SWORD\"],Name:\"§aVoidwalker Katana\"}}",
+  "displayname": "{\"text\":\"Voidwalker Katana\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Voidwalker Katana\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+105\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"damage to Endermen.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Receive \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"less damage from\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Endermen when held.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON SWORD\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"VOIDWALKER_KATANA\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+105",
-    "§7Strength: §c+40",
-    "§7Crit Damage: §c+15%",
-    "",
-    "§7Deal §a+150% §7damage to Endermen.",
-    "§7Receive §a3% §7less damage from",
-    "§7Endermen when held.",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+105\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+15%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"+150% \",\"color\":\"green\"},{\"text\":\"damage to Endermen.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Receive \",\"color\":\"gray\"},{\"text\":\"3% \",\"color\":\"green\"},{\"text\":\"less damage from\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Endermen when held.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON SWORD\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "VOIDWALKER_KATANA",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C2": "STICK:1",
     "C3": ""
   },
-  "slayer_req": "EMAN_1"
+  "slayer_req": "EMAN_1",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

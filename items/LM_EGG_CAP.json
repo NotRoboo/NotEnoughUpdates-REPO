@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:spawn_egg",
-  "displayname": "§9Living Metal Capspawn",
-  "nbttag": "{ExtraAttributes:{id:\"LM_EGG_CAP\"},HideFlags:254,ItemModel:\"minecraft:squid_spawn_egg\",display:{Lore:[0:\"§6Ability: Spawn  §e§lRIGHT CLICK\",1:\"§7Spawns a living metal autoarmor which can be\",2:\"§7assimilated into your own armor.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Living Metal Capspawn\"}}",
-  "damage": 94,
+  "itemid": "minecraft:squid_spawn_egg",
+  "displayname": "{\"text\":\"Living Metal Capspawn\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:squid_spawn_egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Living Metal Capspawn\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Spawn \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Spawns a living metal autoarmor which can be\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"assimilated into your own armor.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LM_EGG_CAP\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§6Ability: Spawn  §e§lRIGHT CLICK",
-    "§7Spawns a living metal autoarmor which can be",
-    "§7assimilated into your own armor.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Spawn \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Spawns a living metal autoarmor which can be\",\"color\":\"gray\"}",
+    "{\"text\":\"assimilated into your own armor.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "LM_EGG_CAP",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

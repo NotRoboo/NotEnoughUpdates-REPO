@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Hypergolic Ionized Ceramics",
-  "nbttag": "{ExtraAttributes:{id:\"HYPERGOLIC_IONIZED_CERAMICS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"06a88243-3c72-373b-a2bc-138782991016\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1ODQ3MzIwNTEwMiwKICAicHJvZmlsZUlkIiA6ICIwMGZiNTRiOWI4NDA0YTA0YTViMmJhMzBlYzBlYTAxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrbGxveWQ3MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NWQ1ZWJlZjk5ODY4YTliNmFjZTk0ODljOTM5N2U5NzlmZTBmMmI1NmNhZmIyZjY5Yjk0YThjNTlhODU2ODYwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Obtained from expired hypergolic\",1:\"§7fuel.\",2:\"\",3:\"§8First the gabagool fuel is\",4:\"§8vitrified through calcination,\",5:\"§8then stabilized using a\",6:\"§8phosphate-based crystalline\",7:\"§8ceramic host through an ion\",8:\"§8exchange, or something...\",9:\"\",10:\"§eRight-click to view recipes!\",11:\"\",12:\"§5§lEPIC\"],Name:\"§5Hypergolic Ionized Ceramics\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Hypergolic Ionized Ceramics\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hypergolic Ionized Ceramics\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Obtained from expired hypergolic\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"fuel.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"First the gabagool fuel is\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"vitrified through calcination,\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"then stabilized using a\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"phosphate-based crystalline\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"ceramic host through an ion\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"exchange, or something...\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7Obtained from expired hypergolic",
-    "§7fuel.",
-    "",
-    "§8First the gabagool fuel is",
-    "§8vitrified through calcination,",
-    "§8then stabilized using a",
-    "§8phosphate-based crystalline",
-    "§8ceramic host through an ion",
-    "§8exchange, or something...",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Obtained from expired hypergolic\",\"color\":\"gray\"}",
+    "{\"text\":\"fuel.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"First the gabagool fuel is\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"vitrified through calcination,\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"then stabilized using a\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"phosphate-based crystalline\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"ceramic host through an ion\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"exchange, or something...\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "HYPERGOLIC_IONIZED_CERAMICS",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hypergolic_Ionized_Ceramics",
     "https://wiki.hypixel.net/Hypergolic_Ionized_Ceramics"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

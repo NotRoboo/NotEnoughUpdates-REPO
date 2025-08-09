@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:chest",
-  "displayname": "§fChest",
-  "nbttag": "{ExtraAttributes:{id:\"CHEST\"},HideFlags:254,ItemModel:\"minecraft:chest\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fChest\"}}",
+  "displayname": "{\"text\":\"Chest\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:chest\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chest\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CHEST\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "CHEST",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "WOOD:1",
     "C2": "WOOD:1",
     "C3": "WOOD:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

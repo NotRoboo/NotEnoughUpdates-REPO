@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:slime",
-  "displayname": "§9Super Leech Modifier",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Can be combined with an §9Aspect of\",1:\"§9the Leech §7in a Crafting Table to\",2:\"§7increase its range from §a4 blocks §7to\",3:\"§7§a5 blocks §7and decrease its §bMana Cost\",4:\"§b§7from §b60 §7to §b50§7.\",5:\"\",6:\"§eRight-click to view recipes!\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Super Leech Modifier\"},ExtraAttributes:{id:\"SUPER_LEECH_MODIFIER\"}}",
+  "displayname": "{\"text\":\"Super Leech Modifier\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:slime\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Super Leech Modifier\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be combined with an \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Aspect of\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the Leech \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"in a Crafting Table to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"increase its range from \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"4 blocks \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"5 blocks \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"and decrease its \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mana Cost\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"from \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"60 \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SUPER_LEECH_MODIFIER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7Can be combined with an §9Aspect of",
-    "§9the Leech §7in a Crafting Table to",
-    "§7increase its range from §a4 blocks §7to",
-    "§7§a5 blocks §7and decrease its §bMana Cost",
-    "§b§7from §b60 §7to §b50§7.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be combined with an \",\"color\":\"gray\"},{\"text\":\"Aspect of\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the Leech \",\"color\":\"blue\"},{\"text\":\"in a Crafting Table to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"increase its range from \",\"color\":\"gray\"},{\"text\":\"4 blocks \",\"color\":\"green\"},{\"text\":\"to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"5 blocks \",\"color\":\"green\"},{\"text\":\"and decrease its \",\"color\":\"gray\"},{\"text\":\"Mana Cost\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"from \",\"color\":\"gray\"},{\"text\":\"60 \",\"color\":\"aqua\"},{\"text\":\"to \",\"color\":\"gray\"},{\"text\":\"50\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SUPER_LEECH_MODIFIER",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Super_Leech_Modifier",
     "https://wiki.hypixel.net/Super_Leech_Modifier"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

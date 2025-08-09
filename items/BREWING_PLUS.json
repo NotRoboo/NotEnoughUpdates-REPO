@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fBrewing+",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8b295791-9cf9-3f6f-891a-68d245ade9af\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjAsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYjFiNWI3NjVkNDM3MDgyYTZkNWUwODZmMDNlZTFmMzllNzZjM2YzNmJjYmQyOWNiNzMyMjA5N2Y2ZDdhMTQ5In19fQ==\"}]}},display:{Lore:[0:\"§8Furniture\",1:\"§8Replicates Vanilla functions\",2:\"\",3:\"§7A fancier looking place to brew.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fBrewing+\"},ExtraAttributes:{id:\"BREWING_PLUS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Brewing+\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Brewing+\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Replicates Vanilla functions\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A fancier looking place to brew.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BREWING_PLUS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "§8Replicates Vanilla functions",
-    "",
-    "§7A fancier looking place to brew.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Replicates Vanilla functions\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A fancier looking place to brew.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "BREWING_PLUS",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Brewing+",
     "https://wiki.hypixel.net/Brewing+"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

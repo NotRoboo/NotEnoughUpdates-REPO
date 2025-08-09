@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§9Tribal Spear",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Strength: §c+100\",1:\"\",2:\"§6Ability: Thwack §e§lRIGHT CLICK\",3:\"§7Throw the spear like an arrow\",4:\"§7which will return to you.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§9§lRARE SWORD\"],Name:\"§9Tribal Spear\"},ExtraAttributes:{id:\"TRIBAL_SPEAR\"}}",
+  "displayname": "{\"text\":\"Tribal Spear\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tribal Spear\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Thwack \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Throw the spear like an arrow\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"which will return to you.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TRIBAL_SPEAR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Strength: §c+100",
-    "",
-    "§6Ability: Thwack §e§lRIGHT CLICK",
-    "§7Throw the spear like an arrow",
-    "§7which will return to you.",
-    "",
-    "§7§8This item can be reforged!",
-    "§9§lRARE SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Thwack \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Throw the spear like an arrow\",\"color\":\"gray\"}",
+    "{\"text\":\"which will return to you.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "TRIBAL_SPEAR",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Tribal_Spear",
     "https://wiki.hypixel.net/Tribal_Spear"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

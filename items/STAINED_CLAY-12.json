@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:stained_hardened_clay",
-  "displayname": "§fBrown Hardened Clay",
-  "nbttag": "{ExtraAttributes:{id:\"STAINED_CLAY-12\"},HideFlags:254,ItemModel:\"minecraft:brown_terracotta\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBrown Hardened Clay\"}}",
-  "damage": 12,
+  "displayname": "{\"text\":\"Brown Hardened Clay\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stained_hardened_clay\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Brown Hardened Clay\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STAINED_CLAY-12\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STAINED_CLAY-12",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "HARD_CLAY:1",
     "C3": "HARD_CLAY:1",
     "count": 8
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

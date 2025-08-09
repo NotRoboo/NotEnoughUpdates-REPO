@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:firework_charge",
-  "displayname": "§aNull Sphere",
-  "nbttag": "{ExtraAttributes:{id:\"NULL_SPHERE\"},HideFlags:254,ItemModel:\"minecraft:firework_star\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aNull Sphere\"},ench:[]}",
+  "displayname": "{\"text\":\"Null Sphere\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:firework_charge\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Null Sphere\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NULL_SPHERE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "NULL_SPHERE",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Null_Sphere",
     "https://wiki.hypixel.net/Null_Sphere"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

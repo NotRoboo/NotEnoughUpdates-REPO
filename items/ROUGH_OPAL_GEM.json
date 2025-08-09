@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f❂ Rough Opal Gemstone",
-  "nbttag": "{ExtraAttributes:{id:\"ROUGH_OPAL_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"59909e23-d9e1-301f-9cc8-5192bca55081\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NjY1MDI5MjQ5NiwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTE0ZDNjNTdmODA4MjRiMzgzOWI4YjIyMGYyMTU4YmNhNTA1ZDQ5N2ZkMWM5ZTNmMjlmNDIyYjFlNjIwNmE0NSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Found sprinkled around the\",1:\"§cCrimson Isle§7.\",2:\"\",3:\"§7Some say that when §eharnessed\",4:\"§eproperly§7, it can give its\",5:\"§7owner extra §f❂ True Defense§7.\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§f❂ Rough Opal Gemstone\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"❂ Rough Opal Gemstone\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"❂ Rough Opal Gemstone\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Found sprinkled around the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crimson Isle\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Some say that when \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"harnessed\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"properly\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\", it can give its\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"owner extra \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❂ True Defense\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ROUGH_OPAL_GEM\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0NjY1MDI5MjQ5NiwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTE0ZDNjNTdmODA4MjRiMzgzOWI4YjIyMGYyMTU4YmNhNTA1ZDQ5N2ZkMWM5ZTNmMjlmNDIyYjFlNjIwNmE0NSIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Found sprinkled around the",
-    "§cCrimson Isle§7.",
-    "",
-    "§7Some say that when §eharnessed",
-    "§eproperly§7, it can give its",
-    "§7owner extra §f❂ True Defense§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Found sprinkled around the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crimson Isle\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Some say that when \",\"color\":\"gray\"},{\"text\":\"harnessed\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"properly\",\"color\":\"yellow\"},{\"text\":\", it can give its\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"owner extra \",\"color\":\"gray\"},{\"text\":\"❂ True Defense\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ROUGH_OPAL_GEM",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
     "https://wiki.hypixel.net/Gemstone"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

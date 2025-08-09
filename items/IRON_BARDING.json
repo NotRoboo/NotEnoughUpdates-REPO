@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:iron_horse_armor",
-  "displayname": "§9Iron Horse Armor",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§9§lRARE\"],Name:\"§9Iron Horse Armor\"},ExtraAttributes:{id:\"IRON_BARDING\"}}",
+  "displayname": "{\"text\":\"Iron Horse Armor\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_horse_armor\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Iron Horse Armor\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"IRON_BARDING\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§9§lRARE"
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "IRON_BARDING",
   "modver": "2.0.0-REL",
@@ -13,5 +13,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Horse_Armor"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

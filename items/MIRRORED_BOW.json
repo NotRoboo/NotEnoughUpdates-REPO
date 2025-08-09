@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§fwoB",
-  "nbttag": "{ExtraAttributes:{id:\"MIRRORED_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§8This item can be reforged!\",1:\"§f§lCOMMON BOW\"],Name:\"§fwoB\"}}",
+  "displayname": "{\"text\":\"woB\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"woB\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON BOW\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MIRRORED_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8This item can be reforged!",
-    "§f§lCOMMON BOW"
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON BOW\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MIRRORED_BOW",
   "clickcommand": "viewrecipe",
@@ -26,5 +26,8 @@
     "C1": "MIRRORED_STRING:1",
     "C2": "MIRRORED_STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dMadame Eleanor Q. Goldsworth I (Rift NPC)",
-  "nbttag": "{SkullOwner:{Id:\"f001d8b0-2872-27c7-95d7-143b7cb622b5\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM3YzY4MjdiYzM5ZGI5YTJmMmIxNWY3OWNiOGY4NmY4ZTY4M2Q4ZDM2MDFiMTdjZjVkNmY5NzhmMzNkNzFkNDYifX19\"}]},Name:\"f001d8b0-2872-27c7-95d7-143b7cb622b5\"},display:{Lore:[0:\"\"],Name:\"§dMadame Eleanor Q. Goldsworth I (Rift NPC)\"},ExtraAttributes:{id:\"MADAME_ELEANOR_Q_GOLDSWORTH_I_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Madame Eleanor Q. Goldsworth I (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Madame Eleanor Q. Goldsworth I (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"MADAME_ELEANOR_Q_GOLDSWORTH_I_RIFT_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "MADAME_ELEANOR_Q_GOLDSWORTH_I_RIFT_NPC",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Madame_Eleanor_Q._Goldsworth_I"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

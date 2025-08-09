@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§6⚚ Last Breath",
-  "nbttag": "{ExtraAttributes:{id:\"STARRED_LAST_BREATH\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d480\",1:\"§7Damage: §c+210\",2:\"§7Strength: §c+190\",3:\"§7Crit Damage: §c+50%\",4:\"\",5:\"§7Reduces the defense of your target\",6:\"§7by §a10% §7of their max §a❈ Defense §7on\",7:\"§7hit, stacking up to §a5 §7times.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires The Catacombs Floor V Completion.\",11:\"§6§lLEGENDARY DUNGEON BOW\"],Name:\"§6⚚ Last Breath\"}}",
+  "displayname": "{\"text\":\"⚚ Last Breath\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"⚚ Last Breath\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"480\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+210\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+190\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Reduces the defense of your target\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of their max \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❈ Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"on\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"hit, stacking up to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"times.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires The Catacombs Floor V Completion.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY DUNGEON BOW\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STARRED_LAST_BREATH\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d480",
-    "§7Damage: §c+210",
-    "§7Strength: §c+190",
-    "§7Crit Damage: §c+50%",
-    "",
-    "§7Reduces the defense of your target",
-    "§7by §a10% §7of their max §a❈ Defense §7on",
-    "§7hit, stacking up to §a5 §7times.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires The Catacombs Floor V Completion.",
-    "§6§lLEGENDARY DUNGEON BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"480\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+210\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+190\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+50%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Reduces the defense of your target\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"10% \",\"color\":\"green\"},{\"text\":\"of their max \",\"color\":\"gray\"},{\"text\":\"❈ Defense \",\"color\":\"green\"},{\"text\":\"on\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"hit, stacking up to \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"green\"},{\"text\":\"times.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires The Catacombs Floor V Completion.\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY DUNGEON BOW\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "STARRED_LAST_BREATH",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C2": "LIVID_FRAGMENT:1",
     "C3": "LIVID_FRAGMENT:1"
   },
-  "parent": "LAST_BREATH"
+  "parent": "LAST_BREATH",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

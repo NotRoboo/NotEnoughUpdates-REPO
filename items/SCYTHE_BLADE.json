@@ -1,19 +1,22 @@
 {
   "internalname": "SCYTHE_BLADE",
   "itemid": "minecraft:diamond",
-  "displayname": "§6Scythe Blade",
+  "displayname": "{\"text\":\"Scythe Blade\",\"color\":\"gold\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§6§lLEGENDARY\"],Name:\"§6Scythe Blade\"},ExtraAttributes:{id:\"SCYTHE_BLADE\"}}",
+  "nbttag": "{\"id\":\"minecraft:diamond\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Scythe Blade\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SCYTHE_BLADE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Scythe_Blade",
     "https://wiki.hypixel.net/Scythe_Blade"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

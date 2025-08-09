@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fFestive Skeleton Minion Skin",
-  "nbttag": "{ExtraAttributes:{id:\"FESTIVE_SKELETON_PERSONALITY\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"23dd0567-3ac9-393a-9934-f15b88f948b0\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwODEzODUwNzU3OSwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZWM3NmZmZTJjZGRlMGEwY2UyZWI4NjEyMTg3OTZlOTIwYTIzYjEzNmNmMjkzZmIyZWM4YTljMjY1MGQ1ZjBlIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7This Minion skin changes your\",1:\"§7minion's appearance to a §eFestive\",2:\"§eSkeleton§7.\",3:\"\",4:\"§7You can place this item in any minion\",5:\"§7of your choice!\",6:\"\",7:\"§f§lCOMMON COSMETIC\"],Name:\"§fFestive Skeleton Minion Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Festive Skeleton Minion Skin\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Festive Skeleton Minion Skin\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This Minion skin changes your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"minion\u0027s appearance to a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Festive\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Skeleton\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You can place this item in any minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"of your choice!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON COSMETIC\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FESTIVE_SKELETON_PERSONALITY\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYwODEzODUwNzU3OSwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZWM3NmZmZTJjZGRlMGEwY2UyZWI4NjEyMTg3OTZlOTIwYTIzYjEzNmNmMjkzZmIyZWM4YTljMjY1MGQ1ZjBlIgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7This Minion skin changes your",
-    "§7minion's appearance to a §eFestive",
-    "§eSkeleton§7.",
-    "",
-    "§7You can place this item in any minion",
-    "§7of your choice!",
-    "",
-    "§f§lCOMMON COSMETIC"
+    "{\"text\":\"This Minion skin changes your\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"minion\u0027s appearance to a \",\"color\":\"gray\"},{\"text\":\"Festive\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Skeleton\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You can place this item in any minion\",\"color\":\"gray\"}",
+    "{\"text\":\"of your choice!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON COSMETIC\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FESTIVE_SKELETON_PERSONALITY",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Minion_Skin",
     "https://wiki.hypixel.net/Minion_Skins"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

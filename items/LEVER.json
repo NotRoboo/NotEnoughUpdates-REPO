@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:lever",
-  "displayname": "§fLever",
-  "nbttag": "{ExtraAttributes:{id:\"LEVER\"},HideFlags:254,ItemModel:\"minecraft:lever\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fLever\"}}",
+  "displayname": "{\"text\":\"Lever\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:lever\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lever\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LEVER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "LEVER",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

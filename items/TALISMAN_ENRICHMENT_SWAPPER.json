@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:comparator",
-  "displayname": "§cAccessory Enrichment Swapper",
-  "nbttag": "{ExtraAttributes:{id:\"TALISMAN_ENRICHMENT_SWAPPER\"},HideFlags:254,ItemModel:\"minecraft:comparator\",display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7Swaps all §9enriched §7accessories in\",3:\"§7your accessory bag to another\",4:\"§7enrichment.\",5:\"\",6:\"§eRight-click to open menu!\",7:\"\",8:\"§c§lSPECIAL\"],Name:\"§cAccessory Enrichment Swapper\"},ench:[]}",
+  "displayname": "{\"text\":\"Accessory Enrichment Swapper\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:comparator\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Accessory Enrichment Swapper\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Swaps all \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"enriched \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"accessories in\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"your accessory bag to another\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enrichment.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to open menu!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TALISMAN_ENRICHMENT_SWAPPER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Consumed on use",
-    "",
-    "§7Swaps all §9enriched §7accessories in",
-    "§7your accessory bag to another",
-    "§7enrichment.",
-    "",
-    "§eRight-click to open menu!",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Consumed on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Swaps all \",\"color\":\"gray\"},{\"text\":\"enriched \",\"color\":\"blue\"},{\"text\":\"accessories in\",\"color\":\"gray\"}]}",
+    "{\"text\":\"your accessory bag to another\",\"color\":\"gray\"}",
+    "{\"text\":\"enrichment.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to open menu!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "TALISMAN_ENRICHMENT_SWAPPER",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Accessory_Enrichment_Swapper",
     "https://wiki.hypixel.net/Accessory_Enrichment_Swapper"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

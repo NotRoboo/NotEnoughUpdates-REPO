@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:heavy_weighted_pressure_plate",
-  "displayname": "§fParkour Checkpoint",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Create checkpoints for parkour\",1:\"§7courses on your private island!\",2:\"\",3:\"§7§4❣ §cRequires §aSocial Skill 1§c.\",4:\"§f§lCOMMON\"],Name:\"§fParkour Checkpoint\"},ExtraAttributes:{id:\"PARKOUR_POINT\"}}",
+  "displayname": "{\"text\":\"Parkour Checkpoint\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:heavy_weighted_pressure_plate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Parkour Checkpoint\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Create checkpoints for parkour\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"courses on your private island!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Social Skill 1\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PARKOUR_POINT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Create checkpoints for parkour",
-    "§7courses on your private island!",
-    "",
-    "§7§4❣ §cRequires §aSocial Skill 1§c.",
-    "§f§lCOMMON"
+    "{\"text\":\"Create checkpoints for parkour\",\"color\":\"gray\"}",
+    "{\"text\":\"courses on your private island!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Social Skill 1\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "PARKOUR_POINT",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Parkour_Checkpoint",
     "https://wiki.hypixel.net/Parkour_Checkpoint"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

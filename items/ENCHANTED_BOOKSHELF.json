@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:bookshelf",
-  "displayname": "§aEnchanted Bookshelf",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_BOOKSHELF\"},HideFlags:254,ItemModel:\"minecraft:bookshelf\",display:{Lore:[0:\"§7Place near an §9Enchantment Table §7to\",1:\"§7provide Bookshelf Power. The higher\",2:\"§7the Bookshelf Power, the more\",3:\"§7enchantments are available.\",4:\"\",5:\"§7Bookshelf Power: §915\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Bookshelf\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Bookshelf\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:bookshelf\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Bookshelf\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Place near an \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Enchantment Table \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"provide Bookshelf Power. The higher\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the Bookshelf Power, the more\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enchantments are available.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bookshelf Power: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"15\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_BOOKSHELF\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Place near an §9Enchantment Table §7to",
-    "§7provide Bookshelf Power. The higher",
-    "§7the Bookshelf Power, the more",
-    "§7enchantments are available.",
-    "",
-    "§7Bookshelf Power: §915",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Place near an \",\"color\":\"gray\"},{\"text\":\"Enchantment Table \",\"color\":\"blue\"},{\"text\":\"to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"provide Bookshelf Power. The higher\",\"color\":\"gray\"}",
+    "{\"text\":\"the Bookshelf Power, the more\",\"color\":\"gray\"}",
+    "{\"text\":\"enchantments are available.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bookshelf Power: \",\"color\":\"gray\"},{\"text\":\"15\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_BOOKSHELF",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "ENCHANTED_OAK_LOG:1",
     "C2": "ENCHANTED_OAK_LOG:1",
     "C3": "ENCHANTED_OAK_LOG:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

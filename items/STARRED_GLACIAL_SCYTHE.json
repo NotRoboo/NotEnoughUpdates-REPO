@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:diamond_hoe",
-  "displayname": "§5⚚ Glacial Scythe",
-  "nbttag": "{ExtraAttributes:{id:\"STARRED_GLACIAL_SCYTHE\"},HideFlags:254,ItemModel:\"minecraft:diamond_hoe\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+130\",1:\"§7Intelligence: §a+40\",2:\" §8[§7✎§8]\",3:\"\",4:\"§6Ability: Ice Bolt  §e§lRIGHT CLICK\",5:\"§7Shoots §a1 §7Ice Bolt that deals §c1,713.6 §7damage\",6:\"§7and slows enemies hit for §a5 §7seconds! When\",7:\"§7hitting the ground, also creates an explosion\",8:\"§7of §a3 §7blocks, dealing the same damage.\",9:\"§8Mana Cost: §375\",10:\"\",11:\"§8This item can be reforged!\",12:\"§5§lEPIC SWORD\"],Name:\"§5⚚ Glacial Scythe\"}}",
+  "displayname": "{\"text\":\"⚚ Glacial Scythe\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_hoe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"⚚ Glacial Scythe\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+130\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"✎\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Ice Bolt \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Shoots \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Ice Bolt that deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1,713.6 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and slows enemies hit for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"seconds! When\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"hitting the ground, also creates an explosion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"blocks, dealing the same damage.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"75\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STARRED_GLACIAL_SCYTHE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+130",
-    "§7Intelligence: §a+40",
-    " §8[§7✎§8]",
-    "",
-    "§6Ability: Ice Bolt  §e§lRIGHT CLICK",
-    "§7Shoots §a1 §7Ice Bolt that deals §c1,713.6 §7damage",
-    "§7and slows enemies hit for §a5 §7seconds! When",
-    "§7hitting the ground, also creates an explosion",
-    "§7of §a3 §7blocks, dealing the same damage.",
-    "§8Mana Cost: §375",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+130\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"✎\",\"color\":\"gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Ice Bolt \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Shoots \",\"color\":\"gray\"},{\"text\":\"1 \",\"color\":\"green\"},{\"text\":\"Ice Bolt that deals \",\"color\":\"gray\"},{\"text\":\"1,713.6 \",\"color\":\"red\"},{\"text\":\"damage\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and slows enemies hit for \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"green\"},{\"text\":\"seconds! When\",\"color\":\"gray\"}]}",
+    "{\"text\":\"hitting the ground, also creates an explosion\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"of \",\"color\":\"gray\"},{\"text\":\"3 \",\"color\":\"green\"},{\"text\":\"blocks, dealing the same damage.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"75\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "STARRED_GLACIAL_SCYTHE",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "WINTER_FRAGMENT:1",
     "C2": "WINTER_FRAGMENT:1",
     "C3": "WINTER_FRAGMENT:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

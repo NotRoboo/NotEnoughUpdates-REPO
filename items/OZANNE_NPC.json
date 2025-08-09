@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Ozanne (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"d7b77bd8-7b7c-28de-b578-657170880293\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmOWI1MTU2MDgzZjVhNzc5OTc3NjNiYWVlOWI0YTNlYWNlOTJhYTQyMzljNmI1MzgzNzExNDVhMTIwMjk4OTQifX19\"}]},Name:\"d7b77bd8-7b7c-28de-b578-657170880293\"},display:{Lore:[0:\"\"],Name:\"§9Ozanne (NPC)\"},ExtraAttributes:{id:\"OZANNE_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Ozanne (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ozanne (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"OZANNE_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "OZANNE_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ozanne",
     "https://wiki.hypixel.net/Ozanne"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

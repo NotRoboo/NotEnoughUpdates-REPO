@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§cKuudra Follower Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"\",1:\"§6Full Set Bonus: Follower\",2:\"§7Shows that you are a true\",3:\"§7follower of Kuudra.\",4:\"\",5:\"§7Hunter: §c[ADMIN] Dueces\",6:\"\",7:\"§8Edition #1\",8:\"§8September 12th, 2022\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§8§l* §8Soulbound §8§l*\",12:\"§c§lSPECIAL CHESTPLATE\"],color:3494666,Name:\"§cKuudra Follower Chestplate\"},ExtraAttributes:{edition:1,id:\"KUUDRA_FOLLOWER_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Kuudra Follower Chestplate\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Kuudra Follower Chestplate\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Follower\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Shows that you are a true\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"follower of Kuudra.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hunter: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"[ADMIN] Dueces\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Edition #1\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"September 12th, 2022\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL CHESTPLATE\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"edition\":1,\"id\":\"KUUDRA_FOLLOWER_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "",
-    "§6Full Set Bonus: Follower",
-    "§7Shows that you are a true",
-    "§7follower of Kuudra.",
-    "",
-    "§7Hunter: §c[ADMIN] Dueces",
-    "",
-    "§8Edition #1",
-    "§8September 12th, 2022",
-    "",
-    "§7§8This item can be reforged!",
-    "§8§l* §8Soulbound §8§l*",
-    "§c§lSPECIAL CHESTPLATE"
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Follower\",\"color\":\"gold\"}",
+    "{\"text\":\"Shows that you are a true\",\"color\":\"gray\"}",
+    "{\"text\":\"follower of Kuudra.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hunter: \",\"color\":\"gray\"},{\"text\":\"[ADMIN] Dueces\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Edition #1\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"September 12th, 2022\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL CHESTPLATE\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "KUUDRA_FOLLOWER_CHESTPLATE",
   "crafttext": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Kuudra_Follower_Chestplate",
     "https://wiki.hypixel.net/Kuudra_Follower_Chestplate"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Lesser Orb of Healing",
-  "nbttag": "{ExtraAttributes:{id:\"LESSER_ORB_OF_HEALING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2887b38c-eab9-3adc-8be9-22a80ecc6262\",Properties:{textures:[0:{Name:\"textures\",Signature:\"NBOgUPpGpfxyVDsTitATeJw59GwMeV+nTobAqUntQ4N8tYgNURehrv2KmWd8FvHjBS+K1sMjz5tdklsn4y108bdt9iPgvMJOQOGVx+pOmWJ4USBZRK0xKpfAz65rAM8Tyd1eV5CaqNxI7KoOtVc5qTCb+9copLwZ05ADbdwiTnseiMvIOwzFICwGbeNU6JpqKeOD51C0hvec+4+l9ngDfYkk1TMt12mKHqxizOxacAFubnCNUdiIJYDhAKINyarwKZr/qAfVt0XjjIdnK9vOtWSep/Nzy3gf8n7ZgXogHmXVkx6q/4PWgqjNHFCW5i8IUd4t92Ka1eigSeReeSu+SiVCHbgGXVLpnCAm+Jo1pbMk2Eo4Cy8D6T4w20JhbEUZCGOn89PXH2HOlNUJNKdBmTgliNh/rmNu7g/dCmoU9Ih2wTDA6cWgtoJrA2c0tNZzCrRXiQ/06Zy+ZH2+Fs5lT9EUBweOpSZSVRWErgv3HL2TfI69r+MbsON3yQUB7IGTKuqRLcvhqK8rzm0UhdBnLjksOjTeNEmFJhK9W/EZe+tCazCK11TXOqJW3WgkZmTzxBruqf2McWi8hhS+hBr/PWD+3zK3YVCYbq17ISMyJ7LzrH8vYlHbIZ3bfMiJM6lbFtz4uFt3fbcZrQolcwiukAPXXugmYhANOmZg1E7gyGk=\",Value:\"eyJ0aW1lc3RhbXAiOjE1MjgwMzM1NDk0MTksInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI4OTY1ODBjN2MzNDQ2MzI5ODc0MWI2NjA3YWQ1NjMzMzJhMWE0ZDBlODlmN2Q3NWFjZGY3OTkzN2EwZTc3MiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7A shard of a Dungeon Blessing,\",1:\"§7capable of being bestowed upon\",2:\"§7another player for a continuous buff,\",3:\"§7but draining mana.\",4:\"\",5:\"§aOrb of Life §e§lRIGHT CLICK TEAMMATE\",6:\"§7Heals §c5%§7 of max §c❤ §7per second.\",7:\"§8Ignores ♨ Vitality!\",8:\"§8Mana Drain: §350 per second\",9:\"\",10:\"§4❣ §cRequires Catacombs Skill 16.\",11:\"§5§lEPIC DUNGEON ITEM\"],Name:\"§5Lesser Orb of Healing\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Lesser Orb of Healing\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lesser Orb of Healing\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A shard of a Dungeon Blessing,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"capable of being bestowed upon\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"another player for a continuous buff,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"but draining mana.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Orb of Life \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"RIGHT CLICK TEAMMATE\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Heals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" of max \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per second.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Ignores ♨ Vitality!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Drain: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"50 per second\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 16.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON ITEM\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7A shard of a Dungeon Blessing,",
-    "§7capable of being bestowed upon",
-    "§7another player for a continuous buff,",
-    "§7but draining mana.",
-    "",
-    "§aOrb of Life §e§lRIGHT CLICK TEAMMATE",
-    "§7Heals §c5%§7 of max §c❤ §7per second.",
-    "§8Ignores ♨ Vitality!",
-    "§8Mana Drain: §350 per second",
-    "",
-    "§4❣ §cRequires Catacombs Skill 16.",
-    "§5§lEPIC DUNGEON ITEM"
+    "{\"text\":\"A shard of a Dungeon Blessing,\",\"color\":\"gray\"}",
+    "{\"text\":\"capable of being bestowed upon\",\"color\":\"gray\"}",
+    "{\"text\":\"another player for a continuous buff,\",\"color\":\"gray\"}",
+    "{\"text\":\"but draining mana.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Orb of Life \",\"color\":\"green\"},{\"text\":\"RIGHT CLICK TEAMMATE\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Heals \",\"color\":\"gray\"},{\"text\":\"5%\",\"color\":\"red\"},{\"text\":\" of max \",\"color\":\"gray\"},{\"text\":\"❤ \",\"color\":\"red\"},{\"text\":\"per second.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Ignores ♨ Vitality!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Drain: \",\"color\":\"dark_gray\"},{\"text\":\"50 per second\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 16.\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON ITEM\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "LESSER_ORB_OF_HEALING",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "MIMIC_FRAGMENT:1",
     "C2": "MIMIC_FRAGMENT:1",
     "C3": "MIMIC_FRAGMENT:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

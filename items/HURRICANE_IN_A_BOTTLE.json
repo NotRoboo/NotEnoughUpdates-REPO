@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Hurricane in a Bottle",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8ef92f5f-b4c9-404a-9db9-4ee23e608a37\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMDY0NzM1NjM1NywKICAicHJvZmlsZUlkIiA6ICI5ZjJiY2M1M2U4YzM0OTY4YTc5Yzc0NTExYWQ2NmQyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWJveWlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5ZDU4YjMxMTI2NTZiNTM5MDYzYWM3NWEzNmY2MzU5ZTI1NmYzZmNmNzU1ZjVkOGM4YzVhMDA0OTNmOTg2NTEiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7§7What happens if you open it? The\",3:\"§7answer may shock you.\",4:\"\",5:\"§7Charge: §e5,000,000§6/§e5,000,000\",6:\"\",7:\"§6§lLEGENDARY\"],Name:\"§6Hurricane in a Bottle\"},ExtraAttributes:{id:\"HURRICANE_IN_A_BOTTLE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Hurricane in a Bottle\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hurricane in a Bottle\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"What happens if you open it? The\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"answer may shock you.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Charge: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5,000,000\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"5,000,000\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HURRICANE_IN_A_BOTTLE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
-    "",
-    "§7§7What happens if you open it? The",
-    "§7answer may shock you.",
-    "",
-    "§7Charge: §e5,000,000§6/§e5,000,000",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"What happens if you open it? The\",\"color\":\"gray\"}",
+    "{\"text\":\"answer may shock you.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Charge: \",\"color\":\"gray\"},{\"text\":\"5,000,000\",\"color\":\"yellow\"},{\"text\":\"/\",\"color\":\"gold\"},{\"text\":\"5,000,000\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "HURRICANE_IN_A_BOTTLE",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hurricane_in_a_Bottle",
     "https://wiki.hypixel.net/Hurricane_In_A_Bottle"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

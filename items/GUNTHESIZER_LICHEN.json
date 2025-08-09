@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§9Gunthesizer Lichen",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Gunthesizer Lichen\"},ExtraAttributes:{id:\"GUNTHESIZER_LICHEN\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Gunthesizer Lichen\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gunthesizer Lichen\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GUNTHESIZER_LICHEN\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "GUNTHESIZER_LICHEN",
   "clickcommand": "",
@@ -15,5 +15,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gunthesizer_Lichen",
     "https://wiki.hypixel.net/Gunthesizer_Lichen"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

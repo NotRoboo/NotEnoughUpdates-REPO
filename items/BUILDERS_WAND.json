@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:blaze_rod",
-  "displayname": "§6Builder's Wand",
-  "nbttag": "{ExtraAttributes:{id:\"BUILDERS_WAND\"},HideFlags:254,ItemModel:\"minecraft:blaze_rod\",display:{Lore:[0:\"§6Ability: Grand Architect  §e§lRIGHT CLICK\",1:\"§7Right-Click the face of a block to\",2:\"§7extend all connected block faces.\",3:\"\",4:\"§6Ability: Built-in Storage  §e§lLEFT CLICK\",5:\"§7Opens the wand storage. Blocks will\",6:\"§7be placed from your inventory or\",7:\"§7the wand storage.\",8:\"\",9:\"§6§lLEGENDARY\"],Name:\"§6Builder's Wand\"},ench:[]}",
+  "displayname": "{\"text\":\"Builder\u0027s Wand\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:blaze_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Builder\u0027s Wand\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Grand Architect \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Right-Click the face of a block to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"extend all connected block faces.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Built-in Storage \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"LEFT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Opens the wand storage. Blocks will\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"be placed from your inventory or\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the wand storage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BUILDERS_WAND\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Grand Architect  §e§lRIGHT CLICK",
-    "§7Right-Click the face of a block to",
-    "§7extend all connected block faces.",
-    "",
-    "§6Ability: Built-in Storage  §e§lLEFT CLICK",
-    "§7Opens the wand storage. Blocks will",
-    "§7be placed from your inventory or",
-    "§7the wand storage.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Grand Architect \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Right-Click the face of a block to\",\"color\":\"gray\"}",
+    "{\"text\":\"extend all connected block faces.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Built-in Storage \",\"color\":\"gold\"},{\"text\":\"LEFT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Opens the wand storage. Blocks will\",\"color\":\"gray\"}",
+    "{\"text\":\"be placed from your inventory or\",\"color\":\"gray\"}",
+    "{\"text\":\"the wand storage.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "BUILDERS_WAND",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Builder%27s_Wand",
     "https://wiki.hypixel.net/Builder%27s_Wand"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

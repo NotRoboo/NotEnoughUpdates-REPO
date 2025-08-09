@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dAlatar (Rift NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b57dfda0-a189-2e62-a3c2-211ce88461ca\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JkNmFiNjk5ZjZhYjNiNTAwODEzNTdiMjM3ZTg5NDY4OTFlYTVmNGViMzczZTI2NmM3ZWU0ZjJiYTJmYTEwZGEifX19\"}]},Name:\"b57dfda0-a189-2e62-a3c2-211ce88461ca\"},display:{Lore:[0:\"§7An NPC that talks about how\",1:\"§7time flows in the Rift Dimension.\"],Name:\"§dAlatar (Rift NPC)\"},ExtraAttributes:{id:\"ALATAR_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Alatar (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Alatar (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"An NPC that talks about how\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"time flows in the Rift Dimension.\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"ALATAR_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7An NPC that talks about how",
-    "§7time flows in the Rift Dimension."
+    "{\"text\":\"An NPC that talks about how\",\"color\":\"gray\"}",
+    "{\"text\":\"time flows in the Rift Dimension.\",\"color\":\"gray\"}"
   ],
   "internalname": "ALATAR_RIFT_NPC",
   "clickcommand": "",
@@ -19,5 +19,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Alatar",
     "https://wiki.hypixel.net/Alatar"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

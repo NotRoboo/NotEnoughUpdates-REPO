@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§5Zombie Lord Chestplate",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d199\",1:\"§7Strength: §c+7\",2:\"§7Health: §a+85\",3:\"§7Defense: §a+39\",4:\"§7Intelligence: §a+7\",5:\"\",6:\"§6Full Set Bonus: Dungeon Lord\",7:\"§7Gains §c+10❁ Strength §7and\",8:\"§7§a+10❈ Defense §7every minute\",9:\"§7spent in the Dungeon.\",10:\"\",11:\"§2This armor piece is undead ༕!\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4❣ §cRequires §cCatacombs Skill\",15:\"§c25§c.\",16:\"§5§lEPIC DUNGEON CHESTPLATE\"],color:10158529,Name:\"§5Zombie Lord Chestplate\"},ExtraAttributes:{dungeon_item_level:0,id:\"ZOMBIE_LORD_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Zombie Lord Chestplate\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie Lord Chestplate\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"199\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+7\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+85\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+39\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+7\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Dungeon Lord\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gains \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10❁ Strength \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+10❈ Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"every minute\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"spent in the Dungeon.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This armor piece is undead ༕!\\\",\\\"color\\\":\\\"dark_green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Catacombs Skill\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"25\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"dungeon_item_level\":0,\"id\":\"ZOMBIE_LORD_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d199",
-    "§7Strength: §c+7",
-    "§7Health: §a+85",
-    "§7Defense: §a+39",
-    "§7Intelligence: §a+7",
-    "",
-    "§6Full Set Bonus: Dungeon Lord",
-    "§7Gains §c+10❁ Strength §7and",
-    "§7§a+10❈ Defense §7every minute",
-    "§7spent in the Dungeon.",
-    "",
-    "§2This armor piece is undead ༕!",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §cCatacombs Skill",
-    "§c25§c.",
-    "§5§lEPIC DUNGEON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"199\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+7\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+85\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+39\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+7\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Dungeon Lord\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gains \",\"color\":\"gray\"},{\"text\":\"+10❁ Strength \",\"color\":\"red\"},{\"text\":\"and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+10❈ Defense \",\"color\":\"green\"},{\"text\":\"every minute\",\"color\":\"gray\"}]}",
+    "{\"text\":\"spent in the Dungeon.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This armor piece is undead ༕!\",\"color\":\"dark_green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Catacombs Skill\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"25\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ZOMBIE_LORD_CHESTPLATE",
   "crafttext": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Zombie_Lord_Chestplate",
     "https://wiki.hypixel.net/Zombie_Lord_Chestplate"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

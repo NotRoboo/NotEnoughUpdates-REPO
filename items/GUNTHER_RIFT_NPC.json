@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dGunther (Rift NPC)",
-  "nbttag": "{SkullOwner:{Id:\"56038abe-f6dd-243e-a1c4-0715cb252b16\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQxODY0NzNlODBiYjM1N2IzNTNkYTIyMDQ4YmZlZjEzYjBiMzgxMjcwNzc5OGFiYWFiNTA4MTJlYWZjMzFjN2QifX19\"}]},Name:\"56038abe-f6dd-243e-a1c4-0715cb252b16\"},display:{Lore:[0:\"\"],Name:\"§dGunther (Rift NPC)\"},ExtraAttributes:{id:\"GUNTHER_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Gunther (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gunther (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"GUNTHER_RIFT_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "GUNTHER_RIFT_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gunther",
     "https://wiki.hypixel.net/Gunther"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

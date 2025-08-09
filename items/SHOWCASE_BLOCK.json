@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:glass",
-  "displayname": "§aShowcase Block",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Show off an item in this fancy\",1:\"§7glass display box! §e§lRIGHT\",2:\"§e§lCLICK §7to put in or swap an\",3:\"§7item.\",4:\"\",5:\"§7§4❣ §cRequires §aSocial Skill 10§c.\",6:\"§a§lUNCOMMON\"],Name:\"§aShowcase Block\"},ExtraAttributes:{id:\"SHOWCASE_BLOCK\"}}",
+  "displayname": "{\"text\":\"Showcase Block\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:glass\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Showcase Block\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Show off an item in this fancy\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"glass display box! \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"RIGHT\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"CLICK \\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"to put in or swap an\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"item.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Social Skill 10\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SHOWCASE_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Show off an item in this fancy",
-    "§7glass display box! §e§lRIGHT",
-    "§e§lCLICK §7to put in or swap an",
-    "§7item.",
-    "",
-    "§7§4❣ §cRequires §aSocial Skill 10§c.",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Show off an item in this fancy\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"glass display box! \",\"color\":\"gray\"},{\"text\":\"RIGHT\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"CLICK \",\"color\":\"yellow\",\"bold\":true},{\"text\":\"to put in or swap an\",\"color\":\"gray\"}]}",
+    "{\"text\":\"item.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Social Skill 10\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SHOWCASE_BLOCK",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Showcase_Block",
     "https://wiki.hypixel.net/Showcase_Block"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

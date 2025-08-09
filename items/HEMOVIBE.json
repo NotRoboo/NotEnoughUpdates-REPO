@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:redstone_ore",
-  "displayname": "§aHemovibe",
-  "nbttag": "{ExtraAttributes:{id:\"HEMOVIBE\"},HideFlags:254,ItemModel:\"minecraft:redstone_ore\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Dropped by vampires from the\",3:\"§7multiverse coven.\",4:\"\",5:\"§5§kX§5 Rift-Transferable §5§kX\",6:\"§a§lUNCOMMON\"],Name:\"§aHemovibe\"}}",
+  "displayname": "{\"text\":\"Hemovibe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:redstone_ore\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hemovibe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Dropped by vampires from the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"multiverse coven.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HEMOVIBE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7Dropped by vampires from the",
-    "§7multiverse coven.",
-    "",
-    "§5§kX§5 Rift-Transferable §5§kX",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Dropped by vampires from the\",\"color\":\"gray\"}",
+    "{\"text\":\"multiverse coven.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "HEMOVIBE",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hemovibe",
     "https://wiki.hypixel.net/Hemovibe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

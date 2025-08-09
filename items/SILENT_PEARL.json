@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:ender_pearl",
-  "displayname": "§aSilent Pearl",
-  "nbttag": "{ExtraAttributes:{id:\"SILENT_PEARL\"},HideFlags:254,ItemModel:\"minecraft:ender_pearl\",display:{Lore:[0:\"§7Prevents pearl damage and\",1:\"§7Enderman from spawning when\",2:\"§7thrown on §dThe End §7Island!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSilent Pearl\"}}",
+  "displayname": "{\"text\":\"Silent Pearl\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:ender_pearl\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Silent Pearl\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Prevents pearl damage and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Enderman from spawning when\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"thrown on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The End \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"Island!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SILENT_PEARL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Prevents pearl damage and",
-    "§7Enderman from spawning when",
-    "§7thrown on §dThe End §7Island!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Prevents pearl damage and\",\"color\":\"gray\"}",
+    "{\"text\":\"Enderman from spawning when\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"thrown on \",\"color\":\"gray\"},{\"text\":\"The End \",\"color\":\"light_purple\"},{\"text\":\"Island!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SILENT_PEARL",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
       "cost": "EMERALD:6",
       "result": "SILENT_PEARL"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

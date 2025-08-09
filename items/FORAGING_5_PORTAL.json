@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fPortal to Dark Thicket",
-  "nbttag": "{ExtraAttributes:{id:\"FORAGING_5_PORTAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f7ea847c-66d2-3dfe-bf43-04f60a783551\",Properties:{textures:[0:{Name:\"textures\",Signature:\"fHTpDOW9HH5IaMxiQQYKmVx7et/qrKefzhsGVzmpKcf2Pv9XnnkKGtujGFtgwmbkT5gr2IQr7vRVEsjUV2R7nb7qBY4ODIm7jPfKiyO/9a4P4ADECJzzotWw3VHNXV66Vu9I+PlcAiozYZpT8AKF09ZxeD1OEB5hIUe1JG6wzK0dbe4BXDtNGnOu2mTF2v6T0rPFLdU9jMiL4iVGBd7rySMf1Rjh5kFCsM4K3WxO+qx/WU4KX6MbDO2uJ6ddZGbwV4XZAzH6RRzJgoAZSIcdfglhHVHNcujO05OT0qG/fwb8WxXKCrriVN6PndRIiySkYr/RP+aii4lUXUspfxGA2cjnDLeYNmPI2Fzf/A8X7aC3he509xtDPXzRDzub8JWrjrk3Zk0U/2HrF/dehmtgOpldMXcs8/mrYGiO9c4DXrkPidtONV6BILNNFl4PxcfrhsK5pQlvLJsuoFnlkXz4H+p2PRJfgFOxFOPXCbDI8Dvrt5njHOD5XqA/IvZCogOx21e3YBzydFeFR+hIyWJVpgaQgzC1oxtW+Hqu4KrKb6dNGsy/9jPrp/CsyrjYLSswmOK6KA8UHXMNEHBFO9Ln2YQ45b0f+paiht0F0anLFBpceIs3F4mudotzhN6l+wQO6OnLFQGkm/K1OY6Wxr0hvGz2tXPCYygtwjtz4v7IpYI=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTczMzQyNjc3MDAsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4YTJiZTg0YmQ2Y2U3ZjQ2YmM0YTFmYTAzNGNmNmZkZjYzZDYyMDA1NzhhY2M3NWY5ZjMxODE2NGIzOTY3YiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Placing this item on your private\",1:\"§7island will create a portal to §aDark\",2:\"§aThicket§7 for you to use whenever you\",3:\"§7want!\",4:\"\",5:\"§8The portal will spawn facing you on\",6:\"§8the block you click on.\",7:\"\",8:\"§f§lCOMMON PORTAL\"],Name:\"§fPortal to Dark Thicket\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Portal to Dark Thicket\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Portal to Dark Thicket\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Placing this item on your private\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"island will create a portal to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Dark\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Thicket\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" for you to use whenever you\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"want!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"The portal will spawn facing you on\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"the block you click on.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON PORTAL\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FORAGING_5_PORTAL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NTczMzQyNjc3MDAsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4YTJiZTg0YmQ2Y2U3ZjQ2YmM0YTFmYTAzNGNmNmZkZjYzZDYyMDA1NzhhY2M3NWY5ZjMxODE2NGIzOTY3YiJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Placing this item on your private",
-    "§7island will create a portal to §aDark",
-    "§aThicket§7 for you to use whenever you",
-    "§7want!",
-    "",
-    "§8The portal will spawn facing you on",
-    "§8the block you click on.",
-    "",
-    "§f§lCOMMON PORTAL"
+    "{\"text\":\"Placing this item on your private\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"island will create a portal to \",\"color\":\"gray\"},{\"text\":\"Dark\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Thicket\",\"color\":\"green\"},{\"text\":\" for you to use whenever you\",\"color\":\"gray\"}]}",
+    "{\"text\":\"want!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"The portal will spawn facing you on\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"the block you click on.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON PORTAL\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FORAGING_5_PORTAL",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "LOG_2-1:16",
     "C2": "LOG_2-1:16",
     "C3": "LOG_2-1:16"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

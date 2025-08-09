@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:stone_sword",
-  "displayname": "§6Dark Claymore",
-  "nbttag": "{ExtraAttributes:{id:\"DARK_CLAYMORE\"},HideFlags:254,ItemModel:\"minecraft:stone_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d680\",1:\"§7Damage: §c+500\",2:\"§7Strength: §c+100\",3:\"§7Crit Damage: §c+100%\",4:\"§7Swing Range: §a+2\",5:\" §8[⚔] [⚔]\",6:\"\",7:\"§8§oThat thing was too big to be called a\",8:\"§8§osword, it was more like a large hunk\",9:\"§8§oof stone.\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4❣ §cRequires Master Mode The Catacombs Floor VII\",13:\"§cCompletion.\",14:\"§6§lLEGENDARY DUNGEON LONGSWORD\"],Name:\"§6Dark Claymore\"}}",
+  "displayname": "{\"text\":\"Dark Claymore\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:stone_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dark Claymore\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"680\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+500\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Swing Range: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[⚔] [⚔]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"That thing was too big to be called a\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"sword, it was more like a large hunk\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"of stone.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Master Mode The Catacombs Floor VII\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"Completion.\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY DUNGEON LONGSWORD\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DARK_CLAYMORE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d680",
-    "§7Damage: §c+500",
-    "§7Strength: §c+100",
-    "§7Crit Damage: §c+100%",
-    "§7Swing Range: §a+2",
-    " §8[⚔] [⚔]",
-    "",
-    "§8§oThat thing was too big to be called a",
-    "§8§osword, it was more like a large hunk",
-    "§8§oof stone.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Master Mode The Catacombs Floor VII",
-    "§cCompletion.",
-    "§6§lLEGENDARY DUNGEON LONGSWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"680\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+500\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+100%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Swing Range: \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[⚔] [⚔]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"That thing was too big to be called a\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"sword, it was more like a large hunk\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"of stone.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Master Mode The Catacombs Floor VII\",\"color\":\"red\"}]}",
+    "{\"text\":\"Completion.\",\"color\":\"red\"}",
+    "{\"text\":\"LEGENDARY DUNGEON LONGSWORD\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "DARK_CLAYMORE",
   "clickcommand": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dark_Claymore",
     "https://wiki.hypixel.net/Dark_Claymore"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

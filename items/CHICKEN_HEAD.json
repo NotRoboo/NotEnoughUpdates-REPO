@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fChicken Hat",
-  "nbttag": "{ExtraAttributes:{id:\"CHICKEN_HEAD\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9dcb534b-3a14-37c7-b003-0ee8db591271\",Properties:{textures:[0:{Name:\"textures\",Signature:\"kHw81kRsiuqMiEVwBr/xROYYMnean1z2tKeYnPEzRQSpA4A9DDyukQ/FBneyaUHx1y9hbjsG/MEAYyhQujZXvsLosC7Wmpzob0TEk+hWnwcdSdFnzDz59Iq5M5RrLC5xzacHbIH+ZWm5OcqHD3Uipfpl6OZCpCLYLiGZd/E9C7yxXAM8nXdm1QA25Ax90AUkeEmZskGOtTfGjoENOd7pkl21/hZvx3xRPcX8k/HMn8b8Dyjlv5hVEpGUhJDAiT/oj48ZPzusllrPr37KXn/7COjqa4v0lJR7x46F6MQfj/XxtB7qGiTmhQ0kapFK3e56GFYZYKJjwR0c2kPr824QmnnFW0nLJ67O4oIh0sNxFhoJr4BN3E8YLY+7UBoluMBRTY+LN1Jso5COMA1ULL0gV9RW1BvPoj37p0rVtMsr+/dUklt6QHrt/dQPx/71Yw7p9C2oV+z80q62qAocc4jh1/2TRyOANhy+hQmxKuNYkDzisyKk18UU0Mi1ez5DGzx4otFW4sw1WYY0MUa9xQYvGA2vqDiA36Q/0KjZd6N7S6WIlOpCO6ve/37NPsEaT9neK2YMbTPU5pDLVygCpteQhGvpAaiXnWlW59CKWgmV50bJJSqwJMfi9K+zGW9XXIDf9crY8Gfvb+vONuJBGW+daPpiEkn/NGGFenyu0xb6HS0=\",Value:\"eyJ0aW1lc3RhbXAiOjE0OTg2ODkzODA5ODgsInByb2ZpbGVJZCI6IjkyZGVhZmE5NDMwNzQyZDliMDAzODg2MDE1OThkNmMwIiwicHJvZmlsZU5hbWUiOiJNSEZfQ2hpY2tlbiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Health: §a+20\",1:\"\",2:\"§7Lay eggs when you sneak! Has a\",3:\"§7cooldown of §a5 §7seconds. Also\",4:\"§7reduces fall damage by §a5%§7.\",5:\"\",6:\"§8This item can be reforged!\",7:\"§f§lCOMMON HELMET\"],Name:\"§fChicken Hat\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Chicken Hat\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chicken Hat\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Lay eggs when you sneak! Has a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"cooldown of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"seconds. Also\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"reduces fall damage by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON HELMET\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CHICKEN_HEAD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE0OTg2ODkzODA5ODgsInByb2ZpbGVJZCI6IjkyZGVhZmE5NDMwNzQyZDliMDAzODg2MDE1OThkNmMwIiwicHJvZmlsZU5hbWUiOiJNSEZfQ2hpY2tlbiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Health: §a+20",
-    "",
-    "§7Lay eggs when you sneak! Has a",
-    "§7cooldown of §a5 §7seconds. Also",
-    "§7reduces fall damage by §a5%§7.",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Lay eggs when you sneak! Has a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"cooldown of \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"green\"},{\"text\":\"seconds. Also\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"reduces fall damage by \",\"color\":\"gray\"},{\"text\":\"5%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON HELMET\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "CHICKEN_HEAD",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

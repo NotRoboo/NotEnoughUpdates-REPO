@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Bundle of Magma Arrows",
-  "nbttag": "{ExtraAttributes:{id:\"ARROW_BUNDLE_MAGMA\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"17c69624-a342-3d09-a976-d0c155aaafec\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NTY0NDM0MzYyNCwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjRkZmFmZTdhYjhlODY5NWE1NmQzMWNjODY2NjcwNWQ2MWVkOTNiMWM1MTkxMGMyMmY0YTk1MGViNTVmMDRkZCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Right-click to consume this item\",1:\"§7and add §5Magma Arrow x256 §7to\",2:\"§7your quiver.\",3:\"\",4:\"§4❣ §cRequires §aCombat Skill 25§c.\",5:\"§5§lEPIC\"],Name:\"§5Bundle of Magma Arrows\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bundle of Magma Arrows\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bundle of Magma Arrows\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to consume this item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and add \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Magma Arrow x256 \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"your quiver.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 25\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ARROW_BUNDLE_MAGMA\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0NTY0NDM0MzYyNCwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjRkZmFmZTdhYjhlODY5NWE1NmQzMWNjODY2NjcwNWQ2MWVkOTNiMWM1MTkxMGMyMmY0YTk1MGViNTVmMDRkZCIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Right-click to consume this item",
-    "§7and add §5Magma Arrow x256 §7to",
-    "§7your quiver.",
-    "",
-    "§4❣ §cRequires §aCombat Skill 25§c.",
-    "§5§lEPIC"
+    "{\"text\":\"Right-click to consume this item\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and add \",\"color\":\"gray\"},{\"text\":\"Magma Arrow x256 \",\"color\":\"dark_purple\"},{\"text\":\"to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"your quiver.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 25\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ARROW_BUNDLE_MAGMA",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bundle_of_Magma_Arrows",
     "https://wiki.hypixel.net/Bundle_Of_Magma_Arrows"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

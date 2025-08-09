@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:arrow",
-  "displayname": "§9Explosive Arrow",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Damage: §c+3\",1:\"\",2:\"§6Passive: Explosive\",3:\"§7This arrow explodes after §a2s §7or on\",4:\"§7impact.\",5:\"\",6:\"§7The explosion deals the arrow\u0027s\",7:\"§7damage split to mobs within §e2.5 §7blocks.\",8:\"\",9:\"§7You will lose §c10% §7of your §c❤ Health §7if\",10:\"§7you are in the explosion.\",11:\"\",12:\"§7§4❣ §cRequires §aCombat Skill 23§c.\",13:\"§7§4❣ §cRequires §aCoal Collection VII§c.\",14:\"§7§4❣ §cRequires §cTarget Practice III§c.\",15:\"§8Stats added when shot!\",16:\"§9§lRARE ARROW\"],Name:\"§9Explosive Arrow\"},ExtraAttributes:{id:\"EXPLOSIVE_ARROW\"}}",
+  "displayname": "{\"text\":\"Explosive Arrow\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:arrow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Explosive Arrow\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Passive: Explosive\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This arrow explodes after \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2s \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"or on\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"impact.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"The explosion deals the arrow\u0027s\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"damage split to mobs within \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2.5 \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"blocks.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"You will lose \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"of your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"if\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"you are in the explosion.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 23\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Coal Collection VII\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Target Practice III\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"Stats added when shot!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE ARROW\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EXPLOSIVE_ARROW\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+3",
-    "",
-    "§6Passive: Explosive",
-    "§7This arrow explodes after §a2s §7or on",
-    "§7impact.",
-    "",
-    "§7The explosion deals the arrow\u0027s",
-    "§7damage split to mobs within §e2.5 §7blocks.",
-    "",
-    "§7You will lose §c10% §7of your §c❤ Health §7if",
-    "§7you are in the explosion.",
-    "",
-    "§7§4❣ §cRequires §aCombat Skill 23§c.",
-    "§7§4❣ §cRequires §aCoal Collection VII§c.",
-    "§7§4❣ §cRequires §cTarget Practice III§c.",
-    "§8Stats added when shot!",
-    "§9§lRARE ARROW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+3\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Passive: Explosive\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This arrow explodes after \",\"color\":\"gray\"},{\"text\":\"2s \",\"color\":\"green\"},{\"text\":\"or on\",\"color\":\"gray\"}]}",
+    "{\"text\":\"impact.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"The explosion deals the arrow\u0027s\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"damage split to mobs within \",\"color\":\"gray\"},{\"text\":\"2.5 \",\"color\":\"yellow\"},{\"text\":\"blocks.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"You will lose \",\"color\":\"gray\"},{\"text\":\"10% \",\"color\":\"red\"},{\"text\":\"of your \",\"color\":\"gray\"},{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"if\",\"color\":\"gray\"}]}",
+    "{\"text\":\"you are in the explosion.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 23\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Coal Collection VII\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Target Practice III\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"Stats added when shot!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE ARROW\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "EXPLOSIVE_ARROW",
   "crafttext": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Explosive_Arrow",
     "https://wiki.hypixel.net/Explosive_Arrow"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

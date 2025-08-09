@@ -1,27 +1,27 @@
 {
   "itemid": "minecraft:deadbush",
-  "displayname": "§6Great Spook Staff",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Fear: §a+10\",1:\"\",2:\"§7§7Obtained during the §e2021\",3:\"§e§5Alchemist §7experiments!\",4:\"\",5:\"§6Ability: Spooker §e§lLEFT CLICK\",6:\"§7§7Will spook other players with a §8§oscary\",7:\"§8§o§7message when you §cpunch §7them.\",8:\"§8Cooldown: §a1m\",9:\"\",10:\"§6Ability: Spook §e§lRIGHT CLICK\",11:\"§7§7Will make you appear as a\",12:\"§7§eDead Bush §7to other players.\",13:\"§8Cooldown: §a15s\",14:\"\",15:\"§8Edition #§k420\",16:\"\",17:\"§6§lLEGENDARY\"],Name:\"§6Great Spook Staff\"},ExtraAttributes:{edition:800,originTag:\"UNKNOWN\",id:\"GREAT_SPOOK_STAFF\"}}",
+  "displayname": "{\"text\":\"Great Spook Staff\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:deadbush\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Great Spook Staff\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fear: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2021\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Alchemist \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"experiments!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Spooker \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"LEFT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Will spook other players with a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"scary\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"message when you \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"punch \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"them.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1m\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Spook \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Will make you appear as a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Dead Bush \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"to other players.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"15s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Edition #\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"420\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"edition\":800,\"originTag\":\"UNKNOWN\",\"id\":\"GREAT_SPOOK_STAFF\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7Fear: §a+10",
-    "",
-    "§7§7Obtained during the §e2021",
-    "§e§5Alchemist §7experiments!",
-    "",
-    "§6Ability: Spooker §e§lLEFT CLICK",
-    "§7§7Will spook other players with a §8§oscary",
-    "§8§o§7message when you §cpunch §7them.",
-    "§8Cooldown: §a1m",
-    "",
-    "§6Ability: Spook §e§lRIGHT CLICK",
-    "§7§7Will make you appear as a",
-    "§7§eDead Bush §7to other players.",
-    "§8Cooldown: §a15s",
-    "",
-    "§8Edition #§k420",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fear: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained during the \",\"color\":\"gray\"},{\"text\":\"2021\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Alchemist \",\"color\":\"dark_purple\"},{\"text\":\"experiments!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Spooker \",\"color\":\"gold\"},{\"text\":\"LEFT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Will spook other players with a \",\"color\":\"gray\"},{\"text\":\"scary\",\"color\":\"dark_gray\",\"italic\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"message when you \",\"color\":\"gray\"},{\"text\":\"punch \",\"color\":\"red\"},{\"text\":\"them.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"1m\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Spook \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Will make you appear as a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Dead Bush \",\"color\":\"yellow\"},{\"text\":\"to other players.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"15s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Edition #\",\"color\":\"dark_gray\"},{\"text\":\"420\",\"color\":\"dark_gray\",\"obfuscated\":true}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "GREAT_SPOOK_STAFF",
   "crafttext": "",
@@ -31,5 +31,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Great_Spook_Staff",
     "https://wiki.hypixel.net/Great_Spook_Staff"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

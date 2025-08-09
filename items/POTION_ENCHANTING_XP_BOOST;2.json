@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fEnchanting XP Boost II Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:1B,Duration:20,Id:22B}],ExtraAttributes:{effects:[0:{duration_ticks:28800,effect:\"enchanting_xp_boost\",level:2}],id:\"POTION_ENCHANTING_XP_BOOST;2\",potion:\"enchanting_xp_boost\",potion_level:2,potion_type:\"POTION\"},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"§aEnchanting XP Boost II §f(24:00)\",1:\"§7Grants §3+10☯ Enchanting Wisdom§7.\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fEnchanting XP Boost II Potion\"}}",
+  "displayname": "{\"text\":\"Enchanting XP Boost II Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanting XP Boost II Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Enchanting XP Boost II \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"(24:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10☯ Enchanting Wisdom\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"effects\":\"[0:{duration_ticks:28800\",\"level\":2,\"effect\":\"enchanting_xp_boost\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§aEnchanting XP Boost II §f(24:00)",
-    "§7Grants §3+10☯ Enchanting Wisdom§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Enchanting XP Boost II \",\"color\":\"green\"},{\"text\":\"(24:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+10☯ Enchanting Wisdom\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_ENCHANTING_XP_BOOST;2",
   "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "",
-  "info": []
+  "info": [],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

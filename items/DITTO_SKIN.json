@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Ditto Skin",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fd7c23ea-b628-3f89-b216-7fded6983aec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYzODE5NzI2OTE2NywKICAicHJvZmlsZUlkIiA6ICIxNzU1N2FjNTEzMWE0YTUzODAwODg3Y2E4ZTQ4YWQyNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQZW50YXRpbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NWFhODU5ZWMzZjU2NWViMDA2ZWQ3ZGYyNjQxOWRlYWM5YTE1NDIwZDA5Y2ZkM2JkZWVjNDBlYTA3ZDEzNjZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7§7Spawn an NPC with the captured skin.\",1:\"\",2:\"§6Ability: Copycat \",3:\"§7Copies the skin of an unsuspecting\",4:\"§7player.\",5:\"§8Cooldown: §a10s\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§7§cRequires §5Ⓑ Bingo Rank III§c!\",9:\"§5§lEPIC COSMETIC\"],Name:\"§5Ditto Skin\"},ExtraAttributes:{id:\"DITTO_SKIN\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Ditto Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ditto Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Spawn an NPC with the captured skin.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Copycat \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Copies the skin of an unsuspecting\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"player.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"10s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Ⓑ Bingo Rank III\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DITTO_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7Spawn an NPC with the captured skin.",
-    "",
-    "§6Ability: Copycat ",
-    "§7Copies the skin of an unsuspecting",
-    "§7player.",
-    "§8Cooldown: §a10s",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§7§cRequires §5Ⓑ Bingo Rank III§c!",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Spawn an NPC with the captured skin.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Copycat \",\"color\":\"gold\"}",
+    "{\"text\":\"Copies the skin of an unsuspecting\",\"color\":\"gray\"}",
+    "{\"text\":\"player.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"10s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Ⓑ Bingo Rank III\",\"color\":\"dark_purple\"},{\"text\":\"!\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "DITTO_SKIN",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ditto_Skin",
     "https://wiki.hypixel.net/Ditto_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:sponge",
-  "displayname": "§fSponge",
-  "nbttag": "{ExtraAttributes:{id:\"SPONGE\"},HideFlags:254,ItemModel:\"minecraft:sponge\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fSponge\"}}",
+  "displayname": "{\"text\":\"Sponge\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:sponge\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sponge\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPONGE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SPONGE",
   "clickcommand": "",
@@ -17,5 +17,8 @@
     "https://wiki.hypixel.net/Sponge",
     "https://hypixel-skyblock.fandom.com/wiki/Sponge"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

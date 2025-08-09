@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Agaricus Cap Cap",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bf74d86d-f520-312a-9d46-5758f76b4ade\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2NjAwMjI2MjUyMywKICAicHJvZmlsZUlkIiA6ICJmZTE0M2FhZTVmNGE0YTdiYjM4MzcxM2U1Mjg0YmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWZveHk0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4NDQ2ZDQ5ZTJmZTQ1MzM3Yzg1ODc1NzQzN2YwNDg2OTlhMGRmMzUxMDUxODdhMTk3NDEyMmVhZTliZjdlY2MiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Rift Time: §a+50s\",1:\"§7Intelligence: §a+15\",2:\"\",3:\"§6Ability: Helmets All The Way Down\",4:\"§7Regain §a+2ф §7when killing a\",5:\"§7monster.\",6:\"\",7:\"§9§lRARE HELMET\"],Name:\"§9Agaricus Cap Cap\"},ExtraAttributes:{id:\"AGARICUS_CAP_CAP\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Agaricus Cap Cap\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Agaricus Cap Cap\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Helmets All The Way Down\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2ф \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"when killing a\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"monster.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE HELMET\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"AGARICUS_CAP_CAP\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Rift Time: §a+50s",
-    "§7Intelligence: §a+15",
-    "",
-    "§6Ability: Helmets All The Way Down",
-    "§7Regain §a+2ф §7when killing a",
-    "§7monster.",
-    "",
-    "§9§lRARE HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+50s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Helmets All The Way Down\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regain \",\"color\":\"gray\"},{\"text\":\"+2ф \",\"color\":\"green\"},{\"text\":\"when killing a\",\"color\":\"gray\"}]}",
+    "{\"text\":\"monster.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE HELMET\",\"color\":\"blue\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "AGARICUS_CAP:10",
@@ -32,5 +32,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Agaricus_Cap_Cap",
     "https://wiki.hypixel.net/Agaricus_Cap_Cap"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

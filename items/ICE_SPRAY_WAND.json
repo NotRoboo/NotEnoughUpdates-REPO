@@ -1,25 +1,25 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§9Ice Spray Wand",
-  "nbttag": "{ExtraAttributes:{id:\"ICE_SPRAY_WAND\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§7Gear Score: §d131\",1:\"§7Damage: §c+52\",2:\"§7Intelligence: §a+118\",3:\" §8[✎]\",4:\"\",5:\"§6Ability: Ice Spray  §e§lRIGHT CLICK\",6:\"§7Produces a cone of ice in front of the caster\",7:\"§7that deals §c17,102.1 §7damage to mobs and\",8:\"§7freezes them in place for §e5 §7seconds! Frozen\",9:\"§7mobs take §c10%§7 increased damage!\",10:\"§8Mana Cost: §350\",11:\"§8Cooldown: §a5s\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires Catacombs Skill 20.\",15:\"§9§lRARE DUNGEON SWORD\"],Name:\"§9Ice Spray Wand\"},ench:[]}",
+  "displayname": "{\"text\":\"Ice Spray Wand\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ice Spray Wand\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"131\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+52\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+118\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[✎]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Ice Spray \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Produces a cone of ice in front of the caster\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"that deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"17,102.1 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage to mobs and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"freezes them in place for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"seconds! Frozen\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"mobs take \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" increased damage!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"50\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"5s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 20.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE DUNGEON SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ICE_SPRAY_WAND\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d131",
-    "§7Damage: §c+52",
-    "§7Intelligence: §a+118",
-    " §8[✎]",
-    "",
-    "§6Ability: Ice Spray  §e§lRIGHT CLICK",
-    "§7Produces a cone of ice in front of the caster",
-    "§7that deals §c17,102.1 §7damage to mobs and",
-    "§7freezes them in place for §e5 §7seconds! Frozen",
-    "§7mobs take §c10%§7 increased damage!",
-    "§8Mana Cost: §350",
-    "§8Cooldown: §a5s",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Catacombs Skill 20.",
-    "§9§lRARE DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"131\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+52\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+118\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[✎]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Ice Spray \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Produces a cone of ice in front of the caster\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"that deals \",\"color\":\"gray\"},{\"text\":\"17,102.1 \",\"color\":\"red\"},{\"text\":\"damage to mobs and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"freezes them in place for \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"yellow\"},{\"text\":\"seconds! Frozen\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"mobs take \",\"color\":\"gray\"},{\"text\":\"10%\",\"color\":\"red\"},{\"text\":\" increased damage!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"50\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"5s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 20.\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE DUNGEON SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ICE_SPRAY_WAND",
   "clickcommand": "",
@@ -29,5 +29,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ice_Spray_Wand",
     "https://wiki.hypixel.net/Ice_Spray_Wand"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3Tiger Shark (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9759a0b6-2a7f-4265-8271-e5dd183e0fb4\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk0YWU0MzNiMzAxYzdmYjdjNjhjYmE2MjViMGJkMzZiMGIxNDE5MGYyMGUzNGE3YzhlZTBkOWRlMDZkNTNiOSJ9fX0===\"}]}},display:{Lore:[0:\"§7The Tiger Shark is one of 4 sharks added in the fishing aspect of the\",1:\"§7community center update. It can be caught during fishing festivals\",2:\"§7while Marina is mayor by those of at least Fishing Level 18.\",3:\"\",4:\"§c❤ Health§8: §c250,000\",5:\"\",6:\"§c§lSPECIAL\"],Name:\"§3Tiger Shark (Sea Creature)\"},ExtraAttributes:{id:\"TIGER_SHARK_SC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Tiger Shark (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tiger Shark (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Tiger Shark is one of 4 sharks added in the fishing aspect of the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"community center update. It can be caught during fishing festivals\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"while Marina is mayor by those of at least Fishing Level 18.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"250,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TIGER_SHARK_SC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Tiger Shark is one of 4 sharks added in the fishing aspect of the",
-    "§7community center update. It can be caught during fishing festivals",
-    "§7while Marina is mayor by those of at least Fishing Level 18.",
-    "",
-    "§c❤ Health§8: §c250,000",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"The Tiger Shark is one of 4 sharks added in the fishing aspect of the\",\"color\":\"gray\"}",
+    "{\"text\":\"community center update. It can be caught during fishing festivals\",\"color\":\"gray\"}",
+    "{\"text\":\"while Marina is mayor by those of at least Fishing Level 18.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"250,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "TIGER_SHARK_SC",
   "clickcommand": "viewrecipe",
@@ -55,5 +55,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

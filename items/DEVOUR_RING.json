@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Devour Ring",
-  "nbttag": "{ExtraAttributes:{id:\"DEVOUR_RING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5f673e2f-e293-39fb-b147-2de9bec15063\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjE1NjgzNDkwODM1MTksInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhhN2QxYTUyZThjOGRkYWFmMGM0MjhlMWZlNDkwMWVmMzNlZmYyNTFmMjg5ZGUyNzE2Mzk1Y2FkMjBiZjMwOWIifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Heal §c5❤ §7when killing a\",1:\"§7monster.\",2:\"§8Cooldown: §a0.5s\",3:\"\",4:\"§4☠ §cRequires §5Zombie Slayer 5§c.\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Devour Ring\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Devour Ring\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Devour Ring\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Heal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"when killing a\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"monster.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"0.5s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Zombie Slayer 5\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE ACCESSORY\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DEVOUR_RING\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NjgzNDkwODM1MTksInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhhN2QxYTUyZThjOGRkYWFmMGM0MjhlMWZlNDkwMWVmMzNlZmYyNTFmMjg5ZGUyNzE2Mzk1Y2FkMjBiZjMwOWIifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Heal §c5❤ §7when killing a",
-    "§7monster.",
-    "§8Cooldown: §a0.5s",
-    "",
-    "§4☠ §cRequires §5Zombie Slayer 5§c.",
-    "§9§lRARE ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Heal \",\"color\":\"gray\"},{\"text\":\"5❤ \",\"color\":\"red\"},{\"text\":\"when killing a\",\"color\":\"gray\"}]}",
+    "{\"text\":\"monster.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"0.5s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Zombie Slayer 5\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE ACCESSORY\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "DEVOUR_RING",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C2": "",
     "C3": ""
   },
-  "slayer_req": "ZOMBIE_5"
+  "slayer_req": "ZOMBIE_5",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

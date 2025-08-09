@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5Hurricane Bow",
-  "nbttag": "{ExtraAttributes:{id:\"HURRICANE_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+50\",2:\"\",3:\"§6Ability: Tempest \",4:\"§7The more kills you get using this bow\",5:\"§7the more powerful it becomes! Reach\",6:\"§6250 §7kills to unlock its full potential.\",7:\"§7Next Upgrade: §eDouble Shot §8(§a0§7/§c20§8)\",8:\"\",9:\"§7Kills: §b0\",10:\"\",11:\"§8This item can be reforged!\",12:\"§5§lEPIC BOW\"],Name:\"§5Hurricane Bow\"}}",
+  "displayname": "{\"text\":\"Hurricane Bow\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hurricane Bow\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Tempest \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"The more kills you get using this bow\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the more powerful it becomes! Reach\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"250 \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"kills to unlock its full potential.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Next Upgrade: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Double Shot \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"(\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\")\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Kills: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC BOW\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HURRICANE_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+120",
-    "§7Strength: §c+50",
-    "",
-    "§6Ability: Tempest ",
-    "§7The more kills you get using this bow",
-    "§7the more powerful it becomes! Reach",
-    "§6250 §7kills to unlock its full potential.",
-    "§7Next Upgrade: §eDouble Shot §8(§a0§7/§c20§8)",
-    "",
-    "§7Kills: §b0",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+120\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Tempest \",\"color\":\"gold\"}",
+    "{\"text\":\"The more kills you get using this bow\",\"color\":\"gray\"}",
+    "{\"text\":\"the more powerful it becomes! Reach\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"250 \",\"color\":\"gold\"},{\"text\":\"kills to unlock its full potential.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Next Upgrade: \",\"color\":\"gray\"},{\"text\":\"Double Shot \",\"color\":\"yellow\"},{\"text\":\"(\",\"color\":\"dark_gray\"},{\"text\":\"0\",\"color\":\"green\"},{\"text\":\"/\",\"color\":\"gray\"},{\"text\":\"20\",\"color\":\"red\"},{\"text\":\")\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Kills: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC BOW\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "HURRICANE_BOW",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C1": "",
     "C2": "ENCHANTED_BONE:32",
     "C3": "STRING:32"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Sand Minion IV",
-  "nbttag": "{ExtraAttributes:{id:\"SAND_GENERATOR_4\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"edb119a9-ebd9-3442-9c89-0cd9ada20dcc\",Properties:{textures:[0:{Name:\"textures\",Signature:\"qP58k9w0b0UD1NjB3PNaKoOWkNub0wugD6eCUXV5GsQ0EZm/YP6aH0zaiXFIUKeowj7kdbg0+/Rh8hSKxxmhHbsMrBcOpm9gWviMlCa6Ium5AAgo6wyw3qdRe3nr4uJj6bbEYj1mrwQfIFi6QzlY70R2UXrCoYdibwjC9hULHtFUVcr6pGRCEY1FTN8vdd7SeHQvenI+DX7n9hjEYqjunHhnpM4CYXqk+mEkNO3KLGnUBqJoJ1WSfpzrTNWSupzGz4qCP5raC2I2M19yB8OSsoYodu/Tq8WjXXeb8G6v0q2ilNnT6vwDOMSeZhUH77FJAgrLWz9l3Uu1kX7HV7I4E9VzleYU5bsPGnptY59OphxtFtQNWUvOoCMb0jz8O6mzLpmujuhYCOLKBznbe4hTdI2jZ9X5IPPqrTNdY3PA1MQUx4lOwqJkIS9hmaAv5blBK16mLaLd1DXYm1PjckhkRQckcAyjLYzneQkVHbnoAI0lMXFP74r6pC/q6RIg5K49QAA9bxxienZvqUFYpFcMJeB8U+Ya2pY8Fo8YT591DXdS947EHocuQ0Shriu17ymrVd805lThRaC5fsHtShQNr8by87bMXvyP9B3VFS5pr9We8FEBbFhB+/eBbGRBKE+X2YNmZhf79Uiha9M1lPKwgTlxAF1jCN5dCil9UTRt0dA=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDU4ODA0MjAsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ3NzA5YTlmNWJhZTJjNWU3MjdhZWU0YmU3MDZhMzU5YzUxYWNiODQyYWFmYTFhNGQyM2ZiNjJmNzNlOWFhNiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining sand! Requires\",2:\"§7an open area to place sand. Minions\",3:\"§7also work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a24s\",6:\"§7Max Storage: §e384\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Sand Minion IV\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Sand Minion IV\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sand Minion IV\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and mining sand! Requires\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"an open area to place sand. Minions\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"also work when you are offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"24s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"384\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SAND_GENERATOR_4\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NTc5NDU4ODA0MjAsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ3NzA5YTlmNWJhZTJjNWU3MjdhZWU0YmU3MDZhMzU5YzUxYWNiODQyYWFmYTFhNGQyM2ZiNjJmNzNlOWFhNiJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and mining sand! Requires",
-    "§7an open area to place sand. Minions",
-    "§7also work when you are offline!",
-    "",
-    "§7Time Between Actions: §a24s",
-    "§7Max Storage: §e384",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and mining sand! Requires\",\"color\":\"gray\"}",
+    "{\"text\":\"an open area to place sand. Minions\",\"color\":\"gray\"}",
+    "{\"text\":\"also work when you are offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"24s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"384\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SAND_GENERATOR_4",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C2": "SAND:64",
     "C3": "SAND:64"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

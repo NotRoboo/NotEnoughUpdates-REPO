@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fPortal to the Trapper\u0027s Den",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"06fe96b8-9b54-3ecd-950c-c5624395a911\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODI2MzEwNDI4NywKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjEwMmY4MjE0ODQ2MWNlZDFmN2I2MmUzMjZlYjJkYjNhOTRhMzNjYmE4MWQ0MjgxNDUyYWY0ZDhhZWNhNDk5MSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Placing this item on your\",1:\"§7private island will create a\",2:\"§7portal to §bthe Trapper\u0027s Den§7\",3:\"§7for you to use whenever you\",4:\"§7want!\",5:\"\",6:\"§7§8The portal will spawn facing\",7:\"§8you on the block you click on.\",8:\"\",9:\"§f§lCOMMON PORTAL\"],Name:\"§fPortal to the Trapper\u0027s Den\"},ExtraAttributes:{id:\"TRAPPER_DEN_PORTAL\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Portal to the Trapper\u0027s Den\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Portal to the Trapper\u0027s Den\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Placing this item on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"private island will create a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"portal to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"the Trapper\u0027s Den\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"for you to use whenever you\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"want!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"The portal will spawn facing\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"you on the block you click on.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON PORTAL\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TRAPPER_DEN_PORTAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Placing this item on your",
-    "§7private island will create a",
-    "§7portal to §bthe Trapper\u0027s Den§7",
-    "§7for you to use whenever you",
-    "§7want!",
-    "",
-    "§7§8The portal will spawn facing",
-    "§8you on the block you click on.",
-    "",
-    "§f§lCOMMON PORTAL"
+    "{\"text\":\"Placing this item on your\",\"color\":\"gray\"}",
+    "{\"text\":\"private island will create a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"portal to \",\"color\":\"gray\"},{\"text\":\"the Trapper\u0027s Den\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"for you to use whenever you\",\"color\":\"gray\"}",
+    "{\"text\":\"want!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"The portal will spawn facing\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"you on the block you click on.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON PORTAL\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "TRAPPER_DEN_PORTAL",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Portals",
     "https://wiki.hypixel.net/Portals"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

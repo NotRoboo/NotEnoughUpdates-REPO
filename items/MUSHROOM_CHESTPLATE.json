@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§fMushroom Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+10\",1:\"§7Defense: §a+10\",2:\"\",3:\"§6Full Set Bonus: Night Affinity §7(0/4)\",4:\"§7Grants the wearer permanent §aNight\",5:\"§aVision§7 while worn. All stats on this\",6:\"§7armor piece are multiplied by §a3x§7 at\",7:\"§7§5night§7 while in §aThe Garden§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§7§4❣ §cRequires §aFarming Skill 7§c.\",11:\"§f§lCOMMON CHESTPLATE\"],color:16711680,Name:\"§fMushroom Chestplate\"},ExtraAttributes:{id:\"MUSHROOM_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Mushroom Chestplate\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mushroom Chestplate\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Night Affinity \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants the wearer permanent \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Night\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vision\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" while worn. All stats on this\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"armor piece are multiplied by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3x\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" at\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"night\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\" while in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 7\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"COMMON CHESTPLATE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MUSHROOM_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+10",
-    "§7Defense: §a+10",
-    "",
-    "§6Full Set Bonus: Night Affinity §7(0/4)",
-    "§7Grants the wearer permanent §aNight",
-    "§aVision§7 while worn. All stats on this",
-    "§7armor piece are multiplied by §a3x§7 at",
-    "§7§5night§7 while in §aThe Garden§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 7§c.",
-    "§f§lCOMMON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Night Affinity \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants the wearer permanent \",\"color\":\"gray\"},{\"text\":\"Night\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Vision\",\"color\":\"green\"},{\"text\":\" while worn. All stats on this\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"armor piece are multiplied by \",\"color\":\"gray\"},{\"text\":\"3x\",\"color\":\"green\"},{\"text\":\" at\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"night\",\"color\":\"dark_purple\"},{\"text\":\" while in \",\"color\":\"gray\"},{\"text\":\"The Garden\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 7\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"COMMON CHESTPLATE\",\"color\":\"white\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "RED_MUSHROOM:1",
@@ -36,5 +36,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Mushroom_Chestplate",
     "https://wiki.hypixel.net/Mushroom_Chestplate"
   ],
-  "crafttext": "Requires: Mushroom III"
+  "crafttext": "Requires: Mushroom III",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

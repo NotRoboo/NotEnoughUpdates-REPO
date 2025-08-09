@@ -1,23 +1,23 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§5Synthesizer v3",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"699c41f5-97f8-3ffc-9a94-84f728ed9fb8\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0ODY3Mjg5MDk3NCwKICAicHJvZmlsZUlkIiA6ICI5ZWEyMTQ0NGFiNjI0MWZkYjg5YjE2NDFhNDg2MGZiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICI3QUJDSE9VTiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MTIyNDBhYjRkZjVlZTYxMzBjZDgwZTEwYWE3ZTgyN2U3ZTg2YTgxMzg2YmJmZTFhYTk5ZDQ2NmIzMzA5ZTdiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Can synthesize X, Y and Z\",1:\"§7items increasing the stats of\",2:\"§7this necklace.\",3:\"\",4:\"§7Current Bonuses:\",5:\"§80/40 §c❤ Health\",6:\"§80/40 §a❈ Defense\",7:\"§80/60 §b✎ Intelligence\",8:\"\",9:\"§eRight-click to open!\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",13:\"§5§lEPIC NECKLACE\"],Name:\"§f§f§5Synthesizer v3\"},ExtraAttributes:{id:\"SYNTHESIZER_V3\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Synthesizer v3\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Synthesizer v3\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Can synthesize X, Y and Z\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"items increasing the stats of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"this necklace.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Current Bonuses:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"0/40 \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"0/40 \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❈ Defense\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"0/60 \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"✎ Intelligence\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to open!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC NECKLACE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SYNTHESIZER_V3\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Can synthesize X, Y and Z",
-    "§7items increasing the stats of",
-    "§7this necklace.",
-    "",
-    "§7Current Bonuses:",
-    "§80/40 §c❤ Health",
-    "§80/40 §a❈ Defense",
-    "§80/60 §b✎ Intelligence",
-    "",
-    "§eRight-click to open!",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 22§c.",
-    "§5§lEPIC NECKLACE"
+    "{\"text\":\"Can synthesize X, Y and Z\",\"color\":\"gray\"}",
+    "{\"text\":\"items increasing the stats of\",\"color\":\"gray\"}",
+    "{\"text\":\"this necklace.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Current Bonuses:\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"0/40 \",\"color\":\"dark_gray\"},{\"text\":\"❤ Health\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"0/40 \",\"color\":\"dark_gray\"},{\"text\":\"❈ Defense\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"0/60 \",\"color\":\"dark_gray\"},{\"text\":\"✎ Intelligence\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to open!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC NECKLACE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "Z:64",
@@ -38,5 +38,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Synthesizer_v3",
     "https://wiki.hypixel.net/Synthesizer_V3"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

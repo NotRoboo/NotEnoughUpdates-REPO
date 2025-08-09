@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Shriveled Bracelet",
-  "nbttag": "{ExtraAttributes:{id:\"SHRIVELED_BRACELET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d9863e56-463d-36a6-832b-202b46e80763\",Properties:{textures:[0:{Name:\"textures\",Signature:\"kjw/Ajb9p6YC+gIJFlpuA0FYJOkb225Mdd23VMoNOV+t0b8Wevg+bH6ivBayajIej6OhpzPI5jXaxqye4jOiGtj13rGXNLHQ1AKAFwUH8xb9Zs2zpRNHcTOdT8jYy5gCDzrQddjxWxnq4ue8lyJ+DSny+G3eZKgUzPeuCvz8xZy6bokoVZ9LrM576jwiNPUSRff68VRwD1+oUXEExZz+n/T8ABfDGK6dHlxJb2R/4EdO5KBDGbAsRbGPelCmIZ/BefmMQ/+Luu+4VlnIs4qB6MLgn9sKLAzUFjkKFX709xERA5yVnDHpP9gwC1ucAKs5vXmFX85ccf4znfOtdZgOWTKJfxq0/I9cVm/DXgmTxba3Gm+CXK9HH8x4ZzWJyhgIBUatrpTEJAkFbuGSJ8F4QXICt9n+1s0ctoOuXOCt9SOSBQPpIXaKF8IbmnOvHTuNpUEdiEtMy0uaw8sc2ZfnaBphVYQtsQgTYYBdaLebAiAzmugKKsKtrCYPwHDC7On0oLeusm1DuhuYIqOAziyBBksUiIonLM3je5TCbgO3OvzKDQ/IaOIvIblj5Kld/PaKEd+i0FMCzOPuApf+vc9voLEM5bm3jPUmmagpFYEIBT7aObIlbhclQUG6WW3S132bPKZbSinZMlc+h7xwCXgLz+hu74P+n+Ycy5Bq1evAcrA\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc1MzA5MzQwNTYwMSwKICAicHJvZmlsZUlkIiA6ICI2M2VkZjY1ZDcxNmE0NGZmYmUzOWU5MWVkMmNiMjM3YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2aWxlX3NsYXZlbWFzdGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVkMWRiZmM0NGNkNTUxMjE3NWYwYzdhNmUwODRhYWIwZmNjYTQyZjJjZmY2M2I3NmM2NWUzYmYyYWU2MWI1YjEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Strength: §c+10\",1:\"§7Crit Damage: §c+15%\",2:\"\",3:\"§7Grants §b+10✯ Magic Find§7 and §3+5☯\",4:\"§3Combat Wisdom§7 while in the §cSpider\u0027s\",5:\"§cDen§7.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§7§4☠ §cRequires §5Spider Slayer 7§c.\",9:\"§5§lEPIC GLOVES\"],Name:\"§5Shriveled Bracelet\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Shriveled Bracelet\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shriveled Bracelet\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10✯ Magic Find\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\" and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5☯\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Combat Wisdom\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\" while in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Spider\u0027s\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Den\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Spider Slayer 7\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC GLOVES\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SHRIVELED_BRACELET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTc1MzA5MzQwNTYwMSwKICAicHJvZmlsZUlkIiA6ICI2M2VkZjY1ZDcxNmE0NGZmYmUzOWU5MWVkMmNiMjM3YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2aWxlX3NsYXZlbWFzdGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVkMWRiZmM0NGNkNTUxMjE3NWYwYzdhNmUwODRhYWIwZmNjYTQyZjJjZmY2M2I3NmM2NWUzYmYyYWU2MWI1YjEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Strength: §c+10",
-    "§7Crit Damage: §c+15%",
-    "",
-    "§7Grants §b+10✯ Magic Find§7 and §3+5☯",
-    "§3Combat Wisdom§7 while in the §cSpider\u0027s",
-    "§cDen§7.",
-    "",
-    "§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Spider Slayer 7§c.",
-    "§5§lEPIC GLOVES"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+15%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+10✯ Magic Find\",\"color\":\"aqua\"},{\"text\":\" and \",\"color\":\"gray\"},{\"text\":\"+5☯\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Combat Wisdom\",\"color\":\"dark_aqua\"},{\"text\":\" while in the \",\"color\":\"gray\"},{\"text\":\"Spider\u0027s\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Den\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Spider Slayer 7\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC GLOVES\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SHRIVELED_BRACELET",
   "slayer_req": "SPIDER_7",
@@ -40,5 +40,8 @@
       "count": 1,
       "overrideOutputId": "SHRIVELED_BRACELET"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

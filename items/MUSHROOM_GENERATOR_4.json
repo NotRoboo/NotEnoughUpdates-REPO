@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Mushroom Minion IV",
-  "nbttag": "{ExtraAttributes:{id:\"MUSHROOM_GENERATOR_4\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f1f2b6cd-c7d8-3742-b383-de6e09ad588f\",Properties:{textures:[0:{Name:\"textures\",Signature:\"tHf18mzkErKug1ZZpP1wsibH9FQqs9duAdK32htflyAqdhSJe7HL26kd93P1rzF9U784Bsmy3rOGEvBpeharpF+ZkGJaZj61+EDkVA7aYNrxB54lGCLYL7rV7ZXSL2TC0nlOIWSt42v67qG45+KM+YlV0fvPf8fx0kuGtvr4tM4rxhdHOhOlrDQ+bQcm6IZJoEgHan13SHZIoCqT7qlDLzBmBec8JAVY+jGP/KPxGCwJyQoOw75eggw8pvSeUbW/XG+pXuu1SwEsVNX9t/h+JTmauk3t49dkKEFhSeJJltl7lPpVJUwnN0zzthKJYU8n0YnYBgrsR3Dceajd20uJHYnm3Kv6oOgq7bvBvEHLNWcxlk0UxUVYnGJ2n7gSU3VCwBsb6fSO5JU+dKSRyKBci+/TfN3oN8wKvyGNplRo0EJ6XJUlWb53fzytgeFioNlPpdBeVgQW6vy/1vpCvHntcZtLEPDq1nuVG0RY8pr3H5+8dOtuzXomPKByZXMsyYM2y/k/0Tezr750Ij+jvAFjaqA9nB4m5gVuxLEr2Sz+QaHO6GKJp2ihNSqmLYqB7/g9rZ239FCMiPgU9H8+KNibcbCjgujFA730+WOS7MKyQzrQ8FMMl5K6HI0DljYcZAr1+XGmqQ5jgpp+W80osvI8GgDozR1AQ1rCrdxM82M7ilA=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDc4MDYzMTcsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA5NzBlYmY3NmQwYWE1MmE2YWJiNzQ1OGEyZTM5MTdkOTY3ZDU1M2RlZjkxNzRhOGI4MzY5N2ExMGY0ZTMzOSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and harvesting red and\",2:\"§7brown mushrooms! Requires an area\",3:\"§7that is suitable for mushrooms to be\",4:\"§7placed. Minions also work when you\",5:\"§7are offline!\",6:\"\",7:\"§7Time Between Actions: §a28s\",8:\"§7Max Storage: §e384\",9:\"§7Resources Generated: §b0\",10:\"\",11:\"§9§lRARE\"],Name:\"§9Mushroom Minion IV\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mushroom Minion IV\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mushroom Minion IV\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and harvesting red and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"brown mushrooms! Requires an area\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"that is suitable for mushrooms to be\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"placed. Minions also work when you\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"are offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"28s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"384\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MUSHROOM_GENERATOR_4\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NTc5NDc4MDYzMTcsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA5NzBlYmY3NmQwYWE1MmE2YWJiNzQ1OGEyZTM5MTdkOTY3ZDU1M2RlZjkxNzRhOGI4MzY5N2ExMGY0ZTMzOSJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and harvesting red and",
-    "§7brown mushrooms! Requires an area",
-    "§7that is suitable for mushrooms to be",
-    "§7placed. Minions also work when you",
-    "§7are offline!",
-    "",
-    "§7Time Between Actions: §a28s",
-    "§7Max Storage: §e384",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and harvesting red and\",\"color\":\"gray\"}",
+    "{\"text\":\"brown mushrooms! Requires an area\",\"color\":\"gray\"}",
+    "{\"text\":\"that is suitable for mushrooms to be\",\"color\":\"gray\"}",
+    "{\"text\":\"placed. Minions also work when you\",\"color\":\"gray\"}",
+    "{\"text\":\"are offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"28s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"384\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MUSHROOM_GENERATOR_4",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C2": "RED_MUSHROOM:64",
     "C3": "RED_MUSHROOM:64"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

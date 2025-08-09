@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:iron_axe",
-  "displayname": "§cScavenged Iron Hammer",
-  "nbttag": "{ExtraAttributes:{id:\"DWARVEN_IRON_HAMMER\"},HideFlags:254,ItemModel:\"minecraft:iron_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Strong enough to break the\",1:\"§7toughest bars.\",2:\"\",3:\"§8§l* §8Soulbound §8§l*\",4:\"§c§lSPECIAL\"],Name:\"§cScavenged Iron Hammer\"},ench:[]}",
+  "displayname": "{\"text\":\"Scavenged Iron Hammer\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Scavenged Iron Hammer\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Strong enough to break the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"toughest bars.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DWARVEN_IRON_HAMMER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Strong enough to break the",
-    "§7toughest bars.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§c§lSPECIAL"
+    "{\"text\":\"Strong enough to break the\",\"color\":\"gray\"}",
+    "{\"text\":\"toughest bars.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "DWARVEN_IRON_HAMMER",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Scavenged_Iron_Hammer",
     "https://wiki.hypixel.net/Scavenged_Iron_Hammer"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

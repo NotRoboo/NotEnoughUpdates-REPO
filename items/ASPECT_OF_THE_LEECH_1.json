@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:wooden_shovel",
-  "displayname": "§aAspect of the Leech",
-  "nbttag": "{ExtraAttributes:{id:\"ASPECT_OF_THE_LEECH_1\"},HideFlags:254,ItemModel:\"minecraft:wooden_shovel\",Unbreakable:1B,display:{Lore:[0:\"§6Ability: Weird Transmission  §e§lRIGHT CLICK\",1:\"§7Teleport §a3 blocks§7 ahead of you.\",2:\"§8Mana Cost: §360\",3:\"\",4:\"§a§lUNCOMMON WAND\"],Name:\"§aAspect of the Leech\"}}",
+  "displayname": "{\"text\":\"Aspect of the Leech\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_shovel\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Aspect of the Leech\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Weird Transmission \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Teleport \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3 blocks\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" ahead of you.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"60\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON WAND\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ASPECT_OF_THE_LEECH_1\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Weird Transmission  §e§lRIGHT CLICK",
-    "§7Teleport §a3 blocks§7 ahead of you.",
-    "§8Mana Cost: §360",
-    "",
-    "§a§lUNCOMMON WAND"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Weird Transmission \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Teleport \",\"color\":\"gray\"},{\"text\":\"3 blocks\",\"color\":\"green\"},{\"text\":\" ahead of you.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"60\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON WAND\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ASPECT_OF_THE_LEECH_1",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "",
     "C2": "LEECH_SUPREME_FRAGMENT:8",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

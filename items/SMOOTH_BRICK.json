@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:stonebrick",
-  "displayname": "§fStone Bricks",
-  "nbttag": "{ExtraAttributes:{id:\"SMOOTH_BRICK\"},HideFlags:254,ItemModel:\"minecraft:stone_bricks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fStone Bricks\"}}",
+  "displayname": "{\"text\":\"Stone Bricks\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stonebrick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Stone Bricks\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SMOOTH_BRICK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SMOOTH_BRICK",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 4
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

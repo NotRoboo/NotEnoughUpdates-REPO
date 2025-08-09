@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§d§lKing Midas (Miniboss)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1a85d923-f8dd-35b8-899a-8f13b9469b0c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MTU3NjA3MDMwMCwKICAicHJvZmlsZUlkIiA6ICJkYTQ5OGFjNGU5Mzc0ZTVjYjYxMjdiMzgwODU1Nzk4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaXRyb2hvbGljXzIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjJiY2EwODU3NTAwNDM1MDNmNWRmOWY3ZGVmODI0YTJlM2FjZmMyNzg0MmJjZDA5ZDJiNjY5NTg4MWU4MzJmNSIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7He loves gold.\",1:\"\",2:\"§c❤ Health§8: §c300,000 - 4,300,000\",3:\"§c❤ Health §8(MM) : §c8,600,000 - 35,000,000\"],Name:\"§d§lKing Midas (Miniboss)\"},ExtraAttributes:{id:\"KING_MIDAS_MINIBOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"King Midas (Miniboss)\",\"color\":\"light_purple\",\"bold\":true}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"King Midas (Miniboss)\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"He loves gold.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"300,000 - 4,300,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(MM) : \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"8,600,000 - 35,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"KING_MIDAS_MINIBOSS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7He loves gold.",
-    "",
-    "§c❤ Health§8: §c300,000 - 4,300,000",
-    "§c❤ Health §8(MM) : §c8,600,000 - 35,000,000"
+    "{\"text\":\"He loves gold.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"300,000 - 4,300,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"(MM) : \",\"color\":\"dark_gray\"},{\"text\":\"8,600,000 - 35,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "KING_MIDAS_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -34,10 +34,15 @@
         },
         {
           "id": "ESSENCE_GOLD",
-          "extra": ["x4-7"],
+          "extra": [
+            "x4-7"
+          ],
           "chance": "100%"
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

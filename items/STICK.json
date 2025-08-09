@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§fStick",
-  "nbttag": "{ExtraAttributes:{id:\"STICK\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fStick\"}}",
+  "displayname": "{\"text\":\"Stick\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Stick\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STICK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STICK",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 4
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

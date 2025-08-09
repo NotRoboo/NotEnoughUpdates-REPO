@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Soulflow Supercell",
-  "nbttag": "{ExtraAttributes:{id:\"SOULFLOW_SUPERCELL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f84c9a00-0a4e-3fac-8d75-b18e23157f17\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTkwNjA2NjAzNywKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY4YzFmYTRhMjFiYTRmMjdkY2IzMGFiM2JmYWIwZGMyMmExZTRmY2Y5ZWQxMmMxZDdhNzBmZWIwN2Y4ZDdhZSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Internalized: §30⸎ Soulflow\",1:\"\",2:\"§6Ability: Overflow Mana \",3:\"§7When leaving combat, convert up to\",4:\"§34⸎ Soulflow §7into §3600ʬ Overflow\",5:\"§3Mana§7.\",6:\"\",7:\"§7Enabled: §aOn\",8:\"§eRight-click to toggle!\",9:\"\",10:\"§8Soulflow from abilities is drained from\",11:\"§8your internalized ⸎.\",12:\"\",13:\"§4☠ §cRequires §5Enderman Slayer 7§c.\",14:\"§5§lEPIC ACCESSORY\"],Name:\"§5Soulflow Supercell\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Soulflow Supercell\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Soulflow Supercell\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Internalized: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0⸎ Soulflow\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Overflow Mana \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"When leaving combat, convert up to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"4⸎ Soulflow \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"into \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"600ʬ Overflow\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Enabled: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"On\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"Right-click to toggle!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Soulflow from abilities is drained from\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"your internalized ⸎.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Enderman Slayer 7\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC ACCESSORY\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SOULFLOW_SUPERCELL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTkwNjA2NjAzNywKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY4YzFmYTRhMjFiYTRmMjdkY2IzMGFiM2JmYWIwZGMyMmExZTRmY2Y5ZWQxMmMxZDdhNzBmZWIwN2Y4ZDdhZSIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Internalized: §30⸎ Soulflow",
-    "",
-    "§6Ability: Overflow Mana ",
-    "§7When leaving combat, convert up to",
-    "§34⸎ Soulflow §7into §3600ʬ Overflow",
-    "§3Mana§7.",
-    "",
-    "§7Enabled: §aOn",
-    "§eRight-click to toggle!",
-    "",
-    "§8Soulflow from abilities is drained from",
-    "§8your internalized ⸎.",
-    "",
-    "§4☠ §cRequires §5Enderman Slayer 7§c.",
-    "§5§lEPIC ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Internalized: \",\"color\":\"gray\"},{\"text\":\"0⸎ Soulflow\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Overflow Mana \",\"color\":\"gold\"}",
+    "{\"text\":\"When leaving combat, convert up to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"4⸎ Soulflow \",\"color\":\"dark_aqua\"},{\"text\":\"into \",\"color\":\"gray\"},{\"text\":\"600ʬ Overflow\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Enabled: \",\"color\":\"gray\"},{\"text\":\"On\",\"color\":\"green\"}]}",
+    "{\"text\":\"Right-click to toggle!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Soulflow from abilities is drained from\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"your internalized ⸎.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Enderman Slayer 7\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC ACCESSORY\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SOULFLOW_SUPERCELL",
   "clickcommand": "viewrecipe",
@@ -40,5 +40,8 @@
     "C2": "NULL_OVOID:32",
     "C3": "NULL_OVOID:32"
   },
-  "slayer_req": "EMAN_7"
+  "slayer_req": "EMAN_7",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:cooked_mutton",
-  "displayname": "§9Steak Stake",
-  "nbttag": "{ExtraAttributes:{id:\"STEAK_STAKE\"},HideFlags:254,ItemModel:\"minecraft:cooked_mutton\",display:{Lore:[0:\"§6Ability: A bit of Impalement  §e§lLEFT CLICK\",1:\"§7Stab a §4Vampire §7at §c20%❤ §7to instantly\",2:\"§7vanquish it.\",3:\"§8(Does not actually hurt the vampire)\",4:\"\",5:\"§8This item can be reforged!\",6:\"§4☠ §cRequires §5Vampire Slayer 2§c.\",7:\"§9§lRARE SWORD\"],Name:\"§9Steak Stake\"}}",
+  "displayname": "{\"text\":\"Steak Stake\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:cooked_mutton\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Steak Stake\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: A bit of Impalement \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"LEFT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Stab a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Vampire \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20%❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"to instantly\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"vanquish it.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"(Does not actually hurt the vampire)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Vampire Slayer 2\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STEAK_STAKE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: A bit of Impalement  §e§lLEFT CLICK",
-    "§7Stab a §4Vampire §7at §c20%❤ §7to instantly",
-    "§7vanquish it.",
-    "§8(Does not actually hurt the vampire)",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Vampire Slayer 2§c.",
-    "§9§lRARE SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: A bit of Impalement \",\"color\":\"gold\"},{\"text\":\"LEFT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Stab a \",\"color\":\"gray\"},{\"text\":\"Vampire \",\"color\":\"dark_red\"},{\"text\":\"at \",\"color\":\"gray\"},{\"text\":\"20%❤ \",\"color\":\"red\"},{\"text\":\"to instantly\",\"color\":\"gray\"}]}",
+    "{\"text\":\"vanquish it.\",\"color\":\"gray\"}",
+    "{\"text\":\"(Does not actually hurt the vampire)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Vampire Slayer 2\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "STEAK_STAKE",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "COVEN_SEAL:3",
     "C2": "WILTED_BERBERIS_BUNCH:1",
     "C3": "COVEN_SEAL:3"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

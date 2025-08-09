@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Boss Corleone (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"edc502ab-c144-3389-adc5-02abc144f389\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFmMGIwMzYwZjU2MjlhMzhhMDc0Y2Q5MjliNTlmMjc2OWIyZDA3NTJhNWQzNzJjNTQ2OWEzNzJhNTY3ZDkxOCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Prepare for trouble!\",1:\"\",2:\"§c❤ Health§8: §c1,000,000\"],Name:\"§6Boss Corleone (Boss)\"},ExtraAttributes:{id:\"BOSS_CORLEONE_BOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Boss Corleone (Boss)\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Boss Corleone (Boss)\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Prepare for trouble!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"BOSS_CORLEONE_BOSS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Prepare for trouble!",
-    "",
-    "§c❤ Health§8: §c1,000,000"
+    "{\"text\":\"Prepare for trouble!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"1,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "BOSS_CORLEONE_BOSS",
   "clickcommand": "viewrecipe",
@@ -42,5 +42,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fToy",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"95fd59e6-771d-3964-a299-8f3934f15e2d\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQyMDY0YWE0ZGUzNWY2NjliMDRlODdiMWUwNGQ0MmVjZWU4MjliOWJjNTY2MTM4YWEyNzk0Nzk4YWZiZWMifX19\"}]}},display:{Lore:[0:\"§7Return to §dSuus §7in\",1:\"§7§2Dragontail §7on the §cCrimson\",2:\"§cIsle§7.\",3:\"\",4:\"§8§l* §8Soulbound §8§l*\",5:\"§f§lCOMMON\"],Name:\"§fToy\"},ExtraAttributes:{id:\"TOY\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Toy\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Toy\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Return to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Suus \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"in\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Dragontail \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"on the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Crimson\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Isle\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TOY\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Return to §dSuus §7in",
-    "§7§2Dragontail §7on the §cCrimson",
-    "§cIsle§7.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§f§lCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Return to \",\"color\":\"gray\"},{\"text\":\"Suus \",\"color\":\"light_purple\"},{\"text\":\"in\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Dragontail \",\"color\":\"dark_green\"},{\"text\":\"on the \",\"color\":\"gray\"},{\"text\":\"Crimson\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Isle\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "TOY",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Toy",
     "https://wiki.hypixel.net/Toy"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

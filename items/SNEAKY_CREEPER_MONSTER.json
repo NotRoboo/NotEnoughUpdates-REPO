@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Sneaky Creeper (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Sneaky Creepers are a type of Creeper that\",1:\"§7spawns exclusively in the Gunpowder Mines.\",2:\"§7They have the appearance of a normal creeper -\",3:\"§7however, they are invisible until they approach\",4:\"§7the player. \",5:\"\",6:\"§c❤ Health§8: §c120\"],Name:\"§9Sneaky Creeper (Monster)\"},ExtraAttributes:{id:\"SNEAKY_CREEPER_MONSTER\"}}",
-  "damage": 4,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Sneaky Creeper (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sneaky Creeper (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Sneaky Creepers are a type of Creeper that\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"spawns exclusively in the Gunpowder Mines.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"They have the appearance of a normal creeper -\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"however, they are invisible until they approach\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the player. \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"120\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"SNEAKY_CREEPER_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Sneaky Creepers are a type of Creeper that",
-    "§7spawns exclusively in the Gunpowder Mines.",
-    "§7They have the appearance of a normal creeper -",
-    "§7however, they are invisible until they approach",
-    "§7the player. ",
-    "",
-    "§c❤ Health§8: §c120"
+    "{\"text\":\"Sneaky Creepers are a type of Creeper that\",\"color\":\"gray\"}",
+    "{\"text\":\"spawns exclusively in the Gunpowder Mines.\",\"color\":\"gray\"}",
+    "{\"text\":\"They have the appearance of a normal creeper -\",\"color\":\"gray\"}",
+    "{\"text\":\"however, they are invisible until they approach\",\"color\":\"gray\"}",
+    "{\"text\":\"the player. \",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"120\",\"color\":\"red\"}]}"
   ],
   "internalname": "SNEAKY_CREEPER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -41,5 +41,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

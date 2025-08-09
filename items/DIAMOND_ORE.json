@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:diamond_ore",
-  "displayname": "§aDiamond Ore",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON ORE\"],Name:\"§aDiamond Ore\"},ExtraAttributes:{id:\"DIAMOND_ORE\"}}",
+  "displayname": "{\"text\":\"Diamond Ore\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_ore\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Ore\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON ORE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND_ORE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§a§lUNCOMMON ORE"
+    "{\"text\":\"UNCOMMON ORE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DIAMOND_ORE",
   "modver": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://wiki.hypixel.net/Diamond_Ore"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

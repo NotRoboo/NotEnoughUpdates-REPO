@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:fireworks",
-  "displayname": "§fFirework Rocket",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fFirework Rocket\"},ExtraAttributes:{id:\"FIREWORK\"}}",
+  "displayname": "{\"text\":\"Firework Rocket\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:fireworks\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Firework Rocket\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FIREWORK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "PAPER:1",
@@ -21,5 +21,8 @@
   "modver": "2.0.0-REL",
   "vanilla": true,
   "clickcommand": "viewrecipe",
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

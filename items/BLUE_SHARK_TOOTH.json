@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:ghast_tear",
-  "displayname": "§9Blue Shark Tooth",
-  "nbttag": "{ExtraAttributes:{id:\"BLUE_SHARK_TOOTH\"},HideFlags:254,ItemModel:\"minecraft:ghast_tear\",display:{Lore:[0:\"§7Dropped by a Shark during\",1:\"§7Fishing Festival.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Blue Shark Tooth\"},ench:[]}",
+  "displayname": "{\"text\":\"Blue Shark Tooth\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:ghast_tear\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Blue Shark Tooth\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Dropped by a Shark during\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Fishing Festival.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BLUE_SHARK_TOOTH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Dropped by a Shark during",
-    "§7Fishing Festival.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Dropped by a Shark during\",\"color\":\"gray\"}",
+    "{\"text\":\"Fishing Festival.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BLUE_SHARK_TOOTH",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Blue_Shark_Tooth",
     "https://wiki.hypixel.net/Blue_Shark_Tooth"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Guardian Lucky Block",
-  "nbttag": "{ExtraAttributes:{id:\"GUARDIAN_LUCKY_BLOCK\",rift_transferred:1B},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"89f6b4f8-8067-32e6-b78b-a0c2458d78e3\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZkY2ZiNDAwOTc2YmY3M2VjMzJjMWI5OTYyYzgzMGZjM2Q3MDA2ZDc0OWY4ZjNkYTNiNmUwZmI4MjkwOWIyOCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Use at §bKat §7to upgrade §eGuardian Pets\",1:\"§7to §dMythic §7rarity.\",2:\"\",3:\"§5§kX§5 Rift-Exported §5§kX\",4:\"§8Lost motes value from crossing\",5:\"§8dimensions.\",6:\"§6§lLEGENDARY\"],Name:\"§6Guardian Lucky Block\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Guardian Lucky Block\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Guardian Lucky Block\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Use at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Kat \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"to upgrade \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Guardian Pets\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mythic \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"rarity.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Exported \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"Lost motes value from crossing\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"dimensions.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GUARDIAN_LUCKY_BLOCK\",\"rift_transferred\":true},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZkY2ZiNDAwOTc2YmY3M2VjMzJjMWI5OTYyYzgzMGZjM2Q3MDA2ZDc0OWY4ZjNkYTNiNmUwZmI4MjkwOWIyOCJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Use at §bKat §7to upgrade §eGuardian Pets",
-    "§7to §dMythic §7rarity.",
-    "",
-    "§5§kX§5 Rift-Exported §5§kX",
-    "§8Lost motes value from crossing",
-    "§8dimensions.",
-    "§6§lLEGENDARY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Use at \",\"color\":\"gray\"},{\"text\":\"Kat \",\"color\":\"aqua\"},{\"text\":\"to upgrade \",\"color\":\"gray\"},{\"text\":\"Guardian Pets\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to \",\"color\":\"gray\"},{\"text\":\"Mythic \",\"color\":\"light_purple\"},{\"text\":\"rarity.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Exported \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"Lost motes value from crossing\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"dimensions.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "GUARDIAN_LUCKY_BLOCK",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Guardian_Lucky_Block",
     "https://wiki.hypixel.net/Guardian_Lucky_Block"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

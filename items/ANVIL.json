@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:anvil",
-  "displayname": "§fAnvil",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fAnvil\"},ExtraAttributes:{id:\"ANVIL\"}}",
+  "displayname": "{\"text\":\"Anvil\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:anvil\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Anvil\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ANVIL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ANVIL",
   "modver": "2.1.0-REL",
@@ -28,9 +28,12 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:25",
-    "result": "ANVIL"
+      "type": "trade",
+      "cost": "EMERALD:25",
+      "result": "ANVIL"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

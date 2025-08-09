@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:egg",
-  "displayname": "§fStone Platform",
-  "nbttag": "{ExtraAttributes:{id:\"STONE_BRIDGE\"},HideFlags:254,ItemModel:\"minecraft:egg\",display:{Lore:[0:\"§7Creates a stone platform in the air\",1:\"§7after traveling 10 blocks. Perfect\",2:\"§7for building below your island!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fStone Platform\"}}",
+  "displayname": "{\"text\":\"Stone Platform\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Stone Platform\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Creates a stone platform in the air\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"after traveling 10 blocks. Perfect\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"for building below your island!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STONE_BRIDGE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Creates a stone platform in the air",
-    "§7after traveling 10 blocks. Perfect",
-    "§7for building below your island!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Creates a stone platform in the air\",\"color\":\"gray\"}",
+    "{\"text\":\"after traveling 10 blocks. Perfect\",\"color\":\"gray\"}",
+    "{\"text\":\"for building below your island!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STONE_BRIDGE",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "SMOOTH_BRICK:8",
     "C2": "SMOOTH_BRICK:8",
     "C3": "SMOOTH_BRICK:8"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

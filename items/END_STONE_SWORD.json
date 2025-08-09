@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:golden_sword",
-  "displayname": "§5End Stone Sword",
-  "nbttag": "{ExtraAttributes:{id:\"END_STONE_SWORD\"},HideFlags:254,ItemModel:\"minecraft:golden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+80\",2:\"\",3:\"§6Ability: Extreme Focus  §e§lRIGHT CLICK\",4:\"§7Consume all of your remaining §b✎ Mana§7.\",5:\"§7For every §b5 Mana §7consumed:\",6:\"§7  Damage Reduction: §a-0.01x §8(last 5s)\",7:\"§7  Next Hit Damage: §c+1%\",8:\"§7Capped at §a50% Damage Reduction §7and §c+500%\",9:\"§cDamage§7.\",10:\"§8Mana Cost: §320\",11:\"\",12:\"§8This item can be reforged!\",13:\"§5§lEPIC SWORD\"],Name:\"§5End Stone Sword\"}}",
+  "displayname": "{\"text\":\"End Stone Sword\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"End Stone Sword\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+80\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Extreme Focus \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consume all of your remaining \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✎ Mana\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"For every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 Mana \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"consumed:\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" Damage Reduction: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"-0.01x \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"(last 5s)\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" Next Hit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Capped at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50% Damage Reduction \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+500%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"20\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"END_STONE_SWORD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+120",
-    "§7Strength: §c+80",
-    "",
-    "§6Ability: Extreme Focus  §e§lRIGHT CLICK",
-    "§7Consume all of your remaining §b✎ Mana§7.",
-    "§7For every §b5 Mana §7consumed:",
-    "§7  Damage Reduction: §a-0.01x §8(last 5s)",
-    "§7  Next Hit Damage: §c+1%",
-    "§7Capped at §a50% Damage Reduction §7and §c+500%",
-    "§cDamage§7.",
-    "§8Mana Cost: §320",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+120\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+80\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Extreme Focus \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consume all of your remaining \",\"color\":\"gray\"},{\"text\":\"✎ Mana\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"For every \",\"color\":\"gray\"},{\"text\":\"5 Mana \",\"color\":\"aqua\"},{\"text\":\"consumed:\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" Damage Reduction: \",\"color\":\"gray\"},{\"text\":\"-0.01x \",\"color\":\"green\"},{\"text\":\"(last 5s)\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" Next Hit Damage: \",\"color\":\"gray\"},{\"text\":\"+1%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Capped at \",\"color\":\"gray\"},{\"text\":\"50% Damage Reduction \",\"color\":\"green\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"+500%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"20\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "END_STONE_SWORD",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

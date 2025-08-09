@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:painting",
-  "displayname": "§6Postcard",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7When placed on your island, it will\",1:\"§7inspire your minions with the belief\",2:\"§7that they too, might one day be given\",3:\"§7the choice to leave if they work\",4:\"§7hard enough.\",5:\"\",6:\"§7§aAll minions on your island will work §b5%\",7:\"§b§afaster.\",8:\"\",9:\"§7§8§oYour §kClay Minion I§8 sent you a\",10:\"§8§ostunning image featuring a towering\",11:\"§8§omountain on a very, very distant\",12:\"§8§oisland.\",13:\"\",14:\"§6§lLEGENDARY\"],Name:\"§6Postcard\"},ExtraAttributes:{post_card_minion_tier:1,id:\"POSTCARD\",post_card_minion_type:\"CLAY\"}}",
+  "displayname": "{\"text\":\"Postcard\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:painting\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Postcard\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"When placed on your island, it will\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"inspire your minions with the belief\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"that they too, might one day be given\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the choice to leave if they work\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"hard enough.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"All minions on your island will work \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"faster.\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Your \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true},{\\\"text\\\":\\\"Clay Minion I\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true,\\\"obfuscated\\\":true},{\\\"text\\\":\\\" sent you a\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"stunning image featuring a towering\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"mountain on a very, very distant\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"island.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"post_card_minion_tier\":1,\"id\":\"POSTCARD\",\"post_card_minion_type\":\"CLAY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7When placed on your island, it will",
-    "§7inspire your minions with the belief",
-    "§7that they too, might one day be given",
-    "§7the choice to leave if they work",
-    "§7hard enough.",
-    "",
-    "§7§aAll minions on your island will work §b5%",
-    "§b§afaster.",
-    "",
-    "§7§8§oYour §kClay Minion I§8 sent you a",
-    "§8§ostunning image featuring a towering",
-    "§8§omountain on a very, very distant",
-    "§8§oisland.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"When placed on your island, it will\",\"color\":\"gray\"}",
+    "{\"text\":\"inspire your minions with the belief\",\"color\":\"gray\"}",
+    "{\"text\":\"that they too, might one day be given\",\"color\":\"gray\"}",
+    "{\"text\":\"the choice to leave if they work\",\"color\":\"gray\"}",
+    "{\"text\":\"hard enough.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"All minions on your island will work \",\"color\":\"green\"},{\"text\":\"5%\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"faster.\",\"color\":\"green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Your \",\"color\":\"dark_gray\",\"italic\":true},{\"text\":\"Clay Minion I\",\"color\":\"dark_gray\",\"italic\":true,\"obfuscated\":true},{\"text\":\" sent you a\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"stunning image featuring a towering\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"mountain on a very, very distant\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"island.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "POSTCARD",
   "crafttext": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Postcard",
     "https://wiki.hypixel.net/Postcard"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

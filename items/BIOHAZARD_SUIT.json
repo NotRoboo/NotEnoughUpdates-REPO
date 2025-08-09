@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§aBiohazard Suit",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+20\",1:\"§7Defense: §a+20\",2:\"§7Bonus Pest Chance: §a+2%\",3:\"\",4:\"§7§7All stats on this armor piece are\",5:\"§7multiplied by §a3x§7 at §5night§7 while in §aThe\",6:\"§aGarden§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§a§lUNCOMMON CHESTPLATE\",10:\"\",11:\"§7Cost\",12:\"§fMushroom Chestplate\",13:\"§280 Pests\"],color:16755712,Name:\"§aBiohazard Suit\"},ExtraAttributes:{id:\"BIOHAZARD_SUIT\"}}",
+  "displayname": "{\"text\":\"Biohazard Suit\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Biohazard Suit\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bonus Pest Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"All stats on this armor piece are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"multiplied by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3x\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"night\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\" while in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON CHESTPLATE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Cost\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Mushroom Chestplate\\\",\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"80 Pests\\\",\\\"color\\\":\\\"dark_green\\\"}\"],\"minecraft:custom_data\":{\"id\":\"BIOHAZARD_SUIT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+20",
-    "§7Defense: §a+20",
-    "§7Bonus Pest Chance: §a+2%",
-    "",
-    "§7§7All stats on this armor piece are",
-    "§7multiplied by §a3x§7 at §5night§7 while in §aThe",
-    "§aGarden§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§a§lUNCOMMON CHESTPLATE",
-    "",
-    "§7Cost",
-    "§fMushroom Chestplate",
-    "§280 Pests"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bonus Pest Chance: \",\"color\":\"gray\"},{\"text\":\"+2%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"All stats on this armor piece are\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"multiplied by \",\"color\":\"gray\"},{\"text\":\"3x\",\"color\":\"green\"},{\"text\":\" at \",\"color\":\"gray\"},{\"text\":\"night\",\"color\":\"dark_purple\"},{\"text\":\" while in \",\"color\":\"gray\"},{\"text\":\"The\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Garden\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON CHESTPLATE\",\"color\":\"green\",\"bold\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Cost\",\"color\":\"gray\"}",
+    "{\"text\":\"Mushroom Chestplate\",\"color\":\"white\"}",
+    "{\"text\":\"80 Pests\",\"color\":\"dark_green\"}"
   ],
   "internalname": "BIOHAZARD_SUIT",
   "crafttext": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Biohazard_Suit",
     "https://wiki.hypixel.net/Biohazard_Suit"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

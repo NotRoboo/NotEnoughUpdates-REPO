@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fPortal to The Barn",
-  "nbttag": "{ExtraAttributes:{id:\"FARMING_1_PORTAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4dde99cd-3d32-38ca-9350-af5d9d5a03e1\",Properties:{textures:[0:{Name:\"textures\",Signature:\"X+rwWuUuyJPhHexybL/3uXgHvx5DGLu0Hqk/01JTK6qP+5GsdLiwZfjZKWPNwDFHZs30HBJAk9fC7WLMgcvTrE87GLDJQIGxy3qL3wnPf6fpWUBBHaljJKhZjljo0EztgSNA5x4u7a/++LBfWO4ZIVIoFIEVJTo+9GFMHU6UT/tBAUsSlQbDkmNrdGNSrilWd4/tVq6CIwE3FJRnHpY5rbDx58T8D/6QsBG0Hrhd2TLKdwvICABnp4cuUDohAvtEVT0q3zvAoALhCIIx8lSZFlmhGxWxz8N3ZX2LuNY12wNiWLyKmNzcAO/W+PXIwbHEC9Jy/Req2WQCnVIIV9LSj6K6Cg0X2YeFmimNO2+Jl3A8Zyowrzqfxsc6WPObhVrzLRsaRSe2Z2G+E7OVnv9VrtcP0rfxFIME1qt+5X5TtTcG1VKHOF7cJMEP1fcdnCdDpzNE579m8aXH0GC/cbn/lVJnbO6x8RiuZt5ZQDztXTbLfAK7sFhsItvnojb/QzYpzJrOAJ04ZYLN0xb8+TIKQtRTpOifoOhAo+6b0g0zMAI9HACl+NLCb19JB1wwqM3IiQBEMB9QHv4lx/9Pw8+xr4zTsycXx93m4DM8ifALyl0qI3X9kJ+D23HyHvu8AjNoL7eLk6XvAn1ofcPNjaQlwkiaJCUTLIzRMuaWxi3kMpg=\",Value:\"eyJ0aW1lc3RhbXAiOjE1MjMzNjY1ODU2MzUsInByb2ZpbGVJZCI6IjIzZjFhNTlmNDY5YjQzZGRiZGI1MzdiZmVjMTA0NzFmIiwicHJvZmlsZU5hbWUiOiIyODA3Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZDNhNmJkOThhYzE4MzNjNjY0YzQ5MDlmZjhkMmRjNjJjZTg4N2JkY2YzY2M1YjM4NDg2NTFhZTVhZjZiIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Placing this item on your private\",1:\"§7island will create a portal to §bThe\",2:\"§bBarn§7 for you to use whenever you\",3:\"§7want!\",4:\"\",5:\"§8The portal will spawn facing you on\",6:\"§8the block you click on.\",7:\"\",8:\"§f§lCOMMON PORTAL\"],Name:\"§fPortal to The Barn\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Portal to The Barn\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Portal to The Barn\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Placing this item on your private\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"island will create a portal to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Barn\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\" for you to use whenever you\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"want!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"The portal will spawn facing you on\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"the block you click on.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON PORTAL\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FARMING_1_PORTAL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1MjMzNjY1ODU2MzUsInByb2ZpbGVJZCI6IjIzZjFhNTlmNDY5YjQzZGRiZGI1MzdiZmVjMTA0NzFmIiwicHJvZmlsZU5hbWUiOiIyODA3Iiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZDNhNmJkOThhYzE4MzNjNjY0YzQ5MDlmZjhkMmRjNjJjZTg4N2JkY2YzY2M1YjM4NDg2NTFhZTVhZjZiIn19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Placing this item on your private",
-    "§7island will create a portal to §bThe",
-    "§bBarn§7 for you to use whenever you",
-    "§7want!",
-    "",
-    "§8The portal will spawn facing you on",
-    "§8the block you click on.",
-    "",
-    "§f§lCOMMON PORTAL"
+    "{\"text\":\"Placing this item on your private\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"island will create a portal to \",\"color\":\"gray\"},{\"text\":\"The\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Barn\",\"color\":\"aqua\"},{\"text\":\" for you to use whenever you\",\"color\":\"gray\"}]}",
+    "{\"text\":\"want!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"The portal will spawn facing you on\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"the block you click on.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON PORTAL\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FARMING_1_PORTAL",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "POTATO_ITEM:16",
     "C2": "POTATO_ITEM:16",
     "C3": "POTATO_ITEM:16"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

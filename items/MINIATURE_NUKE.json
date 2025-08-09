@@ -1,24 +1,27 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cMiniature Nuke",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"3b3486a0-2047-329a-90c0-2bbbc9a332c8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY1MzU0Y2EyZWUxYjhmZGM5NTViYjQzN2JiMjYxOTU3NWZjNzk4M2YzNjlhZmEzYTFmN2QxYjk3NTY3ZWE4In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7A miniature nuke capable of\",1:\"§7massive destruction.\",2:\"\",3:\"§6Ability: Detonate §e§lRIGHT CLICK\",4:\"§7Detonate the Nuke, dealing\",5:\"§7§c80.0%§7 max health true damage\",6:\"§7to all enemies in a §a20§7 block\",7:\"§7radius.\",8:\"\",9:\"§8§l* §8Soulbound §8§l*\",10:\"§c§lSPECIAL DEPLOYABLE\"],Name:\"§cMiniature Nuke\"},ExtraAttributes:{id:\"MINIATURE_NUKE\",dontSaveToProfile:1b}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Miniature Nuke\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Miniature Nuke\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A miniature nuke capable of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"massive destruction.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Detonate \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Detonate the Nuke, dealing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"80.0%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" max health true damage\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to all enemies in a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" block\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"radius.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL DEPLOYABLE\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MINIATURE_NUKE\",\"dontSaveToProfile\":true},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7A miniature nuke capable of",
-    "§7massive destruction.",
-    "",
-    "§6Ability: Detonate §e§lRIGHT CLICK",
-    "§7Detonate the Nuke, dealing",
-    "§7§c80.0%§7 max health true damage",
-    "§7to all enemies in a §a20§7 block",
-    "§7radius.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§c§lSPECIAL DEPLOYABLE"
+    "{\"text\":\"A miniature nuke capable of\",\"color\":\"gray\"}",
+    "{\"text\":\"massive destruction.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Detonate \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Detonate the Nuke, dealing\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"80.0%\",\"color\":\"red\"},{\"text\":\" max health true damage\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to all enemies in a \",\"color\":\"gray\"},{\"text\":\"20\",\"color\":\"green\"},{\"text\":\" block\",\"color\":\"gray\"}]}",
+    "{\"text\":\"radius.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL DEPLOYABLE\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "MINIATURE_NUKE",
   "crafttext": "",
   "clickcommand": "",
   "modver": "2.1.1-PRE",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

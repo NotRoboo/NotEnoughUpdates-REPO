@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Windmill Operator (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"c9540683-51e4-3942-ad17-4f2c3f3ae4b7\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyMmQ4ZTc1MWM4ZjJmZDRjODk0MmM0NGJkYjJmNWNhNGQ4YWU4ZTU3NWVkM2ViMzRjMThhODZlOTNiIn19fQ\u003d\u003d\"}]},Name:\"c9540683-51e4-3942-ad17-4f2c3f3ae4b7\"},display:{Lore:[0:\"\"],Name:\"§9Windmill Operator (NPC)\"},ExtraAttributes:{id:\"WINDMILL_OPERATOR_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Windmill Operator (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Windmill Operator (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"WINDMILL_OPERATOR_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "WINDMILL_OPERATOR_NPC",
   "clickcommand": "",
@@ -110,5 +110,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Windmill_Operator",
     "https://wiki.hypixel.net/Windmill_Operator"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

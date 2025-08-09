@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:diamond_shovel",
-  "displayname": "§aDiamond Shovel",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+30\",1:\"\",2:\"§a§lUNCOMMON SHOVEL\"],Name:\"§aDiamond Shovel\"},ExtraAttributes:{id:\"DIAMOND_SPADE\"}}",
+  "displayname": "{\"text\":\"Diamond Shovel\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_shovel\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Shovel\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON SHOVEL\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND_SPADE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+30",
-    "",
-    "§a§lUNCOMMON SHOVEL"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON SHOVEL\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DIAMOND_SPADE",
   "vanilla": true,
@@ -27,5 +27,8 @@
   },
   "info": [
     "https://wiki.hypixel.net/Diamond_Shovel"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

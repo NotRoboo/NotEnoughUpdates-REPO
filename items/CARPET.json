@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:carpet",
-  "displayname": "§fCarpet",
-  "nbttag": "{ExtraAttributes:{id:\"CARPET\"},HideFlags:254,ItemModel:\"minecraft:white_carpet\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCarpet\"}}",
+  "displayname": "{\"text\":\"Carpet\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:carpet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Carpet\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CARPET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "CARPET",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 3
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

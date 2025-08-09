@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:paper",
-  "displayname": "§5Architect's First Draft",
-  "nbttag": "{ExtraAttributes:{id:\"ARCHITECT_FIRST_DRAFT\"},HideFlags:254,ItemModel:\"minecraft:paper\",display:{Lore:[0:\"§7Can be used to reset a puzzle room\",1:\"§7when in dungeons.\",2:\"\",3:\"§7A 'reset' button seems to have been\",4:\"§7hidden somewhere in the floor, just\",5:\"§7in case something goes wrong...\",6:\"\",7:\"§cDungeons only!\",8:\"\",9:\"§5§lEPIC DUNGEON ITEM\"],Name:\"§5Architect's First Draft\"}}",
+  "displayname": "{\"text\":\"Architect\u0027s First Draft\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:paper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Architect\u0027s First Draft\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Can be used to reset a puzzle room\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"when in dungeons.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A \u0027reset\u0027 button seems to have been\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"hidden somewhere in the floor, just\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in case something goes wrong...\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Dungeons only!\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC DUNGEON ITEM\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ARCHITECT_FIRST_DRAFT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Can be used to reset a puzzle room",
-    "§7when in dungeons.",
-    "",
-    "§7A 'reset' button seems to have been",
-    "§7hidden somewhere in the floor, just",
-    "§7in case something goes wrong...",
-    "",
-    "§cDungeons only!",
-    "",
-    "§5§lEPIC DUNGEON ITEM"
+    "{\"text\":\"Can be used to reset a puzzle room\",\"color\":\"gray\"}",
+    "{\"text\":\"when in dungeons.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A \u0027reset\u0027 button seems to have been\",\"color\":\"gray\"}",
+    "{\"text\":\"hidden somewhere in the floor, just\",\"color\":\"gray\"}",
+    "{\"text\":\"in case something goes wrong...\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Dungeons only!\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC DUNGEON ITEM\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ARCHITECT_FIRST_DRAFT",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Architect%27s_First_Draft",
     "https://wiki.hypixel.net/Architect%27s_First_Draft"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

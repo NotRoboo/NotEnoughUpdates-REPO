@@ -1,26 +1,26 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Toil Log",
-  "nbttag": "{ExtraAttributes:{id:\"TOIL_LOG\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"59ae1418-2ed0-3740-8c68-ffc6a7743d47\",Properties:{textures:[0:{Name:\"textures\",Signature:\"rHEfXPjWVfyRxgfHD4CgksDesQh4jrs5zTQ7Eit01b7kpFlk/5hlVt3NdtpGd6Su0rXvHS1CfcnSFWPKoLsabrZ0Rq22kPh+x+5V76d6X9nK8e2d5fsnnazuWZXz8eMLcaj35cVa7GIm1CrIAZf3A+RLk2hyNZJU+4yWB3iJrrM/GWj4tx0tSnU/8afb68ErEfWW8HfHLd9tAo27P9dl9FkSUt09Kpmp1x98QOAJGkB8eP6trLGa7IOye1QVUnjOYan5AiPEhlWlTC12+jDp/AwV3UOxhPNJ0/TOU4n+CmQ3+0S4ecWmbPE4E/rnDsSMmXUzcLr8P10tWQk02p1PcR/2mYM9bAehj7K7BUuK+815+fUtU5OZQHhgFg6S8kIPkGvnkNxZTdWrvpaJ26rVvTn4ueqGC7AciNWcnx5mYwNeZnfLZUHh8O7TsOEo1bF2HKcJ3pfEeY8A7kS/gKzXxNJ2KeqG/kpMiKowxoh/ZFkvtbgUKe26neVpW2KU5Hv2N09pDggw9WNvjO5uQCS6jnK4jHupfk9h/cCcr/tdWqllqVg1urvTESJHBYmWxSGA4PudW3ZPBz2MnMVczQLh43NCZ8tkQ3boxuZvJBg+bsGBsYVw7JlxVCkuaT5hamOJhCtyCeeSBVzyYyu2GHqJWxAwhonQ5wpSFV4+cT0nsgQ=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTczMzQ4MzQ3MzEsInByb2ZpbGVJZCI6ImU3NTMyNjk3ZTgwZjQ1NmU5ZjNhZjZiODIzNWU5YTgxIiwicHJvZmlsZU5hbWUiOiJNaW5lQWx0c19NU2tpbl8xIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYWUzYjRiYWYzYWVjNTUzYzFmNGY0OGZmODNjYWY2NzVkZDU3YTRlNDY0ZTRkMjg0OGNlMzFmOGEyN2IyZjc1In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Toil §7reforge when\",4:\"§7combined with an axe.\",5:\"\",6:\"§9Toil §7(§6Legendary§7):\",7:\"§7Strength: §c+16\",8:\"§7Crit Damage: §c+16%\",9:\"§7Foraging Wisdom: §a+5\",10:\"\",11:\"§9Toil Bonus\",12:\"§7Grants §3+5☯ Foraging Wisdom§7.\",13:\"\",14:\"§7Requires §aMining Skill Level XXV§7!\",15:\"\",16:\"§5§lEPIC REFORGE STONE\"],Name:\"§5Toil Log\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Toil Log\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Toil Log\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Reforge Stone\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Combinable in Reforge Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applies the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Toil \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"reforge when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"combined with an axe.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Toil \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"(\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Legendary\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"):\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+16\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+16%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Foraging Wisdom: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Toil Bonus\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5☯ Foraging Wisdom\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mining Skill Level XXV\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC REFORGE STONE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TOIL_LOG\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NTczMzQ4MzQ3MzEsInByb2ZpbGVJZCI6ImU3NTMyNjk3ZTgwZjQ1NmU5ZjNhZjZiODIzNWU5YTgxIiwicHJvZmlsZU5hbWUiOiJNaW5lQWx0c19NU2tpbl8xIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYWUzYjRiYWYzYWVjNTUzYzFmNGY0OGZmODNjYWY2NzVkZDU3YTRlNDY0ZTRkMjg0OGNlMzFmOGEyN2IyZjc1In19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Reforge Stone",
-    "§8Combinable in Reforge Anvil",
-    "",
-    "§7Applies the §9Toil §7reforge when",
-    "§7combined with an axe.",
-    "",
-    "§9Toil §7(§6Legendary§7):",
-    "§7Strength: §c+16",
-    "§7Crit Damage: §c+16%",
-    "§7Foraging Wisdom: §a+5",
-    "",
-    "§9Toil Bonus",
-    "§7Grants §3+5☯ Foraging Wisdom§7.",
-    "",
-    "§7Requires §aMining Skill Level XXV§7!",
-    "",
-    "§5§lEPIC REFORGE STONE"
+    "{\"text\":\"Reforge Stone\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Combinable in Reforge Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applies the \",\"color\":\"gray\"},{\"text\":\"Toil \",\"color\":\"blue\"},{\"text\":\"reforge when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"combined with an axe.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Toil \",\"color\":\"blue\"},{\"text\":\"(\",\"color\":\"gray\"},{\"text\":\"Legendary\",\"color\":\"gold\"},{\"text\":\"):\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+16\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+16%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Foraging Wisdom: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Toil Bonus\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+5☯ Foraging Wisdom\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"Mining Skill Level XXV\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC REFORGE STONE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "TOIL_LOG",
   "clickcommand": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Toil_Log",
     "https://wiki.hypixel.net/Toil_Log"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aHaste III Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:12b,Amplifier:2b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§eHaste III §f(3:00)\",2:\"§7Grants §a+150 §6⸕ Mining Speed§7.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aHaste III Potion\"},ExtraAttributes:{potion_level:3,potion:\"haste\",effects:[0:{level:3,effect:\"haste\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_HASTE;3\"}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Haste III Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Haste III Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Haste III \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"⸕ Mining Speed\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":3,\"potion\":\"haste\",\"effects\":\"[0:{level:3\",\"effect\":\"haste\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§eHaste III §f(3:00)",
-    "§7Grants §a+150 §6⸕ Mining Speed§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Haste III \",\"color\":\"yellow\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+150 \",\"color\":\"green\"},{\"text\":\"⸕ Mining Speed\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_HASTE;3",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

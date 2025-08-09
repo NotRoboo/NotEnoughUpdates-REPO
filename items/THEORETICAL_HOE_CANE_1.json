@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:stone_hoe",
-  "displayname": "§fTuring Sugar Cane Hoe",
-  "nbttag": "{ExtraAttributes:{id:\"THEORETICAL_HOE_CANE_1\"},HideFlags:254,ItemModel:\"minecraft:stone_hoe\",Unbreakable:1B,display:{Lore:[0:\" §8[☘]\",1:\"\",2:\"§7Gain §6+10☘ Sugar Cane Fortune §7and\",3:\"§3+1☯ Farming Wisdom §7for sugar canes.\",4:\"\",5:\"§7Counter: §e0 Sugar Canes\",6:\"\",7:\"§eReach 100k Counter for +1 Rarity!\",8:\"\",9:\"§eRight-click to view recipes!\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4❣ §cRequires §aFarming Skill 15§c.\",13:\"§f§lCOMMON HOE\"],Name:\"§fTuring Sugar Cane Hoe\"}}",
+  "displayname": "{\"text\":\"Turing Sugar Cane Hoe\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stone_hoe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Turing Sugar Cane Hoe\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[☘]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10☘ Sugar Cane Fortune \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+1☯ Farming Wisdom \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"for sugar canes.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Counter: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0 Sugar Canes\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Reach 100k Counter for +1 Rarity!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 15\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"COMMON HOE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"THEORETICAL_HOE_CANE_1\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    " §8[☘]",
-    "",
-    "§7Gain §6+10☘ Sugar Cane Fortune §7and",
-    "§3+1☯ Farming Wisdom §7for sugar canes.",
-    "",
-    "§7Counter: §e0 Sugar Canes",
-    "",
-    "§eReach 100k Counter for +1 Rarity!",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aFarming Skill 15§c.",
-    "§f§lCOMMON HOE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[☘]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+10☘ Sugar Cane Fortune \",\"color\":\"gold\"},{\"text\":\"and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+1☯ Farming Wisdom \",\"color\":\"dark_aqua\"},{\"text\":\"for sugar canes.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Counter: \",\"color\":\"gray\"},{\"text\":\"0 Sugar Canes\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Reach 100k Counter for +1 Rarity!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 15\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"COMMON HOE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "THEORETICAL_HOE_CANE_1",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
     "C1": "SUGAR_CANE:64",
     "C2": "SUGAR_CANE:64",
     "C3": "SUGAR_CANE:64"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

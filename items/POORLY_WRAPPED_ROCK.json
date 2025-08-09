@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fPoorly Wrapped Rock",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"80b60c52-4c18-36c7-ad7d-675cfd7343e3\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDczYmE1NDZhNjJiMzJjNTE1Mzc2ZGQ3ZjNjOTJmYjM1YTMzNTI0ZjMyM2JiYjJiNTk3OGUzOGM3ZTVmNjJhIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Quest Item\",1:\" \",2:\"§7Bring it to §eJuliette §7in §aThe Park§7.\",3:\" \",4:\"§7§7§oUneven, unkempt, disjointed,\",5:\"§7§oand that\u0027s just the guy who\",6:\"§7§owrapped it!\",7:\"\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§f§lCOMMON\"],Name:\"§fPoorly Wrapped Rock\"},ExtraAttributes:{id:\"POORLY_WRAPPED_ROCK\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Poorly Wrapped Rock\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Poorly Wrapped Rock\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Quest Item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring it to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Juliette \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Park\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"Uneven, unkempt, disjointed,\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"and that\u0027s just the guy who\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"wrapped it!\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7Quest Item",
-    " ",
-    "§7Bring it to §eJuliette §7in §aThe Park§7.",
-    " ",
-    "§7§7§oUneven, unkempt, disjointed,",
-    "§7§oand that\u0027s just the guy who",
-    "§7§owrapped it!",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§f§lCOMMON"
+    "{\"text\":\"Quest Item\",\"color\":\"gray\"}",
+    "{\"text\":\" \"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring it to \",\"color\":\"gray\"},{\"text\":\"Juliette \",\"color\":\"yellow\"},{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"The Park\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\" \"}",
+    "{\"text\":\"Uneven, unkempt, disjointed,\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"and that\u0027s just the guy who\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"wrapped it!\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POORLY_WRAPPED_ROCK",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Poorly_Wrapped_Rock",
     "https://wiki.hypixel.net/Poorly_Wrapped_Rock"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

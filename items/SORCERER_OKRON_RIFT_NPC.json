@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dSorcerer Okron (Rift NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4813c4d5-e57b-2d63-afc8-f9049655f700\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlhZmE4MGU2MDQ1MTE2YTIwOGM1MGI5OWVkYzQxYTRiODgxNmU4ODE2MDExYzFjZDQwZjIyZjdhOGQ5NmU4NTIifX19\"}]},Name:\"4813c4d5-e57b-2d63-afc8-f9049655f700\"},display:{Lore:[0:\"\"],Name:\"§dSorcerer Okron (Rift NPC)\"},ExtraAttributes:{id:\"SORCERER_OKRON_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Sorcerer Okron (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sorcerer Okron (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"SORCERER_OKRON_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "SORCERER_OKRON_RIFT_NPC",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sorcerer_Okron",
     "https://wiki.hypixel.net/Sorcerer_Okron"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

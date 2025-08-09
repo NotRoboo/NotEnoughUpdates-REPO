@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:hopper",
-  "displayname": "§aBudget Hopper",
-  "nbttag": "{ExtraAttributes:{id:\"BUDGET_HOPPER\"},HideFlags:254,ItemModel:\"minecraft:hopper\",display:{Lore:[0:\"§7This item can be placed inside any\",1:\"§7minion. Automatically sells generated\",2:\"§7items when the minion has no space.\",3:\"§7Items are sold for §a50% §7of their\",4:\"§7selling price.\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aBudget Hopper\"}}",
+  "displayname": "{\"text\":\"Budget Hopper\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:hopper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Budget Hopper\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be placed inside any\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"minion. Automatically sells generated\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"items when the minion has no space.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Items are sold for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of their\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"selling price.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BUDGET_HOPPER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7This item can be placed inside any",
-    "§7minion. Automatically sells generated",
-    "§7items when the minion has no space.",
-    "§7Items are sold for §a50% §7of their",
-    "§7selling price.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"This item can be placed inside any\",\"color\":\"gray\"}",
+    "{\"text\":\"minion. Automatically sells generated\",\"color\":\"gray\"}",
+    "{\"text\":\"items when the minion has no space.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Items are sold for \",\"color\":\"gray\"},{\"text\":\"50% \",\"color\":\"green\"},{\"text\":\"of their\",\"color\":\"gray\"}]}",
+    "{\"text\":\"selling price.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "BUDGET_HOPPER",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "",
     "C2": "ENCHANTED_IRON:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

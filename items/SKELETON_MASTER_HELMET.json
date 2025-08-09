@@ -1,27 +1,27 @@
 {
   "itemid": "minecraft:leather_helmet",
-  "displayname": "§5Skeleton Master Helmet",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d100\",1:\"§7Crit Chance: §c+2%\",2:\"§7Crit Damage: §c+22%\",3:\"§7Health: §a+16\",4:\"§7Defense: §a+26\",5:\"\",6:\"§7Increase the damage you deal\",7:\"§7with arrows by §c5%§7.\",8:\"§6Full Set Bonus: Skeleton Master\",9:\"§7Increase the damage you deal\",10:\"§7with arrows by §c25%§7.\",11:\"\",12:\"§2This armor piece is undead ༕!\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§7§4❣ §cRequires §cCatacombs Skill\",16:\"§c12§c.\",17:\"§5§lEPIC DUNGEON HELMET\"],color:16739083,Name:\"§5Skeleton Master Helmet\"},ExtraAttributes:{dungeon_item_level:0,id:\"SKELETON_MASTER_HELMET\"}}",
+  "displayname": "{\"text\":\"Skeleton Master Helmet\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Skeleton Master Helmet\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"100\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+22%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+16\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+26\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Increase the damage you deal\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"with arrows by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Full Set Bonus: Skeleton Master\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Increase the damage you deal\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"with arrows by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"25%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This armor piece is undead ༕!\\\",\\\"color\\\":\\\"dark_green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Catacombs Skill\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"12\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON HELMET\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"dungeon_item_level\":0,\"id\":\"SKELETON_MASTER_HELMET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d100",
-    "§7Crit Chance: §c+2%",
-    "§7Crit Damage: §c+22%",
-    "§7Health: §a+16",
-    "§7Defense: §a+26",
-    "",
-    "§7Increase the damage you deal",
-    "§7with arrows by §c5%§7.",
-    "§6Full Set Bonus: Skeleton Master",
-    "§7Increase the damage you deal",
-    "§7with arrows by §c25%§7.",
-    "",
-    "§2This armor piece is undead ༕!",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §cCatacombs Skill",
-    "§c12§c.",
-    "§5§lEPIC DUNGEON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"100\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Chance: \",\"color\":\"gray\"},{\"text\":\"+2%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+22%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+16\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+26\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Increase the damage you deal\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"with arrows by \",\"color\":\"gray\"},{\"text\":\"5%\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Full Set Bonus: Skeleton Master\",\"color\":\"gold\"}",
+    "{\"text\":\"Increase the damage you deal\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"with arrows by \",\"color\":\"gray\"},{\"text\":\"25%\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This armor piece is undead ༕!\",\"color\":\"dark_green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Catacombs Skill\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"12\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON HELMET\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SKELETON_MASTER_HELMET",
   "crafttext": "",
@@ -31,5 +31,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Master_Helmet",
     "https://wiki.hypixel.net/Skeleton_Master_Helmet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

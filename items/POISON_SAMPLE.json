@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aPoison Sample",
-  "nbttag": "{ExtraAttributes:{id:\"POISON_SAMPLE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d4c20a84-5a1d-367d-a8a8-21e805b61cbe\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2NzgzMjczMzY1NSwKICAicHJvZmlsZUlkIiA6ICJiYTcyN2MzM2YwZWE0ZGVjYmI0ZGRjNTcyZWZhNDhlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDb2ZmZU1hblRNIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4MDg5OWU0NjM1MGNmMDEzNGM2NzU2OWUyZDc2MjE4MWEwNGYzMDc4ZjY0YWNkZDJmZWFkZDk3MTI1MTU0MDYiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Dropped from §aRain Slimes§7, but only\",1:\"§7the especially toxic ones!\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aPoison Sample\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Poison Sample\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Poison Sample\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Dropped from \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Rain Slimes\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", but only\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"the especially toxic ones!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"POISON_SAMPLE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY2NzgzMjczMzY1NSwKICAicHJvZmlsZUlkIiA6ICJiYTcyN2MzM2YwZWE0ZGVjYmI0ZGRjNTcyZWZhNDhlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDb2ZmZU1hblRNIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4MDg5OWU0NjM1MGNmMDEzNGM2NzU2OWUyZDc2MjE4MWEwNGYzMDc4ZjY0YWNkZDJmZWFkZDk3MTI1MTU0MDYiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Dropped from §aRain Slimes§7, but only",
-    "§7the especially toxic ones!",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Dropped from \",\"color\":\"gray\"},{\"text\":\"Rain Slimes\",\"color\":\"green\"},{\"text\":\", but only\",\"color\":\"gray\"}]}",
+    "{\"text\":\"the especially toxic ones!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POISON_SAMPLE",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Poison_Sample",
     "https://wiki.hypixel.net/Poison_Sample"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

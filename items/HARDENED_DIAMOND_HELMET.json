@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:diamond_helmet",
-  "displayname": "§9Hardened Diamond Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"HARDENED_DIAMOND_HELMET\"},HideFlags:254,ItemModel:\"minecraft:diamond_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+60\",1:\"\",2:\"§8This item can be reforged!\",3:\"§9§lRARE HELMET\"],Name:\"§9Hardened Diamond Helmet\"}}",
+  "displayname": "{\"text\":\"Hardened Diamond Helmet\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hardened Diamond Helmet\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE HELMET\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HARDENED_DIAMOND_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+60",
-    "",
-    "§8This item can be reforged!",
-    "§9§lRARE HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+60\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE HELMET\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "HARDENED_DIAMOND_HELMET",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

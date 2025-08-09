@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dNene (Rift NPC)",
-  "nbttag": "{SkullOwner:{Id:\"bcc2fb94-1499-255d-9d11-e12e4026949a\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YWI0NzA1NjNhZTVmNDlhNzNjZDlkNmQwZjJlNDgyYzY1N2Q0ZTgxZWY5MmJmMGI4YTg4ODE2MmE5Yzg1NjgifX19\"}]},Name:\"bcc2fb94-1499-255d-9d11-e12e4026949a\"},display:{Lore:[0:\"\"],Name:\"§dNene (Rift NPC)\"},ExtraAttributes:{id:\"NENE_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Nene (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nene (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"NENE_RIFT_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "NENE_RIFT_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Nene",
     "https://wiki.hypixel.net/Nene"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

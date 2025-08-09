@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:cooked_porkchop",
-  "displayname": "§cBlazetekk™ Ham",
-  "nbttag": "{ExtraAttributes:{id:\"BLAZETEKK_HAM\"},HideFlags:254,ItemModel:\"minecraft:cooked_porkchop\",display:{Lore:[0:\"§7Savory meat processed by the\",1:\"§4Blazetekk™ Corporation§7, a\",2:\"§7convenient and tasty treat amongst\",3:\"§7the populace.\",4:\"\",5:\"§7Obtained from the §dA Honk and Seek\",6:\"§dAdventure §7event during April Fools.\",7:\"\",8:\"§8§oLocally sourced.\",9:\"\",10:\"§c§lSPECIAL\"],Name:\"§cBlazetekk™ Ham\"},ench:[]}",
+  "displayname": "{\"text\":\"Blazetekk™ Ham\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:cooked_porkchop\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Blazetekk™ Ham\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Savory meat processed by the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Blazetekk™ Corporation\\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\", a\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"convenient and tasty treat amongst\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the populace.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained from the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"A Honk and Seek\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Adventure \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"event during April Fools.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Locally sourced.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BLAZETEKK_HAM\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Savory meat processed by the",
-    "§4Blazetekk™ Corporation§7, a",
-    "§7convenient and tasty treat amongst",
-    "§7the populace.",
-    "",
-    "§7Obtained from the §dA Honk and Seek",
-    "§dAdventure §7event during April Fools.",
-    "",
-    "§8§oLocally sourced.",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Savory meat processed by the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Blazetekk™ Corporation\",\"color\":\"dark_red\"},{\"text\":\", a\",\"color\":\"gray\"}]}",
+    "{\"text\":\"convenient and tasty treat amongst\",\"color\":\"gray\"}",
+    "{\"text\":\"the populace.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained from the \",\"color\":\"gray\"},{\"text\":\"A Honk and Seek\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Adventure \",\"color\":\"light_purple\"},{\"text\":\"event during April Fools.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Locally sourced.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "BLAZETEKK_HAM",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Blazetekk™_Ham"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }
