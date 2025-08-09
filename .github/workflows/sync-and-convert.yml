@@ -1,5 +1,5 @@
 name: Sync with Upstream and Convert Items
- 
+
 on:
   schedule:
     - cron: '0 */6 * * *'
@@ -13,75 +13,75 @@ on:
         options:
           - 'false'
           - 'true'
- 
+
 env:
   UPSTREAM_REPO: 'NotEnoughUpdates/NotEnoughUpdates-REPO'
   CONVERTED_BRANCH: 'converted-items'
- 
+
 jobs:
   sync-and-convert:
     runs-on: ubuntu-latest
- 
+
     steps:
     - name: Checkout
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
- 
+
     - name: Setup Java
       uses: actions/setup-java@v4
       with:
         java-version: '21'
         distribution: 'temurin'
- 
+
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
- 
+
     - name: Add upstream and sync
       run: |
         git remote add upstream https://github.com/${{ env.UPSTREAM_REPO }}.git || true
         git fetch upstream
         git config user.name "GitHub Actions Bot"
         git config user.email "actions@github.com"
- 
+
         CURRENT_HEAD=$(git rev-parse HEAD)
         UPSTREAM_HEAD=$(git rev-parse upstream/master)
- 
+
         if [[ "$CURRENT_HEAD" != "$UPSTREAM_HEAD" ]] || [[ "${{ github.event.inputs.force_full_conversion }}" == "true" ]]; then
           echo "Changes detected, syncing and converting..."
           git checkout master
           git merge upstream/master --no-edit -X theirs
           git push origin master
- 
+
           git fetch origin ${{ env.CONVERTED_BRANCH }} 2>/dev/null || true
           git checkout -B ${{ env.CONVERTED_BRANCH }}
         else
           echo "No changes detected, skipping conversion"
           exit 0
         fi
- 
+
     - name: Analyze items
       run: |
         cat > analyze_items.py << 'EOF'
         import json, os, re
         from pathlib import Path
- 
+
         def needs_datafixer(item_data):
             nbttag = item_data.get('nbttag', '')
             if not nbttag or nbttag.strip() in ['{}', '']:
                 return False
             complex_patterns = ['SkullOwner:', 'Enchantments:', 'ExtraAttributes:', 'display:']
             return any(pattern in nbttag for pattern in complex_patterns) or len(nbttag) > 1000
- 
+
         items_dir = Path('items')
         simple_items = []
         datafixer_items = []
- 
+
         files_to_process = list(items_dir.glob('*.json'))
- 
+
         for filepath in files_to_process:
             if not filepath.exists():
                 continue
@@ -95,25 +95,25 @@ jobs:
                     simple_items.append(item_id)
             except:
                 datafixer_items.append(filepath.stem)
- 
+
         with open('simple_items.json', 'w') as f:
             json.dump(simple_items, f)
         with open('datafixer_items.json', 'w') as f:
             json.dump(datafixer_items, f)
         print(f'Analysis: {len(simple_items)} simple, {len(datafixer_items)} need DataFixer')
         EOF
- 
+
         python3 analyze_items.py
- 
+
     - name: Convert simple items
       run: |
         cat > convert_simple.py << 'EOF'
         import json
         from pathlib import Path
- 
+
         with open('simple_items.json') as f:
             simple_items = json.load(f)
- 
+
         for item_id in simple_items:
             filepath = Path(f'items/{item_id}.json')
             if not filepath.exists():
@@ -130,13 +130,13 @@ jobs:
                 pass
         print(f'Converted {len(simple_items)} simple items')
         EOF
- 
+
         python3 convert_simple.py
- 
+
     - name: Create sophisticated DataFixer converter
       run: |
         mkdir -p converter/src/main/java
- 
+
         cat > converter/build.gradle << 'EOF'
         plugins {
             id 'java'
@@ -157,7 +157,7 @@ jobs:
             }
         }
         EOF
- 
+
         cat > converter/src/main/java/ModernNBTConverter.java << 'EOF'
         import com.google.gson.*;
         import java.io.*;
@@ -165,10 +165,10 @@ jobs:
         import java.util.*;
         import java.util.regex.Pattern;
         import java.util.regex.Matcher;
- 
+
         public class ModernNBTConverter {
         	private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
- 
+
         	public static void main(String[] args) {
         		try {
         			Path datafixerItemsPath = Paths.get("../datafixer_items.json");
@@ -176,27 +176,27 @@ jobs:
         				System.out.println("No datafixer items to convert");
         				return;
         			}
- 
+
         			String content = Files.readString(datafixerItemsPath);
         			JsonArray itemIds = JsonParser.parseString(content).getAsJsonArray();
         			System.out.println("Converting " + itemIds.size() + " items to 1.21.5 component format...");
- 
+
         			int converted = 0;
         			int failed = 0;
- 
+
         			for (JsonElement element : itemIds) {
         				String itemId = element.getAsString();
         				Path itemPath = Paths.get("../items", itemId + ".json");
         				if (!Files.exists(itemPath)) continue;
- 
+
         				try {
         					String itemContent = Files.readString(itemPath);
         					JsonObject itemData = JsonParser.parseString(itemContent).getAsJsonObject();
- 
+
         					String oldNbt = itemData.has("nbttag") ? itemData.get("nbttag").getAsString() : "{}";
         					String oldItemId = itemData.has("itemid") ? itemData.get("itemid").getAsString() : "minecraft:stone";
         					int damage = itemData.has("damage") ? itemData.get("damage").getAsInt() : 0;
- 
+
         					// Parse lore from the JSON for complete conversion
         					List<String> jsonLore = new ArrayList<>();
         					if (itemData.has("lore") && itemData.get("lore").isJsonArray()) {
@@ -205,25 +205,25 @@ jobs:
         							jsonLore.add(loreElement.getAsString());
         						}
         					}
- 
+
         					// Parse display name from JSON for consistency
         					String displayName = itemData.has("displayname") ? itemData.get("displayname").getAsString() : "";
- 
+
         					// Convert to modern 1.21.5 component format
         					JsonObject modernNbt = convertTo1215ComponentFormat(oldNbt, oldItemId, damage, jsonLore, displayName);
- 
+
         					// Update the item with modern NBT (compact JSON)
         					itemData.addProperty("nbttag", compactJsonString(modernNbt.toString()));
         					itemData.addProperty("format_version", 1);
         					itemData.addProperty("conversion_method", "modern_1215_components");
         					itemData.addProperty("converted_modern", true);
         					itemData.addProperty("damage", 0);
- 
+
         					// Update item ID if it changed during conversion
         					if (modernNbt.has("id")) {
         						itemData.addProperty("itemid", modernNbt.get("id").getAsString());
         					}
- 
+
         					// Convert lore array to modern JSON text components (for consistency)
         					if (itemData.has("lore") && itemData.get("lore").isJsonArray()) {
         						JsonArray modernLoreArray = new JsonArray();
@@ -232,68 +232,68 @@ jobs:
         						}
         						itemData.add("lore", modernLoreArray);
         					}
- 
+
         					// Convert display name to modern JSON text component
         					if (itemData.has("displayname") && !displayName.trim().startsWith("{")) {
         						itemData.addProperty("displayname", convertMinecraftTextToJsonCompact(displayName));
         					}
- 
+
         					Files.writeString(itemPath, GSON.toJson(itemData));
         					converted++;
- 
+
         					if (converted % 1000 == 0) {
         						System.out.println("Converted " + converted + " items...");
         					}
- 
+
         				} catch (Exception e) {
         					System.err.println("Error converting " + itemId + ": " + e.getMessage());
         					failed++;
         				}
         			}
- 
+
         			System.out.println("Conversion complete: " + converted + " converted, " + failed + " failed");
- 
+
         		} catch (Exception e) {
         			System.err.println("Converter failed: " + e.getMessage());
         			e.printStackTrace();
         			System.exit(1);
         		}
         	}
- 
+
         	private static JsonObject convertTo1215ComponentFormat(String oldNbtString, String itemId, int damage, List<String> lore, String displayName) {
         		JsonObject modernItem = new JsonObject();
- 
+
         		// Convert item ID from old format to new
         		String modernItemId = convertItemId(itemId, damage);
         		modernItem.addProperty("id", modernItemId);
         		modernItem.addProperty("count", 1);
- 
+
         		// Parse the old NBT structure
         		NBTData oldNbt = parseOldNBT(oldNbtString);
- 
+
         		// Create modern components object
         		JsonObject components = new JsonObject();
- 
+
         		// Convert display components with priority given to JSON data
         		convertDisplayComponents(oldNbt, components, lore, displayName);
- 
+
         		// Convert ExtraAttributes to custom_data
         		convertExtraAttributes(oldNbt, components);
- 
+
         		// Convert enchantments
         		convertEnchantments(oldNbt, components);
- 
+
         		// Convert other properties
         		convertOtherProperties(oldNbt, components);
- 
+
         		// Add components to modern item if any exist
         		if (components.size() > 0) {
         			modernItem.add("components", components);
         		}
- 
+
         		return modernItem;
         	}
- 
+
         	private static String convertItemId(String oldId, int damage) {
         		// Handle common 1.8.9 -> modern item ID conversions
         		switch (oldId) {
@@ -344,7 +344,7 @@ jobs:
         				return oldId;
         		}
         	}
- 
+
         	private static void convertDisplayComponents(NBTData oldNbt, JsonObject components, List<String> jsonLore, String jsonDisplayName) {
         		// Convert display name - prioritize JSON data over NBT
         		String nameToUse = !jsonDisplayName.isEmpty() ? jsonDisplayName : oldNbt.displayName;
@@ -352,14 +352,14 @@ jobs:
         			String jsonName = convertMinecraftTextToJsonCompact(nameToUse);
         			components.addProperty("minecraft:custom_name", jsonName);
         		}
- 
+
         		// Convert lore - prioritize JSON data over NBT and include ALL lines
         		List<String> loreToUse = !jsonLore.isEmpty() ? jsonLore : oldNbt.lore;
         		if (loreToUse != null && !loreToUse.isEmpty()) {
         			JsonArray loreArray = new JsonArray();
         			for (String loreLine : loreToUse) {
         				if (!loreLine.trim().startsWith("{")) {
-        					String convertedLoreLine = convertMinecraftTextToJsonCompact(loreLine);  // FIXED: renamed variable
+        					String convertedLoreLine = convertMinecraftTextToJsonCompact(loreLine);
         					loreArray.add(convertedLoreLine);
         				} else {
         					loreArray.add(compactJsonString(loreLine));
@@ -368,16 +368,16 @@ jobs:
         			components.add("minecraft:lore", loreArray);
         		}
         	}
- 
+
         	private static void convertExtraAttributes(NBTData oldNbt, JsonObject components) {
         		if (oldNbt.extraAttributes != null && !oldNbt.extraAttributes.isEmpty()) {
         			JsonObject customData = new JsonObject();
- 
+
         			// Convert all ExtraAttributes key-value pairs
         			for (Map.Entry<String, Object> entry : oldNbt.extraAttributes.entrySet()) {
         				String key = entry.getKey();
         				Object value = entry.getValue();
- 
+
         				if (value instanceof String) {
         					customData.addProperty(key, (String) value);
         				} else if (value instanceof Number) {
@@ -388,29 +388,29 @@ jobs:
         					customData.addProperty(key, value.toString());
         				}
         			}
- 
+
         			if (customData.size() > 0) {
         				components.add("minecraft:custom_data", customData);
         			}
         		}
         	}
- 
+
         	private static void convertEnchantments(NBTData oldNbt, JsonObject components) {
         		if (oldNbt.enchantments != null && !oldNbt.enchantments.isEmpty()) {
         			JsonObject enchantments = new JsonObject();
         			JsonObject levels = new JsonObject();
- 
+
         			for (Map.Entry<String, Integer> entry : oldNbt.enchantments.entrySet()) {
         				String enchId = entry.getKey();
         				Integer level = entry.getValue();
- 
+
         				// Convert numeric enchantment IDs to modern names
         				String modernEnchName = convertEnchantmentId(enchId);
         				if (modernEnchName != null) {
         					levels.addProperty(modernEnchName, level);
         				}
         			}
- 
+
         			if (levels.size() > 0) {
         				enchantments.add("levels", levels);
         				enchantments.addProperty("show_in_tooltip", true);
@@ -418,27 +418,27 @@ jobs:
         			}
         		}
         	}
- 
+
         	private static void convertOtherProperties(NBTData oldNbt, JsonObject components) {
         		// Convert HideFlags to hide_additional_tooltip
         		if (oldNbt.hideFlags > 0) {
         			components.add("minecraft:hide_additional_tooltip", new JsonObject());
         		}
- 
+
         		// Convert CustomModelData
         		if (oldNbt.customModelData > 0) {
         			components.addProperty("minecraft:custom_model_data", oldNbt.customModelData);
         		}
- 
+
         		// Convert Unbreakable
         		if (oldNbt.unbreakable) {
         			components.add("minecraft:unbreakable", new JsonObject());
         		}
- 
+
         		// Convert SkullOwner to profile
         		if (oldNbt.skullOwner != null) {
         			JsonObject profile = new JsonObject();
- 
+
         			if (oldNbt.skullTexture != null) {
         				JsonObject properties = new JsonObject();
         				JsonArray textures = new JsonArray();
@@ -448,61 +448,127 @@ jobs:
         				properties.add("textures", textures);
         				profile.add("properties", properties);
         			}
- 
+
         			if (oldNbt.skullOwner.length() > 0) {
         				profile.addProperty("name", oldNbt.skullOwner);
         			}
- 
+
         			components.add("minecraft:profile", profile);
         		}
         	}
- 
+
         	private static String convertMinecraftTextToJsonCompact(String minecraftText) {
         		if (minecraftText == null || minecraftText.isEmpty()) {
         			return "{\"text\":\"\"}";
         		}
- 
+
         		// If it's already JSON, return as-is (compacted)
         		if (minecraftText.trim().startsWith("{")) {
         			return compactJsonString(minecraftText);
         		}
- 
-        		// Convert Minecraft color codes to JSON format
-        		JsonObject textComponent = new JsonObject();
- 
-        		// Remove § color codes and extract text
-        		String cleanText = minecraftText.replaceAll("§[0-9a-fk-or]", "");
-        		textComponent.addProperty("text", cleanText);
- 
-        		// Extract color from the LAST color code found (most recent takes precedence)
-        		Pattern colorPattern = Pattern.compile("§([0-9a-f])");
-        		Matcher colorMatcher = colorPattern.matcher(minecraftText);
-        		String lastColorCode = null;
-        		while (colorMatcher.find()) {
-        			lastColorCode = colorMatcher.group(1);
-        		}
-        		if (lastColorCode != null) {
-        			String colorName = getColorName(lastColorCode);
+
+        		// Handle multiple color codes in one line by creating an array of text components
+        		List<JsonObject> textParts = new ArrayList<>();
+
+        		int lastIndex = 0;
+        		String currentColor = null;
+        		boolean bold = false, italic = false, underlined = false, strikethrough = false, obfuscated = false;
+
+        		// Find all formatting codes
+        		Pattern formattingPattern = Pattern.compile("§([0-9a-fk-or])");
+        		Matcher matcher = formattingPattern.matcher(minecraftText);
+
+        		while (matcher.find()) {
+        			// Add text segment before this formatting code
+        			if (matcher.start() > lastIndex) {
+        				String textSegment = minecraftText.substring(lastIndex, matcher.start());
+        				if (!textSegment.isEmpty()) {
+        					JsonObject textComponent = createTextComponent(textSegment, currentColor, bold, italic, underlined, strikethrough, obfuscated);
+        					textParts.add(textComponent);
+        				}
+        			}
+
+        			char code = matcher.group(1).charAt(0);
+        			String colorName = getColorName(String.valueOf(code));
+
         			if (colorName != null) {
-        				textComponent.addProperty("color", colorName);
+        				// Color code - reset formatting but keep the color
+        				currentColor = colorName;
+        				bold = italic = underlined = strikethrough = obfuscated = false;
+        			} else {
+        				// Formatting code
+        				switch (code) {
+        					case 'l': bold = true; break;
+        					case 'o': italic = true; break;
+        					case 'n': underlined = true; break;
+        					case 'm': strikethrough = true; break;
+        					case 'k': obfuscated = true; break;
+        					case 'r': // Reset all formatting
+        						currentColor = null;
+        						bold = italic = underlined = strikethrough = obfuscated = false;
+        						break;
+        				}
+        			}
+
+        			lastIndex = matcher.end();
+        		}
+
+        		// Add remaining text after last formatting code
+        		if (lastIndex < minecraftText.length()) {
+        			String textSegment = minecraftText.substring(lastIndex);
+        			if (!textSegment.isEmpty()) {
+        				JsonObject textComponent = createTextComponent(textSegment, currentColor, bold, italic, underlined, strikethrough, obfuscated);
+        				textParts.add(textComponent);
         			}
         		}
- 
-        		// Check for formatting codes
-        		if (minecraftText.contains("§l")) textComponent.addProperty("bold", true);
-        		if (minecraftText.contains("§o")) textComponent.addProperty("italic", true);
-        		if (minecraftText.contains("§n")) textComponent.addProperty("underlined", true);
-        		if (minecraftText.contains("§m")) textComponent.addProperty("strikethrough", true);
-        		if (minecraftText.contains("§k")) textComponent.addProperty("obfuscated", true);
- 
-        		return compactJsonString(textComponent.toString());
+
+        		// Handle case where there are no formatting codes at all
+        		if (textParts.isEmpty()) {
+        			String cleanText = minecraftText.replaceAll("§[0-9a-fk-or]", "");
+        			JsonObject textComponent = createTextComponent(cleanText, null, false, false, false, false, false);
+        			textParts.add(textComponent);
+        		}
+
+        		// If only one part, return it directly
+        		if (textParts.size() == 1) {
+        			return compactJsonString(textParts.get(0).toString());
+        		}
+
+        		// Multiple parts - create a compound text component
+        		JsonObject mainComponent = new JsonObject();
+        		mainComponent.addProperty("text", "");
+        		JsonArray extraArray = new JsonArray();
+
+        		for (JsonObject part : textParts) {
+        			extraArray.add(part);
+        		}
+
+        		mainComponent.add("extra", extraArray);
+
+        		return compactJsonString(mainComponent.toString());
         	}
- 
+
+        	private static JsonObject createTextComponent(String text, String color, boolean bold, boolean italic, boolean underlined, boolean strikethrough, boolean obfuscated) {
+        		JsonObject component = new JsonObject();
+        		component.addProperty("text", text);
+
+        		if (color != null) {
+        			component.addProperty("color", color);
+        		}
+        		if (bold) component.addProperty("bold", true);
+        		if (italic) component.addProperty("italic", true);
+        		if (underlined) component.addProperty("underlined", true);
+        		if (strikethrough) component.addProperty("strikethrough", true);
+        		if (obfuscated) component.addProperty("obfuscated", true);
+
+        		return component;
+        	}
+
         	private static String compactJsonString(String jsonString) {
         		// Remove unnecessary whitespace and line breaks from JSON
         		return jsonString.replaceAll("\\s*\\n\\s*", "").replaceAll("\\s{2,}", " ").trim();
         	}
- 
+
         	private static String getColorName(String colorCode) {
         		switch (colorCode) {
         			case "0": return "black";
@@ -524,7 +590,7 @@ jobs:
         			default: return null;
         		}
         	}
- 
+
         	private static String convertEnchantmentId(String enchId) {
         		// Handle both numeric and string enchantment IDs
         		try {
@@ -544,14 +610,14 @@ jobs:
         			return enchId.startsWith("minecraft:") ? enchId : "minecraft:" + enchId.toLowerCase();
         		}
         	}
- 
+
         	private static NBTData parseOldNBT(String nbtString) {
         		NBTData data = new NBTData();
- 
+
         		if (nbtString == null || nbtString.trim().isEmpty() || nbtString.equals("{}")) {
         			return data;
         		}
- 
+
         		try {
         			// Parse display name
         			Pattern namePattern = Pattern.compile("Name:\"([^\"]+)\"");
@@ -559,14 +625,14 @@ jobs:
         			if (nameMatcher.find()) {
         				data.displayName = nameMatcher.group(1);
         			}
- 
+
         			// Parse lore
         			Pattern lorePattern = Pattern.compile("Lore:\\[([^\\]]+)\\]");
         			Matcher loreMatcher = lorePattern.matcher(nbtString);
         			if (loreMatcher.find()) {
         				String loreContent = loreMatcher.group(1);
         				data.lore = new ArrayList<>();
- 
+
         				// Split lore lines and clean them up
         				String[] loreLines = loreContent.split(",");
         				for (String line : loreLines) {
@@ -581,14 +647,14 @@ jobs:
         					}
         				}
         			}
- 
+
         			// Parse ExtraAttributes
         			Pattern extraAttrsPattern = Pattern.compile("ExtraAttributes:\\{([^}]+)\\}");
         			Matcher extraMatcher = extraAttrsPattern.matcher(nbtString);
         			if (extraMatcher.find()) {
         				String extraContent = extraMatcher.group(1);
         				data.extraAttributes = new HashMap<>();
- 
+
         				// Parse key-value pairs in ExtraAttributes
         				String[] pairs = extraContent.split(",");
         				for (String pair : pairs) {
@@ -596,12 +662,12 @@ jobs:
         					if (keyValue.length == 2) {
         						String key = keyValue[0].trim();
         						String value = keyValue[1].trim();
- 
+
         						// Remove quotes from key
         						if (key.startsWith("\"") && key.endsWith("\"")) {
         							key = key.substring(1, key.length() - 1);
         						}
- 
+
         						// Parse value based on type
         						if (value.startsWith("\"") && value.endsWith("\"")) {
         							// String value
@@ -613,7 +679,7 @@ jobs:
         							// Float/Double value
         							try {
         								data.extraAttributes.put(key, Double.parseDouble(value.replaceAll("[fFdD]", "")));
-        							} catch (NumberFormatException e) {
+        						} catch (NumberFormatException e) {
         								data.extraAttributes.put(key, value);
         							}
         						} else {
@@ -627,67 +693,67 @@ jobs:
         					}
         				}
         			}
- 
+
         			// Parse HideFlags
         			Pattern hideFlagsPattern = Pattern.compile("HideFlags:(\\d+)");
         			Matcher hideFlags = hideFlagsPattern.matcher(nbtString);
         			if (hideFlags.find()) {
         				data.hideFlags = Integer.parseInt(hideFlags.group(1));
         			}
- 
+
         			// Parse CustomModelData
         			Pattern customModelPattern = Pattern.compile("CustomModelData:(\\d+)");
         			Matcher customModel = customModelPattern.matcher(nbtString);
         			if (customModel.find()) {
         				data.customModelData = Integer.parseInt(customModel.group(1));
         			}
- 
+
         			// Parse Unbreakable
         			data.unbreakable = nbtString.contains("Unbreakable:1");
- 
+
         			// Parse SkullOwner
         			Pattern skullPattern = Pattern.compile("SkullOwner:\\{([^}]+)\\}");
         			Matcher skullMatcher = skullPattern.matcher(nbtString);
         			if (skullMatcher.find()) {
         				String skullContent = skullMatcher.group(1);
- 
+
         				Pattern namePattern2 = Pattern.compile("Name:\"([^\"]+)\"");
         				Matcher nameMatcher2 = namePattern2.matcher(skullContent);
         				if (nameMatcher2.find()) {
         					data.skullOwner = nameMatcher2.group(1);
         				}
- 
+
         				Pattern texturePattern = Pattern.compile("Value:\"([^\"]+)\"");
         				Matcher textureMatcher = texturePattern.matcher(skullContent);
         				if (textureMatcher.find()) {
         					data.skullTexture = textureMatcher.group(1);
         				}
         			}
- 
+
         			// Parse enchantments
         			Pattern enchPattern = Pattern.compile("ench:\\[([^\\]]+)\\]");
         			Matcher enchMatcher = enchPattern.matcher(nbtString);
         			if (enchMatcher.find()) {
         				String enchContent = enchMatcher.group(1);
         				data.enchantments = new HashMap<>();
- 
+
         				Pattern enchEntryPattern = Pattern.compile("\\{id:(\\d+)[sS]?,lvl:(\\d+)[sS]?\\}");
         				Matcher entryMatcher = enchEntryPattern.matcher(enchContent);
- 
+
         				while (entryMatcher.find()) {
         					String enchId = entryMatcher.group(1);
         					Integer level = Integer.parseInt(entryMatcher.group(2));
         					data.enchantments.put(enchId, level);
         				}
         			}
- 
+
         		} catch (Exception e) {
         			System.err.println("Warning: Failed to fully parse NBT: " + e.getMessage());
         		}
- 
+
         		return data;
         	}
- 
+
         	// Helper class to store parsed NBT data
         	private static class NBTData {
         		String displayName;
@@ -702,7 +768,7 @@ jobs:
         	}
         }
         EOF
- 
+
     - name: Run sophisticated DataFixer conversion (DEBUG)
       run: |
         echo "=== Pre-conversion checks ==="
@@ -748,7 +814,7 @@ jobs:
         echo "=== Checking file modifications ==="
         git diff --name-only | head -10
         echo "=== Debug complete ==="
- 
+
     - name: Commit and push converted items
       run: |
         git add items/ simple_items.json datafixer_items.json
