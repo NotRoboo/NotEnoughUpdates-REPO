@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:writable_book",
-  "displayname": "§fBook and Quill",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBook and Quill\"},ExtraAttributes:{id:\"BOOK_AND_QUILL\"}}",
+  "displayname": "{\"text\":\"Book and Quill\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:writable_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Book and Quill\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BOOK_AND_QUILL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "BOOK_AND_QUILL",
   "modver": "1.3-REL",
@@ -20,5 +20,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

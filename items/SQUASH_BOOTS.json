@@ -1,28 +1,28 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§5Squash Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+35\",2:\"§7Speed: §a+4\",3:\"§7Farming Fortune: §a+25\",4:\" §8[§8☘§8]\",5:\"\",6:\"§8Tiered Bonus: Mento Fermento (0/4)\",7:\"§7§7Farming Sugar Cane, Cacti,\",8:\"§7Mushrooms, and Nether Warts has a\",9:\"§7§a0.005% §7chance of dropping a\",10:\"§7Fermento. §7Grants §60☘ Farming\",11:\"§6Fortune§7.\",12:\"\",13:\"§6Ability: Farmer\u0027s Grace \",14:\"§7Grants immunity to trampling crops.\",15:\"\",16:\"§7§8This item can be reforged!\",17:\"§7§4❣ §cRequires §aFarming Skill 35§c.\",18:\"§5§lEPIC BOOTS\"],color:1267230,Name:\"§5Squash Boots\"},ExtraAttributes:{id:\"SQUASH_BOOTS\"}}",
+  "displayname": "{\"text\":\"Squash Boots\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Squash Boots\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Farming Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"☘\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Mento Fermento (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Farming Sugar Cane, Cacti,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Mushrooms, and Nether Warts has a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"0.005% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance of dropping a\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fermento. \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0☘ Farming\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Farmer\u0027s Grace \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Grants immunity to trampling crops.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 35\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC BOOTS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SQUASH_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+120",
-    "§7Defense: §a+35",
-    "§7Speed: §a+4",
-    "§7Farming Fortune: §a+25",
-    " §8[§8☘§8]",
-    "",
-    "§8Tiered Bonus: Mento Fermento (0/4)",
-    "§7§7Farming Sugar Cane, Cacti,",
-    "§7Mushrooms, and Nether Warts has a",
-    "§7§a0.005% §7chance of dropping a",
-    "§7Fermento. §7Grants §60☘ Farming",
-    "§6Fortune§7.",
-    "",
-    "§6Ability: Farmer\u0027s Grace ",
-    "§7Grants immunity to trampling crops.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 35§c.",
-    "§5§lEPIC BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+120\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+35\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+4\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Farming Fortune: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"☘\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Mento Fermento (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Farming Sugar Cane, Cacti,\",\"color\":\"gray\"}",
+    "{\"text\":\"Mushrooms, and Nether Warts has a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"0.005% \",\"color\":\"green\"},{\"text\":\"chance of dropping a\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fermento. \",\"color\":\"gray\"},{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"0☘ Farming\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fortune\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Farmer\u0027s Grace \",\"color\":\"gold\"}",
+    "{\"text\":\"Grants immunity to trampling crops.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 35\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC BOOTS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "SQUASH:10",
@@ -43,5 +43,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Squash_Boots",
     "https://wiki.hypixel.net/Squash_Boots"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

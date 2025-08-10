@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:record_strad",
-  "displayname": "§aDynaMITES Vinyl",
-  "nbttag": "{ExtraAttributes:{id:\"VINYL_DYNAMITES\"},HideFlags:254,ItemModel:\"minecraft:music_disc_strad\",display:{Lore:[0:\"§7Place in a §6Chirping Stereo §7to play\",1:\"§7funky tunes for §2Pests§7.\",2:\"\",3:\"§7When playing, this vinyl attracts §2Mite\",4:\"§2Pests§7.\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aDynaMITES Vinyl\"}}",
+  "displayname": "{\"text\":\"DynaMITES Vinyl\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:record_strad\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"DynaMITES Vinyl\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Place in a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Chirping Stereo \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"to play\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"funky tunes for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Pests\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"When playing, this vinyl attracts \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mite\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pests\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"VINYL_DYNAMITES\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Place in a §6Chirping Stereo §7to play",
-    "§7funky tunes for §2Pests§7.",
-    "",
-    "§7When playing, this vinyl attracts §2Mite",
-    "§2Pests§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Place in a \",\"color\":\"gray\"},{\"text\":\"Chirping Stereo \",\"color\":\"gold\"},{\"text\":\"to play\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"funky tunes for \",\"color\":\"gray\"},{\"text\":\"Pests\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"When playing, this vinyl attracts \",\"color\":\"gray\"},{\"text\":\"Mite\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pests\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "VINYL_DYNAMITES",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/DynaMITES_Vinyl",
     "https://wiki.hypixel.net/DynaMITES_Vinyl"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

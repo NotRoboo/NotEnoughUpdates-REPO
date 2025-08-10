@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:red_sandstone",
-  "displayname": "§fRed Sandstone",
-  "nbttag": "{ExtraAttributes:{id:\"RED_SANDSTONE\"},HideFlags:254,ItemModel:\"minecraft:red_sandstone\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRed Sandstone\"}}",
+  "displayname": "{\"text\":\"Red Sandstone\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:red_sandstone\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Red Sandstone\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RED_SANDSTONE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "RED_SANDSTONE",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

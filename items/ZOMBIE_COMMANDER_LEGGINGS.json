@@ -1,27 +1,27 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§5Zombie Commander Leggings",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d161\",1:\"§7Strength: §c+8\",2:\"§7Health: §a+51\",3:\"§7Defense: §a+30\",4:\"§7Intelligence: §a+4\",5:\"\",6:\"§6Full Set Bonus: Training\",7:\"§7Every §950 Zombies killed§7\",8:\"§7gives the wearer §a+5 §c❤\",9:\"§cHealth§7 while wearing the set.\",10:\"§7Max 500.\",11:\"\",12:\"§2This armor piece is undead ༕!\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§7§4❣ §cRequires §cCatacombs Skill\",16:\"§c18§c.\",17:\"§5§lEPIC DUNGEON LEGGINGS\"],color:13963824,Name:\"§5Zombie Commander Leggings\"},ExtraAttributes:{dungeon_item_level:0,id:\"ZOMBIE_COMMANDER_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Zombie Commander Leggings\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie Commander Leggings\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"161\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+8\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+51\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Training\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50 Zombies killed\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"gives the wearer \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" while wearing the set.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Max 500.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This armor piece is undead ༕!\\\",\\\"color\\\":\\\"dark_green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Catacombs Skill\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"18\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON LEGGINGS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"dungeon_item_level\":0,\"id\":\"ZOMBIE_COMMANDER_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d161",
-    "§7Strength: §c+8",
-    "§7Health: §a+51",
-    "§7Defense: §a+30",
-    "§7Intelligence: §a+4",
-    "",
-    "§6Full Set Bonus: Training",
-    "§7Every §950 Zombies killed§7",
-    "§7gives the wearer §a+5 §c❤",
-    "§cHealth§7 while wearing the set.",
-    "§7Max 500.",
-    "",
-    "§2This armor piece is undead ༕!",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §cCatacombs Skill",
-    "§c18§c.",
-    "§5§lEPIC DUNGEON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"161\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+8\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+51\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+4\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Training\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Every \",\"color\":\"gray\"},{\"text\":\"50 Zombies killed\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"gives the wearer \",\"color\":\"gray\"},{\"text\":\"+5 \",\"color\":\"green\"},{\"text\":\"❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health\",\"color\":\"red\"},{\"text\":\" while wearing the set.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Max 500.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This armor piece is undead ༕!\",\"color\":\"dark_green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Catacombs Skill\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"18\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON LEGGINGS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ZOMBIE_COMMANDER_LEGGINGS",
   "crafttext": "",
@@ -31,5 +31,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Zombie_Commander_Leggings",
     "https://wiki.hypixel.net/Zombie_Commander_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

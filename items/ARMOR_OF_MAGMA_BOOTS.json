@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§5Armor of Magma Boots",
-  "nbttag": "{ExtraAttributes:{color:\"255:147:0\",id:\"ARMOR_OF_MAGMA_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+45\",1:\"§7Defense: §a+15\",2:\"\",3:\"§6Full Set Bonus: Absorb\",4:\"§7Every §910 Magma Cubes killed\",5:\"§7gives the wearer §a+1 §c❤ Health\",6:\"§7and §b✎ Intelligence§7 while\",7:\"§7wearing the set. Max 200 each.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§5§lEPIC BOOTS\"],Name:\"§5Armor of Magma Boots\",color:16749312}}",
+  "displayname": "{\"text\":\"Armor of Magma Boots\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Armor of Magma Boots\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+45\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Absorb\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10 Magma Cubes killed\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"gives the wearer \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✎ Intelligence\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\" while\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"wearing the set. Max 200 each.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC BOOTS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"255:147:0\",\"id\":\"ARMOR_OF_MAGMA_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+45",
-    "§7Defense: §a+15",
-    "",
-    "§6Full Set Bonus: Absorb",
-    "§7Every §910 Magma Cubes killed",
-    "§7gives the wearer §a+1 §c❤ Health",
-    "§7and §b✎ Intelligence§7 while",
-    "§7wearing the set. Max 200 each.",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+45\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Absorb\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Every \",\"color\":\"gray\"},{\"text\":\"10 Magma Cubes killed\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"gives the wearer \",\"color\":\"gray\"},{\"text\":\"+1 \",\"color\":\"green\"},{\"text\":\"❤ Health\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"✎ Intelligence\",\"color\":\"aqua\"},{\"text\":\" while\",\"color\":\"gray\"}]}",
+    "{\"text\":\"wearing the set. Max 200 each.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC BOOTS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ARMOR_OF_MAGMA_BOOTS",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Armor_of_Magma_Boots",
     "https://wiki.hypixel.net/Armor_Of_Magma_Boots"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

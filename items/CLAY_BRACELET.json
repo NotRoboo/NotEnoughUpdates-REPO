@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aClay Bracelet",
-  "nbttag": "{ExtraAttributes:{id:\"CLAY_BRACELET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"bbe02f31-0264-380e-b122-99aede6cf108\",Properties:{textures:[0:{Name:\"textures\",Signature:\"M8mP2fO39kfeBSUBO2wa0BSYb9F9b+n5gWlW6hDQ32t68sPRrpqxOvktDjZn8CmAiTogh9m3srIEEAFGvgndydrYJtY3jYZBWif956BYyilvH9G6aXBtohPfGd9g2oJuCXb4/I5p618Fl9XSb2/H8OsAu4wT78vF/zx3tTpYpupSXK/RtP0bGNSbZhui1ue5qB4Vq6tTAhoBlBP5le1YWFPzzWMH2o5SqWoHQjG7yaPgUMJ7reRdHftWr0pB0lGiFAfFq1+nW8HrTj1qKyUVWbguOfsw4UCUkivFvsOS1KfwLr0/JpATxS7Um6egXzuWySUkVTr+pNahP2y/ldlHZHy0SKxrMFoq5uyMV+DKSL7xCQD0xd4JmUtLEZM/T0IvQYFP6NNsL6aRYTft7qXy8bjGTkcPWVw0SjEbLVws4uoVUXSJwAe3L1cQFuaZcY3f4sbH6x0IZqcrxCy4Q0AdKW9UQQ10iASiok7aIjSOtHOkWZbFCIfPPy1AGGcHqql6fFhx2QLEjTHSHBtvZ+afs50jQ2M1XuzSU21eRMZh5zo4th1i0R7AiDVkmJchqv65kHIzRk2JOuc/H8VGkvVafjElkEQlRB0C1NOPdu49wveFonHDrOnQ+Okd6YHqg+WKSIf0+WmUzSSze+EaXuwdBlw+ciUiLYnPeN9LObghRoc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwMzE5NDgwMzAxOCwKICAicHJvZmlsZUlkIiA6ICI1NzgzZWMxNDgxMDI0ZDJmOTk4N2JhNGZhNWNlMmFmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbHVlUGhlbml4NDMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ4ZTRhNGMyZjc3ZDMzYTQ0MDJmNWUxNzc3ZjkyZTRiM2Y3NzYxZWUxYjE5YjNhOTlhMzBiMDAyYTY1N2FhMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Strength: §c+3\",1:\"§7Sea Creature Chance: §c+0.5%\",2:\"§7Fishing Speed: §a+2\",3:\"\",4:\"§8Tiered Bonus: Fisherman Set (0/4)\",5:\"§7Reduces the damage taken from §3Sea\",6:\"§3Creatures §7by §a5%§7.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§a§lUNCOMMON BRACELET\"],Name:\"§aClay Bracelet\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Clay Bracelet\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Clay Bracelet\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+0.5%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fishing Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Fisherman Set (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Reduces the damage taken from \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sea\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Creatures \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON BRACELET\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CLAY_BRACELET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcwMzE5NDgwMzAxOCwKICAicHJvZmlsZUlkIiA6ICI1NzgzZWMxNDgxMDI0ZDJmOTk4N2JhNGZhNWNlMmFmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbHVlUGhlbml4NDMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ4ZTRhNGMyZjc3ZDMzYTQ0MDJmNWUxNzc3ZjkyZTRiM2Y3NzYxZWUxYjE5YjNhOTlhMzBiMDAyYTY1N2FhMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Strength: §c+3",
-    "§7Sea Creature Chance: §c+0.5%",
-    "§7Fishing Speed: §a+2",
-    "",
-    "§8Tiered Bonus: Fisherman Set (0/4)",
-    "§7Reduces the damage taken from §3Sea",
-    "§3Creatures §7by §a5%§7.",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON BRACELET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+3\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+0.5%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fishing Speed: \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Fisherman Set (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Reduces the damage taken from \",\"color\":\"gray\"},{\"text\":\"Sea\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Creatures \",\"color\":\"dark_aqua\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"5%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON BRACELET\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CLAY_BRACELET",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "CLAY:10",
     "C2": "ENCHANTED_CLAY_BALL:4",
     "C3": "CLAY:10"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

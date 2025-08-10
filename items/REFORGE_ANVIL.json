@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:anvil",
-  "displayname": "§5Reforge Anvil",
-  "nbttag": "{ExtraAttributes:{id:\"REFORGE_ANVIL\"},HideFlags:254,ItemModel:\"minecraft:anvil\",display:{Lore:[0:\"§7Opens a menu that allows you to\",1:\"§7apply advanced reforges to items\",2:\"§7using various types of §aReforge\",3:\"§aStones§7.\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Reforge Anvil\"}}",
+  "displayname": "{\"text\":\"Reforge Anvil\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:anvil\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Reforge Anvil\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Opens a menu that allows you to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"apply advanced reforges to items\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"using various types of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Reforge\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Stones\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REFORGE_ANVIL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Opens a menu that allows you to",
-    "§7apply advanced reforges to items",
-    "§7using various types of §aReforge",
-    "§aStones§7.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Opens a menu that allows you to\",\"color\":\"gray\"}",
+    "{\"text\":\"apply advanced reforges to items\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"using various types of \",\"color\":\"gray\"},{\"text\":\"Reforge\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Stones\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "REFORGE_ANVIL",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C1": "ENCHANTED_IRON:64",
     "C2": "ENCHANTED_IRON:64",
     "C3": "ENCHANTED_IRON:64"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

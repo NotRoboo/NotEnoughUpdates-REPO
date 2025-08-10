@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:diamond_sword",
-  "displayname": "§5Void Sword",
-  "nbttag": "{ExtraAttributes:{id:\"VOID_SWORD\"},HideFlags:254,ItemModel:\"minecraft:diamond_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+125\",1:\"\",2:\"§7Gain §c+20❁ Strength §7per piece of\",3:\"§5Ender Armor §7worn.\",4:\"\",5:\"§7Current Bonus: §a0\",6:\"\",7:\"§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC SWORD\"],Name:\"§5Void Sword\"}}",
+  "displayname": "{\"text\":\"Void Sword\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Void Sword\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+125\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20❁ Strength \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per piece of\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ender Armor \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"worn.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Current Bonus: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"VOID_SWORD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+125",
-    "",
-    "§7Gain §c+20❁ Strength §7per piece of",
-    "§5Ender Armor §7worn.",
-    "",
-    "§7Current Bonus: §a0",
-    "",
-    "§8This item can be reforged!",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+125\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+20❁ Strength \",\"color\":\"red\"},{\"text\":\"per piece of\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ender Armor \",\"color\":\"dark_purple\"},{\"text\":\"worn.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Current Bonus: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "VOID_SWORD",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Void_Sword",
     "https://wiki.hypixel.net/Void_Sword"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

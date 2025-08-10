@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Fake Neuroscience Degree",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"a71517c3-af12-358f-8309-81aa40c9202d\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdlZDY2ZjVhNzAyMDlkODIxMTY3ZDE1NmZkYmMwY2EzYmYxMWFkNTRlZDVkODZlNzVjMjY1ZjdlNTAyOWVjMSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Use at (the real) Kat to upgrade a\",1:\"§7Spider or Tarantula pet to §dMythic\",2:\"§d§7rarity.\",3:\"\",4:\"§7§8With this fake diploma you can\",5:\"§8somehow talk spiders into uh...\",6:\"§8upgrading their rarity.\",7:\"\",8:\"§8§l* §8Soulbound §8§l*\",9:\"§5§kX§5 Rift-Transferable §kX\",10:\"§9§lRARE\"],Name:\"§9Fake Neuroscience Degree\"},ExtraAttributes:{id:\"FAKE_NEUROSCIENCE_DEGREE\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Fake Neuroscience Degree\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fake Neuroscience Degree\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Use at (the real) Kat to upgrade a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spider or Tarantula pet to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mythic\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"rarity.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"With this fake diploma you can\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"somehow talk spiders into uh...\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"upgrading their rarity.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FAKE_NEUROSCIENCE_DEGREE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Use at (the real) Kat to upgrade a",
-    "§7Spider or Tarantula pet to §dMythic",
-    "§d§7rarity.",
-    "",
-    "§7§8With this fake diploma you can",
-    "§8somehow talk spiders into uh...",
-    "§8upgrading their rarity.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§5§kX§5 Rift-Transferable §kX",
-    "§9§lRARE"
+    "{\"text\":\"Use at (the real) Kat to upgrade a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spider or Tarantula pet to \",\"color\":\"gray\"},{\"text\":\"Mythic\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"rarity.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"With this fake diploma you can\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"somehow talk spiders into uh...\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"upgrading their rarity.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "FAKE_NEUROSCIENCE_DEGREE",
   "crafttext": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fake_Neuroscience_Degree",
     "https://wiki.hypixel.net/Fake_Neuroscience_Degree"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

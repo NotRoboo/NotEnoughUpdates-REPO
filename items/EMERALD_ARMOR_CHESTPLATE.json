@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§5Emerald Armor Chestplate",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+100\",1:\"\",2:\"§6Full Set Bonus: Tank\",3:\"§7Increases §c❤ Health §7by §a+1§7\",4:\"§7and §a❈ Defense§7 by §a+1§7 for\",5:\"§7every §b3,000 §7Emeralds in your\",6:\"§7collection. Max 350 each.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§5§lEPIC CHESTPLATE\"],color:65280,Name:\"§5Emerald Armor Chestplate\"},ExtraAttributes:{color:\"0:255:0\",id:\"EMERALD_ARMOR_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Emerald Armor Chestplate\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Emerald Armor Chestplate\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Tank\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❈ Defense\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3,000 \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"Emeralds in your\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"collection. Max 350 each.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"0:255:0\",\"id\":\"EMERALD_ARMOR_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+100",
-    "",
-    "§6Full Set Bonus: Tank",
-    "§7Increases §c❤ Health §7by §a+1§7",
-    "§7and §a❈ Defense§7 by §a+1§7 for",
-    "§7every §b3,000 §7Emeralds in your",
-    "§7collection. Max 350 each.",
-    "",
-    "§7§8This item can be reforged!",
-    "§5§lEPIC CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Tank\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases \",\"color\":\"gray\"},{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"❈ Defense\",\"color\":\"green\"},{\"text\":\" by \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"},{\"text\":\" for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"every \",\"color\":\"gray\"},{\"text\":\"3,000 \",\"color\":\"aqua\"},{\"text\":\"Emeralds in your\",\"color\":\"gray\"}]}",
+    "{\"text\":\"collection. Max 350 each.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "ENCHANTED_EMERALD_BLOCK:1",
@@ -34,5 +34,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Emerald_Armor_Chestplate",
     "https://wiki.hypixel.net/Emerald_Armor_Chestplate"
   ],
-  "crafttext": "Requires: Emerald IX"
+  "crafttext": "Requires: Emerald IX",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

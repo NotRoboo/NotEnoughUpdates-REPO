@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aGreen Gift Talisman",
-  "nbttag": "{ExtraAttributes:{id:\"GREEN_GIFT_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5f158fd3-bffc-3689-8809-9d9f6aa17b83\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2OTUxNDE2NTExMywKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOGRjM2M4NDQ5MWM0ZmYxMDNkZTZlYTAxODgwZTJkODM0MzJjZDQ4NzhiODRkNmI0MzI1M2NjNTFmZDk3OGU3IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Grants §a+10% §6Coin §7and\",1:\"§aEXP §7rewards from gifts.\",2:\"\",3:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aGreen Gift Talisman\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Green Gift Talisman\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Green Gift Talisman\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Coin \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"EXP \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"rewards from gifts.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ACCESSORY\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GREEN_GIFT_TALISMAN\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY2OTUxNDE2NTExMywKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOGRjM2M4NDQ5MWM0ZmYxMDNkZTZlYTAxODgwZTJkODM0MzJjZDQ4NzhiODRkNmI0MzI1M2NjNTFmZDk3OGU3IgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Grants §a+10% §6Coin §7and",
-    "§aEXP §7rewards from gifts.",
-    "",
-    "§a§lUNCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+10% \",\"color\":\"green\"},{\"text\":\"Coin \",\"color\":\"gold\"},{\"text\":\"and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"EXP \",\"color\":\"green\"},{\"text\":\"rewards from gifts.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ACCESSORY\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "GREEN_GIFT_TALISMAN",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Green_Gift_Talisman",
     "https://wiki.hypixel.net/Green_Gift_Talisman"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

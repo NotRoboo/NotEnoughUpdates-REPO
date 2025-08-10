@@ -1,26 +1,26 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§7[Lvl {LVL}] §9Sheep",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"37bacd66-7fe6-39e3-81cf-82911daf648b\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRlMjJhNDYwNDdkMjcyZTg5YTFjZmExM2U5NzM0YjdlMTI4MjdlMjM1YzIwMTJjMWE5NTk2Mjg3NGRhMCJ9fX0=\"}]}},display:{Lore:[0:\"§8Alchemy Pet\",1:\"\",2:\"§7Intelligence: §a{INTELLIGENCE}\",3:\"§7Ability Damage: §c{ABILITY_DAMAGE}%\",4:\"\",5:\"§6Mana Saver\",6:\"§7§7§7Reduces the mana cost of\",7:\"§7abilities by §a{0}%§7.\",8:\"\",9:\"§6Overheal\",10:\"§7§7Gives a §a{1}% §7shield after\",11:\"§7not taking damage for 10s.\",12:\"\",13:\"§7§eRight-click to add this pet to\",14:\"§eyour pet menu!\",15:\"\",16:\"§9§lRARE\"],Name:\"§f§f§7[Lvl {LVL}] §9Sheep\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"SHEEP\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"RARE\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0}\",id:\"SHEEP;2\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"[Lvl {LVL}] \",\"color\":\"gray\"},{\"text\":\"Sheep\",\"color\":\"blue\"}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[Lvl {LVL}] \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sheep\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Alchemy Pet\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{INTELLIGENCE}\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{ABILITY_DAMAGE}%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Mana Saver\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Reduces the mana cost of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"abilities by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{0}%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Overheal\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gives a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{1}% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"shield after\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"not taking damage for 10s.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to add this pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"your pet menu!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"\\\\\\\"candyUsed\\\\\\\"\":0,\"\\\\\\\"exp\\\\\\\"\":0,\"petInfo\":\"{\\\\\\\"type\\\\\\\":\\\\\\\"SHEEP\\\\\",\"\\\\\\\"active\\\\\\\"\":\"false\",\"\\\\\\\"hideInfo\\\\\\\"\":\"false\",\"\\\\\\\"tier\\\\\\\"\":\"\\\\\\\"RARE\\\\\\\"\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Alchemy Pet",
-    "",
-    "§7Intelligence: §a{INTELLIGENCE}",
-    "§7Ability Damage: §c{ABILITY_DAMAGE}%",
-    "",
-    "§6Mana Saver",
-    "§7§7§7Reduces the mana cost of",
-    "§7abilities by §a{0}%§7.",
-    "",
-    "§6Overheal",
-    "§7§7Gives a §a{1}% §7shield after",
-    "§7not taking damage for 10s.",
-    "",
-    "§7§eRight-click to add this pet to",
-    "§eyour pet menu!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Alchemy Pet\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"{INTELLIGENCE}\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability Damage: \",\"color\":\"gray\"},{\"text\":\"{ABILITY_DAMAGE}%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Mana Saver\",\"color\":\"gold\"}",
+    "{\"text\":\"Reduces the mana cost of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"abilities by \",\"color\":\"gray\"},{\"text\":\"{0}%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Overheal\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gives a \",\"color\":\"gray\"},{\"text\":\"{1}% \",\"color\":\"green\"},{\"text\":\"shield after\",\"color\":\"gray\"}]}",
+    "{\"text\":\"not taking damage for 10s.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to add this pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"your pet menu!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SHEEP;2",
   "modver": "2.1.1-PRE",
@@ -42,5 +42,8 @@
         "ENCHANTED_WOOL:8"
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

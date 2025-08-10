@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:wooden_slab",
-  "displayname": "§fOak Slab",
-  "nbttag": "{ExtraAttributes:{id:\"WOOD_STEP\"},HideFlags:254,ItemModel:\"minecraft:oak_slab\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fOak Slab\"}}",
+  "displayname": "{\"text\":\"Oak Slab\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_slab\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Oak Slab\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WOOD_STEP\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WOOD_STEP",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 6
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

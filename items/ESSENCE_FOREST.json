@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aForest Essence",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"13d2fdff-2ebf-3c53-9a66-c1e42fffe85e\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMzAzMjM2MTMzOCwKICAicHJvZmlsZUlkIiA6ICJkZGVkNTZlMWVmOGI0MGZlOGFkMTYyOTIwZjdhZWNkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEaXNjb3JkQXBwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UwMTllY2UxMjVlYzc5Zjk1MTc4ZTFhZjRkYTJhOGI5ODJkZTcxZWQ0MmMzMWNhYzRiMWQyZjY2NTM1NWRmNWEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7§oSmells of fig...\",1:\"§7§oand Phanflares...\"],Name:\"§aForest Essence\"},ExtraAttributes:{id:\"ESSENCE_FOREST\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Forest Essence\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Forest Essence\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Smells of fig...\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"and Phanflares...\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ESSENCE_FOREST\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§oSmells of fig...",
-    "§7§oand Phanflares..."
+    "{\"text\":\"Smells of fig...\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"and Phanflares...\",\"color\":\"gray\",\"italic\":true}"
   ],
   "internalname": "ESSENCE_FOREST",
   "modver": "2.1.0-REL",
@@ -15,5 +15,8 @@
     "https://wiki.hypixel.net/Forest_Essence"
   ],
   "crafttext": "",
-  "clickcommand": ""
+  "clickcommand": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

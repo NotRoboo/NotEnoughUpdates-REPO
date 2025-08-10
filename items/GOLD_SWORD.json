@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:golden_sword",
-  "displayname": "§fGolden Sword",
-  "nbttag": "{ExtraAttributes:{id:\"GOLD_SWORD\"},HideFlags:254,ItemModel:\"minecraft:golden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON SWORD\"],Name:\"§fGolden Sword\"}}",
+  "displayname": "{\"text\":\"Golden Sword\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Golden Sword\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON SWORD\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLD_SWORD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+20",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON SWORD\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GOLD_SWORD",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

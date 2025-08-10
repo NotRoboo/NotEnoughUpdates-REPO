@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§6Mixed Mite Gel",
-  "nbttag": "{ExtraAttributes:{id:\"MIXED_MITE_GEL\"},HideFlags:254,ItemModel:\"minecraft:orange_dye\",display:{Lore:[0:\"§7Use at §bKat §7to upgrade §eEndermite\",1:\"§ePets §7to §dMythic §7rarity.\",2:\"\",3:\"§8§oPowerful substance combined from\",4:\"§8§othe plasma membrane of many\",5:\"§8§oEndermites.\",6:\"\",7:\"§6§lLEGENDARY\"],Name:\"§6Mixed Mite Gel\"},ench:[]}",
-  "damage": 14,
+  "displayname": "{\"text\":\"Mixed Mite Gel\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mixed Mite Gel\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Use at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Kat \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"to upgrade \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Endermite\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pets \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mythic \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"rarity.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Powerful substance combined from\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"the plasma membrane of many\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"Endermites.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MIXED_MITE_GEL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Use at §bKat §7to upgrade §eEndermite",
-    "§ePets §7to §dMythic §7rarity.",
-    "",
-    "§8§oPowerful substance combined from",
-    "§8§othe plasma membrane of many",
-    "§8§oEndermites.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Use at \",\"color\":\"gray\"},{\"text\":\"Kat \",\"color\":\"aqua\"},{\"text\":\"to upgrade \",\"color\":\"gray\"},{\"text\":\"Endermite\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pets \",\"color\":\"yellow\"},{\"text\":\"to \",\"color\":\"gray\"},{\"text\":\"Mythic \",\"color\":\"light_purple\"},{\"text\":\"rarity.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Powerful substance combined from\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"the plasma membrane of many\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"Endermites.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "MIXED_MITE_GEL",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "",
     "C2": "MITE_GEL:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

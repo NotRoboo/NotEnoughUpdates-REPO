@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:wheat",
-  "displayname": "§9Staff of the Volcano",
-  "nbttag": "{ExtraAttributes:{id:\"STAFF_OF_THE_VOLCANO\"},HideFlags:254,ItemModel:\"minecraft:wheat\",display:{Lore:[0:\"§7Damage: §c+60\",1:\"§7Intelligence: §a+150\",2:\"\",3:\"§6Ability: Explode  §e§lRIGHT CLICK\",4:\"§7Creates an explosion around you dealing\",5:\"§c24,192.4 §7damage and setting all mobs on fire in\",6:\"§7a 4 block radius over §a1s§7.\",7:\"§8Mana Cost: §3100\",8:\"§8Health Cost: §c60.5\",9:\"§8Cooldown: §a30s\",10:\"\",11:\"§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§9§lRARE WAND\"],Name:\"§9Staff of the Volcano\"}}",
+  "displayname": "{\"text\":\"Staff of the Volcano\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:wheat\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Staff of the Volcano\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Explode \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Creates an explosion around you dealing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"24,192.4 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage and setting all mobs on fire in\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a 4 block radius over \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"100\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"60.5\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"30s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE WAND\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STAFF_OF_THE_VOLCANO\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+60",
-    "§7Intelligence: §a+150",
-    "",
-    "§6Ability: Explode  §e§lRIGHT CLICK",
-    "§7Creates an explosion around you dealing",
-    "§c24,192.4 §7damage and setting all mobs on fire in",
-    "§7a 4 block radius over §a1s§7.",
-    "§8Mana Cost: §3100",
-    "§8Health Cost: §c60.5",
-    "§8Cooldown: §a30s",
-    "",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
-    "§9§lRARE WAND"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+60\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+150\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Explode \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Creates an explosion around you dealing\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"24,192.4 \",\"color\":\"red\"},{\"text\":\"damage and setting all mobs on fire in\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a 4 block radius over \",\"color\":\"gray\"},{\"text\":\"1s\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"100\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health Cost: \",\"color\":\"dark_gray\"},{\"text\":\"60.5\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"30s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE WAND\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "STAFF_OF_THE_VOLCANO",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Staff_of_the_Volcano",
     "https://wiki.hypixel.net/Staff_Of_The_Volcano"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

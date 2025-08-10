@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Recall Potion",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bf19b3e8-2b7c-3d1b-92bd-6e296d367b4f\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFmODE1MWRlYjM5NTUzMjkyYjlhNjk2NzQ4MzJkZGE4MDAxNzgwY2E5ODE4MGEwNmVhZjliMzY4OTMwYjViYiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7§7A mystical and glowing elixir imbued\",1:\"§7with special abilities from another\",2:\"§7dimension.\",3:\"\",4:\"§6Ability: Ancient Recall  §e§lRIGHT CLICK\",5:\"§7§7When in the §5Crystal Hollows §7allows\",6:\"§7you to save and §dwarp §7back to a\",7:\"§7§bsaved location§7.\",8:\"\",9:\"§5§lEPIC\"],Name:\"§5Recall Potion\"},ExtraAttributes:{id:\"RECALL_POTION\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Recall Potion\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Recall Potion\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A mystical and glowing elixir imbued\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"with special abilities from another\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"dimension.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Ancient Recall \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"When in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Crystal Hollows \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"allows\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"you to save and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"warp \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"back to a\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"saved location\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RECALL_POTION\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7A mystical and glowing elixir imbued",
-    "§7with special abilities from another",
-    "§7dimension.",
-    "",
-    "§6Ability: Ancient Recall  §e§lRIGHT CLICK",
-    "§7§7When in the §5Crystal Hollows §7allows",
-    "§7you to save and §dwarp §7back to a",
-    "§7§bsaved location§7.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"A mystical and glowing elixir imbued\",\"color\":\"gray\"}",
+    "{\"text\":\"with special abilities from another\",\"color\":\"gray\"}",
+    "{\"text\":\"dimension.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Ancient Recall \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"When in the \",\"color\":\"gray\"},{\"text\":\"Crystal Hollows \",\"color\":\"dark_purple\"},{\"text\":\"allows\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"you to save and \",\"color\":\"gray\"},{\"text\":\"warp \",\"color\":\"light_purple\"},{\"text\":\"back to a\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"saved location\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "RECALL_POTION",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Recall_Potion",
     "https://wiki.hypixel.net/Recall_Potion"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

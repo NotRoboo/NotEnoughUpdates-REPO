@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§5Book of Stats",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7Tracks the amount of kills you get\",3:\"§7with a weapon when applied to it.\",4:\"\",5:\"§5§lEPIC COSMETIC\"],Name:\"§5Book of Stats\"},ExtraAttributes:{id:\"BOOK_OF_STATS\"}}",
+  "displayname": "{\"text\":\"Book of Stats\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Book of Stats\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tracks the amount of kills you get\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"with a weapon when applied to it.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BOOK_OF_STATS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
-    "",
-    "§7Tracks the amount of kills you get",
-    "§7with a weapon when applied to it.",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tracks the amount of kills you get\",\"color\":\"gray\"}",
+    "{\"text\":\"with a weapon when applied to it.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "BOOK_OF_STATS",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Book_of_Stats",
     "https://wiki.hypixel.net/Book_Of_Stats"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

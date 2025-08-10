@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:prismarine_shard",
-  "displayname": "§aPyroclastic Scale",
-  "nbttag": "{ExtraAttributes:{id:\"PYROCLASTIC_SCALE\"},HideFlags:254,ItemModel:\"minecraft:prismarine_shard\",display:{Lore:[0:\"§7§oMakes pretty \\\"drip\\\" necklaces,\",1:\"§7§oaccording to the local youth.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aPyroclastic Scale\"},ench:[]}",
+  "displayname": "{\"text\":\"Pyroclastic Scale\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:prismarine_shard\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pyroclastic Scale\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Makes pretty \\\\\\\"drip\\\\\\\" necklaces,\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"according to the local youth.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7§oMakes pretty \"drip\" necklaces,",
-    "§7§oaccording to the local youth.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Makes pretty \\\"drip\\\" necklaces,\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"according to the local youth.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "PYROCLASTIC_SCALE",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pyroclastic_Scale",
     "https://wiki.hypixel.net/Pyroclastic_Scale"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5Explosive Bow",
-  "nbttag": "{ExtraAttributes:{id:\"EXPLOSIVE_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+20\",2:\"\",3:\"§6Ability: Explosive Shot \",4:\"§7Creates an explosion on impact!\",5:\"§7Every Monster caught in this\",6:\"§7explosion takes the full damage of\",7:\"§7the weapon!\",8:\"§8Acts as Superboom TNT!\",9:\"\",10:\"§8This item can be reforged!\",11:\"§5§lEPIC BOW\"],Name:\"§5Explosive Bow\"}}",
+  "displayname": "{\"text\":\"Explosive Bow\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Explosive Bow\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Explosive Shot \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Creates an explosion on impact!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Every Monster caught in this\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"explosion takes the full damage of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the weapon!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Acts as Superboom TNT!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC BOW\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EXPLOSIVE_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+100",
-    "§7Strength: §c+20",
-    "",
-    "§6Ability: Explosive Shot ",
-    "§7Creates an explosion on impact!",
-    "§7Every Monster caught in this",
-    "§7explosion takes the full damage of",
-    "§7the weapon!",
-    "§8Acts as Superboom TNT!",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Explosive Shot \",\"color\":\"gold\"}",
+    "{\"text\":\"Creates an explosion on impact!\",\"color\":\"gray\"}",
+    "{\"text\":\"Every Monster caught in this\",\"color\":\"gray\"}",
+    "{\"text\":\"explosion takes the full damage of\",\"color\":\"gray\"}",
+    "{\"text\":\"the weapon!\",\"color\":\"gray\"}",
+    "{\"text\":\"Acts as Superboom TNT!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC BOW\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "EXPLOSIVE_BOW",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "",
     "C2": "ENCHANTED_FIREWORK_ROCKET:1",
     "C3": "STRING:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

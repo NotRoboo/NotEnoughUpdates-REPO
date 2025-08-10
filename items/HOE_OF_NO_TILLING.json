@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:golden_hoe",
-  "displayname": "§aHoe of No Tilling",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Untills farmland!\",1:\"§7\",2:\"§7§8§oMathematically proven to be more\",3:\"§8§oefficient than jumping on it!\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§a§lUNCOMMON HOE\"],Name:\"§aHoe of No Tilling\"},ExtraAttributes:{date:1727675711532L,price:787878787L,id:\"HOE_OF_NO_TILLING\",bid:18,player:\"§6[MVP§4++§6] LAURIN8§f\",auction:13}}",
+  "displayname": "{\"text\":\"Hoe of No Tilling\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_hoe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hoe of No Tilling\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Untills farmland!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Mathematically proven to be more\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"efficient than jumping on it!\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON HOE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"date\":\"1727675711532L\",\"price\":787878787,\"id\":\"HOE_OF_NO_TILLING\",\"bid\":18,\"player\":\"§6[MVP§4++§6] LAURIN8§f\",\"auction\":13},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Untills farmland!",
-    "§7",
-    "§7§8§oMathematically proven to be more",
-    "§8§oefficient than jumping on it!",
-    "",
-    "§7§8This item can be reforged!",
-    "§a§lUNCOMMON HOE"
+    "{\"text\":\"Untills farmland!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Mathematically proven to be more\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"efficient than jumping on it!\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON HOE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "HOE_OF_NO_TILLING",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hoe_of_No_Tilling",
     "https://wiki.hypixel.net/Hoe_Of_No_Tilling"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

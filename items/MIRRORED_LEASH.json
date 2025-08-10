@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:lead",
-  "displayname": "§fdaeL",
-  "nbttag": "{ExtraAttributes:{id:\"MIRRORED_LEASH\"},HideFlags:254,ItemModel:\"minecraft:lead\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fdaeL\"}}",
+  "displayname": "{\"text\":\"daeL\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:lead\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"daeL\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MIRRORED_LEASH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MIRRORED_LEASH",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "MIRRORED_STRING:1",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

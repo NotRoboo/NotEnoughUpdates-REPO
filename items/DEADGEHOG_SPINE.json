@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:arrow",
-  "displayname": "§aDeadgehog Spine",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Contrary to popular belief,\",1:\"§7Deadgehogs aren\u0027t rodents.\",2:\"§7\",3:\"§7They are in fact mangled wraith\",4:\"§7remnants of warriors who\",5:\"§7couldn\u0027t find true love.\",6:\"\",7:\"§eRight-click to view recipes!\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§aDeadgehog Spine\"},ExtraAttributes:{id:\"DEADGEHOG_SPINE\"}}",
+  "displayname": "{\"text\":\"Deadgehog Spine\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:arrow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Deadgehog Spine\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Contrary to popular belief,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Deadgehogs aren\u0027t rodents.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"They are in fact mangled wraith\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"remnants of warriors who\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"couldn\u0027t find true love.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7Contrary to popular belief,",
-    "§7Deadgehogs aren\u0027t rodents.",
-    "§7",
-    "§7They are in fact mangled wraith",
-    "§7remnants of warriors who",
-    "§7couldn\u0027t find true love.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Contrary to popular belief,\",\"color\":\"gray\"}",
+    "{\"text\":\"Deadgehogs aren\u0027t rodents.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"They are in fact mangled wraith\",\"color\":\"gray\"}",
+    "{\"text\":\"remnants of warriors who\",\"color\":\"gray\"}",
+    "{\"text\":\"couldn\u0027t find true love.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DEADGEHOG_SPINE",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Deadgehog_Spine",
     "https://wiki.hypixel.net/Deadgehog_Spine"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

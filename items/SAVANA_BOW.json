@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§aSavanna Bow",
-  "nbttag": "{ExtraAttributes:{id:\"SAVANA_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+50\",1:\"\",2:\"§7All damage dealt with this bow is\",3:\"§adoubled§7.\",4:\"\",5:\"§8This item can be reforged!\",6:\"§a§lUNCOMMON BOW\"],Name:\"§aSavanna Bow\"}}",
+  "displayname": "{\"text\":\"Savanna Bow\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Savanna Bow\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"All damage dealt with this bow is\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"doubled\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON BOW\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SAVANA_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+50",
-    "",
-    "§7All damage dealt with this bow is",
-    "§adoubled§7.",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"All damage dealt with this bow is\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"doubled\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON BOW\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SAVANA_BOW",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "",
     "C2": "ENCHANTED_ACACIA_LOG:1",
     "C3": "ENCHANTED_STRING:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

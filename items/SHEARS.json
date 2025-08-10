@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:shears",
-  "displayname": "§fShears",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON SHEARS\"],Name:\"§fShears\"},ExtraAttributes:{id:\"SHEARS\"}}",
+  "displayname": "{\"text\":\"Shears\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:shears\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shears\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON SHEARS\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SHEARS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON SHEARS"
+    "{\"text\":\"COMMON SHEARS\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SHEARS",
   "modver": "2.1.0-REL",
@@ -25,5 +25,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Shears"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

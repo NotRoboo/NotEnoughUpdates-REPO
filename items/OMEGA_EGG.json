@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:spawn_egg",
-  "displayname": "§5Omega Enchanted Egg",
-  "nbttag": "{ExtraAttributes:{id:\"OMEGA_EGG\"},HideFlags:254,ItemModel:\"minecraft:endermite_spawn_egg\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Used to craft the strangest of pets.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Omega Enchanted Egg\"},ench:[]}",
-  "damage": 67,
+  "itemid": "minecraft:endermite_spawn_egg",
+  "displayname": "{\"text\":\"Omega Enchanted Egg\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:endermite_spawn_egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Omega Enchanted Egg\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Used to craft the strangest of pets.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"OMEGA_EGG\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7Used to craft the strangest of pets.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Used to craft the strangest of pets.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "OMEGA_EGG",
   "clickcommand": "",
@@ -31,5 +31,8 @@
     "C1": "SUPER_EGG:1",
     "C2": "SUPER_EGG:1",
     "C3": "SUPER_EGG:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

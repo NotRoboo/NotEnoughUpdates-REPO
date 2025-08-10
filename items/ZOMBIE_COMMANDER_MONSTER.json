@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Zombie Commander (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Leader of the Undead.\",1:\"\",2:\"§c❤ Health§8: §c1,700,000 - 3,500,000\",3:\"§c❤ Health §8(MM) : §c160,000,000 - 250,000,000\"],Name:\"§9Zombie Commander (Monster)\"},ExtraAttributes:{id:\"ZOMBIE_COMMANDER_MONSTER\"}}",
-  "damage": 2,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Zombie Commander (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie Commander (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Leader of the Undead.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1,700,000 - 3,500,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(MM) : \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"160,000,000 - 250,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"ZOMBIE_COMMANDER_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Leader of the Undead.",
-    "",
-    "§c❤ Health§8: §c1,700,000 - 3,500,000",
-    "§c❤ Health §8(MM) : §c160,000,000 - 250,000,000"
+    "{\"text\":\"Leader of the Undead.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"1,700,000 - 3,500,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"(MM) : \",\"color\":\"dark_gray\"},{\"text\":\"160,000,000 - 250,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "ZOMBIE_COMMANDER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -54,5 +54,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Streamer's Century Cake",
-  "nbttag": "{ExtraAttributes:{id:\"EPOCH_CAKE_PURPLE\",yearObtained:200},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"764ea110-5a82-3d5a-becf-2bd4ffa50022\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwNDQ2MzE4Mzk3NiwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVkOTI0M2M2MWUyYzNlMWUwZjk5MzE4NDNjYWRiZDBkZmY0YTY0NjIyNWVmNTRjNTU3OTc5Y2YzOWJiMjA1NyIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"\",2:\"§7Furniture can be placed on your\",3:\"§7world. Some furniture is\",4:\"§7interactable while some are\",5:\"§7purely cosmetic.\",6:\"\",7:\"§7Invite your friends to share a\",8:\"§7slice of cake! Eating this cake\",9:\"§7grants §d+1♣ Pet Luck §7for 48\",10:\"§7hours.\",11:\"\",12:\"§7Obtained in §fYear 200§7.\",13:\"\",14:\"§5§lEPIC\"],Name:\"§5Streamer's Century Cake\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Streamer\u0027s Century Cake\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Streamer\u0027s Century Cake\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Furniture can be placed on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"world. Some furniture is\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"interactable while some are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"purely cosmetic.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Invite your friends to share a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"slice of cake! Eating this cake\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1♣ Pet Luck \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"for 48\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"hours.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Year 200\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"yearObtained\":200,\"id\":\"EPOCH_CAKE_PURPLE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYwNDQ2MzE4Mzk3NiwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVkOTI0M2M2MWUyYzNlMWUwZjk5MzE4NDNjYWRiZDBkZmY0YTY0NjIyNWVmNTRjNTU3OTc5Y2YzOWJiMjA1NyIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "",
-    "§7Furniture can be placed on your",
-    "§7world. Some furniture is",
-    "§7interactable while some are",
-    "§7purely cosmetic.",
-    "",
-    "§7Invite your friends to share a",
-    "§7slice of cake! Eating this cake",
-    "§7grants §d+1♣ Pet Luck §7for 48",
-    "§7hours.",
-    "",
-    "§7Obtained in §fYear 200§7.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Furniture can be placed on your\",\"color\":\"gray\"}",
+    "{\"text\":\"world. Some furniture is\",\"color\":\"gray\"}",
+    "{\"text\":\"interactable while some are\",\"color\":\"gray\"}",
+    "{\"text\":\"purely cosmetic.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Invite your friends to share a\",\"color\":\"gray\"}",
+    "{\"text\":\"slice of cake! Eating this cake\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"grants \",\"color\":\"gray\"},{\"text\":\"+1♣ Pet Luck \",\"color\":\"light_purple\"},{\"text\":\"for 48\",\"color\":\"gray\"}]}",
+    "{\"text\":\"hours.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained in \",\"color\":\"gray\"},{\"text\":\"Year 200\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "EPOCH_CAKE_PURPLE",
   "clickcommand": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Streamer%27s_Century_Cake",
     "https://wiki.hypixel.net/Streamer%27s_Century_Cake"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aArrow Swapper",
-  "nbttag": "{ExtraAttributes:{id:\"ARROW_SWAPPER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a4460008-5d98-32bf-adc5-7cc2b0d93cc4\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg1NmNmOTcxNjIzOWE3NzA2MjY4NjUyZWZmM2IyOWNlNWRhY2RmYWIxZmIyZmIzMGE1NGIwNzk2NzQwMDYyIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Select the arrow type you want\",1:\"§7to take priority in your quiver.\",2:\"\",3:\"§aSelected: §cNone\",4:\"\",5:\"§eLeft-click: Previous arrow\",6:\"§eRight-click: Next arrow\",7:\"\",8:\"§a§lUNCOMMON\"],Name:\"§aArrow Swapper\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Arrow Swapper\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Arrow Swapper\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Select the arrow type you want\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to take priority in your quiver.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Selected: \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"None\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Left-click: Previous arrow\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"Right-click: Next arrow\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ARROW_SWAPPER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg1NmNmOTcxNjIzOWE3NzA2MjY4NjUyZWZmM2IyOWNlNWRhY2RmYWIxZmIyZmIzMGE1NGIwNzk2NzQwMDYyIn19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Select the arrow type you want",
-    "§7to take priority in your quiver.",
-    "",
-    "§aSelected: §cNone",
-    "",
-    "§eLeft-click: Previous arrow",
-    "§eRight-click: Next arrow",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Select the arrow type you want\",\"color\":\"gray\"}",
+    "{\"text\":\"to take priority in your quiver.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Selected: \",\"color\":\"green\"},{\"text\":\"None\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Left-click: Previous arrow\",\"color\":\"yellow\"}",
+    "{\"text\":\"Right-click: Next arrow\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ARROW_SWAPPER",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Arrow_Swapper",
     "https://wiki.hypixel.net/Arrow_Swapper"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

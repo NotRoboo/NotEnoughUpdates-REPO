@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§5Extra Large Gemstone Sack",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"2bac8cdc-2059-317d-aa19-cc49ab733d7d\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMDMzOTEyNzEwNSwKICAicHJvZmlsZUlkIiA6ICJjOTAzOGQzZjRiMTg0M2JiYjUwNTU5ZGE3MWFjMTk2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUQk5SY29vbGNhdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YTg5ZGUxODExMTE1ZTFhZWUzNzNmNmE3ODQ1YmQzZjgxYzdkYmUzMDJlNGFmYzdlOGQ2YjhhMTIwMGM3MjEzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§5§lEPIC\"],Name:\"§f§f§5Extra Large Gemstone Sack\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING\",id:\"EXTRA_LARGE_GEMSTONE_SACK\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Extra Large Gemstone Sack\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Extra Large Gemstone Sack\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"QUICK_CRAFTING\",\"id\":\"EXTRA_LARGE_GEMSTONE_SACK\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§5§lEPIC"
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "EXTRA_LARGE_GEMSTONE_SACK",
   "crafttext": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
     "https://wiki.hypixel.net/Gemstone"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

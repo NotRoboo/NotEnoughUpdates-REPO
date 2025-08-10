@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Odawa (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d5e6def2-216b-537a-b0c8-b210ad2ba51d\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI3Y2FmNGJkOTM2MTgxZjZiYTEwYjBhNmJkYTE0NGFhYjAzNjRlOGM4NmVmY2FkNjA3ZmVmNGJkNzcwODE3In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Odawa (NPC)\"},ExtraAttributes:{id:\"ODAWA_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Odawa (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Odawa (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"ODAWA_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "ODAWA_NPC",
   "clickcommand": "viewrecipe",
@@ -54,5 +54,8 @@
       ],
       "result": "JUNGLE_PICKAXE"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

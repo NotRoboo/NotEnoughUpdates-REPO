@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§9Damage V Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:7b,Amplifier:4b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cDamage V\",2:\"§7Instantly deals §c200 §7damage.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Damage V Potion\"},ExtraAttributes:{potion_level:5,potion:\"damage\",effects:[0:{level:5,effect:\"damage\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_DAMAGE;5\"}}",
-  "damage": 12,
+  "displayname": "{\"text\":\"Damage V Potion\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Damage V Potion\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Damage V\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Instantly deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"200 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":5,\"potion\":\"damage\",\"effects\":\"[0:{level:5\",\"effect\":\"damage\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§cDamage V",
-    "§7Instantly deals §c200 §7damage.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\"}",
+    "{\"text\":\"Damage V\",\"color\":\"red\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Instantly deals \",\"color\":\"gray\"},{\"text\":\"200 \",\"color\":\"red\"},{\"text\":\"damage.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "POTION_DAMAGE;5",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

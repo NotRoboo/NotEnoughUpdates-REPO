@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:glass_bottle",
-  "displayname": "§aEmpty Odonata Bottle",
-  "nbttag": "{ExtraAttributes:{id:\"EMPTY_ODONATA_BOTTLE\"},HideFlags:254,ItemModel:\"minecraft:glass_bottle\",display:{Lore:[0:\"§7Hold this and look at an\",1:\"§9Odonata §7for §a3s §7while\",2:\"§7very close to bottle it.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aEmpty Odonata Bottle\"}}",
+  "displayname": "{\"text\":\"Empty Odonata Bottle\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:glass_bottle\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Empty Odonata Bottle\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Hold this and look at an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Odonata \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3s \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"while\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"very close to bottle it.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EMPTY_ODONATA_BOTTLE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Hold this and look at an",
-    "§9Odonata §7for §a3s §7while",
-    "§7very close to bottle it.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Hold this and look at an\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Odonata \",\"color\":\"blue\"},{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"3s \",\"color\":\"green\"},{\"text\":\"while\",\"color\":\"gray\"}]}",
+    "{\"text\":\"very close to bottle it.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "EMPTY_ODONATA_BOTTLE",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Empty_Odonata_Bottle",
     "https://wiki.hypixel.net/Empty_Odonata_Bottle"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

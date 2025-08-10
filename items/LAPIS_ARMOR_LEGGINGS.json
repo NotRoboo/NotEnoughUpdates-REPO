@@ -1,27 +1,30 @@
 {
   "internalname": "LAPIS_ARMOR_LEGGINGS",
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§aLapis Armor Leggings",
+  "displayname": "{\"text\":\"Lapis Armor Leggings\",\"color\":\"green\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+35\",1:\"§7Mining Speed: §a+20\",2:\"§7Mining Fortune: §a+2\",3:\"\",4:\"§7§6Piece Bonus: Magnetic\",5:\"§7§7Earn §a+50% §7more Exp when mining.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§7§4❣ §cRequires §aMining Skill 5§c.\",9:\"§a§lUNCOMMON LEGGINGS\"],color:255,Name:\"§aLapis Armor Leggings\"},ExtraAttributes:{id:\"LAPIS_ARMOR_LEGGINGS\"}}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lapis Armor Leggings\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Piece Bonus: Magnetic\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Earn \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"more Exp when mining.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Mining Skill 5\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON LEGGINGS\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LAPIS_ARMOR_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "modver": "",
   "lore": [
-    "§7Defense: §a+35",
-    "§7Mining Speed: §a+20",
-    "§7Mining Fortune: §a+2",
-    "",
-    "§7§6Piece Bonus: Magnetic",
-    "§7§7Earn §a+50% §7more Exp when mining.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aMining Skill 5§c.",
-    "§a§lUNCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+35\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Fortune: \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Piece Bonus: Magnetic\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Earn \",\"color\":\"gray\"},{\"text\":\"+50% \",\"color\":\"green\"},{\"text\":\"more Exp when mining.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Mining Skill 5\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON LEGGINGS\",\"color\":\"green\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lapis_Armor_Leggings",
     "https://wiki.hypixel.net/Lapis_Armor_Leggings"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

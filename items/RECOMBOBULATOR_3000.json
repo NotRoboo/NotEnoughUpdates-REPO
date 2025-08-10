@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Recombobulator 3000",
-  "nbttag": "{ExtraAttributes:{id:\"RECOMBOBULATOR_3000\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"96538e7f-6b56-3557-9b7d-458afe4239e9\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyJ9fX0K\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Reforge Anvil\",1:\"\",2:\"§7Permanently increases the rarity of\",3:\"§7an item. Can only be applied to an\",4:\"§7item once.\",5:\"\",6:\"§6§lLEGENDARY DUNGEON ITEM\"],Name:\"§6Recombobulator 3000\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Recombobulator 3000\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Recombobulator 3000\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Reforge Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Permanently increases the rarity of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"an item. Can only be applied to an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"item once.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY DUNGEON ITEM\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RECOMBOBULATOR_3000\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyJ9fX0K\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Reforge Anvil",
-    "",
-    "§7Permanently increases the rarity of",
-    "§7an item. Can only be applied to an",
-    "§7item once.",
-    "",
-    "§6§lLEGENDARY DUNGEON ITEM"
+    "{\"text\":\"Combinable in Reforge Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Permanently increases the rarity of\",\"color\":\"gray\"}",
+    "{\"text\":\"an item. Can only be applied to an\",\"color\":\"gray\"}",
+    "{\"text\":\"item once.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY DUNGEON ITEM\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "RECOMBOBULATOR_3000",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Recombobulator_3000",
     "https://wiki.hypixel.net/Recombobulator_3000"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

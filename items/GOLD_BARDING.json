@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:golden_horse_armor",
-  "displayname": "§5Gold Horse Armor",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§5§lEPIC\"],Name:\"§5Gold Horse Armor\"},ExtraAttributes:{id:\"GOLD_BARDING\"}}",
+  "displayname": "{\"text\":\"Gold Horse Armor\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_horse_armor\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gold Horse Armor\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLD_BARDING\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§5§lEPIC"
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "GOLD_BARDING",
   "modver": "2.0.0-REL",
@@ -13,5 +13,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Horse_Armor"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dHound (Rift NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"80d8f5b7-0f7b-22b8-8d17-9b87b1622c99\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MzNTlmNjVjOTA4YTk1MmVmYWJjMTAzMjc4YWViZGJmYzg0NmMyMDQ0OGE4ZmUzNTE3MTcwZDlmNTM1MmI3N2YifX19\"}]},Name:\"80d8f5b7-0f7b-22b8-8d17-9b87b1622c99\"},display:{Lore:[0:\"\"],Name:\"§dHound (Rift NPC)\"},ExtraAttributes:{id:\"HOUND_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Hound (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hound (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"HOUND_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "HOUND_RIFT_NPC",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hound",
     "https://wiki.hypixel.net/Hound"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:dropper",
-  "displayname": "§9Super Compactor 3000",
-  "nbttag": "{ExtraAttributes:{id:\"SUPER_COMPACTOR_3000\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade. This will automatically turn\",2:\"§7materials that a minion produces into\",3:\"§7their enchanted form when there\",4:\"§7are enough resources in the\",5:\"§7minion's storage.\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Super Compactor 3000\"},ench:[]}",
+  "displayname": "{\"text\":\"Super Compactor 3000\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:dropper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Super Compactor 3000\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be used as a minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"upgrade. This will automatically turn\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"materials that a minion produces into\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"their enchanted form when there\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"are enough resources in the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"minion\u0027s storage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SUPER_COMPACTOR_3000\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7This item can be used as a minion",
-    "§7upgrade. This will automatically turn",
-    "§7materials that a minion produces into",
-    "§7their enchanted form when there",
-    "§7are enough resources in the",
-    "§7minion's storage.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"This item can be used as a minion\",\"color\":\"gray\"}",
+    "{\"text\":\"upgrade. This will automatically turn\",\"color\":\"gray\"}",
+    "{\"text\":\"materials that a minion produces into\",\"color\":\"gray\"}",
+    "{\"text\":\"their enchanted form when there\",\"color\":\"gray\"}",
+    "{\"text\":\"are enough resources in the\",\"color\":\"gray\"}",
+    "{\"text\":\"minion\u0027s storage.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SUPER_COMPACTOR_3000",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "ENCHANTED_COBBLESTONE:32",
     "C2": "ENCHANTED_REDSTONE:32",
     "C3": "ENCHANTED_COBBLESTONE:32"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:record_strad",
-  "displayname": "§f§f§5Watcher Disc",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Place this inside a jukebox to\",1:\"§7play a dungeon song!\",2:\"\",3:\"§6The Watcher\",4:\"  §7By ShinkoNet\",5:\"\",6:\"§5§lEPIC\"],Name:\"§f§f§5Watcher Disc\"},ExtraAttributes:{id:\"DUNGEON_DISC_3\"}}",
+  "displayname": "{\"text\":\"Watcher Disc\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:record_strad\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Watcher Disc\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this inside a jukebox to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"play a dungeon song!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"The Watcher\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"By ShinkoNet\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DUNGEON_DISC_3\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Place this inside a jukebox to",
-    "§7play a dungeon song!",
-    "",
-    "§6The Watcher",
-    "  §7By ShinkoNet",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Place this inside a jukebox to\",\"color\":\"gray\"}",
+    "{\"text\":\"play a dungeon song!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"The Watcher\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"By ShinkoNet\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "DUNGEON_DISC_3",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Watcher_Disc",
     "https://wiki.hypixel.net/Watcher_Disc"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

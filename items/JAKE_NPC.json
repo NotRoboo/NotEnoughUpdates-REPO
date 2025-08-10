@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Jake (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"29340f2b-3d79-5076-813f-5d74407d4040\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDUxY2M3YzFkMTFhYTBhMDhhNzNjYmMxODQ1NDcwNTFhZWJkMDdiM2JiNTBkODZmMTE4OGZkN2E3ZGFkMmVkMyJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Jake (NPC)\"},ExtraAttributes:{id:\"JAKE_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Jake (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jake (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"JAKE_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "JAKE_NPC",
   "clickcommand": "viewrecipe",
@@ -76,5 +76,8 @@
       ],
       "result": "LUCKY_DICE"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

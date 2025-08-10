@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:leather_helmet",
-  "displayname": "§fMushroom Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"MUSHROOM_HELMET\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+20\",1:\"\",2:\"§6Full Set Bonus: Night Affinity §7(0/4)\",3:\"§7Grants the wearer permanent §aNight\",4:\"§aVision§7 while worn. All stats on this\",5:\"§7armor piece are multiplied by §a3x§7 at\",6:\"§5night§7 while in §aThe Garden§7.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §aFarming Skill 7§c.\",10:\"§f§lCOMMON HELMET\"],Name:\"§fMushroom Helmet\",color:16711680}}",
+  "displayname": "{\"text\":\"Mushroom Helmet\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mushroom Helmet\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Night Affinity \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants the wearer permanent \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Night\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vision\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" while worn. All stats on this\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"armor piece are multiplied by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3x\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" at\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"night\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\" while in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 7\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"COMMON HELMET\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MUSHROOM_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+20",
-    "",
-    "§6Full Set Bonus: Night Affinity §7(0/4)",
-    "§7Grants the wearer permanent §aNight",
-    "§aVision§7 while worn. All stats on this",
-    "§7armor piece are multiplied by §a3x§7 at",
-    "§5night§7 while in §aThe Garden§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aFarming Skill 7§c.",
-    "§f§lCOMMON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Night Affinity \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants the wearer permanent \",\"color\":\"gray\"},{\"text\":\"Night\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Vision\",\"color\":\"green\"},{\"text\":\" while worn. All stats on this\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"armor piece are multiplied by \",\"color\":\"gray\"},{\"text\":\"3x\",\"color\":\"green\"},{\"text\":\" at\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"night\",\"color\":\"dark_purple\"},{\"text\":\" while in \",\"color\":\"gray\"},{\"text\":\"The Garden\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 7\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"COMMON HELMET\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MUSHROOM_HELMET",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

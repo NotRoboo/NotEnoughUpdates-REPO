@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:nether_star",
-  "displayname": "§5Hyper Catalyst",
-  "nbttag": "{ExtraAttributes:{id:\"HYPER_CATALYST\"},HideFlags:254,ItemModel:\"minecraft:nether_star\",display:{Lore:[0:\"§7When in a minion, this increases the\",1:\"§7number of resources created by §a4x\",2:\"§7for §a6 hours§7!\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Hyper Catalyst\"},ench:[]}",
+  "displayname": "{\"text\":\"Hyper Catalyst\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:nether_star\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hyper Catalyst\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"When in a minion, this increases the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"number of resources created by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"4x\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"6 hours\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HYPER_CATALYST\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7When in a minion, this increases the",
-    "§7number of resources created by §a4x",
-    "§7for §a6 hours§7!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"When in a minion, this increases the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"number of resources created by \",\"color\":\"gray\"},{\"text\":\"4x\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"6 hours\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "HYPER_CATALYST",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C2": "CATALYST:1",
     "C3": "CATALYST:1",
     "count": 8
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

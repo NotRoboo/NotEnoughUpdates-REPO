@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Soulweaver Gloves",
-  "nbttag": "{ExtraAttributes:{id:\"SOULWEAVER_GLOVES\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"bbbc2dc3-afa0-3a6d-a13c-c0a123252fba\",Properties:{textures:[0:{Name:\"textures\",Signature:\"byaUid/txh6NGDuBC9Po4p1Mf9bqhzI4BmPYk3rchzlfUISAvIz4p9JgHg01FUoPEThj0b6ulOsdmMyWXsXztyLIq8iXrgcfYI1e8VJrJVEkV+z93spf63QDNTz2jlM7t2gpcMQU25WiJZeE2YZ2i7TlL5jjCDQf24XQDv+jFrzamZPhUq8K3lwC5iwbPAXtT7T9RygE/ylLQbyHVknJiOEovnB20ueDn/wE5UmDNQQueLqmEHY65YiQvYPNtIk/8zMeTfeX5WyXh/AkJ7PIgeFSujXwz4ymGJvE12LlfHqDO5r3u6JlqyeW6BtEp2H+Eyz7meOqdFXYXB6FQGiolSHHcgCBeEQqc3CQQVI84PtHrVGjSFAHRRs0u+Ch+yJHA+XGhCJewZjEDteV3VMHHxWl7Pu1rDY6cYW5KNPiPS5v7MTdTHsvFs0em+q31PmJThRpgpDiNd884lYINXRZh6hi8hWCsQ1zV59WtMfL/UFs3qoaVuexs3iJX/qVQ0plfAQjZKju+cfB5ir/DBGgoKItJfVrwQLPsB/aYv9gp+TnT5pyXwEwVjLZIDjrqXmQ8nG0XG1cm9IOu7DvajIpP+eHB+NJTM3Lq/RikFZJ/nLINLZsvwjwuMsyBFGCbg67KgVhNwSrp15BrahHI/KGsmHSSd182DEuobODlhW+x64=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5MjI5ODIyMjY4MywKICAicHJvZmlsZUlkIiA6ICI4NzE3ZGFhNmM3OTU0NzE2YmJlYWQ0MDRkYzg0NDQzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa3VsbDAwMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUyMjg2NzcyMTJiZTQzZWFhZDIzZDQ3ZWQ4NDNlMTVmYjFlNjgzODQ1OTRjMDliNThiMjNmODI0MjdlNTQ5YSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Strength: §c+10\",1:\"§7Crit Damage: §c+10%\",2:\"\",3:\"§7While in §cThe Catacombs§7, summon a\",4:\"§cHaunted Skull §7that slowly revolves\",5:\"§7around you every §a15 §7seconds or\",6:\"§7when you kill a mob with melee damage.\",7:\"\",8:\"§7When an enemy is hit by a §cHaunted\",9:\"§cSkull§7, they are stunned for §b2\",10:\"§7seconds and deal §c5% §7less damage.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4❣ §cRequires The Catacombs Floor VI Completion.\",14:\"§5§lEPIC DUNGEON GLOVES\"],Name:\"§5Soulweaver Gloves\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Soulweaver Gloves\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Soulweaver Gloves\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"While in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Catacombs\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\", summon a\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Haunted Skull \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"that slowly revolves\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"around you every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"15 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"seconds or\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"when you kill a mob with melee damage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"When an enemy is hit by a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Haunted\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Skull\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\", they are stunned for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"seconds and deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"less damage.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires The Catacombs Floor VI Completion.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON GLOVES\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SOULWEAVER_GLOVES\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5MjI5ODIyMjY4MywKICAicHJvZmlsZUlkIiA6ICI4NzE3ZGFhNmM3OTU0NzE2YmJlYWQ0MDRkYzg0NDQzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa3VsbDAwMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUyMjg2NzcyMTJiZTQzZWFhZDIzZDQ3ZWQ4NDNlMTVmYjFlNjgzODQ1OTRjMDliNThiMjNmODI0MjdlNTQ5YSIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Strength: §c+10",
-    "§7Crit Damage: §c+10%",
-    "",
-    "§7While in §cThe Catacombs§7, summon a",
-    "§cHaunted Skull §7that slowly revolves",
-    "§7around you every §a15 §7seconds or",
-    "§7when you kill a mob with melee damage.",
-    "",
-    "§7When an enemy is hit by a §cHaunted",
-    "§cSkull§7, they are stunned for §b2",
-    "§7seconds and deal §c5% §7less damage.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires The Catacombs Floor VI Completion.",
-    "§5§lEPIC DUNGEON GLOVES"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+10%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"While in \",\"color\":\"gray\"},{\"text\":\"The Catacombs\",\"color\":\"red\"},{\"text\":\", summon a\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Haunted Skull \",\"color\":\"red\"},{\"text\":\"that slowly revolves\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"around you every \",\"color\":\"gray\"},{\"text\":\"15 \",\"color\":\"green\"},{\"text\":\"seconds or\",\"color\":\"gray\"}]}",
+    "{\"text\":\"when you kill a mob with melee damage.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"When an enemy is hit by a \",\"color\":\"gray\"},{\"text\":\"Haunted\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Skull\",\"color\":\"red\"},{\"text\":\", they are stunned for \",\"color\":\"gray\"},{\"text\":\"2\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"seconds and deal \",\"color\":\"gray\"},{\"text\":\"5% \",\"color\":\"red\"},{\"text\":\"less damage.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires The Catacombs Floor VI Completion.\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON GLOVES\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SOULWEAVER_GLOVES",
   "clickcommand": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Soulweaver_Gloves",
     "https://wiki.hypixel.net/Soulweaver_Gloves"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dArgofay Threebrother 3 (Rift NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e4fb07fb-58d3-20f0-8aa5-791c6ef67a05\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjYmU3MGMyZDFjNjhmZmFiZDJmYmJiZTNmZmYxNzQ2ZjQyMjI5Mzc4NjU2MDQ3NmVjZGZlYzVhYTI5M2Q3ZmEifX19\"}]},Name:\"e4fb07fb-58d3-20f0-8aa5-791c6ef67a05\"},display:{Lore:[0:\"§7Talk to all three brothers to unlock\",1:\"§7the §aWyld Sword\"],Name:\"§dArgofay Threebrother 3 (Rift NPC)\"},ExtraAttributes:{id:\"ARGOFAY_THREEBROTHER_3_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Argofay Threebrother 3 (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Argofay Threebrother 3 (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Talk to all three brothers to unlock\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Wyld Sword\\\",\\\"color\\\":\\\"green\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"ARGOFAY_THREEBROTHER_3_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Talk to all three brothers to unlock",
-    "§7the §aWyld Sword"
+    "{\"text\":\"Talk to all three brothers to unlock\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the \",\"color\":\"gray\"},{\"text\":\"Wyld Sword\",\"color\":\"green\"}]}"
   ],
   "internalname": "ARGOFAY_THREEBROTHER_3_RIFT_NPC",
   "clickcommand": "",
@@ -29,5 +29,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Argofay_Threebrother",
     "https://wiki.hypixel.net/Argofay_Threebrother"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

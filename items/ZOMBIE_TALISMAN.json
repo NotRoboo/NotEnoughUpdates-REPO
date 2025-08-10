@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fZombie Talisman",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:zombie_head\",display:{Lore:[0:\"§7Reduces the damage taken from\",1:\"§7Zombies by §a5%§7.\",2:\"\",3:\"§f§lCOMMON ACCESSORY\"],Name:\"§fZombie Talisman\"}}",
-  "damage": 2,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Zombie Talisman\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie Talisman\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Reduces the damage taken from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Zombies by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON ACCESSORY\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ZOMBIE_TALISMAN\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Reduces the damage taken from",
-    "§7Zombies by §a5%§7.",
-    "",
-    "§f§lCOMMON ACCESSORY"
+    "{\"text\":\"Reduces the damage taken from\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Zombies by \",\"color\":\"gray\"},{\"text\":\"5%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON ACCESSORY\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ZOMBIE_TALISMAN",
   "clickcommand": "",
@@ -24,5 +24,8 @@
       "cost": "EMERALD:10",
       "result": "ZOMBIE_TALISMAN"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

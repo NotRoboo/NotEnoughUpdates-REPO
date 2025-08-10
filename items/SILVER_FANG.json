@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:ghast_tear",
-  "displayname": "§aSilver Fang",
-  "nbttag": "{ExtraAttributes:{id:\"SILVER_FANG\"},HideFlags:254,ItemModel:\"minecraft:ghast_tear\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§5§kX§5 Rift-Transferable §r§kX\",3:\"§a§lUNCOMMON\"],Name:\"§aSilver Fang\"},ench:[]}",
+  "displayname": "{\"text\":\"Silver Fang\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:ghast_tear\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Silver Fang\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SILVER_FANG\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§5§kX§5 Rift-Transferable §r§kX",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"obfuscated\":true}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SILVER_FANG",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "",
     "C2": "ENCHANTED_GHAST_TEAR:5",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

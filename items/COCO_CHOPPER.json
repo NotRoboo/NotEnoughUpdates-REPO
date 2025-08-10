@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:golden_axe",
-  "displayname": "§5Cocoa Chopper",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Cocoa Beans Fortune: §a+20\",1:\" §8[§8☘§8] §8[§8☘§8]\",2:\"\",3:\"§7Grants §6+20☘ Cocoa Beans Fortune§7,\",4:\"§7which increases drops when\",5:\"§7harvesting Cocoa Beans.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§5§lEPIC AXE\"],Name:\"§5Cocoa Chopper\"},ExtraAttributes:{id:\"COCO_CHOPPER\"}}",
+  "displayname": "{\"text\":\"Cocoa Chopper\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cocoa Chopper\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cocoa Beans Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"☘\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"☘\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20☘ Cocoa Beans Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"which increases drops when\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"harvesting Cocoa Beans.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC AXE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COCO_CHOPPER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Cocoa Beans Fortune: §a+20",
-    " §8[§8☘§8] §8[§8☘§8]",
-    "",
-    "§7Grants §6+20☘ Cocoa Beans Fortune§7,",
-    "§7which increases drops when",
-    "§7harvesting Cocoa Beans.",
-    "",
-    "§7§8This item can be reforged!",
-    "§5§lEPIC AXE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cocoa Beans Fortune: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"☘\",\"color\":\"dark_gray\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"☘\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+20☘ Cocoa Beans Fortune\",\"color\":\"gold\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"which increases drops when\",\"color\":\"gray\"}",
+    "{\"text\":\"harvesting Cocoa Beans.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC AXE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "COCO_CHOPPER",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cocoa_Chopper",
     "https://wiki.hypixel.net/Cocoa_Chopper"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

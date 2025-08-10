@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:end_stone",
-  "displayname": "§fEnd Stone",
-  "nbttag": "{ExtraAttributes:{id:\"ENDER_STONE\"},HideFlags:254,ItemModel:\"minecraft:end_stone\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON BLOCK\"],Name:\"§fEnd Stone\"}}",
+  "displayname": "{\"text\":\"End Stone\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:end_stone\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"End Stone\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON BLOCK\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENDER_STONE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON BLOCK"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON BLOCK\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ENDER_STONE",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://wiki.hypixel.net/End_Stone"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

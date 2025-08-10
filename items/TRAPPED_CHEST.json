@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:trapped_chest",
-  "displayname": "§fTrapped Chest",
-  "nbttag": "{ExtraAttributes:{id:\"TRAPPED_CHEST\"},HideFlags:254,ItemModel:\"minecraft:trapped_chest\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fTrapped Chest\"}}",
+  "displayname": "{\"text\":\"Trapped Chest\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:trapped_chest\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Trapped Chest\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TRAPPED_CHEST\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "TRAPPED_CHEST",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

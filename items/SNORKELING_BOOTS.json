@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§aSnorkeling Shoes",
-  "nbttag": "{ExtraAttributes:{enchantments:{depth_strider:3},id:\"SNORKELING_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+60\",1:\"§7Defense: §a+55\",2:\"§7Pressure Resistance: §a+10\",3:\"\",4:\"§9Depth Strider III\",5:\"§7Reduces how much you are slowed in\",6:\"§7the water by §a100%§7.\",7:\"\",8:\"§8Tiered Bonus: Long Tuba (0/4)\",9:\"§7Grants §3+2⚶ Respiration§7.\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4❣ §cRequires §aForaging Skill 16§c.\",13:\"§a§lUNCOMMON BOOTS\"],Name:\"§aSnorkeling Shoes\",color:0},ench:[0:{id:8S,lvl:3S}]}",
+  "displayname": "{\"text\":\"Snorkeling Shoes\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Snorkeling Shoes\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+55\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pressure Resistance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Depth Strider III\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"Reduces how much you are slowed in\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the water by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"100%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Long Tuba (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2⚶ Respiration\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Foraging Skill 16\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON BOOTS\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"enchantments\":\"{depth_strider:3\"},\"minecraft:enchantments\":{\"levels\":{\"minecraft:depth_strider\":3},\"show_in_tooltip\":true},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+60",
-    "§7Defense: §a+55",
-    "§7Pressure Resistance: §a+10",
-    "",
-    "§9Depth Strider III",
-    "§7Reduces how much you are slowed in",
-    "§7the water by §a100%§7.",
-    "",
-    "§8Tiered Bonus: Long Tuba (0/4)",
-    "§7Grants §3+2⚶ Respiration§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aForaging Skill 16§c.",
-    "§a§lUNCOMMON BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+60\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+55\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pressure Resistance: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Depth Strider III\",\"color\":\"blue\"}",
+    "{\"text\":\"Reduces how much you are slowed in\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the water by \",\"color\":\"gray\"},{\"text\":\"100%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Long Tuba (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+2⚶ Respiration\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Foraging Skill 16\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON BOOTS\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SNORKELING_BOOTS",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Snorkeling_Shoes"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

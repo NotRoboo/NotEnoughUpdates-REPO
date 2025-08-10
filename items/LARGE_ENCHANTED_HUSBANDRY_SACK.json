@@ -1,25 +1,25 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Large Enchanted Husbandry Sack",
-  "nbttag": "{ExtraAttributes:{id:\"LARGE_ENCHANTED_HUSBANDRY_SACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"31e9563f-6d51-3fb3-a960-fef25431ab27\",Properties:{textures:[0:{Name:\"textures\",Signature:\"LZH/pxwRgOK+N76249xbceAFw93kk/KvFO+4DcneUk9i7VgrKjYrvYEhSWPOmg/8J4nC3yY/lqIvwyxhGBIA/+kHAITCmYeGBMqUzpq6/UJSuLG+GxSsUA1y6//AbM2Ucpm8W09/2TMrk92YmwVjyznAYi/vbMxCWQxu5B0BaU2fziMQQXC7tnxgoRCTcotyLmHnEbBAvnKbKEim1LszbMNUKEpt5jgwtV213M8PYz+/NUdQj00UOj4lnGupPB7fTMTiuzY0yRQJBiO0vZ5tmZ+yIG/SpKHsci8rsUMIomGzppyKvsxHT+UcCxX7D0IPQxfJGAqK8OxbAR7rCjkPcU5hEiapeq4/u7s9kYAfxkit18JRfchJwsOlRxzxnyxdL2WnYlFnmNJnKUuh+5kmPojbLqE7B28q620n3XV0dTwpn9b9KYAS7/7mFpCjRduvPaRy8lYC7ehfdkn3JxlHyHICFW01p6larC2s0FanZ3aVUhJQ88dKHkcfFJYcHss0U0ehx183YPDtJ8HPJffz9x2nYOzn6FUDrtNIAwbO3UetAf8GHAhJaozfsJ96vOLA40Wtbb3I+OTpgaPP3VcSo7ePAoeTZw+JtdEeC9xmV0XybAAQ8eS2gOUUYg2VKePl1ChcwO+tfOwI1HEC42FYa8a+c1oYxqIMYhibnxCxj9I=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTM4NTQ5OSwKICAicHJvZmlsZUlkIiA6ICJiYTBhMzYwZDM5ZDQ0N2JmOTNiZjBhMTU2ZDUzZTZjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW9sb3oxMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ2YTYwNjMyNjNiYTcyMDhhMmEwNmNlZjczMjM0NzkxYzkyZDVmNjcwODBhMzY1NTA4YjAyNDgzZWVmYWY5YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Item pickups go directly into your\",1:\"§7sacks.\",2:\"\",3:\"§7This sack can contain all enchanted versions\",4:\"§7of these materials:\",5:\"§aCooked Mutton§7, §aCooked Porkchop§7, §aEgg§7, §aFeather§7,\",6:\"§aLeather§7, §aMutton§7, §aRabbit Hide§7, §aRabbit's Foot§7, §aRaw\",7:\"§aBeef§7, §aRaw Chicken§7, §aRaw Porkchop§7, §aRaw Rabbit§7,\",8:\"§aSuper Enchanted Egg§7, §aWhite Wool\",9:\"\",10:\"§7Capacity: §e20,160 per item\",11:\"§8Sacks sum their capacity.\",12:\"\",13:\"§eRight Click to open sack!\",14:\"\",15:\"§5§lEPIC\"],Name:\"§5Large Enchanted Husbandry Sack\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Large Enchanted Husbandry Sack\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Large Enchanted Husbandry Sack\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Item pickups go directly into your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"sacks.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This sack can contain all enchanted versions\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"of these materials:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooked Mutton\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Cooked Porkchop\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Egg\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Feather\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Leather\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mutton\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Rabbit Hide\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Rabbit\u0027s Foot\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Raw\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Beef\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Raw Chicken\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Raw Porkchop\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Raw Rabbit\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Super Enchanted Egg\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"White Wool\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Capacity: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20,160 per item\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"Sacks sum their capacity.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right Click to open sack!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7Item pickups go directly into your",
-    "§7sacks.",
-    "",
-    "§7This sack can contain all enchanted versions",
-    "§7of these materials:",
-    "§aCooked Mutton§7, §aCooked Porkchop§7, §aEgg§7, §aFeather§7,",
-    "§aLeather§7, §aMutton§7, §aRabbit Hide§7, §aRabbit's Foot§7, §aRaw",
-    "§aBeef§7, §aRaw Chicken§7, §aRaw Porkchop§7, §aRaw Rabbit§7,",
-    "§aSuper Enchanted Egg§7, §aWhite Wool",
-    "",
-    "§7Capacity: §e20,160 per item",
-    "§8Sacks sum their capacity.",
-    "",
-    "§eRight Click to open sack!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Item pickups go directly into your\",\"color\":\"gray\"}",
+    "{\"text\":\"sacks.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This sack can contain all enchanted versions\",\"color\":\"gray\"}",
+    "{\"text\":\"of these materials:\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooked Mutton\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Cooked Porkchop\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Egg\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Feather\",\"color\":\"green\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Leather\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Mutton\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Rabbit Hide\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Rabbit\u0027s Foot\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Raw\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Beef\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Raw Chicken\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Raw Porkchop\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Raw Rabbit\",\"color\":\"green\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Super Enchanted Egg\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"White Wool\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Capacity: \",\"color\":\"gray\"},{\"text\":\"20,160 per item\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"Sacks sum their capacity.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right Click to open sack!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "LARGE_ENCHANTED_HUSBANDRY_SACK",
   "clickcommand": "viewrecipe",
@@ -45,5 +45,8 @@
       "count": 1,
       "overrideOutputId": "LARGE_ENCHANTED_HUSBANDRY_SACK"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

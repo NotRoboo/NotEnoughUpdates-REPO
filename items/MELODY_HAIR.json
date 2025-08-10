@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:string",
-  "displayname": "§5§dMelody\u0027s Hair",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Intelligence: §a+6\",1:\"\",2:\"§7A single strand of hair from\",3:\"§7Melody\u0027s head.\",4:\"\",5:\"§7Left-Click: §eTune up!\",6:\"§7Right-Click: §dPlay note!\",7:\"\",8:\"§8§l* §8Soulbound §8§l*\",9:\"§5§lEPIC ACCESSORY\"],Name:\"§5§dMelody\u0027s Hair\"},ExtraAttributes:{id:\"MELODY_HAIR\"}}",
+  "displayname": "{\"text\":\"Melody\u0027s Hair\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:string\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Melody\u0027s Hair\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+6\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A single strand of hair from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Melody\u0027s head.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Left-Click: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Tune up!\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Right-Click: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Play note!\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC ACCESSORY\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MELODY_HAIR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Intelligence: §a+6",
-    "",
-    "§7A single strand of hair from",
-    "§7Melody\u0027s head.",
-    "",
-    "§7Left-Click: §eTune up!",
-    "§7Right-Click: §dPlay note!",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§5§lEPIC ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+6\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A single strand of hair from\",\"color\":\"gray\"}",
+    "{\"text\":\"Melody\u0027s head.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Left-Click: \",\"color\":\"gray\"},{\"text\":\"Tune up!\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Right-Click: \",\"color\":\"gray\"},{\"text\":\"Play note!\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"EPIC ACCESSORY\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "MELODY_HAIR",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Melody%27s_Hair",
     "https://wiki.hypixel.net/Melody%27s_Hair"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

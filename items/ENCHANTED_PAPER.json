@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:paper",
-  "displayname": "§aEnchanted Paper",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_PAPER\"},HideFlags:254,ItemModel:\"minecraft:paper\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Paper\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Paper\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:paper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Paper\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_PAPER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_PAPER",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "SUGAR_CANE:64",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

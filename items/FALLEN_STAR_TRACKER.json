@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:diamond",
-  "displayname": "§5Fallen Star Lozenge",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Rezonate  §e§lRIGHT CLICK\",1:\"§7Leads you to the nearest §5Fallen\",2:\"§5Star §7while in the §2Dwarven Mines§7.\",3:\"§8Mana Cost: §320\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Fallen Star Lozenge\"},ExtraAttributes:{id:\"FALLEN_STAR_TRACKER\"}}",
+  "displayname": "{\"text\":\"Fallen Star Lozenge\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fallen Star Lozenge\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Rezonate \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Leads you to the nearest \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Fallen\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Star \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"while in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Dwarven Mines\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"20\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FALLEN_STAR_TRACKER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Rezonate  §e§lRIGHT CLICK",
-    "§7Leads you to the nearest §5Fallen",
-    "§5Star §7while in the §2Dwarven Mines§7.",
-    "§8Mana Cost: §320",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Rezonate \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Leads you to the nearest \",\"color\":\"gray\"},{\"text\":\"Fallen\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Star \",\"color\":\"dark_purple\"},{\"text\":\"while in the \",\"color\":\"gray\"},{\"text\":\"Dwarven Mines\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"20\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FALLEN_STAR_TRACKER",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fallen_Star_Lozenge",
     "https://wiki.hypixel.net/Fallen_Star_Lozenge"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

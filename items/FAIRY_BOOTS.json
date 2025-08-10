@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§9Fairy\u0027s Galoshes",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+1\",1:\"§7Defense: §a+1\",2:\"§7Speed: §a+10\",3:\"§7Intelligence: §a-1\",4:\"\",5:\"§6Full Set Bonus: Fairy\u0027s Outfit\",6:\"§7Gain §c1❤ §7per Fairy Soul.\",7:\"§7You found: §d§k000§d Fairy Souls\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§9§lRARE BOOTS\"],color:16764133,Name:\"§9Fairy\u0027s Galoshes\"},ExtraAttributes:{color:\"255:204:229\",id:\"FAIRY_BOOTS\"}}",
+  "displayname": "{\"text\":\"Fairy\u0027s Galoshes\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fairy\u0027s Galoshes\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"-1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Fairy\u0027s Outfit\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per Fairy Soul.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"You found: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"000\\\",\\\"color\\\":\\\"light_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Fairy Souls\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE BOOTS\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"255:204:229\",\"id\":\"FAIRY_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+1",
-    "§7Defense: §a+1",
-    "§7Speed: §a+10",
-    "§7Intelligence: §a-1",
-    "",
-    "§6Full Set Bonus: Fairy\u0027s Outfit",
-    "§7Gain §c1❤ §7per Fairy Soul.",
-    "§7You found: §d§k000§d Fairy Souls",
-    "",
-    "§7§8This item can be reforged!",
-    "§9§lRARE BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"-1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Fairy\u0027s Outfit\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"1❤ \",\"color\":\"red\"},{\"text\":\"per Fairy Soul.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"You found: \",\"color\":\"gray\"},{\"text\":\"000\",\"color\":\"light_purple\",\"obfuscated\":true},{\"text\":\" Fairy Souls\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE BOOTS\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "FAIRY_BOOTS",
   "crafttext": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fairy%27s_Galoshes",
     "https://wiki.hypixel.net/Fairy%27s_Galoshes"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

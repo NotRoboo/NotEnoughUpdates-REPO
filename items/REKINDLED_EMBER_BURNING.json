@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dSmoldering Ember Skin",
-  "nbttag": "{ExtraAttributes:{id:\"REKINDLED_EMBER_BURNING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"922075b1-0bd7-36f3-af46-9ec039555f17\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ITwCWm9hoXMpMyL2Q4pe9nWfxs0AP5dRcLIc1UQ7xD/8jcnfx0llOLlw4cpyFP0LSx6scW1K9vU/omX39v9MwE5aThhJY5eXRGjTu9bv3zhXXat4arTPRXAul94b+Id4QdY3teY6+TJqmdob4v+YlYXQld5PEUdi/qVhQR1qo7oAIf3t8bomS8qmSPPi6rAsPQhUlNM07o14OLvzXkQtYKMRz4THgj2a/nHmOnPMw+gATcLKKFxA5BWjxbzKSKdUoifNnp0uGDew7UTpMOSuAiyaYp3JmaYmc6dbpSAqQ01QCUAeZtjL68TV/wdxmKqD0nfZw0O2KyU3yhlpg5BKLPW98lwpQwHnzCc/8S0Ml/KW6jSx/P0OkB1AjGrB3BBMGn2h2vmnZq4QG6e5cvhJV3j3Gr5hZ9LAR0q4pgFOac0HZhKE/IPqxRBa+4P8n4aa44d064tvWdu+C/6hbT0MAypqmr3DPNVjN/ySR83v1CJ+8An4jDLl1QiIy+6FYu5WZNkubrriQ42bj5uMmBKobxcBVGOEQOYudY/aUq/KMrzW0bhY7Hkmna+w3Pv/4Xfu6NgPQQS7aUWi5pPwbeH6kGSsjSufK2BaZowqKa1VRvv/Lsfxj6ddHdRRFpYUMjjfK5Y2/z/lUVCvix4ERwUqCAC4hKNCHkESsJd+Q/WOpDg=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxODYxNDU0NTc5OSwKICAicHJvZmlsZUlkIiA6ICJkNzU2OTc4MWUyYjY0OWIyYjVlMjVlYTJhNDZkOGQxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEckthcGRvciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMjMwOWNhMjlkYTUzNGQ0YzBkNWIwZWE0NjQ3MWFlOWJlMzJiNDllNDRlN2QxZDc4ZGJkZmVkNDhkZjczZTdjIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7This skin can be applied to §5Rekindled\",7:\"§5Ember Helmet§7 and §5Ember Helmet§7.\",8:\"\",9:\"§aThis skin is animated!\",10:\"\",11:\"§d§lMYTHIC COSMETIC\"],Name:\"§dSmoldering Ember Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Smoldering Ember Skin\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Smoldering Ember Skin\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Item skins give your gear a fresh\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"new look! Apply them just like an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enchant book using the anvil.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This skin can be applied to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Rekindled\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ember Helmet\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\" and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Ember Helmet\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin is animated!\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC COSMETIC\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REKINDLED_EMBER_BURNING\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxODYxNDU0NTc5OSwKICAicHJvZmlsZUlkIiA6ICJkNzU2OTc4MWUyYjY0OWIyYjVlMjVlYTJhNDZkOGQxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEckthcGRvciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMjMwOWNhMjlkYTUzNGQ0YzBkNWIwZWE0NjQ3MWFlOWJlMzJiNDllNDRlN2QxZDc4ZGJkZmVkNDhkZjczZTdjIgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Item skins give your gear a fresh",
-    "§7new look! Apply them just like an",
-    "§7enchant book using the anvil.",
-    "",
-    "§7This skin can be applied to §5Rekindled",
-    "§5Ember Helmet§7 and §5Ember Helmet§7.",
-    "",
-    "§aThis skin is animated!",
-    "",
-    "§d§lMYTHIC COSMETIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Item skins give your gear a fresh\",\"color\":\"gray\"}",
+    "{\"text\":\"new look! Apply them just like an\",\"color\":\"gray\"}",
+    "{\"text\":\"enchant book using the anvil.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This skin can be applied to \",\"color\":\"gray\"},{\"text\":\"Rekindled\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ember Helmet\",\"color\":\"dark_purple\"},{\"text\":\" and \",\"color\":\"gray\"},{\"text\":\"Ember Helmet\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin is animated!\",\"color\":\"green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC COSMETIC\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "REKINDLED_EMBER_BURNING",
   "clickcommand": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Smoldering_Ember_Skin",
     "https://wiki.hypixel.net/Smoldering_Ember_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

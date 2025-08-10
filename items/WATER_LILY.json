@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:waterlily",
-  "displayname": "§fLily Pad",
-  "nbttag": "{ExtraAttributes:{id:\"WATER_LILY\"},HideFlags:254,ItemModel:\"minecraft:lily_pad\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fLily Pad\"}}",
+  "displayname": "{\"text\":\"Lily Pad\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:waterlily\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lily Pad\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WATER_LILY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WATER_LILY",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://wiki.hypixel.net/Lily_Pad"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

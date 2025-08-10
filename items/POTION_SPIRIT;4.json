@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aSpirit IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:1b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§bSpirit IV §f(3:00)\",2:\"§7Grants §a+40 §f✦ Speed §7and §a+40% §9☠\",3:\"§9Crit Damage§7.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aSpirit IV Potion\"},ExtraAttributes:{potion_level:4,enhanced:1b,potion:\"spirit\",effects:[0:{level:4,effect:\"spirit\",duration_ticks:3600,modifiers:{}}],potion_type:\"POTION\",id:\"POTION_SPIRIT;4\",splash:0b,potion_name:\"Spirit\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Spirit IV Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spirit IV Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spirit IV \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"✦ Speed \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"☠\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":4,\"enhanced\":true,\"potion\":\"spirit\",\"effects\":\"[0:{level:4\",\"effect\":\"spirit\",\"duration_ticks\":3600,\"modifiers\":\"{\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§bSpirit IV §f(3:00)",
-    "§7Grants §a+40 §f✦ Speed §7and §a+40% §9☠",
-    "§9Crit Damage§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spirit IV \",\"color\":\"aqua\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+40 \",\"color\":\"green\"},{\"text\":\"✦ Speed \",\"color\":\"white\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"+40% \",\"color\":\"green\"},{\"text\":\"☠\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_SPIRIT;4",
   "crafttext": "",
   "clickcommand": "",
   "modver": "2.3.0",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

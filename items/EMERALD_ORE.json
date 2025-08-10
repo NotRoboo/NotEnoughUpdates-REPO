@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:emerald_ore",
-  "displayname": "§aEmerald Ore",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON ORE\"],Name:\"§aEmerald Ore\"},ExtraAttributes:{id:\"EMERALD_ORE\"}}",
+  "displayname": "{\"text\":\"Emerald Ore\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:emerald_ore\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Emerald Ore\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON ORE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EMERALD_ORE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§a§lUNCOMMON ORE"
+    "{\"text\":\"UNCOMMON ORE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "EMERALD_ORE",
   "modver": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://wiki.hypixel.net/Emerald_Ore"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Crypt Lurker (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Lurking in the shadows\",1:\"\",2:\"§c❤ Health§8: §c12,000 - 420,000\",3:\"§c❤ Health §8(MM) : §c850,000 - 13,000,000\"],Name:\"§9Crypt Lurker (Monster)\"},ExtraAttributes:{id:\"CRYPT_LURKER_MONSTER\"}}",
-  "damage": 2,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Crypt Lurker (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Crypt Lurker (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Lurking in the shadows\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"12,000 - 420,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(MM) : \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"850,000 - 13,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"CRYPT_LURKER_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Lurking in the shadows",
-    "",
-    "§c❤ Health§8: §c12,000 - 420,000",
-    "§c❤ Health §8(MM) : §c850,000 - 13,000,000"
+    "{\"text\":\"Lurking in the shadows\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"12,000 - 420,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"(MM) : \",\"color\":\"dark_gray\"},{\"text\":\"850,000 - 13,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "CRYPT_LURKER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

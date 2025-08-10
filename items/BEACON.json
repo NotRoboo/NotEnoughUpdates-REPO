@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:beacon",
-  "displayname": "§fBeacon Block",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7A cool cosmetic imitation of the real thing!\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fBeacon Block\"},ExtraAttributes:{id:\"BEACON\"}}",
+  "displayname": "{\"text\":\"Beacon Block\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:beacon\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Beacon Block\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A cool cosmetic imitation of the real thing!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BEACON\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7A cool cosmetic imitation of the real thing!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"A cool cosmetic imitation of the real thing!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "BEACON",
   "crafttext": "",
@@ -15,5 +15,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Beacon_Block"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

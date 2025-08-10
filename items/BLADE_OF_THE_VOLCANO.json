@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§9Blade of the Volcano",
-  "nbttag": "{ExtraAttributes:{id:\"BLADE_OF_THE_VOLCANO\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+220\",1:\"§7Strength: §c+70\",2:\"§7Crit Damage: §c+20%\",3:\"\",4:\"§7A powerful blade forged in the\",5:\"§7depths of the §6Blazing Volcano§7.\",6:\"\",7:\"§7Gain §c+100❁ Strength §7against enemies\",8:\"§7who are in lava.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§9§lRARE SWORD\"],Name:\"§9Blade of the Volcano\"},ench:[]}",
+  "displayname": "{\"text\":\"Blade of the Volcano\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Blade of the Volcano\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+220\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+70\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A powerful blade forged in the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"depths of the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Blazing Volcano\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100❁ Strength \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"against enemies\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"who are in lava.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BLADE_OF_THE_VOLCANO\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+220",
-    "§7Strength: §c+70",
-    "§7Crit Damage: §c+20%",
-    "",
-    "§7A powerful blade forged in the",
-    "§7depths of the §6Blazing Volcano§7.",
-    "",
-    "§7Gain §c+100❁ Strength §7against enemies",
-    "§7who are in lava.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
-    "§9§lRARE SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+220\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+70\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+20%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A powerful blade forged in the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"depths of the \",\"color\":\"gray\"},{\"text\":\"Blazing Volcano\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+100❁ Strength \",\"color\":\"red\"},{\"text\":\"against enemies\",\"color\":\"gray\"}]}",
+    "{\"text\":\"who are in lava.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BLADE_OF_THE_VOLCANO",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Blade_of_the_Volcano",
     "https://wiki.hypixel.net/Blade_Of_The_Volcano"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

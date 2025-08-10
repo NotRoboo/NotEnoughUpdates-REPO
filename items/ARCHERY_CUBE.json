@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Archery Cube",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"171baa71-488d-36a6-8c81-443dc545da2a\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNTE3MTUxNjYzMCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZmNzUxZTU0ZDdjYzkwZDE2MTdiODIxNTRlNWZhYjcyZDk3YTliY2M3NjIyMTM0OGQ3MzZmYTI4N2JiNjFlODQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7§8Decoration item\",1:\"§7\",2:\"§7§7Obtained during the §eCarnival§7 for\",3:\"§7placing within the §aTop 500 §7in §cZombie\",4:\"§cShootout§7.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Archery Cube\"},ExtraAttributes:{id:\"ARCHERY_CUBE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Archery Cube\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Archery Cube\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Decoration item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Carnival\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\" for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"placing within the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Top 500 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Zombie\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Shootout\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ARCHERY_CUBE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§8Decoration item",
-    "§7",
-    "§7§7Obtained during the §eCarnival§7 for",
-    "§7placing within the §aTop 500 §7in §cZombie",
-    "§cShootout§7.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Decoration item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained during the \",\"color\":\"gray\"},{\"text\":\"Carnival\",\"color\":\"yellow\"},{\"text\":\" for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"placing within the \",\"color\":\"gray\"},{\"text\":\"Top 500 \",\"color\":\"green\"},{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"Zombie\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Shootout\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "ARCHERY_CUBE",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Archery_Cube",
     "https://wiki.hypixel.net/Archery_Cube"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Starknight Skin",
-  "nbttag": "{ExtraAttributes:{id:\"STARLIGHT_STARKNIGHT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4035cd99-9575-3bd2-bb1f-0bba7e414a40\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDQ5NDE3NDY3NSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmIyMTcxZjM2YjdhNzFmODM1ZWUxOGYwMzFmYTgzMDAxN2VkYjQxOWU5OWE2NTZiZTU1ODA3ZjU3NmFkN2M2OCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7This skin can be applied to §9Starlight\",7:\"§9Helmet§7.\",8:\"\",9:\"§5§lEPIC COSMETIC\"],Name:\"§5Starknight Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Starknight Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Starknight Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Item skins give your gear a fresh\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"new look! Apply them just like an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enchant book using the anvil.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This skin can be applied to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Starlight\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Helmet\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STARLIGHT_STARKNIGHT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDQ5NDE3NDY3NSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmIyMTcxZjM2YjdhNzFmODM1ZWUxOGYwMzFmYTgzMDAxN2VkYjQxOWU5OWE2NTZiZTU1ODA3ZjU3NmFkN2M2OCIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Item skins give your gear a fresh",
-    "§7new look! Apply them just like an",
-    "§7enchant book using the anvil.",
-    "",
-    "§7This skin can be applied to §9Starlight",
-    "§9Helmet§7.",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Item skins give your gear a fresh\",\"color\":\"gray\"}",
+    "{\"text\":\"new look! Apply them just like an\",\"color\":\"gray\"}",
+    "{\"text\":\"enchant book using the anvil.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This skin can be applied to \",\"color\":\"gray\"},{\"text\":\"Starlight\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Helmet\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "STARLIGHT_STARKNIGHT",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Starknight_Skin",
     "https://wiki.hypixel.net/Starknight_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

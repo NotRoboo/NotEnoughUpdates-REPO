@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:map",
-  "displayname": "§9Travel Scroll to the Gold Mine",
-  "nbttag": "{ExtraAttributes:{id:\"MINING_1_TRAVEL_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:map\",display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your Fast Travel\",2:\"§7options.\",3:\"\",4:\"§7Island: §aGold Mine\",5:\"§7Teleport: §eSpawn\",6:\"\",7:\"§9§lRARE TRAVEL SCROLL\"],Name:\"§9Travel Scroll to the Gold Mine\"}}",
+  "displayname": "{\"text\":\"Travel Scroll to the Gold Mine\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:map\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Travel Scroll to the Gold Mine\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consume this item to add its\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"destination to your Fast Travel\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"options.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Island: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Gold Mine\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Teleport: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Spawn\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE TRAVEL SCROLL\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MINING_1_TRAVEL_SCROLL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Consume this item to add its",
-    "§7destination to your Fast Travel",
-    "§7options.",
-    "",
-    "§7Island: §aGold Mine",
-    "§7Teleport: §eSpawn",
-    "",
-    "§9§lRARE TRAVEL SCROLL"
+    "{\"text\":\"Consume this item to add its\",\"color\":\"gray\"}",
+    "{\"text\":\"destination to your Fast Travel\",\"color\":\"gray\"}",
+    "{\"text\":\"options.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Island: \",\"color\":\"gray\"},{\"text\":\"Gold Mine\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Teleport: \",\"color\":\"gray\"},{\"text\":\"Spawn\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE TRAVEL SCROLL\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MINING_1_TRAVEL_SCROLL",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "ENCHANTED_GOLD:16",
     "C2": "ENCHANTED_GOLD:16",
     "C3": "ENCHANTED_GOLD:16"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

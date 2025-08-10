@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Baker (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"5e49c811-ad15-2b7e-ad56-f4663a9164a2\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEwOGI3YjVhYWU1MzU3OTc2OWMwMTNhMjY1NmEzM2QyZmI4MzE4Njg1ZDc0YWNlMWExYzY2NWFkNjdhODNiMzgifX19\"}]},Name:\"5e49c811-ad15-2b7e-ad56-f4663a9164a2\"},display:{Lore:[0:\"§7The Baker visits the SkyBlock Hub\",1:\"§7every year during the §dNew Year Celebration\",2:\"§7to hand out §cNew Year Cakes§7.\"],Name:\"§9Baker (NPC)\"},ExtraAttributes:{id:\"BAKER_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Baker (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Baker (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Baker visits the SkyBlock Hub\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"every year during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"New Year Celebration\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to hand out \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"New Year Cakes\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"BAKER_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Baker visits the SkyBlock Hub",
-    "§7every year during the §dNew Year Celebration",
-    "§7to hand out §cNew Year Cakes§7."
+    "{\"text\":\"The Baker visits the SkyBlock Hub\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"every year during the \",\"color\":\"gray\"},{\"text\":\"New Year Celebration\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to hand out \",\"color\":\"gray\"},{\"text\":\"New Year Cakes\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}"
   ],
   "internalname": "BAKER_NPC",
   "clickcommand": "",
@@ -29,5 +29,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Baker",
     "https://wiki.hypixel.net/Baker"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

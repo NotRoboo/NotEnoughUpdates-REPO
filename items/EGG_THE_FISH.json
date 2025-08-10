@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:cooked_fish",
-  "displayname": "§f§f§cEgg the Fish",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§7This delicate, painted fish was\",1:\"§7found in the depths of the Main\",2:\"§7Lobby during the Easter season.\",3:\"\",4:\"§c§lSPECIAL\"],Name:\"§f§f§cEgg the Fish\"},ExtraAttributes:{id:\"EGG_THE_FISH\"},AttributeModifiers:[]}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Egg the Fish\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:cooked_fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Egg the Fish\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This delicate, painted fish was\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"found in the depths of the Main\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Lobby during the Easter season.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EGG_THE_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7This delicate, painted fish was",
-    "§7found in the depths of the Main",
-    "§7Lobby during the Easter season.",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"This delicate, painted fish was\",\"color\":\"gray\"}",
+    "{\"text\":\"found in the depths of the Main\",\"color\":\"gray\"}",
+    "{\"text\":\"Lobby during the Easter season.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "EGG_THE_FISH",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Egg_the_Fish",
     "https://wiki.hypixel.net/Egg_The_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

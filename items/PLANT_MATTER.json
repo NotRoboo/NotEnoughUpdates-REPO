@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:leaves",
-  "displayname": "§aPlant Matter",
-  "nbttag": "{ExtraAttributes:{id:\"PLANT_MATTER\"},HideFlags:254,ItemModel:\"minecraft:jungle_leaves\",display:{Lore:[0:\"§7Can be spread across a §aGarden §7plot\",1:\"§7with a §aSprayonator§7 or used in §2Pest\",2:\"§2Traps§7.\",3:\"\",4:\"§7Attracts: §6Locust§7, §6Slug\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aPlant Matter\"}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Plant Matter\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:leaves\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Plant Matter\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be spread across a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Garden \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"plot\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"with a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sprayonator\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" or used in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Pest\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Traps\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Attracts: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Locust\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Slug\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PLANT_MATTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Can be spread across a §aGarden §7plot",
-    "§7with a §aSprayonator§7 or used in §2Pest",
-    "§2Traps§7.",
-    "",
-    "§7Attracts: §6Locust§7, §6Slug",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be spread across a \",\"color\":\"gray\"},{\"text\":\"Garden \",\"color\":\"green\"},{\"text\":\"plot\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"with a \",\"color\":\"gray\"},{\"text\":\"Sprayonator\",\"color\":\"green\"},{\"text\":\" or used in \",\"color\":\"gray\"},{\"text\":\"Pest\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Traps\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Attracts: \",\"color\":\"gray\"},{\"text\":\"Locust\",\"color\":\"gold\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Slug\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "PLANT_MATTER",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Plant_Matter",
     "https://wiki.hypixel.net/Plant_Matter"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

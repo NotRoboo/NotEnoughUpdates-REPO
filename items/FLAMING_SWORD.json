@@ -1,23 +1,26 @@
 {
   "internalname": "FLAMING_SWORD",
   "itemid": "minecraft:iron_sword",
-  "displayname": "§aFlaming Sword",
+  "displayname": "{\"text\":\"Flaming Sword\",\"color\":\"green\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+20\",2:\"\",3:\"§7Ignites enemies for §a3s§7.\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§a§lUNCOMMON SWORD\"],Name:\"§aFlaming Sword\"},ExtraAttributes:{id:\"FLAMING_SWORD\"}}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Flaming Sword\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ignites enemies for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON SWORD\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLAMING_SWORD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§7Damage: §c+50",
-    "§7Strength: §c+20",
-    "",
-    "§7Ignites enemies for §a3s§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§a§lUNCOMMON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ignites enemies for \",\"color\":\"gray\"},{\"text\":\"3s\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON SWORD\",\"color\":\"green\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Flaming_Sword",
     "https://wiki.hypixel.net/Flaming_Sword"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

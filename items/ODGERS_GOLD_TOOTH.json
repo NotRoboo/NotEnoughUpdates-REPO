@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Odger's Gold Tooth",
-  "nbttag": "{ExtraAttributes:{id:\"ODGERS_GOLD_TOOTH\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0c45f4b2-6fca-3cd7-9b66-54653ec172aa\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0Mzg4NjI0Nzc1NiwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MjAyNDkwMTAyNDYzNmYxYzA3NGU2NTYyMjg1ZjRjYzlmZDNkYTI4ODVkNDAxMGNlZTUyY2MwNjk2ZDJmOTZhIgogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Sea Creature Chance: §c+1.5%\",1:\"§7Trophy Fish Chance: §a+3%\",2:\"\",3:\"§7§oA perfectly fine tooth,\",4:\"§7§obesides its weight...\",5:\"\",6:\"§4❣ §cRequires Expert Trophy\",7:\"§cFisher.\",8:\"§8§l* §8Soulbound §8§l*\",9:\"§9§lRARE ACCESSORY\"],Name:\"§9Odger's Gold Tooth\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Odger\u0027s Gold Tooth\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Odger\u0027s Gold Tooth\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1.5%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Trophy Fish Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A perfectly fine tooth,\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"besides its weight...\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Expert Trophy\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"Fisher.\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE ACCESSORY\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7Sea Creature Chance: §c+1.5%",
-    "§7Trophy Fish Chance: §a+3%",
-    "",
-    "§7§oA perfectly fine tooth,",
-    "§7§obesides its weight...",
-    "",
-    "§4❣ §cRequires Expert Trophy",
-    "§cFisher.",
-    "§8§l* §8Soulbound §8§l*",
-    "§9§lRARE ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+1.5%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Trophy Fish Chance: \",\"color\":\"gray\"},{\"text\":\"+3%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A perfectly fine tooth,\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"besides its weight...\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Expert Trophy\",\"color\":\"red\"}]}",
+    "{\"text\":\"Fisher.\",\"color\":\"red\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE ACCESSORY\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ODGERS_GOLD_TOOTH",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Odger%27s_Gold_Tooth",
     "https://wiki.hypixel.net/Odger%27s_Gold_Tooth"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

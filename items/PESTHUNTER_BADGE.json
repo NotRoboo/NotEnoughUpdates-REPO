@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aPesthunter Badge",
-  "nbttag": "{ExtraAttributes:{id:\"PESTHUNTER_BADGE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b7422a07-230c-31bd-acad-be57c3d507c4\",Properties:{textures:[0:{Name:\"textures\",Signature:\"UBXVpaV6UvR5sjmgPjS2WlwvmBv+R7RwQut5waHBCY0dXu8htKdltxSL9dthjiHFQktfoO18id3oarEWxfAJBGFf92tfTnR5OCl5yiOeFHfHzEsXs4kjvetF30LRSGTkyeJ1w0t8WG3r0rV6ULav7ClMQd26ku/Pq/BUc318eOtPzl4pmfFE/clS9/OTZKCcNo+3FApf2F1hb1JJhArrwtPqz/rXv92zmlTynVK9ZXc0k5KYHOy1kaX7Sz5MYzD1oAhvn+fLGh+lffG/vneOCfbetYs+MUZmh504b3VPttuwgtAihvkB9UqII6w0PgeIWPCtkQpbUHAiLH3ymr3lm6Xt+jEHoQrmJb3UxB3/B0VfzpahX++I5ZxeYERD7ZZIKdMwel4qF6WYE5nOh7dqjjFOExpGNqw97RVb1UO64zxrvbnSc8Q1ynLKT7w3dVr9yK2iq6coNHLQtsznWIXvVX/QUL7KHZPfHvdJisTZVj4g2U/BlhNY6tsQ5hGuSTvNOtysxc18akHuJ8riT760HVuzq9bFnCyAnUnKbwfLnzmw49cmKcZmNanU+Ms3uB3GsGHMJx38JPOH/giuE+uG0OG8t/13eewRKImZzYAI3cUbYKKNrSBol1xPZqQCFz0OF8rv7GOOoFgU7KbrKKbVAerV9OimNun8Ag5SIXMBAM0=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5OTU4NzAzMjUyOSwKICAicHJvZmlsZUlkIiA6ICJhYmRiNTFhYjE0Njk0Y2ZkYWU5ZjliNzFiZWJmYWI2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJZYW5ub3VfXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iNGYxZjBjZjNhZGI0YWRjNmI5OTZmZjljYjRlNmQ5ZDg5MTJlMGE1YWI4NTFjMzY2YzhiZmJkYWY4YjJlZjA0IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Bonus Pest Chance: §a+20%\",1:\"\",2:\"§7Can be used to enable or disable\",3:\"§7your §2ൠ Bonus Pest Chance §7stat.\",4:\"\",5:\"§7Enabled: §cOff\",6:\"§eRight-click to toggle!\",7:\"\",8:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aPesthunter Badge\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Pesthunter Badge\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pesthunter Badge\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bonus Pest Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Can be used to enable or disable\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"ൠ Bonus Pest Chance \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"stat.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Enabled: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Off\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"Right-click to toggle!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ACCESSORY\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PESTHUNTER_BADGE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5OTU4NzAzMjUyOSwKICAicHJvZmlsZUlkIiA6ICJhYmRiNTFhYjE0Njk0Y2ZkYWU5ZjliNzFiZWJmYWI2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJZYW5ub3VfXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iNGYxZjBjZjNhZGI0YWRjNmI5OTZmZjljYjRlNmQ5ZDg5MTJlMGE1YWI4NTFjMzY2YzhiZmJkYWY4YjJlZjA0IgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Bonus Pest Chance: §a+20%",
-    "",
-    "§7Can be used to enable or disable",
-    "§7your §2ൠ Bonus Pest Chance §7stat.",
-    "",
-    "§7Enabled: §cOff",
-    "§eRight-click to toggle!",
-    "",
-    "§a§lUNCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bonus Pest Chance: \",\"color\":\"gray\"},{\"text\":\"+20%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Can be used to enable or disable\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your \",\"color\":\"gray\"},{\"text\":\"ൠ Bonus Pest Chance \",\"color\":\"dark_green\"},{\"text\":\"stat.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Enabled: \",\"color\":\"gray\"},{\"text\":\"Off\",\"color\":\"red\"}]}",
+    "{\"text\":\"Right-click to toggle!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ACCESSORY\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "PESTHUNTER_BADGE",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pesthunter_Badge",
     "https://wiki.hypixel.net/Pesthunter_Badge"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

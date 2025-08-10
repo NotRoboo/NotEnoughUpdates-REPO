@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:fish",
-  "displayname": "§fPufferfish",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Brewing Ingredient\",1:\"§7§8Collection Item\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fPufferfish\"},ExtraAttributes:{id:\"RAW_FISH-3\"}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Pufferfish\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pufferfish\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RAW_FISH-3\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§8Brewing Ingredient",
-    "§7§8Collection Item",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "RAW_FISH-3",
   "clickcommand": "",
@@ -17,5 +17,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Pufferfish",
     "https://wiki.hypixel.net/Pufferfish"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

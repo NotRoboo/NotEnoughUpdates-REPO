@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3Carrot King (Sea Creature)",
-  "nbttag": "{SkullOwner:{Id:\"10a9980c-1ba4-42fc-9f92-96b65a1db4b9\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE3YmZmYzE5NzJhY2Q3ZjNiNGE4ZjQzYjViNmM3NTM0Njk1YjhmZDYyNjc3ZTAzMDZiMjgzMTU3NGIifX19\"}]}},display:{Lore:[0:\"§7The Carrot King is a Sea Creature that has a\",1:\"§7chance to be caught when the player reaches\",2:\"§7fishing level XV or above, and is using Carrot \",3:\"§7Bait. It has a low spawn rate, and roughly \",4:\"§710,000 EHP. \",5:\"\",6:\"§c❤ Health§8: §c10,000\",7:\"\",8:\"§a§lUNCOMMON\"],Name:\"§3Carrot King (Sea Creature)\"},ExtraAttributes:{id:\"CARROT_KING_SC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Carrot King (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Carrot King (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Carrot King is a Sea Creature that has a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"chance to be caught when the player reaches\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"fishing level XV or above, and is using Carrot \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Bait. It has a low spawn rate, and roughly \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"10,000 EHP. \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"10,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CARROT_KING_SC\"}}}",
+  "damage": 0,
   "lore": [
-    "§7The Carrot King is a Sea Creature that has a",
-    "§7chance to be caught when the player reaches",
-    "§7fishing level XV or above, and is using Carrot ",
-    "§7Bait. It has a low spawn rate, and roughly ",
-    "§710,000 EHP. ",
-    "",
-    "§c❤ Health§8: §c10,000",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"The Carrot King is a Sea Creature that has a\",\"color\":\"gray\"}",
+    "{\"text\":\"chance to be caught when the player reaches\",\"color\":\"gray\"}",
+    "{\"text\":\"fishing level XV or above, and is using Carrot \",\"color\":\"gray\"}",
+    "{\"text\":\"Bait. It has a low spawn rate, and roughly \",\"color\":\"gray\"}",
+    "{\"text\":\"10,000 EHP. \",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"10,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CARROT_KING_SC",
   "clickcommand": "viewrecipe",
@@ -74,5 +74,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:diamond_chestplate",
-  "displayname": "§aRosetta\u0027s Chestplate",
-  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+40\",2:\"\",3:\"§9Growth I\",4:\"§7Grants §a+15 §c❤ Health§7.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§a§lUNCOMMON CHESTPLATE\"],Name:\"§aRosetta\u0027s Chestplate\"},ExtraAttributes:{id:\"ROSETTA_CHESTPLATE\",enchantments:{growth:1}}}",
+  "displayname": "{\"text\":\"Rosetta\u0027s Chestplate\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rosetta\u0027s Chestplate\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Growth I\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON CHESTPLATE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ROSETTA_CHESTPLATE\",\"enchantments\":\"{growth:1\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+15",
-    "§7Defense: §a+40",
-    "",
-    "§9Growth I",
-    "§7Grants §a+15 §c❤ Health§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§a§lUNCOMMON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Growth I\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+15 \",\"color\":\"green\"},{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON CHESTPLATE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ROSETTA_CHESTPLATE",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Rosetta%27s_Chestplate",
     "https://wiki.hypixel.net/Rosetta%27s_Chestplate"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

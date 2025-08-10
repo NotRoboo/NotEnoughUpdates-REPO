@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Enchanted Mycelium Cube",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_MYCELIUM_CUBE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"361a2d8d-edbe-3b7b-92a5-86011562b752\",Properties:{textures:[0:{Name:\"textures\",Signature:\"YFDfnjSauZA9wrPhlx2toJb93wMSNaY/7fTxuntBmRvlMhuBgYhf7wC78Hu2Ar52SjHXKwJHsIeg2SmKPT3LCuWw5iAO1mLKEhY5hWKyi9ZgFOxbIVLdLeidKvbv2dKFfoLwmGSpt5yHBccpHujC8Wx9dVQEqKxLdrHg4ltDCTy4GId+T7zbGAXUHPCixN35x16KzVWH0sCQrfaNmCSXfEmXPVT4kD+ybFE/SUr0qNSTIvBbMCFKIdWZIEl1IqOJpqZyyZe/XzF26hQehHLeJYski+ohi8F00ttXJC0xzOqcHZnJjKuSkSrm+rEqTXFyLYogTWPD6UmrrTRzA5XxauuI1+90jXNHeBDfwrSYFT1EAUQGwqdYCWzEbMcAanpM/F92RrIPLonaVt5dzYH5ggFTzYv0RCqr18q74Hw/eafAcC43ziFqKx0hKf859CsWwAc3Ivzq7KXRzgBw/eqWXe7p7WlrFH5+QEEp5HQaE4arNf97PsGJ5G4v0BGsAYJL13500aHX3sSOnpZKsJCIGjp5EexLyYytwbwWWWms9jKzzyS1zfT2cN7N7yfNuqboeQHvdFFLbaAAZIvLYxx7Xpd6gzOwW4v5siQw1pjpVC7bblhg1tRbjU49msP3/OUYa+qMgCjTFGutZmD560u9lOaTfFjni+O5dRoccLqXhTw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0Mzg4NjMxNjgyMywKICAicHJvZmlsZUlkIiA6ICIwNTVhOTk2NTk2M2E0YjRmOGMwMjRmMTJmNDFkMmNmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVWb3hlbGxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlhMzUxZDUzMTZlNWI1MDhmYmJmNTk1ZTA3NzNhZWM5NjM5YTA4OTE4MDdmZWYwOWJjNTlhNTZkNDY0OTBjYjAiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE BLOCK\"],Name:\"§9Enchanted Mycelium Cube\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Enchanted Mycelium Cube\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Mycelium Cube\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE BLOCK\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_MYCELIUM_CUBE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0Mzg4NjMxNjgyMywKICAicHJvZmlsZUlkIiA6ICIwNTVhOTk2NTk2M2E0YjRmOGMwMjRmMTJmNDFkMmNmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVWb3hlbGxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlhMzUxZDUzMTZlNWI1MDhmYmJmNTk1ZTA3NzNhZWM5NjM5YTA4OTE4MDdmZWYwOWJjNTlhNTZkNDY0OTBjYjAiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§9§lRARE BLOCK"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE BLOCK\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_MYCELIUM_CUBE",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "ENCHANTED_MYCELIUM:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

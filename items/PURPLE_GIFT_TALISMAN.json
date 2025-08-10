@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Purple Gift Talisman",
-  "nbttag": "{ExtraAttributes:{id:\"PURPLE_GIFT_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"aa8c988e-2596-35f4-986b-d4aeef110a5b\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2OTUxNDE3ODQzMSwKICAicHJvZmlsZUlkIiA6ICJiMDU4MTFjYTdmNDk0YTM5OTZiNDU4ZjcwMmQ2MzJiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJVeWlsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U5ZTM5ZDkxYzA0YzMwY2MxZjUzMGZlZTc5OGVlZDI3OWRkZTYwZjk1YzJlMWQxNTVjMGZkZDM2MWQwOTYyZWQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Grants §a+20% §6Coin §7and\",1:\"§aEXP §7rewards from gifts.\",2:\"\",3:\"§5§lEPIC ACCESSORY\"],Name:\"§5Purple Gift Talisman\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Purple Gift Talisman\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Purple Gift Talisman\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Coin \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"EXP \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"rewards from gifts.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC ACCESSORY\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PURPLE_GIFT_TALISMAN\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY2OTUxNDE3ODQzMSwKICAicHJvZmlsZUlkIiA6ICJiMDU4MTFjYTdmNDk0YTM5OTZiNDU4ZjcwMmQ2MzJiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJVeWlsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U5ZTM5ZDkxYzA0YzMwY2MxZjUzMGZlZTc5OGVlZDI3OWRkZTYwZjk1YzJlMWQxNTVjMGZkZDM2MWQwOTYyZWQiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Grants §a+20% §6Coin §7and",
-    "§aEXP §7rewards from gifts.",
-    "",
-    "§5§lEPIC ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+20% \",\"color\":\"green\"},{\"text\":\"Coin \",\"color\":\"gold\"},{\"text\":\"and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"EXP \",\"color\":\"green\"},{\"text\":\"rewards from gifts.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC ACCESSORY\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PURPLE_GIFT_TALISMAN",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Purple_Gift_Talisman",
     "https://wiki.hypixel.net/Purple_Gift_Talisman"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

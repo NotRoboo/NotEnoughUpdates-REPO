@@ -1,20 +1,23 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aBurning IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:12b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§6Burning IV §f(3:00)\",2:\"§7Increases the duration of fire\",3:\"§7damage that you inflict on enemies by\",4:\"§7§a20%§7.\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aBurning IV Potion\"},ExtraAttributes:{potion_level:4,potion:\"burning\",effects:[0:{level:4,effect:\"burning\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_BURNING;4\"}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Burning IV Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Burning IV Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Burning IV \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"Increases the duration of fire\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"damage that you inflict on enemies by\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"20%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":4,\"potion\":\"burning\",\"effects\":\"[0:{level:4\",\"effect\":\"burning\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§6Burning IV §f(3:00)",
-    "§7Increases the duration of fire",
-    "§7damage that you inflict on enemies by",
-    "§7§a20%§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Burning IV \",\"color\":\"gold\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"Increases the duration of fire\",\"color\":\"gray\"}",
+    "{\"text\":\"damage that you inflict on enemies by\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"20%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_BURNING;4",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

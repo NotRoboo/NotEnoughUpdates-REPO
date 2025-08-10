@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§9Polarvoid Book",
-  "nbttag": "{ExtraAttributes:{id:\"POLARVOID_BOOK\"},HideFlags:254,ItemModel:\"minecraft:book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7When applied to a drill, grants §6+10⸕\",3:\"§6Mining Speed§7.\",4:\"\",5:\"§7This can be applied to an item up to\",6:\"§a5 §7times!\",7:\"\",8:\"§7If at least 1 book is applied, grants\",9:\"§6+5☘ Mining Fortune§7.\",10:\"\",11:\"§5§kX§5 Rift-Transferable §r§kX\",12:\"§9§lRARE\"],Name:\"§9Polarvoid Book\"}}",
+  "displayname": "{\"text\":\"Polarvoid Book\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Polarvoid Book\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"When applied to a drill, grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10⸕\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This can be applied to an item up to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"times!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"If at least 1 book is applied, grants\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+5☘ Mining Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"POLARVOID_BOOK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7When applied to a drill, grants §6+10⸕",
-    "§6Mining Speed§7.",
-    "",
-    "§7This can be applied to an item up to",
-    "§a5 §7times!",
-    "",
-    "§7If at least 1 book is applied, grants",
-    "§6+5☘ Mining Fortune§7.",
-    "",
-    "§5§kX§5 Rift-Transferable §r§kX",
-    "§9§lRARE"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"When applied to a drill, grants \",\"color\":\"gray\"},{\"text\":\"+10⸕\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This can be applied to an item up to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"5 \",\"color\":\"green\"},{\"text\":\"times!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"If at least 1 book is applied, grants\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+5☘ Mining Fortune\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"obfuscated\":true}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "POLARVOID_BOOK",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C1": "",
     "C2": "FROSTY_CRUX:1",
     "C3": "METAL_HEART:20"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

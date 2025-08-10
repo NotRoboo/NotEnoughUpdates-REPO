@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§aStretching Sticks",
-  "nbttag": "{ExtraAttributes:{id:\"STRETCHING_STICKS\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§7§oThese slender sticks have a natural\",1:\"§7§oflexibility, making them ideal for\",2:\"§7§ocrafting and building.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aStretching Sticks\"}}",
+  "displayname": "{\"text\":\"Stretching Sticks\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Stretching Sticks\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"These slender sticks have a natural\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"flexibility, making them ideal for\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"crafting and building.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STRETCHING_STICKS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§oThese slender sticks have a natural",
-    "§7§oflexibility, making them ideal for",
-    "§7§ocrafting and building.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"These slender sticks have a natural\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"flexibility, making them ideal for\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"crafting and building.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "STRETCHING_STICKS",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Stretching_Sticks"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

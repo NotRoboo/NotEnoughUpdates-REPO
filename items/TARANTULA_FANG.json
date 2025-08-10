@@ -1,25 +1,25 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§5Tarantula Fang",
-  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_FANG\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+130\",1:\"§7Strength: §c+40\",2:\"§7Crit Damage: §c+30%\",3:\" §8[⚔]\",4:\"\",5:\"§7Deal §c+200% ❁ Damage§7 to and gain\",6:\"§3+45☯ Combat Wisdom §7against Spiders.\",7:\"\",8:\"§6Ability: Webcutter \",9:\"§7This weapon can be used to clear\",10:\"§7webs left by the §4Tarantula\",11:\"§4Broodfather§7!\",12:\"\",13:\"§8This item can be reforged!\",14:\"§7§4☠ §cRequires §5Spider Slayer 6§c.\",15:\"§5§lEPIC SWORD\"],Name:\"§5Tarantula Fang\"}}",
+  "displayname": "{\"text\":\"Tarantula Fang\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tarantula Fang\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+130\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[⚔]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+200% ❁ Damage\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" to and gain\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+45☯ Combat Wisdom \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"against Spiders.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Webcutter \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"This weapon can be used to clear\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"webs left by the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Tarantula\\\",\\\"color\\\":\\\"dark_red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Broodfather\\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Spider Slayer 6\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TARANTULA_FANG\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+130",
-    "§7Strength: §c+40",
-    "§7Crit Damage: §c+30%",
-    " §8[⚔]",
-    "",
-    "§7Deal §c+200% ❁ Damage§7 to and gain",
-    "§3+45☯ Combat Wisdom §7against Spiders.",
-    "",
-    "§6Ability: Webcutter ",
-    "§7This weapon can be used to clear",
-    "§7webs left by the §4Tarantula",
-    "§4Broodfather§7!",
-    "",
-    "§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Spider Slayer 6§c.",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+130\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+30%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[⚔]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"+200% ❁ Damage\",\"color\":\"red\"},{\"text\":\" to and gain\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+45☯ Combat Wisdom \",\"color\":\"dark_aqua\"},{\"text\":\"against Spiders.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Webcutter \",\"color\":\"gold\"}",
+    "{\"text\":\"This weapon can be used to clear\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"webs left by the \",\"color\":\"gray\"},{\"text\":\"Tarantula\",\"color\":\"dark_red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Broodfather\",\"color\":\"dark_red\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Spider Slayer 6\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "TARANTULA_FANG",
   "slayer_req": "SPIDER_6",
@@ -46,5 +46,8 @@
       "count": 1,
       "overrideOutputId": "TARANTULA_FANG"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

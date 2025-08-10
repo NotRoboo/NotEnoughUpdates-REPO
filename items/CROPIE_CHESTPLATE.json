@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§9Cropie Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+165\",1:\"§7Defense: §a+30\",2:\"§7Speed: §a+4\",3:\"§7Farming Fortune: §a+25\",4:\" §8[§8☘§8]\",5:\"\",6:\"§8Tiered Bonus: Squashbuckle (0/4)\",7:\"§7§7Farming Pumpkins, Melons, and Cocoa\",8:\"§7Beans have a §a0.01% §7chance of\",9:\"§7dropping a Squash. §7Grants §60☘\",10:\"§6Farming Fortune§7.\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§7§4❣ §cRequires §aFarming Skill 30§c.\",14:\"§9§lRARE CHESTPLATE\"],color:8005888,Name:\"§9Cropie Chestplate\"},ExtraAttributes:{id:\"CROPIE_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Cropie Chestplate\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cropie Chestplate\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+165\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Farming Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"☘\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Squashbuckle (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Farming Pumpkins, Melons, and Cocoa\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Beans have a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0.01% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance of\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"dropping a Squash. \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0☘\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Farming Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 30\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE CHESTPLATE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CROPIE_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+165",
-    "§7Defense: §a+30",
-    "§7Speed: §a+4",
-    "§7Farming Fortune: §a+25",
-    " §8[§8☘§8]",
-    "",
-    "§8Tiered Bonus: Squashbuckle (0/4)",
-    "§7§7Farming Pumpkins, Melons, and Cocoa",
-    "§7Beans have a §a0.01% §7chance of",
-    "§7dropping a Squash. §7Grants §60☘",
-    "§6Farming Fortune§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 30§c.",
-    "§9§lRARE CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+165\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+4\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Farming Fortune: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"☘\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Squashbuckle (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Farming Pumpkins, Melons, and Cocoa\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Beans have a \",\"color\":\"gray\"},{\"text\":\"0.01% \",\"color\":\"green\"},{\"text\":\"chance of\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"dropping a Squash. \",\"color\":\"gray\"},{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"0☘\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Farming Fortune\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 30\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE CHESTPLATE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "CROPIE:10",
@@ -39,5 +39,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cropie_Chestplate",
     "https://wiki.hypixel.net/Cropie_Chestplate"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

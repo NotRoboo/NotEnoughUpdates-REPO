@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dCyberpunk Wither Goggles Skin",
-  "nbttag": "{ExtraAttributes:{id:\"WITHER_GOGGLES_CYBERPUNK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"effb0cac-a237-3442-83fc-14cb9e3b9b2c\",Properties:{textures:[0:{Name:\"textures\",Signature:\"lSxMXX6ccrBc0Jt2FCSAmFtZcxqBjY7Z+kLAqmMvJGnp4hWf2z0XrUTeWsx2NwU4KI4ZSvwmd15ib5MdmNH5+HAYLtY92131YBQICIDBZSmZoUZuJtvOzJLbbe0EXXluzTQdFspPXn2nisCvvRAcUbKLoJiXVBvTZlTuT/86/gVOP55kICzFN7o+xyXU2DdXrxMNDXNVe7rMkMuxCuwENVRdFUof9Sce5NL7DonwZInlM12kBFUlVleeaPJoX4GhEqEUY1tnNOKGs00QjbG08XADFo16NmvXjwqzfpVOf3OVZHncshvZd/adZYliIUrzind4uixJhNT6/WGyQBPrJgchzMO/KYizNwzKa+Fppq5WoDkyvXpb1cARGt+fTrg/AtQoIEjMok1GhimS0XAcqMHJOnSllUGSS1cb4bGHyYCYnwHZqcTOpsHQjf4eVPEaMKEr8fM4jUCkGjQD1bZtaqVw6TZP6lVpCfaH9kwkBLl6jrt78byZgLInEUxg0VioJy/9+vpEM+EwUJqSLY04vBS+/2rGLM6gEVSEF/z7NBl8z0vsCSDE2OSS+TquDwNTuwryvEdNaThuD59eP26yUwaY6dKcPaOx5qJ+++rJe44xRzYNT26rL1D2bV1b/XnkH11FUmGH1aRCyVCb+drG/YbxvQtW9t6Iec4vNKG4HFU=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MzAxMzQ5Mjg2MiwKICAicHJvZmlsZUlkIiA6ICJkMTJiOTk3ZWI2YTQ0ODQ5ODJmNDE1ZTI1NzFlNmY4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd2lybGJlbGwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQwNDY1Nzg2NTBmMGI0NGU2ZGM1NzA1NTVkNjExNjNiZTAzMjAxYjcxN2JkOWY3NTgyNDRmODNkOTQxZmZkMiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7This skin can be applied to §5Wither\",7:\"§5Goggles§7.\",8:\"\",9:\"§aThis skin is animated!\",10:\"\",11:\"§d§lMYTHIC COSMETIC\"],Name:\"§dCyberpunk Wither Goggles Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Cyberpunk Wither Goggles Skin\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cyberpunk Wither Goggles Skin\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Item skins give your gear a fresh\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"new look! Apply them just like an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enchant book using the anvil.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This skin can be applied to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Wither\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Goggles\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin is animated!\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC COSMETIC\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WITHER_GOGGLES_CYBERPUNK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY3MzAxMzQ5Mjg2MiwKICAicHJvZmlsZUlkIiA6ICJkMTJiOTk3ZWI2YTQ0ODQ5ODJmNDE1ZTI1NzFlNmY4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd2lybGJlbGwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQwNDY1Nzg2NTBmMGI0NGU2ZGM1NzA1NTVkNjExNjNiZTAzMjAxYjcxN2JkOWY3NTgyNDRmODNkOTQxZmZkMiIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Item skins give your gear a fresh",
-    "§7new look! Apply them just like an",
-    "§7enchant book using the anvil.",
-    "",
-    "§7This skin can be applied to §5Wither",
-    "§5Goggles§7.",
-    "",
-    "§aThis skin is animated!",
-    "",
-    "§d§lMYTHIC COSMETIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Item skins give your gear a fresh\",\"color\":\"gray\"}",
+    "{\"text\":\"new look! Apply them just like an\",\"color\":\"gray\"}",
+    "{\"text\":\"enchant book using the anvil.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This skin can be applied to \",\"color\":\"gray\"},{\"text\":\"Wither\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Goggles\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin is animated!\",\"color\":\"green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC COSMETIC\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "WITHER_GOGGLES_CYBERPUNK",
   "clickcommand": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cyberpunk_Wither_Goggles_Skin",
     "https://wiki.hypixel.net/Cyberpunk_Wither_Goggles_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

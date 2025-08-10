@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fKiller Minion Skin",
-  "nbttag": "{ExtraAttributes:{id:\"KILLER_PERSONALITY\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"cd5e5d73-e2f2-358f-bd40-5c950e8b40fe\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjE1Njk5ODQ2NDQzNTAsInByb2ZpbGVJZCI6IjQ0MDNkYzU0NzViYzRiMTVhNTQ4Y2ZkYTZiMGViN2Q5IiwicHJvZmlsZU5hbWUiOiJHR0dhbWVyc1lUIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MjBjMzA2Y2ZlNGM3MmY5ZDg3MGNlYzQ3Zjk1YWM0ZjUxMDNmMjBjOTY2ZDkyMDRhNjc2MDIyYjQ2MDI4NmI3In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7This Minion skin changes\",1:\"§7your minion's appearance to\",2:\"§7a §eKiller§7.\",3:\"\",4:\"§7You can place this item\",5:\"§7in any minion of your\",6:\"§7choice!\",7:\"\",8:\"§f§lCOMMON COSMETIC\"],Name:\"§fKiller Minion Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Killer Minion Skin\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Killer Minion Skin\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This Minion skin changes\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"your minion\u0027s appearance to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Killer\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You can place this item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in any minion of your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"choice!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON COSMETIC\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"KILLER_PERSONALITY\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1Njk5ODQ2NDQzNTAsInByb2ZpbGVJZCI6IjQ0MDNkYzU0NzViYzRiMTVhNTQ4Y2ZkYTZiMGViN2Q5IiwicHJvZmlsZU5hbWUiOiJHR0dhbWVyc1lUIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MjBjMzA2Y2ZlNGM3MmY5ZDg3MGNlYzQ3Zjk1YWM0ZjUxMDNmMjBjOTY2ZDkyMDRhNjc2MDIyYjQ2MDI4NmI3In19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7This Minion skin changes",
-    "§7your minion's appearance to",
-    "§7a §eKiller§7.",
-    "",
-    "§7You can place this item",
-    "§7in any minion of your",
-    "§7choice!",
-    "",
-    "§f§lCOMMON COSMETIC"
+    "{\"text\":\"This Minion skin changes\",\"color\":\"gray\"}",
+    "{\"text\":\"your minion\u0027s appearance to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a \",\"color\":\"gray\"},{\"text\":\"Killer\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You can place this item\",\"color\":\"gray\"}",
+    "{\"text\":\"in any minion of your\",\"color\":\"gray\"}",
+    "{\"text\":\"choice!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON COSMETIC\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "KILLER_PERSONALITY",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Minion_Skin",
     "https://wiki.hypixel.net/Minion_Skins"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

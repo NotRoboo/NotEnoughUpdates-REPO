@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§fLeaflet Pants",
-  "nbttag": "{ExtraAttributes:{id:\"LEAFLET_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+20\",1:\"§7Foraging Fortune: §a+3\",2:\"\",3:\"§8This item can be reforged!\",4:\"§f§lCOMMON LEGGINGS\"],Name:\"§fLeaflet Pants\"}}",
+  "displayname": "{\"text\":\"Leaflet Pants\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Leaflet Pants\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Foraging Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON LEGGINGS\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LEAFLET_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+20",
-    "§7Foraging Fortune: §a+3",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Foraging Fortune: \",\"color\":\"gray\"},{\"text\":\"+3\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON LEGGINGS\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "LEAFLET_LEGGINGS",
   "clickcommand": "",
@@ -34,5 +34,8 @@
       "count": 1,
       "overrideOutputId": "LEAFLET_LEGGINGS"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

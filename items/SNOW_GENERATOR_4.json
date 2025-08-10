@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Snow Minion IV",
-  "nbttag": "{ExtraAttributes:{id:\"SNOW_GENERATOR_4\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"882bfd9b-9ecc-3256-aa6f-1cdb84f267aa\",Properties:{textures:[0:{Name:\"textures\",Signature:\"D+bKQhQ/m80edD1MBW5IQ77bCFAzpHwaKRmGQHQcJeQGe+HlEImIT5oCPfLkOerkiAdDBlfKm1fENaQ/uxRnfVk5y48xY/o6t18x6CZ80fsCZ6DcsYz4U8zbaBTqIIRcQznSMmoil7Ae4Wuj56HhoejJtXviDvcfZ1uNr6LetNDpVhTjlnV0Xsu8hgPyvEVCQhMTEUauZ9AW9XvcnQkKaf/VmfStJvFbxj4pv9NOjwKzH9pNpZbPNP3k/ATVPV5VIG+jkh93jlrg+Wr3REnz9XNMk1eTcxs0jHH5CF3JdWzwQiYvvsAqsnLFFrtOUHXkwUnBeF1JncdRp1HV6ZZRh4gkGsbTkpr4HrcLNvJ9VdFmnyRkdnsDF6+J9z2BvxZpLYj5bROt/ecwqCrCH5gKWN+bvNdE7MDrGZ6SzvpXlvDbBTpDfABAq1a9CSZvsJLYu0F7BOCvAmHfUKoCNBSzjkxJKIECqEDgUDlTrXxCMmNVzlVbo2kd0fgmJ0efV5cKMGJvbXY4oerbFNEJ6z3XlI6M4tL3zPkS4p/HOBYxY5hC+4QGKDTpxJfiKgzKbp7HkN7c494x67t+RjcuhW+q2JmQWq8jxGQCPT0fOWyAGiMIUpyFmk2s0RhVjzoXIzX0SIwtb20n9yYHi+cR2swHHBVXDCNiLOPhqBbP6Bp8fyw=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NzY1MTMzMzExMjksInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0NDg1ZDkwYTEyOWZmNjcyZDkyODdhZjdiZjQ3ZjhlY2U5NGFiZWI0OTZiZGEzODM2NjMzMDg5M2FhNjk0NjQifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and shovelling snow!\",2:\"§7Requires an open area to place\",3:\"§7snow. Minions also work when you are\",4:\"§7offline!\",5:\"\",6:\"§7Time Between Actions: §a12s\",7:\"§7Max Storage: §e384\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Snow Minion IV\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Snow Minion IV\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Snow Minion IV\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and shovelling snow!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Requires an open area to place\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"snow. Minions also work when you are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"12s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"384\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SNOW_GENERATOR_4\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NzY1MTMzMzExMjksInByb2ZpbGVJZCI6ImI3NDc5YmFlMjljNDRiMjNiYTU2MjgzMzc4ZjBlM2M2IiwicHJvZmlsZU5hbWUiOiJTeWxlZXgiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0NDg1ZDkwYTEyOWZmNjcyZDkyODdhZjdiZjQ3ZjhlY2U5NGFiZWI0OTZiZGEzODM2NjMzMDg5M2FhNjk0NjQifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and shovelling snow!",
-    "§7Requires an open area to place",
-    "§7snow. Minions also work when you are",
-    "§7offline!",
-    "",
-    "§7Time Between Actions: §a12s",
-    "§7Max Storage: §e384",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and shovelling snow!\",\"color\":\"gray\"}",
+    "{\"text\":\"Requires an open area to place\",\"color\":\"gray\"}",
+    "{\"text\":\"snow. Minions also work when you are\",\"color\":\"gray\"}",
+    "{\"text\":\"offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"12s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"384\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SNOW_GENERATOR_4",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C2": "SNOW_BLOCK:16",
     "C3": "SNOW_BLOCK:16"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

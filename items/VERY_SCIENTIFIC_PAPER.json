@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:filled_map",
-  "displayname": "§9Very Scientific Paper",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Authored, peer-reviewed and\",1:\"§7published by Kay.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Very Scientific Paper\"},ExtraAttributes:{id:\"VERY_SCIENTIFIC_PAPER\"}}",
-  "damage": 30879,
+  "displayname": "{\"text\":\"Very Scientific Paper\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:filled_map\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Very Scientific Paper\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Authored, peer-reviewed and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"published by Kay.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"VERY_SCIENTIFIC_PAPER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Authored, peer-reviewed and",
-    "§7published by Kay.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Authored, peer-reviewed and\",\"color\":\"gray\"}",
+    "{\"text\":\"published by Kay.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "VERY_SCIENTIFIC_PAPER",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Very_Scientific_Paper",
     "https://wiki.hypixel.net/Very_Scientific_Paper"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

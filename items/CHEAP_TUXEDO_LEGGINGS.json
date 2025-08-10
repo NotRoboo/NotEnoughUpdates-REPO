@@ -1,27 +1,30 @@
 {
   "internalname": "CHEAP_TUXEDO_LEGGINGS",
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§5Cheap Tuxedo Pants",
+  "displayname": "{\"text\":\"Cheap Tuxedo Pants\",\"color\":\"dark_purple\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Crit Damage: §c+25%\",1:\"§7Intelligence: §a+25\",2:\"\",3:\"§6Full Set Bonus: Dashing\",4:\"§7Max health set to §c75❤§7.\",5:\"§7Deal §c+50% §7damage!\",6:\"§8Very stylish.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§5§lEPIC LEGGINGS\"],color:13092807,Name:\"§5Cheap Tuxedo Pants\"},ExtraAttributes:{color:\"199:199:199\",id:\"CHEAP_TUXEDO_LEGGINGS\"}}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cheap Tuxedo Pants\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Dashing\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max health set to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"75❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Very stylish.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC LEGGINGS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"199:199:199\",\"id\":\"CHEAP_TUXEDO_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§7Crit Damage: §c+25%",
-    "§7Intelligence: §a+25",
-    "",
-    "§6Full Set Bonus: Dashing",
-    "§7Max health set to §c75❤§7.",
-    "§7Deal §c+50% §7damage!",
-    "§8Very stylish.",
-    "",
-    "§7§8This item can be reforged!",
-    "§5§lEPIC LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+25%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Dashing\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max health set to \",\"color\":\"gray\"},{\"text\":\"75❤\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"+50% \",\"color\":\"red\"},{\"text\":\"damage!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Very stylish.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC LEGGINGS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cheap_Tuxedo_Pants",
     "https://wiki.hypixel.net/Cheap_Tuxedo_Pants"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

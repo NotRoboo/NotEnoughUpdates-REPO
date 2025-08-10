@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5§cSecret Gift for Juliette",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"78af126b-cf90-3d13-b800-d254e9c32c5b\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmRhYzlhNTE4MTNhYmNiNjY2ZWUyYzJjYTg0Y2VmY2ZiMjFlNThiN2IwMWFlMGVhN2U5OWQzNWYzMjNhIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Quest Item\",1:\" \",2:\"§7Bring it to §eJuliette §7in §aThe Park§7.\",3:\" \",4:\"§7§7§oA well-wrapped present\",5:\"§7§othat\u0027s hot to the touch.\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§5§lEPIC\"],Name:\"§5§cSecret Gift for Juliette\"},ExtraAttributes:{id:\"WRAPPED_GIFT_FOR_JULIETTE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Secret Gift for Juliette\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Secret Gift for Juliette\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Quest Item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring it to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Juliette \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Park\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"A well-wrapped present\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"that\u0027s hot to the touch.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WRAPPED_GIFT_FOR_JULIETTE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Quest Item",
-    " ",
-    "§7Bring it to §eJuliette §7in §aThe Park§7.",
-    " ",
-    "§7§7§oA well-wrapped present",
-    "§7§othat\u0027s hot to the touch.",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§5§lEPIC"
+    "{\"text\":\"Quest Item\",\"color\":\"gray\"}",
+    "{\"text\":\" \"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring it to \",\"color\":\"gray\"},{\"text\":\"Juliette \",\"color\":\"yellow\"},{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"The Park\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\" \"}",
+    "{\"text\":\"A well-wrapped present\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"that\u0027s hot to the touch.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "WRAPPED_GIFT_FOR_JULIETTE",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Secret_Gift_for_Juliette",
     "https://wiki.hypixel.net/Secret_Gift_For_Juliette"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

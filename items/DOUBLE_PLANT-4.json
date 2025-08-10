@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:double_plant",
-  "displayname": "§fRose Bush",
-  "nbttag": "{ExtraAttributes:{id:\"DOUBLE_PLANT-4\"},HideFlags:254,ItemModel:\"minecraft:rose_bush\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRose Bush\"}}",
-  "damage": 4,
+  "displayname": "{\"text\":\"Rose Bush\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:double_plant\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rose Bush\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DOUBLE_PLANT-4\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DOUBLE_PLANT-4",
   "clickcommand": "",
@@ -12,5 +12,8 @@
   "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
   "infoType": "",
   "info": [],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

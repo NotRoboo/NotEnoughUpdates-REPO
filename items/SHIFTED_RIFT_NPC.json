@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dShifted (Rift NPC)",
-  "nbttag": "{SkullOwner:{Id:\"0c5ec038-5c50-4902-a696-b633522d8fbd\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NzUyOTg4MzI3NzcsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMDFiMjEzNTc0ZjYzMDYxNmRkMDBiN2EzYmM2MTc3NGZkN2Q0NjcxMzY0NzZiZDdiN2E5OWVjMjVlZTI3NTcifX19\"}]},Name:\"§0c5ec038-5c50-4902-a696-b633522d8fbd\"},display:{Lore:[0:\"\"],Name:\"§dShifted (Rift NPC)\"},ExtraAttributes:{id:\"SHIFTED_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Shifted (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shifted (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"SHIFTED_RIFT_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "SHIFTED_RIFT_NPC",
   "clickcommand": "",
@@ -43,5 +43,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Shifted",
     "https://wiki.hypixel.net/Shifted"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:sign",
-  "displayname": "§fSign",
-  "nbttag": "{ExtraAttributes:{id:\"SIGN\"},HideFlags:254,ItemModel:\"minecraft:oak_sign\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fSign\"}}",
+  "displayname": "{\"text\":\"Sign\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:sign\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sign\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SIGN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SIGN",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "STICK:1",
     "C3": "",
     "count": 3
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

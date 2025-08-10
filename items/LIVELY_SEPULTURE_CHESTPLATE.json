@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:chainmail_chestplate",
-  "displayname": "§6Lively Sepulture Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"LIVELY_SEPULTURE_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:chainmail_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Rift Time: §a+65s\",1:\"§7Hearts: §a+1\",2:\"§7Intelligence: §a+30\",3:\"§7Mana Regen: §a+25%\",4:\"\",5:\"§4☠ §cRequires §5Vampire Slayer 5§c.\",6:\"§6§lLEGENDARY CHESTPLATE\"],Name:\"§6Lively Sepulture Chestplate\"},ench:[]}",
+  "displayname": "{\"text\":\"Lively Sepulture Chestplate\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:chainmail_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lively Sepulture Chestplate\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+65s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hearts: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Regen: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Vampire Slayer 5\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY CHESTPLATE\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LIVELY_SEPULTURE_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Rift Time: §a+65s",
-    "§7Hearts: §a+1",
-    "§7Intelligence: §a+30",
-    "§7Mana Regen: §a+25%",
-    "",
-    "§4☠ §cRequires §5Vampire Slayer 5§c.",
-    "§6§lLEGENDARY CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+65s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hearts: \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Regen: \",\"color\":\"gray\"},{\"text\":\"+25%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Vampire Slayer 5\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY CHESTPLATE\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "LIVELY_SEPULTURE_CHESTPLATE",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "WILTED_BERBERIS_BUNCH:6",
     "C2": "BLOODBADGE:12",
     "C3": "WILTED_BERBERIS_BUNCH:6"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

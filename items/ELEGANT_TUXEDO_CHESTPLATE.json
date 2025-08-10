@@ -1,26 +1,29 @@
 {
   "internalname": "ELEGANT_TUXEDO_CHESTPLATE",
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§6Elegant Tuxedo Jacket",
+  "displayname": "{\"text\":\"Elegant Tuxedo Jacket\",\"color\":\"gold\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Crit Damage: §c+100%\",1:\"§7Intelligence: §a+300\",2:\"\",3:\"§6Full Set Bonus: Dashing\",4:\"§7Max health set to §c250❤§7.\",5:\"§7Deal §c+150% §7damage!\",6:\"§8Very stylish.\",7:\"\",8:\"§6§lLEGENDARY CHESTPLATE\"],color:1644825,Name:\"§6Elegant Tuxedo Jacket\"},ExtraAttributes:{color:\"25:25:25\",modifier:\"strong\",id:\"ELEGANT_TUXEDO_CHESTPLATE\"}}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Elegant Tuxedo Jacket\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+300\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Dashing\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max health set to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"250❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Very stylish.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY CHESTPLATE\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"25:25:25\",\"modifier\":\"strong\",\"id\":\"ELEGANT_TUXEDO_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§7Crit Damage: §c+100%",
-    "§7Intelligence: §a+300",
-    "",
-    "§6Full Set Bonus: Dashing",
-    "§7Max health set to §c250❤§7.",
-    "§7Deal §c+150% §7damage!",
-    "§8Very stylish.",
-    "",
-    "§6§lLEGENDARY CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+100%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+300\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Dashing\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max health set to \",\"color\":\"gray\"},{\"text\":\"250❤\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"+150% \",\"color\":\"red\"},{\"text\":\"damage!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Very stylish.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY CHESTPLATE\",\"color\":\"gold\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Elegant_Tuxedo_Jacket",
     "https://wiki.hypixel.net/Elegant_Tuxedo_Jacket"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

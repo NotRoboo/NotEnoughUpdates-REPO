@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:trapdoor",
-  "displayname": "§9Berberis Fuel Injector",
-  "nbttag": "{ExtraAttributes:{id:\"BERBERIS_FUEL_INJECTOR\"},HideFlags:254,ItemModel:\"minecraft:oak_trapdoor\",display:{Lore:[0:\"§7This item can be used as a\",1:\"§7minion upgrade, only for\",2:\"§efarming §7minions.\",3:\"\",4:\"§7Increases the speed of your\",5:\"§7minion by §a15%§7.\",6:\"\",7:\"§7Your minion will occasionally\",8:\"§7generate §aLush Berberis\",9:\"§7items.\",10:\"\",11:\"§5§kX§5 Rift-Transferable §5§kX\",12:\"§9§lRARE\"],Name:\"§9Berberis Fuel Injector\"},ench:[]}",
+  "displayname": "{\"text\":\"Berberis Fuel Injector\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:trapdoor\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Berberis Fuel Injector\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be used as a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"minion upgrade, only for\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"farming \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"minions.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Increases the speed of your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"minion by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"15%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Your minion will occasionally\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"generate \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Lush Berberis\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"items.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BERBERIS_FUEL_INJECTOR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7This item can be used as a",
-    "§7minion upgrade, only for",
-    "§efarming §7minions.",
-    "",
-    "§7Increases the speed of your",
-    "§7minion by §a15%§7.",
-    "",
-    "§7Your minion will occasionally",
-    "§7generate §aLush Berberis",
-    "§7items.",
-    "",
-    "§5§kX§5 Rift-Transferable §5§kX",
-    "§9§lRARE"
+    "{\"text\":\"This item can be used as a\",\"color\":\"gray\"}",
+    "{\"text\":\"minion upgrade, only for\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"farming \",\"color\":\"yellow\"},{\"text\":\"minions.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Increases the speed of your\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"minion by \",\"color\":\"gray\"},{\"text\":\"15%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Your minion will occasionally\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"generate \",\"color\":\"gray\"},{\"text\":\"Lush Berberis\",\"color\":\"green\"}]}",
+    "{\"text\":\"items.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BERBERIS_FUEL_INJECTOR",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C1": "WILTED_BERBERIS:48",
     "C2": "WILTED_BERBERIS:48",
     "C3": "WILTED_BERBERIS:48"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5Slime Bow",
-  "nbttag": "{ExtraAttributes:{id:\"SLIME_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Crit Damage: §c+50%\",2:\"\",3:\"§7Will consume §aSlime Balls§7 in\",4:\"§7your inventory or Quiver to deal\",5:\"§a5x§7 damage to §9Magma Cubes\",6:\"§9and Slimes§7.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC BOW\"],Name:\"§5Slime Bow\"}}",
+  "displayname": "{\"text\":\"Slime Bow\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Slime Bow\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Will consume \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Slime Balls\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" in\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"your inventory or Quiver to deal\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"5x\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" damage to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Magma Cubes\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and Slimes\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC BOW\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SLIME_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+100",
-    "§7Crit Damage: §c+50%",
-    "",
-    "§7Will consume §aSlime Balls§7 in",
-    "§7your inventory or Quiver to deal",
-    "§a5x§7 damage to §9Magma Cubes",
-    "§9and Slimes§7.",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+50%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Will consume \",\"color\":\"gray\"},{\"text\":\"Slime Balls\",\"color\":\"green\"},{\"text\":\" in\",\"color\":\"gray\"}]}",
+    "{\"text\":\"your inventory or Quiver to deal\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"5x\",\"color\":\"green\"},{\"text\":\" damage to \",\"color\":\"gray\"},{\"text\":\"Magma Cubes\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and Slimes\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC BOW\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SLIME_BOW",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "",
     "C2": "ENCHANTED_SLIME_BLOCK:5",
     "C3": "ENCHANTED_STRING:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

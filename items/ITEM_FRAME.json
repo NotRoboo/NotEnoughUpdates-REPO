@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:item_frame",
-  "displayname": "§fItem Frame",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fItem Frame\"},ExtraAttributes:{id:\"ITEM_FRAME\"}}",
+  "displayname": "{\"text\":\"Item Frame\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:item_frame\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Item Frame\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ITEM_FRAME\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ITEM_FRAME",
   "modver": "1.3-REL",
@@ -21,5 +21,8 @@
     "C1": "STICK:1",
     "C2": "STICK:1",
     "C3": "STICK:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

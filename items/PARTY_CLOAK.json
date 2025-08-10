@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aParty Cloak",
-  "nbttag": "{ExtraAttributes:{id:\"PARTY_CLOAK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e3011416-5011-3820-aa87-43905d3e1a9e\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0MTEyOTE3NCwKICAicHJvZmlsZUlkIiA6ICJiOThjNGFkOGM2MjY0NGYxOWUzYzhhZTE0ZThhMDI1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5cnRlZGR5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI2OWViODljMjYwMGE0OGIwOGMzMzBkNWEwNjUyNGE5OWY1MGNiNDhkMDg0MTQ0MThiMzJhY2I3YWJhYzIwZDkiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Tiered Bonus: Carnival Craze (0/5)\",1:\"§7Gain §a+4% §7more §eCarnival Tokens§7.\",2:\"\",3:\"§8This item can be reforged!\",4:\"§a§lUNCOMMON CLOAK\"],Name:\"§aParty Cloak\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Party Cloak\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Party Cloak\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Tiered Bonus: Carnival Craze (0/5)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"more \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Carnival Tokens\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON CLOAK\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PARTY_CLOAK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0MTEyOTE3NCwKICAicHJvZmlsZUlkIiA6ICJiOThjNGFkOGM2MjY0NGYxOWUzYzhhZTE0ZThhMDI1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5cnRlZGR5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI2OWViODljMjYwMGE0OGIwOGMzMzBkNWEwNjUyNGE5OWY1MGNiNDhkMDg0MTQ0MThiMzJhY2I3YWJhYzIwZDkiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Tiered Bonus: Carnival Craze (0/5)",
-    "§7Gain §a+4% §7more §eCarnival Tokens§7.",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON CLOAK"
+    "{\"text\":\"Tiered Bonus: Carnival Craze (0/5)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+4% \",\"color\":\"green\"},{\"text\":\"more \",\"color\":\"gray\"},{\"text\":\"Carnival Tokens\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON CLOAK\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "PARTY_CLOAK",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Party_Cloak",
     "https://wiki.hypixel.net/Party_Cloak"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

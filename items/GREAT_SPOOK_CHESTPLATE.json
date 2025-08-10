@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§5Great Spook Chestplate",
-  "nbttag": "{ExtraAttributes:{color:\"158:0:178\",edition:3065,id:\"GREAT_SPOOK_CHESTPLATE\",originTag:\"UNKNOWN\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Fear: §a+5\",1:\"\",2:\"§6Full Set Bonus: Spooky §7(0/4)\",3:\"§7Lets you §8§ospook §7other players while\",4:\"§7worn by punching them with the §6Great\",5:\"§6Spook Staff§7.\",6:\"\",7:\"§6Full Set Bonus: Fearsome §7(0/4)\",8:\"§7Monsters at or below your total\",9:\"§5Fear §7level will run away from you.\",10:\"\",11:\"§7Obtained during the §e2021 §5Alchemist\",12:\"§7experiments!\",13:\"\",14:\"§8Edition #3065\",15:\"\",16:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Great Spook Chestplate\",color:10354866}}",
+  "displayname": "{\"text\":\"Great Spook Chestplate\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Great Spook Chestplate\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fear: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Spooky \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Lets you \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"spook \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true},{\\\"text\\\":\\\"other players while\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"worn by punching them with the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Great\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spook Staff\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Fearsome \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Monsters at or below your total\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fear \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"level will run away from you.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2021 \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"Alchemist\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"experiments!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Edition #3065\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"158:0:178\",\"edition\":3065,\"originTag\":\"UNKNOWN\",\"id\":\"GREAT_SPOOK_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Fear: §a+5",
-    "",
-    "§6Full Set Bonus: Spooky §7(0/4)",
-    "§7Lets you §8§ospook §7other players while",
-    "§7worn by punching them with the §6Great",
-    "§6Spook Staff§7.",
-    "",
-    "§6Full Set Bonus: Fearsome §7(0/4)",
-    "§7Monsters at or below your total",
-    "§5Fear §7level will run away from you.",
-    "",
-    "§7Obtained during the §e2021 §5Alchemist",
-    "§7experiments!",
-    "",
-    "§8Edition #3065",
-    "",
-    "§5§lEPIC CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fear: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Spooky \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Lets you \",\"color\":\"gray\"},{\"text\":\"spook \",\"color\":\"dark_gray\",\"italic\":true},{\"text\":\"other players while\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"worn by punching them with the \",\"color\":\"gray\"},{\"text\":\"Great\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spook Staff\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Fearsome \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Monsters at or below your total\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fear \",\"color\":\"dark_purple\"},{\"text\":\"level will run away from you.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained during the \",\"color\":\"gray\"},{\"text\":\"2021 \",\"color\":\"yellow\"},{\"text\":\"Alchemist\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"experiments!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Edition #3065\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "GREAT_SPOOK_CHESTPLATE",
   "clickcommand": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Great_Spook_Chestplate",
     "https://wiki.hypixel.net/Great_Spook_Chestplate"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

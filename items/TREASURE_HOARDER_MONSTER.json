@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Treasure Hoarder (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b0f13fc2-07a5-3964-8303-784f802e5f0f\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MDE1NjYzNDYzOCwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMmIxMmE4MTRjZWQ4YWYwMmNkZGYyOWEzN2U3ZjMwMTFlNDMwZThhMThiMzhiNzA2ZjI3YzZiZDMxNjUwYjY1IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Treasure Hoarders are mobs that spawn in the\",1:\"§7Upper Mines area of the Dwarven Mines. They\",2:\"§7drop the Treasurite material used in the Forge.\",3:\"\",4:\"§c❤ Health§8: §c15,000\"],Name:\"§9Treasure Hoarder (Monster)\"},ExtraAttributes:{id:\"TREASURE_HOARDER_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Treasure Hoarder (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Treasure Hoarder (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Treasure Hoarders are mobs that spawn in the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Upper Mines area of the Dwarven Mines. They\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"drop the Treasurite material used in the Forge.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"15,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"TREASURE_HOARDER_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Treasure Hoarders are mobs that spawn in the",
-    "§7Upper Mines area of the Dwarven Mines. They",
-    "§7drop the Treasurite material used in the Forge.",
-    "",
-    "§c❤ Health§8: §c15,000"
+    "{\"text\":\"Treasure Hoarders are mobs that spawn in the\",\"color\":\"gray\"}",
+    "{\"text\":\"Upper Mines area of the Dwarven Mines. They\",\"color\":\"gray\"}",
+    "{\"text\":\"drop the Treasurite material used in the Forge.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"15,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "TREASURE_HOARDER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -42,5 +42,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

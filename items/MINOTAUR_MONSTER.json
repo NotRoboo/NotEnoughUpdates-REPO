@@ -1,23 +1,23 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cMinotaur (Mythological Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0dfc49ee-32db-3a19-8dfc-49ee32dbfa19\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU5MTJkYmQ0MjBjMGYzNWVkYjQxOGFiNmRlOGQ2NTVkYTdkMzRjYzhjNzdiYmVmM2E5MTJiNWRhZjEzZThlYiJ9fX0\"}]}},display:{Lore:[0:\"§7The Minotaur is a rare mob in the Mythological\",1:\"§7Ritual. It will attack at melee range, and can\",2:\"§7throw an axe at you, temporarily slowing down\",3:\"§7your healing speed. It has a special mechanic\",4:\"§7called Bleed that allows it to do more damage.\",5:\"§7It increases by 1 every time it hits you, and\",6:\"§7increases by 3 every time its axe hits you.\",7:\"\",8:\"§c❤ Health§8:\",9:\"§8[§aGriffin§8] §c60,000 ❤\",10:\"§8[§9Griffin§8/§5Griffin§8] §c625,000 ❤\",11:\"§8[§6Griffin§8] §c2,500,000 ❤\",12:\"\",13:\"§9§lRARE\"],Name:\"§cMinotaur (Mythological Creature)\"},ExtraAttributes:{id:\"MINOTAUR_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Minotaur (Mythological Creature)\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Minotaur (Mythological Creature)\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Minotaur is a rare mob in the Mythological\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Ritual. It will attack at melee range, and can\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"throw an axe at you, temporarily slowing down\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"your healing speed. It has a special mechanic\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"called Bleed that allows it to do more damage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"It increases by 1 every time it hits you, and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"increases by 3 every time its axe hits you.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\":\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"60,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"625,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2,500,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MINOTAUR_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Minotaur is a rare mob in the Mythological",
-    "§7Ritual. It will attack at melee range, and can",
-    "§7throw an axe at you, temporarily slowing down",
-    "§7your healing speed. It has a special mechanic",
-    "§7called Bleed that allows it to do more damage.",
-    "§7It increases by 1 every time it hits you, and",
-    "§7increases by 3 every time its axe hits you.",
-    "",
-    "§c❤ Health§8:",
-    "§8[§aGriffin§8] §c60,000 ❤",
-    "§8[§9Griffin§8/§5Griffin§8] §c625,000 ❤",
-    "§8[§6Griffin§8] §c2,500,000 ❤",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"The Minotaur is a rare mob in the Mythological\",\"color\":\"gray\"}",
+    "{\"text\":\"Ritual. It will attack at melee range, and can\",\"color\":\"gray\"}",
+    "{\"text\":\"throw an axe at you, temporarily slowing down\",\"color\":\"gray\"}",
+    "{\"text\":\"your healing speed. It has a special mechanic\",\"color\":\"gray\"}",
+    "{\"text\":\"called Bleed that allows it to do more damage.\",\"color\":\"gray\"}",
+    "{\"text\":\"It increases by 1 every time it hits you, and\",\"color\":\"gray\"}",
+    "{\"text\":\"increases by 3 every time its axe hits you.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\":\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"green\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"60,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"blue\"},{\"text\":\"/\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"dark_purple\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"625,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"gold\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"2,500,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MINOTAUR_MONSTER",
   "clickcommand": "viewrecipe",
@@ -114,5 +114,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

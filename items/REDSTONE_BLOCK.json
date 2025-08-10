@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:redstone_block",
-  "displayname": "§fBlock of Redstone",
-  "nbttag": "{ExtraAttributes:{id:\"REDSTONE_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:redstone_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlock of Redstone\"}}",
+  "displayname": "{\"text\":\"Block of Redstone\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:redstone_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Block of Redstone\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REDSTONE_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "REDSTONE_BLOCK",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "REDSTONE:1",
     "C2": "REDSTONE:1",
     "C3": "REDSTONE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

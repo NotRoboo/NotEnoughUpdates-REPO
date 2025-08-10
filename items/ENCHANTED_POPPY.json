@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:red_flower",
-  "displayname": "§aEnchanted Poppy",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_POPPY\"},HideFlags:254,ItemModel:\"minecraft:poppy\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§8Machine Fuel\",3:\"\",4:\"§7Adds §2+1,024♢ Fuel §7to a refuelable\",5:\"§7machine.\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Poppy\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Poppy\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:red_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Poppy\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Machine Fuel\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Adds \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1,024♢ Fuel \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"to a refuelable\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"machine.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_POPPY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§8Machine Fuel",
-    "",
-    "§7Adds §2+1,024♢ Fuel §7to a refuelable",
-    "§7machine.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Machine Fuel\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Adds \",\"color\":\"gray\"},{\"text\":\"+1,024♢ Fuel \",\"color\":\"dark_green\"},{\"text\":\"to a refuelable\",\"color\":\"gray\"}]}",
+    "{\"text\":\"machine.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_POPPY",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "RED_ROSE:64",
     "C2": "RED_ROSE:64",
     "C3": "RED_ROSE:64"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:chainmail_leggings",
-  "displayname": "§aChainmail Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+20\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§a§lUNCOMMON LEGGINGS\"],Name:\"§aChainmail Leggings\"},ExtraAttributes:{originTag:\"SHOP_PURCHASE\",id:\"CHAINMAIL_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Chainmail Leggings\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:chainmail_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chainmail Leggings\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON LEGGINGS\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"SHOP_PURCHASE\",\"id\":\"CHAINMAIL_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+20",
-    "",
-    "§7§8This item can be reforged!",
-    "§a§lUNCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON LEGGINGS\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CHAINMAIL_LEGGINGS",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Chainmail_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

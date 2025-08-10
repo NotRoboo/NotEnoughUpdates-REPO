@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:wooden_sword",
-  "displayname": "§5Scorpion Foil",
-  "nbttag": "{ExtraAttributes:{id:\"SCORPION_FOIL\"},HideFlags:254,ItemModel:\"minecraft:wooden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+80\",1:\"§7Strength: §c+65\",2:\"§7Vitality: §a+5\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§6Ability: Heartstopper  §e§lRIGHT CLICK\",6:\"§7Heal for §c75❤§7 and your next\",7:\"§7attack within §a20s §7is empowered\",8:\"§7for §c+250% ❁ Damage§7.\",9:\"§8Cooldown: §a2s\",10:\"\",11:\"§8This item can be reforged!\",12:\"§7§4☠ §cRequires §5Spider Slayer 6§c.\",13:\"§5§lEPIC SWORD\"],Name:\"§5Scorpion Foil\"}}",
+  "displayname": "{\"text\":\"Scorpion Foil\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Scorpion Foil\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+80\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+65\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vitality: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"⚔\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Heartstopper \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Heal for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"75❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" and your next\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"attack within \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20s \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"is empowered\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+250% ❁ Damage\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Spider Slayer 6\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SCORPION_FOIL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+80",
-    "§7Strength: §c+65",
-    "§7Vitality: §a+5",
-    " §8[§7⚔§8]",
-    "",
-    "§6Ability: Heartstopper  §e§lRIGHT CLICK",
-    "§7Heal for §c75❤§7 and your next",
-    "§7attack within §a20s §7is empowered",
-    "§7for §c+250% ❁ Damage§7.",
-    "§8Cooldown: §a2s",
-    "",
-    "§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Spider Slayer 6§c.",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+80\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+65\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Vitality: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"⚔\",\"color\":\"gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Heartstopper \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Heal for \",\"color\":\"gray\"},{\"text\":\"75❤\",\"color\":\"red\"},{\"text\":\" and your next\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"attack within \",\"color\":\"gray\"},{\"text\":\"20s \",\"color\":\"green\"},{\"text\":\"is empowered\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"+250% ❁ Damage\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"2s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Spider Slayer 6\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SCORPION_FOIL",
   "clickcommand": "viewrecipe",
@@ -39,5 +39,8 @@
     "C2": "STICK:1",
     "C3": "TARANTULA_SILK:4"
   },
-  "slayer_req": "SPIDER_6"
+  "slayer_req": "SPIDER_6",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:red_flower",
-  "displayname": "§9Cat Detector",
-  "nbttag": "{ExtraAttributes:{dead_cats_found:0,id:\"DEAD_CAT_DETECTOR\"},HideFlags:254,ItemModel:\"minecraft:pink_tulip\",display:{Lore:[0:\"§6Ability: Meownar §e§lRIGHT CLICK\",1:\"§7Ping the §5Rift §7for cats.\",2:\"§8Mana Cost: §3100\",3:\"§8Cooldown: §a9s\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Cat Detector\"},ench:[]}",
-  "damage": 7,
+  "displayname": "{\"text\":\"Cat Detector\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:red_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cat Detector\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Meownar \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ping the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Rift \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"for cats.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"100\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"9s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DEAD_CAT_DETECTOR\",\"dead_cats_found\":0},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§6Ability: Meownar §e§lRIGHT CLICK",
-    "§7Ping the §5Rift §7for cats.",
-    "§8Mana Cost: §3100",
-    "§8Cooldown: §a9s",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Meownar \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ping the \",\"color\":\"gray\"},{\"text\":\"Rift \",\"color\":\"dark_purple\"},{\"text\":\"for cats.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"100\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"9s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "DEAD_CAT_DETECTOR",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cat_Detector",
     "https://wiki.hypixel.net/Cat_Detector"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

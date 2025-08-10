@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aFlyfish§r §b§lDIAMOND",
-  "nbttag": "{ExtraAttributes:{id:\"FLYFISH_DIAMOND\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"86e86727-951b-3d1a-8edf-5370f14821c7\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTIzNjY0MjgxMiwKICAicHJvZmlsZUlkIiA6ICJkOWQyZTg3ZjI1M2Q0NGI3YmYxMDc3OTZhZGRmODI2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYWNrR2lybCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNTE2YzIzMzc5NzYyNmNlNWUwMTMyMTY2MDYyYWUxY2I0MzVjNTYxYzAwYTZmYTExYjM3ZTIyOTVmOGM3YzViIgogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Caught from 8 blocks above.\",1:\"§7Found in Blazing Volcano.\",2:\"\",3:\"§7Bring this to §fOdger §7at the\",4:\"§7top of the Blazing Volcano.\",5:\"\",6:\"§8§l* §8Soulbound §8§l*\",7:\"§a§lUNCOMMON TROPHY FISH\"],Name:\"§aFlyfish§r §b§lDIAMOND\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"Flyfish\",\"color\":\"green\"},{\"text\":\" \"},{\"text\":\"DIAMOND\",\"color\":\"aqua\",\"bold\":true}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Flyfish\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"DIAMOND\\\",\\\"color\\\":\\\"aqua\\\",\\\"bold\\\":true}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Caught from 8 blocks above.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Found in Blazing Volcano.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring this to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Odger \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"at the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"top of the Blazing Volcano.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON TROPHY FISH\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLYFISH_DIAMOND\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTIzNjY0MjgxMiwKICAicHJvZmlsZUlkIiA6ICJkOWQyZTg3ZjI1M2Q0NGI3YmYxMDc3OTZhZGRmODI2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYWNrR2lybCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNTE2YzIzMzc5NzYyNmNlNWUwMTMyMTY2MDYyYWUxY2I0MzVjNTYxYzAwYTZmYTExYjM3ZTIyOTVmOGM3YzViIgogICAgfQogIH0KfQ\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Caught from 8 blocks above.",
-    "§7Found in Blazing Volcano.",
-    "",
-    "§7Bring this to §fOdger §7at the",
-    "§7top of the Blazing Volcano.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§a§lUNCOMMON TROPHY FISH"
+    "{\"text\":\"Caught from 8 blocks above.\",\"color\":\"gray\"}",
+    "{\"text\":\"Found in Blazing Volcano.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring this to \",\"color\":\"gray\"},{\"text\":\"Odger \",\"color\":\"white\"},{\"text\":\"at the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"top of the Blazing Volcano.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON TROPHY FISH\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "FLYFISH_DIAMOND",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Trophy_Fishes",
     "https://wiki.hypixel.net/Trophy_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

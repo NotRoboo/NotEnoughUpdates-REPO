@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aBlessed Bait",
-  "nbttag": "{ExtraAttributes:{id:\"BLESSED_BAIT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"28053a44-2919-3e41-b050-c14d8869c3a9\",Properties:{textures:[0:{Name:\"textures\",Signature:\"irrvqkdEU3s7jyLnl6X6i2V7E2j2d+PM7Ruw6ma5WcXowGhNkgIwHpWwWn0eO7iPImU7MloQFHFwE63WQl+5PMrfpORrOq5Z8L5FIonmevwR+VBfWguZE0a02JqM/+ZHNEI2Z/gYhzUa/5pPgDPynCeYpaWQLoGQ+6Rx+jNin+lHWkPWfHJTr/AYX6QPtg1GuJJZ+Z0Gvyf1i6rB+EUBWq4PVnOxSaO5TvW4b0zjoY7qfswBo1g86xJEwaHnqE/P8wHrVciUTb9fJrBq3Y5R/Mvwo5MGlGh3VbW/pH8ctxbShdHAhR5OLcXINhOuVeDi2O8Rp6HOJFPCdCCrIDbXkY4s/CRuj8GbJUW/bKV9AtKAD8qQ40uPF1d9hlQ5BYjK7qbLtAjhJGEQTX+JQgJmqpzA1I9JAmLuNgpkYIAojioi6st4Fw+YIorbecoPkS59xRBx9aya5ly4wzT7jjktUa6c6qejKRolEK0XRdLUTjmVtG6EMnTE+fbSnyo4bKxfJjFuy4xIwfCEQtvQ89+j0djYWsvldKIpMHQiZSxM4T5ibj08D7+NwBEiccsz9xCqUM8eOPC6L/agJV2BTMZMVM3ZhIP/NFlwvJofzbk6t9mdMYW+/ngibzkQtOpfrlatkdWEGUTZsjZat69LbAqAdPu1Lgz2ZVAZl6Pw2jtnxbA=\",Value:\"eyJ0aW1lc3RhbXAiOjE1MzE5MDMzNTc4NzUsInByb2ZpbGVJZCI6IjkxOGEwMjk1NTlkZDRjZTZiMTZmN2E1ZDUzZWZiNDEyIiwicHJvZmlsZU5hbWUiOiJCZWV2ZWxvcGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMmI5MTBiNTg5N2NkYjg2YjIxZWJmY2JhNTQ0YWZhNDcwYWU2ZDIyOGJlZTM0OTQ0MjdjOWM3ZThmMzM1MDJiIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Fishing Bait\",1:\"§8Consumes on Cast\",2:\"\",3:\"§7Increases the chance for §6Treasure\",4:\"§7catches to be §6§lGREAT §7or\",5:\"§d§lOUTSTANDING §7by §a50%§7.\",6:\"\",7:\"§a§lUNCOMMON BAIT\"],Name:\"§aBlessed Bait\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Blessed Bait\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Blessed Bait\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Fishing Bait\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Consumes on Cast\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases the chance for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Treasure\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"catches to be \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"GREAT \\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"or\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"OUTSTANDING \\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON BAIT\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BLESSED_BAIT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1MzE5MDMzNTc4NzUsInByb2ZpbGVJZCI6IjkxOGEwMjk1NTlkZDRjZTZiMTZmN2E1ZDUzZWZiNDEyIiwicHJvZmlsZU5hbWUiOiJCZWV2ZWxvcGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMmI5MTBiNTg5N2NkYjg2YjIxZWJmY2JhNTQ0YWZhNDcwYWU2ZDIyOGJlZTM0OTQ0MjdjOWM3ZThmMzM1MDJiIn19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Fishing Bait",
-    "§8Consumes on Cast",
-    "",
-    "§7Increases the chance for §6Treasure",
-    "§7catches to be §6§lGREAT §7or",
-    "§d§lOUTSTANDING §7by §a50%§7.",
-    "",
-    "§a§lUNCOMMON BAIT"
+    "{\"text\":\"Fishing Bait\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Consumes on Cast\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases the chance for \",\"color\":\"gray\"},{\"text\":\"Treasure\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"catches to be \",\"color\":\"gray\"},{\"text\":\"GREAT \",\"color\":\"gold\",\"bold\":true},{\"text\":\"or\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"OUTSTANDING \",\"color\":\"light_purple\",\"bold\":true},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"50%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON BAIT\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "BLESSED_BAIT",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

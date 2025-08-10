@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:feather",
-  "displayname": "§9Kismet Feather",
-  "nbttag": "{ExtraAttributes:{id:\"KISMET_FEATHER\"},HideFlags:254,ItemModel:\"minecraft:feather\",display:{Lore:[0:\"§7Allows you to reroll a §cDungeon\",1:\"§7or §cKuudra§7 reward chest.\",2:\"\",3:\"§7Keep this feather in your\",4:\"§7inventory or §6Dungeon Sack§7 and\",5:\"§7open a reward chest to use.\",6:\"\",7:\"§8You may only reroll 1 reward\",8:\"§8chest per run!\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Kismet Feather\"},ench:[]}",
+  "displayname": "{\"text\":\"Kismet Feather\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:feather\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Kismet Feather\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Allows you to reroll a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Dungeon\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"or \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Kuudra\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" reward chest.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Keep this feather in your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"inventory or \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Dungeon Sack\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\" and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"open a reward chest to use.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You may only reroll 1 reward\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"chest per run!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"KISMET_FEATHER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Allows you to reroll a §cDungeon",
-    "§7or §cKuudra§7 reward chest.",
-    "",
-    "§7Keep this feather in your",
-    "§7inventory or §6Dungeon Sack§7 and",
-    "§7open a reward chest to use.",
-    "",
-    "§8You may only reroll 1 reward",
-    "§8chest per run!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Allows you to reroll a \",\"color\":\"gray\"},{\"text\":\"Dungeon\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"or \",\"color\":\"gray\"},{\"text\":\"Kuudra\",\"color\":\"red\"},{\"text\":\" reward chest.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Keep this feather in your\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"inventory or \",\"color\":\"gray\"},{\"text\":\"Dungeon Sack\",\"color\":\"gold\"},{\"text\":\" and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"open a reward chest to use.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You may only reroll 1 reward\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"chest per run!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "KISMET_FEATHER",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Kismet_Feather",
     "https://wiki.hypixel.net/Kismet_Feather"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

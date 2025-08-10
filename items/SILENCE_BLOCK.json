@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:noteblock",
-  "displayname": "§aSilence Block",
-  "nbttag": "{ExtraAttributes:{id:\"SILENCE_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:note_block\",display:{Lore:[0:\"§7Prevents all mobs from making noise\",1:\"§7on your private island.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aSilence Block\"},ench:[]}",
+  "displayname": "{\"text\":\"Silence Block\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:noteblock\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Silence Block\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Prevents all mobs from making noise\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"on your private island.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SILENCE_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Prevents all mobs from making noise",
-    "§7on your private island.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Prevents all mobs from making noise\",\"color\":\"gray\"}",
+    "{\"text\":\"on your private island.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SILENCE_BLOCK",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "ENCHANTED_ENDSTONE:1",
     "C2": "ENCHANTED_ENDSTONE:1",
     "C3": "ENCHANTED_ENDSTONE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

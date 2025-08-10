@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5Sulphur Bow",
-  "nbttag": "{ExtraAttributes:{id:\"SULPHUR_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+200\",1:\"§7Strength: §c+100\",2:\" §8[§7⚔§8]\",3:\"\",4:\"§6Ability: Arrow Infusion  §e§lON SHOOT\",5:\"§7Consumes 1 §6Sulphur§7 from the\",6:\"§eInventory §7or §aQuiver §7to §adouble§7 the\",7:\"§7damage per shot.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §aCombat Skill 22§c.\",11:\"§5§lEPIC BOW\"],Name:\"§5Sulphur Bow\"}}",
+  "displayname": "{\"text\":\"Sulphur Bow\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sulphur Bow\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+200\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"⚔\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Arrow Infusion \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"ON SHOOT\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consumes 1 \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sulphur\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\" from the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Inventory \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"or \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Quiver \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"double\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"damage per shot.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC BOW\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SULPHUR_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+200",
-    "§7Strength: §c+100",
-    " §8[§7⚔§8]",
-    "",
-    "§6Ability: Arrow Infusion  §e§lON SHOOT",
-    "§7Consumes 1 §6Sulphur§7 from the",
-    "§eInventory §7or §aQuiver §7to §adouble§7 the",
-    "§7damage per shot.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
-    "§5§lEPIC BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+200\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"⚔\",\"color\":\"gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Arrow Infusion \",\"color\":\"gold\"},{\"text\":\"ON SHOOT\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consumes 1 \",\"color\":\"gray\"},{\"text\":\"Sulphur\",\"color\":\"gold\"},{\"text\":\" from the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Inventory \",\"color\":\"yellow\"},{\"text\":\"or \",\"color\":\"gray\"},{\"text\":\"Quiver \",\"color\":\"green\"},{\"text\":\"to \",\"color\":\"gray\"},{\"text\":\"double\",\"color\":\"green\"},{\"text\":\" the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"damage per shot.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC BOW\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SULPHUR_BOW",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "ENCHANTED_STRING:50",
     "C2": "ENCHANTED_SULPHUR:50",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

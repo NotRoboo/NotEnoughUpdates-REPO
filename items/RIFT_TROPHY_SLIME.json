@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:slime",
-  "displayname": "§cGlobulate Timecharm",
-  "nbttag": "{ExtraAttributes:{id:\"RIFT_TROPHY_SLIME\"},HideFlags:254,ItemModel:\"minecraft:slime_block\",display:{Lore:[0:\"§7Place this timecharm in the §dRift\",1:\"§dGallery §7to secure it forever!\",2:\"\",3:\"§8§l* §8Soulbound §8§l*\",4:\"§c§lSPECIAL RIFT TIMECHARM\"],Name:\"§cGlobulate Timecharm\"},ench:[]}",
+  "displayname": "{\"text\":\"Globulate Timecharm\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:slime\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Globulate Timecharm\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Place this timecharm in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Rift\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gallery \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"to secure it forever!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL RIFT TIMECHARM\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RIFT_TROPHY_SLIME\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Place this timecharm in the §dRift",
-    "§dGallery §7to secure it forever!",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§c§lSPECIAL RIFT TIMECHARM"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Place this timecharm in the \",\"color\":\"gray\"},{\"text\":\"Rift\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gallery \",\"color\":\"light_purple\"},{\"text\":\"to secure it forever!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL RIFT TIMECHARM\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "RIFT_TROPHY_SLIME",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "BACTE_FRAGMENT:1",
     "C2": "BACTE_FRAGMENT:1",
     "C3": "BACTE_FRAGMENT:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

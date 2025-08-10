@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Acacia Minion II",
-  "nbttag": "{ExtraAttributes:{id:\"ACACIA_GENERATOR_2\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2a946aa2-3671-342a-91c2-08efbc32cb6e\",Properties:{textures:[0:{Name:\"textures\",Signature:\"XkgymAlsIXHThB5+1aWxQ0Z0BJMhI+vLbMgBp7TB6ud8B0DXfCPczDQ5E0ix12qbhw1mYMenv0JsppyFOYh3xnvW/4yqVI9c3Zv3rgpYaikgmnz5fCCaz8yntDVSlSK1/5r5v62yFIQoS8iN85ric2GRe8B+Z1YISZIXoMXCTdaBJ6jKjrEjRD1QkUAnVso9v1sJ8bZAR4Ed3XwHyli1hQDg77QKxsQsBLuXUHkNVz6eTz+UV7bB+S2cGrqI29xki8rZOVDXjmsRkNXttzchWN5gOdat6CzIhj0XD9NeCKm7AlzdY9qdwDTPqSSv6gektiFCmKNHVevY5g8JjMoYZvMgRevvY2QMY+KSSCLBb+zIS4msAvneh3I+P2u4B+2ialtB1+41HEwGf8T87tYj6O1oLXo44ozLjtIQbfw7AmRH+cIS4ARnjvDyQHE7p5uJl6Uh//Vhb42AiVg1aIiXSXarMcYpuu6o9xpUwMgErqCqLKJU+m4copAa3bA6rwSFJKip8RPYrn8LGoyyNi2tF+ER6kIVnIkqx2DdslHY4MeeKNJ9QLJjbhnkHHDYF0g4PB67RSnSBb3G1whovovjfAhgMGSRdqcoLRvipn6/GlaYrk5AAa5H/MzMDZdw/TD9VKXHvz4fWKExLeK5frIWnHbfPA9OPDuvnnTrEcwZwp4=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5Mjk2OTk5OTcsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk2MDliY2ZlY2FkNzNjODRkZDk1NzY3MzQzOWE3ZjU2NDI2MjY5ZmM1NjliNmU4NDA1ZDFhMWMwNWNlZDg1NTcifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and chopping acacia logs!\",2:\"§7Requires an open area to place\",3:\"§7trees. Minions also work when you\",4:\"§7are offline!\",5:\"\",6:\"§7Time Between Actions: §a48s\",7:\"§7Max Storage: §e192\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Acacia Minion II\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Acacia Minion II\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Acacia Minion II\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and chopping acacia logs!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Requires an open area to place\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"trees. Minions also work when you\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"are offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"48s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"192\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ACACIA_GENERATOR_2\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NTc5Mjk2OTk5OTcsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk2MDliY2ZlY2FkNzNjODRkZDk1NzY3MzQzOWE3ZjU2NDI2MjY5ZmM1NjliNmU4NDA1ZDFhMWMwNWNlZDg1NTcifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and chopping acacia logs!",
-    "§7Requires an open area to place",
-    "§7trees. Minions also work when you",
-    "§7are offline!",
-    "",
-    "§7Time Between Actions: §a48s",
-    "§7Max Storage: §e192",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and chopping acacia logs!\",\"color\":\"gray\"}",
+    "{\"text\":\"Requires an open area to place\",\"color\":\"gray\"}",
+    "{\"text\":\"trees. Minions also work when you\",\"color\":\"gray\"}",
+    "{\"text\":\"are offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"48s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"192\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ACACIA_GENERATOR_2",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C2": "LOG_2:20",
     "C3": "LOG_2:20"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,20 @@
 {
   "internalname": "OVERFLUX_CAPACITOR",
   "itemid": "minecraft:quartz",
-  "displayname": "§5Overflux Capacitor",
+  "displayname": "{\"text\":\"Overflux Capacitor\",\"color\":\"dark_purple\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§5§lEPIC\"],Name:\"§5Overflux Capacitor\"},ExtraAttributes:{id:\"OVERFLUX_CAPACITOR\"}}",
+  "nbttag": "{\"id\":\"minecraft:quartz\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Overflux Capacitor\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"OVERFLUX_CAPACITOR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§5§lEPIC"
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Overflux_Capacitor",
     "https://wiki.hypixel.net/Overflux_Capacitor"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:quartz",
-  "displayname": "§5Crystal Fragment",
-  "nbttag": "{ExtraAttributes:{id:\"CRYSTAL_FRAGMENT\"},HideFlags:254,ItemModel:\"minecraft:quartz\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§5§lEPIC\"],Name:\"§5Crystal Fragment\"},ench:[]}",
+  "displayname": "{\"text\":\"Crystal Fragment\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:quartz\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Crystal Fragment\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CRYSTAL_FRAGMENT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "CRYSTAL_FRAGMENT",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Crystal_Fragment",
     "https://wiki.hypixel.net/Crystal_Fragment"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

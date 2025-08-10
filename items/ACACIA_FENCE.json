@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:acacia_fence",
-  "displayname": "§fAcacia Fence",
-  "nbttag": "{ExtraAttributes:{id:\"ACACIA_FENCE\"},HideFlags:254,ItemModel:\"minecraft:acacia_fence\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fAcacia Fence\"}}",
+  "displayname": "{\"text\":\"Acacia Fence\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:acacia_fence\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Acacia Fence\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ACACIA_FENCE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ACACIA_FENCE",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 3
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

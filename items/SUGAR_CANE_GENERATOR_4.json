@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Sugar Cane Minion IV",
-  "nbttag": "{ExtraAttributes:{id:\"SUGAR_CANE_GENERATOR_4\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"58583572-8035-313e-90c7-cdcba30d2ff3\",Properties:{textures:[0:{Name:\"textures\",Signature:\"SjOrZ+LtxXiPTXPDSfSf/cUo9NCy+ODHDslfOIOVxYS2PzZJE8KNSdnnOzmJ7kvY0o4W4f2pPEfNlaIqs5UyIf5gy4J/uj08T9I1g23QYIooBH9gzEHFqqjgE8ppv5bmnpIMraUs51lW53LvLqmEq02musX8KssfL2U1zEJ2MvfTQC6ewVSu83I7j4nS841ZyMf2mlI5RmkQzfywnAZCuW6BMXRIWyC3vb6efMau7XKdU9+g06CaEifqcZDPc9WQ0RQORdN6EywS4LXmCvKP10/NRAXcpPQ2jy8B6QDq4fiTbZNPrFD0vmaPp02xU/Gxwewzlq+LihOowpOL+npM/Ro34La2wkG2+z62CkCHQPMBVIc/fPqNKOcc2dWP0Tk3rY6Bc2mkzXqaomUXo36dAxXNiDdG7QlauLSf/xownD4aH14MteZOmgQtpPRHhCohvobjtrU2CSO8mNy6ndljtDl2xhyZWL+2xVv52cMLz0IL+WS4FS1+p5z7EsOwGv0NsY0lY0h66n4lY9GsNJDHAowP9d1uwEd3n1sDqWQgcIxoSPo/5YmAP6cu8gFKHtPA83om7MV7HdsSFcCtpn+OnXlMB6jRVQyK4dVwpHC7WWt0TZSu9qF/h6PrjWIJQa4NEUY2XhjcI3e+5P2GDzOqQpLVF3pZhljnY3rDfweBEOM=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5NDQ1NzMzODksInByb2ZpbGVJZCI6IjJjMTA2NGZjZDkxNzQyODI4NGUzYmY3ZmFhN2UzZTFhIiwicHJvZmlsZU5hbWUiOiJOYWVtZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJlYWM5YzU5OWI3ZDc5NGE3OWE3ODc5Zjg2YjEwZmI3NzQzYWQ0MmM5OTM3OTU0ZDhmZmVlZGMzY2U1NTEyMiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and harvesting sugar\",2:\"§7canes! Requires an area that is\",3:\"§7suitable for sugar cane to be\",4:\"§7placed. Minions also work when you\",5:\"§7are offline!\",6:\"\",7:\"§7Time Between Actions: §a20s\",8:\"§7Max Storage: §e384\",9:\"§7Resources Generated: §b0\",10:\"\",11:\"§9§lRARE\"],Name:\"§9Sugar Cane Minion IV\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Sugar Cane Minion IV\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sugar Cane Minion IV\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and harvesting sugar\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"canes! Requires an area that is\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"suitable for sugar cane to be\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"placed. Minions also work when you\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"are offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"384\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SUGAR_CANE_GENERATOR_4\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NTc5NDQ1NzMzODksInByb2ZpbGVJZCI6IjJjMTA2NGZjZDkxNzQyODI4NGUzYmY3ZmFhN2UzZTFhIiwicHJvZmlsZU5hbWUiOiJOYWVtZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJlYWM5YzU5OWI3ZDc5NGE3OWE3ODc5Zjg2YjEwZmI3NzQzYWQ0MmM5OTM3OTU0ZDhmZmVlZGMzY2U1NTEyMiJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and harvesting sugar",
-    "§7canes! Requires an area that is",
-    "§7suitable for sugar cane to be",
-    "§7placed. Minions also work when you",
-    "§7are offline!",
-    "",
-    "§7Time Between Actions: §a20s",
-    "§7Max Storage: §e384",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and harvesting sugar\",\"color\":\"gray\"}",
+    "{\"text\":\"canes! Requires an area that is\",\"color\":\"gray\"}",
+    "{\"text\":\"suitable for sugar cane to be\",\"color\":\"gray\"}",
+    "{\"text\":\"placed. Minions also work when you\",\"color\":\"gray\"}",
+    "{\"text\":\"are offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"20s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"384\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SUGAR_CANE_GENERATOR_4",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C2": "ENCHANTED_SUGAR:1",
     "C3": "ENCHANTED_SUGAR:1"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

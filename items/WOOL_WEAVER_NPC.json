@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Wool Weaver (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d04ddb74-58ec-5164-b0f2-6046873e9291\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjliYzFlNzFkY2QzY2I5YjE5MWFmZDk2NGFhMWQ5NDJhNjI4MWY1OGQ3NTM5NDBmMjY2NTNhZTVhODAyOCJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Wool Weaver (NPC)\"},ExtraAttributes:{id:\"WOOL_WEAVER_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Wool Weaver (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wool Weaver (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"WOOL_WEAVER_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "WOOL_WEAVER_NPC",
   "clickcommand": "viewrecipe",
@@ -545,5 +545,8 @@
       ],
       "result": "WOOL-15"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

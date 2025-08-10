@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:spawn_egg",
-  "displayname": "§fMove Sam",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Place this where you would like\",1:\"§7Sam to move to!\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fMove Sam\"},ExtraAttributes:{id:\"SAM_ASSISTANT\"}}",
-  "damage": 101,
+  "itemid": "minecraft:rabbit_spawn_egg",
+  "displayname": "{\"text\":\"Move Sam\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:rabbit_spawn_egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Move Sam\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this where you would like\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Sam to move to!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SAM_ASSISTANT\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this where you would like",
-    "§7Sam to move to!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Place this where you would like\",\"color\":\"gray\"}",
+    "{\"text\":\"Sam to move to!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SAM_ASSISTANT",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Move_Sam",
     "https://wiki.hypixel.net/Move_Sam"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

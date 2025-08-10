@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:chest",
-  "displayname": "§aMedium Storage",
-  "nbttag": "{ExtraAttributes:{id:\"MEDIUM_ENCHANTED_CHEST\"},HideFlags:254,ItemModel:\"minecraft:chest\",display:{Lore:[0:\"§7Place this chest next to a minion and\",1:\"§7the minion will store items inside once\",2:\"§7its storage is full!\",3:\"\",4:\"§7Storage space: §b9 §7items\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aMedium Storage\"}}",
+  "displayname": "{\"text\":\"Medium Storage\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:chest\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Medium Storage\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this chest next to a minion and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the minion will store items inside once\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"its storage is full!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Storage space: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"9 \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"items\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MEDIUM_ENCHANTED_CHEST\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Place this chest next to a minion and",
-    "§7the minion will store items inside once",
-    "§7its storage is full!",
-    "",
-    "§7Storage space: §b9 §7items",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Place this chest next to a minion and\",\"color\":\"gray\"}",
+    "{\"text\":\"the minion will store items inside once\",\"color\":\"gray\"}",
+    "{\"text\":\"its storage is full!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Storage space: \",\"color\":\"gray\"},{\"text\":\"9 \",\"color\":\"aqua\"},{\"text\":\"items\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "MEDIUM_ENCHANTED_CHEST",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "ENCHANTED_OAK_LOG:1",
     "C2": "ENCHANTED_OAK_LOG:1",
     "C3": "ENCHANTED_OAK_LOG:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

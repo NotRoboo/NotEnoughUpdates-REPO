@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:diamond_axe",
-  "displayname": "§aDiamond Axe",
-  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_AXE\"},HideFlags:254,ItemModel:\"minecraft:diamond_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+30\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON AXE\"],Name:\"§aDiamond Axe\"}}",
+  "displayname": "{\"text\":\"Diamond Axe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Axe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON AXE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND_AXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+30",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON AXE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON AXE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DIAMOND_AXE",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

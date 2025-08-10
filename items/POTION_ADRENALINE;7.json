@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§5Adrenaline VII Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:10b,Amplifier:6b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cAdrenaline VII §f(3:00)\",2:\"§7Grants §a+200 §7of absorption and §a+35\",3:\"§a§f✦ Speed§7.\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Adrenaline VII Potion\"},ExtraAttributes:{potion_level:7,potion:\"adrenaline\",effects:[0:{level:7,effect:\"adrenaline\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_ADRENALINE;7\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Adrenaline VII Potion\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Adrenaline VII Potion\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Adrenaline VII \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+200 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of absorption and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"✦ Speed\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":7,\"potion\":\"adrenaline\",\"effects\":\"[0:{level:7\",\"effect\":\"adrenaline\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§cAdrenaline VII §f(3:00)",
-    "§7Grants §a+200 §7of absorption and §a+35",
-    "§a§f✦ Speed§7.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Adrenaline VII \",\"color\":\"red\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+200 \",\"color\":\"green\"},{\"text\":\"of absorption and \",\"color\":\"gray\"},{\"text\":\"+35\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"✦ Speed\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "POTION_ADRENALINE;7",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

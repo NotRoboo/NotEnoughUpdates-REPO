@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:iron_ore",
-  "displayname": "§fIron Ore",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON ORE\"],Name:\"§fIron Ore\"},ExtraAttributes:{id:\"IRON_ORE\"}}",
+  "displayname": "{\"text\":\"Iron Ore\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_ore\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Iron Ore\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON ORE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"IRON_ORE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON ORE"
+    "{\"text\":\"COMMON ORE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "IRON_ORE",
   "modver": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://wiki.hypixel.net/Iron_Ore"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

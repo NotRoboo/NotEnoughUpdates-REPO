@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Whipped Magma Cream",
-  "nbttag": "{ExtraAttributes:{id:\"WHIPPED_MAGMA_CREAM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"559bd712-844a-360e-8075-710404e3e60a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"fb9ZdIqbLKGKbgSBtoUWe2GtSZviHBPk9nyTS8az0OJCYtAwNhqFvG55MEt6jTdk2d5HE22Sls4gUfaENk8SGbFT5nB0/vzf28YrKiYnvP+gx7PPvFih09BzLHJyOHDiLCIg4cvp5aICkYO7Y12trR5/axuxngXkA7RAfQVwc28Ocn+13gLH3xX9F7Dz0MEXK7ayruoLpRhAqZ1sJe1OLMeUABDa+Xj5bsdfEFfq2X+4g5ZbR9KYR9Y7obE8Y8hUedzawI7geh/Jt5Vdt5+XWQamwK0WE2rKzud5AV+yJ8bDTc1Bi0OshUrGJKrvuSF9YPIfq+MJZO1yL7y2br/DhaE7hv7PKJhebnSWooUcyPhrvgO0U9wkh0C9Z/1Xhs0w1IsNijHNdCC8l49YIcfQ2S+Jwtk8rT6tR1JeYaOj9uslfqWvuejkzMMs1mVniaTY2hcyJjXS9L1NpVyBkeDxQuCxI0OPbfpoGPRiYIul3JPHEImsCYr+eEabM2ikmfkhsoezihyxR6ncekJueG8WDUP7yantqg5hwLpxUV9DQ3y/RTnFNC/HKigh65bhBPnhyJGJtztKuTYqI1b3JT4lraAanHBl+b53l/v2MZeoTCIxddEWDSvTigYfIEv+6iqu0gtS5EgR/JSgc5NA0VUkLf+2R7pkPv3HnQzYQqQWiic=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1MTI3MTAxNzY5MCwKICAicHJvZmlsZUlkIiA6ICJjNzQ1Mzc4MDY5MzY0ODg2ODkwNzRkOTQ3ZjBlOTlmNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJjdWN1bWkwNyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZGE1MzBhZDA5ZTY5ZTQ2NzhjNjljZjViOGUwZjA3NTFlNDYzMDM1NWZjN2YwYzIyNmM5NTViYWFjZTMwZmIyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Whipped Magma Cream\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Whipped Magma Cream\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Whipped Magma Cream\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WHIPPED_MAGMA_CREAM\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY1MTI3MTAxNzY5MCwKICAicHJvZmlsZUlkIiA6ICJjNzQ1Mzc4MDY5MzY0ODg2ODkwNzRkOTQ3ZjBlOTlmNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJjdWN1bWkwNyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZGE1MzBhZDA5ZTY5ZTQ2NzhjNjljZjViOGUwZjA3NTFlNDYzMDM1NWZjN2YwYzIyNmM5NTViYWFjZTMwZmIyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "WHIPPED_MAGMA_CREAM",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "ENCHANTED_MAGMA_CREAM:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

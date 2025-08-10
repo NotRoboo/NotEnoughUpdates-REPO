@@ -1,26 +1,26 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§7[Lvl {LVL}] §9Mithril Golem",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"39fb84b5-72d3-3221-b373-aa315e956e83\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDY0OTEwODI4NCwKICAicHJvZmlsZUlkIiA6ICI2ZmU4OTUxZDVhY2M0NDc3OWI2ZmYxMmU3YzFlOTQ2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJlcGhlbXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MxYjJkZmU4ZWQ1ZGZmYzViMTY4N2JjMWMyNDljMzlkZTJkOGE2YzNkOTAzMDVjOTVmNmQxYTFhMzMwYTBiMSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7True Defense: §a{TRUE_DEFENSE}\",3:\"§7Mining Fortune: §a{MINING_SPEED}\",4:\"\",5:\"§6Mithril Affinity\",6:\"§7§7Grants §6+{0}⸕ Mining Speed §7when\",7:\"§7mining §2Mithril§7.\",8:\"\",9:\"§6Subterranean Battler\",10:\"§7§7Grants §a+{1}% §7of most combat stats\",11:\"§7while on §bMining Islands§7.\",12:\"\",13:\"§7§eRight-click to add this pet to\",14:\"§eyour pet menu!\",15:\"\",16:\"§9§lRARE\"],Name:\"§7[Lvl {LVL}] §9Mithril Golem\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"MITHRIL_GOLEM\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"RARE\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0}\",id:\"MITHRIL_GOLEM;2\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"[Lvl {LVL}] \",\"color\":\"gray\"},{\"text\":\"Mithril Golem\",\"color\":\"blue\"}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[Lvl {LVL}] \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mithril Golem\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Mining Pet\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"True Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{TRUE_DEFENSE}\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{MINING_SPEED}\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Mithril Affinity\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+{0}⸕ Mining Speed \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"mining \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mithril\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Subterranean Battler\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+{1}% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of most combat stats\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"while on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mining Islands\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to add this pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"your pet menu!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"\\\\\\\"candyUsed\\\\\\\"\":0,\"\\\\\\\"exp\\\\\\\"\":0,\"petInfo\":\"{\\\\\\\"type\\\\\\\":\\\\\\\"MITHRIL_GOLEM\\\\\",\"\\\\\\\"active\\\\\\\"\":\"false\",\"\\\\\\\"hideInfo\\\\\\\"\":\"false\",\"\\\\\\\"tier\\\\\\\"\":\"\\\\\\\"RARE\\\\\\\"\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Mining Pet",
-    "",
-    "§7True Defense: §a{TRUE_DEFENSE}",
-    "§7Mining Fortune: §a{MINING_SPEED}",
-    "",
-    "§6Mithril Affinity",
-    "§7§7Grants §6+{0}⸕ Mining Speed §7when",
-    "§7mining §2Mithril§7.",
-    "",
-    "§6Subterranean Battler",
-    "§7§7Grants §a+{1}% §7of most combat stats",
-    "§7while on §bMining Islands§7.",
-    "",
-    "§7§eRight-click to add this pet to",
-    "§eyour pet menu!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Mining Pet\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"True Defense: \",\"color\":\"gray\"},{\"text\":\"{TRUE_DEFENSE}\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Fortune: \",\"color\":\"gray\"},{\"text\":\"{MINING_SPEED}\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Mithril Affinity\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+{0}⸕ Mining Speed \",\"color\":\"gold\"},{\"text\":\"when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"mining \",\"color\":\"gray\"},{\"text\":\"Mithril\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Subterranean Battler\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+{1}% \",\"color\":\"green\"},{\"text\":\"of most combat stats\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"while on \",\"color\":\"gray\"},{\"text\":\"Mining Islands\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to add this pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"your pet menu!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MITHRIL_GOLEM;2",
   "crafttext": "",
@@ -41,5 +41,8 @@
         "ENCHANTED_MITHRIL:8"
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

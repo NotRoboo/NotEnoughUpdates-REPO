@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:arrow",
-  "displayname": "§9Armorshred Arrow",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Damage: §c+5\",1:\"\",2:\"§6Passive: Defense Reduction\",3:\"§7Hits ignore §a5% §7of target\u0027s §a❈ Defense§7.\",4:\"\",5:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",6:\"§7§4❣ §cRequires §aSand Collection VII§c.\",7:\"§7§4❣ §cRequires §cTarget Practice III§c.\",8:\"§8Stats added when shot!\",9:\"§9§lRARE ARROW\"],Name:\"§9Armorshred Arrow\"},ExtraAttributes:{id:\"ARMORSHRED_ARROW\"}}",
+  "displayname": "{\"text\":\"Armorshred Arrow\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:arrow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Armorshred Arrow\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Passive: Defense Reduction\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hits ignore \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of target\u0027s \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❈ Defense\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Sand Collection VII\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Target Practice III\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"Stats added when shot!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE ARROW\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ARMORSHRED_ARROW\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+5",
-    "",
-    "§6Passive: Defense Reduction",
-    "§7Hits ignore §a5% §7of target\u0027s §a❈ Defense§7.",
-    "",
-    "§7§4❣ §cRequires §aCombat Skill 22§c.",
-    "§7§4❣ §cRequires §aSand Collection VII§c.",
-    "§7§4❣ §cRequires §cTarget Practice III§c.",
-    "§8Stats added when shot!",
-    "§9§lRARE ARROW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Passive: Defense Reduction\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hits ignore \",\"color\":\"gray\"},{\"text\":\"5% \",\"color\":\"green\"},{\"text\":\"of target\u0027s \",\"color\":\"gray\"},{\"text\":\"❈ Defense\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Sand Collection VII\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Target Practice III\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"Stats added when shot!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE ARROW\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ARMORSHRED_ARROW",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Armorshred_Arrow",
     "https://wiki.hypixel.net/Armorshred_Arrow"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:fire_charge",
-  "displayname": "§fFire Charge",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fFire Charge\"},ExtraAttributes:{id:\"FIREBALL\"}}",
+  "displayname": "{\"text\":\"Fire Charge\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:fire_charge\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fire Charge\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FIREBALL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FIREBALL",
   "modver": "2.1.1-PRE",
@@ -21,5 +21,8 @@
     "C2": "",
     "C3": "",
     "count": 3
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

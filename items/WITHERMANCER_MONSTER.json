@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Withermancer (Monster)",
-  "nbttag": "{overrideMeta:1b,display:{Lore:[0:\"§7Learned their sorcery from the\",1:\"§7most vicious of teachers.\",2:\"\",3:\"§c❤ Health§8: §c300,000 - 88,000,000\"],Name:\"§9Withermancer (Monster)\"},ExtraAttributes:{id:\"WITHERMANCER_MONSTER\"}}",
-  "damage": 1,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Withermancer (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Withermancer (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Learned their sorcery from the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"most vicious of teachers.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"300,000 - 88,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"WITHERMANCER_MONSTER\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Learned their sorcery from the",
-    "§7most vicious of teachers.",
-    "",
-    "§c❤ Health§8: §c300,000 - 88,000,000"
+    "{\"text\":\"Learned their sorcery from the\",\"color\":\"gray\"}",
+    "{\"text\":\"most vicious of teachers.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"300,000 - 88,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "WITHERMANCER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -60,5 +60,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

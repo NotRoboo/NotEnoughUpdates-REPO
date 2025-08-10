@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Awakened Eye Backpack Skin",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"addf555a-f0cd-338e-9fc0-f14626258173\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDgxODY1NzQwNSwKICAicHJvZmlsZUlkIiA6ICJiZDNhNWRmY2ZkZjg0NDczOTViZDJiZmUwNGY0YzAzMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJwcmVja3Jhc25vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhkNTlmNGRkYmIyYTA5NGMxZGE3NjU0YzFlYmY5ZDg1MTVhMmI3NWEyMjBmZDczYTY1MTM1MDcyZTM4ZDRmNjAiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7§7This skin can be applied to §aBackpacks§7.\",7:\"\",8:\"§5§lEPIC COSMETIC\"],Name:\"§5Awakened Eye Backpack Skin\"},ExtraAttributes:{id:\"AWAKENED_EYE_BACKPACK\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Awakened Eye Backpack Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Awakened Eye Backpack Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Item skins give your gear a fresh\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"new look! Apply them just like an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enchant book using the anvil.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This skin can be applied to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Backpacks\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"AWAKENED_EYE_BACKPACK\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
-    "",
-    "§7§7Item skins give your gear a fresh",
-    "§7new look! Apply them just like an",
-    "§7enchant book using the anvil.",
-    "",
-    "§7§7This skin can be applied to §aBackpacks§7.",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Item skins give your gear a fresh\",\"color\":\"gray\"}",
+    "{\"text\":\"new look! Apply them just like an\",\"color\":\"gray\"}",
+    "{\"text\":\"enchant book using the anvil.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This skin can be applied to \",\"color\":\"gray\"},{\"text\":\"Backpacks\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "AWAKENED_EYE_BACKPACK",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Awakened_Eye_Backpack_Skin",
     "https://wiki.hypixel.net/Awakened_Eye_Backpack_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

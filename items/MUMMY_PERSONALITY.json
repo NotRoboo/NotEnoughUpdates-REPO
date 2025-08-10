@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fMummy Minion Skin",
-  "nbttag": "{ExtraAttributes:{id:\"MUMMY_PERSONALITY\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"565ce69b-ab66-3abd-b426-a00f231af234\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMTc1NjY1ODM3MSwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYwNTdkMjVhYmM4MDgyYzlhY2Y1M2M3NzFiZjRiZmY1OTUzYjkzOTdkODdmYWE3ZDBiOGFiNjEyZDU5OWVmYiIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7This Minion skin changes\",1:\"§7your minion's appearance to\",2:\"§7a §eMummy§7.\",3:\"\",4:\"§7You can place this item\",5:\"§7in any minion of your\",6:\"§7choice!\",7:\"\",8:\"§f§lCOMMON COSMETIC\"],Name:\"§fMummy Minion Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mummy Minion Skin\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mummy Minion Skin\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This Minion skin changes\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"your minion\u0027s appearance to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mummy\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You can place this item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in any minion of your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"choice!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON COSMETIC\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MUMMY_PERSONALITY\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYwMTc1NjY1ODM3MSwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYwNTdkMjVhYmM4MDgyYzlhY2Y1M2M3NzFiZjRiZmY1OTUzYjkzOTdkODdmYWE3ZDBiOGFiNjEyZDU5OWVmYiIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7This Minion skin changes",
-    "§7your minion's appearance to",
-    "§7a §eMummy§7.",
-    "",
-    "§7You can place this item",
-    "§7in any minion of your",
-    "§7choice!",
-    "",
-    "§f§lCOMMON COSMETIC"
+    "{\"text\":\"This Minion skin changes\",\"color\":\"gray\"}",
+    "{\"text\":\"your minion\u0027s appearance to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a \",\"color\":\"gray\"},{\"text\":\"Mummy\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You can place this item\",\"color\":\"gray\"}",
+    "{\"text\":\"in any minion of your\",\"color\":\"gray\"}",
+    "{\"text\":\"choice!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON COSMETIC\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MUMMY_PERSONALITY",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Minion_Skin",
     "https://wiki.hypixel.net/Minion_Skins"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

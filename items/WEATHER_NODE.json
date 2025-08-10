@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:lapis_block",
-  "displayname": "§aWeather Node",
-  "nbttag": "{ExtraAttributes:{id:\"WEATHER_NODE\"},HideFlags:254,ItemModel:\"minecraft:lapis_block\",display:{Lore:[0:\"§7Change the weather on your private\",1:\"§7island.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aWeather Node\"}}",
+  "displayname": "{\"text\":\"Weather Node\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:lapis_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Weather Node\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Change the weather on your private\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"island.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WEATHER_NODE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Change the weather on your private",
-    "§7island.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Change the weather on your private\",\"color\":\"gray\"}",
+    "{\"text\":\"island.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "WEATHER_NODE",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "ENCHANTED_REDSTONE:1",
     "C2": "ENCHANTED_REDSTONE:1",
     "C3": "ENCHANTED_REDSTONE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

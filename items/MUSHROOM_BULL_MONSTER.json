@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aMushroom Bull (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2b9eb675-2097-4b51-8fec-c1a51562f19c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTE2M2JjNDE2YjhlNjA1OGY5MmIyMzFlOWE1MjRiN2ZlMTE4ZWI2ZTdlZWFiNGFkMTZkMWI1MmEzZWMwNGZjZCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Born with digestive problems.\",1:\"\",2:\"§c❤ Health§8: §c1,000,000\"],Name:\"§aMushroom Bull (Monster)\"},ExtraAttributes:{id:\"MUSHROOM_BULL_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mushroom Bull (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mushroom Bull (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Born with digestive problems.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"MUSHROOM_BULL_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Born with digestive problems.",
-    "",
-    "§c❤ Health§8: §c1,000,000"
+    "{\"text\":\"Born with digestive problems.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"1,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "MUSHROOM_BULL_MONSTER",
   "clickcommand": "viewrecipe",
@@ -55,5 +55,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

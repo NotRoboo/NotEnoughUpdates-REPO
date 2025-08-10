@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aUndead ༕ Century Cake",
-  "nbttag": "{ExtraAttributes:{id:\"EPOCH_CAKE_DARK_GREEN\",yearObtained:300},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ec05855a-8742-3c1b-b2b6-d9a104d01909\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5MjgwNDA3NTczNSwKICAicHJvZmlsZUlkIiA6ICIwYmM5ZDc3YmQ1YTA0NWMzOTY4MWUzYTRhNDIzODZlMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaXRvcmlpaW5oYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMzgzMGQyMzVjOWRlNzAzOTQ2ODY0YzI4MWY0MmY5ZDQ1NjQ3NjkxZWUzNTNmYmJiMDcyMjcxNzcwNmI4YmRhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"\",2:\"§7Furniture can be placed on your\",3:\"§7world. Some furniture is\",4:\"§7interactable while some are\",5:\"§7purely cosmetic.\",6:\"\",7:\"§7Invite your friends to share a\",8:\"§7slice of cake! Eating this cake\",9:\"§7grants §4+1♨ Vitality §7for 48\",10:\"§7hours.\",11:\"\",12:\"§7Obtained in §fYear 300§7.\",13:\"\",14:\"§a§lUNCOMMON\"],Name:\"§aUndead ༕ Century Cake\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Undead ༕ Century Cake\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Undead ༕ Century Cake\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Furniture can be placed on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"world. Some furniture is\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"interactable while some are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"purely cosmetic.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Invite your friends to share a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"slice of cake! Eating this cake\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1♨ Vitality \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"for 48\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"hours.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Year 300\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"yearObtained\":300,\"id\":\"EPOCH_CAKE_DARK_GREEN\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5MjgwNDA3NTczNSwKICAicHJvZmlsZUlkIiA6ICIwYmM5ZDc3YmQ1YTA0NWMzOTY4MWUzYTRhNDIzODZlMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaXRvcmlpaW5oYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMzgzMGQyMzVjOWRlNzAzOTQ2ODY0YzI4MWY0MmY5ZDQ1NjQ3NjkxZWUzNTNmYmJiMDcyMjcxNzcwNmI4YmRhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "",
-    "§7Furniture can be placed on your",
-    "§7world. Some furniture is",
-    "§7interactable while some are",
-    "§7purely cosmetic.",
-    "",
-    "§7Invite your friends to share a",
-    "§7slice of cake! Eating this cake",
-    "§7grants §4+1♨ Vitality §7for 48",
-    "§7hours.",
-    "",
-    "§7Obtained in §fYear 300§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Furniture can be placed on your\",\"color\":\"gray\"}",
+    "{\"text\":\"world. Some furniture is\",\"color\":\"gray\"}",
+    "{\"text\":\"interactable while some are\",\"color\":\"gray\"}",
+    "{\"text\":\"purely cosmetic.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Invite your friends to share a\",\"color\":\"gray\"}",
+    "{\"text\":\"slice of cake! Eating this cake\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"grants \",\"color\":\"gray\"},{\"text\":\"+1♨ Vitality \",\"color\":\"dark_red\"},{\"text\":\"for 48\",\"color\":\"gray\"}]}",
+    "{\"text\":\"hours.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained in \",\"color\":\"gray\"},{\"text\":\"Year 300\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "EPOCH_CAKE_DARK_GREEN",
   "clickcommand": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Undead_༕_Century_Cake",
     "https://wiki.hypixel.net/Undead_༕_Century_Cake"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

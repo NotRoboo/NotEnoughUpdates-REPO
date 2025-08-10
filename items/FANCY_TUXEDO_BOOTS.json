@@ -1,27 +1,30 @@
 {
   "internalname": "FANCY_TUXEDO_BOOTS",
   "itemid": "minecraft:leather_boots",
-  "displayname": "§6Fancy Tuxedo Oxfords",
+  "displayname": "{\"text\":\"Fancy Tuxedo Oxfords\",\"color\":\"gold\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Crit Damage: §c+35%\",1:\"§7Speed: §a+10\",2:\"§7Intelligence: §a+75\",3:\"\",4:\"§6Full Set Bonus: Dashing\",5:\"§7Max health set to §c150❤§7.\",6:\"§7Deal §c+100% §7damage!\",7:\"§8Very stylish.\",8:\"\",9:\"§6§lLEGENDARY BOOTS\"],color:3353130,Name:\"§6Fancy Tuxedo Oxfords\"},ExtraAttributes:{color:\"51:42:42\",modifier:\"godly\",id:\"FANCY_TUXEDO_BOOTS\"}}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fancy Tuxedo Oxfords\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+75\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Dashing\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max health set to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"150❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Very stylish.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY BOOTS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"51:42:42\",\"modifier\":\"godly\",\"id\":\"FANCY_TUXEDO_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§7Crit Damage: §c+35%",
-    "§7Speed: §a+10",
-    "§7Intelligence: §a+75",
-    "",
-    "§6Full Set Bonus: Dashing",
-    "§7Max health set to §c150❤§7.",
-    "§7Deal §c+100% §7damage!",
-    "§8Very stylish.",
-    "",
-    "§6§lLEGENDARY BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+35%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+75\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Dashing\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max health set to \",\"color\":\"gray\"},{\"text\":\"150❤\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"+100% \",\"color\":\"red\"},{\"text\":\"damage!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Very stylish.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY BOOTS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fancy_Tuxedo_Oxfords",
     "https://wiki.hypixel.net/Fancy_Tuxedo_Oxfords"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

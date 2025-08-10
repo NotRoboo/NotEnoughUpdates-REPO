@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fPortal to Arachne\u0027s Sanctuary",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"24d0508e-2723-377b-9720-6bacfa0f1dc3\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVlMjQ4ZGEyZTEwOGYwOTgxM2E2Yjg0OGEwZmNlZjExMTMwMDk3ODE4MGVkYTQxZDNkMWE3YThlNGRiYTNjMyJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Placing this item on your\",1:\"§7private island will create a\",2:\"§7portal to §b§4Arachne\u0027s\",3:\"§4Sanctuary§7 for you to use\",4:\"§7whenever you want!\",5:\"\",6:\"§7§8The portal will spawn facing\",7:\"§8you on the block you click on.\",8:\"\",9:\"§f§lCOMMON PORTAL\"],Name:\"§fPortal to Arachne\u0027s Sanctuary\"},ExtraAttributes:{id:\"ARACHNE_SANCTUARY_PORTAL\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Portal to Arachne\u0027s Sanctuary\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Portal to Arachne\u0027s Sanctuary\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Placing this item on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"private island will create a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"portal to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Arachne\u0027s\\\",\\\"color\\\":\\\"dark_red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sanctuary\\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\" for you to use\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"whenever you want!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"The portal will spawn facing\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"you on the block you click on.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON PORTAL\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ARACHNE_SANCTUARY_PORTAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Placing this item on your",
-    "§7private island will create a",
-    "§7portal to §b§4Arachne\u0027s",
-    "§4Sanctuary§7 for you to use",
-    "§7whenever you want!",
-    "",
-    "§7§8The portal will spawn facing",
-    "§8you on the block you click on.",
-    "",
-    "§f§lCOMMON PORTAL"
+    "{\"text\":\"Placing this item on your\",\"color\":\"gray\"}",
+    "{\"text\":\"private island will create a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"portal to \",\"color\":\"gray\"},{\"text\":\"Arachne\u0027s\",\"color\":\"dark_red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sanctuary\",\"color\":\"dark_red\"},{\"text\":\" for you to use\",\"color\":\"gray\"}]}",
+    "{\"text\":\"whenever you want!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"The portal will spawn facing\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"you on the block you click on.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON PORTAL\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ARACHNE_SANCTUARY_PORTAL",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Portals",
     "https://wiki.hypixel.net/Portals"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

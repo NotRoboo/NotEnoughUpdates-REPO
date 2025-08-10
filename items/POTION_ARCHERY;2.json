@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fArchery II Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:8b,Amplifier:1b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§bArchery II §f(3:00)\",2:\"§7Increases bow damage by §a25%§7.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fArchery II Potion\"},ExtraAttributes:{potion_level:2,potion:\"archery\",effects:[0:{level:2,effect:\"archery\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_ARCHERY;2\"}}",
-  "damage": 11,
+  "displayname": "{\"text\":\"Archery II Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Archery II Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Archery II \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases bow damage by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"25%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":2,\"potion\":\"archery\",\"effects\":\"[0:{level:2\",\"effect\":\"archery\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§bArchery II §f(3:00)",
-    "§7Increases bow damage by §a25%§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Archery II \",\"color\":\"aqua\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases bow damage by \",\"color\":\"gray\"},{\"text\":\"25%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_ARCHERY;2",
   "crafttext": "",
   "clickcommand": "POTION_AGILITY",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

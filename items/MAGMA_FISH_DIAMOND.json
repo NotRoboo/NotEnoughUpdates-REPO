@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dDiamond Magmafish",
-  "nbttag": "{ExtraAttributes:{id:\"MAGMA_FISH_DIAMOND\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"db68facc-cc18-3d5e-817b-a662226ced95\",Properties:{textures:[0:{Name:\"textures\",Signature:\"NtUdiy/N14lCMp6JvX9PjfyQ8GR6WykO2M7fRSc9DsJp/gBG3+ytf/Z/xZotbJgpkBW11CxUIwt/SpJJ6D1KiRn813/gpnPbA+u8TQuyJK6oe571JtsPLZwDzjbURpntRvZUUBCunOFpbKYl5FLc0DNPYjvNq9Z4AsRDhuxVL975jMfUnLFbKlR14xEBMbLMpup2XO0WzCGJdymaDvQ0yimvbIG+CsSNLRTtzUmITx2KTEzE28DFOwz46HixXQsdT0Ljy9AIn4tmZY12v6xuMbRdd7VyhLYzYsnakV9JzipS6UP7zn1y9sAiZ6TGpksw8l7sNMbr03jSe0m3Y/zja7hLwisd182ulUc/ZwHGfMXCzDbogMXMDZVo/2qsqhHvWs0h+mY5/QvAyoqD2mAmY66Dqw/0GpFYXk9g14BYt07CF9d4IczEq0ToIn097diKY2LpwULebIfZ/ps+GMAGPcvT3+l+vNm0G9KuGd2dI/tTxtGJUdliqCEYKwKQVlZyy1K545KfgrS7y/Hz8PH/zWeN8KDs91MqS/8dGML8BYVIWRQ4ORxD7SeOBTFl/uh0cHce8zrwu8HkiZW2lW99I2tlyKyEv2qlzzUiXiatzYI7cL7AH1VJCb2ZHLTwr/kGN+ghbN2WRIaXdi80NuNmVePP0xNNk9NN6D1oxtk/zyA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MjQ4ODAyMTk3MiwKICAicHJvZmlsZUlkIiA6ICI2OTBkMDM2OGM2NTE0OGM5ODZjMzEwN2FjMmRjNjFlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5emZyXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliMzkzZWI2YTViZDY1ZDczNWFhYTNiM2NmYTk5M2I1MGY1ZTUzNmQ3YTEzYjUzNTUxNGJkMDc0MGQ2MzM1MCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§d§lMYTHIC\"],Name:\"§dDiamond Magmafish\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Diamond Magmafish\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Magmafish\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MAGMA_FISH_DIAMOND\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0MjQ4ODAyMTk3MiwKICAicHJvZmlsZUlkIiA6ICI2OTBkMDM2OGM2NTE0OGM5ODZjMzEwN2FjMmRjNjFlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5emZyXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliMzkzZWI2YTViZDY1ZDczNWFhYTNiM2NmYTk5M2I1MGY1ZTUzNmQ3YTEzYjUzNTUxNGJkMDc0MGQ2MzM1MCIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§d§lMYTHIC"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "MAGMA_FISH_DIAMOND",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "MAGMA_FISH_GOLD:4",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

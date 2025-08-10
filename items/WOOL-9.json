@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:wool",
-  "displayname": "§fCyan Wool",
-  "nbttag": "{ExtraAttributes:{id:\"WOOL-9\"},HideFlags:254,ItemModel:\"minecraft:cyan_wool\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCyan Wool\"}}",
-  "damage": 9,
+  "itemid": "minecraft:cyan_wool",
+  "displayname": "{\"text\":\"Cyan Wool\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:cyan_wool\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cyan Wool\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WOOL-9\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WOOL-9",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

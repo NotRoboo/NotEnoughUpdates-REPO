@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:feather",
-  "displayname": "§9Griffin Feather",
-  "nbttag": "{ExtraAttributes:{id:\"GRIFFIN_FEATHER\"},HideFlags:254,ItemModel:\"minecraft:feather\",display:{Lore:[0:\"§7Drops rarely off of monsters\",1:\"§7from Diana's Mythological\",2:\"§7Ritual.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Griffin Feather\"}}",
+  "displayname": "{\"text\":\"Griffin Feather\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:feather\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Griffin Feather\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Drops rarely off of monsters\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"from Diana\u0027s Mythological\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Ritual.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GRIFFIN_FEATHER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Drops rarely off of monsters",
-    "§7from Diana's Mythological",
-    "§7Ritual.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Drops rarely off of monsters\",\"color\":\"gray\"}",
+    "{\"text\":\"from Diana\u0027s Mythological\",\"color\":\"gray\"}",
+    "{\"text\":\"Ritual.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "GRIFFIN_FEATHER",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Griffin_Feather",
     "https://wiki.hypixel.net/Griffin_Feather"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

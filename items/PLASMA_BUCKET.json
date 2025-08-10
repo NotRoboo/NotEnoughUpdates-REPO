@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:lava_bucket",
-  "displayname": "§dPlasma Bucket",
-  "nbttag": "{ExtraAttributes:{id:\"PLASMA_BUCKET\"},HideFlags:254,ItemModel:\"minecraft:lava_bucket\",display:{Lore:[0:\"§7Increases the speed of your minion\",1:\"§7by §a35%§7. Unlimited Duration!\",2:\"\",3:\"§d§lMYTHIC\"],Name:\"§dPlasma Bucket\"},ench:[]}",
+  "displayname": "{\"text\":\"Plasma Bucket\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:lava_bucket\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Plasma Bucket\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Increases the speed of your minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"35%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\". Unlimited Duration!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PLASMA_BUCKET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Increases the speed of your minion",
-    "§7by §a35%§7. Unlimited Duration!",
-    "",
-    "§d§lMYTHIC"
+    "{\"text\":\"Increases the speed of your minion\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"35%\",\"color\":\"green\"},{\"text\":\". Unlimited Duration!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "PLASMA_BUCKET",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

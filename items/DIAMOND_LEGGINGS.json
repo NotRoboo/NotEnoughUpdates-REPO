@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:diamond_leggings",
-  "displayname": "§aDiamond Leggings",
-  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:diamond_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+30\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON LEGGINGS\"],Name:\"§aDiamond Leggings\"}}",
+  "displayname": "{\"text\":\"Diamond Leggings\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Leggings\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON LEGGINGS\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+30",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON LEGGINGS\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DIAMOND_LEGGINGS",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C2": "",
     "C3": "DIAMOND:1"
   },
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

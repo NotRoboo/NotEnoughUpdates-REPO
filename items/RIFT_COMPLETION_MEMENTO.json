@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§cThere and Back Again",
-  "nbttag": "{ExtraAttributes:{date:1733853871357L,edition:-1,id:\"RIFT_COMPLETION_MEMENTO\",recipient_id:\"8a9f1841-48e9-48ed-b14f-76a124e6c9df\",recipient_name:\"§b[MVP§3+§b] Eisengolem§f\"},HideFlags:254,ItemModel:\"minecraft:book\",display:{Lore:[0:\"§7Commemorates your participation in\",1:\"§7the §5Breach Close §7event.\",2:\"\",3:\"§7Earned by: §b[MVP§3+§b] Eisengolem\",4:\"§8December 10, 2024\",5:\"\",6:\"§8Memento acquirer name becomes\",7:\"§8hidden if traded.\",8:\"\",9:\"§7§oThis book will never find a publisher.\",10:\"\",11:\"§c§lSPECIAL MEMENTO\"],Name:\"§cThere and Back Again\"}}",
+  "displayname": "{\"text\":\"There and Back Again\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"There and Back Again\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Commemorates your participation in\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Breach Close \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"event.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Earned by: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"[MVP\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"] Eisengolem\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"December 10, 2024\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Memento acquirer name becomes\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"hidden if traded.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This book will never find a publisher.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL MEMENTO\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"date\":\"1733853871357L\",\"edition\":-1,\"id\":\"RIFT_COMPLETION_MEMENTO\",\"recipient_name\":\"§b[MVP§3+§b] Eisengolem§f\",\"recipient_id\":\"8a9f1841-48e9-48ed-b14f-76a124e6c9df\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Commemorates your participation in",
-    "§7the §5Breach Close §7event.",
-    "",
-    "§7Earned by: §b[MVP§3+§b] Eisengolem",
-    "§8December 10, 2024",
-    "",
-    "§8Memento acquirer name becomes",
-    "§8hidden if traded.",
-    "",
-    "§7§oThis book will never find a publisher.",
-    "",
-    "§c§lSPECIAL MEMENTO"
+    "{\"text\":\"Commemorates your participation in\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the \",\"color\":\"gray\"},{\"text\":\"Breach Close \",\"color\":\"dark_purple\"},{\"text\":\"event.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Earned by: \",\"color\":\"gray\"},{\"text\":\"[MVP\",\"color\":\"aqua\"},{\"text\":\"+\",\"color\":\"dark_aqua\"},{\"text\":\"] Eisengolem\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"December 10, 2024\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Memento acquirer name becomes\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"hidden if traded.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This book will never find a publisher.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL MEMENTO\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "RIFT_COMPLETION_MEMENTO",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/There_And_Back_Again"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

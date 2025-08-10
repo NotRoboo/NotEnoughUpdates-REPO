@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:prismarine_shard",
-  "displayname": "§aEnchanted Prismarine Shard",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_PRISMARINE_SHARD\"},HideFlags:254,ItemModel:\"minecraft:prismarine_shard\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Prismarine Shard\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Prismarine Shard\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:prismarine_shard\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Prismarine Shard\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_PRISMARINE_SHARD\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_PRISMARINE_SHARD",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "PRISMARINE_SHARD:16",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§9Guardian Chestplate",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+20\",1:\"§7Defense: §a+50\",2:\"\",3:\"§6Ability: Block Damage\",4:\"§7If you are at full §c❤ Health§7,\",5:\"§7the first damage you take will\",6:\"§7be nullified.\",7:\"§8Cooldown: §a60s\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§9§lRARE CHESTPLATE\"],color:1143697,Name:\"§9Guardian Chestplate\"},ExtraAttributes:{color:\"17:115:145\",id:\"GUARDIAN_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Guardian Chestplate\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Guardian Chestplate\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Block Damage\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"If you are at full \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"the first damage you take will\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"be nullified.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"60s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE CHESTPLATE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+20",
-    "§7Defense: §a+50",
-    "",
-    "§6Ability: Block Damage",
-    "§7If you are at full §c❤ Health§7,",
-    "§7the first damage you take will",
-    "§7be nullified.",
-    "§8Cooldown: §a60s",
-    "",
-    "§7§8This item can be reforged!",
-    "§9§lRARE CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Block Damage\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"If you are at full \",\"color\":\"gray\"},{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"the first damage you take will\",\"color\":\"gray\"}",
+    "{\"text\":\"be nullified.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"60s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE CHESTPLATE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "PRISMARINE_SHARD:64",
@@ -35,5 +35,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Guardian_Chestplate",
     "https://wiki.hypixel.net/Guardian_Chestplate"
   ],
-  "crafttext": "Requires: Prismarine Crystals V"
+  "crafttext": "Requires: Prismarine Crystals V",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

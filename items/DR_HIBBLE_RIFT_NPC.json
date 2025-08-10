@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dDr. Hibble (Rift NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"39d9f7d3-08cb-2a53-b72f-b26595f30da7\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IwNDMwMzI1NTExM2QyNGQ3MWExNTNmYWYxMGUzMzJmNzJiM2U2NmEzMDljYjY1NGE4YmMzN2EyN2I5Y2QwNGYifX19\"}]},Name:\"39d9f7d3-08cb-2a53-b72f-b26595f30da7\"},display:{Lore:[0:\"§7Also known as §dDr. Edwin§7.\"],Name:\"§dDr. Hibble (Rift NPC)\"},ExtraAttributes:{id:\"DR_HIBBLE_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Dr. Hibble (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dr. Hibble (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Also known as \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Dr. Edwin\\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"DR_HIBBLE_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Also known as §dDr. Edwin§7."
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Also known as \",\"color\":\"gray\"},{\"text\":\"Dr. Edwin\",\"color\":\"light_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}"
   ],
   "internalname": "DR_HIBBLE_RIFT_NPC",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dr._Hibble",
     "https://wiki.hypixel.net/Dr._Hibble"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

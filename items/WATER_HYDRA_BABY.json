@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Baby Hydra Skin",
-  "nbttag": "{ExtraAttributes:{id:\"WATER_HYDRA_BABY\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"414b0994-df26-36d3-b3ad-6d813ac35873\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDgxODY4MDg1MSwKICAicHJvZmlsZUlkIiA6ICJiYTBhMzYwZDM5ZDQ0N2JmOTNiZjBhMTU2ZDUzZTZjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW9sb3oxMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTViNjU2YmU2NmJlNTUyYzM2ZTQ3ZmVmZDIwOTczODMyMWRmYmUyMTBkMDMzODExZTFlNDRhYzI5OTM3YzgxNCIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7This skin can be applied to §5Water\",7:\"§5Hydra Head§7.\",8:\"\",9:\"§5§lEPIC COSMETIC\"],Name:\"§5Baby Hydra Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Baby Hydra Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Baby Hydra Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Item skins give your gear a fresh\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"new look! Apply them just like an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enchant book using the anvil.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This skin can be applied to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Water\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hydra Head\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WATER_HYDRA_BABY\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDgxODY4MDg1MSwKICAicHJvZmlsZUlkIiA6ICJiYTBhMzYwZDM5ZDQ0N2JmOTNiZjBhMTU2ZDUzZTZjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW9sb3oxMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTViNjU2YmU2NmJlNTUyYzM2ZTQ3ZmVmZDIwOTczODMyMWRmYmUyMTBkMDMzODExZTFlNDRhYzI5OTM3YzgxNCIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Item skins give your gear a fresh",
-    "§7new look! Apply them just like an",
-    "§7enchant book using the anvil.",
-    "",
-    "§7This skin can be applied to §5Water",
-    "§5Hydra Head§7.",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Item skins give your gear a fresh\",\"color\":\"gray\"}",
+    "{\"text\":\"new look! Apply them just like an\",\"color\":\"gray\"}",
+    "{\"text\":\"enchant book using the anvil.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This skin can be applied to \",\"color\":\"gray\"},{\"text\":\"Water\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hydra Head\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "WATER_HYDRA_BABY",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Baby_Hydra_Skin",
     "https://wiki.hypixel.net/Baby_Hydra_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

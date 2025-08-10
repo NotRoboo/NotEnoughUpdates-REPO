@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Titanium-Infused Fuel Tank",
-  "nbttag": "{ExtraAttributes:{id:\"TITANIUM_FUEL_TANK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ea357076-cac7-3a8b-8199-f9b9ebec2798\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDYzNjU2MzgwNywKICAicHJvZmlsZUlkIiA6ICJiMGQ0YjI4YmMxZDc0ODg5YWYwZTg2NjFjZWU5NmFhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl9vcmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWVmNWFjZjEzNGZhOTUyZjEzZmRmMGIzODk5MDYwY2MxOGViYzBhOTcxMzQ3ZTQ1YTMxZWNmOTVhNGIwYjMxYyIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§225,000 Max Fuel Capacity\",3:\"§a-4% Pickaxe Ability Cooldown\",4:\"\",5:\"§7Put this item in the §6Fuel Tank §7slot of\",6:\"§7a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§4❣ §cRequires §5Heart of the Mountain Tier 5§c.\",9:\"§9§lRARE\"],Name:\"§9Titanium-Infused Fuel Tank\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Titanium-Infused Fuel Tank\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Titanium-Infused Fuel Tank\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Drill Part\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"25,000 Max Fuel Capacity\\\",\\\"color\\\":\\\"dark_green\\\"}\",\"{\\\"text\\\":\\\"-4% Pickaxe Ability Cooldown\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Put this item in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Fuel Tank \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"slot of\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a Drill at a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Drill Mechanic\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 5\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TITANIUM_FUEL_TANK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDYzNjU2MzgwNywKICAicHJvZmlsZUlkIiA6ICJiMGQ0YjI4YmMxZDc0ODg5YWYwZTg2NjFjZWU5NmFhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl9vcmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWVmNWFjZjEzNGZhOTUyZjEzZmRmMGIzODk5MDYwY2MxOGViYzBhOTcxMzQ3ZTQ1YTMxZWNmOTVhNGIwYjMxYyIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Drill Part",
-    "",
-    "§225,000 Max Fuel Capacity",
-    "§a-4% Pickaxe Ability Cooldown",
-    "",
-    "§7Put this item in the §6Fuel Tank §7slot of",
-    "§7a Drill at a §2Drill Mechanic§7!",
-    "",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 5§c.",
-    "§9§lRARE"
+    "{\"text\":\"Drill Part\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"25,000 Max Fuel Capacity\",\"color\":\"dark_green\"}",
+    "{\"text\":\"-4% Pickaxe Ability Cooldown\",\"color\":\"green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Put this item in the \",\"color\":\"gray\"},{\"text\":\"Fuel Tank \",\"color\":\"gold\"},{\"text\":\"slot of\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a Drill at a \",\"color\":\"gray\"},{\"text\":\"Drill Mechanic\",\"color\":\"dark_green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 5\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "TITANIUM_FUEL_TANK",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
       "overrideOutputId": "TITANIUM_FUEL_TANK",
       "duration": 30
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

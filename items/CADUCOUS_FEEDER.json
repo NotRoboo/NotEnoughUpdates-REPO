@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:bowl",
-  "displayname": "§9Caducous Feeder",
-  "nbttag": "{ExtraAttributes:{id:\"CADUCOUS_FEEDER\"},HideFlags:254,ItemModel:\"minecraft:bowl\",display:{Lore:[0:\"§7Use on a pet to consume an §6Ultimate\",1:\"§6Carrot Candy §7and grant it §a1,650,000\",2:\"§7pet Exp.\",3:\"\",4:\"§7Has §e2 charges§7, reloading after §a20h§7.\",5:\"\",6:\"§5§kX§5 Rift-Transferable §r§kX\",7:\"§9§lRARE\"],Name:\"§9Caducous Feeder\"},ench:[]}",
+  "displayname": "{\"text\":\"Caducous Feeder\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:bowl\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Caducous Feeder\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Use on a pet to consume an \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Ultimate\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Carrot Candy \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"and grant it \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1,650,000\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"pet Exp.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Has \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2 charges\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\", reloading after \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20h\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CADUCOUS_FEEDER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Use on a pet to consume an §6Ultimate",
-    "§6Carrot Candy §7and grant it §a1,650,000",
-    "§7pet Exp.",
-    "",
-    "§7Has §e2 charges§7, reloading after §a20h§7.",
-    "",
-    "§5§kX§5 Rift-Transferable §r§kX",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Use on a pet to consume an \",\"color\":\"gray\"},{\"text\":\"Ultimate\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Carrot Candy \",\"color\":\"gold\"},{\"text\":\"and grant it \",\"color\":\"gray\"},{\"text\":\"1,650,000\",\"color\":\"green\"}]}",
+    "{\"text\":\"pet Exp.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Has \",\"color\":\"gray\"},{\"text\":\"2 charges\",\"color\":\"yellow\"},{\"text\":\", reloading after \",\"color\":\"gray\"},{\"text\":\"20h\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"obfuscated\":true}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "CADUCOUS_FEEDER",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "CADUCOUS_STEM:64",
     "C2": "CADUCOUS_STEM:64",
     "C3": "CADUCOUS_STEM:64"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:bone",
-  "displayname": "§fBone",
-  "nbttag": "{ExtraAttributes:{id:\"BONE\"},HideFlags:254,ItemModel:\"minecraft:bone\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fBone\"}}",
+  "displayname": "{\"text\":\"Bone\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:bone\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bone\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BONE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "BONE",
   "clickcommand": "",
@@ -17,5 +17,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Bone",
     "https://wiki.hypixel.net/Bone"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

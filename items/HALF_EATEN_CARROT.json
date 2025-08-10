@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:carrot",
-  "displayname": "§fHalf-Eaten Carrot",
-  "nbttag": "{ExtraAttributes:{id:\"HALF_EATEN_CARROT\"},HideFlags:254,ItemModel:\"minecraft:carrot\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fHalf-Eaten Carrot\"}}",
+  "displayname": "{\"text\":\"Half-Eaten Carrot\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:carrot\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Half-Eaten Carrot\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HALF_EATEN_CARROT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "HALF_EATEN_CARROT",
   "clickcommand": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Half-Eaten_Carrot",
     "https://wiki.hypixel.net/Half-Eaten_Carrot"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

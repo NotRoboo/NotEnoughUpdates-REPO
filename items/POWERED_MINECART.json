@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:furnace_minecart",
-  "displayname": "§fMinecart with Furnace",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMinecart with Furnace\"},ExtraAttributes:{id:\"POWERED_MINECART\"}}",
+  "displayname": "{\"text\":\"Minecart with Furnace\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:furnace_minecart\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Minecart with Furnace\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"POWERED_MINECART\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POWERED_MINECART",
   "modver": "1.3-REL",
@@ -20,5 +20,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

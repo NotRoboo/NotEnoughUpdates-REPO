@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§5Shadows indicate riddles, illuminating unseen stars",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Penned by the enigmatic\",1:\"§7merchant, Sirius, this tome\",2:\"§7unveils his \u0027humble\u0027 origins,\",3:\"§7draped in shadow and affluence.\",4:\"§7A tale of ambition where modesty\",5:\"§7meets grandeur.\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§5§lEPIC\"],Name:\"§5Shadows indicate riddles, illuminating unseen stars\"},ExtraAttributes:{id:\"SIRIUS_BOOK\"}}",
+  "displayname": "{\"text\":\"Shadows indicate riddles, illuminating unseen stars\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shadows indicate riddles, illuminating unseen stars\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Penned by the enigmatic\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"merchant, Sirius, this tome\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"unveils his \u0027humble\u0027 origins,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"draped in shadow and affluence.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"A tale of ambition where modesty\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"meets grandeur.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7§7Penned by the enigmatic",
-    "§7merchant, Sirius, this tome",
-    "§7unveils his \u0027humble\u0027 origins,",
-    "§7draped in shadow and affluence.",
-    "§7A tale of ambition where modesty",
-    "§7meets grandeur.",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§5§lEPIC"
+    "{\"text\":\"Penned by the enigmatic\",\"color\":\"gray\"}",
+    "{\"text\":\"merchant, Sirius, this tome\",\"color\":\"gray\"}",
+    "{\"text\":\"unveils his \u0027humble\u0027 origins,\",\"color\":\"gray\"}",
+    "{\"text\":\"draped in shadow and affluence.\",\"color\":\"gray\"}",
+    "{\"text\":\"A tale of ambition where modesty\",\"color\":\"gray\"}",
+    "{\"text\":\"meets grandeur.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SIRIUS_BOOK",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Shadows_Indicate_Riddles,_Illuminating_Unseen_Stars"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

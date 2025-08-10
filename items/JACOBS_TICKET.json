@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:name_tag",
-  "displayname": "§aJacob's Ticket",
-  "nbttag": "{ExtraAttributes:{id:\"JACOBS_TICKET\"},HideFlags:254,ItemModel:\"minecraft:name_tag\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aJacob's Ticket\"}}",
+  "displayname": "{\"text\":\"Jacob\u0027s Ticket\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:name_tag\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jacob\u0027s Ticket\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"JACOBS_TICKET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§a§lUNCOMMON"
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "JACOBS_TICKET",
   "clickcommand": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Jacob%27s_Ticket",
     "https://wiki.hypixel.net/Jacob%27s_Ticket"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

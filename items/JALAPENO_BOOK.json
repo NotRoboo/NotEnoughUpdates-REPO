@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§5Jalapeno Book",
-  "nbttag": "{ExtraAttributes:{id:\"JALAPENO_BOOK\"},HideFlags:254,ItemModel:\"minecraft:book\",display:{Lore:[0:\"§7Combine this Book in an Anvil with a\",1:\"§7deployable to gain a small but\",2:\"§7permanent stat boost!\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Jalapeno Book\"},ench:[]}",
+  "displayname": "{\"text\":\"Jalapeno Book\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jalapeno Book\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combine this Book in an Anvil with a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"deployable to gain a small but\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"permanent stat boost!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"JALAPENO_BOOK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Combine this Book in an Anvil with a",
-    "§7deployable to gain a small but",
-    "§7permanent stat boost!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Combine this Book in an Anvil with a\",\"color\":\"gray\"}",
+    "{\"text\":\"deployable to gain a small but\",\"color\":\"gray\"}",
+    "{\"text\":\"permanent stat boost!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "JALAPENO_BOOK",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "",
     "C2": "ENCHANTED_PAPER:1",
     "C3": "STUFFED_CHILI_PEPPER:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

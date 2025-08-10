@@ -1,26 +1,26 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Gleaming Crystal",
-  "nbttag": "{ExtraAttributes:{id:\"GLEAMING_CRYSTAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"821967c9-d02a-346f-affb-800ebfaf0cd2\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNjA3Nzk5ODU0MiwKICAicHJvZmlsZUlkIiA6ICIxMWY3ZTIxMDMyOGE0MjRmYTU0NmFlZDk1M2FkNGU3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2b2lkd2lyZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MTU2MTAxMjk4MmMyMGQ0MGM2MDRiMmRiOWVkZGI4NDc5OTQ0NzE1YjkxZWZiYzEyZGZhYjE3NzVjODYxMGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Lustrous §7reforge when\",4:\"§7combined with a mining tool.\",5:\"\",6:\"§9Lustrous §7(§6Legendary§7):\",7:\"§7Mining Speed: §a+50\",8:\"§7Mining Fortune: §a+50\",9:\"\",10:\"§9Lustrous Bonus\",11:\"§7Grants §e+25▚ Mining Spread §7during\",12:\"§6Mining Fiesta§7.\",13:\"\",14:\"§7Requires §aMining Skill Level XXIV§7!\",15:\"\",16:\"§5§lEPIC REFORGE STONE\"],Name:\"§5Gleaming Crystal\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Gleaming Crystal\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gleaming Crystal\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Reforge Stone\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Combinable in Reforge Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applies the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Lustrous \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"reforge when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"combined with a mining tool.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Lustrous \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"(\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Legendary\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"):\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Lustrous Bonus\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25▚ Mining Spread \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"during\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Fiesta\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mining Skill Level XXIV\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC REFORGE STONE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GLEAMING_CRYSTAL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcwNjA3Nzk5ODU0MiwKICAicHJvZmlsZUlkIiA6ICIxMWY3ZTIxMDMyOGE0MjRmYTU0NmFlZDk1M2FkNGU3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2b2lkd2lyZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MTU2MTAxMjk4MmMyMGQ0MGM2MDRiMmRiOWVkZGI4NDc5OTQ0NzE1YjkxZWZiYzEyZGZhYjE3NzVjODYxMGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Reforge Stone",
-    "§8Combinable in Reforge Anvil",
-    "",
-    "§7Applies the §9Lustrous §7reforge when",
-    "§7combined with a mining tool.",
-    "",
-    "§9Lustrous §7(§6Legendary§7):",
-    "§7Mining Speed: §a+50",
-    "§7Mining Fortune: §a+50",
-    "",
-    "§9Lustrous Bonus",
-    "§7Grants §e+25▚ Mining Spread §7during",
-    "§6Mining Fiesta§7.",
-    "",
-    "§7Requires §aMining Skill Level XXIV§7!",
-    "",
-    "§5§lEPIC REFORGE STONE"
+    "{\"text\":\"Reforge Stone\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Combinable in Reforge Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applies the \",\"color\":\"gray\"},{\"text\":\"Lustrous \",\"color\":\"blue\"},{\"text\":\"reforge when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"combined with a mining tool.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Lustrous \",\"color\":\"blue\"},{\"text\":\"(\",\"color\":\"gray\"},{\"text\":\"Legendary\",\"color\":\"gold\"},{\"text\":\"):\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Fortune: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Lustrous Bonus\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+25▚ Mining Spread \",\"color\":\"yellow\"},{\"text\":\"during\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Fiesta\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"Mining Skill Level XXIV\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC REFORGE STONE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "GLEAMING_CRYSTAL",
   "clickcommand": "viewrecipe",
@@ -43,5 +43,8 @@
       "overrideOutputId": "GLEAMING_CRYSTAL",
       "duration": 21600
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Gulliver (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"554742a1-1d83-24de-8a46-8bf71ca70e7a\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg3NzkxYWNkNDg2OGI1ZjJiMmMxNzU2YWY5M2I1M2RlMTIwYmRmNzMyYjA1NmJhZDYwMjcyNjVkYmIxMTM1ZjUifX19\"}]},Name:\"554742a1-1d83-24de-8a46-8bf71ca70e7a\"},display:{Lore:[0:\"\"],Name:\"§9Gulliver (NPC)\"},ExtraAttributes:{id:\"GULLIVER_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Gulliver (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gulliver (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"GULLIVER_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "GULLIVER_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gulliver",
     "https://wiki.hypixel.net/Gulliver"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§5Spooky Boots",
-  "nbttag": "{ExtraAttributes:{id:\"SPOOKY_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+25\",1:\"\",2:\"§7Each armor piece grants §a+5% §7chance\",3:\"§7to get Candy from mobs during the\",4:\"§6Spooky Festival§7.\",5:\"\",6:\"§6Full Set Bonus: Candy Man §7(0/4)\",7:\"§7Grants a §a+5% §7chance to find rare\",8:\"§7Candy.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§5§lEPIC BOOTS\"],Name:\"§5Spooky Boots\",color:6316128}}",
+  "displayname": "{\"text\":\"Spooky Boots\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spooky Boots\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Each armor piece grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"to get Candy from mobs during the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spooky Festival\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Candy Man \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance to find rare\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Candy.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC BOOTS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPOOKY_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+25",
-    "",
-    "§7Each armor piece grants §a+5% §7chance",
-    "§7to get Candy from mobs during the",
-    "§6Spooky Festival§7.",
-    "",
-    "§6Full Set Bonus: Candy Man §7(0/4)",
-    "§7Grants a §a+5% §7chance to find rare",
-    "§7Candy.",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Each armor piece grants \",\"color\":\"gray\"},{\"text\":\"+5% \",\"color\":\"green\"},{\"text\":\"chance\",\"color\":\"gray\"}]}",
+    "{\"text\":\"to get Candy from mobs during the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spooky Festival\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Candy Man \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants a \",\"color\":\"gray\"},{\"text\":\"+5% \",\"color\":\"green\"},{\"text\":\"chance to find rare\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Candy.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC BOOTS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SPOOKY_BOOTS",
   "clickcommand": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Spooky_Boots",
     "https://wiki.hypixel.net/Spooky_Boots"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

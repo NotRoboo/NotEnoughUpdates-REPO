@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Storm in a Bottle",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fe108fbb-f812-3c36-aa60-92d804f496ee\",hypixelPopulated:1b,Properties:{textures:[0:{Signature:\"u0pf0qSuKPlh4n/DbDqlYBZGDJAvj8qYEHe41GYm19I8jJXwAwrTgIsncDQX0sfnayef72XXAhB5fLllB7s38kSdQsnvqiXbQ5kjim4x1EHr9VWe3DF5rfpumKL6yrwrmZgT+LmSQQYkjyqVbBrifiFPkkw4gw+52nBwGlqjH4OSCFhFs995LJKd32lA+QztWufALaL+rrP+FzMxJJrMOSR0Ng0uzHylCnhe+tGptFtjyQnCg73P3A0PdgZmcnANNYVQmAVK6uAuxbp098eaHkaLdikkiN5v/h2zC2aY5umhm7mnpbwkeHHTSkNvD6/LprccS3h36Epc1mH9hLnotfVEs4gG4sc/sMJkKLWdGZro1fLhkp9pH9tXlpLky9Ewq34a0opGvrp/tqLf5ydSCE02SpjdFoJltzSkRmV4ai4MsauXh/CMwGmckT4Dyt2a5q5RcR0o/z16pMOmL9iR9Rb6D3D82s/e/t0SLdJETt1VFMagBBFPmgcEP/zrf1v/3jZn1th6DWgy6SudQXAvFgisG1Mw6z8j4/rEYlmJgkmBwSNkmUwJ8sn3WwVveQr29NRIVBjm+p7+BX51zfRzmtAxAsPeVkgss4bueNPfahnbBlnbrBLRrR6lIkojYqQKG8YrWuvtM2VGjMWX6BXNC1mWhdlAk1ho7Sp7ca8W+lI\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMDY0NzM3MDk0NCwKICAicHJvZmlsZUlkIiA6ICJhZDEwM2FhODMzNWM0ZDA4YjNlZWI2ZDI2NjNkMzA0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJJY2hpaW5uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NjNmVhOGRhMmNlM2RhMzJiMzE0MGIwNzI4YmUwOWMwNmY2YzM3ZTBjMmVkOTIzZTA2YzAzMmM4NTMyMDhhNCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7§7What happens if you open it? The\",3:\"§7answer may shock you.\",4:\"\",5:\"§7Charge: §e500,000§6/§e500,000\",6:\"\",7:\"§5§lEPIC\"],Name:\"§5Storm in a Bottle\"},ExtraAttributes:{id:\"STORM_IN_A_BOTTLE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Storm in a Bottle\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Storm in a Bottle\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"What happens if you open it? The\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"answer may shock you.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Charge: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"500,000\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"500,000\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STORM_IN_A_BOTTLE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
-    "",
-    "§7§7What happens if you open it? The",
-    "§7answer may shock you.",
-    "",
-    "§7Charge: §e500,000§6/§e500,000",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"What happens if you open it? The\",\"color\":\"gray\"}",
+    "{\"text\":\"answer may shock you.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Charge: \",\"color\":\"gray\"},{\"text\":\"500,000\",\"color\":\"yellow\"},{\"text\":\"/\",\"color\":\"gold\"},{\"text\":\"500,000\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "STORM_IN_A_BOTTLE",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Storm_in_a_Bottle",
     "https://wiki.hypixel.net/Storm_In_A_Bottle"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

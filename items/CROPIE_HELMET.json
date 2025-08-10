@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Cropie Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"CROPIE_HELMET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"479dc83d-b320-38b3-a82f-2dfef15a95fe\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2Mzc1MzgzNzM2OCwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRiYWNiOTY3MzRlMjQ0YjlmNzMzMWQ0NTNlNjg2ZmEyZTMyNTIyYTQxMWFhNTY4Zjk2MGU3NDFkNzRiMzI4OSIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Health: §a+110\",1:\"§7Defense: §a+30\",2:\"§7Speed: §a+3\",3:\"§7Farming Fortune: §a+20\",4:\" §8[☘]\",5:\"\",6:\"§8Tiered Bonus: Squashbuckle (0/4)\",7:\"§7Farming Pumpkins, Melons, and Cocoa\",8:\"§7Beans have a §a0.01% §7chance of\",9:\"§7dropping a Squash. Grants §60☘\",10:\"§6Farming Fortune§7.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4❣ §cRequires §aFarming Skill 30§c.\",14:\"§9§lRARE HELMET\"],Name:\"§9Cropie Helmet\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Cropie Helmet\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cropie Helmet\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+110\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Farming Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[☘]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Squashbuckle (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Farming Pumpkins, Melons, and Cocoa\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Beans have a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0.01% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance of\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"dropping a Squash. Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0☘\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Farming Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 30\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE HELMET\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CROPIE_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY2Mzc1MzgzNzM2OCwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRiYWNiOTY3MzRlMjQ0YjlmNzMzMWQ0NTNlNjg2ZmEyZTMyNTIyYTQxMWFhNTY4Zjk2MGU3NDFkNzRiMzI4OSIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Health: §a+110",
-    "§7Defense: §a+30",
-    "§7Speed: §a+3",
-    "§7Farming Fortune: §a+20",
-    " §8[☘]",
-    "",
-    "§8Tiered Bonus: Squashbuckle (0/4)",
-    "§7Farming Pumpkins, Melons, and Cocoa",
-    "§7Beans have a §a0.01% §7chance of",
-    "§7dropping a Squash. Grants §60☘",
-    "§6Farming Fortune§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aFarming Skill 30§c.",
-    "§9§lRARE HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+110\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+3\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Farming Fortune: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[☘]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Squashbuckle (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Farming Pumpkins, Melons, and Cocoa\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Beans have a \",\"color\":\"gray\"},{\"text\":\"0.01% \",\"color\":\"green\"},{\"text\":\"chance of\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"dropping a Squash. Grants \",\"color\":\"gray\"},{\"text\":\"0☘\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Farming Fortune\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 30\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE HELMET\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "CROPIE_HELMET",
   "clickcommand": "viewrecipe",
@@ -39,5 +39,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

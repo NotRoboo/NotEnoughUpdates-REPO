@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:blaze_powder",
-  "displayname": "§9Flames",
-  "nbttag": "{ExtraAttributes:{id:\"FLAMES\"},HideFlags:254,ItemModel:\"minecraft:blaze_powder\",display:{Lore:[0:\"§7§oSome say that the same substance\",1:\"§7§ocan be found in the abdomen of\",2:\"§7§oDragons, allowing them to breathe\",3:\"§7§ofire. Cinderbats are much cuter\",4:\"§7§othough.\",5:\"\",6:\"§eRight-click to view recipes!\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Flames\"},ench:[]}",
+  "displayname": "{\"text\":\"Flames\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:blaze_powder\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Flames\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Some say that the same substance\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"can be found in the abdomen of\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"Dragons, allowing them to breathe\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"fire. Cinderbats are much cuter\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"though.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLAMES\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§oSome say that the same substance",
-    "§7§ocan be found in the abdomen of",
-    "§7§oDragons, allowing them to breathe",
-    "§7§ofire. Cinderbats are much cuter",
-    "§7§othough.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Some say that the same substance\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"can be found in the abdomen of\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"Dragons, allowing them to breathe\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"fire. Cinderbats are much cuter\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"though.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "FLAMES",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Flames",
     "https://wiki.hypixel.net/Flames"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

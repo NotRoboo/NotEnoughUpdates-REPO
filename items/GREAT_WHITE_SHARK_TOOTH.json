@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:ghast_tear",
-  "displayname": "§6Great White Shark Tooth",
-  "nbttag": "{ExtraAttributes:{id:\"GREAT_WHITE_SHARK_TOOTH\"},HideFlags:254,ItemModel:\"minecraft:ghast_tear\",display:{Lore:[0:\"§7Dropped by a Shark during\",1:\"§7Fishing Festival.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§6§lLEGENDARY\"],Name:\"§6Great White Shark Tooth\"},ench:[]}",
+  "displayname": "{\"text\":\"Great White Shark Tooth\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:ghast_tear\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Great White Shark Tooth\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Dropped by a Shark during\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Fishing Festival.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GREAT_WHITE_SHARK_TOOTH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Dropped by a Shark during",
-    "§7Fishing Festival.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Dropped by a Shark during\",\"color\":\"gray\"}",
+    "{\"text\":\"Fishing Festival.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "GREAT_WHITE_SHARK_TOOTH",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Great_White_Shark_Tooth",
     "https://wiki.hypixel.net/Great_White_Shark_Tooth"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

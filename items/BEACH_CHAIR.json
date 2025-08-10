@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Beach Chair",
-  "nbttag": "{ExtraAttributes:{id:\"BEACH_CHAIR\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"56a624d7-aa54-3e75-b9e4-9d4c38925ddf\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjE1NjQ2ODEwOTI4ODQsInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JmNzYxMTg4MmRjZjg5NjllNDgxZmU2NjYyYTgxY2IyZDMzMmI3NTAxZTdiOThlOGZhZTMwZmIzNGY5NjRhNyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"§8Summer Cosmetic\",2:\"\",3:\"§7This exclusive §aSummer §7cosmetic can\",4:\"§7be placed on your island or traded.\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Beach Chair\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Beach Chair\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Beach Chair\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Summer Cosmetic\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This exclusive \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Summer \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"cosmetic can\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"be placed on your island or traded.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BEACH_CHAIR\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NjQ2ODEwOTI4ODQsInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JmNzYxMTg4MmRjZjg5NjllNDgxZmU2NjYyYTgxY2IyZDMzMmI3NTAxZTdiOThlOGZhZTMwZmIzNGY5NjRhNyJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "§8Summer Cosmetic",
-    "",
-    "§7This exclusive §aSummer §7cosmetic can",
-    "§7be placed on your island or traded.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Summer Cosmetic\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This exclusive \",\"color\":\"gray\"},{\"text\":\"Summer \",\"color\":\"green\"},{\"text\":\"cosmetic can\",\"color\":\"gray\"}]}",
+    "{\"text\":\"be placed on your island or traded.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BEACH_CHAIR",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Beach_Chair",
     "https://wiki.hypixel.net/Beach_Chair"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

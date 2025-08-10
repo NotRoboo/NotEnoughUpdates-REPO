@@ -1,25 +1,25 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§5Blaze Chestplate",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+10\",1:\"§7Defense: §a+150\",2:\"§7Speed: §a+2\",3:\" §8[§8❁§8]\",4:\"\",5:\"§6Full Set Bonus: Blazing Aura\",6:\"§7Damages mobs within §a5§7 blocks\",7:\"§7for §a3%§7 of their max §7§c❤\",8:\"§cHealth §7per second.\",9:\"\",10:\"§7Max §c500 §7damage/s\",11:\"§7Blaze Rod Collection: §6§k000\",12:\"§8+100 per 5,000 rods\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§5§lEPIC CHESTPLATE\"],color:16243251,Name:\"§5Blaze Chestplate\"},ExtraAttributes:{color:\"247:218:51\",id:\"BLAZE_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Blaze Chestplate\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Blaze Chestplate\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❁\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Blazing Aura\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damages mobs within \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" blocks\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" of their max \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per second.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"500 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage/s\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Blaze Rod Collection: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"000\\\",\\\"color\\\":\\\"gold\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"+100 per 5,000 rods\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"247:218:51\",\"id\":\"BLAZE_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Strength: §c+10",
-    "§7Defense: §a+150",
-    "§7Speed: §a+2",
-    " §8[§8❁§8]",
-    "",
-    "§6Full Set Bonus: Blazing Aura",
-    "§7Damages mobs within §a5§7 blocks",
-    "§7for §a3%§7 of their max §7§c❤",
-    "§cHealth §7per second.",
-    "",
-    "§7Max §c500 §7damage/s",
-    "§7Blaze Rod Collection: §6§k000",
-    "§8+100 per 5,000 rods",
-    "",
-    "§7§8This item can be reforged!",
-    "§5§lEPIC CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+150\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"❁\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Blazing Aura\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damages mobs within \",\"color\":\"gray\"},{\"text\":\"5\",\"color\":\"green\"},{\"text\":\" blocks\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"3%\",\"color\":\"green\"},{\"text\":\" of their max \",\"color\":\"gray\"},{\"text\":\"❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health \",\"color\":\"red\"},{\"text\":\"per second.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max \",\"color\":\"gray\"},{\"text\":\"500 \",\"color\":\"red\"},{\"text\":\"damage/s\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Blaze Rod Collection: \",\"color\":\"gray\"},{\"text\":\"000\",\"color\":\"gold\",\"obfuscated\":true}]}",
+    "{\"text\":\"+100 per 5,000 rods\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "ENCHANTED_BLAZE_ROD:1",
@@ -40,5 +40,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Blaze_Chestplate",
     "https://wiki.hypixel.net/Blaze_Chestplate"
   ],
-  "crafttext": "Requires: Blaze Rod VIII"
+  "crafttext": "Requires: Blaze Rod VIII",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

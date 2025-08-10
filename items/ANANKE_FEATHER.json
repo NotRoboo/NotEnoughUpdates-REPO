@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:feather",
-  "displayname": "§9Ananke Feather",
-  "nbttag": "{ExtraAttributes:{id:\"ANANKE_FEATHER\"},HideFlags:254,ItemModel:\"minecraft:feather\",display:{Lore:[0:\"§7Consume this feather to grant\",1:\"§7yourself progress in the §dRNG Meter\",2:\"§7of your choice.\",3:\"\",4:\"§eRight-click to open!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Ananke Feather\"},ench:[]}",
+  "displayname": "{\"text\":\"Ananke Feather\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:feather\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ananke Feather\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consume this feather to grant\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"yourself progress in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"RNG Meter\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"of your choice.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to open!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ANANKE_FEATHER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Consume this feather to grant",
-    "§7yourself progress in the §dRNG Meter",
-    "§7of your choice.",
-    "",
-    "§eRight-click to open!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Consume this feather to grant\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"yourself progress in the \",\"color\":\"gray\"},{\"text\":\"RNG Meter\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"of your choice.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to open!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ANANKE_FEATHER",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ananke_Feather",
     "https://wiki.hypixel.net/Ananke_Feather"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Divan's Powder Coating",
-  "nbttag": "{ExtraAttributes:{id:\"DIVAN_POWDER_COATING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b476a863-f382-30d2-ac16-0b2f42f8ed4c\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNjI5ODEzMDk3NCwKICAicHJvZmlsZUlkIiA6ICJjNTZlMjI0MmNiZWY0MWE2ODdlMzI2MGRjMGNmOTM2MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMSlI3MzEwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MWUwNjRhMGUzMmE4MDYxMTI2NzhkNzhiNTYxNTM3ZGZhNWNjYjY1YmE0M2NjYjhiYzNkZDdjNWU2NzY4NTNiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7When applied to §6Armor of Divan§7,\",3:\"§7grants §6+10☘ Mining Fortune§7.\",4:\"\",5:\"§7When applied to a drill, grants\",6:\"§6+500⸕ Mining Speed§7.\",7:\"\",8:\"§7Can only be applied to an item once.\",9:\"\",10:\"§8§oA recreation of the coating found on\",11:\"§8§oDivan's tools from his greatest\",12:\"§8§oexpeditions.\",13:\"\",14:\"§6§lLEGENDARY\"],Name:\"§6Divan's Powder Coating\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Divan\u0027s Powder Coating\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Divan\u0027s Powder Coating\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"When applied to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Armor of Divan\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10☘ Mining Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"When applied to a drill, grants\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+500⸕ Mining Speed\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Can only be applied to an item once.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A recreation of the coating found on\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"Divan\u0027s tools from his greatest\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"expeditions.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7When applied to §6Armor of Divan§7,",
-    "§7grants §6+10☘ Mining Fortune§7.",
-    "",
-    "§7When applied to a drill, grants",
-    "§6+500⸕ Mining Speed§7.",
-    "",
-    "§7Can only be applied to an item once.",
-    "",
-    "§8§oA recreation of the coating found on",
-    "§8§oDivan's tools from his greatest",
-    "§8§oexpeditions.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"When applied to \",\"color\":\"gray\"},{\"text\":\"Armor of Divan\",\"color\":\"gold\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"grants \",\"color\":\"gray\"},{\"text\":\"+10☘ Mining Fortune\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"When applied to a drill, grants\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+500⸕ Mining Speed\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Can only be applied to an item once.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A recreation of the coating found on\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"Divan\u0027s tools from his greatest\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"expeditions.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "DIVAN_POWDER_COATING",
   "clickcommand": "viewrecipe",
@@ -42,5 +42,8 @@
       "duration": 129600,
       "overrideOutputId": "DIVAN_POWDER_COATING"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6◆ Fire Spiral Rune II",
-  "nbttag": "{ExtraAttributes:{id:\"FIRE_SPIRAL_RUNE;2\",runes:{FIRE_SPIRAL:2}},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"986bf1f3-8f53-36e3-a660-c4a0aa77a4f7\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgzMDFhYTg2Y2FmZDRiMmQ3MzJhOWI0ODk0Y2ZjZmM2NWVkYzgyOGU4NTcxYjQ1ZGJmMGEzYmE5NjU3NWNjY2YifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Requires level 13\",1:\"§8Bows\",2:\"\",3:\"§7Inferno arrows!\",4:\"\",5:\"§7Apply this rune to bows or fuse\",6:\"§7two together at the Runic\",7:\"§7Pedestal!\",8:\"\",9:\"§9§lRARE COSMETIC\"],Name:\"§6◆ Fire Spiral Rune II\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"◆ Fire Spiral Rune II\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"◆ Fire Spiral Rune II\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Requires level 13\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Bows\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Inferno arrows!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Apply this rune to bows or fuse\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"two together at the Runic\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Pedestal!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE COSMETIC\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"runes\":\"{FIRE_SPIRAL:2\",\"id\":\"FIRE_SPIRAL_RUNE;2\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgzMDFhYTg2Y2FmZDRiMmQ3MzJhOWI0ODk0Y2ZjZmM2NWVkYzgyOGU4NTcxYjQ1ZGJmMGEzYmE5NjU3NWNjY2YifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Requires level 13",
-    "§8Bows",
-    "",
-    "§7Inferno arrows!",
-    "",
-    "§7Apply this rune to bows or fuse",
-    "§7two together at the Runic",
-    "§7Pedestal!",
-    "",
-    "§9§lRARE COSMETIC"
+    "{\"text\":\"Requires level 13\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Bows\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Inferno arrows!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Apply this rune to bows or fuse\",\"color\":\"gray\"}",
+    "{\"text\":\"two together at the Runic\",\"color\":\"gray\"}",
+    "{\"text\":\"Pedestal!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE COSMETIC\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "FIRE_SPIRAL_RUNE;2",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fire_Spiral_Rune",
     "https://wiki.hypixel.net/◆_Fire_Spiral_Rune_II"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

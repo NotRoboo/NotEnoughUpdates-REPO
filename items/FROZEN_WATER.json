@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:ice",
-  "displayname": "§9Frozen Water",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7One could say it\u0027s... ice cold.\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Frozen Water\"},ExtraAttributes:{id:\"FROZEN_WATER\"}}",
+  "displayname": "{\"text\":\"Frozen Water\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:ice\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Frozen Water\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"One could say it\u0027s... ice cold.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FROZEN_WATER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7One could say it\u0027s... ice cold.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"One could say it\u0027s... ice cold.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "FROZEN_WATER",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Frozen_Water",
     "https://wiki.hypixel.net/Frozen_Water"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dCrimson Essence",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"90250e34-41d4-3e57-8d64-7853ab98c80c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDc4ODQzMzE5NSwKICAicHJvZmlsZUlkIiA6ICIxZjEyNTNhYTVkYTQ0ZjU5YWU1YWI1NmFhZjRlNTYxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RNaUt5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY3YzQxOTMwZjhmZjBmMmIwNDMwZTE2OWFlNWYzOGU5ODRkZjEyNDQyMTU3MDVjNmYxNzM4NjI4NDQ1NDNlOWQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7§oSmoke is rising from the\",1:\"§7§ohouses.\"],Name:\"§cCrimson Essence\"},ExtraAttributes:{id:\"ESSENCE_CRIMSON\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Crimson Essence\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Crimson Essence\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Smoke is rising from the\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"houses.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ESSENCE_CRIMSON\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§oSmoke is rising from the",
-    "§7§ohouses."
+    "{\"text\":\"Smoke is rising from the\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"houses.\",\"color\":\"gray\",\"italic\":true}"
   ],
   "internalname": "ESSENCE_CRIMSON",
   "modver": "2.1.0-REL",
@@ -15,5 +15,8 @@
     "https://wiki.hypixel.net/Crimson_Essence"
   ],
   "crafttext": "",
-  "clickcommand": ""
+  "clickcommand": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

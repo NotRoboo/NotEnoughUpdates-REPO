@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5White Gift Backpack Skin",
-  "nbttag": "{ExtraAttributes:{id:\"GIFT_WHITE_BACKPACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"79e54d4c-cc77-3c69-ace5-46d0d28bbb15\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5OTA1MjMyMzk3NiwKICAicHJvZmlsZUlkIiA6ICJkYzA5MjA4MTM2ZDg0Y2Y5OWIwMzFmMGI1NzM4OTdmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLRUlUSF8wMzAyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVkZjI4MzU5NzVhY2VlMTczNDI2YzVjNjUyMzNmNGMxYjUwNmE3NmRmY2Q0MThlMzAwNzY1MzZjOGVmM2QzOWMiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a\",3:\"§7fresh new look! Apply them just\",4:\"§7like an enchant book using the\",5:\"§7anvil.\",6:\"\",7:\"§7This skin can be applied to\",8:\"§aBackpacks§7.\",9:\"\",10:\"§5§lEPIC COSMETIC\"],Name:\"§5White Gift Backpack Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"White Gift Backpack Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"White Gift Backpack Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Item skins give your gear a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"fresh new look! Apply them just\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"like an enchant book using the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"anvil.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin can be applied to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Backpacks\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GIFT_WHITE_BACKPACK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5OTA1MjMyMzk3NiwKICAicHJvZmlsZUlkIiA6ICJkYzA5MjA4MTM2ZDg0Y2Y5OWIwMzFmMGI1NzM4OTdmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLRUlUSF8wMzAyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVkZjI4MzU5NzVhY2VlMTczNDI2YzVjNjUyMzNmNGMxYjUwNmE3NmRmY2Q0MThlMzAwNzY1MzZjOGVmM2QzOWMiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Item skins give your gear a",
-    "§7fresh new look! Apply them just",
-    "§7like an enchant book using the",
-    "§7anvil.",
-    "",
-    "§7This skin can be applied to",
-    "§aBackpacks§7.",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Item skins give your gear a\",\"color\":\"gray\"}",
+    "{\"text\":\"fresh new look! Apply them just\",\"color\":\"gray\"}",
+    "{\"text\":\"like an enchant book using the\",\"color\":\"gray\"}",
+    "{\"text\":\"anvil.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin can be applied to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Backpacks\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "GIFT_WHITE_BACKPACK",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/White_Gift_Backpack_Skin",
     "https://wiki.hypixel.net/White_Gift_Backpack_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

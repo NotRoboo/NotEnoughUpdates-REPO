@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aMagical Mushroom Soup",
-  "nbttag": "{ExtraAttributes:{id:\"MAGIC_MUSHROOM_SOUP\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ca222b76-cc7d-3fbf-9806-216cd1aad95a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ovbBgvvlDXnZ05DMOx31uWpA7PSPbymrXk1fwvvC+JJZ/ZqmVC705fFStU+RNXGrtzzV+M7/h/I3uRzNujoqQHYDeWtqC52OFYVpTM9TIJQvzRS6aJOs5LjQ9TzeZO3NiP2gRdplyZiCNgteUqG0y/iZvhb+Nj2CCzzl3fqrHqJKaEEzbdlV9QjMNWlfluU+6+Cn/NBl9cUAu+0nzx28NeKERZxcdbO3iLgqfpUmo0YEXurQNVR8+d31ejQ+/wx/QVxENe9/X2Yv4YSFzB0XnKIadTyOdOfk9L5KwE68LAK8Iajzu5mHQm71cLMTlB0SIygH3KJ/fYH0zl2NWhEUmrdNx0R98dP1yFmnJ6vCU5d96l8WMC/l2m2szoRP6CuUgtxtJFUeMgcGqhQgCi58rnkNo2kKnhnl0sMOsIOJpWnLYoxOQSjtCp0ljrTaM/uNZVLtliplViW0sb9clQFNUJBZ+YbtdfX+nWhuFiDoKrWjM9sDiQhves1dIB6BsD1G7D79pD/u2lZ/C1MtpW52mSycB0SEP8HmFvyS+Px0XEAK17EA54VXYeF2rofEAGakg0dewyCkTLZWIjeyuqAvMgilW8BYcjHzs0y8qZo8VD+inWNqkEoecsyVipaTvZXD7JKaehiA5sqrYe/Cpj7Z/EDaQ9TTUI9hqvBW9IDRTLw=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzQ5MjQwNiwKICAicHJvZmlsZUlkIiA6ICI4YWFlYTdlYjViOWM0ZWEwODUxNWU3MDhhZGIxODBkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYVBhODA3MTEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI2ODMyODZhOTEyZWVkYzIyNDk3NGIyZDRhZmI3ZmE1NDViMTNhZTYxZDE5ZjNjZGY5OTBlNTFhNTA1YWVmMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Consuming this soup on your private\",1:\"§7island or garden allows the player\",2:\"§7to fly for §a2 minutes§7.\",3:\"\",4:\"§7Leaving the island will pause the\",5:\"§7effect!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aMagical Mushroom Soup\"},ench:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Magical Mushroom Soup\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Magical Mushroom Soup\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consuming this soup on your private\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"island or garden allows the player\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to fly for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2 minutes\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Leaving the island will pause the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"effect!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MAGIC_MUSHROOM_SOUP\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzQ5MjQwNiwKICAicHJvZmlsZUlkIiA6ICI4YWFlYTdlYjViOWM0ZWEwODUxNWU3MDhhZGIxODBkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYVBhODA3MTEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI2ODMyODZhOTEyZWVkYzIyNDk3NGIyZDRhZmI3ZmE1NDViMTNhZTYxZDE5ZjNjZGY5OTBlNTFhNTA1YWVmMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Consuming this soup on your private",
-    "§7island or garden allows the player",
-    "§7to fly for §a2 minutes§7.",
-    "",
-    "§7Leaving the island will pause the",
-    "§7effect!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Consuming this soup on your private\",\"color\":\"gray\"}",
+    "{\"text\":\"island or garden allows the player\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to fly for \",\"color\":\"gray\"},{\"text\":\"2 minutes\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Leaving the island will pause the\",\"color\":\"gray\"}",
+    "{\"text\":\"effect!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "MAGIC_MUSHROOM_SOUP",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "",
     "C2": "BOWL:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

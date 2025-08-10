@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aSmall Combat Sack",
-  "nbttag": "{ExtraAttributes:{id:\"SMALL_COMBAT_SACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"32653ae6-cbfe-3be6-af62-79b6689fe134\",Properties:{textures:[0:{Name:\"textures\",Signature:\"cRKKSugNhrLWLexTYgPQyNidVMsSmwOr9Cu2M1I4qpcTDqzU+fjzK1sWerf7ctY+NscyHFf5whIfIO/s/Zus8IU65ThczvcSaP9e5BguQUvs6fEjzf8BlAV++nA1yh3hiFgEfuYVXro56xiW0oUugzhOfKd2+giEWiBj1hrP45iwidP0GxhrkGNa4qPPpeKSdVAvLuYMjJkGS27ywkVXsHY62rISzgscUfIq8iFiekaIM6cgXlaoT0yD53MVVo8YxWSLOOcgI1Pm+9wicG0oqS0b/fr5MJKPBcEuaUbIgRHBOGf/BJT8oWWLPScoiqw9NkoCChiUpNnlgKN9DS12ypmuVS8EkdUMpV0H7ZCxhI24crzm6dNqxsCAnF4UVVOQNLFay7TI+Dyg1A3M7yMfQuIANgQSNMqP3m5R5WJLiAj2/OQGoCLUnvy6masAJD5nei9t4Vvjs3Jbx4l3dFjaqiw2XXdxljMeSCZMOlhsbiN3W4PMcRXK/OVSIs008jXuZoG9QUscDLg4rTg7IB1VMZBoMWFHdtPKB4Xs29OoVJUToC3dLg7NouxT9bM89JxXrmq0Iue1inJSNaPwVcUCR+4Wn0qAV770P6l122HGrQPKbkOB4FNpF/zTLgjDUrAOs9vHFejzoPQsjOlQJ3OVjnLxxM7tW5GUCgSk0hgcoqY=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NTMzNjIwMiwKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI4ZjQ1MmM5ZDZiNjI1NGI1NDc4NTY5YTYwYjBiNmZiMDMxYzdhZDJmMDZlYTNkYWNmMmNlODc0Y2E3MDgzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Item pickups go directly into your\",1:\"§7sacks.\",2:\"\",3:\"§7Items: §aBlaze Rod§7, §aBone§7, §aChili Pepper§7, §aEnder Pearl§7, §aGhast\",4:\"§aTear§7, §aGunpowder§7, §aMagma Cream§7, §aRotten Flesh§7, §aSlimeball§7,\",5:\"§aSpider Eye§7, §aString\",6:\"\",7:\"§7Capacity: §e2,240 per item\",8:\"§8Sacks sum their capacity.\",9:\"\",10:\"§eRight Click to open sack!\",11:\"\",12:\"§a§lUNCOMMON\"],Name:\"§aSmall Combat Sack\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Small Combat Sack\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Small Combat Sack\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Item pickups go directly into your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"sacks.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Items: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Blaze Rod\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Bone\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Chili Pepper\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Ender Pearl\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Ghast\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Tear\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Gunpowder\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Magma Cream\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Rotten Flesh\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Slimeball\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spider Eye\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"String\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Capacity: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2,240 per item\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"Sacks sum their capacity.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right Click to open sack!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7Item pickups go directly into your",
-    "§7sacks.",
-    "",
-    "§7Items: §aBlaze Rod§7, §aBone§7, §aChili Pepper§7, §aEnder Pearl§7, §aGhast",
-    "§aTear§7, §aGunpowder§7, §aMagma Cream§7, §aRotten Flesh§7, §aSlimeball§7,",
-    "§aSpider Eye§7, §aString",
-    "",
-    "§7Capacity: §e2,240 per item",
-    "§8Sacks sum their capacity.",
-    "",
-    "§eRight Click to open sack!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Item pickups go directly into your\",\"color\":\"gray\"}",
+    "{\"text\":\"sacks.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Items: \",\"color\":\"gray\"},{\"text\":\"Blaze Rod\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Bone\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Chili Pepper\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Ender Pearl\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Ghast\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Tear\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Gunpowder\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Magma Cream\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Rotten Flesh\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Slimeball\",\"color\":\"green\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spider Eye\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"String\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Capacity: \",\"color\":\"gray\"},{\"text\":\"2,240 per item\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"Sacks sum their capacity.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right Click to open sack!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SMALL_COMBAT_SACK",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C1": "ENCHANTED_ROTTEN_FLESH:2",
     "C2": "ENCHANTED_ROTTEN_FLESH:2",
     "C3": "ENCHANTED_ROTTEN_FLESH:2"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

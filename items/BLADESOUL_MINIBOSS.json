@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Bladesoul (Miniboss)",
-  "nbttag": "{SkullOwner:{Id:\"0e9463ed-9d9b-5931-a361-97015065b546\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTYzMDA5NGYyN2IxMWEyZTkwMmUyNmMxNmZlNWRmZTM1ZmI0OTMxYWI1Zjk0N2JiYzlhY2NhYjJlZTUwMTcwNCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7They also call themselves \\\"the\",1:\"§7Twins\\\".\",2:\"\",3:\"§c❤ Health§8: §c50,000,000\"],Name:\"§5Bladesoul (Miniboss)\"},ExtraAttributes:{id:\"BLADESOUL_MINIBOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bladesoul (Miniboss)\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bladesoul (Miniboss)\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"They also call themselves \\\\\\\"the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Twins\\\\\\\".\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"50,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"BLADESOUL_MINIBOSS\"}}}",
+  "damage": 0,
   "lore": [
-    "§7They also call themselves \"the",
-    "§7Twins\".",
-    "",
-    "§c❤ Health§8: §c50,000,000"
+    "{\"text\":\"They also call themselves \\\"the\",\"color\":\"gray\"}",
+    "{\"text\":\"Twins\\\".\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"50,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "BLADESOUL_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -67,5 +67,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

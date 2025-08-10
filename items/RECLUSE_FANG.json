@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§9Recluse Fang",
-  "nbttag": "{ExtraAttributes:{id:\"RECLUSE_FANG\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+30\",2:\"§7Crit Damage: §c+20%\",3:\"\",4:\"§7Deal §c+150% ❁ Damage§7 to and gain\",5:\"§3+30☯ Combat Wisdom§7 against Spiders.\",6:\" \",7:\"§6Ability: Webcutter \",8:\"§7This weapon can be used to clear\",9:\"§7webs left by the §4Tarantula\",10:\"§4Broodfather§7!\",11:\"\",12:\"§8This item can be reforged!\",13:\"§7§4☠ §cRequires §5Spider Slayer 3§c.\",14:\"§9§lRARE SWORD\"],Name:\"§9Recluse Fang\"}}",
+  "displayname": "{\"text\":\"Recluse Fang\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Recluse Fang\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150% ❁ Damage\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" to and gain\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+30☯ Combat Wisdom\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\" against Spiders.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"Ability: Webcutter \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"This weapon can be used to clear\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"webs left by the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Tarantula\\\",\\\"color\\\":\\\"dark_red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Broodfather\\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Spider Slayer 3\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RECLUSE_FANG\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+120",
-    "§7Strength: §c+30",
-    "§7Crit Damage: §c+20%",
-    "",
-    "§7Deal §c+150% ❁ Damage§7 to and gain",
-    "§3+30☯ Combat Wisdom§7 against Spiders.",
-    " ",
-    "§6Ability: Webcutter ",
-    "§7This weapon can be used to clear",
-    "§7webs left by the §4Tarantula",
-    "§4Broodfather§7!",
-    "",
-    "§8This item can be reforged!",
-    "§7§4☠ §cRequires §5Spider Slayer 3§c.",
-    "§9§lRARE SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+120\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+20%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"+150% ❁ Damage\",\"color\":\"red\"},{\"text\":\" to and gain\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+30☯ Combat Wisdom\",\"color\":\"dark_aqua\"},{\"text\":\" against Spiders.\",\"color\":\"gray\"}]}",
+    "{\"text\":\" \"}",
+    "{\"text\":\"Ability: Webcutter \",\"color\":\"gold\"}",
+    "{\"text\":\"This weapon can be used to clear\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"webs left by the \",\"color\":\"gray\"},{\"text\":\"Tarantula\",\"color\":\"dark_red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Broodfather\",\"color\":\"dark_red\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Spider Slayer 3\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "RECLUSE_FANG",
   "clickcommand": "viewrecipe",
@@ -40,5 +40,8 @@
     "C2": "SPIDER_SWORD:1",
     "C3": "TARANTULA_WEB:4"
   },
-  "slayer_req": "SPIDER_3"
+  "slayer_req": "SPIDER_3",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:carrot_on_a_stick",
-  "displayname": "§6Shiny Rod",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Shiny pigs run away from you §e30%\",1:\"§e§7faster while holding this.\",2:\"\",3:\"§7Extract §625% §7extra coins from shiny\",4:\"§7orbs.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Shiny Rod\"},ExtraAttributes:{id:\"SHINY_ROD\"}}",
+  "displayname": "{\"text\":\"Shiny Rod\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:carrot_on_a_stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shiny Rod\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Shiny pigs run away from you \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"30%\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"faster while holding this.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Extract \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"25% \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"extra coins from shiny\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"orbs.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SHINY_ROD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Shiny pigs run away from you §e30%",
-    "§e§7faster while holding this.",
-    "",
-    "§7Extract §625% §7extra coins from shiny",
-    "§7orbs.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Shiny pigs run away from you \",\"color\":\"gray\"},{\"text\":\"30%\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"faster while holding this.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Extract \",\"color\":\"gray\"},{\"text\":\"25% \",\"color\":\"gold\"},{\"text\":\"extra coins from shiny\",\"color\":\"gray\"}]}",
+    "{\"text\":\"orbs.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "",
@@ -38,5 +38,8 @@
       "cost": "EMERALD:200",
       "result": "SHINY_ROD"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

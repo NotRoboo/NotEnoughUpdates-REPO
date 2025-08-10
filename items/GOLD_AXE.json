@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:golden_axe",
-  "displayname": "§fGolden Axe",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON AXE\"],Name:\"§fGolden Axe\"},ExtraAttributes:{id:\"GOLD_AXE\"}}",
+  "displayname": "{\"text\":\"Golden Axe\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Golden Axe\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON AXE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLD_AXE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+20",
-    "",
-    "§7§8This item can be reforged!",
-    "§f§lCOMMON AXE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON AXE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GOLD_AXE",
   "modver": "2.1.0-REL",
@@ -28,5 +28,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Golden_Axe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

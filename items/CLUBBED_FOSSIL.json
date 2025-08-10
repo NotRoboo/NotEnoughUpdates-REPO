@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Clubbed Fossil",
-  "nbttag": "{ExtraAttributes:{id:\"CLUBBED_FOSSIL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ec15216b-1755-3c90-9d60-e560c990a526\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwODY0MzQ4NjA4OSwKICAicHJvZmlsZUlkIiA6ICJkZTU3MWExMDJjYjg0ODgwOGZlN2M5ZjQ0OTZlY2RhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTWluZXNraW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTkwMzlkMjIzNDVkZTMxYmExMjU5YjllZjgwZmIxNDVhYzZhZTY0OTJhYWFlMmRkNWE4Y2E0YjlmYjE4NGM1MyIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Machine Fuel\",1:\"\",2:\"§7Adds §2+50,000♢ Fuel §7to a refuelable\",3:\"§7machine.\",4:\"\",5:\"§7A tail ending in a thick club that was\",6:\"§7used to fend off predators.\",7:\"\",8:\"§6§lLEGENDARY\"],Name:\"§6Clubbed Fossil\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Clubbed Fossil\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Clubbed Fossil\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Machine Fuel\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Adds \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50,000♢ Fuel \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"to a refuelable\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"machine.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A tail ending in a thick club that was\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"used to fend off predators.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CLUBBED_FOSSIL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcwODY0MzQ4NjA4OSwKICAicHJvZmlsZUlkIiA6ICJkZTU3MWExMDJjYjg0ODgwOGZlN2M5ZjQ0OTZlY2RhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTWluZXNraW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTkwMzlkMjIzNDVkZTMxYmExMjU5YjllZjgwZmIxNDVhYzZhZTY0OTJhYWFlMmRkNWE4Y2E0YjlmYjE4NGM1MyIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Machine Fuel",
-    "",
-    "§7Adds §2+50,000♢ Fuel §7to a refuelable",
-    "§7machine.",
-    "",
-    "§7A tail ending in a thick club that was",
-    "§7used to fend off predators.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Machine Fuel\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Adds \",\"color\":\"gray\"},{\"text\":\"+50,000♢ Fuel \",\"color\":\"dark_green\"},{\"text\":\"to a refuelable\",\"color\":\"gray\"}]}",
+    "{\"text\":\"machine.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A tail ending in a thick club that was\",\"color\":\"gray\"}",
+    "{\"text\":\"used to fend off predators.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "CLUBBED_FOSSIL",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Clubbed_Fossil",
     "https://wiki.hypixel.net/Clubbed_Fossil"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

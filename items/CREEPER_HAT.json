@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fCreeper Hat",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Strength: §c+5\",1:\"§7Crit Chance: §c+5%\",2:\"§7Crit Damage: §c+5%\",3:\"§7Health: §a+5\",4:\"§7Defense: §a+5\",5:\"§7Intelligence: §a+5\",6:\"\",7:\"§7Grants immunity to explosion\",8:\"§7damage.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§f§lCOMMON HELMET\"],Name:\"§fCreeper Hat\"},ExtraAttributes:{id:\"CREEPER_HAT\"}}",
-  "damage": 4,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Creeper Hat\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Creeper Hat\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Grants immunity to explosion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"damage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON HELMET\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CREEPER_HAT\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Strength: §c+5",
-    "§7Crit Chance: §c+5%",
-    "§7Crit Damage: §c+5%",
-    "§7Health: §a+5",
-    "§7Defense: §a+5",
-    "§7Intelligence: §a+5",
-    "",
-    "§7Grants immunity to explosion",
-    "§7damage.",
-    "",
-    "§7§8This item can be reforged!",
-    "§f§lCOMMON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Chance: \",\"color\":\"gray\"},{\"text\":\"+5%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+5%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Grants immunity to explosion\",\"color\":\"gray\"}",
+    "{\"text\":\"damage.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON HELMET\",\"color\":\"white\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "SULPHUR:1",
@@ -36,5 +36,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Creeper_Hat",
     "https://wiki.hypixel.net/Creeper_Hat"
   ],
-  "crafttext": "Requires: Gunpowder II"
+  "crafttext": "Requires: Gunpowder II",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

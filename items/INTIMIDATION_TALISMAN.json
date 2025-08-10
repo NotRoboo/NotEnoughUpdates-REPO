@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fIntimidation Talisman",
-  "nbttag": "{ExtraAttributes:{id:\"INTIMIDATION_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"9dbbaaaa-dd2a-3cc5-a2b7-94aead9bf794\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NzUyMDAwOTgzMCwKICAicHJvZmlsZUlkIiA6ICIxNmJhNWU4MDJhMmU0ZDJhYjEwZmZiYWJiYmQ1MDdlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzbGlua3l1c2VyMzMxNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ODExN2MyMDliNjllZWFmMjY4NDgxNmUxNmJlZDI1ZTY2NTAwOGU3MzI5NjMyZmRmY2E2NTIzNzk5Y2Q3ZjcxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Level §a1 §7monsters will no\",1:\"§7longer target you.\",2:\"\",3:\"§f§lCOMMON ACCESSORY\"],Name:\"§fIntimidation Talisman\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Intimidation Talisman\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Intimidation Talisman\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Level \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"monsters will no\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"longer target you.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON ACCESSORY\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"INTIMIDATION_TALISMAN\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5NzUyMDAwOTgzMCwKICAicHJvZmlsZUlkIiA6ICIxNmJhNWU4MDJhMmU0ZDJhYjEwZmZiYWJiYmQ1MDdlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzbGlua3l1c2VyMzMxNSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ODExN2MyMDliNjllZWFmMjY4NDgxNmUxNmJlZDI1ZTY2NTAwOGU3MzI5NjMyZmRmY2E2NTIzNzk5Y2Q3ZjcxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Level §a1 §7monsters will no",
-    "§7longer target you.",
-    "",
-    "§f§lCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Level \",\"color\":\"gray\"},{\"text\":\"1 \",\"color\":\"green\"},{\"text\":\"monsters will no\",\"color\":\"gray\"}]}",
+    "{\"text\":\"longer target you.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON ACCESSORY\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "INTIMIDATION_TALISMAN",
   "clickcommand": "",
@@ -24,5 +24,8 @@
       "cost": "EMERALD:100",
       "result": "INTIMIDATION_TALISMAN"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

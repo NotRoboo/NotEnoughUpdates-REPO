@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Skull Chest++",
-  "nbttag": "{ExtraAttributes:{id:\"SKULL_CHEST\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f0b6d406-77b6-3be4-9311-403ea34593cc\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjAsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xODgwNzI1YWM0MGQ0NjU0MmJmN2M4MTk4MDE4NzJlMGYwMWI3ZjlhNTJhNGM0OGE5OGQ3Yzk0ODc0NDg0YzBmIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"§8Storage\",2:\"\",3:\"§7You can store six pages of items\",4:\"§7in this chest\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Skull Chest++\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Skull Chest++\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Skull Chest++\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Storage\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You can store six pages of items\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in this chest\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SKULL_CHEST\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjAsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xODgwNzI1YWM0MGQ0NjU0MmJmN2M4MTk4MDE4NzJlMGYwMWI3ZjlhNTJhNGM0OGE5OGQ3Yzk0ODc0NDg0YzBmIn19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "§8Storage",
-    "",
-    "§7You can store six pages of items",
-    "§7in this chest",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Storage\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You can store six pages of items\",\"color\":\"gray\"}",
+    "{\"text\":\"in this chest\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SKULL_CHEST",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Skull_Chest++",
     "https://wiki.hypixel.net/Skull_Chest++"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

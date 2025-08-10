@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Decayed Bat",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1d3ed372-0ef7-3fc6-9ead-ce08601c03b2\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYzNTA4OTU5NjQ0NiwKICAicHJvZmlsZUlkIiA6ICIwZWQ2MDFlMDhjZTM0YjRkYWUxZmI4MDljZmEwNTM5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZWVkTW9yZUFjY291bnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FjYzE5NTA0NjFkNTQ2ODdmNDAxNjJlNGVjZmZhY2Y2MGE0NmU0MTZmMjUzNGZhMjNhMDA5MWQwZWE2ZjJlYzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"§7§7A withering husk of its former\",1:\"§7self.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Decayed Bat\"},ExtraAttributes:{id:\"DECAYED_BAT\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Decayed Bat\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Decayed Bat\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A withering husk of its former\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"self.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DECAYED_BAT\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7A withering husk of its former",
-    "§7self.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"A withering husk of its former\",\"color\":\"gray\"}",
+    "{\"text\":\"self.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "DECAYED_BAT",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Decayed_Bat",
     "https://wiki.hypixel.net/Decayed_Bat"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }
