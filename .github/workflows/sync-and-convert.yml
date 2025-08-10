@@ -16,7 +16,7 @@ on:
 
 env:
   UPSTREAM_REPO: 'NotEnoughUpdates/NotEnoughUpdates-REPO'
-  CONVERTED_BRANCH: 'converted-items'
+  CONVERTED_BRANCH: 'modern'
 
 jobs:
   sync-and-convert:
