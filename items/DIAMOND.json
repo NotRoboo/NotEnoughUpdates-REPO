@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:diamond",
-  "displayname": "§fDiamond",
-  "nbttag": "{ExtraAttributes:{id:\"DIAMOND\"},HideFlags:254,ItemModel:\"minecraft:diamond\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON ORE\"],Name:\"§fDiamond\"}}",
+  "displayname": "{\"text\":\"Diamond\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON ORE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON ORE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON ORE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DIAMOND",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C2": "",
     "C3": "",
     "count": 9
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

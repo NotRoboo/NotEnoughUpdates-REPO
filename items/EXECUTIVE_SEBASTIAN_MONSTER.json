@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aExecutive Sebastian (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM4NWJkZGE4ZmZjMjMzZTczOGZiM2NhNzcxNWU5NDdhOGU2MmEzNTEwMzE2ODJkYTFlZjZlZmNlY2Y0OGY3OSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Prepare for trouble!\",1:\"\",2:\"§c❤ Health§8: §c18,000\"],Name:\"§aExecutive Sebastian (Monster)\"},ExtraAttributes:{id:\"EXECUTIVE_SEBASTIAN_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Executive Sebastian (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Executive Sebastian (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Prepare for trouble!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"18,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"EXECUTIVE_SEBASTIAN_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Prepare for trouble!",
-    "",
-    "§c❤ Health§8: §c18,000"
+    "{\"text\":\"Prepare for trouble!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"18,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "EXECUTIVE_SEBASTIAN_MONSTER",
   "clickcommand": "viewrecipe",
@@ -45,5 +45,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

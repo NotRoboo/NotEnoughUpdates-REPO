@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:clock",
-  "displayname": "§9Enchanted Clock",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Time Skip §e§lRIGHT CLICK\",1:\"§7Advances the time of all minions\",2:\"§7on your island by 1 hour\",3:\"§8Cooldown: §a50s\",4:\"\",5:\"§9§lRARE\",6:\"\",7:\"§c§lNOTE: This Item is currently unobtainable!\"],Name:\"§9Enchanted Clock\"},ExtraAttributes:{id:\"ENCHANTED_CLOCK\"}}",
+  "displayname": "{\"text\":\"Enchanted Clock\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:clock\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Clock\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Time Skip \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Advances the time of all minions\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"on your island by 1 hour\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"50s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"NOTE: This Item is currently unobtainable!\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_CLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Time Skip §e§lRIGHT CLICK",
-    "§7Advances the time of all minions",
-    "§7on your island by 1 hour",
-    "§8Cooldown: §a50s",
-    "",
-    "§9§lRARE",
-    "",
-    "§c§lNOTE: This Item is currently unobtainable!"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Time Skip \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Advances the time of all minions\",\"color\":\"gray\"}",
+    "{\"text\":\"on your island by 1 hour\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"50s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"NOTE: This Item is currently unobtainable!\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_CLOCK",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Clock",
     "https://wiki.hypixel.net/Enchanted_Clock"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

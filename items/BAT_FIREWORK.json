@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:fireworks",
-  "displayname": "§9Bat Firework",
-  "nbttag": "{ExtraAttributes:{id:\"BAT_FIREWORK\"},HideFlags:254,ItemModel:\"minecraft:firework_rocket\",display:{Lore:[0:\"§7Launches a firework that\",1:\"§7explodes into several Bat\",2:\"§7Piñatas, each dropping a bunch\",3:\"§7of candies. Only usable in the\",4:\"§bVillage§7.\",5:\"\",6:\"§8Cooldown: §a30s\",7:\"\",8:\"§8§oBat Piñata drops do not\",9:\"§8§ocount towards leaderboard\",10:\"§8§oprogress!\",11:\"\",12:\"§9§lRARE\"],Name:\"§9Bat Firework\"}}",
+  "displayname": "{\"text\":\"Bat Firework\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:fireworks\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bat Firework\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Launches a firework that\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"explodes into several Bat\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Piñatas, each dropping a bunch\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"of candies. Only usable in the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Village\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"30s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Bat Piñata drops do not\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"count towards leaderboard\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"progress!\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BAT_FIREWORK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Launches a firework that",
-    "§7explodes into several Bat",
-    "§7Piñatas, each dropping a bunch",
-    "§7of candies. Only usable in the",
-    "§bVillage§7.",
-    "",
-    "§8Cooldown: §a30s",
-    "",
-    "§8§oBat Piñata drops do not",
-    "§8§ocount towards leaderboard",
-    "§8§oprogress!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Launches a firework that\",\"color\":\"gray\"}",
+    "{\"text\":\"explodes into several Bat\",\"color\":\"gray\"}",
+    "{\"text\":\"Piñatas, each dropping a bunch\",\"color\":\"gray\"}",
+    "{\"text\":\"of candies. Only usable in the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Village\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"30s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Bat Piñata drops do not\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"count towards leaderboard\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"progress!\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BAT_FIREWORK",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bat_Firework",
     "https://wiki.hypixel.net/Bat_Firework"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

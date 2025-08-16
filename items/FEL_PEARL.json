@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:ender_pearl",
-  "displayname": "§9Fel Pearl",
-  "nbttag": "{ExtraAttributes:{id:\"FEL_PEARL\"},HideFlags:254,ItemModel:\"minecraft:ender_pearl\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE DUNGEON ITEM\"],Name:\"§9Fel Pearl\"}}",
+  "displayname": "{\"text\":\"Fel Pearl\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:ender_pearl\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fel Pearl\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE DUNGEON ITEM\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FEL_PEARL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE DUNGEON ITEM"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE DUNGEON ITEM\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "FEL_PEARL",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fel_Pearl",
     "https://wiki.hypixel.net/Fel_Pearl"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

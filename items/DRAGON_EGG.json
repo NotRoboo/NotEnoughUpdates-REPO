@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:dragon_egg",
-  "displayname": "§fDragon Egg",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDragon Egg\"},ExtraAttributes:{id:\"DRAGON_EGG\"}}",
+  "displayname": "{\"text\":\"Dragon Egg\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:dragon_egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dragon Egg\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DRAGON_EGG\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DRAGON_EGG",
   "modver": "2.1.0-REL",
@@ -13,5 +13,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Dragon_Egg"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

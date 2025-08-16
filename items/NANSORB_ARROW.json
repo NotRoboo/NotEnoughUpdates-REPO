@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:arrow",
-  "displayname": "§9Nansorb Arrow",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Damage: §c+5\",1:\"\",2:\"§7Replaces the damage reduction from\",3:\"§7the §9Piercing §7enchant to §6Skewer§7.\",4:\"\",5:\"§6Passive: Skewer\",6:\"§7Hits through §9Piercing §7deal §c+7.5%\",7:\"§c§7damage than the previous one, up to\",8:\"§7§e5 §7victims.\",9:\"\",10:\"§7§4❣ §cRequires §aCombat Skill 25§c.\",11:\"§7§4❣ §cRequires §aCactus Collection VII§c.\",12:\"§7§4❣ §cRequires §cTarget Practice III§c.\",13:\"§8Stats added when shot!\",14:\"§9§lRARE ARROW\"],Name:\"§9Nansorb Arrow\"},ExtraAttributes:{id:\"NANSORB_ARROW\"}}",
+  "displayname": "{\"text\":\"Nansorb Arrow\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:arrow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nansorb Arrow\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Replaces the damage reduction from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Piercing \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"enchant to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Skewer\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Passive: Skewer\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hits through \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Piercing \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+7.5%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"damage than the previous one, up to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"victims.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 25\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Cactus Collection VII\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Target Practice III\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"Stats added when shot!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE ARROW\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NANSORB_ARROW\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+5",
-    "",
-    "§7Replaces the damage reduction from",
-    "§7the §9Piercing §7enchant to §6Skewer§7.",
-    "",
-    "§6Passive: Skewer",
-    "§7Hits through §9Piercing §7deal §c+7.5%",
-    "§c§7damage than the previous one, up to",
-    "§7§e5 §7victims.",
-    "",
-    "§7§4❣ §cRequires §aCombat Skill 25§c.",
-    "§7§4❣ §cRequires §aCactus Collection VII§c.",
-    "§7§4❣ §cRequires §cTarget Practice III§c.",
-    "§8Stats added when shot!",
-    "§9§lRARE ARROW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Replaces the damage reduction from\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the \",\"color\":\"gray\"},{\"text\":\"Piercing \",\"color\":\"blue\"},{\"text\":\"enchant to \",\"color\":\"gray\"},{\"text\":\"Skewer\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Passive: Skewer\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hits through \",\"color\":\"gray\"},{\"text\":\"Piercing \",\"color\":\"blue\"},{\"text\":\"deal \",\"color\":\"gray\"},{\"text\":\"+7.5%\",\"color\":\"red\"}]}",
+    "{\"text\":\"damage than the previous one, up to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"5 \",\"color\":\"yellow\"},{\"text\":\"victims.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 25\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Cactus Collection VII\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Target Practice III\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"Stats added when shot!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE ARROW\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "NANSORB_ARROW",
   "crafttext": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Nansorb_Arrow",
     "https://wiki.hypixel.net/Nansorb_Arrow"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

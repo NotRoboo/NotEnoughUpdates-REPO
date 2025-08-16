@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§dShimmer Skin",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"aab8abfc-d248-3044-847e-c3a1fa4a52d0\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwNTk5NzEyMDI1MSwKICAicHJvZmlsZUlkIiA6ICJhNzdkNmQ2YmFjOWE0NzY3YTFhNzU1NjYxOTllYmY5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwOEJFRDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJjZDEyMDg0MTIyOGQyODEyY2EwNzQzM2EzZWM0NjQwZGU4MWZhMWY0YmI5YjQyMjY5Yzc0MTQwMzE5NmZkYiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7§7Item skins give your gear a\",1:\"§7fresh new look! Apply them just\",2:\"§7like an enchant book using the\",3:\"§7anvil.\",4:\"§7\",5:\"§7§7This skin can be applied to\",6:\"§7§a§6Protector Dragon Helmet\",7:\"§7\",8:\"§7§dThis skin is animated!\",9:\"\",10:\"§d§lMYTHIC COSMETIC\"],Name:\"§f§f§dShimmer Skin\"},ExtraAttributes:{originTag:\"FIRE_SALE\",id:\"PROTECTOR_SHIMMER\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Shimmer Skin\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shimmer Skin\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Item skins give your gear a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"fresh new look! Apply them just\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"like an enchant book using the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"anvil.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin can be applied to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Protector Dragon Helmet\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin is animated!\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC COSMETIC\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"FIRE_SALE\",\"id\":\"PROTECTOR_SHIMMER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7Item skins give your gear a",
-    "§7fresh new look! Apply them just",
-    "§7like an enchant book using the",
-    "§7anvil.",
-    "§7",
-    "§7§7This skin can be applied to",
-    "§7§a§6Protector Dragon Helmet",
-    "§7",
-    "§7§dThis skin is animated!",
-    "",
-    "§d§lMYTHIC COSMETIC"
+    "{\"text\":\"Item skins give your gear a\",\"color\":\"gray\"}",
+    "{\"text\":\"fresh new look! Apply them just\",\"color\":\"gray\"}",
+    "{\"text\":\"like an enchant book using the\",\"color\":\"gray\"}",
+    "{\"text\":\"anvil.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin can be applied to\",\"color\":\"gray\"}",
+    "{\"text\":\"Protector Dragon Helmet\",\"color\":\"gold\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin is animated!\",\"color\":\"light_purple\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC COSMETIC\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "PROTECTOR_SHIMMER",
   "crafttext": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Shimmer_Skin",
     "https://wiki.hypixel.net/Shimmer_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

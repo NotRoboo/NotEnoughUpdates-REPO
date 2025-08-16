@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aBronze Trophy Fishing Sack",
-  "nbttag": "{ExtraAttributes:{id:\"BRONZE_TROPHY_FISHING_SACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c6a05555-1859-3cee-8700-2c43c4e44f28\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4NDkzODU4MjQ0OSwKICAicHJvZmlsZUlkIiA6ICJhYTA3ZjM2Mjk0NTM0YzYwODQzMjI4NzAzZTBlMjE3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FrdXlhX0l6YXlvaV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdjZDM2ZTA5ZDdjNDhmNzFiOWM4ODA5Y2RlNWM5YmI2MGEzNmIzMTkzZjMyYjQ5MzEyNWUzNTk1ZmQ3NTdkYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Trophy Fish pickups of\",1:\"§8§lBRONZE §7quality go directly\",2:\"§7into your sacks.\",3:\"\",4:\"§7Capacity: §e512 per fish\",5:\"§8Sacks sum their capacity.\",6:\"\",7:\"§eRight Click to open sack!\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§aBronze Trophy Fishing Sack\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bronze Trophy Fishing Sack\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bronze Trophy Fishing Sack\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Trophy Fish pickups of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"BRONZE \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"quality go directly\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"into your sacks.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Capacity: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"512 per fish\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"Sacks sum their capacity.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right Click to open sack!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BRONZE_TROPHY_FISHING_SACK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY4NDkzODU4MjQ0OSwKICAicHJvZmlsZUlkIiA6ICJhYTA3ZjM2Mjk0NTM0YzYwODQzMjI4NzAzZTBlMjE3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2FrdXlhX0l6YXlvaV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdjZDM2ZTA5ZDdjNDhmNzFiOWM4ODA5Y2RlNWM5YmI2MGEzNmIzMTkzZjMyYjQ5MzEyNWUzNTk1ZmQ3NTdkYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Trophy Fish pickups of",
-    "§8§lBRONZE §7quality go directly",
-    "§7into your sacks.",
-    "",
-    "§7Capacity: §e512 per fish",
-    "§8Sacks sum their capacity.",
-    "",
-    "§eRight Click to open sack!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Trophy Fish pickups of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"BRONZE \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"quality go directly\",\"color\":\"gray\"}]}",
+    "{\"text\":\"into your sacks.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Capacity: \",\"color\":\"gray\"},{\"text\":\"512 per fish\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"Sacks sum their capacity.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right Click to open sack!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "BRONZE_TROPHY_FISHING_SACK",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bronze_Trophy_Fishing_Sack",
     "https://wiki.hypixel.net/Bronze_Trophy_Fishing_Sack"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

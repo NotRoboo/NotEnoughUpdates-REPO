@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:emerald",
-  "displayname": "§5Emerald Blade",
-  "nbttag": "{ExtraAttributes:{id:\"EMERALD_BLADE\"},HideFlags:254,ItemModel:\"minecraft:emerald\",display:{Lore:[0:\"§7Damage: §c+130\",1:\"\",2:\"§7A powerful blade made from pure\",3:\"§2Emeralds§7. This blade becomes\",4:\"§7stronger as you carry more §6coins§7 in\",5:\"§7your purse §8(Capped at 2B coins)\",6:\"\",7:\"§7Receive §4Curse of Greed §7when striking,\",8:\"§cCANCELLING§7 any effect modifying your §6coins\",9:\"§7loss on §4death§7!\",10:\"\",11:\"§7Current Damage Bonus: §a0.0\",12:\"\",13:\"§8This item can be reforged!\",14:\"§5§lEPIC SWORD\"],Name:\"§5Emerald Blade\"}}",
+  "displayname": "{\"text\":\"Emerald Blade\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:emerald\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Emerald Blade\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+130\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A powerful blade made from pure\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Emeralds\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\". This blade becomes\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"stronger as you carry more \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"coins\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\" in\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your purse \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"(Capped at 2B coins)\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Receive \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Curse of Greed \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"when striking,\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"CANCELLING\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" any effect modifying your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"coins\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"loss on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"death\\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Current Damage Bonus: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0.0\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+130",
-    "",
-    "§7A powerful blade made from pure",
-    "§2Emeralds§7. This blade becomes",
-    "§7stronger as you carry more §6coins§7 in",
-    "§7your purse §8(Capped at 2B coins)",
-    "",
-    "§7Receive §4Curse of Greed §7when striking,",
-    "§cCANCELLING§7 any effect modifying your §6coins",
-    "§7loss on §4death§7!",
-    "",
-    "§7Current Damage Bonus: §a0.0",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+130\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A powerful blade made from pure\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Emeralds\",\"color\":\"dark_green\"},{\"text\":\". This blade becomes\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"stronger as you carry more \",\"color\":\"gray\"},{\"text\":\"coins\",\"color\":\"gold\"},{\"text\":\" in\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your purse \",\"color\":\"gray\"},{\"text\":\"(Capped at 2B coins)\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Receive \",\"color\":\"gray\"},{\"text\":\"Curse of Greed \",\"color\":\"dark_red\"},{\"text\":\"when striking,\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"CANCELLING\",\"color\":\"red\"},{\"text\":\" any effect modifying your \",\"color\":\"gray\"},{\"text\":\"coins\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"loss on \",\"color\":\"gray\"},{\"text\":\"death\",\"color\":\"dark_red\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Current Damage Bonus: \",\"color\":\"gray\"},{\"text\":\"0.0\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "EMERALD_BLADE",
   "clickcommand": "viewrecipe",
@@ -39,5 +39,8 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3Nurse Shark (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8945bd10-8760-3922-8945-bd1087607922\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA2N2NjZWZiYTVkODExZjQ3ZTNlMTg0Mzg1NTZiNzA0MzkzYWFmY2FmY2NlZGQ1ZDA5ODE5OTkyODZmNTk4YSJ9fX0\"}]}},display:{Lore:[0:\"§7The Nurse Shark is one of 4 sharks added in the fishing aspect of the\",1:\"§7community center update. It can be caught during fishing festivals\",2:\"§7while Marina is mayor by those of at least Fishing Level 5.\",3:\"\",4:\"§c❤ Health§8: §c2,500\",5:\"\",6:\"§c§lSPECIAL\"],Name:\"§3Nurse Shark (Sea Creature)\"},ExtraAttributes:{id:\"NURSE_SHARK_SC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Nurse Shark (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nurse Shark (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Nurse Shark is one of 4 sharks added in the fishing aspect of the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"community center update. It can be caught during fishing festivals\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"while Marina is mayor by those of at least Fishing Level 5.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2,500\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NURSE_SHARK_SC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Nurse Shark is one of 4 sharks added in the fishing aspect of the",
-    "§7community center update. It can be caught during fishing festivals",
-    "§7while Marina is mayor by those of at least Fishing Level 5.",
-    "",
-    "§c❤ Health§8: §c2,500",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"The Nurse Shark is one of 4 sharks added in the fishing aspect of the\",\"color\":\"gray\"}",
+    "{\"text\":\"community center update. It can be caught during fishing festivals\",\"color\":\"gray\"}",
+    "{\"text\":\"while Marina is mayor by those of at least Fishing Level 5.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"2,500\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "NURSE_SHARK_SC",
   "clickcommand": "viewrecipe",
@@ -51,5 +51,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

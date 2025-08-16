@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Jacobus (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"c4a5f578-b1e6-2971-add8-afc674dce5f6\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzViMWE2ODRlMjc0ZjYxYmQyNTBkOGRkY2U1NzFjODE2NjZjMzA1NmNjZjJmM2RmNWQwYTNkNjAyNzRiZDNlOGMifX19\"}]},Name:\"c4a5f578-b1e6-2971-add8-afc674dce5f6\"},display:{Lore:[0:\"\"],Name:\"§9Jacobus (NPC)\"},ExtraAttributes:{id:\"JACOBUS_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Jacobus (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jacobus (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"JACOBUS_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "JACOBUS_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Jacobus",
     "https://wiki.hypixel.net/Jacobus"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

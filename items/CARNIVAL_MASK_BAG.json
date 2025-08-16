@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fCarnival Mask Bag",
-  "nbttag": "{ExtraAttributes:{id:\"CARNIVAL_MASK_BAG\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1643bdfb-ef97-30d5-bae9-24992f24dea0\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNTA5MjYzMTU1OCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0YWY5NDMzNzFkNzZlNWRiNWRlYjkzZGYyZWFmMTRkOWIwZTAzYTE2NDhiZWU3ZjkwMTI2YWJmODk4M2MxZDYiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Holds §eCarnival Masks§7. Each unique\",1:\"§7Mask within this bag grants §b+1✎\",2:\"§bIntelligence§7.\",3:\"\",4:\"§7Current Bonus: §b+0✎ Intelligence\",5:\"\",6:\"§eRight Click to open bag!\",7:\"\",8:\"§f§lCOMMON ACCESSORY\"],Name:\"§fCarnival Mask Bag\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Carnival Mask Bag\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Carnival Mask Bag\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Holds \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Carnival Masks\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\". Each unique\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mask within this bag grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1✎\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Current Bonus: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+0✎ Intelligence\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right Click to open bag!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON ACCESSORY\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CARNIVAL_MASK_BAG\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxNTA5MjYzMTU1OCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0YWY5NDMzNzFkNzZlNWRiNWRlYjkzZGYyZWFmMTRkOWIwZTAzYTE2NDhiZWU3ZjkwMTI2YWJmODk4M2MxZDYiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Holds §eCarnival Masks§7. Each unique",
-    "§7Mask within this bag grants §b+1✎",
-    "§bIntelligence§7.",
-    "",
-    "§7Current Bonus: §b+0✎ Intelligence",
-    "",
-    "§eRight Click to open bag!",
-    "",
-    "§f§lCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Holds \",\"color\":\"gray\"},{\"text\":\"Carnival Masks\",\"color\":\"yellow\"},{\"text\":\". Each unique\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mask within this bag grants \",\"color\":\"gray\"},{\"text\":\"+1✎\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Current Bonus: \",\"color\":\"gray\"},{\"text\":\"+0✎ Intelligence\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right Click to open bag!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON ACCESSORY\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "CARNIVAL_MASK_BAG",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Carnival_Mask_Bag",
     "https://wiki.hypixel.net/Carnival_Mask_Bag"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:wooden_axe",
-  "displayname": "§aSpruce Axe",
-  "nbttag": "{ExtraAttributes:{id:\"JUNGLE_AXE\"},HideFlags:254,ItemModel:\"minecraft:wooden_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Sweep: §a+4\",1:\" §8[☘]\",2:\"\",3:\"§6Ability: Throwing Axe  §e§lRIGHT CLICK\",4:\"§7While on §2Foraging Islands§7, throw your Axe at a\",5:\"§7tree! It will sweep §c50% §7of the logs it normally\",6:\"§7would!\",7:\"§8Cooldown: §a1s\",8:\"\",9:\"§6Ability: Park Enjoyer \",10:\"§7Gain §6+50☘ Foraging Fortune §7while in §aThe Park§7.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§a§lUNCOMMON AXE\"],Name:\"§aSpruce Axe\"}}",
+  "displayname": "{\"text\":\"Spruce Axe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spruce Axe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sweep: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[☘]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Throwing Axe \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"While on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Foraging Islands\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\", throw your Axe at a\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"tree! It will sweep \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"of the logs it normally\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"would!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Park Enjoyer \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50☘ Foraging Fortune \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"while in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Park\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON AXE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"JUNGLE_AXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Sweep: §a+4",
-    " §8[☘]",
-    "",
-    "§6Ability: Throwing Axe  §e§lRIGHT CLICK",
-    "§7While on §2Foraging Islands§7, throw your Axe at a",
-    "§7tree! It will sweep §c50% §7of the logs it normally",
-    "§7would!",
-    "§8Cooldown: §a1s",
-    "",
-    "§6Ability: Park Enjoyer ",
-    "§7Gain §6+50☘ Foraging Fortune §7while in §aThe Park§7.",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON AXE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sweep: \",\"color\":\"gray\"},{\"text\":\"+4\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[☘]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Throwing Axe \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"While on \",\"color\":\"gray\"},{\"text\":\"Foraging Islands\",\"color\":\"dark_green\"},{\"text\":\", throw your Axe at a\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"tree! It will sweep \",\"color\":\"gray\"},{\"text\":\"50% \",\"color\":\"red\"},{\"text\":\"of the logs it normally\",\"color\":\"gray\"}]}",
+    "{\"text\":\"would!\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"1s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Park Enjoyer \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+50☘ Foraging Fortune \",\"color\":\"gold\"},{\"text\":\"while in \",\"color\":\"gray\"},{\"text\":\"The Park\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON AXE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "JUNGLE_AXE",
   "clickcommand": "",
@@ -42,5 +42,8 @@
       "count": 1,
       "overrideOutputId": "JUNGLE_AXE"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

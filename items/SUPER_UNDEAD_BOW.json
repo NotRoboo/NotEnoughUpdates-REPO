@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5Super Undead Bow",
-  "nbttag": "{ExtraAttributes:{id:\"SUPER_UNDEAD_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d260\",1:\"§7Damage: §c+220\",2:\"\",3:\"§7Deals §a+100% §7damage to §2༕ Undead\",4:\"§7mobs.\",5:\"\",6:\"§7Your arrows have a §e25% §7chance to\",7:\"§7bounce to another target after it\",8:\"§7hits something.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires The Catacombs Floor III Completion.\",12:\"§5§lEPIC DUNGEON BOW\"],Name:\"§5Super Undead Bow\"}}",
+  "displayname": "{\"text\":\"Super Undead Bow\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Super Undead Bow\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"260\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+220\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"damage to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"༕ Undead\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"mobs.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Your arrows have a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"25% \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"chance to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"bounce to another target after it\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"hits something.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires The Catacombs Floor III Completion.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON BOW\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SUPER_UNDEAD_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d260",
-    "§7Damage: §c+220",
-    "",
-    "§7Deals §a+100% §7damage to §2༕ Undead",
-    "§7mobs.",
-    "",
-    "§7Your arrows have a §e25% §7chance to",
-    "§7bounce to another target after it",
-    "§7hits something.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires The Catacombs Floor III Completion.",
-    "§5§lEPIC DUNGEON BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"260\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+220\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deals \",\"color\":\"gray\"},{\"text\":\"+100% \",\"color\":\"green\"},{\"text\":\"damage to \",\"color\":\"gray\"},{\"text\":\"༕ Undead\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"mobs.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Your arrows have a \",\"color\":\"gray\"},{\"text\":\"25% \",\"color\":\"yellow\"},{\"text\":\"chance to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"bounce to another target after it\",\"color\":\"gray\"}",
+    "{\"text\":\"hits something.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires The Catacombs Floor III Completion.\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON BOW\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SUPER_UNDEAD_BOW",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Super_Undead_Bow",
     "https://wiki.hypixel.net/Super_Undead_Bow"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

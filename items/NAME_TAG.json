@@ -1,20 +1,23 @@
 {
   "itemid": "minecraft:name_tag",
-  "displayname": "§aName Tag",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Right-click to apply a name to\",1:\"§7this Name Tag. Can be applied to\",2:\"§7mobs.\",3:\"\",4:\"§8§l* §8Co-op Soulbound §8§l*\",5:\"§a§lUNCOMMON\"],Name:\"§aName Tag\"},ExtraAttributes:{id:\"NAME_TAG\"}}",
+  "displayname": "{\"text\":\"Name Tag\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:name_tag\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Name Tag\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to apply a name to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"this Name Tag. Can be applied to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"mobs.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NAME_TAG\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Right-click to apply a name to",
-    "§7this Name Tag. Can be applied to",
-    "§7mobs.",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Right-click to apply a name to\",\"color\":\"gray\"}",
+    "{\"text\":\"this Name Tag. Can be applied to\",\"color\":\"gray\"}",
+    "{\"text\":\"mobs.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "NAME_TAG",
   "modver": "2.1.0-REL",
   "vanilla": true,
   "clickcommand": "",
   "crafttext": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aBlindness III Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:15b,Amplifier:2b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§fBlindness III §f(0:03)\",2:\"§7Grants blindness to the affected\",3:\"§7player.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aBlindness III Potion\"},ExtraAttributes:{potion_level:3,potion:\"blindness\",effects:[0:{level:3,effect:\"blindness\",duration_ticks:60}],potion_type:\"POTION\",id:\"POTION_BLINDNESS;3\"}}",
+  "displayname": "{\"text\":\"Blindness III Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Blindness III Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Blindness III \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"(0:03)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"Grants blindness to the affected\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"player.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":3,\"potion\":\"blindness\",\"effects\":\"[0:{level:3\",\"effect\":\"blindness\",\"duration_ticks\":60},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "",
-    "§fBlindness III §f(0:03)",
-    "§7Grants blindness to the affected",
-    "§7player.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Blindness III \",\"color\":\"white\"},{\"text\":\"(0:03)\",\"color\":\"white\"}]}",
+    "{\"text\":\"Grants blindness to the affected\",\"color\":\"gray\"}",
+    "{\"text\":\"player.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_BLINDNESS;3",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

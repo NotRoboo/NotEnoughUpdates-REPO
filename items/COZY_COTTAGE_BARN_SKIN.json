@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:hay_block",
-  "displayname": "§aCozy Cottage Barn Skin",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Consume this item to unlock the §aCozy\",1:\"§aCottage Barn Skin §7on §aThe Garden§7!\",2:\"\",3:\"§eClick to consume!\",4:\"\",5:\"§a§lUNCOMMON COSMETIC\"],Name:\"§aCozy Cottage Barn Skin\"},ExtraAttributes:{id:\"COZY_COTTAGE_BARN_SKIN\"}}",
+  "displayname": "{\"text\":\"Cozy Cottage Barn Skin\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:hay_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cozy Cottage Barn Skin\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consume this item to unlock the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Cozy\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cottage Barn Skin \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON COSMETIC\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COZY_COTTAGE_BARN_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7Consume this item to unlock the §aCozy",
-    "§aCottage Barn Skin §7on §aThe Garden§7!",
-    "",
-    "§eClick to consume!",
-    "",
-    "§a§lUNCOMMON COSMETIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consume this item to unlock the \",\"color\":\"gray\"},{\"text\":\"Cozy\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cottage Barn Skin \",\"color\":\"green\"},{\"text\":\"on \",\"color\":\"gray\"},{\"text\":\"The Garden\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON COSMETIC\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "COZY_COTTAGE_BARN_SKIN",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cozy_Cottage_Barn_Skin",
     "https://wiki.hypixel.net/Cozy_Cottage_Barn_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§5Armor of Magma Chestplate",
-  "nbttag": "{ExtraAttributes:{color:\"255:147:0\",id:\"ARMOR_OF_MAGMA_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+100\",1:\"§7Defense: §a+30\",2:\"\",3:\"§6Full Set Bonus: Absorb\",4:\"§7Every §910 Magma Cubes killed\",5:\"§7gives the wearer §a+1 §c❤ Health\",6:\"§7and §b✎ Intelligence§7 while\",7:\"§7wearing the set. Max 200 each.\",8:\"\",9:\"§7Magma Cubes Killed: §a0\",10:\"§7Bonus HP: §a0\",11:\"§7Bonus Intelligence: §a0\",12:\"\",13:\"§8This item can be reforged!\",14:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Armor of Magma Chestplate\",color:16749312}}",
+  "displayname": "{\"text\":\"Armor of Magma Chestplate\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Armor of Magma Chestplate\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Absorb\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10 Magma Cubes killed\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"gives the wearer \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✎ Intelligence\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\" while\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"wearing the set. Max 200 each.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Magma Cubes Killed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bonus HP: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bonus Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"255:147:0\",\"id\":\"ARMOR_OF_MAGMA_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+100",
-    "§7Defense: §a+30",
-    "",
-    "§6Full Set Bonus: Absorb",
-    "§7Every §910 Magma Cubes killed",
-    "§7gives the wearer §a+1 §c❤ Health",
-    "§7and §b✎ Intelligence§7 while",
-    "§7wearing the set. Max 200 each.",
-    "",
-    "§7Magma Cubes Killed: §a0",
-    "§7Bonus HP: §a0",
-    "§7Bonus Intelligence: §a0",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Absorb\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Every \",\"color\":\"gray\"},{\"text\":\"10 Magma Cubes killed\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"gives the wearer \",\"color\":\"gray\"},{\"text\":\"+1 \",\"color\":\"green\"},{\"text\":\"❤ Health\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"✎ Intelligence\",\"color\":\"aqua\"},{\"text\":\" while\",\"color\":\"gray\"}]}",
+    "{\"text\":\"wearing the set. Max 200 each.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Magma Cubes Killed: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bonus HP: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bonus Intelligence: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ARMOR_OF_MAGMA_CHESTPLATE",
   "clickcommand": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Armor_of_Magma_Chestplate",
     "https://wiki.hypixel.net/Armor_Of_Magma_Chestplate"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

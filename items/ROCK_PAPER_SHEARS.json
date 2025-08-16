@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:shears",
-  "displayname": "§aRock Paper Shears",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Click this item to initiate a\",1:\"§7tournament of Rock Paper Shears\",2:\"§7with all of the players on your\",3:\"§7island!\",4:\"\",5:\"§7Outsmart your opponents by\",6:\"§7choosing the least picked option\",7:\"§7to win the round! Final round\",8:\"§7uses classic rules.\",9:\"\",10:\"§7§4❣ §cRequires §aSocial Skill 8§c.\",11:\"§a§lUNCOMMON\"],Name:\"§aRock Paper Shears\"},ExtraAttributes:{id:\"ROCK_PAPER_SHEARS\"}}",
+  "displayname": "{\"text\":\"Rock Paper Shears\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:shears\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rock Paper Shears\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Click this item to initiate a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"tournament of Rock Paper Shears\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"with all of the players on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"island!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Outsmart your opponents by\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"choosing the least picked option\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to win the round! Final round\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"uses classic rules.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Social Skill 8\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ROCK_PAPER_SHEARS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Click this item to initiate a",
-    "§7tournament of Rock Paper Shears",
-    "§7with all of the players on your",
-    "§7island!",
-    "",
-    "§7Outsmart your opponents by",
-    "§7choosing the least picked option",
-    "§7to win the round! Final round",
-    "§7uses classic rules.",
-    "",
-    "§7§4❣ §cRequires §aSocial Skill 8§c.",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Click this item to initiate a\",\"color\":\"gray\"}",
+    "{\"text\":\"tournament of Rock Paper Shears\",\"color\":\"gray\"}",
+    "{\"text\":\"with all of the players on your\",\"color\":\"gray\"}",
+    "{\"text\":\"island!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Outsmart your opponents by\",\"color\":\"gray\"}",
+    "{\"text\":\"choosing the least picked option\",\"color\":\"gray\"}",
+    "{\"text\":\"to win the round! Final round\",\"color\":\"gray\"}",
+    "{\"text\":\"uses classic rules.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Social Skill 8\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ROCK_PAPER_SHEARS",
   "crafttext": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Rock_Paper_Shears",
     "https://wiki.hypixel.net/Rock_Paper_Shears"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

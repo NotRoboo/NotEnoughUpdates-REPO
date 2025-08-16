@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3Great White Shark (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"27b73cfa-c464-3eec-a7b7-3cfac4641eec\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdlYjEyMTAyYjcxNmU2Y2ZkNWIzMWY2ZDhkNjE1YTE0MDQxOTg3MzYyNmEwZjM2MDk1N2UyZjUwN2IifX19\"}]}},display:{Lore:[0:\"§7The Great White Shark is one of 4 sharks added in the fishing aspect of the\",1:\"§7community center update. It can be caught during fishing festivals\",2:\"§7while Marina is mayor by those of at least Fishing Level 24.\",3:\"\",4:\"§c❤ Health§8: §c1,500,000\",5:\"\",6:\"§c§lSPECIAL\"],Name:\"§3Great White Shark (Sea Creature)\"},ExtraAttributes:{id:\"GREAT_WHITE_SHARK_SC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Great White Shark (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Great White Shark (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Great White Shark is one of 4 sharks added in the fishing aspect of the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"community center update. It can be caught during fishing festivals\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"while Marina is mayor by those of at least Fishing Level 24.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1,500,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GREAT_WHITE_SHARK_SC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Great White Shark is one of 4 sharks added in the fishing aspect of the",
-    "§7community center update. It can be caught during fishing festivals",
-    "§7while Marina is mayor by those of at least Fishing Level 24.",
-    "",
-    "§c❤ Health§8: §c1,500,000",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"The Great White Shark is one of 4 sharks added in the fishing aspect of the\",\"color\":\"gray\"}",
+    "{\"text\":\"community center update. It can be caught during fishing festivals\",\"color\":\"gray\"}",
+    "{\"text\":\"while Marina is mayor by those of at least Fishing Level 24.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"1,500,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "GREAT_WHITE_SHARK_SC",
   "clickcommand": "viewrecipe",
@@ -55,5 +55,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

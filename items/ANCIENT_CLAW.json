@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:flint",
-  "displayname": "§9Ancient Claw",
-  "nbttag": "{ExtraAttributes:{id:\"ANCIENT_CLAW\"},HideFlags:254,ItemModel:\"minecraft:flint\",display:{Lore:[0:\"§7Drops rarely off of monsters from\",1:\"§7Diana's Mythological Ritual.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Ancient Claw\"}}",
+  "displayname": "{\"text\":\"Ancient Claw\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:flint\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ancient Claw\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Drops rarely off of monsters from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Diana\u0027s Mythological Ritual.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ANCIENT_CLAW\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Drops rarely off of monsters from",
-    "§7Diana's Mythological Ritual.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Drops rarely off of monsters from\",\"color\":\"gray\"}",
+    "{\"text\":\"Diana\u0027s Mythological Ritual.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ANCIENT_CLAW",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ancient_Claw",
     "https://wiki.hypixel.net/Ancient_Claw"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

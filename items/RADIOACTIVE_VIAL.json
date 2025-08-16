@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dRadioactive Vial",
-  "nbttag": "{ExtraAttributes:{id:\"RADIOACTIVE_VIAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e48c2f17-3184-3225-8ce4-21f8df393a18\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE0NWE2ODgxYzYyMGQ1ZjMzMjFhMWQxNmU5MTg1YTVkZDMzZmM5MWNmYmM5YTBiMTY0NDA3NDhkZTcwYTE0OCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Use at §bKat §7to upgrade §eFlying Fish\",1:\"§ePets §7to §dMythic §7rarity.\",2:\"\",3:\"§d§lMYTHIC\"],Name:\"§dRadioactive Vial\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Radioactive Vial\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Radioactive Vial\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Use at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Kat \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"to upgrade \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Flying Fish\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pets \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mythic \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"rarity.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RADIOACTIVE_VIAL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE0NWE2ODgxYzYyMGQ1ZjMzMjFhMWQxNmU5MTg1YTVkZDMzZmM5MWNmYmM5YTBiMTY0NDA3NDhkZTcwYTE0OCJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Use at §bKat §7to upgrade §eFlying Fish",
-    "§ePets §7to §dMythic §7rarity.",
-    "",
-    "§d§lMYTHIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Use at \",\"color\":\"gray\"},{\"text\":\"Kat \",\"color\":\"aqua\"},{\"text\":\"to upgrade \",\"color\":\"gray\"},{\"text\":\"Flying Fish\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pets \",\"color\":\"yellow\"},{\"text\":\"to \",\"color\":\"gray\"},{\"text\":\"Mythic \",\"color\":\"light_purple\"},{\"text\":\"rarity.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "RADIOACTIVE_VIAL",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Radioactive_Vial",
     "https://wiki.hypixel.net/Radioactive_Vial"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

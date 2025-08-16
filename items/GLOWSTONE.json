@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:glowstone",
-  "displayname": "§fGlowstone",
-  "nbttag": "{ExtraAttributes:{id:\"GLOWSTONE\"},HideFlags:254,ItemModel:\"minecraft:glowstone\",display:{Lore:[0:\"§f§lCOMMON BLOCK\"],Name:\"§fGlowstone\"}}",
+  "displayname": "{\"text\":\"Glowstone\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:glowstone\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Glowstone\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON BLOCK\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GLOWSTONE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON BLOCK"
+    "{\"text\":\"COMMON BLOCK\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GLOWSTONE",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

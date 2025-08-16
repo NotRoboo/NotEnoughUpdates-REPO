@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Mummy Candle",
-  "nbttag": "{ExtraAttributes:{id:\"MUMMY_CANDLE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f6ca5f95-5ef8-38ae-b969-adfd451a2ca0\",Properties:{textures:[0:{Name:\"textures\",Signature:\"WRkqSOLqH0D2UWucJ5oyKsyz7iu9wChwbRvNAFhVOFsWveHqagCbQn4vkfC4Z5HAhtm3Dl5IdyevNlBlsbnKOmJDKqL9pKx+cD4BnKqcRrZ80kFpRa2ZHF7fJweMlkK9kCKBrpGsl3YtW2YenYEo4ZFn5f/p2qsmxvUuC+I4urXlcYBOhk4cLXGVrHUamfttEbxPwhjmyw45gFAtSauYAdU+z5P6xqOdJcvrOy/xtO27xyMQ34haWywQhVfRGYWI2TxAmfr6K7ToDFgi27vWnCwO9lYoXn/FnMzUbdzwKs0p5y4SBTMx9cPRX5PN0w0ljoBUf1uewnZzu6Le3UTHJAHN2QgO4dfx5k1rCGjzvgFRHSXbKDsDp/SB0UA+Dh+sVsjr/lWBgtDf3PAFnABvK+rtre5KprAi7q0nl4C2ubrP4uLcxuyMuleoQsT3WM2CBUG4Yn/uqJsHdvbuO77GOGFJ6qC3EXVv6YCXCb3A6n/jGCCeYsjuHrPT5vX0ksp9AcSUimd7C0CjNsbxNRoBFVt0hEsIOgOGAq/PiFeUiAXGlBS0NblQhuwxGSLaHFW/LpTiOOoR8WIWHHDLjEzBDOMA9yc2sWf/ouC1OSVmNVS2YNNwlQ/+/jPOreK1BXqaQy2n8tgtgYI9p7g67GDSQ7T57+htsbBG2wk9Z7XNLsY=\",Value:\"eyJ0aW1lc3RhbXAiOjE0ODM4NjQ2NjkyMDgsInByb2ZpbGVJZCI6IjcxZmZhMzg5ZGEwYTQ1YTZiMDM4NDM3YjQ1YTcyNWU3IiwicHJvZmlsZU5hbWUiOiJNdW1teSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U5MWU5NTgyMmZlOThjYzVhNTY1OGU4MjRiMWI4Y2YxNGQ0ZGU5MmYwZTFhZjI0ODE1MzcyNDM1YzllYWI2In19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"§8Halloween Cosmetic\",2:\"\",3:\"§7This exclusive §6Halloween §7cosmetic\",4:\"§7can be placed on your island or\",5:\"§7traded.\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Mummy Candle\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mummy Candle\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mummy Candle\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Halloween Cosmetic\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This exclusive \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Halloween \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"cosmetic\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"can be placed on your island or\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"traded.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MUMMY_CANDLE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE0ODM4NjQ2NjkyMDgsInByb2ZpbGVJZCI6IjcxZmZhMzg5ZGEwYTQ1YTZiMDM4NDM3YjQ1YTcyNWU3IiwicHJvZmlsZU5hbWUiOiJNdW1teSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U5MWU5NTgyMmZlOThjYzVhNTY1OGU4MjRiMWI4Y2YxNGQ0ZGU5MmYwZTFhZjI0ODE1MzcyNDM1YzllYWI2In19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "§8Halloween Cosmetic",
-    "",
-    "§7This exclusive §6Halloween §7cosmetic",
-    "§7can be placed on your island or",
-    "§7traded.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Halloween Cosmetic\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This exclusive \",\"color\":\"gray\"},{\"text\":\"Halloween \",\"color\":\"gold\"},{\"text\":\"cosmetic\",\"color\":\"gray\"}]}",
+    "{\"text\":\"can be placed on your island or\",\"color\":\"gray\"}",
+    "{\"text\":\"traded.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MUMMY_CANDLE",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mummy_Candle",
     "https://wiki.hypixel.net/Mummy_Candle"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

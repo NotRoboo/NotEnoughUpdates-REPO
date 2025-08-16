@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Barbarian Duke X (Miniboss)",
-  "nbttag": "{SkullOwner:{Id:\"6ddece1d-8227-35f3-b9ca-476a9f6cd8c5\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTI0OTYyNTU3NSwKICAicHJvZmlsZUlkIiA6ICIyNzZlMDQ2YjI0MDM0M2VkOTk2NmU0OTRlN2U2Y2IzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBRFJBTlM3MTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVlOWZjN2MxODFlMmY2MzBmNmIxYWY4NWQ0OTUxMzU5Y2FmY2ZhODJmZjVlYTNiYzI4M2UwZTYwODhjNmU1NCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Ate too much Sulphur.\",1:\"\",2:\"§c❤ Health§8: §c70,000,000\"],Name:\"§5Barbarian Duke X (Miniboss)\"},ExtraAttributes:{id:\"BARBARIAN_DUKE_X_MINIBOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Barbarian Duke X (Miniboss)\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Barbarian Duke X (Miniboss)\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Ate too much Sulphur.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"70,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"BARBARIAN_DUKE_X_MINIBOSS\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Ate too much Sulphur.",
-    "",
-    "§c❤ Health§8: §c70,000,000"
+    "{\"text\":\"Ate too much Sulphur.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"70,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "BARBARIAN_DUKE_X_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -62,5 +62,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

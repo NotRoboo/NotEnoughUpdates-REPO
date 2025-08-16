@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:furnace",
-  "displayname": "§9Portable Campfire",
-  "nbttag": "{ExtraAttributes:{id:\"PORTABLE_CAMPFIRE\"},HideFlags:254,ItemModel:\"minecraft:furnace\",display:{Lore:[0:\"§7Can be placed down in the §bGlacite\",1:\"§bTunnels§7.\",2:\"\",3:\"§7Interacting with a campfire belonging\",4:\"§7to you or another player will reduce\",5:\"§7your §b❄ Cold §7by §a50§7.\",6:\"\",7:\"§7Each campfire can only be\",8:\"§7interacted with once, and you can\",9:\"§7only place one campfire every §a5\",10:\"§aminutes§7.\",11:\"\",12:\"§cConsumed on use!\",13:\"\",14:\"§9§lRARE\"],Name:\"§9Portable Campfire\"}}",
+  "displayname": "{\"text\":\"Portable Campfire\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:furnace\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Portable Campfire\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be placed down in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Glacite\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Tunnels\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Interacting with a campfire belonging\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to you or another player will reduce\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❄ Cold \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Each campfire can only be\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"interacted with once, and you can\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"only place one campfire every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"minutes\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Consumed on use!\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PORTABLE_CAMPFIRE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Can be placed down in the §bGlacite",
-    "§bTunnels§7.",
-    "",
-    "§7Interacting with a campfire belonging",
-    "§7to you or another player will reduce",
-    "§7your §b❄ Cold §7by §a50§7.",
-    "",
-    "§7Each campfire can only be",
-    "§7interacted with once, and you can",
-    "§7only place one campfire every §a5",
-    "§aminutes§7.",
-    "",
-    "§cConsumed on use!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be placed down in the \",\"color\":\"gray\"},{\"text\":\"Glacite\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Tunnels\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Interacting with a campfire belonging\",\"color\":\"gray\"}",
+    "{\"text\":\"to you or another player will reduce\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your \",\"color\":\"gray\"},{\"text\":\"❄ Cold \",\"color\":\"aqua\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"50\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Each campfire can only be\",\"color\":\"gray\"}",
+    "{\"text\":\"interacted with once, and you can\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"only place one campfire every \",\"color\":\"gray\"},{\"text\":\"5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"minutes\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Consumed on use!\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "PORTABLE_CAMPFIRE",
   "clickcommand": "viewrecipe",
@@ -40,5 +40,8 @@
       "duration": 1800,
       "overrideOutputId": "PORTABLE_CAMPFIRE"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:wooden_pickaxe",
-  "displayname": "§aJungle Pickaxe",
-  "nbttag": "{ExtraAttributes:{id:\"JUNGLE_PICKAXE\"},HideFlags:254,ItemModel:\"minecraft:wooden_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 5\",1:\"\",2:\"§7Damage: §c+50\",3:\"§7Mining Speed: §a+330\",4:\"\",5:\"§7Gives a chance to drop §aSludge Juice\",6:\"§7when mining in the §2Jungle §7of the\",7:\"§5Crystal Hollows§7.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §5Heart of the Mountain Tier 3§c.\",11:\"§a§lUNCOMMON PICKAXE\"],Name:\"§aJungle Pickaxe\"},ench:[]}",
+  "displayname": "{\"text\":\"Jungle Pickaxe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jungle Pickaxe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 5\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+330\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gives a chance to drop \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sludge Juice\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"when mining in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Jungle \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"of the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crystal Hollows\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 3\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON PICKAXE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"JUNGLE_PICKAXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 5",
-    "",
-    "§7Damage: §c+50",
-    "§7Mining Speed: §a+330",
-    "",
-    "§7Gives a chance to drop §aSludge Juice",
-    "§7when mining in the §2Jungle §7of the",
-    "§5Crystal Hollows§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 3§c.",
-    "§a§lUNCOMMON PICKAXE"
+    "{\"text\":\"Breaking Power 5\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+330\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gives a chance to drop \",\"color\":\"gray\"},{\"text\":\"Sludge Juice\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"when mining in the \",\"color\":\"gray\"},{\"text\":\"Jungle \",\"color\":\"dark_green\"},{\"text\":\"of the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crystal Hollows\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 3\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON PICKAXE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "JUNGLE_PICKAXE",
   "clickcommand": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Jungle_Pickaxe",
     "https://wiki.hypixel.net/Jungle_Pickaxe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

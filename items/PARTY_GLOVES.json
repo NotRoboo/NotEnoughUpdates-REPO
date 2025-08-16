@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aParty Gloves",
-  "nbttag": "{ExtraAttributes:{id:\"PARTY_GLOVES\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c71c6028-2395-3e65-9d9b-1534e9e7a2d1\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0MTIyOTk1NSwKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE5ZjM5M2Y5MGVhZWFmMzBjMjcyMDk0MDNjZmQxNTc3OGIxMTg3Njk1ZjhlYTBhOWNhNTU3MTFlZTFhODkiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Tiered Bonus: Carnival Craze (0/5)\",1:\"§7Gain §a+4% §7more §eCarnival Tokens§7.\",2:\"\",3:\"§8This item can be reforged!\",4:\"§a§lUNCOMMON GLOVES\"],Name:\"§aParty Gloves\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Party Gloves\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Party Gloves\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Tiered Bonus: Carnival Craze (0/5)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"more \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Carnival Tokens\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON GLOVES\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PARTY_GLOVES\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0MTIyOTk1NSwKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE5ZjM5M2Y5MGVhZWFmMzBjMjcyMDk0MDNjZmQxNTc3OGIxMTg3Njk1ZjhlYTBhOWNhNTU3MTFlZTFhODkiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Tiered Bonus: Carnival Craze (0/5)",
-    "§7Gain §a+4% §7more §eCarnival Tokens§7.",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON GLOVES"
+    "{\"text\":\"Tiered Bonus: Carnival Craze (0/5)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+4% \",\"color\":\"green\"},{\"text\":\"more \",\"color\":\"gray\"},{\"text\":\"Carnival Tokens\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON GLOVES\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "PARTY_GLOVES",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Party_Gloves",
     "https://wiki.hypixel.net/Party_Gloves"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

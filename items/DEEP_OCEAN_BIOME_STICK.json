@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§fDeep Ocean Biome Stick",
-  "nbttag": "{ExtraAttributes:{id:\"DEEP_OCEAN_BIOME_STICK\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§7Allows you to change the biome at\",1:\"§7the §atargeted block §7on your private\",2:\"§7island to §bDeep Ocean§7.\",3:\"\",4:\"§7Right-click to use or Left-click to\",5:\"§7change the radius it effects.\",6:\"\",7:\"§7Selected Radius: §b3\",8:\"\",9:\"§f§lCOMMON\"],Name:\"§fDeep Ocean Biome Stick\"},ench:[]}",
+  "displayname": "{\"text\":\"Deep Ocean Biome Stick\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Deep Ocean Biome Stick\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Allows you to change the biome at\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"targeted block \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"on your private\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"island to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Deep Ocean\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to use or Left-click to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"change the radius it effects.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Selected Radius: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DEEP_OCEAN_BIOME_STICK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Allows you to change the biome at",
-    "§7the §atargeted block §7on your private",
-    "§7island to §bDeep Ocean§7.",
-    "",
-    "§7Right-click to use or Left-click to",
-    "§7change the radius it effects.",
-    "",
-    "§7Selected Radius: §b3",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Allows you to change the biome at\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the \",\"color\":\"gray\"},{\"text\":\"targeted block \",\"color\":\"green\"},{\"text\":\"on your private\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"island to \",\"color\":\"gray\"},{\"text\":\"Deep Ocean\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to use or Left-click to\",\"color\":\"gray\"}",
+    "{\"text\":\"change the radius it effects.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Selected Radius: \",\"color\":\"gray\"},{\"text\":\"3\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DEEP_OCEAN_BIOME_STICK",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

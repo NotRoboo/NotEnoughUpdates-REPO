@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§9Rabbit VI Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:19b,Amplifier:5b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§aRabbit VI §f(3:00)\",2:\"§7Grants Jump Boost III and §a+60 §f✦\",3:\"§fSpeed§7.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Rabbit VI Potion\"},ExtraAttributes:{potion_level:6,potion:\"rabbit\",effects:[0:{level:6,effect:\"rabbit\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_RABBIT;6\"}}",
-  "damage": 4,
+  "displayname": "{\"text\":\"Rabbit VI Potion\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rabbit VI Potion\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rabbit VI \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants Jump Boost III and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"✦\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":6,\"potion\":\"rabbit\",\"effects\":\"[0:{level:6\",\"effect\":\"rabbit\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§aRabbit VI §f(3:00)",
-    "§7Grants Jump Boost III and §a+60 §f✦",
-    "§fSpeed§7.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rabbit VI \",\"color\":\"green\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants Jump Boost III and \",\"color\":\"gray\"},{\"text\":\"+60 \",\"color\":\"green\"},{\"text\":\"✦\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "POTION_RABBIT;6",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

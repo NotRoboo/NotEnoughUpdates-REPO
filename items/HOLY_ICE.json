@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:diamond",
-  "displayname": "§9Holy Ice",
-  "nbttag": "{ExtraAttributes:{id:\"HOLY_ICE\"},HideFlags:254,ItemModel:\"minecraft:diamond\",display:{Lore:[0:\"§6Ability: Splash Yo Face  §e§lRIGHT CLICK\",1:\"§7For the next §a1.5s§7, reduce §c❤ §7damage taken by\",2:\"§a80%§7.\",3:\"§8Mana Cost: §320\",4:\"§8Cooldown: §a4s\",5:\"\",6:\"§4☠ §cRequires §5Vampire Slayer 1§c.\",7:\"§9§lRARE\"],Name:\"§9Holy Ice\"}}",
+  "displayname": "{\"text\":\"Holy Ice\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Holy Ice\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Splash Yo Face \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"For the next \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1.5s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", reduce \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage taken by\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"80%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"20\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"4s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Vampire Slayer 1\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HOLY_ICE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Splash Yo Face  §e§lRIGHT CLICK",
-    "§7For the next §a1.5s§7, reduce §c❤ §7damage taken by",
-    "§a80%§7.",
-    "§8Mana Cost: §320",
-    "§8Cooldown: §a4s",
-    "",
-    "§4☠ §cRequires §5Vampire Slayer 1§c.",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Splash Yo Face \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"For the next \",\"color\":\"gray\"},{\"text\":\"1.5s\",\"color\":\"green\"},{\"text\":\", reduce \",\"color\":\"gray\"},{\"text\":\"❤ \",\"color\":\"red\"},{\"text\":\"damage taken by\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"80%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"20\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"4s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Vampire Slayer 1\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "HOLY_ICE",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "COVEN_SEAL:4",
     "C2": "FROZEN_WATER:20",
     "C3": "COVEN_SEAL:4"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

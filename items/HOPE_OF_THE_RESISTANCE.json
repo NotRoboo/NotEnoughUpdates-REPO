@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:double_plant",
-  "displayname": "§5Staff of the Rising Sun",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Ray of Hope §e§lRIGHT CLICK\",1:\"§7Channels your energy towards the\",2:\"§7target location, exploding on\",3:\"§7impact for §c6,642 §7damage.\",4:\"§7Costs §b10% §7of your total mana\",5:\"§7to use. This is the only item\",6:\"§7that can deal damage to Dante.\",7:\"\",8:\"§5§lEPIC WAND\"],Name:\"§5Staff of the Rising Sun\"},ExtraAttributes:{leaderVotes:0,leaderPosition:0,originTag:\"REWARD_SERAPHINE:HOPE_OF_THE_RESISTANCE\",id:\"HOPE_OF_THE_RESISTANCE\"}}",
+  "displayname": "{\"text\":\"Staff of the Rising Sun\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:double_plant\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Staff of the Rising Sun\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Ray of Hope \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Channels your energy towards the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"target location, exploding on\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"impact for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"6,642 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Costs \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10% \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"of your total mana\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"to use. This is the only item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"that can deal damage to Dante.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC WAND\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"leaderVotes\":0,\"leaderPosition\":0,\"originTag\":\"REWARD_SERAPHINE:HOPE_OF_THE_RESISTANCE\",\"id\":\"HOPE_OF_THE_RESISTANCE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Ray of Hope §e§lRIGHT CLICK",
-    "§7Channels your energy towards the",
-    "§7target location, exploding on",
-    "§7impact for §c6,642 §7damage.",
-    "§7Costs §b10% §7of your total mana",
-    "§7to use. This is the only item",
-    "§7that can deal damage to Dante.",
-    "",
-    "§5§lEPIC WAND"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Ray of Hope \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Channels your energy towards the\",\"color\":\"gray\"}",
+    "{\"text\":\"target location, exploding on\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"impact for \",\"color\":\"gray\"},{\"text\":\"6,642 \",\"color\":\"red\"},{\"text\":\"damage.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Costs \",\"color\":\"gray\"},{\"text\":\"10% \",\"color\":\"aqua\"},{\"text\":\"of your total mana\",\"color\":\"gray\"}]}",
+    "{\"text\":\"to use. This is the only item\",\"color\":\"gray\"}",
+    "{\"text\":\"that can deal damage to Dante.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC WAND\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "HOPE_OF_THE_RESISTANCE",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Staff_of_the_Rising_Sun",
     "https://wiki.hypixel.net/Staff_Of_The_Rising_Sun"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

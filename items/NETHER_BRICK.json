@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:nether_brick",
-  "displayname": "§fNether Bricks",
-  "nbttag": "{ExtraAttributes:{id:\"NETHER_BRICK\"},HideFlags:254,ItemModel:\"minecraft:nether_bricks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fNether Bricks\"}}",
+  "displayname": "{\"text\":\"Nether Bricks\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:nether_brick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nether Bricks\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NETHER_BRICK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "NETHER_BRICK",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 1
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:iron_chestplate",
-  "displayname": "§9etalptsehC norI",
-  "nbttag": "{ExtraAttributes:{id:\"ETALPTSEHC_NORI\"},HideFlags:254,ItemModel:\"minecraft:iron_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Rift Time: §a+30s\",1:\"\",2:\"§9§lRARE CHESTPLATE\"],Name:\"§9etalptsehC norI\"},ench:[]}",
+  "displayname": "{\"text\":\"etalptsehC norI\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"etalptsehC norI\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE CHESTPLATE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ETALPTSEHC_NORI\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Rift Time: §a+30s",
-    "",
-    "§9§lRARE CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+30s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE CHESTPLATE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ETALPTSEHC_NORI",
   "clickcommand": "",
@@ -15,5 +15,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Etalptsehc_Nori"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

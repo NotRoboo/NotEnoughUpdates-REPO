@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:emerald_block",
-  "displayname": "§9Enchanted Emerald Block",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_EMERALD_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:emerald_block\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE ORE\"],Name:\"§9Enchanted Emerald Block\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Emerald Block\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:emerald_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Emerald Block\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE ORE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_EMERALD_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§9§lRARE ORE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE ORE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_EMERALD_BLOCK",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "ENCHANTED_EMERALD:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

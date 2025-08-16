@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:spawn_egg",
-  "displayname": "§aGreen Goblin Egg",
-  "nbttag": "{ExtraAttributes:{id:\"GOBLIN_EGG_GREEN\"},HideFlags:254,ItemModel:\"minecraft:slime_spawn_egg\",display:{Lore:[0:\"§7§oWhat came first the goblin or the\",1:\"§7§oegg?\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aGreen Goblin Egg\"}}",
-  "damage": 55,
+  "itemid": "minecraft:slime_spawn_egg",
+  "displayname": "{\"text\":\"Green Goblin Egg\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:slime_spawn_egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Green Goblin Egg\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"What came first the goblin or the\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"egg?\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOBLIN_EGG_GREEN\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§oWhat came first the goblin or the",
-    "§7§oegg?",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"What came first the goblin or the\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"egg?\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "GOBLIN_EGG_GREEN",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Green_Goblin_Egg",
     "https://wiki.hypixel.net/Green_Goblin_Egg"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:iron_shovel",
-  "displayname": "§aPromising Shovel",
-  "nbttag": "{ExtraAttributes:{id:\"PROMISING_SPADE\"},HideFlags:254,ItemModel:\"minecraft:iron_shovel\",Unbreakable:1B,display:{Lore:[0:\"§7Gains §9Efficiency I §7after breaking §a10\",1:\"§ablocks§7!\",2:\"\",3:\"§7Blocks Broken: §a0\",4:\"\",5:\"§a§lUNCOMMON SHOVEL\"],Name:\"§aPromising Shovel\"}}",
+  "displayname": "{\"text\":\"Promising Shovel\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_shovel\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Promising Shovel\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gains \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Efficiency I \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"after breaking \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"blocks\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Blocks Broken: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON SHOVEL\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PROMISING_SPADE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gains §9Efficiency I §7after breaking §a10",
-    "§ablocks§7!",
-    "",
-    "§7Blocks Broken: §a0",
-    "",
-    "§a§lUNCOMMON SHOVEL"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gains \",\"color\":\"gray\"},{\"text\":\"Efficiency I \",\"color\":\"blue\"},{\"text\":\"after breaking \",\"color\":\"gray\"},{\"text\":\"10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"blocks\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Blocks Broken: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON SHOVEL\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "PROMISING_SPADE",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§fCactus Leggings",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+10\",1:\"§7Defense: §a+20\",2:\"\",3:\"§6Full Set Bonus: Deflect\",4:\"§7Rebound §a33.0% §7of the damage\",5:\"§7you take back at your enemy.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§f§lCOMMON LEGGINGS\"],color:65280,Name:\"§fCactus Leggings\"},ExtraAttributes:{color:\"0:255:0\",id:\"CACTUS_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Cactus Leggings\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cactus Leggings\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Deflect\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rebound \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"33.0% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of the damage\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"you take back at your enemy.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON LEGGINGS\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"0:255:0\",\"id\":\"CACTUS_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+10",
-    "§7Defense: §a+20",
-    "",
-    "§6Full Set Bonus: Deflect",
-    "§7Rebound §a33.0% §7of the damage",
-    "§7you take back at your enemy.",
-    "",
-    "§7§8This item can be reforged!",
-    "§f§lCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Deflect\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rebound \",\"color\":\"gray\"},{\"text\":\"33.0% \",\"color\":\"green\"},{\"text\":\"of the damage\",\"color\":\"gray\"}]}",
+    "{\"text\":\"you take back at your enemy.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON LEGGINGS\",\"color\":\"white\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "CACTUS:1",
@@ -33,5 +33,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Cactus_Leggings",
     "https://wiki.hypixel.net/Cactus_Leggings"
   ],
-  "crafttext": "Requires: Cactus II"
+  "crafttext": "Requires: Cactus II",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

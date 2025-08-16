@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Magic Top Hat",
-  "nbttag": "{ExtraAttributes:{id:\"MAGIC_TOP_HAT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ce74af94-474a-3d75-9eeb-f978520ba808\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE1YzVjOWYyNzliMTE2NGVjZDVlNjdlMTQ0Nzg4MDIxODRiYjAzMDMxZDFhOWZmMzVlNDZiODYzYTljMDZiYyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Use at §bKat §7to upgrade §eSnowman Pets\",1:\"§7to §dMythic §7rarity.\",2:\"\",3:\"§8§oA hat so charming, even rabbits wish\",4:\"§8§oto call it home.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Magic Top Hat\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Magic Top Hat\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Magic Top Hat\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Use at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Kat \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"to upgrade \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Snowman Pets\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mythic \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"rarity.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A hat so charming, even rabbits wish\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"to call it home.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MAGIC_TOP_HAT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE1YzVjOWYyNzliMTE2NGVjZDVlNjdlMTQ0Nzg4MDIxODRiYjAzMDMxZDFhOWZmMzVlNDZiODYzYTljMDZiYyJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Use at §bKat §7to upgrade §eSnowman Pets",
-    "§7to §dMythic §7rarity.",
-    "",
-    "§8§oA hat so charming, even rabbits wish",
-    "§8§oto call it home.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Use at \",\"color\":\"gray\"},{\"text\":\"Kat \",\"color\":\"aqua\"},{\"text\":\"to upgrade \",\"color\":\"gray\"},{\"text\":\"Snowman Pets\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to \",\"color\":\"gray\"},{\"text\":\"Mythic \",\"color\":\"light_purple\"},{\"text\":\"rarity.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A hat so charming, even rabbits wish\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"to call it home.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "MAGIC_TOP_HAT",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Magic_Top_Hat",
     "https://wiki.hypixel.net/Magic_Top_Hat"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

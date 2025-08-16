@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Mini Fish Bowl",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1769885a-7e02-343d-afe2-e89d7cfd5512\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNTA5NDgwMDQ2NiwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I0OTQ4OGNjYzljOTRmMTRhZmI3NTc0MTg2MGVhZjgwZjRjZWNiNGU3ZGIxNzg3YzlkYjc0YzY2MTMwZmFmM2QiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7§8Decoration item\",1:\"§7\",2:\"§7§7Obtained during the §eCarnival§7 for\",3:\"§7placing within the §aTop 500 §7in §3Catch a\",4:\"§3Fish§7.\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Mini Fish Bowl\"},ExtraAttributes:{id:\"MINI_FISH_BOWL\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mini Fish Bowl\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mini Fish Bowl\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Decoration item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Carnival\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\" for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"placing within the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Top 500 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Catch a\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fish\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MINI_FISH_BOWL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§8Decoration item",
-    "§7",
-    "§7§7Obtained during the §eCarnival§7 for",
-    "§7placing within the §aTop 500 §7in §3Catch a",
-    "§3Fish§7.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Decoration item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained during the \",\"color\":\"gray\"},{\"text\":\"Carnival\",\"color\":\"yellow\"},{\"text\":\" for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"placing within the \",\"color\":\"gray\"},{\"text\":\"Top 500 \",\"color\":\"green\"},{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"Catch a\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fish\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "MINI_FISH_BOWL",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mini_Fish_Bowl",
     "https://wiki.hypixel.net/Mini_Fish_Bowl"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

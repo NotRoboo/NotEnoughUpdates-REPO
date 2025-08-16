@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:iron_ingot",
-  "displayname": "§aEnchanted Iron",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_IRON\"},HideFlags:254,ItemModel:\"minecraft:iron_ingot\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Iron\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Iron\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_ingot\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Iron\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ORE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_IRON\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§a§lUNCOMMON ORE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ORE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_IRON",
   "clickcommand": "viewrecipe",
@@ -44,5 +44,8 @@
       "C3": "",
       "count": 9
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

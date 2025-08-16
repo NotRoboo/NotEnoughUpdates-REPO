@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:compass",
-  "displayname": "§fCompass",
-  "nbttag": "{ExtraAttributes:{id:\"COMPASS\"},HideFlags:254,ItemModel:\"minecraft:compass\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCompass\"}}",
+  "displayname": "{\"text\":\"Compass\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:compass\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Compass\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COMPASS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "COMPASS",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "",
     "C2": "IRON_INGOT:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:string",
-  "displayname": "§5Braided Griffin Feather",
-  "nbttag": "{ExtraAttributes:{id:\"BRAIDED_GRIFFIN_FEATHER\"},HideFlags:254,ItemModel:\"minecraft:string\",display:{Lore:[0:\"§5§lEPIC\"],Name:\"§5Braided Griffin Feather\"},ench:[]}",
+  "displayname": "{\"text\":\"Braided Griffin Feather\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:string\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Braided Griffin Feather\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BRAIDED_GRIFFIN_FEATHER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§5§lEPIC"
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "BRAIDED_GRIFFIN_FEATHER",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "GRIFFIN_FEATHER:32",
     "C2": "SOUL_STRING:64",
     "C3": "GRIFFIN_FEATHER:32"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

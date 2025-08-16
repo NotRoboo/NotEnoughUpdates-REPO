@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§5Mana VIII Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:16b,Amplifier:7b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§9Mana VIII §f(3:00)\",2:\"§7Grants §b+8 ✎ Mana §7per second.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Mana VIII Potion\"},ExtraAttributes:{potion_level:8,potion:\"mana\",effects:[0:{level:8,effect:\"mana\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_MANA;8\"}}",
-  "damage": 6,
+  "displayname": "{\"text\":\"Mana VIII Potion\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mana VIII Potion\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana VIII \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+8 ✎ Mana \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"per second.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":8,\"potion\":\"mana\",\"effects\":\"[0:{level:8\",\"effect\":\"mana\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§9Mana VIII §f(3:00)",
-    "§7Grants §b+8 ✎ Mana §7per second.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana VIII \",\"color\":\"blue\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+8 ✎ Mana \",\"color\":\"aqua\"},{\"text\":\"per second.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "POTION_MANA;8",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

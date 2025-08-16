@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:web",
-  "displayname": "§aWeb",
-  "nbttag": "{ExtraAttributes:{id:\"WEB\"},HideFlags:254,ItemModel:\"minecraft:cobweb\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aWeb\"}}",
+  "displayname": "{\"text\":\"Web\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:web\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Web\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WEB\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§a§lUNCOMMON"
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "WEB",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C2": "STRING:1",
     "C3": "STRING:1"
   },
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

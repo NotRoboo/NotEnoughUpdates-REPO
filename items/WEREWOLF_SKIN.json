@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:leather",
-  "displayname": "§9Werewolf Skin",
-  "nbttag": "{ExtraAttributes:{id:\"WEREWOLF_SKIN\"},HideFlags:254,ItemModel:\"minecraft:leather\",display:{Lore:[0:\"§7Dropped by Werewolf sea\",1:\"§7creatures during the Spooky\",2:\"§7Festival\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Werewolf Skin\"}}",
+  "displayname": "{\"text\":\"Werewolf Skin\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Werewolf Skin\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Dropped by Werewolf sea\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"creatures during the Spooky\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Festival\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WEREWOLF_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Dropped by Werewolf sea",
-    "§7creatures during the Spooky",
-    "§7Festival",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Dropped by Werewolf sea\",\"color\":\"gray\"}",
+    "{\"text\":\"creatures during the Spooky\",\"color\":\"gray\"}",
+    "{\"text\":\"Festival\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "WEREWOLF_SKIN",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Werewolf_Skin",
     "https://wiki.hypixel.net/Werewolf_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

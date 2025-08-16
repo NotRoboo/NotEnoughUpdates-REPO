@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§fEnchanted Bone Meal",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_BONE_MEAL\"},HideFlags:254,ItemModel:\"minecraft:bone_meal\",display:{Lore:[0:\"§7Instantly grows crops and\",1:\"§7saplings.\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fEnchanted Bone Meal\"},ench:[]}",
-  "damage": 15,
+  "displayname": "{\"text\":\"Enchanted Bone Meal\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Bone Meal\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Instantly grows crops and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"saplings.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_BONE_MEAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Instantly grows crops and",
-    "§7saplings.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Instantly grows crops and\",\"color\":\"gray\"}",
+    "{\"text\":\"saplings.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_BONE_MEAL",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Bone_Meal",
     "https://wiki.hypixel.net/Enchanted_Bone_Meal"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Icy Sinker",
-  "nbttag": "{ExtraAttributes:{id:\"ICY_SINKER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"839e3e98-07cd-30cf-a5ae-437fd6b0c772\",Properties:{textures:[0:{Name:\"textures\",Signature:\"TzsKxl30477zLFj0cCNk/PKEtj04Xa5lOu0NW4VtMtMmFTR5sU1LVGpZ/zRCO6F7VIpmiyQjm+Kq+4fCFTzONtOgN/pCshhV1ixgJsbhVjSIXmr44Nhxz9A5zVYCXTxUrLYm0tO5NwyM/drskZ6ISHiYG7oEBes1EwGBEPVtwpLHfhMajvZTGGAAe9EVMJJdBMDp+KVjMeBx+abshk7XySczY3Mk9uXtA51/vkD+lB+xCEwZq3iuqlTVmYfxZ5CBPsPUjeZ1ULVPSlQenQPyxuxKorFm2WlR3ba1YTKfjWfS3gaREELN/Il9g7w3CqKhlyQfmKYGVAmTZeMnnjJms2MVi6TPUxd2WgVOFLneCXtrI5T2Ju0qZ4jITJdvWSxoo689qyBHBM2jEgxNRbNoMqef6Qg+L8MU8ZtihghcMAU+vb2sxrpFGu1GKQGLRtVmoqw27p14LmwELZwPtbU9aovWQgo7ZrqPpduZMlbmtUrzrqtenI9AUM++wJcsowgiff7mUo/8eXsbuQRskca7vTTkVFXOVH8dk7uogGtfJSk0beFPpMODBE+5l9wXiJigDPHhpYMM8R4HKpzPstfxLpZEbcV99kFgPNSE5x104EjEZs+N4levnvWLsvcwu4ricS8RFqnOyoKLks5YkmWqLJ2OvvgPZVMidUhcZKW0BsA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczOTg4ODYwNzczNCwKICAicHJvZmlsZUlkIiA6ICJiNjZiYTQ5ZWFiZWM0YmY5OWVhOWY5NDBjMTcxYTkzMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXRlaUxpa2VzTWluaW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFkZmIxODYxYWEwZGQ0OWY3YmQ4YTRlY2IxNGZiZGEzNTA1NWZiZTliMDZiNGQ3YmU1Y2RkZTBmYzdjYzYwZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Increases the chance to catch\",1:\"§fWinter Sea Creatures §7by §a200%§7.\",2:\"\",3:\"§7Materializes §fIce §7in your inventory\",4:\"§7whenever you catch something.\",5:\"\",6:\"§7Talk to §2Roddy §7in the §2Backwater\",7:\"§2Bayou §7to apply this §9Sinker §7to a\",8:\"§7Fishing Rod.\",9:\"\",10:\"§4❣ §cRequires §aFishing Skill 5§c.\",11:\"§9§lRARE ROD PART\"],Name:\"§9Icy Sinker\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Icy Sinker\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Icy Sinker\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Increases the chance to catch\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Winter Sea Creatures \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"200%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Materializes \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Ice \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"in your inventory\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"whenever you catch something.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Talk to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Roddy \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Backwater\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bayou \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"to apply this \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sinker \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"to a\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Fishing Rod.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Fishing Skill 5\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE ROD PART\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ICY_SINKER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTczOTg4ODYwNzczNCwKICAicHJvZmlsZUlkIiA6ICJiNjZiYTQ5ZWFiZWM0YmY5OWVhOWY5NDBjMTcxYTkzMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXRlaUxpa2VzTWluaW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFkZmIxODYxYWEwZGQ0OWY3YmQ4YTRlY2IxNGZiZGEzNTA1NWZiZTliMDZiNGQ3YmU1Y2RkZTBmYzdjYzYwZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Increases the chance to catch",
-    "§fWinter Sea Creatures §7by §a200%§7.",
-    "",
-    "§7Materializes §fIce §7in your inventory",
-    "§7whenever you catch something.",
-    "",
-    "§7Talk to §2Roddy §7in the §2Backwater",
-    "§2Bayou §7to apply this §9Sinker §7to a",
-    "§7Fishing Rod.",
-    "",
-    "§4❣ §cRequires §aFishing Skill 5§c.",
-    "§9§lRARE ROD PART"
+    "{\"text\":\"Increases the chance to catch\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Winter Sea Creatures \",\"color\":\"white\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"200%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Materializes \",\"color\":\"gray\"},{\"text\":\"Ice \",\"color\":\"white\"},{\"text\":\"in your inventory\",\"color\":\"gray\"}]}",
+    "{\"text\":\"whenever you catch something.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Talk to \",\"color\":\"gray\"},{\"text\":\"Roddy \",\"color\":\"dark_green\"},{\"text\":\"in the \",\"color\":\"gray\"},{\"text\":\"Backwater\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bayou \",\"color\":\"dark_green\"},{\"text\":\"to apply this \",\"color\":\"gray\"},{\"text\":\"Sinker \",\"color\":\"blue\"},{\"text\":\"to a\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Fishing Rod.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Fishing Skill 5\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE ROD PART\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ICY_SINKER",
   "clickcommand": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Icy_Sinker",
     "https://wiki.hypixel.net/Icy_Sinker"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

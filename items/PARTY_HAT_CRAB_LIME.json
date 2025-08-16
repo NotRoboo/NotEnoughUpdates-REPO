@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aLime Crab Hat of Celebration",
-  "nbttag": "{ExtraAttributes:{id:\"PARTY_HAT_CRAB_LIME\",originTag:\"REWARD_PARTY_TIME_HAT_NPC\",party_hat_color:\"lime\",party_hat_year:2020},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e95e0200-5ef3-327d-ae17-3336b35b3bd3\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MTgwMDM5NjEyMywKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkzYzYwZmQwZGQxMzA2OTVlMzc4ZWVmMDEwYTdkM2M1ZGZkZTc3ZjZiODJiMjBiODEyNGNmYjgzMDAxN2ZmIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Magic Find: §a+1\",1:\"\",2:\"§6Ability: Party Time!\",3:\"§7Gain §b+1✎ Intelligence §7while\",4:\"§7on your head for each SkyBlock\",5:\"§7year you've been playing.\",6:\"\",7:\"§7Obtained: §e2020\",8:\"\",9:\"§c§lSPECIAL HATCESSORY\"],Name:\"§aLime Crab Hat of Celebration\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Lime Crab Hat of Celebration\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lime Crab Hat of Celebration\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Magic Find: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Party Time!\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1✎ Intelligence \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"while\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"on your head for each SkyBlock\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"year you\u0027ve been playing.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2020\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL HATCESSORY\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"party_hat_color\":\"lime\",\"party_hat_year\":2020,\"originTag\":\"REWARD_PARTY_TIME_HAT_NPC\",\"id\":\"PARTY_HAT_CRAB_LIME\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTU5MTgwMDM5NjEyMywKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkzYzYwZmQwZGQxMzA2OTVlMzc4ZWVmMDEwYTdkM2M1ZGZkZTc3ZjZiODJiMjBiODEyNGNmYjgzMDAxN2ZmIgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Magic Find: §a+1",
-    "",
-    "§6Ability: Party Time!",
-    "§7Gain §b+1✎ Intelligence §7while",
-    "§7on your head for each SkyBlock",
-    "§7year you've been playing.",
-    "",
-    "§7Obtained: §e2020",
-    "",
-    "§c§lSPECIAL HATCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Magic Find: \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Party Time!\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+1✎ Intelligence \",\"color\":\"aqua\"},{\"text\":\"while\",\"color\":\"gray\"}]}",
+    "{\"text\":\"on your head for each SkyBlock\",\"color\":\"gray\"}",
+    "{\"text\":\"year you\u0027ve been playing.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained: \",\"color\":\"gray\"},{\"text\":\"2020\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL HATCESSORY\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "PARTY_HAT_CRAB_LIME",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lime_Crab_Hat_of_Celebration",
     "https://wiki.hypixel.net/Lime_Crab_Hat_Of_Celebration"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

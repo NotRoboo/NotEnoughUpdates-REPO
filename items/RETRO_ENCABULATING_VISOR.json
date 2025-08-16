@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dRetro-Encabulating Visor",
-  "nbttag": "{ExtraAttributes:{id:\"RETRO_ENCABULATING_VISOR\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"6da7834b-3c29-39dc-8743-60b275d5d3ec\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0OTMxNDYyOTc2NSwKICAicHJvZmlsZUlkIiA6ICJlZjJlZDE2NDA4YjU0NWQyYjAwMGM5YmE2Y2Y0MTJhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiYXNlbmVzcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZTIxYTMxNTEyMWRmMDE5OWFjODMxNjQyZThhNTQ2YWRiYjVlZDM2MTY1MWZmYTRkNjk0NjZkOTkyNzk2MTI4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Intelligence: §a-50\",1:\"\",2:\"§7Lets you see presumably\",3:\"§7invisible cables when worn.\",4:\"\",5:\"§8Kloon built this in a cave!\",6:\"§8With a bunch of scraps!\",7:\"\",8:\"§d§lMYTHIC HELMET\"],Name:\"§dRetro-Encabulating Visor\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Retro-Encabulating Visor\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Retro-Encabulating Visor\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"-50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Lets you see presumably\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"invisible cables when worn.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Kloon built this in a cave!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"With a bunch of scraps!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC HELMET\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RETRO_ENCABULATING_VISOR\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0OTMxNDYyOTc2NSwKICAicHJvZmlsZUlkIiA6ICJlZjJlZDE2NDA4YjU0NWQyYjAwMGM5YmE2Y2Y0MTJhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiYXNlbmVzcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZTIxYTMxNTEyMWRmMDE5OWFjODMxNjQyZThhNTQ2YWRiYjVlZDM2MTY1MWZmYTRkNjk0NjZkOTkyNzk2MTI4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Intelligence: §a-50",
-    "",
-    "§7Lets you see presumably",
-    "§7invisible cables when worn.",
-    "",
-    "§8Kloon built this in a cave!",
-    "§8With a bunch of scraps!",
-    "",
-    "§d§lMYTHIC HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"-50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Lets you see presumably\",\"color\":\"gray\"}",
+    "{\"text\":\"invisible cables when worn.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Kloon built this in a cave!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"With a bunch of scraps!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC HELMET\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "RETRO_ENCABULATING_VISOR",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Retro-Encabulating_Visor",
     "https://wiki.hypixel.net/Retro-Encabulating_Visor"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

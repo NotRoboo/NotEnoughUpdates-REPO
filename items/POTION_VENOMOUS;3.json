@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aVenomous III Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:19b,Amplifier:2b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§5Venomous III §f(3:00)\",2:\"§7Grants §c-15 §f✦ Speed §7and deals §c15\",3:\"§c§7damage per second.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aVenomous III Potion\"},ExtraAttributes:{potion_level:3,potion:\"venomous\",effects:[0:{level:3,effect:\"venomous\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_VENOMOUS;3\"}}",
-  "damage": 4,
+  "displayname": "{\"text\":\"Venomous III Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Venomous III Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Venomous III \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"-15 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"✦ Speed \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"and deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"15\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"damage per second.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":3,\"potion\":\"venomous\",\"effects\":\"[0:{level:3\",\"effect\":\"venomous\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§5Venomous III §f(3:00)",
-    "§7Grants §c-15 §f✦ Speed §7and deals §c15",
-    "§c§7damage per second.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Venomous III \",\"color\":\"dark_purple\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"-15 \",\"color\":\"red\"},{\"text\":\"✦ Speed \",\"color\":\"white\"},{\"text\":\"and deals \",\"color\":\"gray\"},{\"text\":\"15\",\"color\":\"red\"}]}",
+    "{\"text\":\"damage per second.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_VENOMOUS;3",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "2.4.0",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

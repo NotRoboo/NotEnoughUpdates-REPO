@@ -1,25 +1,25 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Sven Packmaster IV (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]}},display:{Lore:[0:\"§8Strong\",1:\"\",2:\"§7Health: §c2,000,000❤\",3:\"§7Damage: §c440 §7per second\",4:\"§7True damage: §f200 §7per second\",5:\"\",6:\"§aAgile\",7:\"§7The wolf is small and fast, making\",8:\"§7it hard to hit.\",9:\"\",10:\"§fTrue Damage\",11:\"§7Ignores your defense. Very painful.\",12:\"\",13:\"§bCall the pups!\",14:\"§7At 50% health, calls its deadly pack\",15:\"§7of pups.\"],Name:\"§6Sven Packmaster IV (Boss)\"},ExtraAttributes:{id:\"SVEN_PACKMASTER_4_BOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Sven Packmaster IV (Boss)\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sven Packmaster IV (Boss)\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Strong\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2,000,000❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"440 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per second\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"True damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"200 \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"per second\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Agile\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"The wolf is small and fast, making\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"it hard to hit.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"True Damage\\\",\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"Ignores your defense. Very painful.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Call the pups!\\\",\\\"color\\\":\\\"aqua\\\"}\",\"{\\\"text\\\":\\\"At 50% health, calls its deadly pack\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"of pups.\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"SVEN_PACKMASTER_4_BOSS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Strong",
-    "",
-    "§7Health: §c2,000,000❤",
-    "§7Damage: §c440 §7per second",
-    "§7True damage: §f200 §7per second",
-    "",
-    "§aAgile",
-    "§7The wolf is small and fast, making",
-    "§7it hard to hit.",
-    "",
-    "§fTrue Damage",
-    "§7Ignores your defense. Very painful.",
-    "",
-    "§bCall the pups!",
-    "§7At 50% health, calls its deadly pack",
-    "§7of pups."
+    "{\"text\":\"Strong\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"2,000,000❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"440 \",\"color\":\"red\"},{\"text\":\"per second\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"True damage: \",\"color\":\"gray\"},{\"text\":\"200 \",\"color\":\"white\"},{\"text\":\"per second\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Agile\",\"color\":\"green\"}",
+    "{\"text\":\"The wolf is small and fast, making\",\"color\":\"gray\"}",
+    "{\"text\":\"it hard to hit.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"True Damage\",\"color\":\"white\"}",
+    "{\"text\":\"Ignores your defense. Very painful.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Call the pups!\",\"color\":\"aqua\"}",
+    "{\"text\":\"At 50% health, calls its deadly pack\",\"color\":\"gray\"}",
+    "{\"text\":\"of pups.\",\"color\":\"gray\"}"
   ],
   "internalname": "SVEN_PACKMASTER_4_BOSS",
   "clickcommand": "viewrecipe",
@@ -40,12 +40,16 @@
       "drops": [
         {
           "id": "WOLF_TOOTH",
-          "extra": ["x50-64"],
+          "extra": [
+            "x50-64"
+          ],
           "chance": "100%"
         },
         {
           "id": "HAMSTER_WHEEL",
-          "extra": ["x4-5"],
+          "extra": [
+            "x4-5"
+          ],
           "chance": "16.49%"
         },
         {
@@ -83,5 +87,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

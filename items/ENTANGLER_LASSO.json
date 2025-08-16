@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:lead",
-  "displayname": "§9Entangler Lasso",
-  "nbttag": "{ExtraAttributes:{id:\"ENTANGLER_LASSO\"},HideFlags:254,ItemModel:\"minecraft:lead\",display:{Lore:[0:\"§8Hunting Tool\",1:\"\",2:\"§6Ability: Throw  §e§lRIGHT CLICK\",3:\"§7Throw the Lasso at §2Forest\",4:\"§7creatures and hold them still until\",5:\"§7they lose all their §9stamina§7.\",6:\"\",7:\"§6Ability: Reel In  §e§lRIGHT CLICK\",8:\"§7Reel in creatures caught by the\",9:\"§7Lasso each time their §9stamina\",10:\"§7depletes.\",11:\"\",12:\"§7Creatures lose stamina §240% §7faster.\",13:\"\",14:\"§9§lRARE LASSO\"],Name:\"§9Entangler Lasso\"}}",
+  "displayname": "{\"text\":\"Entangler Lasso\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:lead\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Entangler Lasso\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Hunting Tool\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Throw \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Throw the Lasso at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Forest\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"creatures and hold them still until\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"they lose all their \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"stamina\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Reel In \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Reel in creatures caught by the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Lasso each time their \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"stamina\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"depletes.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Creatures lose stamina \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"40% \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"faster.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE LASSO\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENTANGLER_LASSO\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Hunting Tool",
-    "",
-    "§6Ability: Throw  §e§lRIGHT CLICK",
-    "§7Throw the Lasso at §2Forest",
-    "§7creatures and hold them still until",
-    "§7they lose all their §9stamina§7.",
-    "",
-    "§6Ability: Reel In  §e§lRIGHT CLICK",
-    "§7Reel in creatures caught by the",
-    "§7Lasso each time their §9stamina",
-    "§7depletes.",
-    "",
-    "§7Creatures lose stamina §240% §7faster.",
-    "",
-    "§9§lRARE LASSO"
+    "{\"text\":\"Hunting Tool\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Throw \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Throw the Lasso at \",\"color\":\"gray\"},{\"text\":\"Forest\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"creatures and hold them still until\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"they lose all their \",\"color\":\"gray\"},{\"text\":\"stamina\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Reel In \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Reel in creatures caught by the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Lasso each time their \",\"color\":\"gray\"},{\"text\":\"stamina\",\"color\":\"blue\"}]}",
+    "{\"text\":\"depletes.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Creatures lose stamina \",\"color\":\"gray\"},{\"text\":\"40% \",\"color\":\"dark_green\"},{\"text\":\"faster.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE LASSO\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENTANGLER_LASSO",
   "clickcommand": "",
@@ -43,5 +43,8 @@
       "count": 1,
       "overrideOutputId": "ENTANGLER_LASSO"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

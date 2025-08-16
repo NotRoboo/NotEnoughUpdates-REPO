@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§fSpider Sword",
-  "nbttag": "{ExtraAttributes:{id:\"SPIDER_SWORD\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+30\",1:\"\",2:\"§7Deals §a+100% §7damage to Silverfish,\",3:\"§7Cave Spiders, and Spiders.\",4:\"\",5:\"§4This item is Arachnal Ж!\",6:\"\",7:\"§8This item can be reforged!\",8:\"§f§lCOMMON SWORD\"],Name:\"§fSpider Sword\"}}",
+  "displayname": "{\"text\":\"Spider Sword\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spider Sword\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"damage to Silverfish,\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Cave Spiders, and Spiders.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item is Arachnal Ж!\\\",\\\"color\\\":\\\"dark_red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON SWORD\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+30",
-    "",
-    "§7Deals §a+100% §7damage to Silverfish,",
-    "§7Cave Spiders, and Spiders.",
-    "",
-    "§4This item is Arachnal Ж!",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deals \",\"color\":\"gray\"},{\"text\":\"+100% \",\"color\":\"green\"},{\"text\":\"damage to Silverfish,\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Cave Spiders, and Spiders.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item is Arachnal Ж!\",\"color\":\"dark_red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON SWORD\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SPIDER_SWORD",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

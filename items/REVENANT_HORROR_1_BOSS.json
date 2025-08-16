@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Revenant Horror I (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"4bd5a615-7c98-37fb-8bd5-a6157c9827fb\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZjMDE4NDQ3M2ZlODgyZDI4OTVjZTdjYmM4MTk3YmQ0MGZmNzBiZjEwZDM3NDVkZTk3YjZjMmE5YzVmYzc4ZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Beginner\",1:\"\",2:\"§7Health: §c500❤\",3:\"§7Damage: §c15 §7per second\",4:\"\",5:\"§aLife Drain\",6:\"§7Drains health every few seconds.\"],Name:\"§6Revenant Horror I (Boss)\"},ExtraAttributes:{id:\"REVENANT_HORROR_1_BOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Revenant Horror I (Boss)\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Revenant Horror I (Boss)\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Beginner\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"500❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"15 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per second\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Life Drain\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"Drains health every few seconds.\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"REVENANT_HORROR_1_BOSS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Beginner",
-    "",
-    "§7Health: §c500❤",
-    "§7Damage: §c15 §7per second",
-    "",
-    "§aLife Drain",
-    "§7Drains health every few seconds."
+    "{\"text\":\"Beginner\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"500❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"15 \",\"color\":\"red\"},{\"text\":\"per second\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Life Drain\",\"color\":\"green\"}",
+    "{\"text\":\"Drains health every few seconds.\",\"color\":\"gray\"}"
   ],
   "internalname": "REVENANT_HORROR_1_BOSS",
   "clickcommand": "viewrecipe",
@@ -31,7 +31,9 @@
       "drops": [
         {
           "id": "REVENANT_FLESH",
-          "extra": ["x1-3"],
+          "extra": [
+            "x1-3"
+          ],
           "chance": "100%"
         },
         {
@@ -41,5 +43,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

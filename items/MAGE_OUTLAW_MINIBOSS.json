@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Mage Outlaw (Miniboss)",
-  "nbttag": "{SkullOwner:{Id:\"1d16c26c-d937-336f-821a-371968d050c2\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NDA4Mjg3Mzk2NywKICAicHJvZmlsZUlkIiA6ICJiNzQ3OWJhZTI5YzQ0YjIzYmE1NjI4MzM3OGYwZTNjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTeWxlZXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJlYzk5YjNhMDUwZmQyNzc1Mjg0MDc2NzYzNjZlMjBiOTIwMDZhZDg4ZDE0NzI3YTRkOTllYjhjYjI3M2I2MiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Ate too much Sulphur.\",1:\"\",2:\"§c❤ Health§8: §c70,000,000\"],Name:\"§5Mage Outlaw (Miniboss)\"},ExtraAttributes:{id:\"MAGE_OUTLAW_MINIBOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mage Outlaw (Miniboss)\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mage Outlaw (Miniboss)\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Ate too much Sulphur.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"70,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"MAGE_OUTLAW_MINIBOSS\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Ate too much Sulphur.",
-    "",
-    "§c❤ Health§8: §c70,000,000"
+    "{\"text\":\"Ate too much Sulphur.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"70,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "MAGE_OUTLAW_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -70,5 +70,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

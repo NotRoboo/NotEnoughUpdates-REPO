@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aSlowness III Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:2b,Amplifier:2b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§7Slowness III §f(3:00)\",2:\"§7Removes §f75✦ Speed§7.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSlowness III Potion\"},ExtraAttributes:{potion_level:3,potion:\"slowness\",effects:[0:{level:3,effect:\"slowness\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_SLOWNESS;3\"}}",
-  "damage": 10,
+  "displayname": "{\"text\":\"Slowness III Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Slowness III Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Slowness III \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Removes \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"75✦ Speed\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":3,\"potion\":\"slowness\",\"effects\":\"[0:{level:3\",\"effect\":\"slowness\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§7Slowness III §f(3:00)",
-    "§7Removes §f75✦ Speed§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Slowness III \",\"color\":\"gray\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Removes \",\"color\":\"gray\"},{\"text\":\"75✦ Speed\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_SLOWNESS;3",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

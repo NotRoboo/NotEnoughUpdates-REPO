@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Titanium Ring",
-  "nbttag": "{ExtraAttributes:{id:\"TITANIUM_RING\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c8b30659-dde8-3009-919d-58f41cad78e2\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDQ4MDg0MzQ0MiwKICAicHJvZmlsZUlkIiA6ICJmNjRmZWJkMTU4ZDg0ZTQzYTY5ZGU4OGNhYzZiY2FiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJjaHJvb21hIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJjM2VkZDkxOWMwY2M2ZDk2NjhmZmQyMTBlNDZkMmMwN2ZlMDg4YzQ0ZDg1ZjQ3ZDI1MWI0Zjg3NDgxMTc0ZjUiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mining Speed: §a+30\",1:\"\",2:\"§4❣ §cRequires §5Heart of the Mountain Tier 3§c.\",3:\"§9§lRARE ACCESSORY\"],Name:\"§9Titanium Ring\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Titanium Ring\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Titanium Ring\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 3\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE ACCESSORY\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TITANIUM_RING\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDQ4MDg0MzQ0MiwKICAicHJvZmlsZUlkIiA6ICJmNjRmZWJkMTU4ZDg0ZTQzYTY5ZGU4OGNhYzZiY2FiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJjaHJvb21hIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJjM2VkZDkxOWMwY2M2ZDk2NjhmZmQyMTBlNDZkMmMwN2ZlMDg4YzQ0ZDg1ZjQ3ZDI1MWI0Zjg3NDgxMTc0ZjUiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Mining Speed: §a+30",
-    "",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 3§c.",
-    "§9§lRARE ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 3\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE ACCESSORY\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "TITANIUM_RING",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
       "overrideOutputId": "TITANIUM_RING",
       "duration": 72000
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

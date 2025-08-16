@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cGod Potion",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"2c70d92e-9e43-3e7a-aac0-26a1bc7ca866\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAyMjZkNGMxZDMwZmJlYmVjYWU5MzlkYTkwMDYwM2U0Y2QwZmVkODU5MmExYmIzZTExZjlhYzkyMzkxYTQ1YSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Legacy\",1:\"\",2:\"§7§7Consuming this potion gives the\",3:\"§7player §a24 hours §7of all positive\",4:\"§7potion effects!\",5:\"\",6:\"§eRight-click to consume!\",7:\"\",8:\"§c§lSPECIAL\"],Name:\"§cGod Potion\"},ExtraAttributes:{originTag:\"SHOP_PURCHASE\",id:\"GOD_POTION\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"God Potion\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"God Potion\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Legacy\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Consuming this potion gives the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"player \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"24 hours \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of all positive\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"potion effects!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"SHOP_PURCHASE\",\"id\":\"GOD_POTION\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Legacy",
-    "",
-    "§7§7Consuming this potion gives the",
-    "§7player §a24 hours §7of all positive",
-    "§7potion effects!",
-    "",
-    "§eRight-click to consume!",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Legacy\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Consuming this potion gives the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"player \",\"color\":\"gray\"},{\"text\":\"24 hours \",\"color\":\"green\"},{\"text\":\"of all positive\",\"color\":\"gray\"}]}",
+    "{\"text\":\"potion effects!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "GOD_POTION",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/God_Potion",
     "https://wiki.hypixel.net/God_Potion"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

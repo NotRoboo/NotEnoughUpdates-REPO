@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:planks",
-  "displayname": "§fknalP dooW kaO",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fknalP dooW kaO\"},ExtraAttributes:{id:\"MIRRORED_WOOD\"}}",
+  "displayname": "{\"text\":\"knalP dooW kaO\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:planks\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"knalP dooW kaO\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MIRRORED_WOOD\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MIRRORED_WOOD",
   "crafttext": "",
@@ -13,5 +13,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Knalp_Doow_Kao"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

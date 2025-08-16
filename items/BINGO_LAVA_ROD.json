@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§9Bingo Lava Rod",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Lava Rod\",1:\"\",2:\"§7Damage: §c+100\",3:\"§7Strength: §c+100\",4:\"§7Sea Creature Chance: §c+15%\",5:\"§7Fishing Speed: §a+100\",6:\"\",7:\"§bTrophy Hunter V\",8:\"§7Increases the chance to catch\",9:\"§7§6Trophy Fish §7by §a10%§7.\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§8§l* §8Co-op Soulbound §8§l*\",13:\"§9§lRARE FISHING ROD\"],Name:\"§9Bingo Lava Rod\"},ExtraAttributes:{attributes:{trophy_hunter:5},id:\"BINGO_LAVA_ROD\"}}",
+  "displayname": "{\"text\":\"Bingo Lava Rod\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:fishing_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bingo Lava Rod\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Lava Rod\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fishing Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Trophy Hunter V\\\",\\\"color\\\":\\\"aqua\\\"}\",\"{\\\"text\\\":\\\"Increases the chance to catch\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Trophy Fish \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE FISHING ROD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"attributes\":\"{trophy_hunter:5\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Lava Rod",
-    "",
-    "§7Damage: §c+100",
-    "§7Strength: §c+100",
-    "§7Sea Creature Chance: §c+15%",
-    "§7Fishing Speed: §a+100",
-    "",
-    "§bTrophy Hunter V",
-    "§7Increases the chance to catch",
-    "§7§6Trophy Fish §7by §a10%§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§9§lRARE FISHING ROD"
+    "{\"text\":\"Lava Rod\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+15%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fishing Speed: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Trophy Hunter V\",\"color\":\"aqua\"}",
+    "{\"text\":\"Increases the chance to catch\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Trophy Fish \",\"color\":\"gold\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"10%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE FISHING ROD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BINGO_LAVA_ROD",
   "crafttext": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bingo_Lava_Rod",
     "https://wiki.hypixel.net/Bingo_Lava_Rod"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

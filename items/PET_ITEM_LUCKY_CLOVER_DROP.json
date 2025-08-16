@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§5Lucky Clover Core",
-  "nbttag": "{ExtraAttributes:{id:\"PET_ITEM_LUCKY_CLOVER_DROP\"},HideFlags:254,ItemModel:\"minecraft:lime_dye\",display:{Lore:[0:\"§7Used to craft the Lucky Clover\",1:\"§7pet item\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Lucky Clover Core\"}}",
-  "damage": 10,
+  "displayname": "{\"text\":\"Lucky Clover Core\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lucky Clover Core\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Used to craft the Lucky Clover\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"pet item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PET_ITEM_LUCKY_CLOVER_DROP\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Used to craft the Lucky Clover",
-    "§7pet item",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Used to craft the Lucky Clover\",\"color\":\"gray\"}",
+    "{\"text\":\"pet item\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PET_ITEM_LUCKY_CLOVER_DROP",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lucky_Clover_Core",
     "https://wiki.hypixel.net/Lucky_Clover_Core"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Sven Packmaster I (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]}},display:{Lore:[0:\"§8Beginner\",1:\"\",2:\"§7Health: §c2,000❤\",3:\"§7Damage: §c60 §7per second\",4:\"\",5:\"§aAgile\",6:\"§7The wolf is small and fast, making\",7:\"§7it hard to hit.\"],Name:\"§6Sven Packmaster I (Boss)\"},ExtraAttributes:{id:\"SVEN_PACKMASTER_1_BOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Sven Packmaster I (Boss)\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sven Packmaster I (Boss)\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Beginner\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2,000❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"60 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per second\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Agile\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"The wolf is small and fast, making\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"it hard to hit.\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"SVEN_PACKMASTER_1_BOSS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Beginner",
-    "",
-    "§7Health: §c2,000❤",
-    "§7Damage: §c60 §7per second",
-    "",
-    "§aAgile",
-    "§7The wolf is small and fast, making",
-    "§7it hard to hit."
+    "{\"text\":\"Beginner\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"2,000❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"60 \",\"color\":\"red\"},{\"text\":\"per second\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Agile\",\"color\":\"green\"}",
+    "{\"text\":\"The wolf is small and fast, making\",\"color\":\"gray\"}",
+    "{\"text\":\"it hard to hit.\",\"color\":\"gray\"}"
   ],
   "internalname": "SVEN_PACKMASTER_1_BOSS",
   "clickcommand": "viewrecipe",
@@ -32,7 +32,9 @@
       "drops": [
         {
           "id": "WOLF_TOOTH",
-          "extra": ["x1-3"],
+          "extra": [
+            "x1-3"
+          ],
           "chance": "100%"
         },
         {
@@ -42,5 +44,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dReed (Rift NPC)",
-  "nbttag": "{SkullOwner:{Id:\"cb8fb3e4-0b83-242a-9623-769cf7fb23fd\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIyM2I4NGQzZTQ5N2E5NDc1N2ExNGE3ZWI2NDk0MDk2N2ZmMzIwMGZlOTQyMDZkZjM3YmM0YWU4ZDEwMzA2YzkifX19\"}]},Name:\"cb8fb3e4-0b83-242a-9623-769cf7fb23fd\"},display:{Lore:[0:\"\"],Name:\"§dReed (Rift NPC)\"},ExtraAttributes:{id:\"REED_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Reed (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Reed (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"REED_RIFT_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "REED_RIFT_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Reed",
     "https://wiki.hypixel.net/Reed"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

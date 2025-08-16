@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§aChallenging Rod",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+75\",1:\"§7Strength: §c+75\",2:\"§7Sea Creature Chance: §c+2%\",3:\"§7Fishing Speed: §a+35\",4:\"\",5:\"§9ථ Hook §8§lNONE\",6:\"§9ꨃ Line §8§lNONE\",7:\"§9࿉ Sinker §8§lNONE\",8:\"\",9:\"§7Talk to §2Roddy §7in the §2Backwater\",10:\"§2Bayou §7to apply parts to this rod.\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§7§4❣ §cRequires §aFishing Skill 10§c.\",14:\"§a§lUNCOMMON FISHING ROD\"],Name:\"§aChallenging Rod\"},ExtraAttributes:{id:\"CHALLENGE_ROD\"}}",
+  "displayname": "{\"text\":\"Challenging Rod\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:fishing_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Challenging Rod\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+75\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+75\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fishing Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"ථ Hook \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"NONE\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"ꨃ Line \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"NONE\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"࿉ Sinker \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"NONE\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Talk to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Roddy \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Backwater\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bayou \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"to apply parts to this rod.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Fishing Skill 10\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON FISHING ROD\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CHALLENGE_ROD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+75",
-    "§7Strength: §c+75",
-    "§7Sea Creature Chance: §c+2%",
-    "§7Fishing Speed: §a+35",
-    "",
-    "§9ථ Hook §8§lNONE",
-    "§9ꨃ Line §8§lNONE",
-    "§9࿉ Sinker §8§lNONE",
-    "",
-    "§7Talk to §2Roddy §7in the §2Backwater",
-    "§2Bayou §7to apply parts to this rod.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 10§c.",
-    "§a§lUNCOMMON FISHING ROD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+75\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+75\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+2%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fishing Speed: \",\"color\":\"gray\"},{\"text\":\"+35\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"ථ Hook \",\"color\":\"blue\"},{\"text\":\"NONE\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"ꨃ Line \",\"color\":\"blue\"},{\"text\":\"NONE\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"࿉ Sinker \",\"color\":\"blue\"},{\"text\":\"NONE\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Talk to \",\"color\":\"gray\"},{\"text\":\"Roddy \",\"color\":\"dark_green\"},{\"text\":\"in the \",\"color\":\"gray\"},{\"text\":\"Backwater\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bayou \",\"color\":\"dark_green\"},{\"text\":\"to apply parts to this rod.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Fishing Skill 10\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON FISHING ROD\",\"color\":\"green\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "WATER_LILY:64",
@@ -39,5 +39,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Challenging_Rod",
     "https://wiki.hypixel.net/Challenging_Rod"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:rail",
-  "displayname": "§fRail",
-  "nbttag": "{ExtraAttributes:{id:\"RAILS\"},HideFlags:254,ItemModel:\"minecraft:rail\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRail\"}}",
+  "displayname": "{\"text\":\"Rail\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:rail\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rail\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RAILS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "RAILS",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "IRON_INGOT:1",
     "count": 16
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

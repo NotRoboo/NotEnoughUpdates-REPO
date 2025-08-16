@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:cobblestone_wall",
-  "displayname": "§fCobblestone Wall",
-  "nbttag": "{ExtraAttributes:{id:\"COBBLE_WALL\"},HideFlags:254,ItemModel:\"minecraft:cobblestone_wall\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCobblestone Wall\"}}",
+  "displayname": "{\"text\":\"Cobblestone Wall\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:cobblestone_wall\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cobblestone Wall\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COBBLE_WALL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "COBBLE_WALL",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 6
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

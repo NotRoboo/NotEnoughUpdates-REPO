@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:water_bucket",
-  "displayname": "§9Portable Washer",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7Consume this item to dunk yourself in\",3:\"§7a bucket of water that smells of\",4:\"§7sunshine and rainbows. Doing this will\",5:\"§7rid your §aGarden §7of all active\",6:\"§7§aSprayonator §7effects.\",7:\"\",8:\"§eRight-click to consume!\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Portable Washer\"},ExtraAttributes:{id:\"PORTABLE_WASHER\"}}",
+  "displayname": "{\"text\":\"Portable Washer\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:water_bucket\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Portable Washer\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumable\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Consume this item to dunk yourself in\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"a bucket of water that smells of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"sunshine and rainbows. Doing this will\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"rid your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Garden \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of all active\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sprayonator \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"effects.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PORTABLE_WASHER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Consumable",
-    "",
-    "§7Consume this item to dunk yourself in",
-    "§7a bucket of water that smells of",
-    "§7sunshine and rainbows. Doing this will",
-    "§7rid your §aGarden §7of all active",
-    "§7§aSprayonator §7effects.",
-    "",
-    "§eRight-click to consume!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Consumable\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Consume this item to dunk yourself in\",\"color\":\"gray\"}",
+    "{\"text\":\"a bucket of water that smells of\",\"color\":\"gray\"}",
+    "{\"text\":\"sunshine and rainbows. Doing this will\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"rid your \",\"color\":\"gray\"},{\"text\":\"Garden \",\"color\":\"green\"},{\"text\":\"of all active\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sprayonator \",\"color\":\"green\"},{\"text\":\"effects.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "PORTABLE_WASHER",
   "crafttext": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Portable_Washer",
     "https://wiki.hypixel.net/Portable_Washer"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

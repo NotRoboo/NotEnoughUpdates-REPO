@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§5Snow Suit Leggings",
-  "nbttag": "{ExtraAttributes:{id:\"SNOW_SUIT_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+75\",1:\"§7Defense: §a+30\",2:\"\",3:\"§6Full Set Bonus: Cold Thumb §7(0/8)\",4:\"§7Allows the wearer to shoot unlimited\",5:\"§7snowballs when using §9Frosty the\",6:\"§9Snow Cannon§7.\",7:\"\",8:\"§7Each piece grants a §a5% §7bonus gift\",9:\"§7chance for every present you earn\",10:\"§7from the §cGift Attack §7minigame!\",11:\"\",12:\"§7All stats of this armor piece are\",13:\"§7doubled while on §cJerry's Workshop§7!\",14:\"\",15:\"§8This item can be reforged!\",16:\"§5§lEPIC LEGGINGS\"],Name:\"§5Snow Suit Leggings\",color:16777215}}",
+  "displayname": "{\"text\":\"Snow Suit Leggings\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Snow Suit Leggings\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+75\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Cold Thumb \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/8)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Allows the wearer to shoot unlimited\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"snowballs when using \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Frosty the\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Snow Cannon\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Each piece grants a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"bonus gift\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"chance for every present you earn\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"from the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Gift Attack \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"minigame!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"All stats of this armor piece are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"doubled while on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Jerry\u0027s Workshop\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC LEGGINGS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SNOW_SUIT_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+75",
-    "§7Defense: §a+30",
-    "",
-    "§6Full Set Bonus: Cold Thumb §7(0/8)",
-    "§7Allows the wearer to shoot unlimited",
-    "§7snowballs when using §9Frosty the",
-    "§9Snow Cannon§7.",
-    "",
-    "§7Each piece grants a §a5% §7bonus gift",
-    "§7chance for every present you earn",
-    "§7from the §cGift Attack §7minigame!",
-    "",
-    "§7All stats of this armor piece are",
-    "§7doubled while on §cJerry's Workshop§7!",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+75\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Cold Thumb \",\"color\":\"gold\"},{\"text\":\"(0/8)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Allows the wearer to shoot unlimited\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"snowballs when using \",\"color\":\"gray\"},{\"text\":\"Frosty the\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Snow Cannon\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Each piece grants a \",\"color\":\"gray\"},{\"text\":\"5% \",\"color\":\"green\"},{\"text\":\"bonus gift\",\"color\":\"gray\"}]}",
+    "{\"text\":\"chance for every present you earn\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"from the \",\"color\":\"gray\"},{\"text\":\"Gift Attack \",\"color\":\"red\"},{\"text\":\"minigame!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"All stats of this armor piece are\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"doubled while on \",\"color\":\"gray\"},{\"text\":\"Jerry\u0027s Workshop\",\"color\":\"red\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC LEGGINGS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SNOW_SUIT_LEGGINGS",
   "clickcommand": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Snow_Suit_Leggings",
     "https://wiki.hypixel.net/Snow_Suit_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

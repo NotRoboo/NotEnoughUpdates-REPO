@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§6Warden Heart",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"7adc7613-256a-3593-899b-d4d9bbf50387\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7The heart of a powerful\",1:\"§7creature, dropped by the Atoned\",2:\"§7Horror.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§7§4☠ §cRequires §5Zombie Slayer 8§c.\",7:\"§6§lLEGENDARY\"],Name:\"§f§f§6Warden Heart\"},ExtraAttributes:{originTag:\"UNKNOWN\",id:\"WARDEN_HEART\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Warden Heart\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Warden Heart\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The heart of a powerful\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"creature, dropped by the Atoned\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Horror.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Zombie Slayer 8\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"UNKNOWN\",\"id\":\"WARDEN_HEART\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The heart of a powerful",
-    "§7creature, dropped by the Atoned",
-    "§7Horror.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§7§4☠ §cRequires §5Zombie Slayer 8§c.",
-    "§6§lLEGENDARY"
+    "{\"text\":\"The heart of a powerful\",\"color\":\"gray\"}",
+    "{\"text\":\"creature, dropped by the Atoned\",\"color\":\"gray\"}",
+    "{\"text\":\"Horror.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Zombie Slayer 8\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "WARDEN_HEART",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Warden_Heart",
     "https://wiki.hypixel.net/Warden_Heart"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

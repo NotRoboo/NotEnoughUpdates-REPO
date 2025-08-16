@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§9Arachne\u0027s Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+75\",1:\"§7Defense: §a+50\",2:\"\",3:\"§8Tiered Bonus: Arachne\u0027s Faithful (0/8)\",4:\"§7Grants §c+5❤ Health §7and §a+5❈ Defense§7.\",5:\"\",6:\"§4This item is Arachnal Ж!\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§8§l* §8Co-op Soulbound §8§l*\",10:\"§9§lRARE LEGGINGS\"],color:9109504,Name:\"§9Arachne\u0027s Leggings\"},ExtraAttributes:{id:\"ARACHNE_LEGGINGS\",donated_museum:1b}}",
+  "displayname": "{\"text\":\"Arachne\u0027s Leggings\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Arachne\u0027s Leggings\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+75\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Arachne\u0027s Faithful (0/8)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5❈ Defense\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item is Arachnal Ж!\\\",\\\"color\\\":\\\"dark_red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE LEGGINGS\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ARACHNE_LEGGINGS\",\"donated_museum\":true},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+75",
-    "§7Defense: §a+50",
-    "",
-    "§8Tiered Bonus: Arachne\u0027s Faithful (0/8)",
-    "§7Grants §c+5❤ Health §7and §a+5❈ Defense§7.",
-    "",
-    "§4This item is Arachnal Ж!",
-    "",
-    "§7§8This item can be reforged!",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§9§lRARE LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+75\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Arachne\u0027s Faithful (0/8)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+5❤ Health \",\"color\":\"red\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"+5❈ Defense\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item is Arachnal Ж!\",\"color\":\"dark_red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE LEGGINGS\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ARACHNE_LEGGINGS",
   "crafttext": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Arachne%27s_Leggings",
     "https://wiki.hypixel.net/Arachne%27s_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

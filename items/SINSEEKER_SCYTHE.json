@@ -1,25 +1,25 @@
 {
   "itemid": "minecraft:golden_hoe",
-  "displayname": "§4Sin§5seeker Scythe",
-  "nbttag": "{ExtraAttributes:{id:\"SINSEEKER_SCYTHE\"},HideFlags:254,ItemModel:\"minecraft:golden_hoe\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+100\",2:\"\",3:\"§6Ability: Sinrecall Transmission  §e§lRIGHT CLICK\",4:\"§7Zap a line §54 §7blocks forward.\",5:\"\",6:\"§7Recast within 1s (§b1.5x mana§7) or warp\",7:\"§7back to starting point.\",8:\"\",9:\"§7Mobs crossing the line(s) receive a\",10:\"§cmelee hit §7from what you're holding.\",11:\"§8Mana Cost: §3260\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4☠ §cRequires §5Enderman Slayer 6§c.\",15:\"§5§lEPIC SWORD\"],Name:\"§4Sin§5seeker Scythe\"}}",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"Sin\",\"color\":\"dark_red\"},{\"text\":\"seeker Scythe\",\"color\":\"dark_purple\"}]}",
+  "nbttag": "{\"id\":\"minecraft:golden_hoe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sin\\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"seeker Scythe\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Sinrecall Transmission \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Zap a line \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"4 \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"blocks forward.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Recast within 1s (\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1.5x mana\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\") or warp\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"back to starting point.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Mobs crossing the line(s) receive a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"melee hit \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"from what you\u0027re holding.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"260\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Enderman Slayer 6\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SINSEEKER_SCYTHE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+100",
-    "§7Strength: §c+100",
-    "",
-    "§6Ability: Sinrecall Transmission  §e§lRIGHT CLICK",
-    "§7Zap a line §54 §7blocks forward.",
-    "",
-    "§7Recast within 1s (§b1.5x mana§7) or warp",
-    "§7back to starting point.",
-    "",
-    "§7Mobs crossing the line(s) receive a",
-    "§cmelee hit §7from what you're holding.",
-    "§8Mana Cost: §3260",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Enderman Slayer 6§c.",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Sinrecall Transmission \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Zap a line \",\"color\":\"gray\"},{\"text\":\"4 \",\"color\":\"dark_purple\"},{\"text\":\"blocks forward.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Recast within 1s (\",\"color\":\"gray\"},{\"text\":\"1.5x mana\",\"color\":\"aqua\"},{\"text\":\") or warp\",\"color\":\"gray\"}]}",
+    "{\"text\":\"back to starting point.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Mobs crossing the line(s) receive a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"melee hit \",\"color\":\"red\"},{\"text\":\"from what you\u0027re holding.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"260\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Enderman Slayer 6\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SINSEEKER_SCYTHE",
   "clickcommand": "viewrecipe",
@@ -41,5 +41,8 @@
     "C2": "NULL_OVOID:8",
     "C3": "NULL_ATOM:4"
   },
-  "slayer_req": "EMAN_6"
+  "slayer_req": "EMAN_6",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

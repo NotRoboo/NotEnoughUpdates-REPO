@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:golden_pickaxe",
-  "displayname": "§5Bingonimbus 2000",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 7\",1:\"\",2:\"§7Damage: §c+30\",3:\"§7Mining Speed: §a+1,500\",4:\"§7Mining Fortune: §a+100\",5:\"\",6:\"§7A powerful tool that doesn\u0027t\",7:\"§7seem to break.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§8§l* §8Soulbound §8§l*\",11:\"§5§lEPIC PICKAXE\"],Name:\"§5Bingonimbus 2000\"},ExtraAttributes:{id:\"BINGONIMBUS_2000\"}}",
+  "displayname": "{\"text\":\"Bingonimbus 2000\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bingonimbus 2000\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 7\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1,500\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A powerful tool that doesn\u0027t\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"seem to break.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC PICKAXE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BINGONIMBUS_2000\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 7",
-    "",
-    "§7Damage: §c+30",
-    "§7Mining Speed: §a+1,500",
-    "§7Mining Fortune: §a+100",
-    "",
-    "§7A powerful tool that doesn\u0027t",
-    "§7seem to break.",
-    "",
-    "§7§8This item can be reforged!",
-    "§8§l* §8Soulbound §8§l*",
-    "§5§lEPIC PICKAXE"
+    "{\"text\":\"Breaking Power 7\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+1,500\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Fortune: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A powerful tool that doesn\u0027t\",\"color\":\"gray\"}",
+    "{\"text\":\"seem to break.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"EPIC PICKAXE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "BINGONIMBUS_2000",
   "crafttext": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bingonimbus_2000",
     "https://wiki.hypixel.net/Bingonimbus_2000"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

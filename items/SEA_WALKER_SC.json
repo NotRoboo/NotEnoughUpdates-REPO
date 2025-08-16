@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3Sea Walker (Sea Creature)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7The Sea Walker is a Common sea creature that\",1:\"§7spawns while fishing after unlocking Fishing level II.\",2:\"§7He looks like a normal Zombie, but has a \\\"monster\\\"\",3:\"§7head.\",4:\"\",5:\"§c❤ Health§8: §c100\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§3Sea Walker (Sea Creature)\"},ExtraAttributes:{id:\"SEA_WALKER_SC\"}}",
-  "damage": 2,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Sea Walker (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sea Walker (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Sea Walker is a Common sea creature that\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"spawns while fishing after unlocking Fishing level II.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"He looks like a normal Zombie, but has a \\\\\\\"monster\\\\\\\"\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"head.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SEA_WALKER_SC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Sea Walker is a Common sea creature that",
-    "§7spawns while fishing after unlocking Fishing level II.",
-    "§7He looks like a normal Zombie, but has a \"monster\"",
-    "§7head.",
-    "",
-    "§c❤ Health§8: §c100",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"The Sea Walker is a Common sea creature that\",\"color\":\"gray\"}",
+    "{\"text\":\"spawns while fishing after unlocking Fishing level II.\",\"color\":\"gray\"}",
+    "{\"text\":\"He looks like a normal Zombie, but has a \\\"monster\\\"\",\"color\":\"gray\"}",
+    "{\"text\":\"head.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SEA_WALKER_SC",
   "clickcommand": "viewrecipe",
@@ -56,5 +56,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

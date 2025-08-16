@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5Spirit Bow",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§7An extremely fragile but\",1:\"§7powerful bow, capable of\",2:\"§7damaging §cThorn§7, despite\",3:\"§7him being a spirit!\"],Name:\"§5Spirit Bow\"},ExtraAttributes:{originTag:\"UNKNOWN\",id:\"BOSS_SPIRIT_BOW\"},AttributeModifiers:[]}",
+  "displayname": "{\"text\":\"Spirit Bow\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spirit Bow\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"An extremely fragile but\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"powerful bow, capable of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"damaging \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Thorn\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\", despite\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"him being a spirit!\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"originTag\":\"UNKNOWN\",\"id\":\"BOSS_SPIRIT_BOW\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7An extremely fragile but",
-    "§7powerful bow, capable of",
-    "§7damaging §cThorn§7, despite",
-    "§7him being a spirit!"
+    "{\"text\":\"An extremely fragile but\",\"color\":\"gray\"}",
+    "{\"text\":\"powerful bow, capable of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"damaging \",\"color\":\"gray\"},{\"text\":\"Thorn\",\"color\":\"red\"},{\"text\":\", despite\",\"color\":\"gray\"}]}",
+    "{\"text\":\"him being a spirit!\",\"color\":\"gray\"}"
   ],
   "internalname": "BOSS_SPIRIT_BOW",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Spirit_Bow_(Thorn)",
     "https://wiki.hypixel.net/Spirit_Bow"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

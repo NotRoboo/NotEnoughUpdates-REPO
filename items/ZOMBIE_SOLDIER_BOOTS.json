@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§5Zombie Soldier Boots",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d94\",1:\"§7Health: §a+17\",2:\"§7Defense: §a+36\",3:\"\",4:\"§6Full Set Bonus: §cShoal\",5:\"§7Gain §a+30❈ Defense §7for each\",6:\"§7§cZombie Soldier Set §7within\",7:\"§7§a30 §7blocks.\",8:\"\",9:\"§2This armor piece is undead ༕!\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§7§4❣ §cRequires §cCatacombs Skill\",13:\"§c9§c.\",14:\"§5§lEPIC DUNGEON BOOTS\"],color:13664000,Name:\"§5Zombie Soldier Boots\"},ExtraAttributes:{dungeon_item_level:0,id:\"ZOMBIE_SOLDIER_BOOTS\"}}",
+  "displayname": "{\"text\":\"Zombie Soldier Boots\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie Soldier Boots\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"94\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+17\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+36\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"Shoal\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30❈ Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"for each\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Zombie Soldier Set \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"within\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"30 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"blocks.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This armor piece is undead ༕!\\\",\\\"color\\\":\\\"dark_green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Catacombs Skill\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"9\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON BOOTS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"dungeon_item_level\":0,\"id\":\"ZOMBIE_SOLDIER_BOOTS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d94",
-    "§7Health: §a+17",
-    "§7Defense: §a+36",
-    "",
-    "§6Full Set Bonus: §cShoal",
-    "§7Gain §a+30❈ Defense §7for each",
-    "§7§cZombie Soldier Set §7within",
-    "§7§a30 §7blocks.",
-    "",
-    "§2This armor piece is undead ༕!",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §cCatacombs Skill",
-    "§c9§c.",
-    "§5§lEPIC DUNGEON BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"94\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+17\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+36\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: \",\"color\":\"gold\"},{\"text\":\"Shoal\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+30❈ Defense \",\"color\":\"green\"},{\"text\":\"for each\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Zombie Soldier Set \",\"color\":\"red\"},{\"text\":\"within\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"30 \",\"color\":\"green\"},{\"text\":\"blocks.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This armor piece is undead ༕!\",\"color\":\"dark_green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Catacombs Skill\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"9\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON BOOTS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ZOMBIE_SOLDIER_BOOTS",
   "crafttext": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Zombie_Soldier_Boots",
     "https://wiki.hypixel.net/Zombie_Soldier_Boots"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

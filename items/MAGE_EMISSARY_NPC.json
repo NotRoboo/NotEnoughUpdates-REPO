@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Mage Emissary (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"eeef334e-11e2-547d-a291-cffc36a98dda\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjIyNjUzODMwMmY4Nzk2ZGQ5NmIzNTI1ZGYyZjA2MGNiNjVmYTA5ZjI5YzNjYjYwNzNhZTkyZTAwN2UwZDM4ZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Barbarian Shop (NPC)\"},ExtraAttributes:{id:\"BARBARIAN_SHOP_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mage Emissary (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mage Emissary (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"BARBARIAN_SHOP_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "MAGE_EMISSARY_NPC",
   "clickcommand": "viewrecipe",
@@ -101,5 +101,8 @@
       ],
       "result": "KUUDRA_INFERNAL_TIER_KEY"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

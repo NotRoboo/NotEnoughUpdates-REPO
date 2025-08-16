@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:paper",
-  "displayname": "§5§dPoem of True Love",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Quest item\",1:\"\",2:\"§8§l* §8Co-op Soulbound §8§l*\",3:\"§5§lEPIC\"],Name:\"§5§dPoem of True Love\"},ExtraAttributes:{id:\"POEM_OF_INFINITE_LOVE\"}}",
+  "displayname": "{\"text\":\"Poem of True Love\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:paper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Poem of True Love\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Quest item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"POEM_OF_INFINITE_LOVE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Quest item",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§5§lEPIC"
+    "{\"text\":\"Quest item\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "POEM_OF_INFINITE_LOVE",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Poem_of_True_Love",
     "https://wiki.hypixel.net/Poem_Of_True_Love"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

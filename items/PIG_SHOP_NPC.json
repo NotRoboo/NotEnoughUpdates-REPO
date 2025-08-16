@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Pig Shop (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e1e1c2e4-1ed2-473d-bde2-3ec718535399\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Only appears during §dYear of the Pig §7event.\"],Name:\"§9Pig Shop (NPC)\"},ExtraAttributes:{id:\"PIG_SHOP_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Pig Shop (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pig Shop (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Only appears during \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Year of the Pig \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"event.\\\",\\\"color\\\":\\\"gray\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"PIG_SHOP_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Only appears during §dYear of the Pig §7event."
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Only appears during \",\"color\":\"gray\"},{\"text\":\"Year of the Pig \",\"color\":\"light_purple\"},{\"text\":\"event.\",\"color\":\"gray\"}]}"
   ],
   "internalname": "PIG_SHOP_NPC",
   "clickcommand": "",
@@ -50,5 +50,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pig_Shop",
     "https://wiki.hypixel.net/Pig_Shop"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

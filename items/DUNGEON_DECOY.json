@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:spawn_egg",
-  "displayname": "§aDecoy",
-  "nbttag": "{ExtraAttributes:{id:\"DUNGEON_DECOY\"},HideFlags:254,ItemModel:\"minecraft:wither_spawn_egg\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§7Runs around and draws attention\",3:\"§7from nearby mobs, very handy for\",4:\"§7creating a distraction!\",5:\"\",6:\"§cDungeons only!\",7:\"\",8:\"§a§lUNCOMMON DUNGEON ITEM\"],Name:\"§aDecoy\"}}",
+  "itemid": "minecraft:pig_spawn_egg",
+  "displayname": "{\"text\":\"Decoy\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:pig_spawn_egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Decoy\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Runs around and draws attention\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"from nearby mobs, very handy for\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"creating a distraction!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Dungeons only!\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON DUNGEON ITEM\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DUNGEON_DECOY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "",
-    "§7Runs around and draws attention",
-    "§7from nearby mobs, very handy for",
-    "§7creating a distraction!",
-    "",
-    "§cDungeons only!",
-    "",
-    "§a§lUNCOMMON DUNGEON ITEM"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Runs around and draws attention\",\"color\":\"gray\"}",
+    "{\"text\":\"from nearby mobs, very handy for\",\"color\":\"gray\"}",
+    "{\"text\":\"creating a distraction!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Dungeons only!\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON DUNGEON ITEM\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DUNGEON_DECOY",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Decoy",
     "https://wiki.hypixel.net/Decoy"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

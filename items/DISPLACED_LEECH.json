@@ -1,26 +1,26 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aDisplaced Leech",
-  "nbttag": "{ExtraAttributes:{id:\"DISPLACED_LEECH\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fc0e10e9-2969-36a0-bc03-32e6e8d00d37\",Properties:{textures:[0:{Name:\"textures\",Signature:\"AwhQHykYxbkRv5yus+Lvlb1lfhRn4KIRnorkmGR9uI+8BYya2RqLNTx+R1/qUP+Ped9qclAvBmTXm5NokgXL4EjgSzeCFWsVbiIFKFZ9VRjListLY1y0gNHVdNbN+K33pjKhke17QvT2iZK2pzMDrITSFtvAPnpkQBbNXyu4v3CbOE63ve0tc9450dvNkDUq0dRlp3+cI0tkge8J82tAqy/nSJaqFSZ004hRDMtWRVDu5DlQq8QgbBLur0Z6FEj2vXk4tPpyZuZbn0RvP4M64xtGtBqNwMFepAxiIXkVpwWn9DZTOHItOzEX845D935bHWogu7rOwV3D7W9ZNebAEen7UgOGU5oR/ARZpTTFQrFxtkIa1vSz30QTzZDDP3A1vkIosRFAMOg4txfFn6DXvwxhAynDgn/UsI9DesPqNhvlwtlbCAAE/4k/o4QOf46HvTQ86sUZAV9wOlkz6HYpEniftUvU0yLoAVxDDXSQ+4NeT2Q9MlPx/Diw+xcBM75UyUUqq1RBeTovBQ1Y5gOSCKOANeoqu3Yde/zivSUi86gU2mICLH3RVPsE7EQdBZMnupE0631qUDJUMHP75DlilxH34sbsdjQG/FLaJwYPSoZkV9YrVfi98ugvdPTTqf0HO27SCg2T8TsRfqxf25+yiZB2KINMCBroqQIBrWd+Poc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwODA2MzExMTg4OCwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUzMmNlNWFkZTA2YWZmOWQ2OTgzODIwODBkZWE1Mzk5NDc2NTlmYjU4N2U1OGQ0ZjFkN2MxZmY5MjQwZTNjOCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Power Stone\",1:\"§7Combine §a9x §7of this stone at the\",2:\"§6Thaumaturgist §7to permanently unlock the\",3:\"§aSanguisuge §7power.\",4:\"\",5:\"§7At §6250 Magical Power§7:\",6:\"§c+49❤ Health\",7:\"§c+116❁ Strength\",8:\"§9+46☠ Crit Damage\",9:\"§4+12♨ Vitality\",10:\"\",11:\"§7Unique Power Bonus:\",12:\"§b+100✎ Intelligence\",13:\"\",14:\"§7Requires §aCombat Skill Level X§7!\",15:\"\",16:\"§a§lUNCOMMON POWER STONE\"],Name:\"§aDisplaced Leech\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Displaced Leech\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Displaced Leech\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Power Stone\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Combine \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"9x \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of this stone at the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Thaumaturgist \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"to permanently unlock the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sanguisuge \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"power.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"At \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"250 Magical Power\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\":\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"+49❤ Health\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"+116❁ Strength\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"+46☠ Crit Damage\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"+12♨ Vitality\\\",\\\"color\\\":\\\"dark_red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Unique Power Bonus:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"+100✎ Intelligence\\\",\\\"color\\\":\\\"aqua\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Combat Skill Level X\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON POWER STONE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DISPLACED_LEECH\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYwODA2MzExMTg4OCwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUzMmNlNWFkZTA2YWZmOWQ2OTgzODIwODBkZWE1Mzk5NDc2NTlmYjU4N2U1OGQ0ZjFkN2MxZmY5MjQwZTNjOCIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Power Stone",
-    "§7Combine §a9x §7of this stone at the",
-    "§6Thaumaturgist §7to permanently unlock the",
-    "§aSanguisuge §7power.",
-    "",
-    "§7At §6250 Magical Power§7:",
-    "§c+49❤ Health",
-    "§c+116❁ Strength",
-    "§9+46☠ Crit Damage",
-    "§4+12♨ Vitality",
-    "",
-    "§7Unique Power Bonus:",
-    "§b+100✎ Intelligence",
-    "",
-    "§7Requires §aCombat Skill Level X§7!",
-    "",
-    "§a§lUNCOMMON POWER STONE"
+    "{\"text\":\"Power Stone\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Combine \",\"color\":\"gray\"},{\"text\":\"9x \",\"color\":\"green\"},{\"text\":\"of this stone at the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Thaumaturgist \",\"color\":\"gold\"},{\"text\":\"to permanently unlock the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sanguisuge \",\"color\":\"green\"},{\"text\":\"power.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"At \",\"color\":\"gray\"},{\"text\":\"250 Magical Power\",\"color\":\"gold\"},{\"text\":\":\",\"color\":\"gray\"}]}",
+    "{\"text\":\"+49❤ Health\",\"color\":\"red\"}",
+    "{\"text\":\"+116❁ Strength\",\"color\":\"red\"}",
+    "{\"text\":\"+46☠ Crit Damage\",\"color\":\"blue\"}",
+    "{\"text\":\"+12♨ Vitality\",\"color\":\"dark_red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Unique Power Bonus:\",\"color\":\"gray\"}",
+    "{\"text\":\"+100✎ Intelligence\",\"color\":\"aqua\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"Combat Skill Level X\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON POWER STONE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DISPLACED_LEECH",
   "clickcommand": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Displaced_Leech",
     "https://wiki.hypixel.net/Displaced_Leech"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:nether_brick_stairs",
-  "displayname": "§fNether Bricks Stairs",
-  "nbttag": "{ExtraAttributes:{id:\"NETHER_BRICK_STAIRS\"},HideFlags:254,ItemModel:\"minecraft:nether_brick_stairs\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fNether Bricks Stairs\"}}",
+  "displayname": "{\"text\":\"Nether Bricks Stairs\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:nether_brick_stairs\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nether Bricks Stairs\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NETHER_BRICK_STAIRS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "NETHER_BRICK_STAIRS",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "NETHER_BRICK:1",
     "C3": "NETHER_BRICK:1",
     "count": 4
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

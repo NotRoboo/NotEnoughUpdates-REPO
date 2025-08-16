@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§cFudge Mint Core",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7Consume this awesome fudge\",3:\"§7flavored mint to permanently gain\",4:\"§7§3+1☯ Social Wisdom §cwhile not playing\",5:\"§cSkyBlock§7.\",6:\"\",7:\"§7Obtained from the §dA Honk and Seek\",8:\"§dAdventure §7event during April Fools.\",9:\"\",10:\"§eRight-click to consume!\",11:\"\",12:\"§c§lSPECIAL\"],Name:\"§cFudge Mint Core\"},ExtraAttributes:{id:\"FUDGE_MINT_CORE\"}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Fudge Mint Core\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fudge Mint Core\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumable\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Consume this awesome fudge\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"flavored mint to permanently gain\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+1☯ Social Wisdom \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"while not playing\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"SkyBlock\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained from the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"A Honk and Seek\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Adventure \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"event during April Fools.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FUDGE_MINT_CORE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Consumable",
-    "",
-    "§7Consume this awesome fudge",
-    "§7flavored mint to permanently gain",
-    "§7§3+1☯ Social Wisdom §cwhile not playing",
-    "§cSkyBlock§7.",
-    "",
-    "§7Obtained from the §dA Honk and Seek",
-    "§dAdventure §7event during April Fools.",
-    "",
-    "§eRight-click to consume!",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Consumable\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Consume this awesome fudge\",\"color\":\"gray\"}",
+    "{\"text\":\"flavored mint to permanently gain\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+1☯ Social Wisdom \",\"color\":\"dark_aqua\"},{\"text\":\"while not playing\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"SkyBlock\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained from the \",\"color\":\"gray\"},{\"text\":\"A Honk and Seek\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Adventure \",\"color\":\"light_purple\"},{\"text\":\"event during April Fools.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "FUDGE_MINT_CORE",
   "crafttext": "",
@@ -25,5 +25,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Fudge_Mint_Core"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

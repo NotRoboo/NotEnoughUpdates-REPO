@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§9Bloodbadge",
-  "nbttag": "{ExtraAttributes:{id:\"BLOODBADGE\"},HideFlags:254,ItemModel:\"minecraft:red_dye\",display:{Lore:[0:\"§7You and killing stuff in the rift, name\",1:\"§7a more iconic duo.\",2:\"\",3:\"§4☠ §cRequires §5Vampire Slayer 3§c.\",4:\"§9§lRARE\"],Name:\"§9Bloodbadge\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Bloodbadge\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bloodbadge\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"You and killing stuff in the rift, name\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"a more iconic duo.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Vampire Slayer 3\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BLOODBADGE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7You and killing stuff in the rift, name",
-    "§7a more iconic duo.",
-    "",
-    "§4☠ §cRequires §5Vampire Slayer 3§c.",
-    "§9§lRARE"
+    "{\"text\":\"You and killing stuff in the rift, name\",\"color\":\"gray\"}",
+    "{\"text\":\"a more iconic duo.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Vampire Slayer 3\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BLOODBADGE",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "LEECH_SUPREME_FRAGMENT:2",
     "C2": "COVEN_SEAL:16",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

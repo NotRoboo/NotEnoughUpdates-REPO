@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Hunter Ring",
-  "nbttag": "{ExtraAttributes:{id:\"HUNTER_RING\",originTag:\"CRAFTING_GRID_COLLECT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5eac7b84-83f3-30d4-9c4c-2fa242f0ac1d\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjE1Njk2MDc1Mzc1MTUsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjNTc3ZTdkMzFlNWUwNGMyY2U3MWUxM2UzOTYyMTkyZDgwYmQ1NGI1NWVmYWFjYWFlYTEyOTY2ZmUyN2JmOSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Combat Wisdom: §a+5\",1:\"\",2:\"§4☠ §cRequires §5Wolf Slayer 7§c.\",3:\"§9§lRARE ACCESSORY\"],Name:\"§9Hunter Ring\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Hunter Ring\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hunter Ring\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Combat Wisdom: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Wolf Slayer 7\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE ACCESSORY\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"CRAFTING_GRID_COLLECT\",\"id\":\"HUNTER_RING\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1Njk2MDc1Mzc1MTUsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjNTc3ZTdkMzFlNWUwNGMyY2U3MWUxM2UzOTYyMTkyZDgwYmQ1NGI1NWVmYWFjYWFlYTEyOTY2ZmUyN2JmOSJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Combat Wisdom: §a+5",
-    "",
-    "§4☠ §cRequires §5Wolf Slayer 7§c.",
-    "§9§lRARE ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Combat Wisdom: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Wolf Slayer 7\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE ACCESSORY\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "HUNTER_RING",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C2": "HUNTER_TALISMAN:1",
     "C3": "GOLDEN_TOOTH:32"
   },
-  "slayer_req": "WOLF_7"
+  "slayer_req": "WOLF_7",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

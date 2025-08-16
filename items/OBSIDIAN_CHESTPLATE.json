@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§5Obsidian Chestplate",
+  "displayname": "{\"text\":\"Obsidian Chestplate\",\"color\":\"dark_purple\"}",
   "damage": 0,
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+250\",1:\"\",2:\"§7While worn, gain §a+1 §f✦\",3:\"§fSpeed§7 for every §a20§7 pieces\",4:\"§7of Obsidian in your inventory!\",5:\"\",6:\"§7Bonus Speed: §a§k00\",7:\"\",8:\"§7Immune to Wither effect.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§5§lEPIC CHESTPLATE\"],color:0,Name:\"§5Obsidian Chestplate\"},ExtraAttributes:{color:\"0:0:0\",id:\"OBSIDIAN_CHESTPLATE\"}}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Obsidian Chestplate\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+250\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"While worn, gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"✦\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\" for every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" pieces\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"of Obsidian in your inventory!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bonus Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"00\\\",\\\"color\\\":\\\"green\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Immune to Wither effect.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"0:0:0\",\"id\":\"OBSIDIAN_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "lore": [
-    "§7Defense: §a+250",
-    "",
-    "§7While worn, gain §a+1 §f✦",
-    "§fSpeed§7 for every §a20§7 pieces",
-    "§7of Obsidian in your inventory!",
-    "",
-    "§7Bonus Speed: §a§k00",
-    "",
-    "§7Immune to Wither effect.",
-    "",
-    "§7§8This item can be reforged!",
-    "§5§lEPIC CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+250\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"While worn, gain \",\"color\":\"gray\"},{\"text\":\"+1 \",\"color\":\"green\"},{\"text\":\"✦\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed\",\"color\":\"white\"},{\"text\":\" for every \",\"color\":\"gray\"},{\"text\":\"20\",\"color\":\"green\"},{\"text\":\" pieces\",\"color\":\"gray\"}]}",
+    "{\"text\":\"of Obsidian in your inventory!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bonus Speed: \",\"color\":\"gray\"},{\"text\":\"00\",\"color\":\"green\",\"obfuscated\":true}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Immune to Wither effect.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "OBSIDIAN_CHESTPLATE",
   "crafttext": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Obsidian_Chestplate",
     "https://wiki.hypixel.net/Obsidian_Chestplate"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

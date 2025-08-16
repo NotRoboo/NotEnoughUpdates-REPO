@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§f§9Enchanted Book",
-  "nbttag": "{ExtraAttributes:{enchantments:{ender_slayer:6},id:\"ENDER_SLAYER;6\"},HideFlags:254,display:{Lore:[0:\"§9Ender Slayer VI\",1:\"§7Increases damage dealt to §5⊙ Ender§7\",2:\"§7mobs by §a100%§7.\",3:\"\",4:\"§7Use this on an item in an Anvil\",5:\"§7to apply it!\",6:\"\",7:\"§6Source:\",8:\"§aVI: §7Pearl Dealer\",9:\"\",10:\"§6Applied To:\",11:\"§7- §fSword\",12:\"§7- §fFishing Weapon\",13:\"§7- §fLongsword\",14:\"§7- §fGauntlet\",15:\"\",16:\"§9§lRARE\"],Name:\"§f§9Enchanted Book\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Book\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:enchanted_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Book\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Ender Slayer VI\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases damage dealt to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"⊙ Ender\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"mobs by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"100%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Use this on an item in an Anvil\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to apply it!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Source:\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"VI: \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Pearl Dealer\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Applied To:\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"- \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sword\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"- \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Fishing Weapon\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"- \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Longsword\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"- \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Gauntlet\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"enchantments\":\"{ender_slayer:6\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§9Ender Slayer VI",
-    "§7Increases damage dealt to §5⊙ Ender§7",
-    "§7mobs by §a100%§7.",
-    "",
-    "§7Use this on an item in an Anvil",
-    "§7to apply it!",
-    "",
-    "§6Source:",
-    "§aVI: §7Pearl Dealer",
-    "",
-    "§6Applied To:",
-    "§7- §fSword",
-    "§7- §fFishing Weapon",
-    "§7- §fLongsword",
-    "§7- §fGauntlet",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Ender Slayer VI\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases damage dealt to \",\"color\":\"gray\"},{\"text\":\"⊙ Ender\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"mobs by \",\"color\":\"gray\"},{\"text\":\"100%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Use this on an item in an Anvil\",\"color\":\"gray\"}",
+    "{\"text\":\"to apply it!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Source:\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"VI: \",\"color\":\"green\"},{\"text\":\"Pearl Dealer\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Applied To:\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"- \",\"color\":\"gray\"},{\"text\":\"Sword\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"- \",\"color\":\"gray\"},{\"text\":\"Fishing Weapon\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"- \",\"color\":\"gray\"},{\"text\":\"Longsword\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"- \",\"color\":\"gray\"},{\"text\":\"Gauntlet\",\"color\":\"white\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENDER_SLAYER;6",
   "parent": "ENDER_SLAYER;4",
@@ -34,5 +34,8 @@
       "cost": "ENCHANTED_EMERALD:50",
       "result": "ENDER_SLAYER;6"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:stone_sword",
-  "displayname": "§9Conjuring",
-  "nbttag": "{ExtraAttributes:{id:\"CONJURING_SWORD\"},HideFlags:254,ItemModel:\"minecraft:stone_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d172\",1:\"§7Damage: §c+68\",2:\"§7Strength: §c+36\",3:\"§7Intelligence: §a+85\",4:\"\",5:\"§7Reduces the cooldown of Guided\",6:\"§7Sheep by §65 §7seconds, and prevents\",7:\"§7Guided Sheep from spawning\",8:\"§7randomly while holding this item.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires Catacombs Skill 13.\",12:\"§9§lRARE DUNGEON SWORD\"],Name:\"§9Conjuring\"}}",
+  "displayname": "{\"text\":\"Conjuring\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:stone_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Conjuring\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"172\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+68\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+36\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+85\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Reduces the cooldown of Guided\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sheep by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"seconds, and prevents\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Guided Sheep from spawning\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"randomly while holding this item.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 13.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE DUNGEON SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CONJURING_SWORD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d172",
-    "§7Damage: §c+68",
-    "§7Strength: §c+36",
-    "§7Intelligence: §a+85",
-    "",
-    "§7Reduces the cooldown of Guided",
-    "§7Sheep by §65 §7seconds, and prevents",
-    "§7Guided Sheep from spawning",
-    "§7randomly while holding this item.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Catacombs Skill 13.",
-    "§9§lRARE DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"172\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+68\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+36\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+85\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Reduces the cooldown of Guided\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sheep by \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"gold\"},{\"text\":\"seconds, and prevents\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Guided Sheep from spawning\",\"color\":\"gray\"}",
+    "{\"text\":\"randomly while holding this item.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 13.\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE DUNGEON SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "CONJURING_SWORD",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Conjuring",
     "https://wiki.hypixel.net/Conjuring"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

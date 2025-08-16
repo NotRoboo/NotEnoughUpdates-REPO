@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:dropper",
-  "displayname": "§9Dwarven Super Compactor",
-  "nbttag": "{ExtraAttributes:{id:\"DWARVEN_COMPACTOR\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade.\",2:\"§7Automatically smelts materials\",3:\"§7produced by minions before\",4:\"§7compacting them into their enchanted\",5:\"§7form.\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Dwarven Super Compactor\"},ench:[]}",
+  "displayname": "{\"text\":\"Dwarven Super Compactor\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:dropper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dwarven Super Compactor\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be used as a minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"upgrade.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Automatically smelts materials\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"produced by minions before\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"compacting them into their enchanted\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"form.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DWARVEN_COMPACTOR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7This item can be used as a minion",
-    "§7upgrade.",
-    "§7Automatically smelts materials",
-    "§7produced by minions before",
-    "§7compacting them into their enchanted",
-    "§7form.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"This item can be used as a minion\",\"color\":\"gray\"}",
+    "{\"text\":\"upgrade.\",\"color\":\"gray\"}",
+    "{\"text\":\"Automatically smelts materials\",\"color\":\"gray\"}",
+    "{\"text\":\"produced by minions before\",\"color\":\"gray\"}",
+    "{\"text\":\"compacting them into their enchanted\",\"color\":\"gray\"}",
+    "{\"text\":\"form.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "DWARVEN_COMPACTOR",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "ENCHANTED_MITHRIL:8",
     "C2": "ENCHANTED_MITHRIL:8",
     "C3": "ENCHANTED_MITHRIL:8"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

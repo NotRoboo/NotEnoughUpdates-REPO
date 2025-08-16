@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§5Regeneration VII Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:10b,Amplifier:6b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§4Regeneration VII §f(0:45)\",2:\"§7Grants §c+40❣ Health Regen§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Regeneration VII Potion\"},ExtraAttributes:{potion_level:7,potion:\"regeneration\",effects:[0:{level:7,effect:\"regeneration\",duration_ticks:900}],potion_type:\"POTION\",id:\"POTION_REGENERATION;7\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Regeneration VII Potion\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Regeneration VII Potion\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regeneration VII \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"(0:45)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40❣ Health Regen\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":7,\"potion\":\"regeneration\",\"effects\":\"[0:{level:7\",\"effect\":\"regeneration\",\"duration_ticks\":900},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§4Regeneration VII §f(0:45)",
-    "§7Grants §c+40❣ Health Regen§7.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regeneration VII \",\"color\":\"dark_red\"},{\"text\":\"(0:45)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+40❣ Health Regen\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "POTION_REGENERATION;7",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

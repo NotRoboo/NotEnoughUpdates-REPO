@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:red_flower",
-  "displayname": "§9Ancient Rose",
-  "nbttag": "{ExtraAttributes:{id:\"GOLEM_POPPY\"},HideFlags:254,ItemModel:\"minecraft:poppy\",display:{Lore:[0:\"§8§oAncient plant imbued with\",1:\"§8§othe unyielding power of truth.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE DUNGEON ITEM\"],Name:\"§9Ancient Rose\"}}",
+  "displayname": "{\"text\":\"Ancient Rose\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:red_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ancient Rose\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Ancient plant imbued with\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"the unyielding power of truth.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE DUNGEON ITEM\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLEM_POPPY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8§oAncient plant imbued with",
-    "§8§othe unyielding power of truth.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE DUNGEON ITEM"
+    "{\"text\":\"Ancient plant imbued with\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"the unyielding power of truth.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE DUNGEON ITEM\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "GOLEM_POPPY",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ancient_Rose",
     "https://wiki.hypixel.net/Ancient_Rose"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

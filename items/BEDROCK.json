@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:bedrock",
-  "displayname": "§6Bedrock",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§cI guess you have this now.\",1:\"\",3:\"§6§lLEGENDARY\"],Name:\"§6Bedrock\"},ExtraAttributes:{id:\"BEDROCK\"}}",
+  "displayname": "{\"text\":\"Bedrock\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:bedrock\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bedrock\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"I guess you have this now.\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BEDROCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§cI guess you have this now.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"I guess you have this now.\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "BEDROCK",
   "crafttext": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bedrock",
     "https://wiki.hypixel.net/Bedrock"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:item_frame",
-  "displayname": "§9Framed Volcanic Stonefish",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§8§l* §8Soulbound §8§l*\",1:\"§9§lRARE\"],Name:\"§9Framed Volcanic Stonefish\"},ExtraAttributes:{id:\"FRAMED_VOLCANIC_STONEFISH\"}}",
+  "displayname": "{\"text\":\"Framed Volcanic Stonefish\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:item_frame\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Framed Volcanic Stonefish\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FRAMED_VOLCANIC_STONEFISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8§l* §8Soulbound §8§l*",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "FRAMED_VOLCANIC_STONEFISH",
   "modver": "2.1.0-REL",
@@ -15,5 +15,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Framed_Volcanic_Stonefish",
     "https://wiki.hypixel.net/Framed_Volcanic_Stonefish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

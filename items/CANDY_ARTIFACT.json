@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Candy Artifact",
-  "nbttag": "{ExtraAttributes:{id:\"CANDY_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"22f73779-9b47-3de5-b9a9-90d100e3d182\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGViNDZiYmNhMzgxMjM2M2I1OTY3NmZmNjI5ZGMzNjk4MjU3ZmQxNzhkMzk0ZmFkZmZkYTcxNDM0MjJlMmYxMCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Increases the chance for mobs to\",1:\"§7drop Candy by §a15% §7during the\",2:\"§6Spooky Festival§7.\",3:\"\",4:\"§5§lEPIC ACCESSORY\"],Name:\"§5Candy Artifact\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Candy Artifact\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Candy Artifact\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Increases the chance for mobs to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"drop Candy by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"15% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"during the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spooky Festival\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC ACCESSORY\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CANDY_ARTIFACT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGViNDZiYmNhMzgxMjM2M2I1OTY3NmZmNjI5ZGMzNjk4MjU3ZmQxNzhkMzk0ZmFkZmZkYTcxNDM0MjJlMmYxMCJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Increases the chance for mobs to",
-    "§7drop Candy by §a15% §7during the",
-    "§6Spooky Festival§7.",
-    "",
-    "§5§lEPIC ACCESSORY"
+    "{\"text\":\"Increases the chance for mobs to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"drop Candy by \",\"color\":\"gray\"},{\"text\":\"15% \",\"color\":\"green\"},{\"text\":\"during the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spooky Festival\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC ACCESSORY\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "CANDY_ARTIFACT",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Candy_Artifact",
     "https://wiki.hypixel.net/Candy_Artifact"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

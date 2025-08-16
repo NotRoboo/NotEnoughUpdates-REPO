@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fHealing I Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:6b,Amplifier:0b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cHealing I\",2:\"§7Instantly heals for §a+20§7.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fHealing I Potion\"},ExtraAttributes:{potion_level:1,potion:\"healing\",effects:[0:{level:1,effect:\"healing\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_HEALING;1\"}}",
-  "damage": 5,
+  "displayname": "{\"text\":\"Healing I Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Healing I Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Healing I\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Instantly heals for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":1,\"potion\":\"healing\",\"effects\":\"[0:{level:1\",\"effect\":\"healing\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§cHealing I",
-    "§7Instantly heals for §a+20§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"Healing I\",\"color\":\"red\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Instantly heals for \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_HEALING;1",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

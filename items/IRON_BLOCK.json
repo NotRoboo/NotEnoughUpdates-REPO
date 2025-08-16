@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:iron_block",
-  "displayname": "§fBlock of Iron",
-  "nbttag": "{ExtraAttributes:{id:\"IRON_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:iron_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlock of Iron\"}}",
+  "displayname": "{\"text\":\"Block of Iron\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Block of Iron\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"IRON_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "IRON_BLOCK",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "IRON_INGOT:1",
     "C2": "IRON_INGOT:1",
     "C3": "IRON_INGOT:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

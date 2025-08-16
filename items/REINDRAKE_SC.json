@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3Reindrake (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"80b9ea26-3dc8-3346-bf7d-76b069a70e99\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MTc2MzUyNTg5OCwKICAicHJvZmlsZUlkIiA6ICI4MTc1MTc4NzQ2MjE0NmY2YjllOWM3MTYyMWRiODQwZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFwcGVhcmFuY2UiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBiZWI0YzdmNWY4ZDE0YmUzYTA0ZjZmYTM1NzNmYThiZDU5ZWEyMjM2YjY2ZjA1ZmJhNTdjNjc4Y2EzNzc3NiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7The Reindrake is a Legendary mob unlocked from Fishing\",1:\"§7level 35. It can only be fished on the Jerry Island.\",2:\"\",3:\"§c❤ Health§8: §c2,500 (hits)\",4:\"\",5:\"§d§lMYTHIC\"],Name:\"§3Reindrake (Sea Creature)\"},ExtraAttributes:{id:\"REINDRAKE_SC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Reindrake (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Reindrake (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Reindrake is a Legendary mob unlocked from Fishing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"level 35. It can only be fished on the Jerry Island.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2,500 (hits)\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REINDRAKE_SC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Reindrake is a Legendary mob unlocked from Fishing",
-    "§7level 35. It can only be fished on the Jerry Island.",
-    "",
-    "§c❤ Health§8: §c2,500 (hits)",
-    "",
-    "§d§lMYTHIC"
+    "{\"text\":\"The Reindrake is a Legendary mob unlocked from Fishing\",\"color\":\"gray\"}",
+    "{\"text\":\"level 35. It can only be fished on the Jerry Island.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"2,500 (hits)\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "REINDRAKE_SC",
   "clickcommand": "viewrecipe",
@@ -60,5 +60,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

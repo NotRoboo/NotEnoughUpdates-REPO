@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Duncan (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"71533f7f-b6a9-529c-a10b-f0f57c07952c\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRiYWRjN2Y4ZWIxODg4OGVmY2RhZTdlMGRiNGNmMzBmZjI4YmQ1ODg1MzRmNGJiMDQyZDViYzZiZGM0ZGZlZiJ9fX0=\"}]}},display:{Lore:[0:\"\"],Name:\"§9Winona (NPC)\"},ExtraAttributes:{id:\"WINONA_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Duncan (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Duncan (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"WINONA_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "DUNCAN_NPC",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
       ],
       "result": "PET_ITEM_FARMING_SKILL_BOOST_EPIC"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

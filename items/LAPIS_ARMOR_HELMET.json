@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:sea_lantern",
-  "displayname": "§aLapis Armor Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"LAPIS_ARMOR_HELMET\"},HideFlags:254,ItemModel:\"minecraft:sea_lantern\",display:{Lore:[0:\"§7Defense: §a+25\",1:\"§7Mining Speed: §a+20\",2:\"§7Mining Fortune: §a+2\",3:\"\",4:\"§6Piece Bonus: Magnetic\",5:\"§7Earn §a+50% §7more Exp when mining.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§4❣ §cRequires §aMining Skill 5§c.\",9:\"§a§lUNCOMMON HELMET\"],Name:\"§aLapis Armor Helmet\"}}",
+  "displayname": "{\"text\":\"Lapis Armor Helmet\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:sea_lantern\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lapis Armor Helmet\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Piece Bonus: Magnetic\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Earn \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"more Exp when mining.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Mining Skill 5\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON HELMET\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LAPIS_ARMOR_HELMET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+25",
-    "§7Mining Speed: §a+20",
-    "§7Mining Fortune: §a+2",
-    "",
-    "§6Piece Bonus: Magnetic",
-    "§7Earn §a+50% §7more Exp when mining.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aMining Skill 5§c.",
-    "§a§lUNCOMMON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Fortune: \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Piece Bonus: Magnetic\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Earn \",\"color\":\"gray\"},{\"text\":\"+50% \",\"color\":\"green\"},{\"text\":\"more Exp when mining.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Mining Skill 5\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON HELMET\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "LAPIS_ARMOR_HELMET",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lapis_Armor_Helmet",
     "https://wiki.hypixel.net/Lapis_Armor_Helmet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

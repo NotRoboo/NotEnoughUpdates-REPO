@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cPiece of Wizard Portal",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e88c1929-5145-3959-b253-925cdf7213bb\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUzZjlkYjdiNDU3MzE3MWEyYjU4MzZlNjliYzZhNjMxNDUxNGZmZjViYzc5NzQzMzE5ZmQxOTFmNTM0NDQifX19\"}]}},display:{Lore:[0:\"§7Commemorates your participation\",1:\"§7in the §bRepair Wizard Portal\",2:\"§b§7city project.\",3:\"\",4:\"§7Earned by: §b[MVP§d+§b] lrg89§f\",5:\"§8Edition §k1\",6:\"§8May 28th 2023\",7:\"\",8:\"§7§8Memento acquirer name becomes\",9:\"§8hidden if traded.\",10:\"\",11:\"§c§lSPECIAL MEMENTO\"],Name:\"§cPiece of Wizard Portal\"},ExtraAttributes:{date:1685297336540L,edition:1,id:\"WIZARD_PORTAL_MEMENTO\",recipient_name:\"§b[MVP§d+§b] lrg89§f\",recipient_id:\"d3cb85e2-3075-48a1-b213-a9bfb62360c1\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Piece of Wizard Portal\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Piece of Wizard Portal\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Commemorates your participation\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Repair Wizard Portal\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"city project.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Earned by: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"[MVP\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"] lrg89\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Edition \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"May 28th 2023\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Memento acquirer name becomes\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"hidden if traded.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL MEMENTO\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"date\":\"1685297336540L\",\"edition\":1,\"id\":\"WIZARD_PORTAL_MEMENTO\",\"recipient_name\":\"§b[MVP§d+§b] lrg89§f\",\"recipient_id\":\"d3cb85e2-3075-48a1-b213-a9bfb62360c1\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Commemorates your participation",
-    "§7in the §bRepair Wizard Portal",
-    "§b§7city project.",
-    "",
-    "§7Earned by: §b[MVP§d+§b] lrg89§f",
-    "§8Edition §k1",
-    "§8May 28th 2023",
-    "",
-    "§7§8Memento acquirer name becomes",
-    "§8hidden if traded.",
-    "",
-    "§c§lSPECIAL MEMENTO"
+    "{\"text\":\"Commemorates your participation\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"in the \",\"color\":\"gray\"},{\"text\":\"Repair Wizard Portal\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"city project.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Earned by: \",\"color\":\"gray\"},{\"text\":\"[MVP\",\"color\":\"aqua\"},{\"text\":\"+\",\"color\":\"light_purple\"},{\"text\":\"] lrg89\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Edition \",\"color\":\"dark_gray\"},{\"text\":\"1\",\"color\":\"dark_gray\",\"obfuscated\":true}]}",
+    "{\"text\":\"May 28th 2023\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Memento acquirer name becomes\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"hidden if traded.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL MEMENTO\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "WIZARD_PORTAL_MEMENTO",
   "crafttext": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Piece_of_Wizard_Portal",
     "https://wiki.hypixel.net/Piece_Of_Wizard_Portal"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

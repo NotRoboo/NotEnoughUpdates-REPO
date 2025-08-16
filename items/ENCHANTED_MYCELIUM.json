@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:mycelium",
-  "displayname": "§aEnchanted Mycelium",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_MYCELIUM\"},HideFlags:254,ItemModel:\"minecraft:mycelium\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON BLOCK\"],Name:\"§aEnchanted Mycelium\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Mycelium\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:mycelium\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Mycelium\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON BLOCK\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_MYCELIUM\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§a§lUNCOMMON BLOCK"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON BLOCK\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_MYCELIUM",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "MYCEL:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

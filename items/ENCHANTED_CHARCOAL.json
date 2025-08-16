@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:coal",
-  "displayname": "§aEnchanted Charcoal",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_CHARCOAL\"},HideFlags:254,ItemModel:\"minecraft:charcoal\",display:{Lore:[0:\"§7Increases the speed of\",1:\"§7your minion by §a20%§7 for 36\",2:\"§7hours!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Charcoal\"},ench:[]}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Enchanted Charcoal\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:coal\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Charcoal\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Increases the speed of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your minion by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" for 36\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"hours!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_CHARCOAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Increases the speed of",
-    "§7your minion by §a20%§7 for 36",
-    "§7hours!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Increases the speed of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your minion by \",\"color\":\"gray\"},{\"text\":\"20%\",\"color\":\"green\"},{\"text\":\" for 36\",\"color\":\"gray\"}]}",
+    "{\"text\":\"hours!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_CHARCOAL",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "",
     "C2": "COAL:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

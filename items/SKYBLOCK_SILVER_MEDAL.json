@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§aSilver Medal",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"262085f0-6550-54b3-9dfa-4a0aead49e54\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTA1NGU5MTJmOTE1OTBmNDA3Njc3MWMyNTRmYTYzZTJiOWU2YzM1MjU1ZDU5YmM3OGRmNWQ2MWZjZDUwNjE3YyJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Used for NEU NPC-Shops\",1:\"\",2:\"§c§l§ka§r §c§l§c§lSPECIAL §c§l§ka\"],Name:\"§f§f§aSilver Medal\"},ExtraAttributes:{id:\"SKYBLOCK_SILVER_MEDAL\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Silver Medal\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Silver Medal\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Used for NEU NPC-Shops\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"SPECIAL \\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"obfuscated\\\":true}]}\"],\"minecraft:custom_data\":{\"id\":\"SKYBLOCK_SILVER_MEDAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Used for NEU NPC-Shops",
-    "",
-    "§c§l§ka§r §c§l§c§lSPECIAL §c§l§ka"
+    "{\"text\":\"Used for NEU NPC-Shops\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a\",\"color\":\"red\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"SPECIAL \",\"color\":\"red\",\"bold\":true},{\"text\":\"a\",\"color\":\"red\",\"bold\":true,\"obfuscated\":true}]}"
   ],
   "internalname": "SKYBLOCK_SILVER_MEDAL",
   "crafttext": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Silver_Medal",
     "https://wiki.hypixel.net/Silver_Medal"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

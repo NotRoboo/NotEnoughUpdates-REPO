@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:planks",
-  "displayname": "§fAcacia Planks",
-  "nbttag": "{ExtraAttributes:{id:\"WOOD-4\"},HideFlags:254,ItemModel:\"minecraft:acacia_planks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fAcacia Planks\"}}",
-  "damage": 4,
+  "displayname": "{\"text\":\"Acacia Planks\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:planks\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Acacia Planks\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WOOD-4\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WOOD-4",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 4
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,25 +1,25 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§7[Lvl 100] §5Montezuma",
-  "nbttag": "{SkullOwner:{Id:\"e61954f2-927d-4176-b245-7d4f7dadf899\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0ODExMzgxMjE5OCwKICAicHJvZmlsZUlkIiA6ICIyYzEwNjRmY2Q5MTc0MjgyODRlM2JmN2ZhYTdlM2UxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYWVtZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZjY1NmMwNmU4YTVjYjQ2OTI1NjRlZTIxNzQ4YmRkZWM5ZDc4NWQxODM0Mjg0YWFhMTQzOTYwMWJiYTQ3ZDZiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]},Name:\"§e61954f2-927d-4176-b245-7d4f7dadf899\"},display:{Lore:[0:\"§8Fractured Soul Pet\",1:\"\",2:\"§7Found: §96/9 Soul Pieces\",3:\"\",4:\"§7Rift Time: §a+100s\",5:\"§7Mana Regen: §a+12%\",6:\"\",7:\"§6Nine Lives\",8:\"§7§7Gain §a+15ф Rift Time §7per\",9:\"§7soul piece.\",10:\"\",11:\"§6Trickery\",12:\"§7§7Gain §b+2⚡ Mana Regen §7per\",13:\"§7soul piece found.\",14:\"\",15:\"§5§lEPIC\"],Name:\"§7[Lvl 100] §5Montezuma\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"FRACTURED_MONTEZUMA_SOUL\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"EPIC\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0,\\\"hideRightClick\\\":false}\",id:\"FRACTURED_MONTEZUMA_SOUL;3\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"[Lvl 100] \",\"color\":\"gray\"},{\"text\":\"Montezuma\",\"color\":\"dark_purple\"}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[Lvl 100] \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Montezuma\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Fractured Soul Pet\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Found: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"6/9 Soul Pieces\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Regen: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+12%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Nine Lives\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15ф Rift Time \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"per\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"soul piece.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Trickery\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2⚡ Mana Regen \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"per\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"soul piece found.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"\\\\\\\"candyUsed\\\\\\\"\":0,\"\\\\\\\"hideRightClick\\\\\\\"\":\"false\",\"\\\\\\\"exp\\\\\\\"\":0,\"petInfo\":\"{\\\\\\\"type\\\\\\\":\\\\\\\"FRACTURED_MONTEZUMA_SOUL\\\\\",\"\\\\\\\"active\\\\\\\"\":\"false\",\"\\\\\\\"hideInfo\\\\\\\"\":\"false\",\"\\\\\\\"tier\\\\\\\"\":\"\\\\\\\"EPIC\\\\\\\"\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Fractured Soul Pet",
-    "",
-    "§7Found: §96/9 Soul Pieces",
-    "",
-    "§7Rift Time: §a+100s",
-    "§7Mana Regen: §a+12%",
-    "",
-    "§6Nine Lives",
-    "§7§7Gain §a+15ф Rift Time §7per",
-    "§7soul piece.",
-    "",
-    "§6Trickery",
-    "§7§7Gain §b+2⚡ Mana Regen §7per",
-    "§7soul piece found.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Fractured Soul Pet\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Found: \",\"color\":\"gray\"},{\"text\":\"6/9 Soul Pieces\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+100s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Regen: \",\"color\":\"gray\"},{\"text\":\"+12%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Nine Lives\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+15ф Rift Time \",\"color\":\"green\"},{\"text\":\"per\",\"color\":\"gray\"}]}",
+    "{\"text\":\"soul piece.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Trickery\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+2⚡ Mana Regen \",\"color\":\"aqua\"},{\"text\":\"per\",\"color\":\"gray\"}]}",
+    "{\"text\":\"soul piece found.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FRACTURED_MONTEZUMA_SOUL;3",
   "crafttext": "",
@@ -29,5 +29,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Montezuma_Pet",
     "https://wiki.hypixel.net/Montezuma_Pet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

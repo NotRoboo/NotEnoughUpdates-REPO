@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aGravel Skeleton (Monster)",
-  "nbttag": "{display:{Lore:[0:\"§7These Skeletons just never say\",1:\"§7die.\",2:\"\",3:\"§c❤ Health§8: §c100\"],Name:\"§aGravel Skeleton (Monster)\"},ExtraAttributes:{id:\"GRAVEL_SKELETON_MONSTER\"}}",
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Gravel Skeleton (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gravel Skeleton (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"These Skeletons just never say\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"die.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"100\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"GRAVEL_SKELETON_MONSTER\"}}}",
   "damage": 0,
   "lore": [
-    "§7These Skeletons just never say",
-    "§7die.",
-    "",
-    "§c❤ Health§8: §c100"
+    "{\"text\":\"These Skeletons just never say\",\"color\":\"gray\"}",
+    "{\"text\":\"die.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"100\",\"color\":\"red\"}]}"
   ],
   "internalname": "GRAVEL_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

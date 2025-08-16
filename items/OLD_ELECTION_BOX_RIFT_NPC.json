@@ -1,15 +1,15 @@
 {
   "internalname": "OLD_ELECTION_BOX_RIFT_NPC",
   "itemid": "minecraft:noteblock",
-  "displayname": "§dOld Election Box (Rift NPC)",
+  "displayname": "{\"text\":\"Old Election Box (Rift NPC)\",\"color\":\"light_purple\"}",
   "clickcommand": "viewrecipe",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"\"],Name:\"§dOld Election Box (Rift NPC)\"},ExtraAttributes:{id:\"OLD_ELECTION_BOX_RIFT_NPC\"}}",
+  "nbttag": "{\"id\":\"minecraft:noteblock\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Old Election Box (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"OLD_ELECTION_BOX_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "modver": "2.1.1-PRE",
   "infoType": "",
   "info": [],
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "x": -68,
   "y": 57,
@@ -25,5 +25,8 @@
       ]
     }
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

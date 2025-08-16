@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:diamond_chestplate",
-  "displayname": "§9Hardened Diamond Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"HARDENED_DIAMOND_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:diamond_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+120\",1:\"\",2:\"§8This item can be reforged!\",3:\"§9§lRARE CHESTPLATE\"],Name:\"§9Hardened Diamond Chestplate\"}}",
+  "displayname": "{\"text\":\"Hardened Diamond Chestplate\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hardened Diamond Chestplate\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE CHESTPLATE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HARDENED_DIAMOND_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+120",
-    "",
-    "§8This item can be reforged!",
-    "§9§lRARE CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+120\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE CHESTPLATE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "HARDENED_DIAMOND_CHESTPLATE",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "ENCHANTED_DIAMOND:1",
     "C2": "ENCHANTED_DIAMOND:1",
     "C3": "ENCHANTED_DIAMOND:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Obsidian Defender (Monster)",
-  "nbttag": "{overrideMeta:1b,display:{Lore:[0:\"§7Obsidian Defenders are types of Wither Skeletons\",1:\"§7found exclusively in the Dragon's Nest. Obsidian\",2:\"§7Defenders are hostile, inflict the Wither potion\",3:\"§7effect, and are extremely fast. They are also\",4:\"§7completely immune to all knockback. \",5:\"\",6:\"§c❤ Health§8: §c10,000\"],Name:\"§9Obsidian Defender (Monster)\"},ExtraAttributes:{id:\"OBSIDIAN_DEFENDER_MONSTER\"}}",
-  "damage": 1,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Obsidian Defender (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Obsidian Defender (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Obsidian Defenders are types of Wither Skeletons\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"found exclusively in the Dragon\u0027s Nest. Obsidian\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Defenders are hostile, inflict the Wither potion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"effect, and are extremely fast. They are also\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"completely immune to all knockback. \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"10,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"OBSIDIAN_DEFENDER_MONSTER\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Obsidian Defenders are types of Wither Skeletons",
-    "§7found exclusively in the Dragon's Nest. Obsidian",
-    "§7Defenders are hostile, inflict the Wither potion",
-    "§7effect, and are extremely fast. They are also",
-    "§7completely immune to all knockback. ",
-    "",
-    "§c❤ Health§8: §c10,000"
+    "{\"text\":\"Obsidian Defenders are types of Wither Skeletons\",\"color\":\"gray\"}",
+    "{\"text\":\"found exclusively in the Dragon\u0027s Nest. Obsidian\",\"color\":\"gray\"}",
+    "{\"text\":\"Defenders are hostile, inflict the Wither potion\",\"color\":\"gray\"}",
+    "{\"text\":\"effect, and are extremely fast. They are also\",\"color\":\"gray\"}",
+    "{\"text\":\"completely immune to all knockback. \",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"10,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "OBSIDIAN_DEFENDER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -66,5 +66,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

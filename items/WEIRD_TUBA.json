@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:hopper",
-  "displayname": "§9Weird Tuba",
-  "nbttag": "{ExtraAttributes:{id:\"WEIRD_TUBA\"},HideFlags:254,ItemModel:\"minecraft:hopper\",display:{Lore:[0:\"§6Ability: Howl  §e§lRIGHT CLICK\",1:\"§7You and 4 nearby players gain:\",2:\"§7 §c+30❁ Strength\",3:\"§7 §f+30✦ Speed\",4:\"§7for §a20 §7seconds.\",5:\"§8Effect doesn't stack.\",6:\"§8Mana Cost: §3150\",7:\"§8Cooldown: §a20s\",8:\"\",9:\"§4☠ §cRequires §5Wolf Slayer 5§c.\",10:\"§5§kX§5 Rift-Transferable §r§kX\",11:\"§9§lRARE\"],Name:\"§9Weird Tuba\"}}",
+  "displayname": "{\"text\":\"Weird Tuba\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:hopper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Weird Tuba\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Howl \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"You and 4 nearby players gain:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30❁ Strength\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30✦ Speed\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"seconds.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Effect doesn\u0027t stack.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"150\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"20s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Wolf Slayer 5\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WEIRD_TUBA\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Howl  §e§lRIGHT CLICK",
-    "§7You and 4 nearby players gain:",
-    "§7 §c+30❁ Strength",
-    "§7 §f+30✦ Speed",
-    "§7for §a20 §7seconds.",
-    "§8Effect doesn't stack.",
-    "§8Mana Cost: §3150",
-    "§8Cooldown: §a20s",
-    "",
-    "§4☠ §cRequires §5Wolf Slayer 5§c.",
-    "§5§kX§5 Rift-Transferable §r§kX",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Howl \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"You and 4 nearby players gain:\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \",\"color\":\"gray\"},{\"text\":\"+30❁ Strength\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \",\"color\":\"gray\"},{\"text\":\"+30✦ Speed\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"20 \",\"color\":\"green\"},{\"text\":\"seconds.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Effect doesn\u0027t stack.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"150\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"20s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Wolf Slayer 5\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"obfuscated\":true}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "WEIRD_TUBA",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C2": "ENCHANTED_IRON:20",
     "C3": ""
   },
-  "slayer_req": "WOLF_5"
+  "slayer_req": "WOLF_5",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

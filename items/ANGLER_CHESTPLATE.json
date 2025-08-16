@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§fAngler Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Sea Creature Chance: §c+1%\",1:\"§7Defense: §a+40\",2:\"\",3:\"§8Tiered Bonus: Depth Champion (0/8)\",4:\"§7§7Reduces the damage taken from §3Sea\",5:\"§3Creatures §7by §a3%§7.\",6:\"\",7:\"§8Tiered Bonus: Deepness Within (0/4)\",8:\"§7Gain §c6❤ §7per Fishing level.\",9:\"§7Fishing: §eLevel §k00\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§f§lCOMMON CHESTPLATE\"],color:720975,Name:\"§fAngler Chestplate\"},ExtraAttributes:{id:\"ANGLER_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Angler Chestplate\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Angler Chestplate\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Depth Champion (0/8)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Reduces the damage taken from \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sea\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Creatures \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Deepness Within (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"6❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per Fishing level.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fishing: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Level \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"00\\\",\\\"color\\\":\\\"yellow\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON CHESTPLATE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ANGLER_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Sea Creature Chance: §c+1%",
-    "§7Defense: §a+40",
-    "",
-    "§8Tiered Bonus: Depth Champion (0/8)",
-    "§7§7Reduces the damage taken from §3Sea",
-    "§3Creatures §7by §a3%§7.",
-    "",
-    "§8Tiered Bonus: Deepness Within (0/4)",
-    "§7Gain §c6❤ §7per Fishing level.",
-    "§7Fishing: §eLevel §k00",
-    "",
-    "§7§8This item can be reforged!",
-    "§f§lCOMMON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+1%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Depth Champion (0/8)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Reduces the damage taken from \",\"color\":\"gray\"},{\"text\":\"Sea\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Creatures \",\"color\":\"dark_aqua\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"3%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Deepness Within (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"6❤ \",\"color\":\"red\"},{\"text\":\"per Fishing level.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fishing: \",\"color\":\"gray\"},{\"text\":\"Level \",\"color\":\"yellow\"},{\"text\":\"00\",\"color\":\"yellow\",\"obfuscated\":true}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON CHESTPLATE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ANGLER_CHESTPLATE",
   "clickcommand": "",
@@ -26,5 +26,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Angler_Chestplate",
     "https://wiki.hypixel.net/Angler_Chestplate"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

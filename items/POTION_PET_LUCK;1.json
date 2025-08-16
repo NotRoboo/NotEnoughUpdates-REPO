@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fPet Luck I Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:9b,Amplifier:0b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§bPet Luck I §f(3:00)\",2:\"§7Gain §a+5% §7chance to find pets and\",3:\"§7craft higher tier pets.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fPet Luck I Potion\"},ExtraAttributes:{potion_level:1,potion:\"pet_luck\",effects:[0:{level:1,effect:\"pet_luck\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_PET_LUCK;1\"}}",
+  "displayname": "{\"text\":\"Pet Luck I Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pet Luck I Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pet Luck I \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance to find pets and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"craft higher tier pets.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":1,\"potion\":\"pet_luck\",\"effects\":\"[0:{level:1\",\"effect\":\"pet_luck\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "",
-    "§bPet Luck I §f(3:00)",
-    "§7Gain §a+5% §7chance to find pets and",
-    "§7craft higher tier pets.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pet Luck I \",\"color\":\"aqua\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+5% \",\"color\":\"green\"},{\"text\":\"chance to find pets and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"craft higher tier pets.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_PET_LUCK;1",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "2.2.1",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

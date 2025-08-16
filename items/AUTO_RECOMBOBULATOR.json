@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Auto Recombobulator",
-  "nbttag": "{ExtraAttributes:{id:\"AUTO_RECOMBOBULATOR\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"10479f18-e67f-3c86-93e2-b4df79d0457e\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRmZjhkYmJhYjE1YmZiYjExZTIzYjFmNTBiMzRlZjU0OGFkOTgzMmMwYmQ3ZjVhMTM3OTFhZGFkMDA1N2UxYiJ9fX0K\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Grants a §a1% §7chance to\",1:\"§7automatically recombobulate\",2:\"§7drops you get from enemies.\",3:\"\",4:\"§6§lLEGENDARY DUNGEON ACCESSORY\"],Name:\"§6Auto Recombobulator\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Auto Recombobulator\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Auto Recombobulator\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"automatically recombobulate\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"drops you get from enemies.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY DUNGEON ACCESSORY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"AUTO_RECOMBOBULATOR\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRmZjhkYmJhYjE1YmZiYjExZTIzYjFmNTBiMzRlZjU0OGFkOTgzMmMwYmQ3ZjVhMTM3OTFhZGFkMDA1N2UxYiJ9fX0K\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Grants a §a1% §7chance to",
-    "§7automatically recombobulate",
-    "§7drops you get from enemies.",
-    "",
-    "§6§lLEGENDARY DUNGEON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants a \",\"color\":\"gray\"},{\"text\":\"1% \",\"color\":\"green\"},{\"text\":\"chance to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"automatically recombobulate\",\"color\":\"gray\"}",
+    "{\"text\":\"drops you get from enemies.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY DUNGEON ACCESSORY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "AUTO_RECOMBOBULATOR",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Auto_Recombobulator",
     "https://wiki.hypixel.net/Auto_Recombobulator"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§9Gunther\u0027s Sneakers",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Time: §a+30s\",1:\"§7Speed: §a+4\",2:\"\",3:\"§9§lRARE BOOTS\"],color:5187718,Name:\"§9Gunther\u0027s Sneakers\"},ExtraAttributes:{id:\"GUNTHER_SNEAKERS\"}}",
+  "displayname": "{\"text\":\"Gunther\u0027s Sneakers\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gunther\u0027s Sneakers\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE BOOTS\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GUNTHER_SNEAKERS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Rift Time: §a+30s",
-    "§7Speed: §a+4",
-    "",
-    "§9§lRARE BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+30s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+4\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE BOOTS\",\"color\":\"blue\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "SHADOW_CRUX:2",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gunther%27s_Sneakers",
     "https://wiki.hypixel.net/Gunther%27s_Sneakers"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

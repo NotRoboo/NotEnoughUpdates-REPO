@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§5Damage VIII Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:7b,Amplifier:7b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cDamage VIII\",2:\"§7Instantly deals §c500 §7damage.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Damage VIII Potion\"},ExtraAttributes:{potion_level:8,potion:\"damage\",effects:[0:{level:8,effect:\"damage\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_DAMAGE;8\"}}",
-  "damage": 12,
+  "displayname": "{\"text\":\"Damage VIII Potion\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Damage VIII Potion\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Damage VIII\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Instantly deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"500 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":8,\"potion\":\"damage\",\"effects\":\"[0:{level:8\",\"effect\":\"damage\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§cDamage VIII",
-    "§7Instantly deals §c500 §7damage.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\"}",
+    "{\"text\":\"Damage VIII\",\"color\":\"red\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Instantly deals \",\"color\":\"gray\"},{\"text\":\"500 \",\"color\":\"red\"},{\"text\":\"damage.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "POTION_DAMAGE;8",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

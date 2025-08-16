@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:diamond_helmet",
-  "displayname": "§aDiamond Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_HELMET\",originTag:\"CRAFTING_GRID_COLLECT\"},HideFlags:254,ItemModel:\"minecraft:diamond_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+15\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON HELMET\"],Name:\"§aDiamond Helmet\"}}",
+  "displayname": "{\"text\":\"Diamond Helmet\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Helmet\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON HELMET\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"CRAFTING_GRID_COLLECT\",\"id\":\"DIAMOND_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+15",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON HELMET\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DIAMOND_HELMET",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C2": "",
     "C3": ""
   },
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

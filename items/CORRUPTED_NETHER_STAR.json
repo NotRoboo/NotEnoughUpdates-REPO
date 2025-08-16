@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:nether_star",
-  "displayname": "§6Nether Star",
-  "nbttag": "{ExtraAttributes:{id:\"CORRUPTED_NETHER_STAR\"},HideFlags:254,ItemModel:\"minecraft:nether_star\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§6§lLEGENDARY\"],Name:\"§6Nether Star\"},ench:[]}",
+  "displayname": "{\"text\":\"Nether Star\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:nether_star\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nether Star\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CORRUPTED_NETHER_STAR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "CORRUPTED_NETHER_STAR",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Nether_Star",
     "https://wiki.hypixel.net/Nether_Star"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

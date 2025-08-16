@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Oringo (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1b5d4302-915e-5464-a713-c21dfbeb894d\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg0ZTZlZWQ4ZGMyMTk3ZDEzZDFhZjRkOGNkOTc2MjkyYTU2Njc1ODFhMTI5MDdhZWM3ZTU0MzAxNzEyIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Oringo (NPC)\"},ExtraAttributes:{id:\"ORINGO_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Oringo (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Oringo (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"ORINGO_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "ORINGO_NPC",
   "clickcommand": "viewrecipe",
@@ -260,5 +260,8 @@
       ],
       "result": "ELEPHANT;4"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

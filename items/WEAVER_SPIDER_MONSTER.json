@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Weaver Spider (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"97414c0c-623b-3df3-b1f6-bbcaddafc7fc\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxNDM4ZjY0NmRjMDQ1MTU5NjdlODE5NWNjYzNkMzFlMjNiMDJmOWFhMGFjOTE0ZWRjMjgyMmY5ODM5NGI4NiJ9fX0\"}]}},display:{Lore:[0:\"§7The Weaver Spider is a spider that acts normally, but\",1:\"§7it can also shoot webs that slow you down for a small\",2:\"§7amount of time. Weaver Spiders can be found in the\",3:\"§7Spider\u0027s Den, usually higher up in the nest. \",4:\"\",5:\"§c❤ Health§8: §c160 - 800\"],Name:\"§9Weaver Spider (Monster)\"},ExtraAttributes:{id:\"WEAVER_SPIDER_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Weaver Spider (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Weaver Spider (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Weaver Spider is a spider that acts normally, but\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"it can also shoot webs that slow you down for a small\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"amount of time. Weaver Spiders can be found in the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Spider\u0027s Den, usually higher up in the nest. \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"160 - 800\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"WEAVER_SPIDER_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Weaver Spider is a spider that acts normally, but",
-    "§7it can also shoot webs that slow you down for a small",
-    "§7amount of time. Weaver Spiders can be found in the",
-    "§7Spider\u0027s Den, usually higher up in the nest. ",
-    "",
-    "§c❤ Health§8: §c160 - 800"
+    "{\"text\":\"The Weaver Spider is a spider that acts normally, but\",\"color\":\"gray\"}",
+    "{\"text\":\"it can also shoot webs that slow you down for a small\",\"color\":\"gray\"}",
+    "{\"text\":\"amount of time. Weaver Spiders can be found in the\",\"color\":\"gray\"}",
+    "{\"text\":\"Spider\u0027s Den, usually higher up in the nest. \",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"160 - 800\",\"color\":\"red\"}]}"
   ],
   "internalname": "WEAVER_SPIDER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -89,5 +89,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

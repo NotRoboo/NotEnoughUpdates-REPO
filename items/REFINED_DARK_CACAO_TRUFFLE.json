@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Refined Dark Cacao Truffle",
-  "nbttag": "{ExtraAttributes:{id:\"REFINED_DARK_CACAO_TRUFFLE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"167cf08f-2fc5-34ed-8a58-04712142fe03\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjU4ODQwNSwKICAicHJvZmlsZUlkIiA6ICJmZjQ3NzI5YmQwZDI0YWYwOThiMTFjMGE3ZTFiMGVlZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXRzY2FuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmOTkxMjE1ZTI1OGQ2NWY3N2VlZGViNjkzNTZmNTUyMWJiMjRjYjlkZDQ3NzY1ZTM4ZjUyYTg5MmQ3OTg5YWQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Consume to gain §6+30☘ Global\",1:\"§6Fortune §7for §a60m§7!\",2:\"\",3:\"§6Aged Like Fine Dark Chocolate\",4:\"§7Consuming this grants permanent\",5:\"§6+1☘ Global Fortune§7.\",6:\"\",7:\"§7You may consume §a5 §7of these before\",8:\"§7they lose their magical energy.\",9:\"\",10:\"§6§lLEGENDARY\"],Name:\"§6Refined Dark Cacao Truffle\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Refined Dark Cacao Truffle\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Refined Dark Cacao Truffle\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consume to gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30☘ Global\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fortune \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"60m\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Aged Like Fine Dark Chocolate\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Consuming this grants permanent\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+1☘ Global Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"You may consume \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of these before\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"they lose their magical energy.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REFINED_DARK_CACAO_TRUFFLE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjU4ODQwNSwKICAicHJvZmlsZUlkIiA6ICJmZjQ3NzI5YmQwZDI0YWYwOThiMTFjMGE3ZTFiMGVlZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXRzY2FuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmOTkxMjE1ZTI1OGQ2NWY3N2VlZGViNjkzNTZmNTUyMWJiMjRjYjlkZDQ3NzY1ZTM4ZjUyYTg5MmQ3OTg5YWQiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Consume to gain §6+30☘ Global",
-    "§6Fortune §7for §a60m§7!",
-    "",
-    "§6Aged Like Fine Dark Chocolate",
-    "§7Consuming this grants permanent",
-    "§6+1☘ Global Fortune§7.",
-    "",
-    "§7You may consume §a5 §7of these before",
-    "§7they lose their magical energy.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consume to gain \",\"color\":\"gray\"},{\"text\":\"+30☘ Global\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fortune \",\"color\":\"gold\"},{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"60m\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Aged Like Fine Dark Chocolate\",\"color\":\"gold\"}",
+    "{\"text\":\"Consuming this grants permanent\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+1☘ Global Fortune\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"You may consume \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"green\"},{\"text\":\"of these before\",\"color\":\"gray\"}]}",
+    "{\"text\":\"they lose their magical energy.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "REFINED_DARK_CACAO_TRUFFLE",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Refined_Dark_Cacao_Truffle",
     "https://wiki.hypixel.net/Refined_Dark_Cacao_Truffle"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

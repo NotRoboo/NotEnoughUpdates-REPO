@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§5Combat Exp Boost",
-  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many powerful ways!\",3:\"§7A pet can only hold one §aPet Item §7at a time.\",4:\"§7The pet must be §evisible §7to apply the item!\",5:\"\",6:\"§7§7Gives §a+50% §7pet exp for Combat.\",7:\"\",8:\"§7§eRight-click on your summoned pet to\",9:\"§egive it this item!\",10:\"\",11:\"§5§lEPIC PET ITEM\"],Name:\"§5Combat Exp Boost\"},ExtraAttributes:{id:\"PET_ITEM_COMBAT_SKILL_BOOST_EPIC\"}}",
+  "displayname": "{\"text\":\"Combat Exp Boost\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Combat Exp Boost\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pet Items \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"can boost pets in many powerful ways!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"A pet can only hold one \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Pet Item \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"at a time.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The pet must be \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"visible \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"to apply the item!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gives \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"pet exp for Combat.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"give it this item!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC PET ITEM\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PET_ITEM_COMBAT_SKILL_BOOST_EPIC\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Consumed on use",
-    "",
-    "§aPet Items §7can boost pets in many powerful ways!",
-    "§7A pet can only hold one §aPet Item §7at a time.",
-    "§7The pet must be §evisible §7to apply the item!",
-    "",
-    "§7§7Gives §a+50% §7pet exp for Combat.",
-    "",
-    "§7§eRight-click on your summoned pet to",
-    "§egive it this item!",
-    "",
-    "§5§lEPIC PET ITEM"
+    "{\"text\":\"Consumed on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pet Items \",\"color\":\"green\"},{\"text\":\"can boost pets in many powerful ways!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"A pet can only hold one \",\"color\":\"gray\"},{\"text\":\"Pet Item \",\"color\":\"green\"},{\"text\":\"at a time.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The pet must be \",\"color\":\"gray\"},{\"text\":\"visible \",\"color\":\"yellow\"},{\"text\":\"to apply the item!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gives \",\"color\":\"gray\"},{\"text\":\"+50% \",\"color\":\"green\"},{\"text\":\"pet exp for Combat.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"give it this item!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC PET ITEM\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PET_ITEM_COMBAT_SKILL_BOOST_EPIC",
   "clickcommand": "",
@@ -25,5 +25,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Combat_Exp_Boost",
     "https://wiki.hypixel.net/Combat_Exp_Boost"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

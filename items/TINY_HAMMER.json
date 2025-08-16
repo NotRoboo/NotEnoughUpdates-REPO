@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:iron_axe",
-  "displayname": "§aremmaH yniT",
-  "nbttag": "{ExtraAttributes:{id:\"TINY_HAMMER\"},HideFlags:254,ItemModel:\"minecraft:iron_axe\",Unbreakable:1B,display:{Lore:[0:\"§7.wohemoS\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aremmaH yniT\"}}",
+  "displayname": "{\"text\":\"remmaH yniT\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"remmaH yniT\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\".wohemoS\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TINY_HAMMER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7.wohemoS",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\".wohemoS\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "TINY_HAMMER",
   "clickcommand": "viewrecipe",
@@ -26,5 +26,8 @@
     "C1": "",
     "C2": "MIRRORED_FISHING_ROD:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Emissary Sisko (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"604f050e-018f-24c8-854f-860eb4b9284c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhlYmY5Y2FjNWFiNDc5MDNlMWQyZDRjMjRmNjg1YTY2N2YyMDVmOWE2MTc3ZjZhNzYyMWY4NDcxOWU0ODc0NjUifX19\"}]},Name:\"604f050e-018f-24c8-854f-860eb4b9284c\"},display:{Lore:[0:\"\"],Name:\"§9Emissary Sisko (NPC)\"},ExtraAttributes:{id:\"EMISSARY_SISKO_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Emissary Sisko (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Emissary Sisko (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"EMISSARY_SISKO_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "EMISSARY_SISKO_NPC",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Emissary_Sisko",
     "https://wiki.hypixel.net/Emissary_Sisko"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

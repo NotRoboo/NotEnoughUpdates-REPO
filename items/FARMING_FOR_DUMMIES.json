@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§5Farming for Dummies",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7Grants §6+1☘ Farming Fortune\",3:\"§6§7when applied to a hoe or an\",4:\"§7axe. Can be applied to an item\",5:\"§7up to §a5 §7times.\",6:\"\",7:\"§5§lEPIC\"],Name:\"§5Farming for Dummies\"},ExtraAttributes:{id:\"FARMING_FOR_DUMMIES\"}}",
+  "displayname": "{\"text\":\"Farming for Dummies\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Farming for Dummies\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1☘ Farming Fortune\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"when applied to a hoe or an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"axe. Can be applied to an item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"up to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"times.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FARMING_FOR_DUMMIES\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
-    "",
-    "§7Grants §6+1☘ Farming Fortune",
-    "§6§7when applied to a hoe or an",
-    "§7axe. Can be applied to an item",
-    "§7up to §a5 §7times.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+1☘ Farming Fortune\",\"color\":\"gold\"}]}",
+    "{\"text\":\"when applied to a hoe or an\",\"color\":\"gray\"}",
+    "{\"text\":\"axe. Can be applied to an item\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"up to \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"green\"},{\"text\":\"times.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FARMING_FOR_DUMMIES",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Farming_for_Dummies",
     "https://wiki.hypixel.net/Farming_For_Dummies"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

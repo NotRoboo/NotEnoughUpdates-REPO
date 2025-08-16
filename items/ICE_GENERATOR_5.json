@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Ice Minion V",
-  "nbttag": "{ExtraAttributes:{id:\"ICE_GENERATOR_5\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4168e187-4190-32e1-9ed2-8844ea93caa3\",Properties:{textures:[0:{Name:\"textures\",Signature:\"hKXzo0C8VzlN60VAwIyXCJpVkFBv9R2oirvrJP0jnOZv+z6Ulj1NLL0PTvDeQj4bNPgibAC4KwXhmdFC1bLbiw50r+NiUEZ10dT3tDY4VU5n6kPK2MUsLEgnLq103bKmas7dt5PCi12fnsFJ0pxoA5AQF2hEsJG5YrGuQOfkRUvg/b0X50Oh62n1TNEq31ntMjl4R64o1ISUiH73n/PllYakCkoXpCIcyUO/m+lxcQHG4vaWyPQyMYy+RUdPzxBlJgRMjkCv1zJIRxVpLKYHsiJjAkWTDYGBcYd/W+lTSi1hd7Kvd+c3i5ENsQMuTIeyikePFjUepGI6zhDkC9fwU28r9rZWtAOvPlwsauub2VoM5X4ZkJoEBanGt8I784nIIRzgRGP/wF2SBZJsngMBDPpJPstceYifkp9i6ryG5C93TWpeiaKPuOBpmkDJoBEBsqHEcu7lid43q/7QC5G7RW9onOuPWXnll5wfsnVwAdDpLfOx/kqKYkewsvFSdEjPERoDzrH5jsi/mNC5ApZ/n1HR7kbUB8ojsAil+S9zciL5TyR+yvW4wavkmAKMobg8ofNEcRi87BtlVLtT2cLVSG8PWjsXTZUqwtE8aA1kJLDVZl9a+ohWXBhosFl6k7J45NFjRC6FRpNmwB3hdw+P01Vto4+l0ZRTfw4emPQZ/pY=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTk2NTk0Mzc1NDYsInByb2ZpbGVJZCI6IjU3MGIwNWJhMjZmMzRhOGViZmRiODBlY2JjZDdlNjIwIiwicHJvZmlsZU5hbWUiOiJMb3JkU29ubnkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYwYmNkYTAzZDZiM2I5MTE3MDgxOGRkNWQ5MWZjNzE4ZTYwODRjYTA2YTJmYTFlODQxYmQxZGIyY2IwODU5ZjQifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining ice! Requires\",2:\"§7an open area to place ice. Minions\",3:\"§7also work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a10s\",6:\"§7Max Storage: §e384\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Ice Minion V\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Ice Minion V\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ice Minion V\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and mining ice! Requires\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"an open area to place ice. Minions\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"also work when you are offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"384\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ICE_GENERATOR_5\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NTk2NTk0Mzc1NDYsInByb2ZpbGVJZCI6IjU3MGIwNWJhMjZmMzRhOGViZmRiODBlY2JjZDdlNjIwIiwicHJvZmlsZU5hbWUiOiJMb3JkU29ubnkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYwYmNkYTAzZDZiM2I5MTE3MDgxOGRkNWQ5MWZjNzE4ZTYwODRjYTA2YTJmYTFlODQxYmQxZGIyY2IwODU5ZjQifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and mining ice! Requires",
-    "§7an open area to place ice. Minions",
-    "§7also work when you are offline!",
-    "",
-    "§7Time Between Actions: §a10s",
-    "§7Max Storage: §e384",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and mining ice! Requires\",\"color\":\"gray\"}",
+    "{\"text\":\"an open area to place ice. Minions\",\"color\":\"gray\"}",
+    "{\"text\":\"also work when you are offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"10s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"384\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ICE_GENERATOR_5",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C2": "PACKED_ICE:16",
     "C3": "PACKED_ICE:16"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

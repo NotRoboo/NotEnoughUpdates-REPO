@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:double_plant",
-  "displayname": "§aMote",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Used for NEU NPC-Shops\",1:\"\",2:\"§c§l§ka§r §c§l§c§lSPECIAL §c§l§ka\"],Name:\"§aMote\"},ExtraAttributes:{id:\"SKYBLOCK_MOTE\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Mote\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:double_plant\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mote\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Used for NEU NPC-Shops\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"SPECIAL \\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"obfuscated\\\":true}]}\"],\"minecraft:custom_data\":{\"id\":\"SKYBLOCK_MOTE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Used for NEU NPC-Shops",
-    "",
-    "§c§l§ka§r §c§l§c§lSPECIAL §c§l§ka"
+    "{\"text\":\"Used for NEU NPC-Shops\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a\",\"color\":\"red\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"SPECIAL \",\"color\":\"red\",\"bold\":true},{\"text\":\"a\",\"color\":\"red\",\"bold\":true,\"obfuscated\":true}]}"
   ],
   "internalname": "SKYBLOCK_MOTE",
   "crafttext": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Motes",
     "https://wiki.hypixel.net/Motes"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

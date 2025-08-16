@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:melon_block",
-  "displayname": "§fMelon Block",
-  "nbttag": "{ExtraAttributes:{id:\"MELON_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:melon\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMelon Block\"}}",
+  "displayname": "{\"text\":\"Melon Block\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:melon_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Melon Block\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MELON_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MELON_BLOCK",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "MELON:1",
     "C2": "MELON:1",
     "C3": "MELON:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

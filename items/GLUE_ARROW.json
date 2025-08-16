@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:arrow",
-  "displayname": "§9Glue Arrow",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Damage: §c+15\",1:\"\",2:\"§6Passive: Stuck in goo\",3:\"§7Prevents victims from walking for\",4:\"§7§21.5s §7when hit.\",5:\"§86s cooldown per victim\",6:\"\",7:\"§7§4❣ §cRequires §aCombat Skill 24§c.\",8:\"§7§4☠ §cRequires §5Spider Slayer 3§c.\",9:\"§7§4❣ §cRequires §cTarget Practice III§c.\",10:\"§8Stats added when shot!\",11:\"§9§lRARE ARROW\"],Name:\"§9Glue Arrow\"},ExtraAttributes:{id:\"GLUE_ARROW\"}}",
+  "displayname": "{\"text\":\"Glue Arrow\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:arrow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Glue Arrow\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Passive: Stuck in goo\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Prevents victims from walking for\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"1.5s \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"when hit.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"6s cooldown per victim\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 24\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Spider Slayer 3\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Target Practice III\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"Stats added when shot!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE ARROW\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GLUE_ARROW\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+15",
-    "",
-    "§6Passive: Stuck in goo",
-    "§7Prevents victims from walking for",
-    "§7§21.5s §7when hit.",
-    "§86s cooldown per victim",
-    "",
-    "§7§4❣ §cRequires §aCombat Skill 24§c.",
-    "§7§4☠ §cRequires §5Spider Slayer 3§c.",
-    "§7§4❣ §cRequires §cTarget Practice III§c.",
-    "§8Stats added when shot!",
-    "§9§lRARE ARROW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Passive: Stuck in goo\",\"color\":\"gold\"}",
+    "{\"text\":\"Prevents victims from walking for\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"1.5s \",\"color\":\"dark_green\"},{\"text\":\"when hit.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"6s cooldown per victim\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 24\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Spider Slayer 3\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Target Practice III\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"Stats added when shot!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE ARROW\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "GLUE_ARROW",
   "crafttext": "Requires: Spider Slayer 3",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Glue_Arrow",
     "https://wiki.hypixel.net/Glue_Arrow"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

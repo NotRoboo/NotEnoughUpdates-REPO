@@ -1,25 +1,25 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cGolden Sadan Head",
-  "nbttag": "{ExtraAttributes:{id:\"GOLD_SADAN_HEAD\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5e7084ee-6d7c-3b99-a6e9-f46541e23a82\",Properties:{textures:[0:{Name:\"textures\",Signature:\"W6TJEgFN4Iv7FNA7yXAPMrQOFtNe8qfAcUe7ZkNyUS+I+oZEqBHiTqT3r/5mrZSuIJDMWvWhRTdQoPbHvVP+ViDPuxFv0wTL6tzC9LybMBQKPGaOlwx2cVkVfFEBOGAqxhpQtkmzuiDkXJlm6Miya/yrlje+W0VvNy1y7eXsym2S8zHvdz0SONGZ0R/+VWdu3xKFrZiKtVsCLDPZShQIWTqR1Yd40EFYxHERNFG/QQnfgJMtEL++NpzctxKnQY3JscqvtToX2y4WxPAL1KZqXRaJzsanCYj8g5OGdEcWTzkWGHxO+qNB4eXNOOw4Zn0dxYS3w9cqRI6NIYrvCIYtt2vS0DOsuyMoQrvi2Syv5ZmTtvhGhN1RZaiMecgDk8gxkAqoiSpm6m/rnjjrFtKeVcI5yyv3NwtcJDm79qkyoDXU6mUoJ1EVUik77k33z6N0pgQw8JAyURsoAgozPcSpl+Vo0Dd+IcqYCZNYR3ncHrhBodC3eU0eXfw28owwkAOM0yYpkI98pLf/c7x3Cr5a0K4WJ6udrq+JgAuIp0J6+gJWUZwem4KRQy/p/zAOhXnT4wnv0Bw4FlEu9VoRtHsNGKfENtUzkqT2J6ar6Z4K5ekMGntOvkiORQG1pcCDeqAUCmEEjv03TOmRRFsnbHeQ6flIljonSMO8Vqc3MRHeuBA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNDEyNDIxMTUxNiwKICAicHJvZmlsZUlkIiA6ICJiNTM5NTkyMjMwY2I0MmE0OWY5YTRlYmYxNmRlOTYwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJpYW5hZmFnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3NjZhMGQyMWQyNjFjODc4NzYzY2E4MjY0Y2QyZGQwYjE3ZWNmYWMzNDI0MTFkYjA3ODg2YjA3OGU2Y2IwMTMiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Gear Score: §d155\",1:\"§7Strength: §c+15\",2:\"§7Health: §a+70\",3:\"§7Defense: §a+35\",4:\"\",5:\"§7Obtained from killing §cSadan §7in §cThe\",6:\"§cCatacombs §7lots of times. Grants §a2x\",7:\"§7stats on §cThe Catacombs Floor VI§7.\",8:\"\",9:\"§8Necromancy was always strong in his\",10:\"§8family. Says he once beat a Wither in\",11:\"§8a duel. Likes to brag.\",12:\"\",13:\"§8This item can be reforged!\",14:\"§8§l* §8Co-op Soulbound §8§l*\",15:\"§c§lSPECIAL DUNGEON HELMET\"],Name:\"§cGolden Sadan Head\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Golden Sadan Head\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Golden Sadan Head\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"155\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+70\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained from killing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sadan \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Catacombs \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"lots of times. Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2x\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"stats on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Catacombs Floor VI\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Necromancy was always strong in his\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"family. Says he once beat a Wither in\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"a duel. Likes to brag.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL DUNGEON HELMET\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLD_SADAN_HEAD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYyNDEyNDIxMTUxNiwKICAicHJvZmlsZUlkIiA6ICJiNTM5NTkyMjMwY2I0MmE0OWY5YTRlYmYxNmRlOTYwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJpYW5hZmFnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3NjZhMGQyMWQyNjFjODc4NzYzY2E4MjY0Y2QyZGQwYjE3ZWNmYWMzNDI0MTFkYjA3ODg2YjA3OGU2Y2IwMTMiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Gear Score: §d155",
-    "§7Strength: §c+15",
-    "§7Health: §a+70",
-    "§7Defense: §a+35",
-    "",
-    "§7Obtained from killing §cSadan §7in §cThe",
-    "§cCatacombs §7lots of times. Grants §a2x",
-    "§7stats on §cThe Catacombs Floor VI§7.",
-    "",
-    "§8Necromancy was always strong in his",
-    "§8family. Says he once beat a Wither in",
-    "§8a duel. Likes to brag.",
-    "",
-    "§8This item can be reforged!",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§c§lSPECIAL DUNGEON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"155\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+70\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+35\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained from killing \",\"color\":\"gray\"},{\"text\":\"Sadan \",\"color\":\"red\"},{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"The\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Catacombs \",\"color\":\"red\"},{\"text\":\"lots of times. Grants \",\"color\":\"gray\"},{\"text\":\"2x\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"stats on \",\"color\":\"gray\"},{\"text\":\"The Catacombs Floor VI\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Necromancy was always strong in his\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"family. Says he once beat a Wither in\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"a duel. Likes to brag.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL DUNGEON HELMET\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "GOLD_SADAN_HEAD",
   "clickcommand": "",
@@ -29,5 +29,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Golden_Sadan_Head",
     "https://wiki.hypixel.net/Golden_Sadan_Head"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

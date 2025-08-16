@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:golden_boots",
-  "displayname": "§fGolden Boots",
-  "nbttag": "{ExtraAttributes:{id:\"GOLD_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:golden_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+5\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON BOOTS\"],Name:\"§fGolden Boots\"}}",
+  "displayname": "{\"text\":\"Golden Boots\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Golden Boots\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON BOOTS\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLD_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+5",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON BOOTS\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GOLD_BOOTS",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C2": "",
     "C3": ""
   },
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

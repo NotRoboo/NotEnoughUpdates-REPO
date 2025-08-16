@@ -1,26 +1,26 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§4Corrupt Wither Goggles Helmet Skin",
-  "nbttag": "{ExtraAttributes:{id:\"CORRUPT_WITHER_GOGGLES\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"7a51c48e-068a-38ac-80fc-9b26a2c163e2\",Properties:{textures:[0:{Name:\"textures\",Signature:\"M2W+IOdqvrCVjUp6OWNWyCVGOiB8CTDBFo+eiq0Bxl6wgZnLFSY8QPWpmRgMf7P0Q0l7ncmq8UcqC7iraHKuQeDvsPffblvmvgFyAFji50MoLeKjSIw0YovSrEHKpDL2zZDb7OagKtgQAzsfaam8LmbQMJL61YE7CFH45QlQiyppMAU9hXegs9x0Ku8JWI+xm2pq+cvPcOFFLxMePh2dEW4O9ZTrf2sh/HFdIjnzAnF+5UY3/SWCS4YxN1LWZ3xd6YMua5jXPoA07F3TI29kwH+19551JRB8equeNWj5yNzLaM9KCS33CLYVZSu3N4BJmIx3Szqd2QEViE781FfA0705UKvrKHAO5+sl/KFtIO22qsQfbuClnQbggj5FMNEkE77LBnnukF8cYqMhF+N5oAiuk+nanU4QWe/eNuRHF+W/gKFJMzLz+7fUM6q/Ne4Q84n2sfHsWIwVA4vdx8hoaqifn51Q5KcWHIStVmdds1rmfM653/snpd8GYz9SYdFfSVteSpJJm3fW+Ak2LvgxNga5CvRYpZb50of5xNNvQnjCp41E+w2NZtqwgyfyaSlRsrst6hLIpMCtnBK4/+mG9zt2ZCbMAdxeebwRIrgQAyv4zRtDJzF+cZ4LPdBmy2aVuDqZ/Orsb86pnyce700mM5Sezl1Pzot1u8Qogc0li/4=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMTQ3ODA0MDk3NCwKICAicHJvZmlsZUlkIiA6ICI3N2ZhNWZhYTJlMWY0MjQyYmJiYTBiMGE2Nzc3NGJmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2F5SUxvdmVZb3VfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YzBlOWJlODAwYTY5MTA3YmEwZTU2ZDEyNjRkZjBlYjkyZGZmMGQyMTgxNGY2NzY3YjI2YTM3ODA4NmI1MDMiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7This skin can be applied to §9Dark\",7:\"§9Goggles§7, §5Shadow Goggles§7, and §5Wither\",8:\"§5Goggles§7.\",9:\"\",10:\"§aFeatures!\",11:\"§8▶ §7This skin is swappable between §a10\",12:\"§7evil variants.\",13:\"§8▶ §7Keeps track of the total §cDungeon\",14:\"§cScore §7earned while wearing this skin.\",15:\"\",16:\"§4§lULTIMATE COSMETIC\"],Name:\"§4Corrupt Wither Goggles Helmet Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Corrupt Wither Goggles Helmet Skin\",\"color\":\"dark_red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Corrupt Wither Goggles Helmet Skin\\\",\\\"color\\\":\\\"dark_red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Item skins give your gear a fresh\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"new look! Apply them just like an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enchant book using the anvil.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This skin can be applied to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Dark\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Goggles\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Shadow Goggles\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\", and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Wither\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Goggles\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Features!\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"▶ \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"This skin is swappable between \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"evil variants.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"▶ \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Keeps track of the total \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Dungeon\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Score \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"earned while wearing this skin.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"ULTIMATE COSMETIC\\\",\\\"color\\\":\\\"dark_red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CORRUPT_WITHER_GOGGLES\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTczMTQ3ODA0MDk3NCwKICAicHJvZmlsZUlkIiA6ICI3N2ZhNWZhYTJlMWY0MjQyYmJiYTBiMGE2Nzc3NGJmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfU2F5SUxvdmVZb3VfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YzBlOWJlODAwYTY5MTA3YmEwZTU2ZDEyNjRkZjBlYjkyZGZmMGQyMTgxNGY2NzY3YjI2YTM3ODA4NmI1MDMiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Item skins give your gear a fresh",
-    "§7new look! Apply them just like an",
-    "§7enchant book using the anvil.",
-    "",
-    "§7This skin can be applied to §9Dark",
-    "§9Goggles§7, §5Shadow Goggles§7, and §5Wither",
-    "§5Goggles§7.",
-    "",
-    "§aFeatures!",
-    "§8▶ §7This skin is swappable between §a10",
-    "§7evil variants.",
-    "§8▶ §7Keeps track of the total §cDungeon",
-    "§cScore §7earned while wearing this skin.",
-    "",
-    "§4§lULTIMATE COSMETIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Item skins give your gear a fresh\",\"color\":\"gray\"}",
+    "{\"text\":\"new look! Apply them just like an\",\"color\":\"gray\"}",
+    "{\"text\":\"enchant book using the anvil.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This skin can be applied to \",\"color\":\"gray\"},{\"text\":\"Dark\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Goggles\",\"color\":\"blue\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Shadow Goggles\",\"color\":\"dark_purple\"},{\"text\":\", and \",\"color\":\"gray\"},{\"text\":\"Wither\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Goggles\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Features!\",\"color\":\"green\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"▶ \",\"color\":\"dark_gray\"},{\"text\":\"This skin is swappable between \",\"color\":\"gray\"},{\"text\":\"10\",\"color\":\"green\"}]}",
+    "{\"text\":\"evil variants.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"▶ \",\"color\":\"dark_gray\"},{\"text\":\"Keeps track of the total \",\"color\":\"gray\"},{\"text\":\"Dungeon\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Score \",\"color\":\"red\"},{\"text\":\"earned while wearing this skin.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"ULTIMATE COSMETIC\",\"color\":\"dark_red\",\"bold\":true}"
   ],
   "internalname": "CORRUPT_WITHER_GOGGLES",
   "clickcommand": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Corrupt_Wither_Goggles_Helmet_Skin",
     "https://wiki.hypixel.net/Corrupt_Wither_Goggles_Helmet_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

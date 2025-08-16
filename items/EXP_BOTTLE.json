@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:experience_bottle",
-  "displayname": "§fExperience Bottle",
-  "nbttag": "{ExtraAttributes:{id:\"EXP_BOTTLE\"},HideFlags:254,ItemModel:\"minecraft:experience_bottle\",display:{Lore:[0:\"§7Smash it open to receive experience!\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fExperience Bottle\"},ench:[]}",
+  "displayname": "{\"text\":\"Experience Bottle\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:experience_bottle\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Experience Bottle\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Smash it open to receive experience!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EXP_BOTTLE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Smash it open to receive experience!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Smash it open to receive experience!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "EXP_BOTTLE",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C2": "INK_SACK-4:1",
     "C3": "INK_SACK-4:1"
   },
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

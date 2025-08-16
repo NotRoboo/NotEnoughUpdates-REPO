@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5Scorpion Bow",
-  "nbttag": "{ExtraAttributes:{id:\"SCORPION_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+110\",1:\"§7Strength: §c+10\",2:\"\",3:\"§6Ability: Stinger \",4:\"§8Fully charged shots while sneaking\",5:\"§7Slows the victim and deal §c35x §7your\",6:\"§cStrength ❁ §7as damage per second\",7:\"§7for §a6s§7.\",8:\"§8Mana Cost: §3150\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4☠ §cRequires §5Spider Slayer 3§c.\",12:\"§5§lEPIC BOW\"],Name:\"§5Scorpion Bow\"}}",
+  "displayname": "{\"text\":\"Scorpion Bow\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Scorpion Bow\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+110\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Stinger \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Fully charged shots while sneaking\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Slows the victim and deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"35x \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"your\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength ❁ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"as damage per second\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"6s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"150\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Spider Slayer 3\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC BOW\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SCORPION_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+110",
-    "§7Strength: §c+10",
-    "",
-    "§6Ability: Stinger ",
-    "§8Fully charged shots while sneaking",
-    "§7Slows the victim and deal §c35x §7your",
-    "§cStrength ❁ §7as damage per second",
-    "§7for §a6s§7.",
-    "§8Mana Cost: §3150",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Spider Slayer 3§c.",
-    "§5§lEPIC BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+110\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Stinger \",\"color\":\"gold\"}",
+    "{\"text\":\"Fully charged shots while sneaking\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Slows the victim and deal \",\"color\":\"gray\"},{\"text\":\"35x \",\"color\":\"red\"},{\"text\":\"your\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength ❁ \",\"color\":\"red\"},{\"text\":\"as damage per second\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"6s\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"150\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Spider Slayer 3\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC BOW\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SCORPION_BOW",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
     "C2": "ENCHANTED_EMERALD:32",
     "C3": "TARANTULA_SILK:16"
   },
-  "slayer_req": "SPIDER_3"
+  "slayer_req": "SPIDER_3",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

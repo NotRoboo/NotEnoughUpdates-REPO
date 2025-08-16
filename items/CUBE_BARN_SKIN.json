@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:wool",
-  "displayname": "§aCube Barn Skin",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Consume this item to unlock the §aCube\",1:\"§aBarn Skin §7on §aThe Garden§7!\",2:\"\",3:\"§eClick to consume!\",4:\"\",5:\"§a§lUNCOMMON COSMETIC\"],Name:\"§aCube Barn Skin\"},ExtraAttributes:{id:\"CUBE_BARN_SKIN\"}}",
-  "damage": 14,
+  "itemid": "minecraft:red_wool",
+  "displayname": "{\"text\":\"Cube Barn Skin\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:red_wool\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cube Barn Skin\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consume this item to unlock the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Cube\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Barn Skin \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON COSMETIC\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CUBE_BARN_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7Consume this item to unlock the §aCube",
-    "§aBarn Skin §7on §aThe Garden§7!",
-    "",
-    "§eClick to consume!",
-    "",
-    "§a§lUNCOMMON COSMETIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consume this item to unlock the \",\"color\":\"gray\"},{\"text\":\"Cube\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Barn Skin \",\"color\":\"green\"},{\"text\":\"on \",\"color\":\"gray\"},{\"text\":\"The Garden\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON COSMETIC\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CUBE_BARN_SKIN",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cube_Barn_Skin",
     "https://wiki.hypixel.net/Cube_Barn_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

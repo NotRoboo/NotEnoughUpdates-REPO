@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§5Speedster Chestplate",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+120\",1:\"§7Speed: §a+15\",2:\"\",3:\"§6Full Set Bonus: Bonus Speed\",4:\"§7Increases §f✦ Speed §7by\",5:\"§7§a+20§7.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§5§lEPIC CHESTPLATE\"],color:14744823,Name:\"§5Speedster Chestplate\"},ExtraAttributes:{color:\"224:252:247\",id:\"SPEEDSTER_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Speedster Chestplate\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Speedster Chestplate\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Bonus Speed\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✦ Speed \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"by\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"224:252:247\",\"id\":\"SPEEDSTER_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+120",
-    "§7Speed: §a+15",
-    "",
-    "§6Full Set Bonus: Bonus Speed",
-    "§7Increases §f✦ Speed §7by",
-    "§7§a+20§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§5§lEPIC CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+120\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Bonus Speed\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases \",\"color\":\"gray\"},{\"text\":\"✦ Speed \",\"color\":\"white\"},{\"text\":\"by\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+20\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "ENCHANTED_SUGAR_CANE:1",
@@ -33,5 +33,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Speedster_Chestplate",
     "https://wiki.hypixel.net/Speedster_Chestplate"
   ],
-  "crafttext": "Requires: Sugar Cane IX"
+  "crafttext": "Requires: Sugar Cane IX",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

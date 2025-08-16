@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Berserker Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"BERSERKER_HELMET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"92c8df7e-054f-36cc-915a-52324cc1084a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"jUb0DiARQKQau0GbrX1ZS/VYwn7leYkeynWigQMO0jaTaEWYyv2jKo41mhNKIWptdWERfbighjtadVR3dmWMXwbleIJth5+gUkacjDJ0VCQrGn32QX0Aef1e3lxp5PUXw+BHOYdjLHQzbfMs6PAeCYyfHJ9eNGk2YMBVeiIfjC15Z+ckcejE3ZGGuxl873K+h5yytvXOqzhNmK8OUz0rRPC93iejCgN7qHIj6ZVDAhcg2OFL35SmFcCMBrFfs5MRFHcQntzlArKzQH4iWx2EL2lcZL22xW6fMn96qRj7ngVbF9er4j5uwVkDHGzyBplvHjLDAz9aIkrpk99qOjOPF1bHvr0fuDheoDUqn8rrrkkIMos4rWmLjkLel8V72RHyKlJQDDgkUa77/h1SkIxBRCcH8uqwdCn8IyqapPFZ6ZYnB0OL/dYB+mFBeQisSAiOGZxc37G5Ij6Xsz7swjeLrVBKoc2M6qXhjFQ3r3UiSnn6MLL7C/Ne0A7JvCgm2OCqKCBj9r7EWtn0UTaKZHSZCQlaAmtqfLw7EFol1ykmDVWSGG/dS6OwuT1YuInHVUecOoTBBucL5CpG2I4l6RMU4S4OEghr5cBl303pUjkYUIbWzfbJRiVwQ1G7lN+1xee9kOhkgggc/JEUtj6BNI3m75BDW/BNM2xTS6/vkiq7Wdo=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzQ1NDY5ODgwOCwKICAicHJvZmlsZUlkIiA6ICI1YjY2YzNkZWZhYTI0NWMzYTcwNjM3OTA3NTQ0Yjg3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFuX1JhaWNvMDgxNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZWFkM2I1MTA3N2VkYTNkZWE2Zjc2ZjE4YjdlZjA4OWUyODllODdjMDAyYTZjOGY5MmU2YTM0MGY5YWU4NGE0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Strength: §c+35\",1:\"§7Crit Damage: §c+35%\",2:\" §8[§7⚔§8]\",3:\"\",4:\"§8Tiered Bonus: Berserk (0/4)\",5:\"§7Reduces your health and defense by\",6:\"§7half and reduces the cost of\",7:\"§7health-consuming abilities by §c20%§7.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §aCombat Skill 22§c.\",11:\"§5§lEPIC HELMET\"],Name:\"§5Berserker Helmet\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Berserker Helmet\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Berserker Helmet\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"⚔\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Berserk (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Reduces your health and defense by\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"half and reduces the cost of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"health-consuming abilities by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC HELMET\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BERSERKER_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzQ1NDY5ODgwOCwKICAicHJvZmlsZUlkIiA6ICI1YjY2YzNkZWZhYTI0NWMzYTcwNjM3OTA3NTQ0Yjg3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFuX1JhaWNvMDgxNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZWFkM2I1MTA3N2VkYTNkZWE2Zjc2ZjE4YjdlZjA4OWUyODllODdjMDAyYTZjOGY5MmU2YTM0MGY5YWU4NGE0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Strength: §c+35",
-    "§7Crit Damage: §c+35%",
-    " §8[§7⚔§8]",
-    "",
-    "§8Tiered Bonus: Berserk (0/4)",
-    "§7Reduces your health and defense by",
-    "§7half and reduces the cost of",
-    "§7health-consuming abilities by §c20%§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
-    "§5§lEPIC HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+35\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+35%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"⚔\",\"color\":\"gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Berserk (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Reduces your health and defense by\",\"color\":\"gray\"}",
+    "{\"text\":\"half and reduces the cost of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"health-consuming abilities by \",\"color\":\"gray\"},{\"text\":\"20%\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC HELMET\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "BERSERKER_HELMET",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

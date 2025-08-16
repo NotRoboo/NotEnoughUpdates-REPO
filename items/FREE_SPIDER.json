@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Free Spider",
-  "nbttag": "{ExtraAttributes:{id:\"FREE_SPIDER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"89ccf97b-b28f-37cd-be08-6e206e845134\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MzY5NTQ1NTQ4MiwKICAicHJvZmlsZUlkIiA6ICIzZGRhMDc1ZTQ0Yzc0MmZhODE2YTNjNTNkY2RlMWQ3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJzbmFLQVkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFkMzBhZWUwZDI0MTJhNmY1MzYwOTBlMWJlNzRjNDA3MDMxYTg0MDliN2FhYjJhMWM3YmQ4ZjQ1N2EyMGY4ZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Free at last!\",1:\"\",2:\"§8§l* §8Soulbound §8§l*\",3:\"§5§lEPIC\"],Name:\"§5Free Spider\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Free Spider\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Free Spider\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Free at last!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FREE_SPIDER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY2MzY5NTQ1NTQ4MiwKICAicHJvZmlsZUlkIiA6ICIzZGRhMDc1ZTQ0Yzc0MmZhODE2YTNjNTNkY2RlMWQ3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJzbmFLQVkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFkMzBhZWUwZDI0MTJhNmY1MzYwOTBlMWJlNzRjNDA3MDMxYTg0MDliN2FhYjJhMWM3YmQ4ZjQ1N2EyMGY4ZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Free at last!",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§5§lEPIC"
+    "{\"text\":\"Free at last!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FREE_SPIDER",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Free_Spider",
     "https://wiki.hypixel.net/Free_Spider"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

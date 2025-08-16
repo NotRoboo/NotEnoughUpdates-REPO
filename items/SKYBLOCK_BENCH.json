@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fDark Oak Bench",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9fd64cf7-fbad-34f8-a231-581964b42e93\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjM3ODk3NDg4MDcsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1NDBiMzNhMjBkZDMwNjQ4N2YyM2E0ZGU1MzEzZjgxYjc3NTBhOWYzYWQ1NDllNTBkMmYwYTNmMDUyYTIyNzkifSwiQ0FQRSI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE1M2IxYTBkZmNiYWU5NTNjZGViNmYyYzJiZjZiZjc5OTQzMjM5YjEzNzI3ODBkYTQ0YmNiYjI5MjczMTMxZGEifX19\"}]}},display:{Lore:[0:\"§8Furniture\",1:\"§8Seats Two Players\",2:\"\",3:\"§7This stylized bench seats up to\",4:\"§7two players\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§fDark Oak Bench\"},ExtraAttributes:{id:\"SKYBLOCK_BENCH\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Dark Oak Bench\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dark Oak Bench\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Seats Two Players\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This stylized bench seats up to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"two players\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SKYBLOCK_BENCH\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "§8Seats Two Players",
-    "",
-    "§7This stylized bench seats up to",
-    "§7two players",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Seats Two Players\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This stylized bench seats up to\",\"color\":\"gray\"}",
+    "{\"text\":\"two players\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SKYBLOCK_BENCH",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dark_Oak_Bench",
     "https://wiki.hypixel.net/Dark_Oak_Bench"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

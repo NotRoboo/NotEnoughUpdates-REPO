@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:heavy_weighted_pressure_plate",
-  "displayname": "§aTrap",
-  "nbttag": "{ExtraAttributes:{id:\"DUNGEON_TRAP\"},HideFlags:254,ItemModel:\"minecraft:heavy_weighted_pressure_plate\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§7Place an explosive trap that\",3:\"§7triggers when mobs walk over it\",4:\"§7dealing §c20,000§7-§c250,000 §7damage\",5:\"§7based on the dungeon floor you are\",6:\"§7on.\",7:\"\",8:\"§cDungeons only!\",9:\"\",10:\"§a§lUNCOMMON DUNGEON ITEM\"],Name:\"§aTrap\"}}",
+  "displayname": "{\"text\":\"Trap\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:heavy_weighted_pressure_plate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Trap\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Place an explosive trap that\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"triggers when mobs walk over it\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"dealing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20,000\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"-\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"250,000 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"based on the dungeon floor you are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"on.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Dungeons only!\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON DUNGEON ITEM\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DUNGEON_TRAP\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "",
-    "§7Place an explosive trap that",
-    "§7triggers when mobs walk over it",
-    "§7dealing §c20,000§7-§c250,000 §7damage",
-    "§7based on the dungeon floor you are",
-    "§7on.",
-    "",
-    "§cDungeons only!",
-    "",
-    "§a§lUNCOMMON DUNGEON ITEM"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Place an explosive trap that\",\"color\":\"gray\"}",
+    "{\"text\":\"triggers when mobs walk over it\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"dealing \",\"color\":\"gray\"},{\"text\":\"20,000\",\"color\":\"red\"},{\"text\":\"-\",\"color\":\"gray\"},{\"text\":\"250,000 \",\"color\":\"red\"},{\"text\":\"damage\",\"color\":\"gray\"}]}",
+    "{\"text\":\"based on the dungeon floor you are\",\"color\":\"gray\"}",
+    "{\"text\":\"on.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Dungeons only!\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON DUNGEON ITEM\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DUNGEON_TRAP",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Trap",
     "https://wiki.hypixel.net/Trap"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

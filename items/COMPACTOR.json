@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:dropper",
-  "displayname": "§aCompactor",
-  "nbttag": "{ExtraAttributes:{id:\"COMPACTOR\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade. This will automatically turn\",2:\"§7materials that a minion produces into\",3:\"§7their block form.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aCompactor\"},ench:[]}",
+  "displayname": "{\"text\":\"Compactor\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:dropper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Compactor\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be used as a minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"upgrade. This will automatically turn\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"materials that a minion produces into\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"their block form.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COMPACTOR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7This item can be used as a minion",
-    "§7upgrade. This will automatically turn",
-    "§7materials that a minion produces into",
-    "§7their block form.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"This item can be used as a minion\",\"color\":\"gray\"}",
+    "{\"text\":\"upgrade. This will automatically turn\",\"color\":\"gray\"}",
+    "{\"text\":\"materials that a minion produces into\",\"color\":\"gray\"}",
+    "{\"text\":\"their block form.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "COMPACTOR",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C1": "ENCHANTED_COBBLESTONE:1",
     "C2": "ENCHANTED_REDSTONE:1",
     "C3": "ENCHANTED_COBBLESTONE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

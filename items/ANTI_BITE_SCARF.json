@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:carpet",
-  "displayname": "§6Anti-Bite Scarf",
-  "nbttag": "{ExtraAttributes:{id:\"ANTI_BITE_SCARF\"},HideFlags:254,ItemModel:\"minecraft:red_carpet\",display:{Lore:[0:\"§7Intelligence: §a+20\",1:\"\",2:\"§6Ability: Helmets All The Way Around \",3:\"§7Regain §a+2ф §7when killing a monster.\",4:\"\",5:\"§7If you would take §c❤ §7damage, take\",6:\"§c0.3❤ §7less.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4☠ §cRequires §5Vampire Slayer 1§c.\",10:\"§6§lLEGENDARY HELMET\"],Name:\"§6Anti-Bite Scarf\"}}",
-  "damage": 14,
+  "displayname": "{\"text\":\"Anti-Bite Scarf\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:carpet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Anti-Bite Scarf\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Helmets All The Way Around \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2ф \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"when killing a monster.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"If you would take \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage, take\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"0.3❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"less.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Vampire Slayer 1\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY HELMET\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ANTI_BITE_SCARF\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Intelligence: §a+20",
-    "",
-    "§6Ability: Helmets All The Way Around ",
-    "§7Regain §a+2ф §7when killing a monster.",
-    "",
-    "§7If you would take §c❤ §7damage, take",
-    "§c0.3❤ §7less.",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Vampire Slayer 1§c.",
-    "§6§lLEGENDARY HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Helmets All The Way Around \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regain \",\"color\":\"gray\"},{\"text\":\"+2ф \",\"color\":\"green\"},{\"text\":\"when killing a monster.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"If you would take \",\"color\":\"gray\"},{\"text\":\"❤ \",\"color\":\"red\"},{\"text\":\"damage, take\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"0.3❤ \",\"color\":\"red\"},{\"text\":\"less.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Vampire Slayer 1\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY HELMET\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "ANTI_BITE_SCARF",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C1": "COVEN_SEAL:8",
     "C2": "DETRANSFIGURED_MASK:1",
     "C3": "COVEN_SEAL:8"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

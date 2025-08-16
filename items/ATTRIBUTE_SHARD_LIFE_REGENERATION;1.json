@@ -1,24 +1,27 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Shinyfish Shard",
-  "nbttag": "{ExtraAttributes:{attributes:{life_regeneration:1},id:\"ATTRIBUTE_SHARD_LIFE_REGENERATION;1\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"200b2180-ae99-352a-97e7-c38144477aa5\",Properties:{textures:[0:{Name:\"textures\",Signature:\"XITGyWcj25VNgTapClBnyzJqbfle0ynteNXGaIOQXa4Yd/njlbVafZQ1WhzWMTfBc7fMVZoyAk/SkTGXgKtp21d7E488GQ9KrbiAqb44YSOaQpdaG/AcWdZCCa+G9nEmZtuQ7umh7oBFKR1+yFLhPjeoGvDC0tCCImnTzNIG6ojnEuAcI1HZ5UVm2uJs7cdmvsFCqgA6dr8cIonIAzQ7Obk77YQK+tNFtzVbysbhLx/irxn3zPpB3Iz0Tvrimky600eSlCbcSjPHR/uUh5ugiqMIUNxIKLl6DlqlmscF8NPig8j12ec6LqfplmkdkdfP6kdr3YcT2turZpvEdafkM29mHHjrzhiovjNbScaZedrNz55kXjsDuZNihcIrU2af/Yd0OB0wH4q7NBGH/Gmr4pN3eq+V2raLts/bdE5Oz+VcqiYNvHymopFyHxHQdpV0U1wqVAFkn98YBGjn8rIJzcp3m7qP1xPy6dEGR6RuwZL1OWQXGfLlltfltwM9+dORWKFvew9dfwKg/5Ev4o1jecl3lar+SXKd89cG/audhd0K8NLb/aTIdFxOp+HFuAtf7kg84aYoCujIOebH7QzkVzQUYLSdMdMoHvN2CfSGQ9vE6ooD1xx3YqBQeH/o94TpJ6HEhx7cw3lBQvNqAzH3z/FluTlju5cPZ8psEE+wmaQ=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyNjUxMDU5Mzg5NywKICAicHJvZmlsZUlkIiA6ICJjYzU2NjAzYmZiZjg0OGJmOTM3MzY1N2VjYzUyNGI4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpc2FhYWFhYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZjNDY4NDE3MDAzMmEwMmE5NDA1MWRkMTMwMTIwYmMzODNkMjNkOGQyOWQ1NTYxZWE5YzBkMzc1YmQzZTkyIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§6Help From Above I\",1:\"§7Grants §c+1.25 ❣ Health Regen§7.\",2:\"\",3:\"§7You can Syphon this shard from\",4:\"§7your §aHunting Box§7.\",5:\"\",6:\"§eRight-click to send to Hunting Box!\",7:\"§eShift Right-click to move all!\",8:\"\",9:\"§6§lLEGENDARY WATER SHARD §8(ID L23)\"],Name:\"§6Shinyfish Shard\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Shinyfish Shard\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shinyfish Shard\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Help From Above I\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1.25 ❣ Health Regen\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You can Syphon this shard from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Hunting Box\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to send to Hunting Box!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"Shift Right-click to move all!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"LEGENDARY WATER SHARD \\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"(ID L23)\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\"],\"minecraft:custom_data\":{\"attributes\":\"{life_regeneration:1\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcyNjUxMDU5Mzg5NywKICAicHJvZmlsZUlkIiA6ICJjYzU2NjAzYmZiZjg0OGJmOTM3MzY1N2VjYzUyNGI4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpc2FhYWFhYV8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZjNDY4NDE3MDAzMmEwMmE5NDA1MWRkMTMwMTIwYmMzODNkMjNkOGQyOWQ1NTYxZWE5YzBkMzc1YmQzZTkyIgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§6Help From Above I",
-    "§7Grants §c+1.25 ❣ Health Regen§7.",
-    "",
-    "§7You can Syphon this shard from",
-    "§7your §aHunting Box§7.",
-    "",
-    "§eRight-click to send to Hunting Box!",
-    "§eShift Right-click to move all!",
-    "",
-    "§6§lLEGENDARY WATER SHARD §8(ID L23)"
+    "{\"text\":\"Help From Above I\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+1.25 ❣ Health Regen\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You can Syphon this shard from\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your \",\"color\":\"gray\"},{\"text\":\"Hunting Box\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to send to Hunting Box!\",\"color\":\"yellow\"}",
+    "{\"text\":\"Shift Right-click to move all!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"LEGENDARY WATER SHARD \",\"color\":\"gold\",\"bold\":true},{\"text\":\"(ID L23)\",\"color\":\"dark_gray\"}]}"
   ],
   "internalname": "ATTRIBUTE_SHARD_LIFE_REGENERATION;1",
   "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "",
-  "info": []
+  "info": [],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

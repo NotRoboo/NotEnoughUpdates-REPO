@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:stonebrick",
-  "displayname": "§fChiseled Stone Bricks",
-  "nbttag": "{ExtraAttributes:{id:\"SMOOTH_BRICK-3\"},HideFlags:254,ItemModel:\"minecraft:chiseled_stone_bricks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fChiseled Stone Bricks\"}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Chiseled Stone Bricks\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stonebrick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chiseled Stone Bricks\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SMOOTH_BRICK-3\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SMOOTH_BRICK-3",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

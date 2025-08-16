@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:leather_helmet",
-  "displayname": "§5Zombie Soldier Helmet",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d112\",1:\"§7Health: §a+21\",2:\"§7Defense: §a+43\",3:\"\",4:\"§6Full Set Bonus: §cShoal\",5:\"§7Gain §a+30❈ Defense §7for each\",6:\"§7§cZombie Soldier Set §7within\",7:\"§7§a30 §7blocks.\",8:\"\",9:\"§2This armor piece is undead ༕!\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§7§4❣ §cRequires §cCatacombs Skill\",13:\"§c9§c.\",14:\"§5§lEPIC DUNGEON HELMET\"],color:13664000,Name:\"§5Zombie Soldier Helmet\"},ExtraAttributes:{dungeon_item_level:0,id:\"ZOMBIE_SOLDIER_HELMET\"}}",
+  "displayname": "{\"text\":\"Zombie Soldier Helmet\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie Soldier Helmet\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"112\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+21\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+43\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"Shoal\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30❈ Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"for each\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Zombie Soldier Set \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"within\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"30 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"blocks.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This armor piece is undead ༕!\\\",\\\"color\\\":\\\"dark_green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Catacombs Skill\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"9\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON HELMET\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"dungeon_item_level\":0,\"id\":\"ZOMBIE_SOLDIER_HELMET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d112",
-    "§7Health: §a+21",
-    "§7Defense: §a+43",
-    "",
-    "§6Full Set Bonus: §cShoal",
-    "§7Gain §a+30❈ Defense §7for each",
-    "§7§cZombie Soldier Set §7within",
-    "§7§a30 §7blocks.",
-    "",
-    "§2This armor piece is undead ༕!",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §cCatacombs Skill",
-    "§c9§c.",
-    "§5§lEPIC DUNGEON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"112\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+21\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+43\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: \",\"color\":\"gold\"},{\"text\":\"Shoal\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+30❈ Defense \",\"color\":\"green\"},{\"text\":\"for each\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Zombie Soldier Set \",\"color\":\"red\"},{\"text\":\"within\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"30 \",\"color\":\"green\"},{\"text\":\"blocks.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This armor piece is undead ༕!\",\"color\":\"dark_green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Catacombs Skill\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"9\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON HELMET\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ZOMBIE_SOLDIER_HELMET",
   "crafttext": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Zombie_Soldier_Helmet",
     "https://wiki.hypixel.net/Zombie_Soldier_Helmet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

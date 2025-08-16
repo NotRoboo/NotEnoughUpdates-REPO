@@ -1,25 +1,25 @@
 {
   "itemid": "minecraft:golden_axe",
-  "displayname": "§6Pumpkin Dicer 3.0",
-  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_DICER_3\"},HideFlags:254,ItemModel:\"minecraft:golden_axe\",Unbreakable:1B,display:{Lore:[0:\" §8[☘] [☘] [☘]\",1:\"\",2:\"§7Gain §3+10☯ Farming Wisdom §7while\",3:\"§7harvesting pumpkins.\",4:\"\",5:\"§6Ability: Roll em'++ \",6:\"§7Every pumpkin you break, you\",7:\"§7make a wish to §dRNGesus §7which may\",8:\"§7grant you with a few or TONS of\",9:\"§7extra pumpkins!\",10:\"\",11:\"§7§o\\\"3.0 is better than the 2.0 version\\\" -\",12:\"§7§oCEO of PumpkinDicer LLC.\",13:\"\",14:\"§8This item can be reforged!\",15:\"§6§lLEGENDARY AXE\"],Name:\"§6Pumpkin Dicer 3.0\"}}",
+  "displayname": "{\"text\":\"Pumpkin Dicer 3.0\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pumpkin Dicer 3.0\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[☘] [☘] [☘]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10☯ Farming Wisdom \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"while\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"harvesting pumpkins.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Roll em\u0027++ \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Every pumpkin you break, you\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"make a wish to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"RNGesus \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"which may\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"grant you with a few or TONS of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"extra pumpkins!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\\\\\"3.0 is better than the 2.0 version\\\\\\\" -\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"CEO of PumpkinDicer LLC.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY AXE\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PUMPKIN_DICER_3\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    " §8[☘] [☘] [☘]",
-    "",
-    "§7Gain §3+10☯ Farming Wisdom §7while",
-    "§7harvesting pumpkins.",
-    "",
-    "§6Ability: Roll em'++ ",
-    "§7Every pumpkin you break, you",
-    "§7make a wish to §dRNGesus §7which may",
-    "§7grant you with a few or TONS of",
-    "§7extra pumpkins!",
-    "",
-    "§7§o\"3.0 is better than the 2.0 version\" -",
-    "§7§oCEO of PumpkinDicer LLC.",
-    "",
-    "§8This item can be reforged!",
-    "§6§lLEGENDARY AXE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[☘] [☘] [☘]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+10☯ Farming Wisdom \",\"color\":\"dark_aqua\"},{\"text\":\"while\",\"color\":\"gray\"}]}",
+    "{\"text\":\"harvesting pumpkins.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Roll em\u0027++ \",\"color\":\"gold\"}",
+    "{\"text\":\"Every pumpkin you break, you\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"make a wish to \",\"color\":\"gray\"},{\"text\":\"RNGesus \",\"color\":\"light_purple\"},{\"text\":\"which may\",\"color\":\"gray\"}]}",
+    "{\"text\":\"grant you with a few or TONS of\",\"color\":\"gray\"}",
+    "{\"text\":\"extra pumpkins!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\\\"3.0 is better than the 2.0 version\\\" -\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"CEO of PumpkinDicer LLC.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"LEGENDARY AXE\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "PUMPKIN_DICER_3",
   "clickcommand": "viewrecipe",
@@ -40,5 +40,8 @@
     "C1": "POLISHED_PUMPKIN:4",
     "C2": "POLISHED_PUMPKIN:4",
     "C3": "POLISHED_PUMPKIN:4"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

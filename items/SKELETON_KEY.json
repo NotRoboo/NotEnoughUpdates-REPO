@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:tripwire_hook",
-  "displayname": "§6Skeleton Key",
-  "nbttag": "{ExtraAttributes:{id:\"SKELETON_KEY\"},HideFlags:254,ItemModel:\"minecraft:tripwire_hook\",display:{Lore:[0:\"§7Can be used to open backpacks with\",1:\"§7a Skeleton lock held by §bFrozen\",2:\"§bCorpses §7in the §bGlacite Mineshafts§7.\",3:\"\",4:\"§8Forged by the finest Dwarven\",5:\"§8Blacksmith around. The name would\",6:\"§8come to be quite ironic.\",7:\"\",8:\"§6§lLEGENDARY\"],Name:\"§6Skeleton Key\"}}",
+  "displayname": "{\"text\":\"Skeleton Key\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:tripwire_hook\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Skeleton Key\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Can be used to open backpacks with\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a Skeleton lock held by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Frozen\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Corpses \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Glacite Mineshafts\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Forged by the finest Dwarven\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Blacksmith around. The name would\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"come to be quite ironic.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SKELETON_KEY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Can be used to open backpacks with",
-    "§7a Skeleton lock held by §bFrozen",
-    "§bCorpses §7in the §bGlacite Mineshafts§7.",
-    "",
-    "§8Forged by the finest Dwarven",
-    "§8Blacksmith around. The name would",
-    "§8come to be quite ironic.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Can be used to open backpacks with\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a Skeleton lock held by \",\"color\":\"gray\"},{\"text\":\"Frozen\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Corpses \",\"color\":\"aqua\"},{\"text\":\"in the \",\"color\":\"gray\"},{\"text\":\"Glacite Mineshafts\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Forged by the finest Dwarven\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Blacksmith around. The name would\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"come to be quite ironic.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "SKELETON_KEY",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
       "overrideOutputId": "SKELETON_KEY",
       "duration": 1800
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

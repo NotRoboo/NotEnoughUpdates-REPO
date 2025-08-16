@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§5Healing VIII Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:6b,Amplifier:7b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§cHealing VIII\",2:\"§7Instantly heals for §a+500§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Healing VIII Potion\"},ExtraAttributes:{potion_level:8,potion:\"healing\",effects:[0:{level:8,effect:\"healing\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_HEALING;8\"}}",
-  "damage": 5,
+  "displayname": "{\"text\":\"Healing VIII Potion\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Healing VIII Potion\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Healing VIII\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Instantly heals for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+500\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":8,\"potion\":\"healing\",\"effects\":\"[0:{level:8\",\"effect\":\"healing\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§cHealing VIII",
-    "§7Instantly heals for §a+500§7.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\"}",
+    "{\"text\":\"Healing VIII\",\"color\":\"red\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Instantly heals for \",\"color\":\"gray\"},{\"text\":\"+500\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "POTION_HEALING;8",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

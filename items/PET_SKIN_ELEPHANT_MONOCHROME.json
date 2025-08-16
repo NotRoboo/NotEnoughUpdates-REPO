@@ -1,25 +1,25 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Monochrome Elephant Skin",
-  "nbttag": "{ExtraAttributes:{id:\"PET_SKIN_ELEPHANT_MONOCHROME\",originTag:\"FIRE_SALE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8d8389cf-358f-322c-a693-13f445307aca\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ULOjk+QAZvz5Ah3JfyLuy7W43MnMjSIcFG/+yPNYhusM4Tl2GzpgtTFv+a5lNtII/5+1esFmZQaIlb5Bhgeh3bnPPD7M5VS1FyYDBdTi8a5gCDmSg1too39H+wQzq3hGO7mO8Y8fOKOs4pT+yBAcaus+NSsC7AgUCr7/jkIyPE0lmbPLCaF6rpWGxYukoc6pyOH490j8jSgszGh2O2ob7cv6J0TIpT0sztCNjEdStub2L90uLnGVbsLatnVPWYYrSQsYPrzevnrZ5hy7kUD6Pp/lImHeEa4iPybPYCRDj5rAvGM/Th2W56X0l5UlyWiIvUCJcU3segFVsb7x4tB7P4iCN+VR6NzzZEthIFk5EJLbrqhoMOONXSL2LGgqgtd8iLIdmgcQsQcs5jH1YoWohKZ3sKTSSoZx1skPn+fOd2dw3QQeH1fg8f/Dtn/Zseg6b2ywZyTMnovMTclMX8KfCD2XtxFX/DjWcGq111o3qE+7IpIs6ynJfLjXqKUvLvv/Pc9Kn6qlhjaPh13G5SYsY0uB0Rk9SmYzzqKyECGj7JzXG6aimKeoBdJctXeomqDkYNp8h8YCe/RLcVkv1LaRDMc/bw//YsOzKfoKUC15uOQxOfp0xfnE+GBnP6byVIkDoUXcugKmH9wbdq3PT5zMNpAP1dSOnJ2MPo70Sxv5KT4=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMTIyMDM3NywKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJkZjBmNjI4YzA1ZTg2Y2FiZGVlMmY1ODU4ZGQ1ZGVmN2Y4YjhkOTQwY2JmMjVmOTkzN2UyZmZiNTM0MzJmNCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7Pet skins change the look and\",3:\"§7particle trail of your pet but only\",4:\"§7one skin can be active at a time!\",5:\"\",6:\"§7This skin can only be applied to\",7:\"§7Elephant pets.\",8:\"\",9:\"§aThis skin adapts to the day-night\",10:\"§acycle!\",11:\"\",12:\"§eRight-click on your summoned pet to\",13:\"§eapply this skin!\",14:\"\",15:\"§5§lEPIC COSMETIC\"],Name:\"§5Monochrome Elephant Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Monochrome Elephant Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Monochrome Elephant Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Pet skins change the look and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"particle trail of your pet but only\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"one skin can be active at a time!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin can only be applied to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Elephant pets.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin adapts to the day-night\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"cycle!\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"apply this skin!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"FIRE_SALE\",\"id\":\"PET_SKIN_ELEPHANT_MONOCHROME\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMTIyMDM3NywKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJkZjBmNjI4YzA1ZTg2Y2FiZGVlMmY1ODU4ZGQ1ZGVmN2Y4YjhkOTQwY2JmMjVmOTkzN2UyZmZiNTM0MzJmNCIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Consumed on use",
-    "",
-    "§7Pet skins change the look and",
-    "§7particle trail of your pet but only",
-    "§7one skin can be active at a time!",
-    "",
-    "§7This skin can only be applied to",
-    "§7Elephant pets.",
-    "",
-    "§aThis skin adapts to the day-night",
-    "§acycle!",
-    "",
-    "§eRight-click on your summoned pet to",
-    "§eapply this skin!",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Consumed on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Pet skins change the look and\",\"color\":\"gray\"}",
+    "{\"text\":\"particle trail of your pet but only\",\"color\":\"gray\"}",
+    "{\"text\":\"one skin can be active at a time!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin can only be applied to\",\"color\":\"gray\"}",
+    "{\"text\":\"Elephant pets.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin adapts to the day-night\",\"color\":\"green\"}",
+    "{\"text\":\"cycle!\",\"color\":\"green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"apply this skin!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PET_SKIN_ELEPHANT_MONOCHROME",
   "clickcommand": "",
@@ -29,5 +29,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pet_Skins",
     "https://wiki.hypixel.net/Pet_Skins"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

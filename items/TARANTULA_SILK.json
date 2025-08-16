@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:web",
-  "displayname": "§9Tarantula Silk",
-  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_SILK\"},HideFlags:254,ItemModel:\"minecraft:cobweb\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Tarantula Silk\"},ench:[]}",
+  "displayname": "{\"text\":\"Tarantula Silk\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:web\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tarantula Silk\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TARANTULA_SILK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "TARANTULA_SILK",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C2": "TARANTULA_WEB:32",
     "C3": ""
   },
-  "slayer_req": "SPIDER_2"
+  "slayer_req": "SPIDER_2",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

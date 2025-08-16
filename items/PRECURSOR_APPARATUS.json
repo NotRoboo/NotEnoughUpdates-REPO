@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Precursor Apparatus",
-  "nbttag": "{ExtraAttributes:{id:\"PRECURSOR_APPARATUS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"3d76a94b-7bab-3e2d-898d-59d02bde8012\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ccAps5hTWVAZJfbXw3NtPv+pklgUczdsWjnnefkhAOGBKzV3SwWkxx5uYDHAr3TnQbLqurXfJqd+CqR6UwL2bSrN9ks7TjX6wCDAZMmtRUfA8oKL4Xhiu9fmRYLAP+J+hR3S8MzyT6SpgflPmE4hipGz/vSUY5iqSQk46m2Nmr4t/88PB23M0z269f7RWNt5m9rKRrw6kv04HD/lMgwWZe5Fk4SlL3iQ69C/+eOR7qqQlJAheSAZ1foJVyaHH3MHK2r9zZJ0QuWx3BS1MxxRed1llcwDuebWGmcM8+hygeM3llHJ8Pzp04OO2iDtIZBFlCS8rIW6ORAnWK05/J/0kusC72GHtRENv4kXUbcqtBlbG4sjZUu8vis6RGGL2rylBcT6wAfXhgLsnbilbB5aHOi0c6vSHt25awuMzVvAPs+XAkFMubzUHJ2Q+kW/lymcrkDuP8sjXLP2eN/VwMHQGcXb/L7JxH/Mmr5bRn6315yYUCjJ4uZBR5zank1Roso0ahy4SK81CuPHN+w0hvgV2NWfdgstFMpqZdAgkttg2CapQC1jnriSEkz1OGQCjxBKu/6LyXN9IBWp4V/TgM9YQ6e+7NRqWbSDD2TGj2FTLblOVdWkl5w2K2Ef3Cp8czwxyPIP49Ii4+Vb+nsSz1BuxB85ogxJh1LUdu0bkuyiSco=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NzI3NDE4NDc4NjcsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgxZTcwZDM5MzU3MDFmYTBlMTI5YmI2YWEwNjU2MTY1MzEwMTNjY2Q5YjZlMDBhY2VjNTcwYWVlYTNlZjUwNTIifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Can be given to §9Professor Robot §7to\",1:\"§7complete the §bSapphire Crystal Quest§7.\",2:\"\",3:\"§8This decaying piece of machinery\",4:\"§8was once a part of a large robot\",5:\"§8known as Automaton Prime. There's\",6:\"§8still a lot of good stuff in here.\",7:\"\",8:\"§5§lEPIC\"],Name:\"§5Precursor Apparatus\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Precursor Apparatus\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Precursor Apparatus\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be given to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Professor Robot \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"complete the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sapphire Crystal Quest\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This decaying piece of machinery\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"was once a part of a large robot\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"known as Automaton Prime. There\u0027s\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"still a lot of good stuff in here.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PRECURSOR_APPARATUS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NzI3NDE4NDc4NjcsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgxZTcwZDM5MzU3MDFmYTBlMTI5YmI2YWEwNjU2MTY1MzEwMTNjY2Q5YjZlMDBhY2VjNTcwYWVlYTNlZjUwNTIifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Can be given to §9Professor Robot §7to",
-    "§7complete the §bSapphire Crystal Quest§7.",
-    "",
-    "§8This decaying piece of machinery",
-    "§8was once a part of a large robot",
-    "§8known as Automaton Prime. There's",
-    "§8still a lot of good stuff in here.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be given to \",\"color\":\"gray\"},{\"text\":\"Professor Robot \",\"color\":\"blue\"},{\"text\":\"to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"complete the \",\"color\":\"gray\"},{\"text\":\"Sapphire Crystal Quest\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This decaying piece of machinery\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"was once a part of a large robot\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"known as Automaton Prime. There\u0027s\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"still a lot of good stuff in here.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PRECURSOR_APPARATUS",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

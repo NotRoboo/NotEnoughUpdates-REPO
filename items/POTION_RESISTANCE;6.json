@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§9Resistance VI Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:19b,Amplifier:5b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§aResistance VI §f(3:00)\",2:\"§7Increases §a❈ Defense §7by §a+40§7.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Resistance VI Potion\"},ExtraAttributes:{potion_level:6,potion:\"resistance\",effects:[0:{level:6,effect:\"resistance\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_RESISTANCE;6\"}}",
-  "damage": 4,
+  "displayname": "{\"text\":\"Resistance VI Potion\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Resistance VI Potion\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resistance VI \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❈ Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":6,\"potion\":\"resistance\",\"effects\":\"[0:{level:6\",\"effect\":\"resistance\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§aResistance VI §f(3:00)",
-    "§7Increases §a❈ Defense §7by §a+40§7.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resistance VI \",\"color\":\"green\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases \",\"color\":\"gray\"},{\"text\":\"❈ Defense \",\"color\":\"green\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "POTION_RESISTANCE;6",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

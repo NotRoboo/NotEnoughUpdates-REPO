@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§aSpeedster Rod",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+30\",1:\"§7Strength: §c+15\",2:\"§7Fishing Speed: §a+45\",3:\"\",4:\"§7§cThis rod is broken and cannot be\",5:\"§cused to fish.\",6:\"\",7:\"§7Bring it to §2Roddy §7in the §2Backwater\",8:\"§2Bayou §7to convert it into a §anew rod§7!\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aFishing Skill 6§c.\",12:\"§a§lUNCOMMON FISHING ROD\"],Name:\"§aSpeedster Rod\"},ExtraAttributes:{id:\"SPEEDSTER_ROD\"}}",
+  "displayname": "{\"text\":\"Speedster Rod\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:fishing_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Speedster Rod\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fishing Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+45\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This rod is broken and cannot be\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"used to fish.\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring it to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Roddy \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Backwater\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bayou \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"to convert it into a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"new rod\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Fishing Skill 6\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON FISHING ROD\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPEEDSTER_ROD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+30",
-    "§7Strength: §c+15",
-    "§7Fishing Speed: §a+45",
-    "",
-    "§7§cThis rod is broken and cannot be",
-    "§cused to fish.",
-    "",
-    "§7Bring it to §2Roddy §7in the §2Backwater",
-    "§2Bayou §7to convert it into a §anew rod§7!",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 6§c.",
-    "§a§lUNCOMMON FISHING ROD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fishing Speed: \",\"color\":\"gray\"},{\"text\":\"+45\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This rod is broken and cannot be\",\"color\":\"red\"}",
+    "{\"text\":\"used to fish.\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring it to \",\"color\":\"gray\"},{\"text\":\"Roddy \",\"color\":\"dark_green\"},{\"text\":\"in the \",\"color\":\"gray\"},{\"text\":\"Backwater\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bayou \",\"color\":\"dark_green\"},{\"text\":\"to convert it into a \",\"color\":\"gray\"},{\"text\":\"new rod\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Fishing Skill 6\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON FISHING ROD\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SPEEDSTER_ROD",
   "clickcommand": "",
@@ -26,5 +26,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Speedster_Rod",
     "https://wiki.hypixel.net/Speedster_Rod"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

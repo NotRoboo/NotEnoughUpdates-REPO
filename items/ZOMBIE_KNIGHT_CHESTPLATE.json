@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:golden_chestplate",
-  "displayname": "§5Zombie Knight Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_KNIGHT_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:golden_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d222\",1:\"§7Strength: §c+20\",2:\"§7Defense: §a+96\",3:\"§7Speed: §a+5\",4:\"\",5:\"§6Full Set Bonus: Zombie Knight §7(0/4)\",6:\"§7Gains §a+50❈ Defense §7when used with\",7:\"§7the Zombie Knight Sword\",8:\"\",9:\"§2This item is Undead ༕!\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4❣ §cRequires Catacombs Skill 14.\",13:\"§5§lEPIC DUNGEON CHESTPLATE\"],Name:\"§5Zombie Knight Chestplate\"}}",
+  "displayname": "{\"text\":\"Zombie Knight Chestplate\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie Knight Chestplate\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"222\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+96\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Zombie Knight \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gains \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50❈ Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"when used with\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"the Zombie Knight Sword\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item is Undead ༕!\\\",\\\"color\\\":\\\"dark_green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 14.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ZOMBIE_KNIGHT_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d222",
-    "§7Strength: §c+20",
-    "§7Defense: §a+96",
-    "§7Speed: §a+5",
-    "",
-    "§6Full Set Bonus: Zombie Knight §7(0/4)",
-    "§7Gains §a+50❈ Defense §7when used with",
-    "§7the Zombie Knight Sword",
-    "",
-    "§2This item is Undead ༕!",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Catacombs Skill 14.",
-    "§5§lEPIC DUNGEON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"222\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+96\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Zombie Knight \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gains \",\"color\":\"gray\"},{\"text\":\"+50❈ Defense \",\"color\":\"green\"},{\"text\":\"when used with\",\"color\":\"gray\"}]}",
+    "{\"text\":\"the Zombie Knight Sword\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item is Undead ༕!\",\"color\":\"dark_green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 14.\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ZOMBIE_KNIGHT_CHESTPLATE",
   "clickcommand": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Zombie_Knight_Chestplate",
     "https://wiki.hypixel.net/Zombie_Knight_Chestplate"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

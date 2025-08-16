@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aRegeneration III Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:10b,Amplifier:2b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§4Regeneration III §f(0:45)\",2:\"§7Grants §c+15❣ Health Regen§7.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aRegeneration III Potion\"},ExtraAttributes:{potion_level:3,potion:\"regeneration\",effects:[0:{level:3,effect:\"regeneration\",duration_ticks:900}],potion_type:\"POTION\",id:\"POTION_REGENERATION;3\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Regeneration III Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Regeneration III Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regeneration III \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"(0:45)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15❣ Health Regen\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":3,\"potion\":\"regeneration\",\"effects\":\"[0:{level:3\",\"effect\":\"regeneration\",\"duration_ticks\":900},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§4Regeneration III §f(0:45)",
-    "§7Grants §c+15❣ Health Regen§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regeneration III \",\"color\":\"dark_red\"},{\"text\":\"(0:45)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+15❣ Health Regen\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_REGENERATION;3",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

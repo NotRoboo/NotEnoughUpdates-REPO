@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9◆ Lightning Rune I",
-  "nbttag": "{ExtraAttributes:{id:\"LIGHTNING_RUNE;1\",runes:{LIGHTNING:1}},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"16b34bc4-1f04-3ff2-8af4-7d2100940af0\",Properties:{textures:[0:{Name:\"textures\",Signature:\"c1IgBTf6Ff8iPgxF1SKP55wZj+kpf6SJShH3neDemTA8A0TpDiDe7VEXrhbKTjpPKIgne4jg1DGRH+seQKPbGUHPZ9LxmWV49ni7WN9voRY6CxiWyA1N/SN9bNyfPD33IPUxDSXHqHbYIiSCsFI3ThxdYaF3pOhM2+e5IeQNOGsbaCzuilyS+DSG5RTsGpiQGmefsAj6Mdu0NSWBnb4PnUm8mgQPRWs4tTsFgO/SrRtVHXyAqTj9rmiesCEime4SlmO5UHss51zFLNCDalW8ge74RyRzzPAQyxEPZIIWVeipttvfadJ9tLXvnWsHnp85VM/ifLZYc3Hov5A0M5ujU0uPrSPNMNefwg9iE7JJQ7WYWT0wRrNo+RkMJTEGre9QZlGkuQnU/Jm5IFNkUcyfKiOkiK9JJGwqp7jr36Hr/aZFYItscs0Fz2gCMOija5Er2akmk71bfsx657NErVOZTsULTIQjyBiT+3FJqNB+Y0xgwqnRkDvJuGw9WEbfJCx1pwJ5ejmYc/d/Svf6pfX0klXJddkc//VNTbHVjgubhkgTyWQFPf5InQXn6jz0FS0tG8bICD3e5Cgs60nJKfT0l0PIgT+cgCX2W9ObN2f9cN1xGTW5n46RJ//dC/32CT7tOEgi8ndFmfs0m3/zbaqRdb8MIS99Qzm7ns1GjTTfn/w=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwNDIwNjM1MCwKICAicHJvZmlsZUlkIiA6ICIzN2JhNjRkYzkxOTg0OGI4YjZhNDdiYTg0ZDgwNDM3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb3lLb3NhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I4NWJjZjdmODJkMzRkYjg5YTk1YWRkZjhlNTMyNTNlMmQ5NTU0YzZmZDJmMmUzOWUyNDM2MmQyNDNhMGNjZjciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Requires level 19\",1:\"§8Weapons\",2:\"\",3:\"§7Chance to strike lightning on the\",4:\"§7enemies you defeat!\",5:\"\",6:\"§7Apply this rune to weapons or fuse\",7:\"§7two together at the Runic Pedestal!\",8:\"\",9:\"§6§lLEGENDARY COSMETIC\"],Name:\"§9◆ Lightning Rune I\"},ench:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"◆ Lightning Rune I\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"◆ Lightning Rune I\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Requires level 19\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Weapons\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Chance to strike lightning on the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enemies you defeat!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Apply this rune to weapons or fuse\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"two together at the Runic Pedestal!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY COSMETIC\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"runes\":\"{LIGHTNING:1\",\"id\":\"LIGHTNING_RUNE;1\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwNDIwNjM1MCwKICAicHJvZmlsZUlkIiA6ICIzN2JhNjRkYzkxOTg0OGI4YjZhNDdiYTg0ZDgwNDM3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb3lLb3NhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I4NWJjZjdmODJkMzRkYjg5YTk1YWRkZjhlNTMyNTNlMmQ5NTU0YzZmZDJmMmUzOWUyNDM2MmQyNDNhMGNjZjciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Requires level 19",
-    "§8Weapons",
-    "",
-    "§7Chance to strike lightning on the",
-    "§7enemies you defeat!",
-    "",
-    "§7Apply this rune to weapons or fuse",
-    "§7two together at the Runic Pedestal!",
-    "",
-    "§6§lLEGENDARY COSMETIC"
+    "{\"text\":\"Requires level 19\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Weapons\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Chance to strike lightning on the\",\"color\":\"gray\"}",
+    "{\"text\":\"enemies you defeat!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Apply this rune to weapons or fuse\",\"color\":\"gray\"}",
+    "{\"text\":\"two together at the Runic Pedestal!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY COSMETIC\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "LIGHTNING_RUNE;1",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lightning_Rune",
     "https://wiki.hypixel.net/◆_Lightning_Rune_I"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

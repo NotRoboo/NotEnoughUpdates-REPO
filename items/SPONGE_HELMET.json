@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:sponge",
-  "displayname": "§5Sponge Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"SPONGE_HELMET\"},HideFlags:254,ItemModel:\"minecraft:sponge\",display:{Lore:[0:\"§7Sea Creature Chance: §c+2%\",1:\"§7Defense: §a+100\",2:\" §8[☂]\",3:\"\",4:\"§6Full Set Bonus: Absorb §7(0/4)\",5:\"§9Doubles§7 your §a❈ Defense§7 while in\",6:\"§7water.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §aFishing Skill 17§c.\",10:\"§5§lEPIC HELMET\"],Name:\"§5Sponge Helmet\"}}",
+  "displayname": "{\"text\":\"Sponge Helmet\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:sponge\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sponge Helmet\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[☂]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Absorb \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Doubles\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\" your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❈ Defense\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" while in\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"water.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Fishing Skill 17\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC HELMET\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPONGE_HELMET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Sea Creature Chance: §c+2%",
-    "§7Defense: §a+100",
-    " §8[☂]",
-    "",
-    "§6Full Set Bonus: Absorb §7(0/4)",
-    "§9Doubles§7 your §a❈ Defense§7 while in",
-    "§7water.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aFishing Skill 17§c.",
-    "§5§lEPIC HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+2%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[☂]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Absorb \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Doubles\",\"color\":\"blue\"},{\"text\":\" your \",\"color\":\"gray\"},{\"text\":\"❈ Defense\",\"color\":\"green\"},{\"text\":\" while in\",\"color\":\"gray\"}]}",
+    "{\"text\":\"water.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Fishing Skill 17\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC HELMET\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SPONGE_HELMET",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

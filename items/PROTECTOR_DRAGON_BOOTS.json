@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§6Protector Dragon Boots",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+60\",1:\"§7Defense: §a+115\",2:\" §8[§8❈§8]\",3:\"\",4:\"§6Full Set Bonus: Protective Blood §7(0/4)\",5:\"§7Increases the defense of each\",6:\"§7armor piece by §a+1%§7 §a❈ Defense§7 for\",7:\"§7each missing percent of HP.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§6§lLEGENDARY BOOTS\"],color:10065803,Name:\"§6Protector Dragon Boots\"},ExtraAttributes:{color:\"153:151:139\",id:\"PROTECTOR_DRAGON_BOOTS\"}}",
+  "displayname": "{\"text\":\"Protector Dragon Boots\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Protector Dragon Boots\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+115\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❈\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Protective Blood \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Increases the defense of each\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"armor piece by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❈ Defense\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"each missing percent of HP.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY BOOTS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"153:151:139\",\"id\":\"PROTECTOR_DRAGON_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+60",
-    "§7Defense: §a+115",
-    " §8[§8❈§8]",
-    "",
-    "§6Full Set Bonus: Protective Blood §7(0/4)",
-    "§7Increases the defense of each",
-    "§7armor piece by §a+1%§7 §a❈ Defense§7 for",
-    "§7each missing percent of HP.",
-    "",
-    "§7§8This item can be reforged!",
-    "§6§lLEGENDARY BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+60\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+115\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"❈\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Protective Blood \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Increases the defense of each\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"armor piece by \",\"color\":\"gray\"},{\"text\":\"+1%\",\"color\":\"green\"},{\"text\":\" \",\"color\":\"gray\"},{\"text\":\"❈ Defense\",\"color\":\"green\"},{\"text\":\" for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"each missing percent of HP.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"LEGENDARY BOOTS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "PROTECTOR_FRAGMENT:10",
@@ -35,5 +35,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Protector_Dragon_Boots",
     "https://wiki.hypixel.net/Protector_Dragon_Boots"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

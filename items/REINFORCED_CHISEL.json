@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:armor_stand",
-  "displayname": "§9Reinforced Chisel",
-  "nbttag": "{ExtraAttributes:{id:\"REINFORCED_CHISEL\"},HideFlags:254,ItemModel:\"minecraft:armor_stand\",display:{Lore:[0:\" §8[§7❥§8]\",1:\"\",2:\"§7Can be placed in the §6Fossil\",3:\"§6Excavator §7alongside a §9Suspicious\",4:\"§9Scrap §7to begin the excavation\",5:\"§7process!\",6:\"\",7:\"§7Charges: §e18\",8:\"\",9:\"§4❣ §cRequires §5Heart of the Mountain Tier 8§c.\",10:\"§9§lRARE CHISEL\"],Name:\"§9Reinforced Chisel\"}}",
+  "displayname": "{\"text\":\"Reinforced Chisel\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:armor_stand\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Reinforced Chisel\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❥\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be placed in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Fossil\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Excavator \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"alongside a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Suspicious\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Scrap \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"to begin the excavation\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"process!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Charges: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"18\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 8\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE CHISEL\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REINFORCED_CHISEL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    " §8[§7❥§8]",
-    "",
-    "§7Can be placed in the §6Fossil",
-    "§6Excavator §7alongside a §9Suspicious",
-    "§9Scrap §7to begin the excavation",
-    "§7process!",
-    "",
-    "§7Charges: §e18",
-    "",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 8§c.",
-    "§9§lRARE CHISEL"
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"❥\",\"color\":\"gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be placed in the \",\"color\":\"gray\"},{\"text\":\"Fossil\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Excavator \",\"color\":\"gold\"},{\"text\":\"alongside a \",\"color\":\"gray\"},{\"text\":\"Suspicious\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Scrap \",\"color\":\"blue\"},{\"text\":\"to begin the excavation\",\"color\":\"gray\"}]}",
+    "{\"text\":\"process!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Charges: \",\"color\":\"gray\"},{\"text\":\"18\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 8\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE CHISEL\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "REINFORCED_CHISEL",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
       "duration": 30,
       "overrideOutputId": "REINFORCED_CHISEL"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

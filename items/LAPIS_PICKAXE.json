@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:diamond_pickaxe",
-  "displayname": "§aLapis Pickaxe",
-  "nbttag": "{ExtraAttributes:{id:\"LAPIS_PICKAXE\"},HideFlags:254,ItemModel:\"minecraft:diamond_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 4\",1:\"\",2:\"§7Damage: §c+20\",3:\"§7Mining Speed: §a+200\",4:\"\",5:\"§7Grants a §a25% §7chance to gain double\",6:\"§7experience when mining ores.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§a§lUNCOMMON PICKAXE\"],Name:\"§aLapis Pickaxe\"}}",
+  "displayname": "{\"text\":\"Lapis Pickaxe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lapis Pickaxe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 4\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+200\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"25% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance to gain double\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"experience when mining ores.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON PICKAXE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LAPIS_PICKAXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 4",
-    "",
-    "§7Damage: §c+20",
-    "§7Mining Speed: §a+200",
-    "",
-    "§7Grants a §a25% §7chance to gain double",
-    "§7experience when mining ores.",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON PICKAXE"
+    "{\"text\":\"Breaking Power 4\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+200\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants a \",\"color\":\"gray\"},{\"text\":\"25% \",\"color\":\"green\"},{\"text\":\"chance to gain double\",\"color\":\"gray\"}]}",
+    "{\"text\":\"experience when mining ores.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON PICKAXE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "LAPIS_PICKAXE",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "INK_SACK-4:64",
     "C2": "INK_SACK-4:64",
     "C3": "INK_SACK-4:64"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

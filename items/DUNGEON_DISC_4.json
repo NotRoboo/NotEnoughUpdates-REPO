@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:record_11",
-  "displayname": "§f§f§6Old Disc",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Place this inside a jukebox to\",1:\"§7play a dungeon song!\",2:\"\",3:\"§6The Wither King\",4:\"  §7By ShinkoNet\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§f§f§6Old Disc\"},ExtraAttributes:{id:\"DUNGEON_DISC_4\"}}",
+  "displayname": "{\"text\":\"Old Disc\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:record_11\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Old Disc\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this inside a jukebox to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"play a dungeon song!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"The Wither King\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"By ShinkoNet\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DUNGEON_DISC_4\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Place this inside a jukebox to",
-    "§7play a dungeon song!",
-    "",
-    "§6The Wither King",
-    "  §7By ShinkoNet",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Place this inside a jukebox to\",\"color\":\"gray\"}",
+    "{\"text\":\"play a dungeon song!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"The Wither King\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"By ShinkoNet\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "DUNGEON_DISC_4",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Old_Disc",
     "https://wiki.hypixel.net/Old_Disc"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

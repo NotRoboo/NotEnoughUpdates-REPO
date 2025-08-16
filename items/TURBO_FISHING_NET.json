@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:web",
-  "displayname": "§5Turbo Fishing Net",
-  "nbttag": "{ExtraAttributes:{id:\"TURBO_FISHING_NET\"},HideFlags:254,ItemModel:\"minecraft:cobweb\",display:{Lore:[0:\"§8Hunting Tool\",1:\"\",2:\"§7Pull: §a+50\",3:\"\",4:\"§6Ability: Yoink  §e§lRIGHT CLICK\",5:\"§7Throw your fishing net at swimming\",6:\"§7fish to catch them!\",7:\"§8Mana Cost: §310\",8:\"§8Cooldown: §a0.5s\",9:\"\",10:\"§7Throw Distance: §a+100%\",11:\"\",12:\"§5§lEPIC FISHING NET\"],Name:\"§5Turbo Fishing Net\"}}",
+  "displayname": "{\"text\":\"Turbo Fishing Net\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:web\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Turbo Fishing Net\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Hunting Tool\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pull: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Yoink \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Throw your fishing net at swimming\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"fish to catch them!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"10\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"0.5s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Throw Distance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC FISHING NET\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TURBO_FISHING_NET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Hunting Tool",
-    "",
-    "§7Pull: §a+50",
-    "",
-    "§6Ability: Yoink  §e§lRIGHT CLICK",
-    "§7Throw your fishing net at swimming",
-    "§7fish to catch them!",
-    "§8Mana Cost: §310",
-    "§8Cooldown: §a0.5s",
-    "",
-    "§7Throw Distance: §a+100%",
-    "",
-    "§5§lEPIC FISHING NET"
+    "{\"text\":\"Hunting Tool\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pull: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Yoink \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Throw your fishing net at swimming\",\"color\":\"gray\"}",
+    "{\"text\":\"fish to catch them!\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"10\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"0.5s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Throw Distance: \",\"color\":\"gray\"},{\"text\":\"+100%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC FISHING NET\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "TURBO_FISHING_NET",
   "clickcommand": "",
@@ -42,5 +42,8 @@
       "count": 1,
       "overrideOutputId": "TURBO_FISHING_NET"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

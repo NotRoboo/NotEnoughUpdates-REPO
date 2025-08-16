@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Parrot Mask",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b60057d5-4b12-3bff-a31f-4c4327b2a0bd\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjI2NDM0OCwKICAicHJvZmlsZUlkIiA6ICJmYjZkM2E5Zjk3MWY0ZTdlYmQ0MjE2Yjk0MjE5NDA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJjaXhkZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NGI0M2ZhMzAwMThiMjc5NGNiODJjM2VhYzhhODllODdiMWEyMzA4MGZjZTgwYzUyMjQ2ZTMxYzUzOTQ3YzBkIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Health: §a+1\",1:\"\",2:\"§6Ability: Party Flock \",3:\"§7Nearby players within §a20 §7blocks gain\",4:\"§7§c+1❁ Strength §7for each upgrade of\",5:\"§7your §6Intimidation Accessory§7.\",6:\"§7\",7:\"§7§8§oSquawk, squawk!\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§9§lRARE CARNIVAL MASK\"],Name:\"§9Parrot Mask\"},ExtraAttributes:{id:\"PARROT_MASK\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Parrot Mask\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Parrot Mask\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Party Flock \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Nearby players within \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"blocks gain\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+1❁ Strength \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"for each upgrade of\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Intimidation Accessory\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Squawk, squawk!\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE CARNIVAL MASK\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PARROT_MASK\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Health: §a+1",
-    "",
-    "§6Ability: Party Flock ",
-    "§7Nearby players within §a20 §7blocks gain",
-    "§7§c+1❁ Strength §7for each upgrade of",
-    "§7your §6Intimidation Accessory§7.",
-    "§7",
-    "§7§8§oSquawk, squawk!",
-    "",
-    "§7§8This item can be reforged!",
-    "§9§lRARE CARNIVAL MASK"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Party Flock \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Nearby players within \",\"color\":\"gray\"},{\"text\":\"20 \",\"color\":\"green\"},{\"text\":\"blocks gain\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+1❁ Strength \",\"color\":\"red\"},{\"text\":\"for each upgrade of\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your \",\"color\":\"gray\"},{\"text\":\"Intimidation Accessory\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Squawk, squawk!\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE CARNIVAL MASK\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "PARROT_MASK",
   "crafttext": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Parrot_Mask",
     "https://wiki.hypixel.net/Parrot_Mask"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

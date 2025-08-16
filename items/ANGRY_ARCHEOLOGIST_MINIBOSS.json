@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§d§lAngry Archaeologist (Miniboss)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"db784d7a-fae1-3d60-9a5a-42a1814037f8\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NzU0NzAzOTQwMzEsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0OGM3ODM0NThlNGNmODUxOGU4YWI1ODYzZmJjNGNiOTQ4ZjkwNTY4ZWViOWE2MGQxNmM0ZmRlMmI5NmMwMzMifX19\"}]}},display:{Lore:[0:\"§7Angered by what he\u0027s found\",1:\"§7below.\",2:\"\",3:\"§c❤ Health§8: §c20,000 - 900,000\",4:\"§c❤ Health §8(MM) : §c1,000,000 - 12,000,000\"],Name:\"§d§lAngry Archaeologist (Miniboss)\"},ExtraAttributes:{id:\"ANGRY_ARCHEOLOGIST_MINIBOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Angry Archaeologist (Miniboss)\",\"color\":\"light_purple\",\"bold\":true}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Angry Archaeologist (Miniboss)\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Angered by what he\u0027s found\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"below.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"20,000 - 900,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(MM) : \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1,000,000 - 12,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"ANGRY_ARCHEOLOGIST_MINIBOSS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Angered by what he\u0027s found",
-    "§7below.",
-    "",
-    "§c❤ Health§8: §c20,000 - 900,000",
-    "§c❤ Health §8(MM) : §c1,000,000 - 12,000,000"
+    "{\"text\":\"Angered by what he\u0027s found\",\"color\":\"gray\"}",
+    "{\"text\":\"below.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"20,000 - 900,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"(MM) : \",\"color\":\"dark_gray\"},{\"text\":\"1,000,000 - 12,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "ANGRY_ARCHEOLOGIST_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -46,5 +46,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

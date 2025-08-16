@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:fish",
-  "displayname": "§cGabagool the Fish",
-  "nbttag": "{ExtraAttributes:{id:\"GABAGOOL_THE_FISH\"},HideFlags:254,ItemModel:\"minecraft:salmon\",display:{Lore:[0:\"§7If the salad is on top, I send\",1:\"§7it back.\",2:\"\",3:\"§c§lSPECIAL\"],Name:\"§cGabagool the Fish\"},ench:[]}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Gabagool the Fish\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gabagool the Fish\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"If the salad is on top, I send\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"it back.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GABAGOOL_THE_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7If the salad is on top, I send",
-    "§7it back.",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"If the salad is on top, I send\",\"color\":\"gray\"}",
+    "{\"text\":\"it back.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "GABAGOOL_THE_FISH",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gabagool_The_Fish",
     "https://wiki.hypixel.net/Gabagool_The_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

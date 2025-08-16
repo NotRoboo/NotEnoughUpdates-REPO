@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Tarantula Minion IV",
-  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_GENERATOR_4\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"035bde27-45e0-343d-af6a-8b4a7bdf31f5\",Properties:{textures:[0:{Name:\"textures\",Signature:\"kSAlQa6Ki5HCEwcCC6tKUQt2nA5ky+LTFWsYOPEPvmzP7R8pDkaPk/Z6lHQvu4G7VL7X34bzrwU6xQ5xGBkhRyMwxBatKA7FocE1N5xyxI31MLVOGBzZRMifa7GCuEWQczkeY7uD+9CPmjeSYorRqHaStCLfVRMxBD0q3ssI2guemaxnOKf5hxZNpxVmsP4qcG3lf+yUJv4YDbevWq7G4u3Qv42XTk0xCnv9W3rXPcW6w3ILJyShnrbyhJAXqYkkzjL6CdTsuKIU5eO/8vIvDl5L3baQvmKtNY+jOUFjqZO3H3jtBXNkJ7GR260SsVvskAZNWu+B9x2rvI9UoAY8QQjWVY1/V9QiUqhgV73FcxQJONkGFzR0DnMmfzMDpHNjpOgqaKPWkQD5moMo+R6fnJo41tF+ffErbrRId+EANtPD5kCZyqdjOayVAk0jJltOO0vOkF3WLMvvmZx9hn8nY0KA1T1OFOVJlqrh9CVYBw0BOPuw0mNPKZrcRGdSOzn6aHX3ahvLXz7g71AzVlI/RUAT54SCo4sH9bACOJXTYlOcunPvDv40vqA/ldmD0VzFznp2rLQFSm79biCuXadQlddeo7IEEv5Km4zoWONvnN5h0d1rvVojrcLJXFqnfClvdZpsnA+0Bwxa9Tl4uWbTLosYvG4wmVbnR6LMnWQuEZU=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NzE1OTE4NjY0MzksInByb2ZpbGVJZCI6ImZkNjBmMzZmNTg2MTRmMTJiM2NkNDdjMmQ4NTUyOTlhIiwicHJvZmlsZU5hbWUiOiJSZWFkIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYWZkZTQyOWZmY2Q1MTQxZjQyYjNkNzU0ZDc1YTBhZDM1Mjg1OTQ1MDljMDliZTAwODNiYzJjOThkMzhmZGNlIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and squashing\",2:\"§7Tarantulas! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a26s\",6:\"§7Max Storage: §e384\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Tarantula Minion IV\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Tarantula Minion IV\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tarantula Minion IV\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and squashing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Tarantulas! Minions also work when\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"you are offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"26s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"384\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TARANTULA_GENERATOR_4\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NzE1OTE4NjY0MzksInByb2ZpbGVJZCI6ImZkNjBmMzZmNTg2MTRmMTJiM2NkNDdjMmQ4NTUyOTlhIiwicHJvZmlsZU5hbWUiOiJSZWFkIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYWZkZTQyOWZmY2Q1MTQxZjQyYjNkNzU0ZDc1YTBhZDM1Mjg1OTQ1MDljMDliZTAwODNiYzJjOThkMzhmZGNlIn19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and squashing",
-    "§7Tarantulas! Minions also work when",
-    "§7you are offline!",
-    "",
-    "§7Time Between Actions: §a26s",
-    "§7Max Storage: §e384",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and squashing\",\"color\":\"gray\"}",
+    "{\"text\":\"Tarantulas! Minions also work when\",\"color\":\"gray\"}",
+    "{\"text\":\"you are offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"26s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"384\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "TARANTULA_GENERATOR_4",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C2": "SPIDER_GENERATOR_3:1",
     "C3": "TARANTULA_WEB:64"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

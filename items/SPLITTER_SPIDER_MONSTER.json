@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Splitter Spider (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"50010472-fa22-3519-b941-2d6d22f47bf1\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFjZjY5ZmM3YWY1NDk3YTE3NDE4OTFkMWU1YmYzMmI5NmFlMGQ2YzBiYmQzYzE0NzU4ZWE0NGEwM2M1NzI4MyJ9fX0\"}]}},display:{Lore:[0:\"§7The Splitter Spider is a spider that splits into two\",1:\"§7silverfish upon death. They spawn in the Spider\u0027s\",2:\"§7Den (Northwest of the Graveyard). \",3:\"\",4:\"§c❤ Health§8: §c160\"],Name:\"§9Splitter Spider (Monster)\"},ExtraAttributes:{id:\"SPLITTER_SPIDER_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Splitter Spider (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Splitter Spider (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Splitter Spider is a spider that splits into two\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"silverfish upon death. They spawn in the Spider\u0027s\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Den (Northwest of the Graveyard). \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"160\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"SPLITTER_SPIDER_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Splitter Spider is a spider that splits into two",
-    "§7silverfish upon death. They spawn in the Spider\u0027s",
-    "§7Den (Northwest of the Graveyard). ",
-    "",
-    "§c❤ Health§8: §c160"
+    "{\"text\":\"The Splitter Spider is a spider that splits into two\",\"color\":\"gray\"}",
+    "{\"text\":\"silverfish upon death. They spawn in the Spider\u0027s\",\"color\":\"gray\"}",
+    "{\"text\":\"Den (Northwest of the Graveyard). \",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"160\",\"color\":\"red\"}]}"
   ],
   "internalname": "SPLITTER_SPIDER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -84,5 +84,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

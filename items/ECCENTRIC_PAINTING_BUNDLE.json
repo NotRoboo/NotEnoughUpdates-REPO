@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Eccentric Painting Bundle",
-  "nbttag": "{ExtraAttributes:{id:\"ECCENTRIC_PAINTING_BUNDLE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2f513b64-fc03-30be-8610-ecbfafd55b21\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI0Zjc2OWM5NDUwZjIyZTQ4NGUwODljYTAyZTMyNGZlMzdiMThmNGMxOGVmMjk2MDIxODcxYmE0YWQwYzM5NiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Right-click to open this bundle\",1:\"§7containing §69x Eccentric\",2:\"§6Painting§7.\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Eccentric Painting Bundle\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Eccentric Painting Bundle\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Eccentric Painting Bundle\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to open this bundle\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"containing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"9x Eccentric\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Painting\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ECCENTRIC_PAINTING_BUNDLE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI0Zjc2OWM5NDUwZjIyZTQ4NGUwODljYTAyZTMyNGZlMzdiMThmNGMxOGVmMjk2MDIxODcxYmE0YWQwYzM5NiJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Right-click to open this bundle",
-    "§7containing §69x Eccentric",
-    "§6Painting§7.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Right-click to open this bundle\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"containing \",\"color\":\"gray\"},{\"text\":\"9x Eccentric\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Painting\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "ECCENTRIC_PAINTING_BUNDLE",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Eccentric_Painting_Bundle",
     "https://wiki.hypixel.net/Eccentric_Painting_Bundle"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

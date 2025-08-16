@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Molten Bracelet",
-  "nbttag": "{ExtraAttributes:{id:\"MOLTEN_BRACELET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"479e23bf-e9c9-3cb7-a346-795f3b0847a9\",Properties:{textures:[0:{Name:\"textures\",Signature:\"RgvYgvO+w1CwWRkreBi7RVrFhC7mUigvp3fv/W0hIN5MM00grOBIR9Owe8XIa5zJLrOIRX7sQLEmpjF5s0G8vxuLh98lyUPQSxOUZURb0JZCmBhKavYQXYAopLhpMMJpvrvuTXdAt9kAoqo2+V50mzJeKGfpwfm7e/wt3n/jf2nHN8ODqrwXJ+eqi+GLJJ/bruL9LyK1JGxrFw2StgQE3CU1NDc2uGIQLaDYO6IrY9j7N/sgVKhdKK0iDcvUTQUSQxz8VnT4jaMjjuhs9RfwfNEvfz1zNsxpFdVFTHfAppHDhZspAcKnFVID1umsAaPBy6shoHGjOADMh3P5/C9gNZbPoKMOoo6DEOSb4LeBiIzG/W12w4kyJQMM8fQ3tcNpT2Hoz3Mt29dlUGADR5PtK0CqQgXe/5h2sntMu8jwPerPIxCE3PfxkjIgqpWbGchUEct3qLAynRTocthSiMPbVGX0Eyfsvj45ty75mINBYTWeFjBooe9Yrc6AC54L9eVy18kACuKrpva2mo5vFHBH+93pVSgv8QuArngLcVb/Lus7P94tecZGp1WxB34mTm3wlhT+i51xJUhZVT8ukdlQNOl1yfhNXZfbYqv6KS1SaR2nnsepIcK902TCL8XqnUwK/UIGTI6BZX+FWZgjUZnHorlL2ut4VYjEk4FoPsDfzxo=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjUwNTAzMSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwNTI5NGY4OTE1YzhkYTliNmUzODI5ZjZkYmExMzVmODhhYjQ3NjFiOTQzMGUxOGZmMTI1ZWYzZTk1MGNjZGYiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Strength: §c+20\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+20\",3:\"\",4:\"§8Tiered Bonus: Molten Core (0/4)\",5:\"§7Gain §a5% §7damage resistance while\",6:\"§7fighting §6Kuudra§7.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §aCombat Skill 22§c.\",10:\"§5§lEPIC BRACELET\"],Name:\"§5Molten Bracelet\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Molten Bracelet\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Molten Bracelet\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Molten Core (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"damage resistance while\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"fighting \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Kuudra\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC BRACELET\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MOLTEN_BRACELET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjUwNTAzMSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwNTI5NGY4OTE1YzhkYTliNmUzODI5ZjZkYmExMzVmODhhYjQ3NjFiOTQzMGUxOGZmMTI1ZWYzZTk1MGNjZGYiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Strength: §c+20",
-    "§7Health: §a+30",
-    "§7Defense: §a+20",
-    "",
-    "§8Tiered Bonus: Molten Core (0/4)",
-    "§7Gain §a5% §7damage resistance while",
-    "§7fighting §6Kuudra§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
-    "§5§lEPIC BRACELET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Molten Core (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"5% \",\"color\":\"green\"},{\"text\":\"damage resistance while\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"fighting \",\"color\":\"gray\"},{\"text\":\"Kuudra\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC BRACELET\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "MOLTEN_BRACELET",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Molten_Bracelet",
     "https://wiki.hypixel.net/Molten_Bracelet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Fish Chocolat à la Vapeur",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"5c483f23-e467-3cfa-9f11-986d3a4eccde\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNDk1OTAwNzUwOSwKICAicHJvZmlsZUlkIiA6ICJiZmMyODE3ZWRhZWM0OWY5YTVmMWVkNTdjODZhMGFjOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFYm95UmV6YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MjJiMGU1ZmFhOTdjYTEwOWNkNDVmMWZiYTJkODRjYTJiOWI2MDFkZTUwYjQ3ZjRhZGQyZDgzNWFhMzYwZjc4IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Give this dish to §aHoppity §7to obtain his\",1:\"§7§aAbiphone Contact§7.\",2:\"\",3:\"§7§8§oSavory fish with a chocolate twist.\",4:\"§8§oMwah! C\u0027est magnifique, no?\",5:\"\",6:\"§5§lEPIC\",7:\"\",8:\"§7Cost\",9:\"§650,000,000,000 Chocolate\",10:\"§cRabbit the Fish\"],Name:\"§5Fish Chocolat à la Vapeur\"},ExtraAttributes:{id:\"STEAMED_CHOCOLATE_FISH\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Fish Chocolat à la Vapeur\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fish Chocolat à la Vapeur\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Give this dish to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Hoppity \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"to obtain his\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Abiphone Contact\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Savory fish with a chocolate twist.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"Mwah! C\u0027est magnifique, no?\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Cost\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"50,000,000,000 Chocolate\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Rabbit the Fish\\\",\\\"color\\\":\\\"red\\\"}\"],\"minecraft:custom_data\":{\"id\":\"STEAMED_CHOCOLATE_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Give this dish to §aHoppity §7to obtain his",
-    "§7§aAbiphone Contact§7.",
-    "",
-    "§7§8§oSavory fish with a chocolate twist.",
-    "§8§oMwah! C\u0027est magnifique, no?",
-    "",
-    "§5§lEPIC",
-    "",
-    "§7Cost",
-    "§650,000,000,000 Chocolate",
-    "§cRabbit the Fish"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Give this dish to \",\"color\":\"gray\"},{\"text\":\"Hoppity \",\"color\":\"green\"},{\"text\":\"to obtain his\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Abiphone Contact\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Savory fish with a chocolate twist.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"Mwah! C\u0027est magnifique, no?\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Cost\",\"color\":\"gray\"}",
+    "{\"text\":\"50,000,000,000 Chocolate\",\"color\":\"gold\"}",
+    "{\"text\":\"Rabbit the Fish\",\"color\":\"red\"}"
   ],
   "internalname": "STEAMED_CHOCOLATE_FISH",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Fish_Chocolat_À_La_Vapeur"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

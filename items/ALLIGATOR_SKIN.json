@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§5Alligator Skin",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Harsh, jagged skin that is rough to\",1:\"§7the touch.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Alligator Skin\"},ExtraAttributes:{id:\"ALLIGATOR_SKIN\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Alligator Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Alligator Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Harsh, jagged skin that is rough to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the touch.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ALLIGATOR_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7Harsh, jagged skin that is rough to",
-    "§7the touch.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Harsh, jagged skin that is rough to\",\"color\":\"gray\"}",
+    "{\"text\":\"the touch.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ALLIGATOR_SKIN",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Alligator_Skin",
     "https://wiki.hypixel.net/Alligator_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

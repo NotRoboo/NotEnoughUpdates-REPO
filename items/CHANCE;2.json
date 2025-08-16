@@ -1,25 +1,28 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Chance II\",1:\"§7Increases the chance of a\",2:\"§7Monster dropping an item by\",3:\"§7§a30%§7.\",4:\"\",5:\"§6Source:\",6:\"§aI-III: §7Enchantment Table\",7:\"\",8:\"§6Applied To:\",9:\"§7- §fBow\",10:\"\",11:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{id:\"CHANCE;2\",enchantments:{chance:2}}}",
+  "displayname": "{\"text\":\"Enchanted Book\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:enchanted_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Book\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Chance II\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"Increases the chance of a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Monster dropping an item by\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"30%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Source:\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"I-III: \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Enchantment Table\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Applied To:\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"- \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Bow\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CHANCE;2\",\"enchantments\":\"{chance:2\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§9Chance II",
-    "§7Increases the chance of a",
-    "§7Monster dropping an item by",
-    "§7§a30%§7.",
-    "",
-    "§6Source:",
-    "§aI-III: §7Enchantment Table",
-    "",
-    "§6Applied To:",
-    "§7- §fBow",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Chance II\",\"color\":\"blue\"}",
+    "{\"text\":\"Increases the chance of a\",\"color\":\"gray\"}",
+    "{\"text\":\"Monster dropping an item by\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"30%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Source:\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"I-III: \",\"color\":\"green\"},{\"text\":\"Enchantment Table\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Applied To:\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"- \",\"color\":\"gray\"},{\"text\":\"Bow\",\"color\":\"white\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "CHANCE;2",
   "crafttext": "",
   "clickcommand": "",
   "modver": "2.0.0-REL",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

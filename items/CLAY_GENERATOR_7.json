@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Clay Minion VII",
-  "nbttag": "{ExtraAttributes:{id:\"CLAY_GENERATOR_7\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f8d5c449-5ac3-3790-a2e1-06390fd48e70\",Properties:{textures:[0:{Name:\"textures\",Signature:\"pNKKVoDf8gwu/V4xyR1HbvhCkxJNP6kHC+splW1U9jEto1Fg1Jrlv+abp3Ed8I344Z8g0gyfHSEZ9+mvygWPe90Baq+Yj0ow+/eRnEVWhEEzEhcU5KTfPf+1CGzuYzZZYoa7Vi5koBLUc5hBVXeYH930nqBMs2Le4sAfIn8ZsR/I8J1nONTwHVwa2tHLWfQMYmTh9Gtk1+2Cvk6Loa22eQ3Po2bhA6ZUoV4G3ocz12xIC/CJYge5qBjU3kiWbhzy5+Sz1IyQN9FmYbYPJr/w7zlB8SNpKcklTMf5nx5jzayzWi/fFPOQUSnPEeRDn9AdHwnezn4tWRkh1EmwOVpQEWeFITG3riTbMtd0DlM9UNTD7JRSCRaMt78whON7jvVcLh/y+M+jYq6j3voMd1NHcSj6ISbjmQzaxoJU6oYU76sQ4q+1KaAMaWHs4ENeGUGklqVCGm8yI2sLb9gg2Bv8sk/26JNHHJ9r+kbYXwfviVQn9a96KOGXQTp8zBW7xIb3WMlGbvKLX2uw76OJ5KG0crIx9zNutSvdEQYlEiyjty5iLZ0p/4ZXXv3A8hKUie01/1aEtswjpZKrwoSnkqnooWMflOGuRLWmgmpCr1pQFTScl5BR86K9gK51BWlMZ5WsUxBV7JvnDepywkHdYwJoupk6uZRBUWKvbtVmCdTNTRs=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzQyMjE1NDcsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTRhNmZiZjY4Mjg2MmQ3ZjBiNjhjMTkyNTIxZTQ1NTEyMmJiOGYzYTliN2JhODc2Mjk0MDI3YjdhMzVjZDFhNyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining clay! Requires\",2:\"§7an open area to place clay. Minions\",3:\"§7also work when you are offline!\",4:\"\",5:\"§7Time Between Actions: §a24s\",6:\"§7Max Storage: §e576\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Clay Minion VII\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Clay Minion VII\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Clay Minion VII\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and mining clay! Requires\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"an open area to place clay. Minions\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"also work when you are offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"24s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"576\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CLAY_GENERATOR_7\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NTc5MzQyMjE1NDcsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTRhNmZiZjY4Mjg2MmQ3ZjBiNjhjMTkyNTIxZTQ1NTEyMmJiOGYzYTliN2JhODc2Mjk0MDI3YjdhMzVjZDFhNyJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and mining clay! Requires",
-    "§7an open area to place clay. Minions",
-    "§7also work when you are offline!",
-    "",
-    "§7Time Between Actions: §a24s",
-    "§7Max Storage: §e576",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and mining clay! Requires\",\"color\":\"gray\"}",
+    "{\"text\":\"an open area to place clay. Minions\",\"color\":\"gray\"}",
+    "{\"text\":\"also work when you are offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"24s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"576\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "CLAY_GENERATOR_7",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C2": "ENCHANTED_CLAY_BALL:4",
     "C3": "ENCHANTED_CLAY_BALL:4"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

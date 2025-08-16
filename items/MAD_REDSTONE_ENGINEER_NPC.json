@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Mad Redstone Engineer (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2ecabc96-60e3-5816-9a01-e3b46b36e20b\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE4NmQ1MjQyYjYyOTcwZDJhMDMwMTI2Y2UyODU1ZWQ2MGI4MGU2MzY0OTRkY2NmYjgyZWJjMzBhMDkxZTk5NSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Mad Redstone Engineer (NPC)\"},ExtraAttributes:{id:\"MAD_REDSTONE_ENGINEER_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mad Redstone Engineer (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mad Redstone Engineer (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"MAD_REDSTONE_ENGINEER_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "MAD_REDSTONE_ENGINEER_NPC",
   "clickcommand": "viewrecipe",
@@ -111,5 +111,8 @@
       "result": "HOPPER"
     }
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

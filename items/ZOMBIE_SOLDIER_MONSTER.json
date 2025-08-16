@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Zombie Soldier (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Defenders of the Catacombs.\",1:\"\",2:\"§c❤ Health§8: §c140,000 - 1,200,000\",3:\"§c❤ Health §8(MM) : §c6,000,000 - 36,000,000\"],Name:\"§9Zombie Soldier (Monster)\"},ExtraAttributes:{id:\"ZOMBIE_SOLDIER_MONSTER\"}}",
-  "damage": 2,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Zombie Soldier (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie Soldier (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Defenders of the Catacombs.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"140,000 - 1,200,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(MM) : \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"6,000,000 - 36,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"ZOMBIE_SOLDIER_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Defenders of the Catacombs.",
-    "",
-    "§c❤ Health§8: §c140,000 - 1,200,000",
-    "§c❤ Health §8(MM) : §c6,000,000 - 36,000,000"
+    "{\"text\":\"Defenders of the Catacombs.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"140,000 - 1,200,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"(MM) : \",\"color\":\"dark_gray\"},{\"text\":\"6,000,000 - 36,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "ZOMBIE_SOLDIER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -58,5 +58,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

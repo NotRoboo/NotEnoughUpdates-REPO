@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aHarmonious Surgery Toolkit",
-  "nbttag": "{ExtraAttributes:{id:\"HARMONIOUS_SURGERY_TOOLKIT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d9b45cab-9946-3e62-a4d2-a02543202211\",Properties:{textures:[0:{Name:\"textures\",Signature:\"UsvksguMH6kneYPPto5DPKNnj33jeqCpyulPBvt1Nu2BTxwoP+6/2ADLfZzD6r9reHZnPHVHhbzBmMf1m5PyaC78seyGK2eBqR8T9jqw16Hp8UAQxAHYflBml3C7Y0yPEhYQQbskCjVG+9feZy52K+lBahIwZtrRvsyh1XKY/o4bjjEuQ7Q6sG1y2aa1LY5vOmEAX5STqFB3Muk/bw/LUgeVZKWLOQrETB34X3cyw6Bpka4dEFzIKprGpbizw5B+wclNYFRobXLv4cWrSBWirCAXx0pYlxWbqtiW493EdMcy9GJ+ghuhJiTv+AqIxtH4neeTPlxaYEvxtMzjs9qR02UTL/Ql8ioNKlvKBv10lthqz5Bq1HopLSyKpAVz8jS45/2NWWuRC6TuR5T97tFcmwylZSC9ByXPG5OIdLo/ikb0s7Eli6wSjHn6jm2sxRBNZQrSWLKtoe9d9lcXfObfZOTUA4nKJ7lvWcchh5LJhbkNfft3V71gIJJa8sZZHXYQE830PTMyesYGE7CO0kp0VZPJOiGSpw6w4Yrs3JUj0XeSxIJwlGXBe0EkYhfuQ2uhzlsbKeKPA2YNcI4q3vUYQll8ZF25Lz3d7n3PvcrXS4j4aT5dCkl/hBXmAMHokETNCviZDYucdLnKyfqCprMgEWzzbwJz4xjnrzpndGBiEBA=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMDMyNTg5MTM2NSwKICAicHJvZmlsZUlkIiA6ICJhNTdmZDE5MGZmM2U0YjBkYTEzMmY2OGUzOTU3ZjViMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4Y2VwdGlvbl9udWxsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc2NzkwZGFhNGQ0MmM4ZmRmODNmOWU4ZTk2ZTBjMDRkM2IxY2NhZTBiZjFkOTBhMzMwMmQyNjU1OTkyMWFjMjYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Rift Time: §a+10s\",1:\"§7Speed: §a+2\",2:\"\",3:\"§7If you touch a larva which another\",4:\"§7player touched, you both gain §f+1\",5:\"§fLarva Silk §7once it is harvested.\",6:\"\",7:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aHarmonious Surgery Toolkit\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Harmonious Surgery Toolkit\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Harmonious Surgery Toolkit\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"If you touch a larva which another\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"player touched, you both gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Larva Silk \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"once it is harvested.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ACCESSORY\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HARMONIOUS_SURGERY_TOOLKIT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTczMDMyNTg5MTM2NSwKICAicHJvZmlsZUlkIiA6ICJhNTdmZDE5MGZmM2U0YjBkYTEzMmY2OGUzOTU3ZjViMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4Y2VwdGlvbl9udWxsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc2NzkwZGFhNGQ0MmM4ZmRmODNmOWU4ZTk2ZTBjMDRkM2IxY2NhZTBiZjFkOTBhMzMwMmQyNjU1OTkyMWFjMjYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Rift Time: §a+10s",
-    "§7Speed: §a+2",
-    "",
-    "§7If you touch a larva which another",
-    "§7player touched, you both gain §f+1",
-    "§fLarva Silk §7once it is harvested.",
-    "",
-    "§a§lUNCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+10s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"If you touch a larva which another\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"player touched, you both gain \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Larva Silk \",\"color\":\"white\"},{\"text\":\"once it is harvested.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ACCESSORY\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "HARMONIOUS_SURGERY_TOOLKIT",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Harmonious_Surgery_Toolkit",
     "https://wiki.hypixel.net/Harmonious_Surgery_Toolkit"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

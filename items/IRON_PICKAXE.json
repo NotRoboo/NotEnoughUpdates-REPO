@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:iron_pickaxe",
-  "displayname": "§fIron Pickaxe",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§8Breaking Power 3\",1:\"\",2:\"§7Damage: §c+25\",3:\"§7Mining Speed: §a+160\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§f§lCOMMON PICKAXE\"],Name:\"§fIron Pickaxe\"},ExtraAttributes:{id:\"IRON_PICKAXE\"}}",
+  "displayname": "{\"text\":\"Iron Pickaxe\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Iron Pickaxe\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 3\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+160\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON PICKAXE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"IRON_PICKAXE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 3",
-    "",
-    "§7Damage: §c+25",
-    "§7Mining Speed: §a+160",
-    "",
-    "§7§8This item can be reforged!",
-    "§f§lCOMMON PICKAXE"
+    "{\"text\":\"Breaking Power 3\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+160\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON PICKAXE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "IRON_PICKAXE",
   "modver": "2.1.0-REL",
@@ -31,5 +31,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Iron_Pickaxe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

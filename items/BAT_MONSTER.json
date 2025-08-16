@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aBat (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b676e304-9f3d-3b60-9032-295f36bb0141\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzOTYxNzA5MSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwMTAwMDExMDAxMDAwMDExIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM3N2FkZThhZmIyNTcwODZmYjE4NjFkYTQzYzhhZTQ2OGI4ZWIwNTc4ZmFkYTg0MzAzODU4NTE3YmExNzIxN2UiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7The Bat is a Mob that can be spawned from the\",1:\"§7Roofed Forest Island\u0027s Bat Crystal during the night.\",2:\"\",3:\"§c❤ Health§8: §c100\"],Name:\"§aBat (Monster)\"},ExtraAttributes:{id:\"BAT_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bat (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bat (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Bat is a Mob that can be spawned from the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Roofed Forest Island\u0027s Bat Crystal during the night.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"100\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"BAT_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Bat is a Mob that can be spawned from the",
-    "§7Roofed Forest Island\u0027s Bat Crystal during the night.",
-    "",
-    "§c❤ Health§8: §c100"
+    "{\"text\":\"The Bat is a Mob that can be spawned from the\",\"color\":\"gray\"}",
+    "{\"text\":\"Roofed Forest Island\u0027s Bat Crystal during the night.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"100\",\"color\":\"red\"}]}"
   ],
   "internalname": "BAT_MONSTER",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }
