@@ -1,25 +1,28 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§fEnchanted Book",
-  "nbttag": "{ExtraAttributes:{enchantments:{arcane:2},id:\"ARCANE;2\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Woodsplitter II\",1:\"§7Increases damage dealt to §2⸙\",2:\"§2Woodland§7 mobs by §a20%§7.\",3:\"\",4:\"§7Applicable on: §9Axe\",5:\"§7Apply Cost: §320 Exp Levels\",6:\"\",7:\"§7Use this on an item in an Anvil to\",8:\"§7apply it!\",9:\"\",10:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Book\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:enchanted_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Book\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Woodsplitter II\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases damage dealt to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"⸙\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Woodland\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\" mobs by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applicable on: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Axe\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Apply Cost: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20 Exp Levels\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Use this on an item in an Anvil to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"apply it!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"enchantments\":\"{arcane:2\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§9Woodsplitter II",
-    "§7Increases damage dealt to §2⸙",
-    "§2Woodland§7 mobs by §a20%§7.",
-    "",
-    "§7Applicable on: §9Axe",
-    "§7Apply Cost: §320 Exp Levels",
-    "",
-    "§7Use this on an item in an Anvil to",
-    "§7apply it!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Woodsplitter II\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases damage dealt to \",\"color\":\"gray\"},{\"text\":\"⸙\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Woodland\",\"color\":\"dark_green\"},{\"text\":\" mobs by \",\"color\":\"gray\"},{\"text\":\"20%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applicable on: \",\"color\":\"gray\"},{\"text\":\"Axe\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Apply Cost: \",\"color\":\"gray\"},{\"text\":\"20 Exp Levels\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Use this on an item in an Anvil to\",\"color\":\"gray\"}",
+    "{\"text\":\"apply it!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ARCANE;2",
   "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 3.1.0-dev+mc1.21.5+g4402b1f",
   "infoType": "",
-  "info": []
+  "info": [],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

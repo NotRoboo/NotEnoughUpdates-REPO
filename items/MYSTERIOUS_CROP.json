@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:deadbush",
-  "displayname": "§f§f§fMysterious Crop",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§f§f§fMysterious Crop\"},ExtraAttributes:{id:\"MYSTERIOUS_CROP\"}}",
+  "displayname": "{\"text\":\"Mysterious Crop\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:deadbush\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mysterious Crop\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MYSTERIOUS_CROP\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MYSTERIOUS_CROP",
   "crafttext": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mysterious_Crop",
     "https://wiki.hypixel.net/Mysterious_Crop"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

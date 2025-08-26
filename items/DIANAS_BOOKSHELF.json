@@ -1,27 +1,27 @@
 {
   "itemid": "minecraft:bookshelf",
-  "displayname": "§9Diana\u0027s Bookshelf",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7§7While in your inventory, counts the\",3:\"§7number of §d§lChimera I §7books §7that\",4:\"§7you obtain from the §2Mythological\",5:\"§2Ritual §7event§7.\",6:\"\",7:\"§7If you obtain §a6 §7books you can\",8:\"§7consume this item to permanently gain:\",9:\" §b+1✯ Magic Find\",10:\" §d+1♣ Pet Luck\",11:\" §3+1☯ Taming Wisdom\",12:\"\",13:\"§7Books obtained: §a0§7/§c6\",14:\"\",15:\"§8You may only gain this bonus once!\",16:\"\",17:\"§9§lRARE\"],Name:\"§9Diana\u0027s Bookshelf\"},ExtraAttributes:{raffle_year:400,raffle_win:\"year_400_small_9\",id:\"DIANAS_BOOKSHELF\"}}",
+  "displayname": "{\"text\":\"Diana\u0027s Bookshelf\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:bookshelf\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diana\u0027s Bookshelf\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumable\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"While in your inventory, counts the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"number of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Chimera I \\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"books \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"that\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"you obtain from the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mythological\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ritual \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"event\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"If you obtain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"6 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"books you can\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"consume this item to permanently gain:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"+1✯ Magic Find\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"+1♣ Pet Luck\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"+1☯ Taming Wisdom\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Books obtained: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"6\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You may only gain this bonus once!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"raffle_year\":400,\"raffle_win\":\"year_400_small_9\",\"id\":\"DIANAS_BOOKSHELF\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Consumable",
-    "",
-    "§7§7While in your inventory, counts the",
-    "§7number of §d§lChimera I §7books §7that",
-    "§7you obtain from the §2Mythological",
-    "§2Ritual §7event§7.",
-    "",
-    "§7If you obtain §a6 §7books you can",
-    "§7consume this item to permanently gain:",
-    " §b+1✯ Magic Find",
-    " §d+1♣ Pet Luck",
-    " §3+1☯ Taming Wisdom",
-    "",
-    "§7Books obtained: §a0§7/§c6",
-    "",
-    "§8You may only gain this bonus once!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Consumable\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"While in your inventory, counts the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"number of \",\"color\":\"gray\"},{\"text\":\"Chimera I \",\"color\":\"light_purple\",\"bold\":true},{\"text\":\"books \",\"color\":\"gray\"},{\"text\":\"that\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"you obtain from the \",\"color\":\"gray\"},{\"text\":\"Mythological\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ritual \",\"color\":\"dark_green\"},{\"text\":\"event\",\"color\":\"gray\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"If you obtain \",\"color\":\"gray\"},{\"text\":\"6 \",\"color\":\"green\"},{\"text\":\"books you can\",\"color\":\"gray\"}]}",
+    "{\"text\":\"consume this item to permanently gain:\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"+1✯ Magic Find\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"+1♣ Pet Luck\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"+1☯ Taming Wisdom\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Books obtained: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"green\"},{\"text\":\"/\",\"color\":\"gray\"},{\"text\":\"6\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You may only gain this bonus once!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "DIANAS_BOOKSHELF",
   "crafttext": "",
@@ -31,5 +31,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Diana%27s_Bookshelf",
     "https://wiki.hypixel.net/Diana%27s_Bookshelf"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

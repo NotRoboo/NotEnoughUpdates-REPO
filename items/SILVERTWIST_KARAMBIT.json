@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§5Silver-Twist Karambit",
-  "nbttag": "{ExtraAttributes:{id:\"SILVERTWIST_KARAMBIT\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Speed: §a+15\",1:\"\",2:\"§7Gain §5+5❁ Rift Damage §7against\",3:\"§4Vampires§7.\",4:\"\",5:\"§7Regens §b6 Mana §7and §c0.5❤ §7on hit.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§4☠ §cRequires §5Vampire Slayer 4§c.\",9:\"§5§lEPIC SWORD\"],Name:\"§5Silver-Twist Karambit\"},ench:[]}",
+  "displayname": "{\"text\":\"Silver-Twist Karambit\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Silver-Twist Karambit\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5❁ Rift Damage \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"against\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vampires\\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regens \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"6 Mana \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0.5❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"on hit.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Vampire Slayer 4\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SILVERTWIST_KARAMBIT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Speed: §a+15",
-    "",
-    "§7Gain §5+5❁ Rift Damage §7against",
-    "§4Vampires§7.",
-    "",
-    "§7Regens §b6 Mana §7and §c0.5❤ §7on hit.",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Vampire Slayer 4§c.",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+5❁ Rift Damage \",\"color\":\"dark_purple\"},{\"text\":\"against\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Vampires\",\"color\":\"dark_red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regens \",\"color\":\"gray\"},{\"text\":\"6 Mana \",\"color\":\"aqua\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"0.5❤ \",\"color\":\"red\"},{\"text\":\"on hit.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Vampire Slayer 4\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SILVERTWIST_KARAMBIT",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "",
     "C2": "BLOODBADGE:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

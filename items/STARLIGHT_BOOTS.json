@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§9Starlight Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+30\",1:\"§7Defense: §a+30\",2:\"§7Intelligence: §a+50\",3:\"\",4:\"§6Full Set Bonus: Starpower\",5:\"§7Increases the duration of\",6:\"§7§6Starfall §7by §a2x §7and its\",7:\"§7range by §a+1§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§4❣ §cRequires §aCombat Skill 8§c.\",11:\"§9§lRARE BOOTS\"],color:13893887,Name:\"§9Starlight Boots\"},ExtraAttributes:{id:\"STARLIGHT_BOOTS\"}}",
+  "displayname": "{\"text\":\"Starlight Boots\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Starlight Boots\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Starpower\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Increases the duration of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Starfall \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2x \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"and its\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"range by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 8\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE BOOTS\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STARLIGHT_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+30",
-    "§7Defense: §a+30",
-    "§7Intelligence: §a+50",
-    "",
-    "§6Full Set Bonus: Starpower",
-    "§7Increases the duration of",
-    "§7§6Starfall §7by §a2x §7and its",
-    "§7range by §a+1§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 8§c.",
-    "§9§lRARE BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Starpower\",\"color\":\"gold\"}",
+    "{\"text\":\"Increases the duration of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Starfall \",\"color\":\"gold\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"2x \",\"color\":\"green\"},{\"text\":\"and its\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"range by \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 8\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE BOOTS\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "STARLIGHT_BOOTS",
   "crafttext": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Starlight_Boots",
     "https://wiki.hypixel.net/Starlight_Boots"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

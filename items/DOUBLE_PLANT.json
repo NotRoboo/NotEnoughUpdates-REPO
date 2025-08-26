@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:double_plant",
-  "displayname": "§fSunflower",
-  "nbttag": "{ExtraAttributes:{id:\"DOUBLE_PLANT\"},HideFlags:254,ItemModel:\"minecraft:sunflower\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fSunflower\"}}",
+  "displayname": "{\"text\":\"Sunflower\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:double_plant\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sunflower\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DOUBLE_PLANT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DOUBLE_PLANT",
   "clickcommand": "",
@@ -12,5 +12,8 @@
   "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "",
   "info": [],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

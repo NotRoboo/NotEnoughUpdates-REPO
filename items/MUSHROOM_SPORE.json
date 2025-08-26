@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:brown_mushroom",
-  "displayname": "§f§f§fMushroom Spore",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§7§oThe life cycle of a mushroom\",1:\"§7§ostarts with the spore, which\",2:\"§7§ogerms and becomes Mycelium,\",3:\"§7§owhich develops fruit bodies into\",4:\"§7§oa mature mushroom, and that\",5:\"§7§omushroom will release spores.\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§f§f§fMushroom Spore\"},ExtraAttributes:{id:\"MUSHROOM_SPORE\"}}",
+  "displayname": "{\"text\":\"Mushroom Spore\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:brown_mushroom\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mushroom Spore\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The life cycle of a mushroom\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"starts with the spore, which\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"germs and becomes Mycelium,\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"which develops fruit bodies into\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"a mature mushroom, and that\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"mushroom will release spores.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7§7§oThe life cycle of a mushroom",
-    "§7§ostarts with the spore, which",
-    "§7§ogerms and becomes Mycelium,",
-    "§7§owhich develops fruit bodies into",
-    "§7§oa mature mushroom, and that",
-    "§7§omushroom will release spores.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"The life cycle of a mushroom\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"starts with the spore, which\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"germs and becomes Mycelium,\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"which develops fruit bodies into\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"a mature mushroom, and that\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"mushroom will release spores.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MUSHROOM_SPORE",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mushroom_Spore",
     "https://wiki.hypixel.net/Mushroom_Spore"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:hay_block",
-  "displayname": "§aEnchanted Hay Bale",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Legacy Item\",1:\"\",2:\"§7This item is no longer used\",3:\"§7throughout the game, and can be\",4:\"§7exchanged in your Legacy Trades\",5:\"§7menu, accessed through\",6:\"§7/legacytrades.\",7:\"\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Hay Bale\"},ExtraAttributes:{id:\"ENCHANTED_HAY_BLOCK\"}}",
+  "displayname": "{\"text\":\"Enchanted Hay Bale\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:hay_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Hay Bale\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Legacy Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item is no longer used\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"throughout the game, and can be\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"exchanged in your Legacy Trades\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"menu, accessed through\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"/legacytrades.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_HAY_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§8Legacy Item",
-    "",
-    "§7This item is no longer used",
-    "§7throughout the game, and can be",
-    "§7exchanged in your Legacy Trades",
-    "§7menu, accessed through",
-    "§7/legacytrades.",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Legacy Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item is no longer used\",\"color\":\"gray\"}",
+    "{\"text\":\"throughout the game, and can be\",\"color\":\"gray\"}",
+    "{\"text\":\"exchanged in your Legacy Trades\",\"color\":\"gray\"}",
+    "{\"text\":\"menu, accessed through\",\"color\":\"gray\"}",
+    "{\"text\":\"/legacytrades.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_HAY_BLOCK",
   "clickcommand": "",
@@ -23,5 +23,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Hay_Bale_(Old)",
     "https://wiki.hypixel.net/Enchanted_Hay_Bale_(Old)"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

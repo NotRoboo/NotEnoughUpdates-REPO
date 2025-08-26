@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:filled_map",
-  "displayname": "§cWet Napkin",
-  "nbttag": "{ExtraAttributes:{id:\"WET_NAPKIN\"},HideFlags:254,ItemModel:\"minecraft:filled_map\",display:{Lore:[0:\"§7An old wet napkin that appears\",1:\"§7to have some scribbling on the\",2:\"§7back, but part of it is too\",3:\"§7blurry to make out:\",4:\"\",5:\"§8§oThe total §8§o§k--------§8§o plus time\",6:\"§8§otimes time, all that subtracted\",7:\"§8§ofrom thrice the commencement,\",8:\"§8§othen add §8§o§k--§8§o of yourself,\",9:\"§8§othe whole thing elbuod.\",10:\"\",11:\"§8§l* §8Co-op Soulbound §8§l*\",12:\"§c§lSPECIAL\"],Name:\"§cWet Napkin\"}}",
-  "damage": 30878,
+  "displayname": "{\"text\":\"Wet Napkin\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:filled_map\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wet Napkin\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"An old wet napkin that appears\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to have some scribbling on the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"back, but part of it is too\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"blurry to make out:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The total \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true},{\\\"text\\\":\\\"--------\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true,\\\"obfuscated\\\":true},{\\\"text\\\":\\\" plus time\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}]}\",\"{\\\"text\\\":\\\"times time, all that subtracted\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"from thrice the commencement,\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"then add \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true},{\\\"text\\\":\\\"--\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true,\\\"obfuscated\\\":true},{\\\"text\\\":\\\" of yourself,\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}]}\",\"{\\\"text\\\":\\\"the whole thing elbuod.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7An old wet napkin that appears",
-    "§7to have some scribbling on the",
-    "§7back, but part of it is too",
-    "§7blurry to make out:",
-    "",
-    "§8§oThe total §8§o§k--------§8§o plus time",
-    "§8§otimes time, all that subtracted",
-    "§8§ofrom thrice the commencement,",
-    "§8§othen add §8§o§k--§8§o of yourself,",
-    "§8§othe whole thing elbuod.",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§c§lSPECIAL"
+    "{\"text\":\"An old wet napkin that appears\",\"color\":\"gray\"}",
+    "{\"text\":\"to have some scribbling on the\",\"color\":\"gray\"}",
+    "{\"text\":\"back, but part of it is too\",\"color\":\"gray\"}",
+    "{\"text\":\"blurry to make out:\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The total \",\"color\":\"dark_gray\",\"italic\":true},{\"text\":\"--------\",\"color\":\"dark_gray\",\"italic\":true,\"obfuscated\":true},{\"text\":\" plus time\",\"color\":\"dark_gray\",\"italic\":true}]}",
+    "{\"text\":\"times time, all that subtracted\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"from thrice the commencement,\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"then add \",\"color\":\"dark_gray\",\"italic\":true},{\"text\":\"--\",\"color\":\"dark_gray\",\"italic\":true,\"obfuscated\":true},{\"text\":\" of yourself,\",\"color\":\"dark_gray\",\"italic\":true}]}",
+    "{\"text\":\"the whole thing elbuod.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "WET_NAPKIN",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Wet_Napkin",
     "https://wiki.hypixel.net/Wet_Napkin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

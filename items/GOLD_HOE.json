@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:golden_hoe",
-  "displayname": "§fGolden Hoe",
-  "nbttag": "{ExtraAttributes:{id:\"GOLD_HOE\"},HideFlags:254,ItemModel:\"minecraft:golden_hoe\",Unbreakable:1B,display:{Lore:[0:\"§8This item can be reforged!\",1:\"§f§lCOMMON HOE\"],Name:\"§fGolden Hoe\"}}",
+  "displayname": "{\"text\":\"Golden Hoe\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_hoe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Golden Hoe\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON HOE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLD_HOE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8This item can be reforged!",
-    "§f§lCOMMON HOE"
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON HOE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GOLD_HOE",
   "clickcommand": "viewrecipe",
@@ -26,5 +26,8 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

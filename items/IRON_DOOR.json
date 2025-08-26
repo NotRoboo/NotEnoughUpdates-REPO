@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:iron_door",
-  "displayname": "§fIron Door",
-  "nbttag": "{ExtraAttributes:{id:\"IRON_DOOR\"},HideFlags:254,ItemModel:\"minecraft:iron_door\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fIron Door\"}}",
+  "displayname": "{\"text\":\"Iron Door\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_door\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Iron Door\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"IRON_DOOR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "IRON_DOOR",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "IRON_INGOT:1",
     "C3": "",
     "count": 3
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

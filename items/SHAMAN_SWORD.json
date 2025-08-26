@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§5Shaman Sword",
-  "nbttag": "{ExtraAttributes:{id:\"SHAMAN_SWORD\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+20\",2:\"§7Speed: §a+5\",3:\"\",4:\"§7Deal §c+1 Damage §7per §c50 max ❤§7.\",5:\"§7Receive §a-20% §7damage from wolves.\",6:\"§7Gain §3+30☯ Combat Wisdom§7 against wolves.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4☠ §cRequires §5Wolf Slayer 3§c.\",10:\"§5§lEPIC SWORD\"],Name:\"§5Shaman Sword\"}}",
+  "displayname": "{\"text\":\"Shaman Sword\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shaman Sword\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1 Damage \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50 max ❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Receive \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"-20% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"damage from wolves.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30☯ Combat Wisdom\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\" against wolves.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Wolf Slayer 3\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SHAMAN_SWORD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+100",
-    "§7Strength: §c+20",
-    "§7Speed: §a+5",
-    "",
-    "§7Deal §c+1 Damage §7per §c50 max ❤§7.",
-    "§7Receive §a-20% §7damage from wolves.",
-    "§7Gain §3+30☯ Combat Wisdom§7 against wolves.",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Wolf Slayer 3§c.",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"+1 Damage \",\"color\":\"red\"},{\"text\":\"per \",\"color\":\"gray\"},{\"text\":\"50 max ❤\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Receive \",\"color\":\"gray\"},{\"text\":\"-20% \",\"color\":\"green\"},{\"text\":\"damage from wolves.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+30☯ Combat Wisdom\",\"color\":\"dark_aqua\"},{\"text\":\" against wolves.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Wolf Slayer 3\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SHAMAN_SWORD",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C2": "ENCHANTED_BONE:4",
     "C3": ""
   },
-  "slayer_req": "WOLF_3"
+  "slayer_req": "WOLF_3",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

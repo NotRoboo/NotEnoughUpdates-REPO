@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§4§lUndead (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0ac53e90-4e60-388c-a754-092dd4578592\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1ODYwNDAyMDM1NzMsInByb2ZpbGVJZCI6ImRhNDk4YWM0ZTkzNzRlNWNiNjEyN2IzODA4NTU3OTgzIiwicHJvZmlsZU5hbWUiOiJOaXRyb2hvbGljXzIiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y0NjI0YTlhOGM2OWNhMjA0NTA0YWJiMDQzZDQ3NDU2Y2Q5YjA5NzQ5YTM2MzU3NDYyMzAzZjI3NmEyMjlkNCJ9fX0\"}]}},display:{Lore:[0:\"§7The Watcher´s personal henchmen\"],Name:\"§4§lUndead (Monster)\"},ExtraAttributes:{id:\"UNDEAD_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Undead (Monster)\",\"color\":\"dark_red\",\"bold\":true}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Undead (Monster)\\\",\\\"color\\\":\\\"dark_red\\\",\\\"bold\\\":true}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Watcher´s personal henchmen\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"UNDEAD_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Watcher´s personal henchmen"
+    "{\"text\":\"The Watcher´s personal henchmen\",\"color\":\"gray\"}"
   ],
   "internalname": "UNDEAD_MONSTER",
   "clickcommand": "viewrecipe",
@@ -50,5 +50,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

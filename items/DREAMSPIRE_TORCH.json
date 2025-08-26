@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:redstone_torch",
-  "displayname": "§cDreamspire Torch",
-  "nbttag": "{ExtraAttributes:{id:\"DREAMSPIRE_TORCH\"},HideFlags:254,ItemModel:\"minecraft:redstone_torch\",display:{Lore:[0:\"§7This torch replica representing the\",1:\"§7passion and dreams at §6Hypixel §7is now\",2:\"§7in your hands.\",3:\"\",4:\"§7Thank you for an amazing §b12 years\",5:\"§7and beyond!\",6:\"\",7:\"§c§lSPECIAL MEMENTO\"],Name:\"§cDreamspire Torch\"}}",
+  "displayname": "{\"text\":\"Dreamspire Torch\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:redstone_torch\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dreamspire Torch\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This torch replica representing the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"passion and dreams at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Hypixel \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"is now\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"in your hands.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Thank you for an amazing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"12 years\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"and beyond!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL MEMENTO\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DREAMSPIRE_TORCH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7This torch replica representing the",
-    "§7passion and dreams at §6Hypixel §7is now",
-    "§7in your hands.",
-    "",
-    "§7Thank you for an amazing §b12 years",
-    "§7and beyond!",
-    "",
-    "§c§lSPECIAL MEMENTO"
+    "{\"text\":\"This torch replica representing the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"passion and dreams at \",\"color\":\"gray\"},{\"text\":\"Hypixel \",\"color\":\"gold\"},{\"text\":\"is now\",\"color\":\"gray\"}]}",
+    "{\"text\":\"in your hands.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Thank you for an amazing \",\"color\":\"gray\"},{\"text\":\"12 years\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"and beyond!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL MEMENTO\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "DREAMSPIRE_TORCH",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dreamspire_Torch",
     "https://wiki.hypixel.net/Dreamspire_Torch"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

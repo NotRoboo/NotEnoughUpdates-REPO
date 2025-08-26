@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Doug (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8f1bdba9-9757-2a16-a4ba-7b2c8ad3921c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1NjIxOTZlYjcyNDVlMzM0ZjNiNzg4MzE1ZTgwZTgxYjI0ZDI4OTg4NDFiYjBhYzRmOTRjYWMxOTQ2YjExNzkifX19\"}]},Name:\"8f1bdba9-9757-2a16-a4ba-7b2c8ad3921c\"},display:{Lore:[0:\"§7Only appears during §eThe Carnival Event \",1:\"§7when §dFoxy §7is Mayor.\"],Name:\"§9Doug (NPC)\"},ExtraAttributes:{id:\"DOUG_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Doug (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Doug (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Only appears during \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Carnival Event \\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"when \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Foxy \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"is Mayor.\\\",\\\"color\\\":\\\"gray\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"DOUG_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Only appears during §eThe Carnival Event ",
-    "§7when §dFoxy §7is Mayor."
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Only appears during \",\"color\":\"gray\"},{\"text\":\"The Carnival Event \",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"when \",\"color\":\"gray\"},{\"text\":\"Foxy \",\"color\":\"light_purple\"},{\"text\":\"is Mayor.\",\"color\":\"gray\"}]}"
   ],
   "internalname": "DOUG_NPC",
   "clickcommand": "",
@@ -70,5 +70,8 @@
       ],
       "result": "FROG_MASK:1"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

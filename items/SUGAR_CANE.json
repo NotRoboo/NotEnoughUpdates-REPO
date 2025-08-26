@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:reeds",
-  "displayname": "§fSugar Cane",
-  "nbttag": "{ExtraAttributes:{id:\"SUGAR_CANE\"},HideFlags:254,ItemModel:\"minecraft:sugar_cane\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fSugar Cane\"}}",
+  "displayname": "{\"text\":\"Sugar Cane\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:reeds\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sugar Cane\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SUGAR_CANE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SUGAR_CANE",
   "clickcommand": "",
@@ -17,5 +17,8 @@
     "https://wiki.hypixel.net/Sugar_Cane",
     "https://hypixel-skyblock.fandom.com/wiki/Sugar_Cane"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

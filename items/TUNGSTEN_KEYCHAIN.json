@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Tungsten Regulator",
-  "nbttag": "{ExtraAttributes:{id:\"TUNGSTEN_KEYCHAIN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a238607f-2e8f-3539-ac93-896bec59c95d\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwOTA2MTIyNjgwNSwKICAicHJvZmlsZUlkIiA6ICI0MWZlYzZlMWQzNWM0ZDIyOWYxOGQ3OGRkZjk3ZGQzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSaWJva2luZ190dyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMGNkYjY2YjUxNzliMmFmNjBiN2NmMDQ1Y2Q0MDNjOWEzMDRhNGIxOGFhMWE1ZWFhMmQ4YzQ3ODIxNDkyOTRmIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§7Decreases your §c♨ Heat §7or §b❄ Cold\",3:\"§7by §a1 §7for every §2500 Fuel §7used.\",4:\"\",5:\"§7Put this item in the §6Upgrade Module\",6:\"§7slot of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§4❣ §cRequires §5Heart of the Mountain Tier 8§c.\",9:\"§9§lRARE\"],Name:\"§9Tungsten Regulator\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Tungsten Regulator\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tungsten Regulator\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Drill Part\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Decreases your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"♨ Heat \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"or \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❄ Cold\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"for every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"500 Fuel \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"used.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Put this item in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Upgrade Module\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"slot of a Drill at a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Drill Mechanic\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 8\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TUNGSTEN_KEYCHAIN\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcwOTA2MTIyNjgwNSwKICAicHJvZmlsZUlkIiA6ICI0MWZlYzZlMWQzNWM0ZDIyOWYxOGQ3OGRkZjk3ZGQzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSaWJva2luZ190dyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMGNkYjY2YjUxNzliMmFmNjBiN2NmMDQ1Y2Q0MDNjOWEzMDRhNGIxOGFhMWE1ZWFhMmQ4YzQ3ODIxNDkyOTRmIgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Drill Part",
-    "",
-    "§7Decreases your §c♨ Heat §7or §b❄ Cold",
-    "§7by §a1 §7for every §2500 Fuel §7used.",
-    "",
-    "§7Put this item in the §6Upgrade Module",
-    "§7slot of a Drill at a §2Drill Mechanic§7!",
-    "",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 8§c.",
-    "§9§lRARE"
+    "{\"text\":\"Drill Part\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Decreases your \",\"color\":\"gray\"},{\"text\":\"♨ Heat \",\"color\":\"red\"},{\"text\":\"or \",\"color\":\"gray\"},{\"text\":\"❄ Cold\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"1 \",\"color\":\"green\"},{\"text\":\"for every \",\"color\":\"gray\"},{\"text\":\"500 Fuel \",\"color\":\"dark_green\"},{\"text\":\"used.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Put this item in the \",\"color\":\"gray\"},{\"text\":\"Upgrade Module\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"slot of a Drill at a \",\"color\":\"gray\"},{\"text\":\"Drill Mechanic\",\"color\":\"dark_green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 8\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "TUNGSTEN_KEYCHAIN",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
       "duration": 64800,
       "overrideOutputId": "TUNGSTEN_KEYCHAIN"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

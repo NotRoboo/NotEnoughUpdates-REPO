@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:lapis_block",
-  "displayname": "§fLapis Lazuli Block",
-  "nbttag": "{ExtraAttributes:{id:\"LAPIS_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:lapis_block\",display:{Lore:[0:\"§f§lCOMMON ORE\"],Name:\"§fLapis Lazuli Block\"}}",
+  "displayname": "{\"text\":\"Lapis Lazuli Block\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:lapis_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lapis Lazuli Block\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON ORE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LAPIS_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON ORE"
+    "{\"text\":\"COMMON ORE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "LAPIS_BLOCK",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "INK_SACK-4:1",
     "C2": "INK_SACK-4:1",
     "C3": "INK_SACK-4:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

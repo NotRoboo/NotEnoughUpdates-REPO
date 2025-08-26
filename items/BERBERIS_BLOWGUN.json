@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§9Berberis Blowgun",
-  "nbttag": "{ExtraAttributes:{id:\"BERBERIS_BLOWGUN\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§6Ability: Swhooomp  §e§lRIGHT CLICK\",1:\"§7Shoot an arrow. Doesn't deal damage.\",2:\"§7Except to chickens.\",3:\"§8Mana Cost: §35\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Berberis Blowgun\"}}",
+  "displayname": "{\"text\":\"Berberis Blowgun\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Berberis Blowgun\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Swhooomp \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Shoot an arrow. Doesn\u0027t deal damage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Except to chickens.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"5\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BERBERIS_BLOWGUN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Swhooomp  §e§lRIGHT CLICK",
-    "§7Shoot an arrow. Doesn't deal damage.",
-    "§7Except to chickens.",
-    "§8Mana Cost: §35",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Swhooomp \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Shoot an arrow. Doesn\u0027t deal damage.\",\"color\":\"gray\"}",
+    "{\"text\":\"Except to chickens.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"5\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BERBERIS_BLOWGUN",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C1": "",
     "C2": "WILTED_BERBERIS:20",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

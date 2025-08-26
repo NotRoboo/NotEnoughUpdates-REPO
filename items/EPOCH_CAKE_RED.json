@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aaPunch Century Cake",
-  "nbttag": "{ExtraAttributes:{id:\"EPOCH_CAKE_RED\",yearObtained:200},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8293fe78-9dc2-38b0-ad3e-fbc518903a4f\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQwOWJkOTYwN2Y0YzFkNjk0ZjYyNTNjOGI2NzFkMDkyZjhiMTZjYTdmNjZlYmZkNjdlZjlkODY0MDI0Nzc0YiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"\",2:\"§7Furniture can be placed on your\",3:\"§7world. Some furniture is\",4:\"§7interactable while some are\",5:\"§7purely cosmetic.\",6:\"\",7:\"§7Invite your friends to share a\",8:\"§7slice of cake! Eating this cake\",9:\"§7grants §c+2❁ Strength §7for 48\",10:\"§7hours.\",11:\"\",12:\"§7Obtained in §fYear 200§7.\",13:\"\",14:\"§a§lUNCOMMON\"],Name:\"§aaPunch Century Cake\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"aPunch Century Cake\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"aPunch Century Cake\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Furniture can be placed on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"world. Some furniture is\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"interactable while some are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"purely cosmetic.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Invite your friends to share a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"slice of cake! Eating this cake\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2❁ Strength \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"for 48\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"hours.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Year 200\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"yearObtained\":200,\"id\":\"EPOCH_CAKE_RED\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQwOWJkOTYwN2Y0YzFkNjk0ZjYyNTNjOGI2NzFkMDkyZjhiMTZjYTdmNjZlYmZkNjdlZjlkODY0MDI0Nzc0YiJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "",
-    "§7Furniture can be placed on your",
-    "§7world. Some furniture is",
-    "§7interactable while some are",
-    "§7purely cosmetic.",
-    "",
-    "§7Invite your friends to share a",
-    "§7slice of cake! Eating this cake",
-    "§7grants §c+2❁ Strength §7for 48",
-    "§7hours.",
-    "",
-    "§7Obtained in §fYear 200§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Furniture can be placed on your\",\"color\":\"gray\"}",
+    "{\"text\":\"world. Some furniture is\",\"color\":\"gray\"}",
+    "{\"text\":\"interactable while some are\",\"color\":\"gray\"}",
+    "{\"text\":\"purely cosmetic.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Invite your friends to share a\",\"color\":\"gray\"}",
+    "{\"text\":\"slice of cake! Eating this cake\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"grants \",\"color\":\"gray\"},{\"text\":\"+2❁ Strength \",\"color\":\"red\"},{\"text\":\"for 48\",\"color\":\"gray\"}]}",
+    "{\"text\":\"hours.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained in \",\"color\":\"gray\"},{\"text\":\"Year 200\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "EPOCH_CAKE_RED",
   "clickcommand": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Century_Cake",
     "https://wiki.hypixel.net/Century_Cake"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

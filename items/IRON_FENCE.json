@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:iron_bars",
-  "displayname": "§fIron Bars",
-  "nbttag": "{ExtraAttributes:{id:\"IRON_FENCE\"},HideFlags:254,ItemModel:\"minecraft:iron_bars\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fIron Bars\"}}",
+  "displayname": "{\"text\":\"Iron Bars\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_bars\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Iron Bars\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"IRON_FENCE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "IRON_FENCE",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 16
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aSupreme Chocolate Bar",
-  "nbttag": "{ExtraAttributes:{id:\"SUPREME_CHOCOLATE_BAR\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1d4e4853-594f-3604-a9c6-3e2c5a353e76\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMTk3OTUyOTAwNywKICAicHJvZmlsZUlkIiA6ICJlZjVjZjkzYWFhMTY0ZTMyODQ4NDYxYjIzNGQ1YWJhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU0YjdmM2YyYTZmMGQxYzJjMDU0Njc4MTI4ZWMyMzIyNjE5YWVmZmYwZjQ1MGMzOTBkNmE0MWI1OTUwMzAyZSIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Bring §63,000 §7of these to §5Carrolyn §7in\",1:\"§5Scarleton §7to permanently gain §c+5❤\",2:\"§cHealth §7and §6+12☘ Cocoa Beans\",3:\"§6Fortune§7.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aSupreme Chocolate Bar\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Supreme Chocolate Bar\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Supreme Chocolate Bar\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3,000 \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"of these to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Carrolyn \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"in\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Scarleton \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"to permanently gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+12☘ Cocoa Beans\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SUPREME_CHOCOLATE_BAR\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxMTk3OTUyOTAwNywKICAicHJvZmlsZUlkIiA6ICJlZjVjZjkzYWFhMTY0ZTMyODQ4NDYxYjIzNGQ1YWJhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU0YjdmM2YyYTZmMGQxYzJjMDU0Njc4MTI4ZWMyMzIyNjE5YWVmZmYwZjQ1MGMzOTBkNmE0MWI1OTUwMzAyZSIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Bring §63,000 §7of these to §5Carrolyn §7in",
-    "§5Scarleton §7to permanently gain §c+5❤",
-    "§cHealth §7and §6+12☘ Cocoa Beans",
-    "§6Fortune§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring \",\"color\":\"gray\"},{\"text\":\"3,000 \",\"color\":\"gold\"},{\"text\":\"of these to \",\"color\":\"gray\"},{\"text\":\"Carrolyn \",\"color\":\"dark_purple\"},{\"text\":\"in\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Scarleton \",\"color\":\"dark_purple\"},{\"text\":\"to permanently gain \",\"color\":\"gray\"},{\"text\":\"+5❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health \",\"color\":\"red\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"+12☘ Cocoa Beans\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fortune\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SUPREME_CHOCOLATE_BAR",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Supreme_Chocolate_Bar",
     "https://wiki.hypixel.net/Supreme_Chocolate_Bar"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

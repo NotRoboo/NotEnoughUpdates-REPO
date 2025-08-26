@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:beef",
-  "displayname": "§fRaw Beef",
-  "nbttag": "{ExtraAttributes:{id:\"RAW_BEEF\"},HideFlags:254,ItemModel:\"minecraft:beef\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRaw Beef\"}}",
+  "displayname": "{\"text\":\"Raw Beef\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:beef\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Raw Beef\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RAW_BEEF\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "RAW_BEEF",
   "clickcommand": "",
@@ -12,5 +12,8 @@
   "modver": "Firmament 3.2.0-dev+mc1.21.5+g64ef955",
   "infoType": "",
   "info": [],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

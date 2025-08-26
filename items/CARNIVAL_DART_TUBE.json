@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§aCarnival Dart Tube",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§6Ability: Phwomp  §e§lRIGHT CLICK\",1:\"§7Shoots a dart. Can only damage\",2:\"§7§cZombies §7from §cZombie Shootout§7.\",3:\"\",4:\"§8§l* §8Soulbound §8§l*\",5:\"§a§lUNCOMMON\"],Name:\"§aCarnival Dart Tube\"},ExtraAttributes:{id:\"CARNIVAL_DART_TUBE\"}}",
+  "displayname": "{\"text\":\"Carnival Dart Tube\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Carnival Dart Tube\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Phwomp \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Shoots a dart. Can only damage\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Zombies \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"from \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Zombie Shootout\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CARNIVAL_DART_TUBE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Phwomp  §e§lRIGHT CLICK",
-    "§7Shoots a dart. Can only damage",
-    "§7§cZombies §7from §cZombie Shootout§7.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Phwomp \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Shoots a dart. Can only damage\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Zombies \",\"color\":\"red\"},{\"text\":\"from \",\"color\":\"gray\"},{\"text\":\"Zombie Shootout\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CARNIVAL_DART_TUBE",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Carnival_Dart_Tube",
     "https://wiki.hypixel.net/Carnival_Dart_Tube"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

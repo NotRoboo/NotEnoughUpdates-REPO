@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aAxolotl (Animal)",
-  "nbttag": "{ExtraAttributes:{id:\"AXOLOTL_ANIMAL\"},HideFlags:254,SkullOwner:{Id:\"e1e1c2e4-1ed2-473d-bde2-3ec718535399\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMTgyMjg0NjM0NCwKICAicHJvZmlsZUlkIiA6ICI3YjA5ZDg5NWQyYjc0NTU3YmM0YTkzNWYyNjU0NWNjNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJwbGFuZUdvQnJyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VjNjMzOTc2MzRmN2EyMjg5MDUwZTExNmM1YTVmY2U3YzMyYzc2OTY4YWZmYWMyN2FmZDExNjAzYjY4MDhkZDciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"§7The Axolotl is a passive mob that can be found on §2Galatea§7.\"],Name:\"§aAxolotl (Animal)\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Axolotl (Animal)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Axolotl (Animal)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The Axolotl is a passive mob that can be found on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Galatea\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"AXOLOTL_ANIMAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Axolotl is a passive mob that can be found on §2Galatea§7."
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The Axolotl is a passive mob that can be found on \",\"color\":\"gray\"},{\"text\":\"Galatea\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}"
   ],
   "internalname": "AXOLOTL_ANIMAL",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

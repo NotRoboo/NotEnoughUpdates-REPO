@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:wooden_sword",
-  "displayname": "§fWooden Sword",
-  "nbttag": "{ExtraAttributes:{id:\"WOOD_SWORD\"},HideFlags:254,ItemModel:\"minecraft:wooden_sword\",display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§8This item can be reforged!\",3:\"§f§lCOMMON SWORD\"],Name:\"§fWooden Sword\"}}",
+  "displayname": "{\"text\":\"Wooden Sword\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wooden Sword\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON SWORD\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WOOD_SWORD\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+20",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON SWORD\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WOOD_SWORD",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

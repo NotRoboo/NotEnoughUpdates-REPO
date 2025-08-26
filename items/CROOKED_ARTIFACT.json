@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Crooked Artifact",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"a8ed4294-1a13-3ad2-a8e9-5b7e77f40b80\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NzUyNzA1MzcwOTgsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzViN2ZmODhkMTU0ZDA0YThhMjY5OTVjOTlmNjRlNTNiNTc0YzdiODJlYzIxYTEyYTllNDQ4YmNhMWU3MGY0NjEifX19\"}]}},display:{Lore:[0:\"§7Get 2% off on most shops.\",1:\"\",2:\"§8§l* §8Soulbound §8§l*\",3:\"§9§lRARE ACCESSORY\"],Name:\"§9Crooked Artifact\"},ExtraAttributes:{modifier:\"itchy\",id:\"CROOKED_ARTIFACT\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Crooked Artifact\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Crooked Artifact\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Get 2% off on most shops.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE ACCESSORY\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"modifier\":\"itchy\",\"id\":\"CROOKED_ARTIFACT\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Get 2% off on most shops.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§9§lRARE ACCESSORY"
+    "{\"text\":\"Get 2% off on most shops.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE ACCESSORY\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "CROOKED_ARTIFACT",
   "clickcommand": "",
@@ -24,5 +24,8 @@
       "result": "CROOKED_ARTIFACT"
     }
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

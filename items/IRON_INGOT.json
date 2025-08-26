@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:iron_ingot",
-  "displayname": "§fIron Ingot",
-  "nbttag": "{ExtraAttributes:{id:\"IRON_INGOT\"},HideFlags:254,ItemModel:\"minecraft:iron_ingot\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON ORE\"],Name:\"§fIron Ingot\"}}",
+  "displayname": "{\"text\":\"Iron Ingot\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_ingot\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Iron Ingot\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON ORE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"IRON_INGOT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON ORE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON ORE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "IRON_INGOT",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C2": "",
     "C3": "",
     "count": 9
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

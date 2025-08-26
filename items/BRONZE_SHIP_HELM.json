@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Bronze Ship Helm",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"28eab070-3cd9-31d3-9617-0f61cac1d25f\",hypixelPopulated:1b,Properties:{textures:[0:{Signature:\"RB4+I7ewaYWy5iZgJqJuugpQx5SzyIN1/jeSOJ4tL8m+TLw0DiaI/LrIT1uU7BaK0ua5MJkxl3IrNI8A+6KA4f2qIJVy1aDStzuFglv22b3FQTcDd53+z26DipwnMFc1wzjZDK2KXU7SMAHFiRBCzzjjvOQirIYqU4dcTYFhal5pBTe6/kDrnhQr0csGmb477+hAvtfK5Hw8QMQTuT3nxeYj/H7V2582DkQRgnUnqiU49c1n2MNT5c/VvCJruRI1C3sH9BNN+oGFMQXnw1WaEDb8jVrPisUahMnWuqq91gFjUyJLpT/G+40nDSHwUVSemJ3lHR5vSBOWOKppCYaHGE1v4b1zZm+QFV+7aapQ9CIiNyFikqHQVQ0zU7gGujbLnAuh4UYtFqdTriMV40tlwP/gHPVjIyrF1NN7TJt3zcIHM5xgf25eAb5uh2hwa3v5zXybqK5OmyAOE+C+mUTGjQVH0H6RGcta3guP+By7sZ3v7Oez7KQZqPUNPGezDyItVAmGA1ewiWIMVOYYmap/vJNaS2gebDaAjA1sxRNbjlJKTgkMcx1SDNaJARbtqGqiptMmMV8+2KH95K5hqmKX23n84IBAfkW3u+xbO/u5LGmOT/HcMtnGTDscKIcnoPB2wPL6U453zTwlcHCkZTo4yMvDUiZQJA+6+HHndd/AZmM\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc0MDE1NjgzODc1NCwKICAicHJvZmlsZUlkIiA6ICIzMzU3MWJiY2UyMDE0MTRiYmNkMDYyMjEyZTI4MjBlMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFkb21JbmF0b3I0NzgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ2YzUzOTNjM2M1Nzc0MmM5OTJjNTZhN2I3YThiOThkMjY3NTM4ZGU5NDdjMTA5NmZlNzYzNDE0MzEwMDhmMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7§8Ship Part\",1:\"\",2:\"§7Bring this item to §6Captain Baha§7.\",3:\"\",4:\"§7Grants §3+0.5☯ Fishing Wisdom §7when\",5:\"§7attached to your §6Ship§7.\",6:\"\",7:\"§8§l* §8Soulbound §8§l*\",8:\"§9§lRARE\"],Name:\"§9Bronze Ship Helm\"},ExtraAttributes:{id:\"BRONZE_SHIP_HELM\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bronze Ship Helm\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bronze Ship Helm\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Ship Part\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring this item to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Captain Baha\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+0.5☯ Fishing Wisdom \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"attached to your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Ship\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BRONZE_SHIP_HELM\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§8Ship Part",
-    "",
-    "§7Bring this item to §6Captain Baha§7.",
-    "",
-    "§7Grants §3+0.5☯ Fishing Wisdom §7when",
-    "§7attached to your §6Ship§7.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§9§lRARE"
+    "{\"text\":\"Ship Part\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring this item to \",\"color\":\"gray\"},{\"text\":\"Captain Baha\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+0.5☯ Fishing Wisdom \",\"color\":\"dark_aqua\"},{\"text\":\"when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"attached to your \",\"color\":\"gray\"},{\"text\":\"Ship\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "",
@@ -32,5 +32,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Bronze_Ship_Helm"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

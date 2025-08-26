@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:yellow_flower",
-  "displayname": "§aEnchanted Dandelion",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_DANDELION\"},HideFlags:254,ItemModel:\"minecraft:dandelion\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§8Machine Fuel\",3:\"\",4:\"§7Adds §2+360♢ Fuel §7to a refuelable\",5:\"§7machine.\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Dandelion\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Dandelion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:yellow_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Dandelion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Machine Fuel\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Adds \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+360♢ Fuel \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"to a refuelable\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"machine.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_DANDELION\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§8Machine Fuel",
-    "",
-    "§7Adds §2+360♢ Fuel §7to a refuelable",
-    "§7machine.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Machine Fuel\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Adds \",\"color\":\"gray\"},{\"text\":\"+360♢ Fuel \",\"color\":\"dark_green\"},{\"text\":\"to a refuelable\",\"color\":\"gray\"}]}",
+    "{\"text\":\"machine.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_DANDELION",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "",
     "C2": "YELLOW_FLOWER:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

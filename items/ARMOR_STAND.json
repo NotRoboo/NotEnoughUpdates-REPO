@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:armor_stand",
-  "displayname": "§fArmor Stand",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fArmor Stand\"},ExtraAttributes:{id:\"ARMOR_STAND\"}}",
+  "displayname": "{\"text\":\"Armor Stand\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:armor_stand\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Armor Stand\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ARMOR_STAND\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ARMOR_STAND",
   "modver": "2.1.0-REL",
@@ -24,5 +24,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Armor_Stand"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

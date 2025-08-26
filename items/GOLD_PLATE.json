@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:light_weighted_pressure_plate",
-  "displayname": "§fLight Weighted Pressure Plate",
-  "nbttag": "{ExtraAttributes:{id:\"GOLD_PLATE\"},HideFlags:254,ItemModel:\"minecraft:light_weighted_pressure_plate\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fLight Weighted Pressure Plate\"}}",
+  "displayname": "{\"text\":\"Light Weighted Pressure Plate\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:light_weighted_pressure_plate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Light Weighted Pressure Plate\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLD_PLATE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GOLD_PLATE",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

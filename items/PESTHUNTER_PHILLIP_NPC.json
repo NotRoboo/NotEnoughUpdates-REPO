@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Pesthunter Phillip (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"9d9eb068-6505-2bd7-8de7-054bfcd05256\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JkMGY2ODlmYzQ3ZDNmNzc3M2RiZmMzNmFmNDZhNDFlMTRlNDNiNDgwZDg5MWJmNGI5YmYxZWI4MDQzODE3NDIifX19\"}]},Name:\"9d9eb068-6505-2bd7-8de7-054bfcd05256\"},display:{Lore:[0:\"§7Using §2Pests §7as currency, purchase\",1:\"§7a variety of bits \u0027n bobs that §6Phillip\",2:\"§7has held onto over the years!\"],Name:\"§9Pesthunter Phillip (NPC)\"},ExtraAttributes:{id:\"PESTHUNTER_PHILLIP_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Pesthunter Phillip (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pesthunter Phillip (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Using \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Pests \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"as currency, purchase\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a variety of bits \u0027n bobs that \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Phillip\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"has held onto over the years!\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"PESTHUNTER_PHILLIP_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Using §2Pests §7as currency, purchase",
-    "§7a variety of bits \u0027n bobs that §6Phillip",
-    "§7has held onto over the years!"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Using \",\"color\":\"gray\"},{\"text\":\"Pests \",\"color\":\"dark_green\"},{\"text\":\"as currency, purchase\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a variety of bits \u0027n bobs that \",\"color\":\"gray\"},{\"text\":\"Phillip\",\"color\":\"gold\"}]}",
+    "{\"text\":\"has held onto over the years!\",\"color\":\"gray\"}"
   ],
   "internalname": "PESTHUNTER_PHILLIP_NPC",
   "crafttext": "",
@@ -120,5 +120,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pesthunter_Phillip",
     "https://wiki.hypixel.net/Pesthunter_Phillip"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:wooden_pickaxe",
-  "displayname": "§aRusty Titanium Pickaxe",
-  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 5\",1:\"\",2:\"§7Damage: §c+55\",3:\"§7Mining Speed: §a+100\",4:\"\",5:\"§7Grants §6+25☘ Mining Fortune §7when\",6:\"§7mining §fTitanium Ore§7.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§a§lUNCOMMON PICKAXE\"],Name:\"§aRusty Titanium Pickaxe\"},ExtraAttributes:{id:\"RUSTY_TITANIUM_PICKAXE\"}}",
+  "displayname": "{\"text\":\"Rusty Titanium Pickaxe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rusty Titanium Pickaxe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 5\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+55\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25☘ Mining Fortune \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"mining \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Titanium Ore\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON PICKAXE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RUSTY_TITANIUM_PICKAXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 5",
-    "",
-    "§7Damage: §c+55",
-    "§7Mining Speed: §a+100",
-    "",
-    "§7Grants §6+25☘ Mining Fortune §7when",
-    "§7mining §fTitanium Ore§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§a§lUNCOMMON PICKAXE"
+    "{\"text\":\"Breaking Power 5\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+55\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+25☘ Mining Fortune \",\"color\":\"gold\"},{\"text\":\"when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"mining \",\"color\":\"gray\"},{\"text\":\"Titanium Ore\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON PICKAXE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "RUSTY_TITANIUM_PICKAXE",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Rusty_Titanium_Pickaxe",
     "https://wiki.hypixel.net/Rusty_Titanium_Pickaxe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

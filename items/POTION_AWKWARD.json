@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fAwkward Potion",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Use Awkward Potions in Brewing\",1:\"§7Stands with items labeled as Brewing\",2:\"§7Ingredients to brew Potions.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fAwkward Potion\"},ExtraAttributes:{enhanced:0b,last_potion_ingredient:\"NETHER_STALK\",potion_type:\"AWKWARD\",id:\"POTION_AWKWARD\",extended:0b,should_give_alchemy_exp:1b}}",
-  "damage": 16,
+  "displayname": "{\"text\":\"Awkward Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Awkward Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Use Awkward Potions in Brewing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Stands with items labeled as Brewing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Ingredients to brew Potions.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"enhanced\":false,\"last_potion_ingredient\":\"NETHER_STALK\",\"potion_type\":\"AWKWARD\",\"id\":\"POTION_AWKWARD\",\"extended\":false,\"should_give_alchemy_exp\":true},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Use Awkward Potions in Brewing",
-    "§7Stands with items labeled as Brewing",
-    "§7Ingredients to brew Potions.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Use Awkward Potions in Brewing\",\"color\":\"gray\"}",
+    "{\"text\":\"Stands with items labeled as Brewing\",\"color\":\"gray\"}",
+    "{\"text\":\"Ingredients to brew Potions.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_AWKWARD",
   "crafttext": "",
   "clickcommand": "",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

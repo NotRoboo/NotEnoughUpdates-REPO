@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:prismarine",
-  "displayname": "§fDark Prismarine",
-  "nbttag": "{ExtraAttributes:{id:\"PRISMARINE-2\"},HideFlags:254,ItemModel:\"minecraft:dark_prismarine\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDark Prismarine\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Dark Prismarine\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:prismarine\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dark Prismarine\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PRISMARINE-2\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "PRISMARINE-2",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C1": "PRISMARINE_SHARD:1",
     "C2": "PRISMARINE_SHARD:1",
     "C3": "PRISMARINE_SHARD:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

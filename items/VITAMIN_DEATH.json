@@ -1,23 +1,23 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Vitamin Death",
-  "nbttag": "{ExtraAttributes:{id:\"VITAMIN_DEATH\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"15a838c5-55db-30c7-bbb7-af8a96f86b7e\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1MTgwNzEwOTUyNSwKICAicHJvZmlsZUlkIiA6ICJhMWU4OThjNWEyNmY0MTYyOTQyYmNmNmM1MzRiMTE5ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0b21keGlpaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMjRkNTkzOWM3MTZkNDdkODgzNDVhMGVjMzZmMjU2ZGRkNzMzYWQxNjlkM2M2NGIzOGM3MzQxNmQ1MzA4NTk5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Power Stone\",1:\"§7Combine §a9x §7of this stone at the\",2:\"§6Thaumaturgist §7to permanently\",3:\"§7unlock the §aHealthy §7power.\",4:\"\",5:\"§7At §6§k1,000§r §6Magical Power§7:\",6:\"§c+§c§k1,086❤§r §cHealth\",7:\"\",8:\"§7Unique Power Bonus:\",9:\"§c+200❤ Health\",10:\"\",11:\"§7Requires §aCombat Skill Level XXX§7!\",12:\"\",13:\"§6§lLEGENDARY POWER STONE\"],Name:\"§6Vitamin Death\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Vitamin Death\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Vitamin Death\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Power Stone\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Combine \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"9x \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of this stone at the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Thaumaturgist \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"to permanently\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"unlock the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Healthy \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"power.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"At \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1,000\\\",\\\"color\\\":\\\"gold\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Magical Power\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\":\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"1,086❤\\\",\\\"color\\\":\\\"red\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Health\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Unique Power Bonus:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"+200❤ Health\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Combat Skill Level XXX\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY POWER STONE\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"VITAMIN_DEATH\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY1MTgwNzEwOTUyNSwKICAicHJvZmlsZUlkIiA6ICJhMWU4OThjNWEyNmY0MTYyOTQyYmNmNmM1MzRiMTE5ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0b21keGlpaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMjRkNTkzOWM3MTZkNDdkODgzNDVhMGVjMzZmMjU2ZGRkNzMzYWQxNjlkM2M2NGIzOGM3MzQxNmQ1MzA4NTk5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Power Stone",
-    "§7Combine §a9x §7of this stone at the",
-    "§6Thaumaturgist §7to permanently",
-    "§7unlock the §aHealthy §7power.",
-    "",
-    "§7At §6§k1,000§r §6Magical Power§7:",
-    "§c+§c§k1,086❤§r §cHealth",
-    "",
-    "§7Unique Power Bonus:",
-    "§c+200❤ Health",
-    "",
-    "§7Requires §aCombat Skill Level XXX§7!",
-    "",
-    "§6§lLEGENDARY POWER STONE"
+    "{\"text\":\"Power Stone\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Combine \",\"color\":\"gray\"},{\"text\":\"9x \",\"color\":\"green\"},{\"text\":\"of this stone at the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Thaumaturgist \",\"color\":\"gold\"},{\"text\":\"to permanently\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"unlock the \",\"color\":\"gray\"},{\"text\":\"Healthy \",\"color\":\"green\"},{\"text\":\"power.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"At \",\"color\":\"gray\"},{\"text\":\"1,000\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Magical Power\",\"color\":\"gold\"},{\"text\":\":\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+\",\"color\":\"red\"},{\"text\":\"1,086❤\",\"color\":\"red\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Health\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Unique Power Bonus:\",\"color\":\"gray\"}",
+    "{\"text\":\"+200❤ Health\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"Combat Skill Level XXX\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY POWER STONE\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "VITAMIN_DEATH",
   "clickcommand": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Vitamin_Death",
     "https://wiki.hypixel.net/Vitamin_Death"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

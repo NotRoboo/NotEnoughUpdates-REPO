@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:snowball",
-  "displayname": "§fSnowball",
-  "nbttag": "{ExtraAttributes:{id:\"SNOW_BALL\"},HideFlags:254,ItemModel:\"minecraft:snowball\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fSnowball\"}}",
+  "displayname": "{\"text\":\"Snowball\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:snowball\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Snowball\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SNOW_BALL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SNOW_BALL",
   "clickcommand": "",
@@ -12,5 +12,8 @@
   "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "",
   "info": [],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

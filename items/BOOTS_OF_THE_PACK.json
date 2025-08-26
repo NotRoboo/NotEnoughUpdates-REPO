@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:iron_boots",
-  "displayname": "§5Boots of the Pack",
-  "nbttag": "{ExtraAttributes:{id:\"BOOTS_OF_THE_PACK\"},HideFlags:254,ItemModel:\"minecraft:iron_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+50\",1:\"§7Defense: §a+45\",2:\"\",3:\"§7Gain §a+50❈ Defense §7against animals.\",4:\"§7Gain §f+5❂ True Defense§7.\",5:\"\",6:\"§6Full Set Bonus: §cArmor of the Pack §7(0/4)\",7:\"§7Gain §c+35❁ Strength §7and §a+80❈\",8:\"§aDefense §7for each §cArmor of the Pack\",9:\"§7wearer within §a30 §7blocks.\",10:\"§8Max of 3 players!\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4☠ §cRequires §5Wolf Slayer 6§c.\",14:\"§5§lEPIC BOOTS\"],Name:\"§5Boots of the Pack\"}}",
+  "displayname": "{\"text\":\"Boots of the Pack\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Boots of the Pack\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+45\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50❈ Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"against animals.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5❂ True Defense\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"Armor of the Pack \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35❁ Strength \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+80❈\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"for each \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Armor of the Pack\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"wearer within \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"30 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"blocks.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Max of 3 players!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Wolf Slayer 6\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC BOOTS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BOOTS_OF_THE_PACK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+50",
-    "§7Defense: §a+45",
-    "",
-    "§7Gain §a+50❈ Defense §7against animals.",
-    "§7Gain §f+5❂ True Defense§7.",
-    "",
-    "§6Full Set Bonus: §cArmor of the Pack §7(0/4)",
-    "§7Gain §c+35❁ Strength §7and §a+80❈",
-    "§aDefense §7for each §cArmor of the Pack",
-    "§7wearer within §a30 §7blocks.",
-    "§8Max of 3 players!",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Wolf Slayer 6§c.",
-    "§5§lEPIC BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+45\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+50❈ Defense \",\"color\":\"green\"},{\"text\":\"against animals.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+5❂ True Defense\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: \",\"color\":\"gold\"},{\"text\":\"Armor of the Pack \",\"color\":\"red\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+35❁ Strength \",\"color\":\"red\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"+80❈\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense \",\"color\":\"green\"},{\"text\":\"for each \",\"color\":\"gray\"},{\"text\":\"Armor of the Pack\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"wearer within \",\"color\":\"gray\"},{\"text\":\"30 \",\"color\":\"green\"},{\"text\":\"blocks.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Max of 3 players!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Wolf Slayer 6\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC BOOTS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "BOOTS_OF_THE_PACK",
   "clickcommand": "viewrecipe",
@@ -40,5 +40,8 @@
     "C2": "",
     "C3": "ENCHANTED_MUTTON:32"
   },
-  "slayer_req": "WOLF_6"
+  "slayer_req": "WOLF_6",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

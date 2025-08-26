@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Iron Minion IX",
-  "nbttag": "{ExtraAttributes:{id:\"IRON_GENERATOR_9\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d205edc0-a9cd-36d7-b727-d731faa13b60\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ZTpHvXHCnGvuHaOkBCLHR47fwlyKNebKsN5QghPU06kJA6jtDhwutvxnZmhEbyUTzHR0QLwBY3nhK46D8NIAzRwyrEqC00HamrF7MGnKNzTgp1N1SN4ur/mNAmYyUbPS3DfV26Aa5Ccb1RfOrT4zcznNPu1EHH2oyH+/PByq6TkwYOAS5dp0k5WDwSX7TgVpNDK4ZHs9oTt+dUUCxAEkRHxrfpqtCzLi1niktqVjH+pq1N45bXOt8uWW9K8lBdVVJObeJY859v0speZ0nAF5ybcHT1qTiE2Gf++GERKGPW9b3QJspAFFu5plGy8EtAAOrpKsjdyaOaJPA4spBG4/8Z3On0/mG9ffHDHl04VchaMrLdjqWiNk0tAbdnzxW07holzLdJaBQ4YppVR9mVOL/aY1Jg+jQfP2QnYYvwP67/jtVzPvlvoAZTWnQ3fc6MZ/GGrtPbaeAmV9XAv/CytmlOG1YygZon0EV46tNech6W7AczUmh2KviUALhZO5P5lBIN6p0t544eqigWELSjviRJwCdv8kuIWDWyqTUIJJKNhDv6cN2s752ME5rUX2UyBvfLhTzVVXYzaREloI64uWhxPkRo3zegpRZF4P3WqxcGA7Yr6spt8WYrZHM/eKS5t2wLjrhFEAIKewxff6qmVwulbdgLGxibT3D0uikrnXab0=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzczMjU5NTQsInByb2ZpbGVJZCI6ImU3NmYwZDlhZjc4MjQyYzM5NDY2ZDY3MjE3MzBmNDUzIiwicHJvZmlsZU5hbWUiOiJLbGxscmFoIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNjc5YTc0OGQ0MDc1NGQ0ZTViYzQxOGQxNTIwNjRjN2FlZWU0MTIxYTJiMWQ4ZTA1OGQwYjAzMjZmOGJmZjMifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining iron ore!\",2:\"§7Requires an open area to place iron\",3:\"§7ore. Minions also work when you are\",4:\"§7offline!\",5:\"\",6:\"§7Time Between Actions: §a10s\",7:\"§7Max Storage: §e768\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Iron Minion IX\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Iron Minion IX\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Iron Minion IX\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and mining iron ore!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Requires an open area to place iron\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"ore. Minions also work when you are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"768\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"IRON_GENERATOR_9\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NTc5MzczMjU5NTQsInByb2ZpbGVJZCI6ImU3NmYwZDlhZjc4MjQyYzM5NDY2ZDY3MjE3MzBmNDUzIiwicHJvZmlsZU5hbWUiOiJLbGxscmFoIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNjc5YTc0OGQ0MDc1NGQ0ZTViYzQxOGQxNTIwNjRjN2FlZWU0MTIxYTJiMWQ4ZTA1OGQwYjAzMjZmOGJmZjMifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and mining iron ore!",
-    "§7Requires an open area to place iron",
-    "§7ore. Minions also work when you are",
-    "§7offline!",
-    "",
-    "§7Time Between Actions: §a10s",
-    "§7Max Storage: §e768",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and mining iron ore!\",\"color\":\"gray\"}",
+    "{\"text\":\"Requires an open area to place iron\",\"color\":\"gray\"}",
+    "{\"text\":\"ore. Minions also work when you are\",\"color\":\"gray\"}",
+    "{\"text\":\"offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"10s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"768\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "IRON_GENERATOR_9",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C2": "ENCHANTED_IRON:32",
     "C3": "ENCHANTED_IRON:32"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

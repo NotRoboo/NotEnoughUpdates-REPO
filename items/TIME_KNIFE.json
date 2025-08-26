@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:nether_star",
-  "displayname": "§cTime Shuriken",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Can be thrown at §eSun Gecko §7to\",1:\"§7upkeep your combo.\",2:\"\",3:\"§7§8§oWhy are you reading this? Go fight\",4:\"§8§oSun Gecko!\",5:\"\",6:\"§8§l* §8Soulbound §8§l*\",7:\"§c§lSPECIAL SWORD\"],Name:\"§cTime Shuriken\"},ExtraAttributes:{id:\"TIME_KNIFE\"}}",
+  "displayname": "{\"text\":\"Time Shuriken\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:nether_star\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Time Shuriken\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be thrown at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sun Gecko \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"upkeep your combo.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Why are you reading this? Go fight\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"Sun Gecko!\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL SWORD\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TIME_KNIFE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Can be thrown at §eSun Gecko §7to",
-    "§7upkeep your combo.",
-    "",
-    "§7§8§oWhy are you reading this? Go fight",
-    "§8§oSun Gecko!",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§c§lSPECIAL SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be thrown at \",\"color\":\"gray\"},{\"text\":\"Sun Gecko \",\"color\":\"yellow\"},{\"text\":\"to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"upkeep your combo.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Why are you reading this? Go fight\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"Sun Gecko!\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL SWORD\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "TIME_KNIFE",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Time_Shuriken"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

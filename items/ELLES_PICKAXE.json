@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:iron_pickaxe",
-  "displayname": "§cElle\u0027s Pickaxe",
-  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 5\",1:\"\",2:\"§7Damage: §c+10\",3:\"§7Mining Speed: §a+250\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§c§lSPECIAL PICKAXE\"],Name:\"§cElle\u0027s Pickaxe\"},ExtraAttributes:{id:\"ELLES_PICKAXE\",dontSaveToProfile:1b}}",
+  "displayname": "{\"text\":\"Elle\u0027s Pickaxe\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Elle\u0027s Pickaxe\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 5\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+250\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"SPECIAL PICKAXE\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ELLES_PICKAXE\",\"dontSaveToProfile\":true},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 5",
-    "",
-    "§7Damage: §c+10",
-    "§7Mining Speed: §a+250",
-    "",
-    "§7§8This item can be reforged!",
-    "§c§lSPECIAL PICKAXE"
+    "{\"text\":\"Breaking Power 5\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+250\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"SPECIAL PICKAXE\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "ELLES_PICKAXE",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Elle%27s_Pickaxe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

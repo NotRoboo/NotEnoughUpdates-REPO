@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:brown_mushroom_block",
-  "displayname": "§9Enchanted Brown Mushroom Block",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_HUGE_MUSHROOM_1\"},HideFlags:254,ItemModel:\"minecraft:brown_mushroom_block\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Brown Mushroom Block\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Brown Mushroom Block\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:brown_mushroom_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Brown Mushroom Block\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_HUGE_MUSHROOM_1\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_HUGE_MUSHROOM_1",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

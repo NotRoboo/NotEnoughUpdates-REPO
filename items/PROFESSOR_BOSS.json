@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6The Professor (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"ce828875-25a2-3b03-9304-5f665c6279a6\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MjI2MzAwNzU0MCwKICAicHJvZmlsZUlkIiA6ICJkYTQ5OGFjNGU5Mzc0ZTVjYjYxMjdiMzgwODU1Nzk4MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaXRyb2hvbGljXzIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTk3MWNlZThiODMzYTYyZmMyYTYxMmYzNTAzNDM3ZmRmOTNjYWQ2OTJkMjE2YjhjZjkwYmJiMDUzOGM0N2RkOCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7The Professor is the boss of Floor 3 of the Catacombs.\",1:\"§7He is a \u0027Professor\u0027 and has three phases. In the 1st he\",2:\"§7spawns 4 Guardians and creates a barrier. After they are\",3:\"§7killed, he attacks the player. Once he is at 25% health,\",4:\"§7he will merge with his guardians and continue to fight.\",5:\"\",6:\"§c❤ Health§8: §c3,000.000\",7:\"§c❤ Health §8(MM): §c600.000.000\"],Name:\"§6The Professor (Boss)\"},ExtraAttributes:{id:\"PROFESSOR_BOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"The Professor (Boss)\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"The Professor (Boss)\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Professor is the boss of Floor 3 of the Catacombs.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"He is a \u0027Professor\u0027 and has three phases. In the 1st he\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"spawns 4 Guardians and creates a barrier. After they are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"killed, he attacks the player. Once he is at 25% health,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"he will merge with his guardians and continue to fight.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"3,000.000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(MM): \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"600.000.000\\\",\\\"color\\\":\\\"red\\\"}]}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7The Professor is the boss of Floor 3 of the Catacombs.",
-    "§7He is a \u0027Professor\u0027 and has three phases. In the 1st he",
-    "§7spawns 4 Guardians and creates a barrier. After they are",
-    "§7killed, he attacks the player. Once he is at 25% health,",
-    "§7he will merge with his guardians and continue to fight.",
-    "",
-    "§c❤ Health§8: §c3,000.000",
-    "§c❤ Health §8(MM): §c600.000.000"
+    "{\"text\":\"The Professor is the boss of Floor 3 of the Catacombs.\",\"color\":\"gray\"}",
+    "{\"text\":\"He is a \u0027Professor\u0027 and has three phases. In the 1st he\",\"color\":\"gray\"}",
+    "{\"text\":\"spawns 4 Guardians and creates a barrier. After they are\",\"color\":\"gray\"}",
+    "{\"text\":\"killed, he attacks the player. Once he is at 25% health,\",\"color\":\"gray\"}",
+    "{\"text\":\"he will merge with his guardians and continue to fight.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"3,000.000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"(MM): \",\"color\":\"dark_gray\"},{\"text\":\"600.000.000\",\"color\":\"red\"}]}"
   ],
   "internalname": "PROFESSOR_BOSS",
   "clickcommand": "",
@@ -32,17 +32,23 @@
         {
           "id": "ADAPTIVE_HELMET",
           "chance": "1.21%",
-          "extra": ["§e§lChest Price: §6500,000 coins"]
+          "extra": [
+            "§e§lChest Price: §6500,000 coins"
+          ]
         },
         {
           "id": "ADAPTIVE_CHESTPLATE",
           "chance": "0.69%",
-          "extra": ["§e§lChest Price: §62,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §62,000,000 coins"
+          ]
         },
         {
           "id": "ADAPTIVE_LEGGINGS",
           "chance": "0.69%",
-          "extra": ["§e§lChest Price: §61,000,000 coins"]
+          "extra": [
+            "§e§lChest Price: §61,000,000 coins"
+          ]
         },
         {
           "id": "ADAPTIVE_BOOTS",
@@ -117,5 +123,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aChickzilla (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fa48cf77-4651-26f6-a033-ff92a6874a85\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzczMzM4NWQ3MWMyZTdjZGFmNjBlZjVlNDdjODBkMmFmNzMwZDk1YjU4NjUzMzQzZWFiNTZjOGZhODNkOTY1NjAifX19\"}]},Name:\"fa48cf77-4651-26f6-a033-ff92a6874a85\"},display:{Lore:[0:\"§7The [Lv100] §cChickzilla §7can be spawned once by \",1:\"§7speaking to Igrupan in Scarleton after reaching \",2:\"§57,000 Mage Reputation §7and bringing him \",3:\"§7his §a5 chickens §7back.\",4:\"\",5:\"§c❤ Health§8: §c100.000.000\"],Name:\"§aChickzilla (Monster)\"},ExtraAttributes:{id:\"CHICKZILLA_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Chickzilla (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chickzilla (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The [Lv100] \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Chickzilla \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"can be spawned once by \\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"speaking to Igrupan in Scarleton after reaching \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"7,000 Mage Reputation \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"and bringing him \\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"his \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 chickens \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"back.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"100.000.000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"CHICKZILLA_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The [Lv100] §cChickzilla §7can be spawned once by ",
-    "§7speaking to Igrupan in Scarleton after reaching ",
-    "§57,000 Mage Reputation §7and bringing him ",
-    "§7his §a5 chickens §7back.",
-    "",
-    "§c❤ Health§8: §c100.000.000"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The [Lv100] \",\"color\":\"gray\"},{\"text\":\"Chickzilla \",\"color\":\"red\"},{\"text\":\"can be spawned once by \",\"color\":\"gray\"}]}",
+    "{\"text\":\"speaking to Igrupan in Scarleton after reaching \",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"7,000 Mage Reputation \",\"color\":\"dark_purple\"},{\"text\":\"and bringing him \",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"his \",\"color\":\"gray\"},{\"text\":\"5 chickens \",\"color\":\"green\"},{\"text\":\"back.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"100.000.000\",\"color\":\"red\"}]}"
   ],
   "internalname": "CHICKZILLA_MONSTER",
   "clickcommand": "",
@@ -36,5 +36,8 @@
       ]
     }
   ],
-  "infoType": "WIKI_URL"
+  "infoType": "WIKI_URL",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

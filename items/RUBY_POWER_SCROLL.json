@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:writable_book",
-  "displayname": "§cRuby Power Scroll",
-  "nbttag": "{generation:0,ench:[],HideFlags:254,display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7§7Heal back §a1% §7of your missing §c❤\",3:\"§cHealth §7when using your §e§lRIGHT\",4:\"§e§lCLICK §6Item Ability§7. Has a §c5s §7cooldown.\",5:\"\",6:\"§7§7Can be combined with any §bitem §7with a §e§lRIGHT\",7:\"§e§lCLICK §6Item Ability §7at an anvil.\",8:\"\",9:\"§5§lEPIC\"],Name:\"§cRuby Power Scroll\"},ExtraAttributes:{id:\"RUBY_POWER_SCROLL\"},resolved:0b}",
+  "displayname": "{\"text\":\"Ruby Power Scroll\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:writable_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ruby Power Scroll\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Heal back \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of your missing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"when using your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"RIGHT\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"CLICK \\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Item Ability\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\". Has a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5s \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"cooldown.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be combined with any \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"item \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"with a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"RIGHT\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"CLICK \\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Item Ability \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"at an anvil.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RUBY_POWER_SCROLL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
-    "",
-    "§7§7Heal back §a1% §7of your missing §c❤",
-    "§cHealth §7when using your §e§lRIGHT",
-    "§e§lCLICK §6Item Ability§7. Has a §c5s §7cooldown.",
-    "",
-    "§7§7Can be combined with any §bitem §7with a §e§lRIGHT",
-    "§e§lCLICK §6Item Ability §7at an anvil.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Heal back \",\"color\":\"gray\"},{\"text\":\"1% \",\"color\":\"green\"},{\"text\":\"of your missing \",\"color\":\"gray\"},{\"text\":\"❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health \",\"color\":\"red\"},{\"text\":\"when using your \",\"color\":\"gray\"},{\"text\":\"RIGHT\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"CLICK \",\"color\":\"yellow\",\"bold\":true},{\"text\":\"Item Ability\",\"color\":\"gold\"},{\"text\":\". Has a \",\"color\":\"gray\"},{\"text\":\"5s \",\"color\":\"red\"},{\"text\":\"cooldown.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be combined with any \",\"color\":\"gray\"},{\"text\":\"item \",\"color\":\"aqua\"},{\"text\":\"with a \",\"color\":\"gray\"},{\"text\":\"RIGHT\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"CLICK \",\"color\":\"yellow\",\"bold\":true},{\"text\":\"Item Ability \",\"color\":\"gold\"},{\"text\":\"at an anvil.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "",
@@ -34,5 +34,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ruby_Power_Scroll",
     "https://wiki.hypixel.net/Ruby_Power_Scroll"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

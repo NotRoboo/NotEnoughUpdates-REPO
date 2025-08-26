@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:birch_fence",
-  "displayname": "§fBirch Fence",
-  "nbttag": "{ExtraAttributes:{id:\"BIRCH_FENCE\"},HideFlags:254,ItemModel:\"minecraft:birch_fence\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBirch Fence\"}}",
+  "displayname": "{\"text\":\"Birch Fence\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:birch_fence\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Birch Fence\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BIRCH_FENCE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "BIRCH_FENCE",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 3
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

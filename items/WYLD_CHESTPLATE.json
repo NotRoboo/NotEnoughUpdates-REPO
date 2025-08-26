@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:chainmail_chestplate",
-  "displayname": "§aWyld Chain Top",
-  "nbttag": "{ExtraAttributes:{id:\"WYLD_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:chainmail_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Rift Time: §a+15s\",1:\"\",2:\"§a§lUNCOMMON CHESTPLATE\"],Name:\"§aWyld Chain Top\"}}",
+  "displayname": "{\"text\":\"Wyld Chain Top\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:chainmail_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wyld Chain Top\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON CHESTPLATE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WYLD_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Rift Time: §a+15s",
-    "",
-    "§a§lUNCOMMON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+15s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON CHESTPLATE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "WYLD_CHESTPLATE",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Wyld_Chain_Top",
     "https://wiki.hypixel.net/Wyld_Chain_Top"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

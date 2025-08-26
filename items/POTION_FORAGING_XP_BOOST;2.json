@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fForaging XP Boost II Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:22b,Amplifier:1b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§aForaging XP Boost II §f(24:00)\",2:\"§7Grants §3+10☯ Foraging Wisdom§7.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fForaging XP Boost II Potion\"},ExtraAttributes:{potion_level:2,potion:\"foraging_xp_boost\",effects:[0:{level:2,effect:\"foraging_xp_boost\",duration_ticks:28800}],potion_type:\"POTION\",id:\"POTION_FORAGING_XP_BOOST;2\"}}",
+  "displayname": "{\"text\":\"Foraging XP Boost II Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Foraging XP Boost II Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Foraging XP Boost II \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"(24:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10☯ Foraging Wisdom\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":2,\"potion\":\"foraging_xp_boost\",\"effects\":\"[0:{level:2\",\"effect\":\"foraging_xp_boost\",\"duration_ticks\":28800},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "",
-    "§aForaging XP Boost II §f(24:00)",
-    "§7Grants §3+10☯ Foraging Wisdom§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Foraging XP Boost II \",\"color\":\"green\"},{\"text\":\"(24:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+10☯ Foraging Wisdom\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_FORAGING_XP_BOOST;2",
   "crafttext": "",
   "clickcommand": "",
   "modver": "2.2.1",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fDining Chair",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1be7c43a-ffd6-3496-9047-a8a10f531bbc\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjAsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNzM1ZjIzMDFkMDgxMGJkY2ViM2Y4ZGQyNTZlZjBjMGMwMmVlZGM2ZTA0N2JhM2U1OWVkZWIwMzdjOGZkZjJmIn19fQ==\"}]}},display:{Lore:[0:\"§8Furniture\",1:\"§8Seats One Player\",2:\"\",3:\"§7This simple dining chair can be\",4:\"§7sat on by a single player\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§fDining Chair\"},ExtraAttributes:{id:\"DINING_CHAIR\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Dining Chair\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dining Chair\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Seats One Player\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This simple dining chair can be\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"sat on by a single player\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DINING_CHAIR\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "§8Seats One Player",
-    "",
-    "§7This simple dining chair can be",
-    "§7sat on by a single player",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Seats One Player\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This simple dining chair can be\",\"color\":\"gray\"}",
+    "{\"text\":\"sat on by a single player\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DINING_CHAIR",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dining_Chair",
     "https://wiki.hypixel.net/Dining_Chair"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

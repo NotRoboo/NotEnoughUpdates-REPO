@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Green Holiday Chest Skin",
-  "nbttag": "{ExtraAttributes:{id:\"HOLIDAY_CHEST_GREEN_BACKPACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"65adf73e-394a-34c0-95ee-5c338cd7458f\",Properties:{textures:[0:{Name:\"textures\",Signature:\"rLeA4l/vfZjx2ovkAIBmk+gdPCH8bSZ91UICz9Hg1nNHMWbwDutAQ7luzXwMeHP0sL6VQ1NoF7ne4UCw0+Lx0m8TbzRn3aXvMWkddLQPxPl/EI7/TfLFzULE/9IeahwUIQf6f+jySb8RU+61TTGjwuC/0nvrXdCJjuuGURV5uofeu8HdD6EaOSnU+6AKK47dNppubth9CaLFs8A0urFrfrZlZzqTyLhN6x4a0JROHCdW9/MdYU73mZTR7CukJlvjOgOUZy6HbDucDtrspq5/jZCdBW2U5Vtl4LhS6zjApiJU2cEWWjoL9oLBVyxkVSByB34fnj3MI9uQ+FrwDyWUFRkVqENR++TsZb+dKHjKgJ7aeikZisT2/TcdU4l0S0I1zSlaYw4lHJbShZPioco9c8mwgT2TCsnQcwZ9AwYBNAmpGE5MEiPBP7Kwh/HvtuqSzt9RJCUabDtt+G7y1Kyaepq0sj8lVk+xOS+szWBw+jQyeBCTDXhPqNWa5VTGnPOZvljPIZhM7rjvCWKGuU9PNDYGc3VeVwhecm5xxe1tnxEyGal4kX26ZdvnVCNJQDrUsUW4+6l2/B/ImriRTn+MuJrMz6xdnTt//OOdSVP2iKOZf+8RE1hXwMIoey8pNWBoCgoYcD595r/A6CsvI/A6zSWU95UtN1+q3hihD0F1y2U=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyOTcwMDc2NDA4MSwKICAicHJvZmlsZUlkIiA6ICI0YWY1YmQ3NTdmZDE0MWEwOTczYmUxNTFkZWRjNmM5ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJjcmFzaGludG95b3VybW9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljZmFiYjM1NTkwM2MyYmM1M2Y4ODg1MmQ0ZGYwOTY2Yzk0OTliNzRjMjQ3Mzg5OWRkZDVmNzcyNzNlNjg2ODEiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7This skin can be applied to §aBackpacks§7.\",7:\"\",8:\"§5§lEPIC COSMETIC\"],Name:\"§5Green Holiday Chest Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Green Holiday Chest Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Green Holiday Chest Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Item skins give your gear a fresh\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"new look! Apply them just like an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enchant book using the anvil.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This skin can be applied to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Backpacks\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HOLIDAY_CHEST_GREEN_BACKPACK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcyOTcwMDc2NDA4MSwKICAicHJvZmlsZUlkIiA6ICI0YWY1YmQ3NTdmZDE0MWEwOTczYmUxNTFkZWRjNmM5ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJjcmFzaGludG95b3VybW9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljZmFiYjM1NTkwM2MyYmM1M2Y4ODg1MmQ0ZGYwOTY2Yzk0OTliNzRjMjQ3Mzg5OWRkZDVmNzcyNzNlNjg2ODEiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Item skins give your gear a fresh",
-    "§7new look! Apply them just like an",
-    "§7enchant book using the anvil.",
-    "",
-    "§7This skin can be applied to §aBackpacks§7.",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Item skins give your gear a fresh\",\"color\":\"gray\"}",
+    "{\"text\":\"new look! Apply them just like an\",\"color\":\"gray\"}",
+    "{\"text\":\"enchant book using the anvil.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This skin can be applied to \",\"color\":\"gray\"},{\"text\":\"Backpacks\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "HOLIDAY_CHEST_GREEN_BACKPACK",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Green_Holiday_Chest_Skin",
     "https://wiki.hypixel.net/Green_Holiday_Chest_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

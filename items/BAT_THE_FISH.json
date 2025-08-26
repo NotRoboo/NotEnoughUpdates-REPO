@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:cooked_fish",
-  "displayname": "§cBat the Fish",
-  "nbttag": "{ExtraAttributes:{id:\"BAT_THE_FISH\"},HideFlags:254,ItemModel:\"minecraft:cooked_cod\",display:{Lore:[0:\"§7Where is my cape\",1:\"\",2:\"§c§lSPECIAL\"],Name:\"§cBat the Fish\"},ench:[]}",
+  "displayname": "{\"text\":\"Bat the Fish\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:cooked_fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bat the Fish\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Where is my cape\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BAT_THE_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Where is my cape",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Where is my cape\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "BAT_THE_FISH",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bat_the_Fish",
     "https://wiki.hypixel.net/Bat_The_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

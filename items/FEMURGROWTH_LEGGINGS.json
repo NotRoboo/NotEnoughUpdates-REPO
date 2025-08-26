@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§5Femurgrowth Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Time: §a+65s\",1:\"§7Speed: §a-4\",2:\"§7Mana Regen: §a+5%\",3:\"\",4:\"§7§8It\u0027s infected slime, it makes\",5:\"§8you slower.\",6:\"\",7:\"§5§lEPIC LEGGINGS\"],color:4783872,Name:\"§5Femurgrowth Leggings\"},ExtraAttributes:{id:\"FEMURGROWTH_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Femurgrowth Leggings\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Femurgrowth Leggings\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+65s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"-4\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Regen: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"It\u0027s infected slime, it makes\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"you slower.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC LEGGINGS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FEMURGROWTH_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Rift Time: §a+65s",
-    "§7Speed: §a-4",
-    "§7Mana Regen: §a+5%",
-    "",
-    "§7§8It\u0027s infected slime, it makes",
-    "§8you slower.",
-    "",
-    "§5§lEPIC LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+65s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"-4\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Regen: \",\"color\":\"gray\"},{\"text\":\"+5%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"It\u0027s infected slime, it makes\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"you slower.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC LEGGINGS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "SHADOW_CRUX:8",
@@ -32,5 +32,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Femurgrowth_Leggings",
     "https://wiki.hypixel.net/Femurgrowth_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:spawn_egg",
-  "displayname": "§9Super Enchanted Egg",
-  "nbttag": "{ExtraAttributes:{id:\"SUPER_EGG\"},HideFlags:254,ItemModel:\"minecraft:wither_spawn_egg\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Used to craft epic and legendary\",3:\"§7pets.\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Super Enchanted Egg\"},ench:[]}",
+  "itemid": "minecraft:pig_spawn_egg",
+  "displayname": "{\"text\":\"Super Enchanted Egg\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:pig_spawn_egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Super Enchanted Egg\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Used to craft epic and legendary\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"pets.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SUPER_EGG\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7Used to craft epic and legendary",
-    "§7pets.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Used to craft epic and legendary\",\"color\":\"gray\"}",
+    "{\"text\":\"pets.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SUPER_EGG",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "ENCHANTED_EGG:16",
     "C2": "ENCHANTED_EGG:16",
     "C3": "ENCHANTED_EGG:16"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

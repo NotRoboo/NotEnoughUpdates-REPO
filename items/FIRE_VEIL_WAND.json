@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:blaze_rod",
-  "displayname": "§5Fire Veil Wand",
-  "nbttag": "{ExtraAttributes:{id:\"FIRE_VEIL_WAND\"},HideFlags:254,ItemModel:\"minecraft:blaze_rod\",display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Intelligence: §a+200\",2:\"\",3:\"§6Ability: Fire Veil  §e§lRIGHT CLICK\",4:\"§7Creates a veil of fire around you for §a5s§7,\",5:\"§7dealing §c15,120.2 §7damage per second to mobs\",6:\"§7within.\",7:\"§8Mana Cost: §3300\",8:\"§8Cooldown: §a1s\",9:\"\",10:\"§4❣ §cRequires §aCombat Skill 22§c.\",11:\"§5§lEPIC WAND\"],Name:\"§5Fire Veil Wand\"}}",
+  "displayname": "{\"text\":\"Fire Veil Wand\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:blaze_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fire Veil Wand\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+200\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Fire Veil \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Creates a veil of fire around you for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"dealing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"15,120.2 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage per second to mobs\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"within.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"300\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC WAND\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+50",
-    "§7Intelligence: §a+200",
-    "",
-    "§6Ability: Fire Veil  §e§lRIGHT CLICK",
-    "§7Creates a veil of fire around you for §a5s§7,",
-    "§7dealing §c15,120.2 §7damage per second to mobs",
-    "§7within.",
-    "§8Mana Cost: §3300",
-    "§8Cooldown: §a1s",
-    "",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
-    "§5§lEPIC WAND"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+200\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Fire Veil \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Creates a veil of fire around you for \",\"color\":\"gray\"},{\"text\":\"5s\",\"color\":\"green\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"dealing \",\"color\":\"gray\"},{\"text\":\"15,120.2 \",\"color\":\"red\"},{\"text\":\"damage per second to mobs\",\"color\":\"gray\"}]}",
+    "{\"text\":\"within.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"300\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"1s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC WAND\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FIRE_VEIL_WAND",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Chirping Stereo",
-  "nbttag": "{ExtraAttributes:{id:\"CHIRPING_STEREO\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"6146de90-aa10-3e12-b58e-df3f05077419\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njg2OTE5NjcyNiwKICAicHJvZmlsZUlkIiA6ICJmZWYyZDZjYzY5ZGI0ZWM5OWQzYzI5MzBmYzRmNTBhYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsb3Zlbm90d2FyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhYmIzNjE0MDA1MmNhMjVkMTU5MTA3ZTJmNTRiZmM3OTIxOWU2YjJjNDc2ZmQwZDcwNGMxYWQ1Zjg3MTAxZjYiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Can be used at §aSkyMart §7to upgrade\",1:\"§7the §5InfiniVacuum™ §7to the\",2:\"§6InfiniVacuum™ Hooverius§7, which\",3:\"§7applies the §6Stereo Harmony §7ability.\",4:\"\",5:\"§8§oWhile nobody is sure who came up\",6:\"§8§owith the genius design, everyone\",7:\"§8§oagrees that they are one of the\",8:\"§8§otrue engineering greats.\",9:\"\",10:\"§6§lLEGENDARY\"],Name:\"§6Chirping Stereo\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Chirping Stereo\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chirping Stereo\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be used at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"SkyMart \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"to upgrade\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"InfiniVacuum™ \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"to the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"InfiniVacuum™ Hooverius\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\", which\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"applies the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Stereo Harmony \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"ability.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"While nobody is sure who came up\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"with the genius design, everyone\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"agrees that they are one of the\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"true engineering greats.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CHIRPING_STEREO\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njg2OTE5NjcyNiwKICAicHJvZmlsZUlkIiA6ICJmZWYyZDZjYzY5ZGI0ZWM5OWQzYzI5MzBmYzRmNTBhYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsb3Zlbm90d2FyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhYmIzNjE0MDA1MmNhMjVkMTU5MTA3ZTJmNTRiZmM3OTIxOWU2YjJjNDc2ZmQwZDcwNGMxYWQ1Zjg3MTAxZjYiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Can be used at §aSkyMart §7to upgrade",
-    "§7the §5InfiniVacuum™ §7to the",
-    "§6InfiniVacuum™ Hooverius§7, which",
-    "§7applies the §6Stereo Harmony §7ability.",
-    "",
-    "§8§oWhile nobody is sure who came up",
-    "§8§owith the genius design, everyone",
-    "§8§oagrees that they are one of the",
-    "§8§otrue engineering greats.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be used at \",\"color\":\"gray\"},{\"text\":\"SkyMart \",\"color\":\"green\"},{\"text\":\"to upgrade\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the \",\"color\":\"gray\"},{\"text\":\"InfiniVacuum™ \",\"color\":\"dark_purple\"},{\"text\":\"to the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"InfiniVacuum™ Hooverius\",\"color\":\"gold\"},{\"text\":\", which\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"applies the \",\"color\":\"gray\"},{\"text\":\"Stereo Harmony \",\"color\":\"gold\"},{\"text\":\"ability.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"While nobody is sure who came up\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"with the genius design, everyone\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"agrees that they are one of the\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"true engineering greats.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "CHIRPING_STEREO",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Chirping_Stereo",
     "https://wiki.hypixel.net/Chirping_Stereo"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

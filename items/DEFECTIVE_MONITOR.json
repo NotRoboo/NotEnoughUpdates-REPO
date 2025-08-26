@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Defective Monitor",
-  "nbttag": "{ExtraAttributes:{id:\"DEFECTIVE_MONITOR\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"13598060-ac62-3d83-9511-eae119a9af72\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzAxYTljYTMxMGZiOTZlNmMwYWFhM2VhMWQwNTg1ZjJmNDE3NjVkNmFhOTk3MDNiZjg2MWYyZTc2OWQyNGRjNSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Rift Time: §a+60s\",1:\"§7Intelligence: §a+6\",2:\"\",3:\"§7Obtained from a Kloon who doesn't\",4:\"§7seem too stable.\",5:\"\",6:\"§5§lEPIC ACCESSORY\"],Name:\"§5Defective Monitor\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Defective Monitor\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Defective Monitor\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+6\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Obtained from a Kloon who doesn\u0027t\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"seem too stable.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC ACCESSORY\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DEFECTIVE_MONITOR\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzAxYTljYTMxMGZiOTZlNmMwYWFhM2VhMWQwNTg1ZjJmNDE3NjVkNmFhOTk3MDNiZjg2MWYyZTc2OWQyNGRjNSJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Rift Time: §a+60s",
-    "§7Intelligence: §a+6",
-    "",
-    "§7Obtained from a Kloon who doesn't",
-    "§7seem too stable.",
-    "",
-    "§5§lEPIC ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+60s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+6\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Obtained from a Kloon who doesn\u0027t\",\"color\":\"gray\"}",
+    "{\"text\":\"seem too stable.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC ACCESSORY\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "DEFECTIVE_MONITOR",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Defective_Monitor",
     "https://wiki.hypixel.net/Defective_Monitor"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Medium Dragon Sack",
-  "nbttag": "{ExtraAttributes:{id:\"MEDIUM_DRAGON_SACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"dc62cdda-26fb-3103-bc70-5c240523d345\",Properties:{textures:[0:{Name:\"textures\",Signature:\"bl3qs/OXSoXqeruwAFC3Jvew3gQDOI9n7SJtLQXKY9hyHQEEPJVYhfM/xuhPA59o58yePaNgC/5bnuoU4twtWeG+Y/+AcRAgW65SoXHaieCRGy2brFMuzxSNlDOX/u3Ph80YXJKQdD1nJZKJiqQVPWY1W06Xhsgj+uIcXJCQjIHTWlRBDjaqwVmxDzxh6IrgmatMj2FKu+JSu7yPAdnIK5BegOz98Jz1bK61DMZCHNXrZrh3FLCblipbIhbRzrmxCv0Eb4HeugH/pwFJz4eH8HB9VbD0uHA6BwZUDPRkGeb22PXHlpAf0lPIC0OZ08zx7uQrAgCWMtly7D7OdJamR7OewFz/JFrj9iQRf7qqk2GFGPySGeM+wLg5LZ9Xh2T//qKqoEqQMVKnnTB3hymb1zKLxJiytBtkrx5RYLBhssd+4+GJwMAem1crUh3D3nojOAGUvPgXsIqgZgTXD2zYtFsZ8I/ByDlRDjrwWLggfHIrvc32Oi4dzqvCy8c6dKAQ2b/azkm948VDq9AE0qMnH9jMyuAkBROb+wT6KMWDW9VWsCQL2w+jEb3mmvMerbE708hja/GH5eqPVD9316JNhtHM9wQl/JmG6TyW/ixoAGCDnd+GJ5rumVHKX6tp7ytT4FtAC4+NBSt3gS1avZXDXWiq/PkNP0X1DQ7IjC5d7KE=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4MDE5MDg4NzQwNSwKICAicHJvZmlsZUlkIiA6ICI0MDU4NDhjMmJjNTE0ZDhkOThkOTJkMGIwYzhiZDQ0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3ZlT3dPIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhmYWQ2ZjdhMjExMGJiMmJhNjZlZDRiMzRkZDZmZTE3OTRlYTMzY2U3YjI0Y2UzNGJlZjg2NWNjNGEyY2RlMzgiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Item pickups go directly into your\",1:\"§7sacks.\",2:\"\",3:\"§7Items: §aCrystal Fragment§7, §aHoly Dragon Fragment§7, §aMite Gel§7,\",4:\"§aOld Dragon Fragment§7, §aProtector Dragon Fragment§7, §aRitual\",5:\"§aResidue§7, §aStrong Dragon Fragment§7, §aSuperior Dragon\",6:\"§aFragment§7, §aUnstable Dragon Fragment§7, §aWise Dragon\",7:\"§aFragment§7, §aYoung Dragon Fragment\",8:\"\",9:\"§7Capacity: §e6,720 per item\",10:\"§8Sacks sum their capacity.\",11:\"\",12:\"§eRight Click to open sack!\",13:\"\",14:\"§9§lRARE\"],Name:\"§9Medium Dragon Sack\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Medium Dragon Sack\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Medium Dragon Sack\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Item pickups go directly into your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"sacks.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Items: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Crystal Fragment\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Holy Dragon Fragment\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mite Gel\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Old Dragon Fragment\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Protector Dragon Fragment\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Ritual\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Residue\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Strong Dragon Fragment\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Superior Dragon\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fragment\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Unstable Dragon Fragment\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Wise Dragon\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fragment\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Young Dragon Fragment\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Capacity: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"6,720 per item\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"Sacks sum their capacity.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right Click to open sack!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7Item pickups go directly into your",
-    "§7sacks.",
-    "",
-    "§7Items: §aCrystal Fragment§7, §aHoly Dragon Fragment§7, §aMite Gel§7,",
-    "§aOld Dragon Fragment§7, §aProtector Dragon Fragment§7, §aRitual",
-    "§aResidue§7, §aStrong Dragon Fragment§7, §aSuperior Dragon",
-    "§aFragment§7, §aUnstable Dragon Fragment§7, §aWise Dragon",
-    "§aFragment§7, §aYoung Dragon Fragment",
-    "",
-    "§7Capacity: §e6,720 per item",
-    "§8Sacks sum their capacity.",
-    "",
-    "§eRight Click to open sack!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Item pickups go directly into your\",\"color\":\"gray\"}",
+    "{\"text\":\"sacks.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Items: \",\"color\":\"gray\"},{\"text\":\"Crystal Fragment\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Holy Dragon Fragment\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Mite Gel\",\"color\":\"green\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Old Dragon Fragment\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Protector Dragon Fragment\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Ritual\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Residue\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Strong Dragon Fragment\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Superior Dragon\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fragment\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Unstable Dragon Fragment\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Wise Dragon\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fragment\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Young Dragon Fragment\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Capacity: \",\"color\":\"gray\"},{\"text\":\"6,720 per item\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"Sacks sum their capacity.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right Click to open sack!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MEDIUM_DRAGON_SACK",
   "clickcommand": "viewrecipe",
@@ -39,5 +39,8 @@
     "C1": "CRYSTAL_FRAGMENT:4",
     "C2": "SUMMONING_EYE:1",
     "C3": "CRYSTAL_FRAGMENT:4"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

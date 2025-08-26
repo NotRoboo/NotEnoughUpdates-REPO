@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:string",
-  "displayname": "§9Soul String",
-  "nbttag": "{ExtraAttributes:{id:\"SOUL_STRING\"},HideFlags:254,ItemModel:\"minecraft:string\",display:{Lore:[0:\"§7Rare string that can be used\",1:\"§7to craft weapons that are\",2:\"§7infused with the power of\",3:\"§7Arachne.\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Soul String\"}}",
+  "displayname": "{\"text\":\"Soul String\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:string\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Soul String\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Rare string that can be used\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to craft weapons that are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"infused with the power of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Arachne.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SOUL_STRING\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Rare string that can be used",
-    "§7to craft weapons that are",
-    "§7infused with the power of",
-    "§7Arachne.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Rare string that can be used\",\"color\":\"gray\"}",
+    "{\"text\":\"to craft weapons that are\",\"color\":\"gray\"}",
+    "{\"text\":\"infused with the power of\",\"color\":\"gray\"}",
+    "{\"text\":\"Arachne.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SOUL_STRING",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Soul_String",
     "https://wiki.hypixel.net/Soul_String"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

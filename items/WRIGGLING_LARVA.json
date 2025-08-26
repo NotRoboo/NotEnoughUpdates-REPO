@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Wriggling Larva",
-  "nbttag": "{ExtraAttributes:{id:\"WRIGGLING_LARVA\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ea200861-9d6a-30a1-8a16-6ad5e9f2cbc3\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ILMZTLJyQediVgptrW5mBIXBVNw04nBd+ld9FU+qGpXOSxC5gxYqOdz1yFdAJXFc1CedYXj93fK9wc6TDUXX9qM25Bpovq6Sbdj1LBEcLEVf70UF98VYI85icvWvZeMzlfc9PDbgRZFrb3YQNSovItHt9JwY92za5ya3N9VQqWVn3oBzYG6JoK+XVUQdRtQl8UmxS0USwF/VSuezWaEwpQSMWkFgKB18ei85eEAFh8cZOEW2PjktZ1LibG0U8l0e277Z4FXBSJlA23qfzx0QXPEHL+kRxuM6RjXumvSIcwdaAbfJtgY2fGl6oESSzlzTUYKh8rHa6Crq02rkZIWy1+dIMPIEzwamooOr5xmKtW7e+V/snNhy/Lc9/ZVvn00X01pCO66ye3V3GxUmNnMTtNTlGa2FIQ8eXowJVPkFP1yepIT/SrKI9tWkqgZx8i12VlzXbfWuV8EHOjAkG7NxShz8J3wR1wAhzVJsbcoG5LWcXQl2ZFe5hqG1Xj6dQMZL+WLlrVnfETXYyPsYFQ0yiqd6PfLplhMuMikgoqkjXVaY18lIC1Q7h/oWQxZtpCVHh4KNhiV/uZDVNgdeDRfMu9pqlyUwua9ku88+km+QbQtzd160MF3ygQJlk6W1jdHOzMZ3oRzVxFbw0d0bjyBKsp0bA7v2ht4rwOAXMYrSurI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NDk4MTc4OCwKICAicHJvZmlsZUlkIiA6ICI3YmRhNDBlM2E1YjU0YzE0YWJmZGYzNGMyODY2NjQ0NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfRWdvcl9wbGF5XyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MjkxNGZiOWMxMGIyMTA5NTNhYjI1OGFmMDhjZGRkNDk4Y2FlZjExOWQyMDRjNGM1ZTc5MDM0OTIwNjQ5OWM1IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7Consume this wriggling, disgusting\",3:\"§7larva to permanently gain §2+2ൠ\",4:\"§2Bonus Pest Chance§7.\",5:\"\",6:\"§7You can consume up to §a5 §7larvae\",7:\"§7before the sight of them makes you\",8:\"§7too sick to consume more.\",9:\"\",10:\"§eRight-click to consume!\",11:\"\",12:\"§5§lEPIC\"],Name:\"§5Wriggling Larva\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Wriggling Larva\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wriggling Larva\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumable\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Consume this wriggling, disgusting\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"larva to permanently gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2ൠ\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bonus Pest Chance\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"You can consume up to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"larvae\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"before the sight of them makes you\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"too sick to consume more.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WRIGGLING_LARVA\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NDk4MTc4OCwKICAicHJvZmlsZUlkIiA6ICI3YmRhNDBlM2E1YjU0YzE0YWJmZGYzNGMyODY2NjQ0NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfRWdvcl9wbGF5XyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MjkxNGZiOWMxMGIyMTA5NTNhYjI1OGFmMDhjZGRkNDk4Y2FlZjExOWQyMDRjNGM1ZTc5MDM0OTIwNjQ5OWM1IgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Consumable",
-    "",
-    "§7Consume this wriggling, disgusting",
-    "§7larva to permanently gain §2+2ൠ",
-    "§2Bonus Pest Chance§7.",
-    "",
-    "§7You can consume up to §a5 §7larvae",
-    "§7before the sight of them makes you",
-    "§7too sick to consume more.",
-    "",
-    "§eRight-click to consume!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Consumable\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Consume this wriggling, disgusting\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"larva to permanently gain \",\"color\":\"gray\"},{\"text\":\"+2ൠ\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bonus Pest Chance\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"You can consume up to \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"green\"},{\"text\":\"larvae\",\"color\":\"gray\"}]}",
+    "{\"text\":\"before the sight of them makes you\",\"color\":\"gray\"}",
+    "{\"text\":\"too sick to consume more.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "WRIGGLING_LARVA",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Wriggling_Larva",
     "https://wiki.hypixel.net/Wriggling_Larva"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

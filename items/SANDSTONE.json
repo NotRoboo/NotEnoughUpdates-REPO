@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:sandstone",
-  "displayname": "§fSandstone",
-  "nbttag": "{ExtraAttributes:{id:\"SANDSTONE\"},HideFlags:254,ItemModel:\"minecraft:sandstone\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fSandstone\"}}",
+  "displayname": "{\"text\":\"Sandstone\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:sandstone\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sandstone\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SANDSTONE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SANDSTONE",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

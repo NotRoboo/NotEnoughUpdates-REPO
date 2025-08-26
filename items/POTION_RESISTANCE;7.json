@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§5Resistance VII Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:19b,Amplifier:6b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§aResistance VII §f(3:00)\",2:\"§7Increases §a❈ Defense §7by §a+50§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Resistance VII Potion\"},ExtraAttributes:{potion_level:7,potion:\"resistance\",effects:[0:{level:7,effect:\"resistance\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_RESISTANCE;7\"}}",
-  "damage": 4,
+  "displayname": "{\"text\":\"Resistance VII Potion\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Resistance VII Potion\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resistance VII \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❈ Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":7,\"potion\":\"resistance\",\"effects\":\"[0:{level:7\",\"effect\":\"resistance\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§aResistance VII §f(3:00)",
-    "§7Increases §a❈ Defense §7by §a+50§7.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resistance VII \",\"color\":\"green\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases \",\"color\":\"gray\"},{\"text\":\"❈ Defense \",\"color\":\"green\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "POTION_RESISTANCE;7",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

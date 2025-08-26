@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:mushroom_stew",
-  "displayname": "§9Marsh Spore Soup",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7A bubbling soup filed with\",1:\"§7poisonous mushrooms.\",2:\"\",3:\"§eRight-click to consume\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Marsh Spore Soup\"},ExtraAttributes:{id:\"MARSH_SPORE_SOUP\"}}",
+  "displayname": "{\"text\":\"Marsh Spore Soup\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:mushroom_stew\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Marsh Spore Soup\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A bubbling soup filed with\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"poisonous mushrooms.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to consume\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MARSH_SPORE_SOUP\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7A bubbling soup filed with",
-    "§7poisonous mushrooms.",
-    "",
-    "§eRight-click to consume",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"A bubbling soup filed with\",\"color\":\"gray\"}",
+    "{\"text\":\"poisonous mushrooms.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to consume\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MARSH_SPORE_SOUP",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Marsh_Spore_Soup",
     "https://wiki.hypixel.net/Marsh_Spore_Soup"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

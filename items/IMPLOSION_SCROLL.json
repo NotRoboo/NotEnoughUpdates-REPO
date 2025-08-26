@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:writable_book",
-  "displayname": "§5Implosion",
-  "nbttag": "{ExtraAttributes:{id:\"IMPLOSION_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:writable_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Applies the §6Implosion Ability §7when\",3:\"§7combined with a §6Necron's Blade\",4:\"§6(Unrefined)§7.\",5:\"\",6:\"§6Ability: Implosion  §e§lRIGHT CLICK\",7:\"§7Deals §c10,000 §7damage to nearby\",8:\"§7enemies.\",9:\"§8Mana Cost: §3300\",10:\"§8Cooldown: §a10s\",11:\"\",12:\"§5§lEPIC DUNGEON ITEM\"],Name:\"§5Implosion\"},ench:[]}",
+  "displayname": "{\"text\":\"Implosion\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:writable_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Implosion\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applies the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Implosion Ability \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"combined with a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Necron\u0027s Blade\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"(Unrefined)\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Implosion \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10,000 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage to nearby\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"enemies.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"300\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"10s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC DUNGEON ITEM\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"IMPLOSION_SCROLL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Applies the §6Implosion Ability §7when",
-    "§7combined with a §6Necron's Blade",
-    "§6(Unrefined)§7.",
-    "",
-    "§6Ability: Implosion  §e§lRIGHT CLICK",
-    "§7Deals §c10,000 §7damage to nearby",
-    "§7enemies.",
-    "§8Mana Cost: §3300",
-    "§8Cooldown: §a10s",
-    "",
-    "§5§lEPIC DUNGEON ITEM"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applies the \",\"color\":\"gray\"},{\"text\":\"Implosion Ability \",\"color\":\"gold\"},{\"text\":\"when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"combined with a \",\"color\":\"gray\"},{\"text\":\"Necron\u0027s Blade\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"(Unrefined)\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Implosion \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deals \",\"color\":\"gray\"},{\"text\":\"10,000 \",\"color\":\"red\"},{\"text\":\"damage to nearby\",\"color\":\"gray\"}]}",
+    "{\"text\":\"enemies.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"300\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"10s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC DUNGEON ITEM\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "IMPLOSION_SCROLL",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Implosion",
     "https://wiki.hypixel.net/Implosion"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§aFarmer Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+40\",1:\"§7Defense: §a+32\",2:\"§7Speed: §a+34\",3:\" §8[§8☘§8]\",4:\"\",5:\"§7These boots gain §a+2❈ Defense §7and\",6:\"§7§f+4✦ Speed§7 for every Farming Skill\",7:\"§7level you have. While on §aThe Garden§7,\",8:\"§7these boots instead gain §6+1☘\",9:\"§6Farming Fortune §7for every Farming\",10:\"§7Skill level.\",11:\"\",12:\"§7§8This item can be reforged!\",13:\"§7§4❣ §cRequires §aFarming Skill 18§c.\",14:\"§a§lUNCOMMON BOOTS\"],color:13391104,Name:\"§aFarmer Boots\"},ExtraAttributes:{id:\"FARMER_BOOTS\"}}",
+  "displayname": "{\"text\":\"Farmer Boots\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Farmer Boots\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+32\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+34\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"☘\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"These boots gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2❈ Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+4✦ Speed\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\" for every Farming Skill\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"level you have. While on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"these boots instead gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1☘\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Farming Fortune \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"for every Farming\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Skill level.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 18\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON BOOTS\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FARMER_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+40",
-    "§7Defense: §a+32",
-    "§7Speed: §a+34",
-    " §8[§8☘§8]",
-    "",
-    "§7These boots gain §a+2❈ Defense §7and",
-    "§7§f+4✦ Speed§7 for every Farming Skill",
-    "§7level you have. While on §aThe Garden§7,",
-    "§7these boots instead gain §6+1☘",
-    "§6Farming Fortune §7for every Farming",
-    "§7Skill level.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 18§c.",
-    "§a§lUNCOMMON BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+32\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+34\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"☘\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"These boots gain \",\"color\":\"gray\"},{\"text\":\"+2❈ Defense \",\"color\":\"green\"},{\"text\":\"and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+4✦ Speed\",\"color\":\"white\"},{\"text\":\" for every Farming Skill\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"level you have. While on \",\"color\":\"gray\"},{\"text\":\"The Garden\",\"color\":\"green\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"these boots instead gain \",\"color\":\"gray\"},{\"text\":\"+1☘\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Farming Fortune \",\"color\":\"gold\"},{\"text\":\"for every Farming\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Skill level.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 18\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON BOOTS\",\"color\":\"green\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "ENCHANTED_PUMPKIN:64",
@@ -39,5 +39,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Farmer_Boots",
     "https://wiki.hypixel.net/Farmer_Boots"
   ],
-  "crafttext": "Requires: Pumpkin IX"
+  "crafttext": "Requires: Pumpkin IX",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

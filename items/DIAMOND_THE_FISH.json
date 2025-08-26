@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:cooked_fish",
-  "displayname": "§f§f§cDiamond the Fish",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§7§oShines bright like a fish\",1:\"\",2:\"§c§lSPECIAL\"],Name:\"§f§f§cDiamond the Fish\"},ExtraAttributes:{id:\"DIAMOND_THE_FISH\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Diamond the Fish\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:cooked_fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond the Fish\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Shines bright like a fish\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND_THE_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7§oShines bright like a fish",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Shines bright like a fish\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "DIAMOND_THE_FISH",
   "crafttext": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Diamond_the_Fish",
     "https://wiki.hypixel.net/Diamond_The_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

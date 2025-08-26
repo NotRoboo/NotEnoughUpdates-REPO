@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:leaves",
-  "displayname": "§cSupreme Timecharm",
-  "nbttag": "{ExtraAttributes:{id:\"RIFT_TROPHY_WYLDLY_SUPREME\"},HideFlags:254,ItemModel:\"minecraft:spruce_leaves\",display:{Lore:[0:\"§7Bring this back to §dElise§7, she'll know\",1:\"§7what to do with it!\",2:\"\",3:\"§8§l* §8Soulbound §8§l*\",4:\"§c§lSPECIAL RIFT TIMECHARM\"],Name:\"§cSupreme Timecharm\"},ench:[]}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Supreme Timecharm\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:leaves\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Supreme Timecharm\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring this back to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Elise\\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\", she\u0027ll know\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"what to do with it!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL RIFT TIMECHARM\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RIFT_TROPHY_WYLDLY_SUPREME\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Bring this back to §dElise§7, she'll know",
-    "§7what to do with it!",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§c§lSPECIAL RIFT TIMECHARM"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring this back to \",\"color\":\"gray\"},{\"text\":\"Elise\",\"color\":\"light_purple\"},{\"text\":\", she\u0027ll know\",\"color\":\"gray\"}]}",
+    "{\"text\":\"what to do with it!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL RIFT TIMECHARM\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "RIFT_TROPHY_WYLDLY_SUPREME",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "BOTTLED_ODONATA:1",
     "C2": "LIL_PAD:16",
     "C3": "BOTTLED_ODONATA:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

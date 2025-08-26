@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:diamond_pickaxe",
-  "displayname": "§5Pickonimbus 2000",
-  "nbttag": "{ExtraAttributes:{id:\"PICKONIMBUS\"},HideFlags:254,ItemModel:\"minecraft:diamond_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 8\",1:\"\",2:\"§7Damage: §c+30\",3:\"§7Mining Speed: §a+750\",4:\"\",5:\"§7A powerful tool that breaks after\",6:\"§a2,000§7 uses.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §5Heart of the Mountain Tier 4§c.\",10:\"§5§lEPIC PICKAXE\"],Name:\"§5Pickonimbus 2000\"},ench:[]}",
+  "displayname": "{\"text\":\"Pickonimbus 2000\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pickonimbus 2000\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 8\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+750\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A powerful tool that breaks after\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"2,000\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" uses.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 4\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC PICKAXE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PICKONIMBUS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 8",
-    "",
-    "§7Damage: §c+30",
-    "§7Mining Speed: §a+750",
-    "",
-    "§7A powerful tool that breaks after",
-    "§a2,000§7 uses.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 4§c.",
-    "§5§lEPIC PICKAXE"
+    "{\"text\":\"Breaking Power 8\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+750\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A powerful tool that breaks after\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"2,000\",\"color\":\"green\"},{\"text\":\" uses.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 4\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC PICKAXE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PICKONIMBUS",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pickonimbus_2000",
     "https://wiki.hypixel.net/Pickonimbus_2000"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

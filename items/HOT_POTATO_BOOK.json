@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§5Hot Potato Book",
-  "nbttag": "{ExtraAttributes:{id:\"HOT_POTATO_BOOK\"},HideFlags:254,ItemModel:\"minecraft:book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7When applied to armor, grants §a+2❈\",3:\"§aDefense §7and §c+4❤ Health§7.\",4:\"\",5:\"§7When applied to weapons, grants\",6:\"§c+2❁ Strength §7and §c+2❁ Damage§7.\",7:\"\",8:\"§7This can be applied to an item up to\",9:\"§a10 §7times!\",10:\"\",11:\"§5§lEPIC\"],Name:\"§5Hot Potato Book\"},ench:[]}",
+  "displayname": "{\"text\":\"Hot Potato Book\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hot Potato Book\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"When applied to armor, grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2❈\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"When applied to weapons, grants\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+2❁ Strength \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2❁ Damage\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This can be applied to an item up to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"10 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"times!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HOT_POTATO_BOOK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7When applied to armor, grants §a+2❈",
-    "§aDefense §7and §c+4❤ Health§7.",
-    "",
-    "§7When applied to weapons, grants",
-    "§c+2❁ Strength §7and §c+2❁ Damage§7.",
-    "",
-    "§7This can be applied to an item up to",
-    "§a10 §7times!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"When applied to armor, grants \",\"color\":\"gray\"},{\"text\":\"+2❈\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense \",\"color\":\"green\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"+4❤ Health\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"When applied to weapons, grants\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+2❁ Strength \",\"color\":\"red\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"+2❁ Damage\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This can be applied to an item up to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"10 \",\"color\":\"green\"},{\"text\":\"times!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "HOT_POTATO_BOOK",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "",
     "C2": "PAPER:1",
     "C3": "ENCHANTED_BAKED_POTATO:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

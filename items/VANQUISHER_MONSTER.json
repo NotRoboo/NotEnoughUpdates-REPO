@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Vanquisher (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§c❤ Health§8: §c10,000,000\"],Name:\"§9Vanquisher (Monster)\"},ExtraAttributes:{id:\"VANQUISHER_MONSTER\"}}",
-  "damage": 1,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Vanquisher (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Vanquisher (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"10,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"VANQUISHER_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§c❤ Health§8: §c10,000,000"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"10,000,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "VANQUISHER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

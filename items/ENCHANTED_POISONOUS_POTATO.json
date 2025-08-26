@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:poisonous_potato",
-  "displayname": "§aEnchanted Poisonous Potato",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_POISONOUS_POTATO\"},HideFlags:254,ItemModel:\"minecraft:poisonous_potato\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Poisonous Potato\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Poisonous Potato\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:poisonous_potato\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Poisonous Potato\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_POISONOUS_POTATO\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§a§lUNCOMMON"
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_POISONOUS_POTATO",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "",
     "C2": "POISONOUS_POTATO:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

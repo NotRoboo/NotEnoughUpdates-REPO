@@ -1,15 +1,18 @@
 {
   "itemid": "minecraft:wheat_seeds",
-  "displayname": "§fCocoa Plant",
-  "nbttag": "{ExtraAttributes:{id:\"COCOA\"},HideFlags:254,ItemModel:\"minecraft:wheat_seeds\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCocoa Plant\"}}",
+  "displayname": "{\"text\":\"Cocoa Plant\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:wheat_seeds\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cocoa Plant\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COCOA\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "COCOA",
   "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "",
-  "info": []
+  "info": [],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

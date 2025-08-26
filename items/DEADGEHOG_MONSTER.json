@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aDeadgehog (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e478fc5c-1c7c-445b-a929-2660b084d2fd\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTU4OTk2MzczNTIzMiwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZDRjMTQyYzM4MmE2YmUwMGNhZWVlOWEwMjMwNmYwNjU0NGU2ZTQ2Yjk1M2JjYzhjYWM2NWU1Yzg5ZDQ3OTBhIgogICAgfQogIH0KfQ\u003d\u003d\"}]},Name:\"§e478fc5c-1c7c-445b-a929-2660b084d2fd\"},display:{Lore:[0:\"§7Found near the §3Black Lagoon§7\",1:\"§7in §dthe Rift§7.\",2:\"\",3:\"§7Shoots terrifying arrows that deal\",4:\"§a9sф §7Damage.\",5:\"\",6:\"§7Also has a melee attack that deals\",7:\"§a2sф §7Damage.\",8:\"\",9:\"§c❤ Health§8: §c150\"],Name:\"§aDeadgehog (Monster)\"},ExtraAttributes:{id:\"DEADGEHOG_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Deadgehog (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Deadgehog (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Found near the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Black Lagoon\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"the Rift\\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Shoots terrifying arrows that deal\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"9sф \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Damage.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Also has a melee attack that deals\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"2sф \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Damage.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"150\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"DEADGEHOG_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Found near the §3Black Lagoon§7",
-    "§7in §dthe Rift§7.",
-    "",
-    "§7Shoots terrifying arrows that deal",
-    "§a9sф §7Damage.",
-    "",
-    "§7Also has a melee attack that deals",
-    "§a2sф §7Damage.",
-    "",
-    "§c❤ Health§8: §c150"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Found near the \",\"color\":\"gray\"},{\"text\":\"Black Lagoon\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"the Rift\",\"color\":\"light_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Shoots terrifying arrows that deal\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"9sф \",\"color\":\"green\"},{\"text\":\"Damage.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Also has a melee attack that deals\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"2sф \",\"color\":\"green\"},{\"text\":\"Damage.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"150\",\"color\":\"red\"}]}"
   ],
   "internalname": "DEADGEHOG_MONSTER",
   "crafttext": "",
@@ -49,5 +49,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Deadgehog",
     "https://wiki.hypixel.net/Deadgehog"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

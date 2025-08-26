@@ -1,26 +1,26 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9End Stone Shulker",
-  "nbttag": "{ExtraAttributes:{id:\"END_STONE_SHULKER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"610a9c5a-62ed-3a9f-b55d-4e61caf34686\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODM5Nzk4NywKICAicHJvZmlsZUlkIiA6ICI0MjEwNTYxMWQxZjM0NzAyOTQ4NjE3OTYzMDY3NjY2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUcmlraXRyYWthdGVsYXp6IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzExNzYwZTQyZDkwYTc5MDVmNGYwOTdjZmVkZDY0ZjUwOGRlZDUyZjMyY2M5OTFiYjViZTQ3YWJlZjZjZTY3OGQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Power Stone\",1:\"§7Combine §a9x §7of this stone at the\",2:\"§6Thaumaturgist §7to permanently\",3:\"§7unlock the §aAdept §7power.\",4:\"\",5:\"§7At §6§k1,000§r §6Magical Power§7:\",6:\"§c+§c§k543❤§r §cHealth\",7:\"§a+§a§k310❈§r §aDefense\",8:\"§b+§b§k116✎§r §bIntelligence\",9:\"\",10:\"§7Unique Power Bonus:\",11:\"§c+100❤ Health\",12:\"§a+50❈ Defense\",13:\"\",14:\"§7Requires §aCombat Skill Level XX§7!\",15:\"\",16:\"§9§lRARE POWER STONE\"],Name:\"§9End Stone Shulker\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"End Stone Shulker\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"End Stone Shulker\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Power Stone\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Combine \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"9x \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of this stone at the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Thaumaturgist \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"to permanently\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"unlock the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Adept \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"power.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"At \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1,000\\\",\\\"color\\\":\\\"gold\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Magical Power\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\":\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"543❤\\\",\\\"color\\\":\\\"red\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Health\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"310❈\\\",\\\"color\\\":\\\"green\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Defense\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"116✎\\\",\\\"color\\\":\\\"aqua\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Intelligence\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Unique Power Bonus:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"+100❤ Health\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"+50❈ Defense\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Combat Skill Level XX\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE POWER STONE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"END_STONE_SHULKER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODM5Nzk4NywKICAicHJvZmlsZUlkIiA6ICI0MjEwNTYxMWQxZjM0NzAyOTQ4NjE3OTYzMDY3NjY2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUcmlraXRyYWthdGVsYXp6IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzExNzYwZTQyZDkwYTc5MDVmNGYwOTdjZmVkZDY0ZjUwOGRlZDUyZjMyY2M5OTFiYjViZTQ3YWJlZjZjZTY3OGQiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Power Stone",
-    "§7Combine §a9x §7of this stone at the",
-    "§6Thaumaturgist §7to permanently",
-    "§7unlock the §aAdept §7power.",
-    "",
-    "§7At §6§k1,000§r §6Magical Power§7:",
-    "§c+§c§k543❤§r §cHealth",
-    "§a+§a§k310❈§r §aDefense",
-    "§b+§b§k116✎§r §bIntelligence",
-    "",
-    "§7Unique Power Bonus:",
-    "§c+100❤ Health",
-    "§a+50❈ Defense",
-    "",
-    "§7Requires §aCombat Skill Level XX§7!",
-    "",
-    "§9§lRARE POWER STONE"
+    "{\"text\":\"Power Stone\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Combine \",\"color\":\"gray\"},{\"text\":\"9x \",\"color\":\"green\"},{\"text\":\"of this stone at the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Thaumaturgist \",\"color\":\"gold\"},{\"text\":\"to permanently\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"unlock the \",\"color\":\"gray\"},{\"text\":\"Adept \",\"color\":\"green\"},{\"text\":\"power.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"At \",\"color\":\"gray\"},{\"text\":\"1,000\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Magical Power\",\"color\":\"gold\"},{\"text\":\":\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+\",\"color\":\"red\"},{\"text\":\"543❤\",\"color\":\"red\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Health\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+\",\"color\":\"green\"},{\"text\":\"310❈\",\"color\":\"green\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Defense\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+\",\"color\":\"aqua\"},{\"text\":\"116✎\",\"color\":\"aqua\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Intelligence\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Unique Power Bonus:\",\"color\":\"gray\"}",
+    "{\"text\":\"+100❤ Health\",\"color\":\"red\"}",
+    "{\"text\":\"+50❈ Defense\",\"color\":\"green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"Combat Skill Level XX\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE POWER STONE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "END_STONE_SHULKER",
   "clickcommand": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/End_Stone_Shulker",
     "https://wiki.hypixel.net/End_Stone_Shulker"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5First Master Star",
-  "nbttag": "{ExtraAttributes:{id:\"FIRST_MASTER_STAR\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b75968c5-abb7-301a-874b-f87de266eb0e\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NTgwMjU4MDE1OSwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYxMzY3MjQ3NDVjOGM5YWJjNzVjZGYyMjA1ZjJjZDFkMzNlNmJmZWZhNDE1Zjk5NWJlNzY5MjI5MTIxNjllYzkiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Imbue a §65✪§7 Dungeon Item with\",3:\"§7a §cMaster Star ➊§7, increasing\",4:\"§7all stats by an additional\",5:\"§a+5%§7 in §cMaster Mode§7!\",6:\"\",7:\"§5§lEPIC DUNGEON ITEM\"],Name:\"§5First Master Star\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"First Master Star\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"First Master Star\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Imbue a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5✪\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\" Dungeon Item with\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Master Star ➊\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\", increasing\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"all stats by an additional\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+5%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Master Mode\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC DUNGEON ITEM\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FIRST_MASTER_STAR\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0NTgwMjU4MDE1OSwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYxMzY3MjQ3NDVjOGM5YWJjNzVjZGYyMjA1ZjJjZDFkMzNlNmJmZWZhNDE1Zjk5NWJlNzY5MjI5MTIxNjllYzkiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Imbue a §65✪§7 Dungeon Item with",
-    "§7a §cMaster Star ➊§7, increasing",
-    "§7all stats by an additional",
-    "§a+5%§7 in §cMaster Mode§7!",
-    "",
-    "§5§lEPIC DUNGEON ITEM"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Imbue a \",\"color\":\"gray\"},{\"text\":\"5✪\",\"color\":\"gold\"},{\"text\":\" Dungeon Item with\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a \",\"color\":\"gray\"},{\"text\":\"Master Star ➊\",\"color\":\"red\"},{\"text\":\", increasing\",\"color\":\"gray\"}]}",
+    "{\"text\":\"all stats by an additional\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+5%\",\"color\":\"green\"},{\"text\":\" in \",\"color\":\"gray\"},{\"text\":\"Master Mode\",\"color\":\"red\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC DUNGEON ITEM\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FIRST_MASTER_STAR",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/First_Master_Star",
     "https://wiki.hypixel.net/First_Master_Star"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

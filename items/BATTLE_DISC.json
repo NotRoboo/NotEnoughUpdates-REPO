@@ -1,23 +1,26 @@
 {
   "internalname": "BATTLE_DISC",
   "itemid": "minecraft:record_13",
-  "displayname": "§9Battle Disc",
+  "displayname": "{\"text\":\"Battle Disc\",\"color\":\"blue\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Place this inside a jukebox to\",1:\"§7play a battle song!\",2:\"\",3:\"§6Blast in Banter Battle\",4:\"  §7By ShinkoNet\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Battle Disc\"},ExtraAttributes:{id:\"BATTLE_DISC\"}}",
+  "nbttag": "{\"id\":\"minecraft:record_13\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Battle Disc\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this inside a jukebox to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"play a battle song!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Blast in Banter Battle\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"By ShinkoNet\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BATTLE_DISC\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§7Place this inside a jukebox to",
-    "§7play a battle song!",
-    "",
-    "§6Blast in Banter Battle",
-    "  §7By ShinkoNet",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this inside a jukebox to\",\"color\":\"gray\"}",
+    "{\"text\":\"play a battle song!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Blast in Banter Battle\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"By ShinkoNet\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Battle_Disc",
     "https://wiki.hypixel.net/Battle_Disc"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:fence",
-  "displayname": "§fOak Fence",
-  "nbttag": "{ExtraAttributes:{id:\"FENCE\"},HideFlags:254,ItemModel:\"minecraft:oak_fence\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fOak Fence\"}}",
+  "displayname": "{\"text\":\"Oak Fence\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:fence\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Oak Fence\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FENCE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FENCE",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 3
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

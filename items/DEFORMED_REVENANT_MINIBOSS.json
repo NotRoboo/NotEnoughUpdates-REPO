@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Deformed Revenant (Miniboss)",
-  "nbttag": "{display:{Lore:[0:\"§7The Deformed Revenant is a Revenant Horror\",1:\"§7Miniboss that very rarely spawns after killing a\",2:\"§7Zombie during Revenant Horror Tier IV Quests.\",3:\"\",4:\"§c❤ Health§8: §c360,000\"],Name:\"§5Deformed Revenant (Miniboss)\"},ExtraAttributes:{id:\"DEFORMED_REVENANT_MINIBOSS\"}}",
-  "damage": 2,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Deformed Revenant (Miniboss)\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Deformed Revenant (Miniboss)\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Deformed Revenant is a Revenant Horror\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Miniboss that very rarely spawns after killing a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Zombie during Revenant Horror Tier IV Quests.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"360,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"DEFORMED_REVENANT_MINIBOSS\"}}}",
+  "damage": 0,
   "lore": [
-    "§7The Deformed Revenant is a Revenant Horror",
-    "§7Miniboss that very rarely spawns after killing a",
-    "§7Zombie during Revenant Horror Tier IV Quests.",
-    "",
-    "§c❤ Health§8: §c360,000"
+    "{\"text\":\"The Deformed Revenant is a Revenant Horror\",\"color\":\"gray\"}",
+    "{\"text\":\"Miniboss that very rarely spawns after killing a\",\"color\":\"gray\"}",
+    "{\"text\":\"Zombie during Revenant Horror Tier IV Quests.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"360,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "DEFORMED_REVENANT_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

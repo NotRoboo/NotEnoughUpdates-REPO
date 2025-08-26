@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Fishing Crystal",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2e474ee3-5361-3218-84db-880eb1cface1\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjM3NTk0ODU3MjM0OGZjNjc4ZDFmZGJiYTFhNzcwZjY0NGEwNDk3N2ExZmM3MTk0MzcwMDY2YTE4MzIzZmM2OSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Grants a chance of fishing\",1:\"§7Prismarine Shards and Prismarine\",2:\"§7Crystals in nearby water\",3:\"\",4:\"§7Effective Radius: §b15\"],Name:\"§9Fishing Crystal\"},ExtraAttributes:{id:\"FISHING_CRYSTAL\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Fishing Crystal\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fishing Crystal\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Grants a chance of fishing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Prismarine Shards and Prismarine\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Crystals in nearby water\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Effective Radius: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"15\\\",\\\"color\\\":\\\"aqua\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"FISHING_CRYSTAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Grants a chance of fishing",
-    "§7Prismarine Shards and Prismarine",
-    "§7Crystals in nearby water",
-    "",
-    "§7Effective Radius: §b15"
+    "{\"text\":\"Grants a chance of fishing\",\"color\":\"gray\"}",
+    "{\"text\":\"Prismarine Shards and Prismarine\",\"color\":\"gray\"}",
+    "{\"text\":\"Crystals in nearby water\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Effective Radius: \",\"color\":\"gray\"},{\"text\":\"15\",\"color\":\"aqua\"}]}"
   ],
   "internalname": "FISHING_CRYSTAL",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fishing_Crystal",
     "https://wiki.hypixel.net/Fishing_Crystal"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

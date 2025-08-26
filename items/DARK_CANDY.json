@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Dark Candy",
-  "nbttag": "{ExtraAttributes:{id:\"DARK_CANDY\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5e508f55-079f-39d4-8e83-e2dfe26f7d0e\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2M4NjZlNDIzOTU1MTQyOGY5YzgxNGQ5ZGMxMWU3MDAyZTA0M2I4N2Y1OTBmMWZkY2I0ZmY2YmI0OTdiOGUxOCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Can be brought to §cVargul the\",1:\"§cUnearthed §7at the back of the\",2:\"§7Hub island during the §5Great\",3:\"§5Spook§7.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Dark Candy\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Dark Candy\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dark Candy\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be brought to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Vargul the\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Unearthed \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"at the back of the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hub island during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Great\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spook\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DARK_CANDY\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2M4NjZlNDIzOTU1MTQyOGY5YzgxNGQ5ZGMxMWU3MDAyZTA0M2I4N2Y1OTBmMWZkY2I0ZmY2YmI0OTdiOGUxOCJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Can be brought to §cVargul the",
-    "§cUnearthed §7at the back of the",
-    "§7Hub island during the §5Great",
-    "§5Spook§7.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be brought to \",\"color\":\"gray\"},{\"text\":\"Vargul the\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Unearthed \",\"color\":\"red\"},{\"text\":\"at the back of the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hub island during the \",\"color\":\"gray\"},{\"text\":\"Great\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spook\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "DARK_CANDY",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dark_Candy",
     "https://wiki.hypixel.net/Dark_Candy"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

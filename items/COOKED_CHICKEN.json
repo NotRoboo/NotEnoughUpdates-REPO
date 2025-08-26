@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:cooked_chicken",
-  "displayname": "§fCooked Chicken",
-  "nbttag": "{ExtraAttributes:{id:\"COOKED_CHICKEN\"},HideFlags:254,ItemModel:\"minecraft:cooked_chicken\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCooked Chicken\"}}",
+  "displayname": "{\"text\":\"Cooked Chicken\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:cooked_chicken\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cooked Chicken\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COOKED_CHICKEN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "COOKED_CHICKEN",
   "clickcommand": "",
@@ -12,5 +12,8 @@
   "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "",
   "info": [],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

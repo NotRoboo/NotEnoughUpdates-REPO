@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aBat Piñata (Monster)",
-  "nbttag": "{SkullOwner:{Id:\"62e67882-f5a4-411b-816f-2f704b3feb51\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc2NjE5NjUyZmFmZWM5MGNlOThkZjUwMTNjNjNkYzZhNzc3NzZhYjI3ODczYjczZGFmYjJiNmJkZWIxODUifX19\u003d\"}]}},display:{Lore:[0:\"§7The Bat Piñata is a bat that only appears during\",1:\"§7the Spooky Festival.\",2:\"\",3:\"§c❤ Health§8: §c5\"],Name:\"§aBat Piñata (Monster)\"},ExtraAttributes:{id:\"BAT_PINATA_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bat Piñata (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bat Piñata (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Bat Piñata is a bat that only appears during\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the Spooky Festival.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"5\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"BAT_PINATA_MONSTER\"}}}",
+  "damage": 0,
   "lore": [
-    "§7The Bat Piñata is a bat that only appears during",
-    "§7the Spooky Festival.",
-    "",
-    "§c❤ Health§8: §c5"
+    "{\"text\":\"The Bat Piñata is a bat that only appears during\",\"color\":\"gray\"}",
+    "{\"text\":\"the Spooky Festival.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"5\",\"color\":\"red\"}]}"
   ],
   "internalname": "BAT_PINATA_MONSTER",
   "clickcommand": "viewrecipe",
@@ -42,5 +42,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

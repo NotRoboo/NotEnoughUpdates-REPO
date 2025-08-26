@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§9Starlight Wand",
-  "nbttag": "{ExtraAttributes:{id:\"STARLIGHT_WAND\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§6Ability: Starfall §e§lRIGHT CLICK\",1:\"§7Shower stars in a §f3 blocks\",2:\"§7area for §a5s§7, dealing\",3:\"§c297.1 §7damage per second to\",4:\"§7mobs within.\",5:\"§8Mana Cost: §3120\",6:\"§8Cooldown: §a2s\",7:\"\",8:\"§4❣ §cRequires §aCombat Skill 8§c.\",9:\"§9§lRARE WAND\"],Name:\"§9Starlight Wand\"}}",
+  "displayname": "{\"text\":\"Starlight Wand\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Starlight Wand\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Starfall \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Shower stars in a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3 blocks\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"area for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", dealing\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"297.1 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage per second to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"mobs within.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"120\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 8\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE WAND\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STARLIGHT_WAND\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Starfall §e§lRIGHT CLICK",
-    "§7Shower stars in a §f3 blocks",
-    "§7area for §a5s§7, dealing",
-    "§c297.1 §7damage per second to",
-    "§7mobs within.",
-    "§8Mana Cost: §3120",
-    "§8Cooldown: §a2s",
-    "",
-    "§4❣ §cRequires §aCombat Skill 8§c.",
-    "§9§lRARE WAND"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Starfall \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Shower stars in a \",\"color\":\"gray\"},{\"text\":\"3 blocks\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"area for \",\"color\":\"gray\"},{\"text\":\"5s\",\"color\":\"green\"},{\"text\":\", dealing\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"297.1 \",\"color\":\"red\"},{\"text\":\"damage per second to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"mobs within.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"120\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"2s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 8\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE WAND\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "STARLIGHT_WAND",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Starlight_Wand",
     "https://wiki.hypixel.net/Starlight_Wand"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

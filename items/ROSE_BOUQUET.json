@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:double_plant",
-  "displayname": "§f§cRose Bouquet",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Quest Item\",1:\" \",2:\"§7Bring it to §eJuliette §7in §aThe Park§7.\",3:\" \",4:\"§7§7§oA hastily-made bouquet\",5:\"§7§oconsisting of Marco\u0027s finest\",6:\"§7§oroses.\",7:\"\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§f§lCOMMON\"],Name:\"§f§cRose Bouquet\"},ExtraAttributes:{id:\"ROSE_BOUQUET\"}}",
-  "damage": 4,
+  "displayname": "{\"text\":\"Rose Bouquet\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:double_plant\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rose Bouquet\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Quest Item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring it to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Juliette \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Park\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"A hastily-made bouquet\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"consisting of Marco\u0027s finest\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"roses.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ROSE_BOUQUET\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Quest Item",
-    " ",
-    "§7Bring it to §eJuliette §7in §aThe Park§7.",
-    " ",
-    "§7§7§oA hastily-made bouquet",
-    "§7§oconsisting of Marco\u0027s finest",
-    "§7§oroses.",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§f§lCOMMON"
+    "{\"text\":\"Quest Item\",\"color\":\"gray\"}",
+    "{\"text\":\" \"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring it to \",\"color\":\"gray\"},{\"text\":\"Juliette \",\"color\":\"yellow\"},{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"The Park\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\" \"}",
+    "{\"text\":\"A hastily-made bouquet\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"consisting of Marco\u0027s finest\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"roses.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ROSE_BOUQUET",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Rose_Bouquet",
     "https://wiki.hypixel.net/Rose_Bouquet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

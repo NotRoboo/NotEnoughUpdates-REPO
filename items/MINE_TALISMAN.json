@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fMine Affinity Talisman",
-  "nbttag": "{ExtraAttributes:{id:\"MINE_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"acbc7d1e-fbf6-3b0a-8043-392a87ee595b\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk1NjNmZGM0YWNhYjZkYjMyNGIyMWJjNDNiMjM4ZmU0NjVlNTMwYTYzMjdlN2VlZjExZDJkMGM0ZWEifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Increases your §f✦ Speed §7by §a+10\",1:\"§7while on §bMining Islands§7.\",2:\"\",3:\"§f§lCOMMON ACCESSORY\"],Name:\"§fMine Affinity Talisman\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mine Affinity Talisman\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mine Affinity Talisman\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✦ Speed \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"while on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mining Islands\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON ACCESSORY\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MINE_TALISMAN\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk1NjNmZGM0YWNhYjZkYjMyNGIyMWJjNDNiMjM4ZmU0NjVlNTMwYTYzMjdlN2VlZjExZDJkMGM0ZWEifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Increases your §f✦ Speed §7by §a+10",
-    "§7while on §bMining Islands§7.",
-    "",
-    "§f§lCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases your \",\"color\":\"gray\"},{\"text\":\"✦ Speed \",\"color\":\"white\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"while on \",\"color\":\"gray\"},{\"text\":\"Mining Islands\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON ACCESSORY\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MINE_TALISMAN",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mine_Affinity_Talisman",
     "https://wiki.hypixel.net/Mine_Affinity_Talisman"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

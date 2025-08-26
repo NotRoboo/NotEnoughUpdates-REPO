@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Gemstone Chamber",
-  "nbttag": "{ExtraAttributes:{id:\"GEMSTONE_CHAMBER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"558648c0-4dda-371c-87d8-f983a7bc58ca\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI4MDk4ODlkYTM2YWRmNTYxODU4MWJiZjdiNjZkMmQ4ODM5ZTJlYjcyNTRjMzMzMmU0ZjNhMjMwZmEifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Used in the §dGemstone Grinder\",1:\"§7to unlock §dGemstone §7slots\",2:\"§7for §6Divan Armor§7.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Gemstone Chamber\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Gemstone Chamber\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gemstone Chamber\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Used in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Gemstone Grinder\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to unlock \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Gemstone \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"slots\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Divan Armor\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GEMSTONE_CHAMBER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI4MDk4ODlkYTM2YWRmNTYxODU4MWJiZjdiNjZkMmQ4ODM5ZTJlYjcyNTRjMzMzMmU0ZjNhMjMwZmEifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Used in the §dGemstone Grinder",
-    "§7to unlock §dGemstone §7slots",
-    "§7for §6Divan Armor§7.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Used in the \",\"color\":\"gray\"},{\"text\":\"Gemstone Grinder\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to unlock \",\"color\":\"gray\"},{\"text\":\"Gemstone \",\"color\":\"light_purple\"},{\"text\":\"slots\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"Divan Armor\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "GEMSTONE_CHAMBER",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
       "overrideOutputId": "GEMSTONE_CHAMBER",
       "duration": 14400
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

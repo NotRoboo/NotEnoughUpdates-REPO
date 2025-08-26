@@ -1,22 +1,25 @@
 {
   "itemid": "minecraft:blaze_powder",
-  "displayname": "§6Free Will §8(Refund)",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Giving this to a minion will give them\",1:\"§7the illusion of §dFree Will§7. They will be\",2:\"§7met with the most important choice of\",3:\"§7their minion life.\",4:\"\",5:\"§7Loyalty Chance: §a100%\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§6§lLEGENDARY\"],Name:\"§6Free Will §8(Refund)\"},ExtraAttributes:{id:\"FREE_WILL_REFUND\"}}",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"Free Will \",\"color\":\"gold\"},{\"text\":\"(Refund)\",\"color\":\"dark_gray\"}]}",
+  "nbttag": "{\"id\":\"minecraft:blaze_powder\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Free Will \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(Refund)\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Giving this to a minion will give them\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the illusion of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Free Will\\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\". They will be\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"met with the most important choice of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"their minion life.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Loyalty Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"100%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FREE_WILL_REFUND\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Giving this to a minion will give them",
-    "§7the illusion of §dFree Will§7. They will be",
-    "§7met with the most important choice of",
-    "§7their minion life.",
-    "",
-    "§7Loyalty Chance: §a100%",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Giving this to a minion will give them\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the illusion of \",\"color\":\"gray\"},{\"text\":\"Free Will\",\"color\":\"light_purple\"},{\"text\":\". They will be\",\"color\":\"gray\"}]}",
+    "{\"text\":\"met with the most important choice of\",\"color\":\"gray\"}",
+    "{\"text\":\"their minion life.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Loyalty Chance: \",\"color\":\"gray\"},{\"text\":\"100%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "FREE_WILL_REFUND",
   "crafttext": "",
   "clickcommand": "",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

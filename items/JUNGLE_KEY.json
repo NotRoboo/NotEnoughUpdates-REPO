@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:tripwire_hook",
-  "displayname": "§5Jungle Key",
-  "nbttag": "{ExtraAttributes:{id:\"JUNGLE_KEY\"},HideFlags:254,ItemModel:\"minecraft:tripwire_hook\",display:{Lore:[0:\"§7Used to open the entrance to the\",1:\"§7Jungle Temple.\",2:\"\",3:\"§5§lEPIC\"],Name:\"§5Jungle Key\"},ench:[]}",
+  "displayname": "{\"text\":\"Jungle Key\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:tripwire_hook\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jungle Key\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Used to open the entrance to the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Jungle Temple.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"JUNGLE_KEY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Used to open the entrance to the",
-    "§7Jungle Temple.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Used to open the entrance to the\",\"color\":\"gray\"}",
+    "{\"text\":\"Jungle Temple.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "JUNGLE_KEY",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Jungle_Key",
     "https://wiki.hypixel.net/Jungle_Key"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

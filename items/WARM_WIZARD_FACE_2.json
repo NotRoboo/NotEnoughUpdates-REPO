@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dWarmer Wizard Face",
-  "nbttag": "{ExtraAttributes:{id:\"WARM_WIZARD_FACE_2\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"09b01859-ab25-34cf-800b-6a34224d0df8\",Properties:{textures:[0:{Name:\"textures\",Signature:\"s4R59LIl4HjzahENKAVxSrwc7v7dRtTwQmEAofp48kvicw9gpnAxHx/e0C1kIvVdaSaXM8UifkgNZguJ2+3/gtK/5RUzQVLvbunA5QY0pS+gekUsGMvhg9h60PeAMYm3dVJBjAAzTudrISJrLRtQ6xsEe7zQGtSn/DmEsDBqiEtgy+YhQCfEWJkdKYzeX5o6mf1i/A1IlIme5mLa/CjKkMJnlGTczogULxnyZv+YKtd3ExeTSCfHf8Y1cgIZSns9KL2LPYTq8JEF1mZDH2vnK1E0gP43ThZnUjcOEWgIFbl4rWvIiSZ+vnoA4nyBZQ2eDeJ4h4Cvh89tPqV03RT7bIsH/u83SVPd1PXXqmQYv+imEX4TM89mnXvbUH7SDbicb5g09NTZ8hq7ZPeeg/SHRobd4IcmSLMg4L/MM6Ghy7pxpY39G09A+xHKO4uFhrDub2YXVDckdnld6DAlqjQoqTOrmjMLTAD7GYfv76/DsFpfHDUE2aMQjrQrxpnTKq82eyY+zxtFMa5KvryoKqV02HMW/anKZ+325ggdw0lqxJ0X+pNZlvKt0QtPQwMjpEQp67OV9ELUMUCxdJM/IjH+TI9GHEq6OAn6zxnihlN2p9iZ6qUdD2uKfuLYh6DFBmb0vP36uXOzXkFL2+RRMeqqnUhX7LJyJdu8Shq+ENCuTKI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMzg4NTY4NDkzMywKICAicHJvZmlsZUlkIiA6ICJkMWRkMDJlOWQwN2E0YWU1YWRjYWQyYzI5YTZhYmIyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYW5pd2lzXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZDk4YTEyZjMyYTAyODRiNzRmZWZiOWU5ODJhMWU5ZWMyNDg3NzY2NDcwYWExMjMwZjZmMjZmOWFhY2UzZGU2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Intelligence: §a+26\",1:\"\",2:\"§6Ability: Wizards All The Way Around \",3:\"§7Regain §a+2ф §7when killing a monster.\",4:\"\",5:\"§7If you would take §c❤ §7damage, take\",6:\"§c0.5❤ §7less.\",7:\"\",8:\"§eLeft-click to pick color!\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4☠ §cRequires §5Vampire Slayer 4§c.\",12:\"§d§lMYTHIC HELMET\"],Name:\"§dWarmer Wizard Face\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Warmer Wizard Face\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Warmer Wizard Face\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+26\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Wizards All The Way Around \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2ф \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"when killing a monster.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"If you would take \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage, take\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"0.5❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"less.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Left-click to pick color!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Vampire Slayer 4\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"MYTHIC HELMET\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WARM_WIZARD_FACE_2\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTczMzg4NTY4NDkzMywKICAicHJvZmlsZUlkIiA6ICJkMWRkMDJlOWQwN2E0YWU1YWRjYWQyYzI5YTZhYmIyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYW5pd2lzXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZDk4YTEyZjMyYTAyODRiNzRmZWZiOWU5ODJhMWU5ZWMyNDg3NzY2NDcwYWExMjMwZjZmMjZmOWFhY2UzZGU2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Intelligence: §a+26",
-    "",
-    "§6Ability: Wizards All The Way Around ",
-    "§7Regain §a+2ф §7when killing a monster.",
-    "",
-    "§7If you would take §c❤ §7damage, take",
-    "§c0.5❤ §7less.",
-    "",
-    "§eLeft-click to pick color!",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Vampire Slayer 4§c.",
-    "§d§lMYTHIC HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+26\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Wizards All The Way Around \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regain \",\"color\":\"gray\"},{\"text\":\"+2ф \",\"color\":\"green\"},{\"text\":\"when killing a monster.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"If you would take \",\"color\":\"gray\"},{\"text\":\"❤ \",\"color\":\"red\"},{\"text\":\"damage, take\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"0.5❤ \",\"color\":\"red\"},{\"text\":\"less.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Left-click to pick color!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Vampire Slayer 4\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"MYTHIC HELMET\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "WARM_WIZARD_FACE_2",
   "clickcommand": "viewrecipe",
@@ -52,5 +52,8 @@
       "C2": "WARM_WIZARD_FACE:1",
       "C3": "BLOODBADGE:1"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

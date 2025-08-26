@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:cake",
-  "displayname": "§fPet Cake",
-  "nbttag": "{ExtraAttributes:{id:\"PET_CAKE\"},HideFlags:254,ItemModel:\"minecraft:cake\",display:{Lore:[0:\"§7Feeding this to your pets gives them\",1:\"§7a boost of §a10,000 Exp§7!\",2:\"\",3:\"§eRight-click on your summoned pet to\",4:\"§efeed it!\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§fPet Cake\"}}",
+  "displayname": "{\"text\":\"Pet Cake\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:cake\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pet Cake\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Feeding this to your pets gives them\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a boost of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10,000 Exp\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"feed it!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PET_CAKE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Feeding this to your pets gives them",
-    "§7a boost of §a10,000 Exp§7!",
-    "",
-    "§eRight-click on your summoned pet to",
-    "§efeed it!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Feeding this to your pets gives them\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a boost of \",\"color\":\"gray\"},{\"text\":\"10,000 Exp\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"feed it!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "PET_CAKE",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pet_Cake",
     "https://wiki.hypixel.net/Pet_Cake"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

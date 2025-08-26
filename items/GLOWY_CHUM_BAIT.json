@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aGlowy Chum Bait",
-  "nbttag": "{ExtraAttributes:{id:\"GLOWY_CHUM_BAIT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"aed1035d-0ce1-35e6-b532-8c26a596f510\",Properties:{textures:[0:{Name:\"textures\",Signature:\"FiYKXmtsRf5iqccIfFuK7AFczBYWggoNpFJi/QstVhlc4VzlIIe4Xaxhvhsj6bPwRQ1wz7pOv36i7TBMCknqpe1OQiC2dFRXm/avPAmWRDhUTcws/j0wuAxkNIT2GSI5KZHHjFixRvsyu/RKHj8OP3PN9Tdz/RxBcGgO2z4Wz4Tx+n4j8Jp/uRewgyy/GqVwi28sVkG2NkBUiEkdLQXVV3ML6ZqMoPuAN9EDnMgyBo1Dy0bPaIIqWtBtMHeoIzQ7EyaW9pKScVQORRhb/76wzEBzk3gu1Zpn9D/MSwDrHEOrKYBTtsz/+6zpnWCbOZDDX04/HJoKBtJ6oM6EJ1fRDPfX49Z7yUGJRwPW5MDjMdPFLI8a60tJqSroFMt+Ul29m8vtGVD/tNMxCeGmsntbc29qXKCZhrgGHl2FwMuX8wiWGFrTqc5OxLQ5iDW5Hc+MyZ12WlvCfN3HPOtonH956/FiH/zkxSYC8JTUe4BuAWeUgrMF636if7FFsvR1oZrNPMQe7HKOdUwFDhahIr7SSNhStcAr113jdu40pG4uYrqBrXICxrGmiiNTRq2XjeWpfXa6A/FDzp9RsySxrZwyYc5W0s1iuQ/74Y9/8yQBub3yWsNBhkdatsOp2nyz7r/bUSEKm+4kWjWrzsPUndhS2gO+iRqq61DCP6WO4MLGzUU=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MTgwMDk0NzQxOSwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RmZGMxZWVkNjg0ZGQ4MDVlYWU5NmQxMzJlM2RhNTNkNjQyNjdkNzM2MTM4OGQ1ZTJjNjdmNTk2OTg3MWU3MWQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Fishing Bait\",1:\"§8Consumes on Cast\",2:\"\",3:\"§7Grants §b+25☂ Fishing Speed§7.\",4:\"§7Grants §3+3α Sea Creature Chance§7.\",5:\"\",6:\"§7Adds §a+2 Chums §7dropped on Sea\",7:\"§7Creatures fished with this bait.\",8:\"\",9:\"§a§lUNCOMMON BAIT\"],Name:\"§aGlowy Chum Bait\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Glowy Chum Bait\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Glowy Chum Bait\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Fishing Bait\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Consumes on Cast\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25☂ Fishing Speed\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3α Sea Creature Chance\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Adds \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2 Chums \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"dropped on Sea\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Creatures fished with this bait.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON BAIT\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GLOWY_CHUM_BAIT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY2MTgwMDk0NzQxOSwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RmZGMxZWVkNjg0ZGQ4MDVlYWU5NmQxMzJlM2RhNTNkNjQyNjdkNzM2MTM4OGQ1ZTJjNjdmNTk2OTg3MWU3MWQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Fishing Bait",
-    "§8Consumes on Cast",
-    "",
-    "§7Grants §b+25☂ Fishing Speed§7.",
-    "§7Grants §3+3α Sea Creature Chance§7.",
-    "",
-    "§7Adds §a+2 Chums §7dropped on Sea",
-    "§7Creatures fished with this bait.",
-    "",
-    "§a§lUNCOMMON BAIT"
+    "{\"text\":\"Fishing Bait\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Consumes on Cast\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+25☂ Fishing Speed\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+3α Sea Creature Chance\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Adds \",\"color\":\"gray\"},{\"text\":\"+2 Chums \",\"color\":\"green\"},{\"text\":\"dropped on Sea\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Creatures fished with this bait.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON BAIT\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "GLOWY_CHUM_BAIT",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Glowy_Chum_Bait",
     "https://wiki.hypixel.net/Glowy_Chum_Bait"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

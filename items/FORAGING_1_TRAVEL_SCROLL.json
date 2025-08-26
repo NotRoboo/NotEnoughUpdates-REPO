@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:map",
-  "displayname": "§9Travel Scroll to The Park",
-  "nbttag": "{ExtraAttributes:{id:\"FORAGING_1_TRAVEL_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:map\",display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your Fast Travel\",2:\"§7options.\",3:\"\",4:\"§7Island: §aThe Park\",5:\"§7Teleport: §eSpawn\",6:\"\",7:\"§8§l* §8Co-op Soulbound §8§l*\",8:\"§9§lRARE TRAVEL SCROLL\"],Name:\"§9Travel Scroll to The Park\"}}",
+  "displayname": "{\"text\":\"Travel Scroll to The Park\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:map\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Travel Scroll to The Park\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consume this item to add its\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"destination to your Fast Travel\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"options.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Island: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Park\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Teleport: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Spawn\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE TRAVEL SCROLL\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FORAGING_1_TRAVEL_SCROLL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Consume this item to add its",
-    "§7destination to your Fast Travel",
-    "§7options.",
-    "",
-    "§7Island: §aThe Park",
-    "§7Teleport: §eSpawn",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§9§lRARE TRAVEL SCROLL"
+    "{\"text\":\"Consume this item to add its\",\"color\":\"gray\"}",
+    "{\"text\":\"destination to your Fast Travel\",\"color\":\"gray\"}",
+    "{\"text\":\"options.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Island: \",\"color\":\"gray\"},{\"text\":\"The Park\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Teleport: \",\"color\":\"gray\"},{\"text\":\"Spawn\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE TRAVEL SCROLL\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "FORAGING_1_TRAVEL_SCROLL",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Travel_Scroll_to_the_Park",
     "https://wiki.hypixel.net/Travel_Scroll_To_The_Park"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

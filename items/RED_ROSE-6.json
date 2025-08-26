@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:red_flower",
-  "displayname": "§fWhite Tulip",
-  "nbttag": "{ExtraAttributes:{id:\"RED_ROSE-6\"},HideFlags:254,ItemModel:\"minecraft:white_tulip\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fWhite Tulip\"}}",
-  "damage": 6,
+  "displayname": "{\"text\":\"White Tulip\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:red_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"White Tulip\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RED_ROSE-6\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "RED_ROSE-6",
   "clickcommand": "",
@@ -12,5 +12,8 @@
   "modver": "Firmament 3.2.0-dev+mc1.21.5+g9791477",
   "infoType": "",
   "info": [],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

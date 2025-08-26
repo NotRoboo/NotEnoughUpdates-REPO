@@ -1,23 +1,23 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Ender Monocle",
-  "nbttag": "{ExtraAttributes:{id:\"ENDER_MONOCLE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e9fbaa43-29b0-3e8f-b8dc-8e7590c03d17\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODMzMjY3MiwKICAicHJvZmlsZUlkIiA6ICI5ZWEyMTQ0NGFiNjI0MWZkYjg5YjE2NDFhNDg2MGZiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICI3QUJDSE9VTiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iODQ0NDIyNGFmMmNkNGE1ZDM5MDlkYjc3MmM3ZDBjOTViMTIxNmMzYWMwMTlmNGEwZTdjZGJiOGYwN2Y0MThmIgogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Power Stone\",1:\"§7Combine §a9x §7of this stone at the\",2:\"§6Thaumaturgist §7to permanently\",3:\"§7unlock the §aSighted §7power.\",4:\"\",5:\"§7At §6§k1,000§r §6Magical Power§7:\",6:\"§b+§b§k1,163✎§r §bIntelligence\",7:\"\",8:\"§7Unique Power Bonus:\",9:\"§c+3๑ Ability Damage\",10:\"\",11:\"§7Requires §aCombat Skill Level XV§7!\",12:\"\",13:\"§9§lRARE POWER STONE\"],Name:\"§9Ender Monocle\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Ender Monocle\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ender Monocle\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Power Stone\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Combine \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"9x \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of this stone at the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Thaumaturgist \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"to permanently\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"unlock the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sighted \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"power.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"At \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1,000\\\",\\\"color\\\":\\\"gold\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Magical Power\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\":\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"1,163✎\\\",\\\"color\\\":\\\"aqua\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Intelligence\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Unique Power Bonus:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"+3๑ Ability Damage\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Combat Skill Level XV\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE POWER STONE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENDER_MONOCLE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODMzMjY3MiwKICAicHJvZmlsZUlkIiA6ICI5ZWEyMTQ0NGFiNjI0MWZkYjg5YjE2NDFhNDg2MGZiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICI3QUJDSE9VTiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iODQ0NDIyNGFmMmNkNGE1ZDM5MDlkYjc3MmM3ZDBjOTViMTIxNmMzYWMwMTlmNGEwZTdjZGJiOGYwN2Y0MThmIgogICAgfQogIH0KfQ\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Power Stone",
-    "§7Combine §a9x §7of this stone at the",
-    "§6Thaumaturgist §7to permanently",
-    "§7unlock the §aSighted §7power.",
-    "",
-    "§7At §6§k1,000§r §6Magical Power§7:",
-    "§b+§b§k1,163✎§r §bIntelligence",
-    "",
-    "§7Unique Power Bonus:",
-    "§c+3๑ Ability Damage",
-    "",
-    "§7Requires §aCombat Skill Level XV§7!",
-    "",
-    "§9§lRARE POWER STONE"
+    "{\"text\":\"Power Stone\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Combine \",\"color\":\"gray\"},{\"text\":\"9x \",\"color\":\"green\"},{\"text\":\"of this stone at the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Thaumaturgist \",\"color\":\"gold\"},{\"text\":\"to permanently\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"unlock the \",\"color\":\"gray\"},{\"text\":\"Sighted \",\"color\":\"green\"},{\"text\":\"power.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"At \",\"color\":\"gray\"},{\"text\":\"1,000\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Magical Power\",\"color\":\"gold\"},{\"text\":\":\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+\",\"color\":\"aqua\"},{\"text\":\"1,163✎\",\"color\":\"aqua\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Intelligence\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Unique Power Bonus:\",\"color\":\"gray\"}",
+    "{\"text\":\"+3๑ Ability Damage\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"Combat Skill Level XV\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE POWER STONE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENDER_MONOCLE",
   "clickcommand": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ender_Monocle",
     "https://wiki.hypixel.net/Ender_Monocle"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

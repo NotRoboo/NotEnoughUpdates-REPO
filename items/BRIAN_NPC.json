@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Brian (NPC)",
-  "nbttag": "{ExtraAttributes:{id:\"BRIAN_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fa35341f-8a7c-2053-b26f-9c146f81d251\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNlNTI0ZDE0ZjZmYmU3NjRmODdmYjNhMjUxMDkzMzVlNDk0NjA2ZjlkZGQxMTkzZWIwNGIwMWJlOWQ5MWYxNyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJmYTM1MzQxZjhhN2MyMDUzYjI2ZjljMTQ2ZjgxZDI1MSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUwNjk0NzE1NzU1fQ\u003d\u003d\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Brian (NPC)\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Brian (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Brian (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"BRIAN_NPC\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNlNTI0ZDE0ZjZmYmU3NjRmODdmYjNhMjUxMDkzMzVlNDk0NjA2ZjlkZGQxMTkzZWIwNGIwMWJlOWQ5MWYxNyIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJmYTM1MzQxZjhhN2MyMDUzYjI2ZjljMTQ2ZjgxZDI1MSIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUwNjk0NzE1NzU1fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "BRIAN_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "island": "foraging_2",
   "x": -629,
   "y": 117,
-  "z": 47
+  "z": 47,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

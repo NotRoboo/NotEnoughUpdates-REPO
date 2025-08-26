@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Pack Enforcer (Miniboss)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7e9af289-f295-3f8c-bd54-58b7667d5759\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0\"}]}},display:{Lore:[0:\"§7The Pack Enforcer is a Sven Packmaster Miniboss\",1:\"§7that has a small chance to be spawned upon killing\",2:\"§7a Wolf During a Sven Packmaster Tier III Quest.\",3:\"\",4:\"§c❤ Health§8: §c45,000\"],Name:\"§5Pack Enforcer (Miniboss)\"},ExtraAttributes:{id:\"PACK_ENFORCER_MINIBOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Pack Enforcer (Miniboss)\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pack Enforcer (Miniboss)\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Pack Enforcer is a Sven Packmaster Miniboss\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"that has a small chance to be spawned upon killing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"a Wolf During a Sven Packmaster Tier III Quest.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"45,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"PACK_ENFORCER_MINIBOSS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Pack Enforcer is a Sven Packmaster Miniboss",
-    "§7that has a small chance to be spawned upon killing",
-    "§7a Wolf During a Sven Packmaster Tier III Quest.",
-    "",
-    "§c❤ Health§8: §c45,000"
+    "{\"text\":\"The Pack Enforcer is a Sven Packmaster Miniboss\",\"color\":\"gray\"}",
+    "{\"text\":\"that has a small chance to be spawned upon killing\",\"color\":\"gray\"}",
+    "{\"text\":\"a Wolf During a Sven Packmaster Tier III Quest.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"45,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "PACK_ENFORCER_MINIBOSS",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

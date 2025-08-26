@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:trapdoor",
-  "displayname": "§fWooden Trapdoor",
-  "nbttag": "{ExtraAttributes:{id:\"TRAP_DOOR\"},HideFlags:254,ItemModel:\"minecraft:oak_trapdoor\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fWooden Trapdoor\"}}",
+  "displayname": "{\"text\":\"Wooden Trapdoor\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:trapdoor\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wooden Trapdoor\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TRAP_DOOR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "TRAP_DOOR",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 2
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

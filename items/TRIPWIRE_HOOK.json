@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:tripwire_hook",
-  "displayname": "§fTripwire Hook",
-  "nbttag": "{ExtraAttributes:{id:\"TRIPWIRE_HOOK\"},HideFlags:254,ItemModel:\"minecraft:tripwire_hook\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fTripwire Hook\"}}",
+  "displayname": "{\"text\":\"Tripwire Hook\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:tripwire_hook\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tripwire Hook\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TRIPWIRE_HOOK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "TRIPWIRE_HOOK",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 2
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

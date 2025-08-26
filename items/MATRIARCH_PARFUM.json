@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:rabbit_stew",
-  "displayname": "§cMatriarch's Perfume",
-  "nbttag": "{ExtraAttributes:{id:\"MATRIARCH_PARFUM\"},HideFlags:254,ItemModel:\"minecraft:rabbit_stew\",display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7Consume to apply a pungent smell\",3:\"§7upon yourself, confusing §6§lThe\",4:\"§6§lMatriarch §7in the §cCrimson Isle §7into\",5:\"§7releasing new pearls.\",6:\"\",7:\"§8Can be used up to 4 times a day!\",8:\"\",9:\"§eRight-click to consume!\",10:\"\",11:\"§c§lSPECIAL\"],Name:\"§cMatriarch's Perfume\"},ench:[]}",
+  "displayname": "{\"text\":\"Matriarch\u0027s Perfume\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:rabbit_stew\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Matriarch\u0027s Perfume\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumable\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Consume to apply a pungent smell\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"upon yourself, confusing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Matriarch \\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Crimson Isle \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"into\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"releasing new pearls.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Can be used up to 4 times a day!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MATRIARCH_PARFUM\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Consumable",
-    "",
-    "§7Consume to apply a pungent smell",
-    "§7upon yourself, confusing §6§lThe",
-    "§6§lMatriarch §7in the §cCrimson Isle §7into",
-    "§7releasing new pearls.",
-    "",
-    "§8Can be used up to 4 times a day!",
-    "",
-    "§eRight-click to consume!",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Consumable\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Consume to apply a pungent smell\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"upon yourself, confusing \",\"color\":\"gray\"},{\"text\":\"The\",\"color\":\"gold\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Matriarch \",\"color\":\"gold\",\"bold\":true},{\"text\":\"in the \",\"color\":\"gray\"},{\"text\":\"Crimson Isle \",\"color\":\"red\"},{\"text\":\"into\",\"color\":\"gray\"}]}",
+    "{\"text\":\"releasing new pearls.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Can be used up to 4 times a day!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "MATRIARCH_PARFUM",
   "clickcommand": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Matriarch%27s_Perfume",
     "https://wiki.hypixel.net/Matriarch%27s_Perfume"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

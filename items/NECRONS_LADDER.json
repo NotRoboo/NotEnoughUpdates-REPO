@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:ladder",
-  "displayname": "§9Necron\u0027s Ladder",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7§7While in your inventory, counts the\",3:\"§7number of §5Necron\u0027s Handles §7that\",4:\"§7you obtain from Dungeon Chests§7.\",5:\"\",6:\"§7If you obtain §a3 §7handles you can\",7:\"§7consume this item to permanently gain:\",8:\" §c+1❤ Health\",9:\" §b+1✎ Intelligence\",10:\" §b+1✯ Magic Find\",11:\"\",12:\"§7Handles obtained: §a0§7/§c3\",13:\"\",14:\"§8You may only gain this bonus once!\",15:\"\",16:\"§9§lRARE\"],Name:\"§9Necron\u0027s Ladder\"},ExtraAttributes:{raffle_year:400,handles_found:0,raffle_win:\"year_400_small_13\",id:\"NECRONS_LADDER\",handle_loops:1}}",
+  "displayname": "{\"text\":\"Necron\u0027s Ladder\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:ladder\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Necron\u0027s Ladder\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumable\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"While in your inventory, counts the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"number of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Necron\u0027s Handles \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"that\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"you obtain from Dungeon Chests\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"If you obtain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"handles you can\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"consume this item to permanently gain:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"+1❤ Health\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"+1✎ Intelligence\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"+1✯ Magic Find\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Handles obtained: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You may only gain this bonus once!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"raffle_year\":400,\"handles_found\":0,\"raffle_win\":\"year_400_small_13\",\"id\":\"NECRONS_LADDER\",\"handle_loops\":1},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Consumable",
-    "",
-    "§7§7While in your inventory, counts the",
-    "§7number of §5Necron\u0027s Handles §7that",
-    "§7you obtain from Dungeon Chests§7.",
-    "",
-    "§7If you obtain §a3 §7handles you can",
-    "§7consume this item to permanently gain:",
-    " §c+1❤ Health",
-    " §b+1✎ Intelligence",
-    " §b+1✯ Magic Find",
-    "",
-    "§7Handles obtained: §a0§7/§c3",
-    "",
-    "§8You may only gain this bonus once!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Consumable\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"While in your inventory, counts the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"number of \",\"color\":\"gray\"},{\"text\":\"Necron\u0027s Handles \",\"color\":\"dark_purple\"},{\"text\":\"that\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"you obtain from Dungeon Chests\",\"color\":\"gray\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"If you obtain \",\"color\":\"gray\"},{\"text\":\"3 \",\"color\":\"green\"},{\"text\":\"handles you can\",\"color\":\"gray\"}]}",
+    "{\"text\":\"consume this item to permanently gain:\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"+1❤ Health\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"+1✎ Intelligence\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"+1✯ Magic Find\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Handles obtained: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"green\"},{\"text\":\"/\",\"color\":\"gray\"},{\"text\":\"3\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You may only gain this bonus once!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "NECRONS_LADDER",
   "crafttext": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Necron%27s_Ladder",
     "https://wiki.hypixel.net/Necron%27s_Ladder"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

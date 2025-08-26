@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§9Chestplate of Growth",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+103\",1:\"§7Defense: §a+50\",2:\"\",3:\"§6Ability: Growth\",4:\"§7Heals you for §a1% §c❤ Health\",5:\"§c§7after killing a Monster, and\",6:\"§7also increases the §c❤ Health\",7:\"§c§7bonus of a piece of the armor\",8:\"§7by §a1§8 (Max 100)\",9:\"§8Cooldown: §a4s\",10:\"\",11:\"§7Bonus HP: §a0/100\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§9§lRARE CHESTPLATE\"],color:48640,Name:\"§9Chestplate of Growth\"},ExtraAttributes:{color:\"0:190:0\",health:3,id:\"GROWTH_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Chestplate of Growth\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chestplate of Growth\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+103\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Growth\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Heals you for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"after killing a Monster, and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"also increases the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"bonus of a piece of the armor\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" (Max 100)\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"4s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bonus HP: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0/100\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE CHESTPLATE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"0:190:0\",\"health\":3,\"id\":\"GROWTH_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+103",
-    "§7Defense: §a+50",
-    "",
-    "§6Ability: Growth",
-    "§7Heals you for §a1% §c❤ Health",
-    "§c§7after killing a Monster, and",
-    "§7also increases the §c❤ Health",
-    "§c§7bonus of a piece of the armor",
-    "§7by §a1§8 (Max 100)",
-    "§8Cooldown: §a4s",
-    "",
-    "§7Bonus HP: §a0/100",
-    "",
-    "§7§8This item can be reforged!",
-    "§9§lRARE CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+103\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Growth\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Heals you for \",\"color\":\"gray\"},{\"text\":\"1% \",\"color\":\"green\"},{\"text\":\"❤ Health\",\"color\":\"red\"}]}",
+    "{\"text\":\"after killing a Monster, and\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"also increases the \",\"color\":\"gray\"},{\"text\":\"❤ Health\",\"color\":\"red\"}]}",
+    "{\"text\":\"bonus of a piece of the armor\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"1\",\"color\":\"green\"},{\"text\":\" (Max 100)\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"4s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bonus HP: \",\"color\":\"gray\"},{\"text\":\"0/100\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE CHESTPLATE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "ENCHANTED_DARK_OAK_LOG:64",
@@ -39,5 +39,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Chestplate_of_Growth",
     "https://wiki.hypixel.net/Chestplate_Of_Growth"
   ],
-  "crafttext": "Requires: Dark Oak Wood IX"
+  "crafttext": "Requires: Dark Oak Wood IX",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

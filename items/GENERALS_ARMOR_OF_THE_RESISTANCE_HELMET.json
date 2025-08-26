@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Helmet of the Rising Sun",
-  "nbttag": "{ExtraAttributes:{id:\"GENERALS_ARMOR_OF_THE_RESISTANCE_HELMET\",leaderPosition:0,leaderVotes:0,originTag:\"REWARD_SERAPHINE:ARMOR_OF_THE_RESISTANCE_HELMET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1a136205-4ff3-3028-bb5b-c2ef8a047399\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODIzMzEwNTIyOSwKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb19jcmVyYXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRjZjNjNWYyNGM5YmY4YjkwMzFlOGFlZDUzMzdiNmEwN2Y4MTljZGU4YzYyMjA4NTU0NTE2MmY4YTY5MzA2MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Health: §a+20 HP\",1:\"§7Defense: §a+20\",2:\"\",3:\"§6Full Set Bonus: Power of the Resistance\",4:\"§7Provides a damage bonus while\",5:\"§7fighting against Dante, and\",6:\"§7reduces damage taken from Dante.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC HELMET\"],Name:\"§5Helmet of the Rising Sun\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Helmet of the Rising Sun\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Helmet of the Rising Sun\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20 HP\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Power of the Resistance\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Provides a damage bonus while\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"fighting against Dante, and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"reduces damage taken from Dante.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC HELMET\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"leaderVotes\":0,\"leaderPosition\":0,\"originTag\":\"REWARD_SERAPHINE:ARMOR_OF_THE_RESISTANCE_HELMET\",\"id\":\"GENERALS_ARMOR_OF_THE_RESISTANCE_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxODIzMzEwNTIyOSwKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb19jcmVyYXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRjZjNjNWYyNGM5YmY4YjkwMzFlOGFlZDUzMzdiNmEwN2Y4MTljZGU4YzYyMjA4NTU0NTE2MmY4YTY5MzA2MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Health: §a+20 HP",
-    "§7Defense: §a+20",
-    "",
-    "§6Full Set Bonus: Power of the Resistance",
-    "§7Provides a damage bonus while",
-    "§7fighting against Dante, and",
-    "§7reduces damage taken from Dante.",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+20 HP\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Power of the Resistance\",\"color\":\"gold\"}",
+    "{\"text\":\"Provides a damage bonus while\",\"color\":\"gray\"}",
+    "{\"text\":\"fighting against Dante, and\",\"color\":\"gray\"}",
+    "{\"text\":\"reduces damage taken from Dante.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC HELMET\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "GENERALS_ARMOR_OF_THE_RESISTANCE_HELMET",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Helmet_of_the_Rising_Sun",
     "https://wiki.hypixel.net/Helmet_Of_The_Rising_Sun"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:ender_eye",
-  "displayname": "§fEye of Ender",
-  "nbttag": "{ExtraAttributes:{id:\"EYE_OF_ENDER\"},HideFlags:254,ItemModel:\"minecraft:ender_eye\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fEye of Ender\"}}",
+  "displayname": "{\"text\":\"Eye of Ender\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:ender_eye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Eye of Ender\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EYE_OF_ENDER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "EYE_OF_ENDER",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

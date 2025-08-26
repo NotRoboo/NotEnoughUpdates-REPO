@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:wooden_sword",
-  "displayname": "§9Leech Sword",
-  "nbttag": "{ExtraAttributes:{id:\"LEECH_SWORD\"},HideFlags:254,ItemModel:\"minecraft:wooden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Rift Damage: §a+3\",1:\"§7Speed: §a+2\",2:\"\",3:\"§7Regens §b3 Mana §7on hit.\",4:\"\",5:\"§9§lRARE SWORD\"],Name:\"§9Leech Sword\"}}",
+  "displayname": "{\"text\":\"Leech Sword\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Leech Sword\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regens \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3 Mana \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"on hit.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LEECH_SWORD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Rift Damage: §a+3",
-    "§7Speed: §a+2",
-    "",
-    "§7Regens §b3 Mana §7on hit.",
-    "",
-    "§9§lRARE SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Damage: \",\"color\":\"gray\"},{\"text\":\"+3\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regens \",\"color\":\"gray\"},{\"text\":\"3 Mana \",\"color\":\"aqua\"},{\"text\":\"on hit.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "LEECH_SWORD",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C1": "DEADGEHOG_SPINE:2",
     "C2": "WYLD_SWORD:1",
     "C3": "DEADGEHOG_SPINE:2"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

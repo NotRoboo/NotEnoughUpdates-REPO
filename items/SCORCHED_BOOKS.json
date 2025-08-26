@@ -1,25 +1,25 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dScorched Books",
-  "nbttag": "{ExtraAttributes:{id:\"SCORCHED_BOOKS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d15a5bd9-33f1-3336-9679-9d4887b84e9c\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODQxNjk4MSwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2ZWU3ZTkwNjY4NmFiZDVlYzE5MmIwNzkzMTRjNDVmMWZiODE3MWQ5ZTEzY2FhNGNmOWY2M2FmYzIyNjNmZDUiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Power Stone\",1:\"§7Combine §a9x §7of this stone at the\",2:\"§6Thaumaturgist §7to permanently\",3:\"§7unlock the §aScorching §7power.\",4:\"\",5:\"§7At §6§k1,000§r §6Magical Power§7:\",6:\"§c+§c§k271❁§r §cStrength\",7:\"§9+§9§k310☠§r §9Crit Damage\",8:\"§e+§e§k58⚔§r §eBonus Attack Speed\",9:\"\",10:\"§7Unique Power Bonus:\",11:\"§c+7⫽ Ferocity\",12:\"\",13:\"§7Requires §aCombat Skill Level XXXV§7!\",14:\"\",15:\"§d§lMYTHIC POWER STONE\"],Name:\"§dScorched Books\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Scorched Books\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Scorched Books\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Power Stone\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Combine \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"9x \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of this stone at the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Thaumaturgist \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"to permanently\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"unlock the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Scorching \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"power.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"At \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1,000\\\",\\\"color\\\":\\\"gold\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Magical Power\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\":\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"271❁\\\",\\\"color\\\":\\\"red\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Strength\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"310☠\\\",\\\"color\\\":\\\"blue\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Crit Damage\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"58⚔\\\",\\\"color\\\":\\\"yellow\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"Bonus Attack Speed\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Unique Power Bonus:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"+7⫽ Ferocity\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Combat Skill Level XXXV\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC POWER STONE\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SCORCHED_BOOKS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODQxNjk4MSwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2ZWU3ZTkwNjY4NmFiZDVlYzE5MmIwNzkzMTRjNDVmMWZiODE3MWQ5ZTEzY2FhNGNmOWY2M2FmYzIyNjNmZDUiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Power Stone",
-    "§7Combine §a9x §7of this stone at the",
-    "§6Thaumaturgist §7to permanently",
-    "§7unlock the §aScorching §7power.",
-    "",
-    "§7At §6§k1,000§r §6Magical Power§7:",
-    "§c+§c§k271❁§r §cStrength",
-    "§9+§9§k310☠§r §9Crit Damage",
-    "§e+§e§k58⚔§r §eBonus Attack Speed",
-    "",
-    "§7Unique Power Bonus:",
-    "§c+7⫽ Ferocity",
-    "",
-    "§7Requires §aCombat Skill Level XXXV§7!",
-    "",
-    "§d§lMYTHIC POWER STONE"
+    "{\"text\":\"Power Stone\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Combine \",\"color\":\"gray\"},{\"text\":\"9x \",\"color\":\"green\"},{\"text\":\"of this stone at the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Thaumaturgist \",\"color\":\"gold\"},{\"text\":\"to permanently\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"unlock the \",\"color\":\"gray\"},{\"text\":\"Scorching \",\"color\":\"green\"},{\"text\":\"power.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"At \",\"color\":\"gray\"},{\"text\":\"1,000\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Magical Power\",\"color\":\"gold\"},{\"text\":\":\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+\",\"color\":\"red\"},{\"text\":\"271❁\",\"color\":\"red\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Strength\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+\",\"color\":\"blue\"},{\"text\":\"310☠\",\"color\":\"blue\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Crit Damage\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+\",\"color\":\"yellow\"},{\"text\":\"58⚔\",\"color\":\"yellow\",\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"Bonus Attack Speed\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Unique Power Bonus:\",\"color\":\"gray\"}",
+    "{\"text\":\"+7⫽ Ferocity\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"Combat Skill Level XXXV\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC POWER STONE\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "SCORCHED_BOOKS",
   "clickcommand": "",
@@ -29,5 +29,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Scorched_Books",
     "https://wiki.hypixel.net/Scorched_Books"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

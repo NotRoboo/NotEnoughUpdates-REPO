@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:pumpkin_pie",
-  "displayname": "§cSpooky Pie (Year §k69§c)",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Obtained during the §6§k69\",1:\"§6Spooky Festival §7during\",2:\"§7SkyBlock Year §k69.\",3:\"\",4:\"§7Player: §6§kIRONM00N\",5:\"§7Position: §a#§k4,200\",6:\"§7Candy Score: §a§k420\",7:\"\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§c§lSPECIAL\"],Name:\"§cSpooky Pie (Year §k69§c)\"},ExtraAttributes:{leaderboard_score:420,leaderboard_player:\"§6IRONM00N\",leaderboard_position:4200,new_years_cake:69,id:\"SPOOKY_PIE\",event:\"spooky_festival_69\"}}",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"Spooky Pie (Year \",\"color\":\"red\"},{\"text\":\"69\",\"color\":\"red\",\"obfuscated\":true},{\"text\":\")\",\"color\":\"red\"}]}",
+  "nbttag": "{\"id\":\"minecraft:pumpkin_pie\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spooky Pie (Year \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"69\\\",\\\"color\\\":\\\"red\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\")\\\",\\\"color\\\":\\\"red\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"69\\\",\\\"color\\\":\\\"gold\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spooky Festival \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"during\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"SkyBlock Year \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"69.\\\",\\\"color\\\":\\\"gray\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Player: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"IRONM00N\\\",\\\"color\\\":\\\"gold\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Position: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"#\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"4,200\\\",\\\"color\\\":\\\"green\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Candy Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"420\\\",\\\"color\\\":\\\"green\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"leaderboard_score\":420,\"leaderboard_player\":\"§6IRONM00N\",\"leaderboard_position\":4200,\"new_years_cake\":69,\"id\":\"SPOOKY_PIE\",\"event\":\"spooky_festival_69\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Obtained during the §6§k69",
-    "§6Spooky Festival §7during",
-    "§7SkyBlock Year §k69.",
-    "",
-    "§7Player: §6§kIRONM00N",
-    "§7Position: §a#§k4,200",
-    "§7Candy Score: §a§k420",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§c§lSPECIAL"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained during the \",\"color\":\"gray\"},{\"text\":\"69\",\"color\":\"gold\",\"obfuscated\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spooky Festival \",\"color\":\"gold\"},{\"text\":\"during\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"SkyBlock Year \",\"color\":\"gray\"},{\"text\":\"69.\",\"color\":\"gray\",\"obfuscated\":true}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Player: \",\"color\":\"gray\"},{\"text\":\"IRONM00N\",\"color\":\"gold\",\"obfuscated\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Position: \",\"color\":\"gray\"},{\"text\":\"#\",\"color\":\"green\"},{\"text\":\"4,200\",\"color\":\"green\",\"obfuscated\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Candy Score: \",\"color\":\"gray\"},{\"text\":\"420\",\"color\":\"green\",\"obfuscated\":true}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "SPOOKY_PIE",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Spooky_Pie",
     "https://wiki.hypixel.net/Spooky_Pie"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

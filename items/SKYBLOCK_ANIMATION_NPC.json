@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Skyblock Animation (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"92492a5e-c8a1-2d8c-974e-4a2b32773f1f\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlmNTcyNGQ3NDM2M2JkOGQwNzZhMWIyZjAzNjliNjBiMTI3M2UzNTJkNmQwNTljNzZmMjQwNjNlOWY0NjRiYTEifX19\"}]},Name:\"92492a5e-c8a1-2d8c-974e-4a2b32773f1f\"},display:{Lore:[0:\"\"],Name:\"§9Skyblock Animation (NPC)\"},ExtraAttributes:{id:\"SKYBLOCK_ANIMATION_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Skyblock Animation (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Skyblock Animation (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"SKYBLOCK_ANIMATION_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "SKYBLOCK_ANIMATION_NPC",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Skyblock_Animation"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

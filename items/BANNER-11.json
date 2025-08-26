@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:banner",
-  "displayname": "§fYellow Banner",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fYellow Banner\"},ExtraAttributes:{id:\"BANNER-11\"}}",
-  "damage": 11,
+  "displayname": "{\"text\":\"Yellow Banner\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:banner\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Yellow Banner\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BANNER-11\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "BANNER-11",
   "parent": "BANNER",
@@ -25,5 +25,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Banner"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

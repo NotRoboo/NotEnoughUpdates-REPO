@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f✧ Rough Topaz Gemstone",
-  "nbttag": "{ExtraAttributes:{id:\"ROUGH_TOPAZ_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a6a1f253-fab9-3fce-ac80-eadeee41d75a\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4NjM5ODMwNiwKICAicHJvZmlsZUlkIiA6ICJkODAwZDI4MDlmNTE0ZjkxODk4YTU4MWYzODE0Yzc5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aGVCTFJ4eCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZmQ5NjA3MjJlYzI5YzY2NzE2YWU1Y2E5N2I5YjZiMjYyODk4NGUxZDZmOWQyNTkyY2QwODk5MTQyMDZhMWIiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Harvested from the plentiful\",1:\"§7gemstone veins in the §5Crystal\",2:\"§5Hollows§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its\",6:\"§7owner extra §5✧ Pristine§7.\",7:\"\",8:\"§f§lCOMMON\"],Name:\"§f✧ Rough Topaz Gemstone\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"✧ Rough Topaz Gemstone\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"✧ Rough Topaz Gemstone\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Harvested from the plentiful\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"gemstone veins in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Crystal\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hollows\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Some say that when \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"harnessed\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"properly\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\", it can give its\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"owner extra \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✧ Pristine\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ROUGH_TOPAZ_GEM\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4NjM5ODMwNiwKICAicHJvZmlsZUlkIiA6ICJkODAwZDI4MDlmNTE0ZjkxODk4YTU4MWYzODE0Yzc5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aGVCTFJ4eCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZmQ5NjA3MjJlYzI5YzY2NzE2YWU1Y2E5N2I5YjZiMjYyODk4NGUxZDZmOWQyNTkyY2QwODk5MTQyMDZhMWIiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Harvested from the plentiful",
-    "§7gemstone veins in the §5Crystal",
-    "§5Hollows§7.",
-    "",
-    "§7Some say that when §eharnessed",
-    "§eproperly§7, it can give its",
-    "§7owner extra §5✧ Pristine§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Harvested from the plentiful\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"gemstone veins in the \",\"color\":\"gray\"},{\"text\":\"Crystal\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hollows\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Some say that when \",\"color\":\"gray\"},{\"text\":\"harnessed\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"properly\",\"color\":\"yellow\"},{\"text\":\", it can give its\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"owner extra \",\"color\":\"gray\"},{\"text\":\"✧ Pristine\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ROUGH_TOPAZ_GEM",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
     "https://wiki.hypixel.net/Gemstone"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

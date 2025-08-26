@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:red_sandstone_stairs",
-  "displayname": "§fRed Sandstone Stairs",
-  "nbttag": "{ExtraAttributes:{id:\"RED_SANDSTONE_STAIRS\"},HideFlags:254,ItemModel:\"minecraft:red_sandstone_stairs\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRed Sandstone Stairs\"}}",
+  "displayname": "{\"text\":\"Red Sandstone Stairs\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:red_sandstone_stairs\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Red Sandstone Stairs\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RED_SANDSTONE_STAIRS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "RED_SANDSTONE_STAIRS",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "RED_SANDSTONE:1",
     "C3": "RED_SANDSTONE:1",
     "count": 4
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

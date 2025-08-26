@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:arrow",
-  "displayname": "§aRedstone-tipped Arrow",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+15\",1:\"\",2:\"§7§4❣ §cRequires §aCombat Skill 13§c.\",3:\"§7§4❣ §cRequires §aTarget Practice I§c.\",4:\"§8Stats added when shot!\",5:\"§a§lUNCOMMON ARROW\"],Name:\"§aRedstone-tipped Arrow\"},ExtraAttributes:{id:\"REDSTONE_TIPPED_ARROW\"}}",
+  "displayname": "{\"text\":\"Redstone-tipped Arrow\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:arrow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Redstone-tipped Arrow\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 13\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Target Practice I\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"Stats added when shot!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ARROW\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REDSTONE_TIPPED_ARROW\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+15",
-    "",
-    "§7§4❣ §cRequires §aCombat Skill 13§c.",
-    "§7§4❣ §cRequires §aTarget Practice I§c.",
-    "§8Stats added when shot!",
-    "§a§lUNCOMMON ARROW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 13\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Target Practice I\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"Stats added when shot!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON ARROW\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "REDSTONE_TIPPED_ARROW",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Arrows",
     "https://wiki.hypixel.net/Redstone-tipped_Arrow"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

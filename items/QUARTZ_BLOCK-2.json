@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:quartz_block",
-  "displayname": "§fPillar Quartz Block",
-  "nbttag": "{ExtraAttributes:{id:\"QUARTZ_BLOCK-2\"},HideFlags:254,ItemModel:\"minecraft:quartz_pillar\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPillar Quartz Block\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Pillar Quartz Block\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:quartz_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pillar Quartz Block\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"QUARTZ_BLOCK-2\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "QUARTZ_BLOCK-2",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C2": "",
     "C3": "",
     "count": 2
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:golden_helmet",
-  "displayname": "§fGolden Helmet",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+10\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON HELMET\"],Name:\"§fGolden Helmet\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"GOLD_HELMET\"}}",
+  "displayname": "{\"text\":\"Golden Helmet\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Golden Helmet\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON HELMET\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"CRAFTING_GRID_COLLECT\",\"id\":\"GOLD_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+10",
-    "",
-    "§7§8This item can be reforged!",
-    "§f§lCOMMON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON HELMET\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GOLD_HELMET",
   "crafttext": "",
@@ -28,5 +28,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Golden_Helmet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

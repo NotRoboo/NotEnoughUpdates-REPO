@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:flint",
-  "displayname": "§5Enchanted Ancient Claw",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_ANCIENT_CLAW\"},HideFlags:254,ItemModel:\"minecraft:flint\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Drops rarely off of monsters from\",3:\"§7Diana's Mythological Ritual.\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§5§lEPIC\"],Name:\"§5Enchanted Ancient Claw\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Ancient Claw\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:flint\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Ancient Claw\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Drops rarely off of monsters from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Diana\u0027s Mythological Ritual.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_ANCIENT_CLAW\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7Drops rarely off of monsters from",
-    "§7Diana's Mythological Ritual.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Drops rarely off of monsters from\",\"color\":\"gray\"}",
+    "{\"text\":\"Diana\u0027s Mythological Ritual.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_ANCIENT_CLAW",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "",
     "C2": "ANCIENT_CLAW:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

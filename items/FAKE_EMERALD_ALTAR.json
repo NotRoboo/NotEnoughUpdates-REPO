@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:emerald_block",
-  "displayname": "§a§aFake Emerald Altar",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Quest Item\",1:\" \",2:\"§7Bring it to §eJuliette §7in §aThe Park§7.\",3:\" \",4:\"§7§7§oCan\u0027t bring the girl to the\",5:\"§7§oaltar? Bring the altar to the\",6:\"§7§ogirl!\",7:\"\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§a§lUNCOMMON\"],Name:\"§a§aFake Emerald Altar\"},ExtraAttributes:{id:\"FAKE_EMERALD_ALTAR\"}}",
+  "displayname": "{\"text\":\"Fake Emerald Altar\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:emerald_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fake Emerald Altar\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Quest Item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring it to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Juliette \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Park\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"Can\u0027t bring the girl to the\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"altar? Bring the altar to the\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"girl!\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FAKE_EMERALD_ALTAR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Quest Item",
-    " ",
-    "§7Bring it to §eJuliette §7in §aThe Park§7.",
-    " ",
-    "§7§7§oCan\u0027t bring the girl to the",
-    "§7§oaltar? Bring the altar to the",
-    "§7§ogirl!",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Quest Item\",\"color\":\"gray\"}",
+    "{\"text\":\" \"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring it to \",\"color\":\"gray\"},{\"text\":\"Juliette \",\"color\":\"yellow\"},{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"The Park\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\" \"}",
+    "{\"text\":\"Can\u0027t bring the girl to the\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"altar? Bring the altar to the\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"girl!\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "FAKE_EMERALD_ALTAR",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fake_Emerald_Altar",
     "https://wiki.hypixel.net/Fake_Emerald_Altar"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

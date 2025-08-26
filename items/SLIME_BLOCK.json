@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:slime",
-  "displayname": "§fSlime Block",
-  "nbttag": "{ExtraAttributes:{id:\"SLIME_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:slime_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fSlime Block\"}}",
+  "displayname": "{\"text\":\"Slime Block\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:slime\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Slime Block\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SLIME_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SLIME_BLOCK",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "SLIME_BALL:1",
     "C2": "SLIME_BALL:1",
     "C3": "SLIME_BALL:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

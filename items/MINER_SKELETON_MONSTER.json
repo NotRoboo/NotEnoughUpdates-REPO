@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Miner Skeleton (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7These skeletons have crafted\",1:\"§7gear from the diamonds around\",2:\"§7them - resulting in a look both\",3:\"§7fashionable and protective.\",4:\"\",5:\"§c❤ Health§8: §c250 - 300\"],Name:\"§9Miner Skeleton (Monster)\"},ExtraAttributes:{id:\"MINER_SKELETON_MONSTER\"}}",
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Miner Skeleton (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Miner Skeleton (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"These skeletons have crafted\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"gear from the diamonds around\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"them - resulting in a look both\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"fashionable and protective.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"250 - 300\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"MINER_SKELETON_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7These skeletons have crafted",
-    "§7gear from the diamonds around",
-    "§7them - resulting in a look both",
-    "§7fashionable and protective.",
-    "",
-    "§c❤ Health§8: §c250 - 300"
+    "{\"text\":\"These skeletons have crafted\",\"color\":\"gray\"}",
+    "{\"text\":\"gear from the diamonds around\",\"color\":\"gray\"}",
+    "{\"text\":\"them - resulting in a look both\",\"color\":\"gray\"}",
+    "{\"text\":\"fashionable and protective.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"250 - 300\",\"color\":\"red\"}]}"
   ],
   "internalname": "MINER_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
@@ -101,5 +101,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§5Salmon Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Sea Creature Chance: §c+1.5%\",1:\"§7Health: §a+85\",2:\"§7Defense: §a+20\",3:\"\",4:\"§6Ability: Water Burst  §e§lSNEAK\",5:\"§7When wearing the full set, grants the\",6:\"§7wearer with the ability to §aburst\",7:\"§aforward§7 when sneaking in water.\",8:\"§8Mana Cost: §320\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aFishing Skill 13§c.\",12:\"§5§lEPIC BOOTS\"],color:12663823,Name:\"§5Salmon Boots\"},ExtraAttributes:{id:\"SALMON_BOOTS\"}}",
+  "displayname": "{\"text\":\"Salmon Boots\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Salmon Boots\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1.5%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+85\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Water Burst \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"SNEAK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"When wearing the full set, grants the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"wearer with the ability to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"burst\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"forward\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" when sneaking in water.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"20\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Fishing Skill 13\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC BOOTS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SALMON_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Sea Creature Chance: §c+1.5%",
-    "§7Health: §a+85",
-    "§7Defense: §a+20",
-    "",
-    "§6Ability: Water Burst  §e§lSNEAK",
-    "§7When wearing the full set, grants the",
-    "§7wearer with the ability to §aburst",
-    "§aforward§7 when sneaking in water.",
-    "§8Mana Cost: §320",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 13§c.",
-    "§5§lEPIC BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+1.5%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+85\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Water Burst \",\"color\":\"gold\"},{\"text\":\"SNEAK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"When wearing the full set, grants the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"wearer with the ability to \",\"color\":\"gray\"},{\"text\":\"burst\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"forward\",\"color\":\"green\"},{\"text\":\" when sneaking in water.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"20\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Fishing Skill 13\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC BOOTS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SALMON_BOOTS",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Salmon_Boots",
     "https://wiki.hypixel.net/Salmon_Boots"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

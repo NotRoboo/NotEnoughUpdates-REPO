@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Mithril Minion V",
-  "nbttag": "{ExtraAttributes:{id:\"MITHRIL_GENERATOR_5\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5828b6f5-9bf4-355d-af2d-3d00a00a6264\",Properties:{textures:[0:{Name:\"textures\",Signature:\"HZW0wG3fOnbqJ4CfiLoNM401XhQ7UbftJZzB19CAumRgBODJKUg8M+RbSL8zb9IyZ2gRHwcm0kQsoeBrGCdwLgAQuHyzyMVr4eL45WNHbg8PkpLLu1iRM5STxoj8mc7DNxaEKYPgKUR45nqQYHQTFmdFF44ZtrAuWJRULvg2fxp3TQXKbe2FCwQlX5hJkGkjxyIAoSXe7Ub9xeDcG3dJW4t4spvLQJonpWvyZN/WNjpNhwBnjpV/SmebJ2+8QA0M4e4XldQM4nmnOsXbx5ceDx8KxU8M/ecfotM5SFxp9LwlbFOtQxzrN8qmIPHflrJplLkD2z0ESu3KO8v1CzH5rXbglselHklTgucuFrz73po5E9sar+C/mK2MR3v/Pis7ltgVnZR6GuuM5meJi8AKV0neQXU+Ux7jo05zuE63oDiZppCocAwPGfB7Etk1nW4T2ZEzLe/eQLiPiBzhW6qnbAbstgfl2WaG1Va7Rbz4JPldrCejo0c8/nQq4u2JRNx1BsAa45aqfJqVvR0CJrY835mDXkPb4A8zZgrMt+KCzwHZOAPGT0mjodWqScv3NQ2ZASr+ZxrVcJ97iwSUeoG/fgsg+WRBUHvEh8mqwREZN/hCjZ1eBZMu+X6YAOS6bwTRm9oF26c3UBeyFQoYvxFjTTJctUQuySHEXr9ppKwjPlI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwNzc3OTU1Mzc1NCwKICAicHJvZmlsZUlkIiA6ICI5ZDEzZjcyMTcxM2E0N2U0OTAwZTMyZGVkNjBjNDY3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYWxvZGFvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg5MjI0YjU2ZWEwNTNhOTUyYTgwNDQ0MTU4NzRiNjNlNDgxM2U5MTE4YTU2YzRmZTcwMjc0NjQ0Mzg3ODMwNDQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining mithril ore!\",2:\"§7Requires an open area to place\",3:\"§7mithril ore. Minions also work when\",4:\"§7you are offline!\",5:\"\",6:\"§7Time Between Actions: §a70s\",7:\"§7Max Storage: §e384\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Mithril Minion V\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mithril Minion V\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mithril Minion V\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and mining mithril ore!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Requires an open area to place\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"mithril ore. Minions also work when\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"you are offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"70s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"384\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MITHRIL_GENERATOR_5\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYwNzc3OTU1Mzc1NCwKICAicHJvZmlsZUlkIiA6ICI5ZDEzZjcyMTcxM2E0N2U0OTAwZTMyZGVkNjBjNDY3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYWxvZGFvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg5MjI0YjU2ZWEwNTNhOTUyYTgwNDQ0MTU4NzRiNjNlNDgxM2U5MTE4YTU2YzRmZTcwMjc0NjQ0Mzg3ODMwNDQiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and mining mithril ore!",
-    "§7Requires an open area to place",
-    "§7mithril ore. Minions also work when",
-    "§7you are offline!",
-    "",
-    "§7Time Between Actions: §a70s",
-    "§7Max Storage: §e384",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and mining mithril ore!\",\"color\":\"gray\"}",
+    "{\"text\":\"Requires an open area to place\",\"color\":\"gray\"}",
+    "{\"text\":\"mithril ore. Minions also work when\",\"color\":\"gray\"}",
+    "{\"text\":\"you are offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"70s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"384\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MITHRIL_GENERATOR_5",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C2": "ENCHANTED_MITHRIL:1",
     "C3": "ENCHANTED_MITHRIL:1"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

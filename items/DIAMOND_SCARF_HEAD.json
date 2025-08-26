@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cDiamond Scarf Head",
-  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_SCARF_HEAD\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"87fa8a20-f84c-3d37-9c59-02736c31ccc4\",Properties:{textures:[0:{Name:\"textures\",Signature:\"gO9V9VbLke6ikgVvJt+LwMyf+tTxCtoNZCcRL3ZApi1t/qGhxQCHx8czRZd2ylAIqZQ1m8M1ABhv2lbxr/wqY6+PPaAzqG5k361bcwgX/DZomSYnJ/qfZPD7KPtkw3NoOjz0oarjy2W9mTcJAQ9N8rVPkoR3iXginlMkHpfaMSrQ9ZOEuMvjOC4e7u7fRYuVOUQB0UgCQb6NCaTA4Bn+tP4lx50fuhb2E+IHn28wcltTSdC3hZW4c2mCS1JagN9l0xTjwOsUNGSoqSveqDcFCfpXby2dQyf0P1R9YlUwGOH3AAigH2Vs40fuGet5WoXwZr4z/eqd9eo/6mWoXQyWFj+/i4oKoYB1qhpmxHQuqTj0CtRx+p+nbKaqMLgkrSTRdWKlHuIPr6eKQQxPCnlTBbSS5eqzvzGULGnC+mbSXgUvYZBtDBqmjHWqqc2ILtfUNyn/gyml4TOPaQBeSrMAuMM691GM7hEQDRTihb54ut4rrbyObDFTbU0Rveb/AsdE/izPR4b4I+s0PxYJi++Xl6IP2Q7FCGlqgkHf39C2b8q4U72Z7Qc+6rBnyqREidXsL2MDtnDrdxbXLuSPje3JOcSVqcSkzkQ2Y8R3ZxKzOVcL13laY/k2l5mUxcWI3YEKCUZp2e3zwftA7myvIfQPc31+lM9KunId7u0c2SsZKuI=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDE1MzQyMywKICAicHJvZmlsZUlkIiA6ICJhMmI1ZjhlM2MxZDI0ZmUzYTlkMzNiZTFhNzEzYTUwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYXBpb0dvZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZGE1Y2EyZjY4MDA1MTZhNjNkMjU4NzhlYjdhNzEzZTgwZDYzYjYyZjlmNmNhYjNmMzEwOTdmOTQ5NGI2MTIxIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Gear Score: §d145\",1:\"§7Strength: §c+15\",2:\"§7Health: §a+70\",3:\"§7Defense: §a+30\",4:\"\",5:\"§7Obtained from killing §cScarf §7in §cThe\",6:\"§cCatacombs §7lots of times. Grants §a2x\",7:\"§7stats on §cThe Catacombs Floor II§7.\",8:\"\",9:\"§8First of his class. His teacher said\",10:\"§8he will do \\\"great things\\\".\",11:\"\",12:\"§8This item can be reforged!\",13:\"§8§l* §8Co-op Soulbound §8§l*\",14:\"§c§lSPECIAL DUNGEON HELMET\"],Name:\"§cDiamond Scarf Head\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Diamond Scarf Head\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Scarf Head\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"145\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+70\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained from killing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Scarf \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Catacombs \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"lots of times. Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2x\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"stats on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Catacombs Floor II\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"First of his class. His teacher said\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"he will do \\\\\\\"great things\\\\\\\".\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL DUNGEON HELMET\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND_SCARF_HEAD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDE1MzQyMywKICAicHJvZmlsZUlkIiA6ICJhMmI1ZjhlM2MxZDI0ZmUzYTlkMzNiZTFhNzEzYTUwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYXBpb0dvZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZGE1Y2EyZjY4MDA1MTZhNjNkMjU4NzhlYjdhNzEzZTgwZDYzYjYyZjlmNmNhYjNmMzEwOTdmOTQ5NGI2MTIxIgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Gear Score: §d145",
-    "§7Strength: §c+15",
-    "§7Health: §a+70",
-    "§7Defense: §a+30",
-    "",
-    "§7Obtained from killing §cScarf §7in §cThe",
-    "§cCatacombs §7lots of times. Grants §a2x",
-    "§7stats on §cThe Catacombs Floor II§7.",
-    "",
-    "§8First of his class. His teacher said",
-    "§8he will do \"great things\".",
-    "",
-    "§8This item can be reforged!",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§c§lSPECIAL DUNGEON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"145\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+70\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained from killing \",\"color\":\"gray\"},{\"text\":\"Scarf \",\"color\":\"red\"},{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"The\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Catacombs \",\"color\":\"red\"},{\"text\":\"lots of times. Grants \",\"color\":\"gray\"},{\"text\":\"2x\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"stats on \",\"color\":\"gray\"},{\"text\":\"The Catacombs Floor II\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"First of his class. His teacher said\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"he will do \\\"great things\\\".\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL DUNGEON HELMET\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "DIAMOND_SCARF_HEAD",
   "clickcommand": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Diamond_Scarf_Head",
     "https://wiki.hypixel.net/Diamond_Scarf_Head"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:pumpkin_seeds",
-  "displayname": "§fPumpkin Seeds",
-  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_SEEDS\"},HideFlags:254,ItemModel:\"minecraft:pumpkin_seeds\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPumpkin Seeds\"}}",
+  "displayname": "{\"text\":\"Pumpkin Seeds\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:pumpkin_seeds\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pumpkin Seeds\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PUMPKIN_SEEDS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "PUMPKIN_SEEDS",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 4
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

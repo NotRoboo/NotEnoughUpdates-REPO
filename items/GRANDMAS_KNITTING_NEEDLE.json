@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§9Grandma\u0027s Knitting Needle",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many powerful ways!\",3:\"§7A pet can only hold one §aPet Item §7at a time.\",4:\"§7The pet must be §evisible §7to apply the item!\",5:\"\",6:\"§7§7Can be applied to §fGrandma Wolf §7pets.\",7:\"§7Grants §b+5% §b✯ Magic Find §7when\",8:\"§7getting a combo of §a50 §7or above.\",9:\"\",10:\"§7§eRight-click on your summoned pet to\",11:\"§egive it this item!\",12:\"\",13:\"§5§kX§5 Rift-Transferable §kX\",14:\"§9§lRARE PET ITEM\"],Name:\"§9Grandma\u0027s Knitting Needle\"},ExtraAttributes:{id:\"GRANDMAS_KNITTING_NEEDLE\"}}",
+  "displayname": "{\"text\":\"Grandma\u0027s Knitting Needle\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Grandma\u0027s Knitting Needle\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pet Items \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"can boost pets in many powerful ways!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"A pet can only hold one \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Pet Item \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"at a time.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The pet must be \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"visible \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"to apply the item!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be applied to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Grandma Wolf \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"pets.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5% \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"✯ Magic Find \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"getting a combo of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"or above.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"give it this item!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"RARE PET ITEM\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GRANDMAS_KNITTING_NEEDLE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Consumed on use",
-    "",
-    "§aPet Items §7can boost pets in many powerful ways!",
-    "§7A pet can only hold one §aPet Item §7at a time.",
-    "§7The pet must be §evisible §7to apply the item!",
-    "",
-    "§7§7Can be applied to §fGrandma Wolf §7pets.",
-    "§7Grants §b+5% §b✯ Magic Find §7when",
-    "§7getting a combo of §a50 §7or above.",
-    "",
-    "§7§eRight-click on your summoned pet to",
-    "§egive it this item!",
-    "",
-    "§5§kX§5 Rift-Transferable §kX",
-    "§9§lRARE PET ITEM"
+    "{\"text\":\"Consumed on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pet Items \",\"color\":\"green\"},{\"text\":\"can boost pets in many powerful ways!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"A pet can only hold one \",\"color\":\"gray\"},{\"text\":\"Pet Item \",\"color\":\"green\"},{\"text\":\"at a time.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The pet must be \",\"color\":\"gray\"},{\"text\":\"visible \",\"color\":\"yellow\"},{\"text\":\"to apply the item!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be applied to \",\"color\":\"gray\"},{\"text\":\"Grandma Wolf \",\"color\":\"white\"},{\"text\":\"pets.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+5% \",\"color\":\"aqua\"},{\"text\":\"✯ Magic Find \",\"color\":\"aqua\"},{\"text\":\"when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"getting a combo of \",\"color\":\"gray\"},{\"text\":\"50 \",\"color\":\"green\"},{\"text\":\"or above.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"give it this item!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"RARE PET ITEM\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "GRANDMAS_KNITTING_NEEDLE",
   "crafttext": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Grandma%27s_Knitting_Needle",
     "https://wiki.hypixel.net/Grandma%27s_Knitting_Needle"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

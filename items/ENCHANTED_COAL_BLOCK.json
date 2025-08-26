@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:coal_block",
-  "displayname": "§9Enchanted Coal Block",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_COAL_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:coal_block\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE ORE\"],Name:\"§9Enchanted Coal Block\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Coal Block\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:coal_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Coal Block\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE ORE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_COAL_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§9§lRARE ORE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE ORE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_COAL_BLOCK",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "ENCHANTED_COAL:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

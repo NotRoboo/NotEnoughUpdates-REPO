@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:red_flower",
-  "displayname": "§6Flower of Truth",
-  "nbttag": "{ExtraAttributes:{id:\"FLOWER_OF_TRUTH\"},HideFlags:254,ItemModel:\"minecraft:poppy\",display:{Lore:[0:\"§7Gear Score: §d460\",1:\"§7Damage: §c+160\",2:\"§7Strength: §c+300\",3:\" §8[❁]\",4:\"\",5:\"§6Ability: Heat-Seeking Rose  §e§lRIGHT CLICK\",6:\"§7Shoots a rose that ricochets between enemies,\",7:\"§7damaging up to §a3 §7of your foes! Damage\",8:\"§7multiplies as more enemies are hit.\",9:\"§8Health Cost: §c10%\",10:\"§8Cooldown: §a1s\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4❣ §cRequires The Catacombs Floor VI Completion.\",14:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Flower of Truth\"},ench:[]}",
+  "displayname": "{\"text\":\"Flower of Truth\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:red_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Flower of Truth\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"460\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+160\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+300\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[❁]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Heat-Seeking Rose \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Shoots a rose that ricochets between enemies,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"damaging up to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of your foes! Damage\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"multiplies as more enemies are hit.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"10%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires The Catacombs Floor VI Completion.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY DUNGEON SWORD\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLOWER_OF_TRUTH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d460",
-    "§7Damage: §c+160",
-    "§7Strength: §c+300",
-    " §8[❁]",
-    "",
-    "§6Ability: Heat-Seeking Rose  §e§lRIGHT CLICK",
-    "§7Shoots a rose that ricochets between enemies,",
-    "§7damaging up to §a3 §7of your foes! Damage",
-    "§7multiplies as more enemies are hit.",
-    "§8Health Cost: §c10%",
-    "§8Cooldown: §a1s",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires The Catacombs Floor VI Completion.",
-    "§6§lLEGENDARY DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"460\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+160\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+300\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[❁]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Heat-Seeking Rose \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Shoots a rose that ricochets between enemies,\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"damaging up to \",\"color\":\"gray\"},{\"text\":\"3 \",\"color\":\"green\"},{\"text\":\"of your foes! Damage\",\"color\":\"gray\"}]}",
+    "{\"text\":\"multiplies as more enemies are hit.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health Cost: \",\"color\":\"dark_gray\"},{\"text\":\"10%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"1s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires The Catacombs Floor VI Completion.\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY DUNGEON SWORD\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "FLOWER_OF_TRUTH",
   "clickcommand": "viewrecipe",
@@ -39,5 +39,8 @@
     "C1": "",
     "C2": "GOLEM_POPPY:3",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5TNT Charge",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"1e29791f-25fe-370b-8dde-bdf364fda47c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNDU0NjA4NjAxNiwKICAicHJvZmlsZUlkIiA6ICI0NWY3YTJlNjE3ODE0YjJjODAwODM5MmRmN2IzNWY0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfSnVzdERvSXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc2YTI4MTFkMWUxNzZhMDdiNmQwYTY1N2I5MTBmMTM0ODk2Y2UzMDg1MGY2ZTgwYzdjODM3MzJkODUzODFlYSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7A powerful charge, capable of\",1:\"§7damaging §cKuudra\u0027s§7 tentacles!\"],Name:\"§5TNT Charge\"},ExtraAttributes:{id:\"TNT_CHARGE\",dontSaveToProfile:1b}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"TNT Charge\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"TNT Charge\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A powerful charge, capable of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"damaging \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Kuudra\u0027s\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" tentacles!\\\",\\\"color\\\":\\\"gray\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"TNT_CHARGE\",\"dontSaveToProfile\":true},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7A powerful charge, capable of",
-    "§7damaging §cKuudra\u0027s§7 tentacles!"
+    "{\"text\":\"A powerful charge, capable of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"damaging \",\"color\":\"gray\"},{\"text\":\"Kuudra\u0027s\",\"color\":\"red\"},{\"text\":\" tentacles!\",\"color\":\"gray\"}]}"
   ],
   "internalname": "TNT_CHARGE",
   "crafttext": "",
   "clickcommand": "",
   "modver": "2.1.0-REL",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

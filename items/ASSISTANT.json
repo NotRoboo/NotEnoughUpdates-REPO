@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:spawn_egg",
-  "displayname": "§fMove Jerry",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Place this where you would like\",1:\"§7Jerry to move to!\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fMove Jerry\"},ExtraAttributes:{id:\"ASSISTANT\"}}",
-  "damage": 120,
+  "itemid": "minecraft:villager_spawn_egg",
+  "displayname": "{\"text\":\"Move Jerry\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:villager_spawn_egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Move Jerry\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this where you would like\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Jerry to move to!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ASSISTANT\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this where you would like",
-    "§7Jerry to move to!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Place this where you would like\",\"color\":\"gray\"}",
+    "{\"text\":\"Jerry to move to!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ASSISTANT",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Move_Jerry",
     "https://wiki.hypixel.net/Move_Jerry"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

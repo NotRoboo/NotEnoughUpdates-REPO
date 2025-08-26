@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Marthos (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"93324018-76ca-5219-b371-c2405ed9a5cd\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk1MWQ3NDI4Y2Q1ZjRhNzNmOTQyOGU4YjMwNzVmNzE3ZGJmZGQyODY3OWM0ZWM4NDJiZmY4YTBkNTEyOTlkZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Marthos (NPC)\"},ExtraAttributes:{id:\"MARTHOS_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Marthos (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Marthos (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"MARTHOS_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "MARTHOS_NPC",
   "clickcommand": "viewrecipe",
@@ -74,5 +74,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Marthos",
     "https://wiki.hypixel.net/Marthos"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

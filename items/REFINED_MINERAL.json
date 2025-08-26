@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§9Refined Mineral",
-  "nbttag": "{ExtraAttributes:{id:\"REFINED_MINERAL\"},HideFlags:254,ItemModel:\"minecraft:light_blue_dye\",display:{Lore:[0:\"§7Rare minerals found during\",1:\"§7National Mining Month.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Refined Mineral\"}}",
-  "damage": 12,
+  "displayname": "{\"text\":\"Refined Mineral\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Refined Mineral\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Rare minerals found during\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"National Mining Month.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REFINED_MINERAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Rare minerals found during",
-    "§7National Mining Month.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Rare minerals found during\",\"color\":\"gray\"}",
+    "{\"text\":\"National Mining Month.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "REFINED_MINERAL",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Refined_Mineral",
     "https://wiki.hypixel.net/Refined_Mineral"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

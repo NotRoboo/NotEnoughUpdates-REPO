@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:furnace",
-  "displayname": "§fAuto Smelter",
-  "nbttag": "{ExtraAttributes:{id:\"AUTO_SMELTER\"},HideFlags:254,ItemModel:\"minecraft:furnace\",display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade. This will automatically smelt\",2:\"§7materials that a minion produces.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fAuto Smelter\"}}",
+  "displayname": "{\"text\":\"Auto Smelter\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:furnace\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Auto Smelter\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be used as a minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"upgrade. This will automatically smelt\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"materials that a minion produces.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"AUTO_SMELTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7This item can be used as a minion",
-    "§7upgrade. This will automatically smelt",
-    "§7materials that a minion produces.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"This item can be used as a minion\",\"color\":\"gray\"}",
+    "{\"text\":\"upgrade. This will automatically smelt\",\"color\":\"gray\"}",
+    "{\"text\":\"materials that a minion produces.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "AUTO_SMELTER",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "COBBLESTONE:8",
     "C2": "COBBLESTONE:8",
     "C3": "COBBLESTONE:8"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

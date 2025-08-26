@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:compass",
-  "displayname": "§aEcholocator",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7When held during the §6Spooky\",1:\"§6Festival§7, this compass points\",2:\"§7towards the nearest §6Mega\",3:\"§6Bat§7. Happy hunting!\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aEcholocator\"},ExtraAttributes:{id:\"ECHOLOCATOR\"}}",
+  "displayname": "{\"text\":\"Echolocator\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:compass\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Echolocator\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"When held during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Spooky\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Festival\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\", this compass points\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"towards the nearest \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mega\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bat\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\". Happy hunting!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ECHOLOCATOR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7When held during the §6Spooky",
-    "§6Festival§7, this compass points",
-    "§7towards the nearest §6Mega",
-    "§6Bat§7. Happy hunting!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"When held during the \",\"color\":\"gray\"},{\"text\":\"Spooky\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Festival\",\"color\":\"gold\"},{\"text\":\", this compass points\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"towards the nearest \",\"color\":\"gray\"},{\"text\":\"Mega\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bat\",\"color\":\"gold\"},{\"text\":\". Happy hunting!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ECHOLOCATOR",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Echolocator",
     "https://wiki.hypixel.net/Echolocator"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

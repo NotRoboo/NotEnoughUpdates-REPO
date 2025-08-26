@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§5Soul Whip",
-  "nbttag": "{ExtraAttributes:{id:\"SOUL_WHIP\"},HideFlags:254,ItemModel:\"minecraft:fishing_rod\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+145\",1:\"§7Strength: §c+175\",2:\" §8[⚔]\",3:\"\",4:\"§7Deals §a2x §7damage to §3Sea Creatures§7.\",5:\"\",6:\"§6Ability: Flay  §e§lRIGHT CLICK\",7:\"§7Flay your whip in an arc, dealing your melee\",8:\"§7damage to all enemies in its path.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires §aFishing Skill 26§c.\",12:\"§5§lEPIC SWORD\"],Name:\"§5Soul Whip\"}}",
+  "displayname": "{\"text\":\"Soul Whip\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:fishing_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Soul Whip\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+145\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+175\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[⚔]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2x \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"damage to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sea Creatures\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Flay \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Flay your whip in an arc, dealing your melee\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"damage to all enemies in its path.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Fishing Skill 26\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SOUL_WHIP\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+145",
-    "§7Strength: §c+175",
-    " §8[⚔]",
-    "",
-    "§7Deals §a2x §7damage to §3Sea Creatures§7.",
-    "",
-    "§6Ability: Flay  §e§lRIGHT CLICK",
-    "§7Flay your whip in an arc, dealing your melee",
-    "§7damage to all enemies in its path.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aFishing Skill 26§c.",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+145\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+175\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[⚔]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deals \",\"color\":\"gray\"},{\"text\":\"2x \",\"color\":\"green\"},{\"text\":\"damage to \",\"color\":\"gray\"},{\"text\":\"Sea Creatures\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Flay \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Flay your whip in an arc, dealing your melee\",\"color\":\"gray\"}",
+    "{\"text\":\"damage to all enemies in its path.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Fishing Skill 26\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SOUL_WHIP",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C1": "ECTOPLASM:4",
     "C2": "",
     "C3": "SOUL_FRAGMENT:4"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

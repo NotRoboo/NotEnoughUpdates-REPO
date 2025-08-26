@@ -1,21 +1,24 @@
 {
   "internalname": "RED_CLAW_EGG",
-  "itemid": "minecraft:spawn_egg",
-  "displayname": "§5Red Claw Egg",
+  "itemid": "minecraft:mooshroom_spawn_egg",
+  "displayname": "{\"text\":\"Red Claw Egg\",\"color\":\"dark_purple\"}",
   "clickcommand": "",
-  "damage": 96,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Drops very rarely from Sven\",1:\"§7Packmaster. No one knows what's\",2:\"§7in the egg.\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Red Claw Egg\"},ExtraAttributes:{id:\"RED_CLAW_EGG\"}}",
+  "damage": 0,
+  "nbttag": "{\"id\":\"minecraft:mooshroom_spawn_egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Red Claw Egg\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Drops very rarely from Sven\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Packmaster. No one knows what\u0027s\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in the egg.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RED_CLAW_EGG\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§7Drops very rarely from Sven",
-    "§7Packmaster. No one knows what's",
-    "§7in the egg.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Drops very rarely from Sven\",\"color\":\"gray\"}",
+    "{\"text\":\"Packmaster. No one knows what\u0027s\",\"color\":\"gray\"}",
+    "{\"text\":\"in the egg.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Red_Claw_Egg",
     "https://wiki.hypixel.net/Red_Claw_Egg"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

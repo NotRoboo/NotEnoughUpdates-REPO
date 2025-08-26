@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Bal (Boss)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"35f02923-7bec-3869-9ef5-b42a4794cac8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0\"}]}},display:{Lore:[0:\"§7The Bal is a Boss located within Khazad-dûm\",1:\"§7in the Crystal Hollows. It guards the §eTopaz Crystal.\",2:\"§7It takes §c1 health §7of damage per hit,\",3:\"§7regardless of which weapon is used. At various points\",4:\"§7in the fight Bal will summon Fire Bats and Blazes.\",5:\"\",6:\"§c❤ Health§8: §c200\"],Name:\"§5Bal (Boss)\"},ExtraAttributes:{id:\"BAL_BOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bal (Boss)\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bal (Boss)\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Bal is a Boss located within Khazad-dûm\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"in the Crystal Hollows. It guards the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Topaz Crystal.\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"It takes \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1 health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"of damage per hit,\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"regardless of which weapon is used. At various points\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in the fight Bal will summon Fire Bats and Blazes.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"200\\\",\\\"color\\\":\\\"red\\\"}]}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7The Bal is a Boss located within Khazad-dûm",
-    "§7in the Crystal Hollows. It guards the §eTopaz Crystal.",
-    "§7It takes §c1 health §7of damage per hit,",
-    "§7regardless of which weapon is used. At various points",
-    "§7in the fight Bal will summon Fire Bats and Blazes.",
-    "",
-    "§c❤ Health§8: §c200"
+    "{\"text\":\"The Bal is a Boss located within Khazad-dûm\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"in the Crystal Hollows. It guards the \",\"color\":\"gray\"},{\"text\":\"Topaz Crystal.\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"It takes \",\"color\":\"gray\"},{\"text\":\"1 health \",\"color\":\"red\"},{\"text\":\"of damage per hit,\",\"color\":\"gray\"}]}",
+    "{\"text\":\"regardless of which weapon is used. At various points\",\"color\":\"gray\"}",
+    "{\"text\":\"in the fight Bal will summon Fire Bats and Blazes.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"200\",\"color\":\"red\"}]}"
   ],
   "internalname": "BAL_BOSS",
   "clickcommand": "viewrecipe",
@@ -58,5 +58,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

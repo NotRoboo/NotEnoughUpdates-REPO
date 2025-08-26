@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:comparator",
-  "displayname": "§fComparator",
-  "nbttag": "{ExtraAttributes:{id:\"REDSTONE_COMPARATOR\"},HideFlags:254,ItemModel:\"minecraft:comparator\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fComparator\"}}",
+  "displayname": "{\"text\":\"Comparator\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:comparator\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Comparator\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REDSTONE_COMPARATOR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "REDSTONE_COMPARATOR",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "STONE:1",
     "C2": "STONE:1",
     "C3": "STONE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

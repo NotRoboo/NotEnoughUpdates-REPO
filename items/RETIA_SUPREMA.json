@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Astral Huntrap",
-  "nbttag": "{ExtraAttributes:{id:\"RETIA_SUPREMA\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e14e7ec2-308f-301c-aa71-174b8ec4d59a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"pLs7lo0qHH0G2weBB1GJJPjfVjcvn87cSaHEOihC6Dwh7FIMKa0gq/3OinI58Mr6+vwvNtAYgPp/ZL1+diUyQ+1NtpG+8RNkMwgVCit+XFICIvcwkCsFL0IA4lVAQz7NGglZiMIILgUDSSVm2WTVsrLgQ4MNGxihs1CytmSFG1RImG2h9y6cyLd7yw5iRvFjON6BF5lWfe+uV3CBJHfcFxLdS4LJcT8B+dMUVB/71iKy9cR7RRbPmOMP/h5oqHbehb5loD8AtZjC9JaPOr2w+EptXLH4AhK5s6ocY2x2jj5ttYfKmvQO+QAJOBzwZqLfU4VtlAUkZU8RfPj1wXEHCE8SxvGT3aYh45zFOnUTE8RoOqrexRUYPj1TjbU1tbeZdmDsT6vbq+pbYNdWs353R7M9OziddJJcEXgNsIm4U4R2Xc9+/GO1jd8+yvnhAk+ACuzN/vAars//IdcdZ5Mj76SM3Rb13sUppoCAfU5viLFXKwbg1uHvBFSCL1IW9XTVZQz9N1GloXnGvOMeGpW/WCVywKcr09sFWAkHGSMZ8J857p4zLf5bqdfwbjd0i1wiAAPHvnuc2r9bYacmBynxmdhcAMqxgPqE/hxhBIvCYe8SKKUSwCCUnJMF9H9egFeCaAlMP2lEKPkMmjZ3mmgqcuxTfkiestVrxI0oV3j+KE4=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTMyODM2NjA0NywKICAicHJvZmlsZUlkIiA6ICI1ZTdmY2RjYTU5YzI0NjkwODAwNjg4OTNkODU1ODM3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYWVsbGFyaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMzQyMzExNmJiMmU1MDAzM2QwM2U4MzViMGMyZWYzZjNhOGE2NmMyMjgwOGYzNjQ0Zjk0OGQ4NDI1NmZjMTE5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Hunting Tool\",1:\"\",2:\"§6Ability: Retentio  §e§lRIGHT CLICK\",3:\"§cTraps §7can be placed near the spawn\",4:\"§7location of a §9Shard §7creature, with\",5:\"§7time it will eventually catch it.\",6:\"\",7:\"§6Ability: Suprema \",8:\"§7Reduces the time to capture by §c50%§7.\",9:\"\",10:\"§7§oSuprema inter retia, nulla praeda\",11:\"§7§oelabitur.\",12:\"\",13:\"§4❣ §cRequires §aHunting Skill 20§c.\",14:\"§6§lLEGENDARY TRAP\"],Name:\"§6Astral Huntrap\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Astral Huntrap\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Astral Huntrap\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Hunting Tool\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Retentio \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Traps \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"can be placed near the spawn\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"location of a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Shard \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"creature, with\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"time it will eventually catch it.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Suprema \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Reduces the time to capture by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Suprema inter retia, nulla praeda\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"elabitur.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Hunting Skill 20\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY TRAP\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RETIA_SUPREMA\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTMyODM2NjA0NywKICAicHJvZmlsZUlkIiA6ICI1ZTdmY2RjYTU5YzI0NjkwODAwNjg4OTNkODU1ODM3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYWVsbGFyaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMzQyMzExNmJiMmU1MDAzM2QwM2U4MzViMGMyZWYzZjNhOGE2NmMyMjgwOGYzNjQ0Zjk0OGQ4NDI1NmZjMTE5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Hunting Tool",
-    "",
-    "§6Ability: Retentio  §e§lRIGHT CLICK",
-    "§cTraps §7can be placed near the spawn",
-    "§7location of a §9Shard §7creature, with",
-    "§7time it will eventually catch it.",
-    "",
-    "§6Ability: Suprema ",
-    "§7Reduces the time to capture by §c50%§7.",
-    "",
-    "§7§oSuprema inter retia, nulla praeda",
-    "§7§oelabitur.",
-    "",
-    "§4❣ §cRequires §aHunting Skill 20§c.",
-    "§6§lLEGENDARY TRAP"
+    "{\"text\":\"Hunting Tool\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Retentio \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Traps \",\"color\":\"red\"},{\"text\":\"can be placed near the spawn\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"location of a \",\"color\":\"gray\"},{\"text\":\"Shard \",\"color\":\"blue\"},{\"text\":\"creature, with\",\"color\":\"gray\"}]}",
+    "{\"text\":\"time it will eventually catch it.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Suprema \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Reduces the time to capture by \",\"color\":\"gray\"},{\"text\":\"50%\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Suprema inter retia, nulla praeda\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"elabitur.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Hunting Skill 20\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY TRAP\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "RETIA_SUPREMA",
   "clickcommand": "",
@@ -43,5 +43,8 @@
       "count": 1,
       "overrideOutputId": "RETIA_SUPREMA"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

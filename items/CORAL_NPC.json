@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Coral (NPC)",
-  "nbttag": "{ExtraAttributes:{id:\"CORAL_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",display:{Lore:[0:\"\"],Name:\"§9Coral (NPC)\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Coral (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Coral (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"CORAL_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "CORAL_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "island": "foraging_2",
   "x": -627,
   "y": 99,
-  "z": -88
+  "z": -88,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

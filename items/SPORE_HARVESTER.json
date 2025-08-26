@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:iron_axe",
-  "displayname": "§aSpore Harvester",
-  "nbttag": "{ExtraAttributes:{id:\"SPORE_HARVESTER\"},HideFlags:254,ItemModel:\"minecraft:iron_axe\",Unbreakable:1B,display:{Lore:[0:\"§7A magically imbued axe used by\",1:\"§5Mages §7to carefully harvest\",2:\"§aBrown Mushrooms §7in the\",3:\"§cCrimson Isle§7.\",4:\"\",5:\"§8This item can be reforged!\",6:\"§a§lUNCOMMON HOE\"],Name:\"§aSpore Harvester\"},ench:[]}",
+  "displayname": "{\"text\":\"Spore Harvester\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spore Harvester\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A magically imbued axe used by\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mages \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"to carefully harvest\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Brown Mushrooms \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"in the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crimson Isle\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON HOE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPORE_HARVESTER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7A magically imbued axe used by",
-    "§5Mages §7to carefully harvest",
-    "§aBrown Mushrooms §7in the",
-    "§cCrimson Isle§7.",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON HOE"
+    "{\"text\":\"A magically imbued axe used by\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mages \",\"color\":\"dark_purple\"},{\"text\":\"to carefully harvest\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Brown Mushrooms \",\"color\":\"green\"},{\"text\":\"in the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crimson Isle\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON HOE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SPORE_HARVESTER",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Spore_Harvester",
     "https://wiki.hypixel.net/Spore_Harvester"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Inferno Minion Fuel",
-  "nbttag": "{ExtraAttributes:{id:\"INFERNO_HYPERGOLIC_GLOWSTONE_DUST\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"81bf73d5-5e33-3efe-bb18-42e32beca79e\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAyYTExNjkzMDlmMDVlZjJmMDYxYjFmYTBmZTIyNWYyOWQ3M2EyNGY4ZjA3Y2NjMmE3MDVkZWVhY2EwNjlkMSJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Can be used as minion fuel\",1:\"§7exclusively in the Inferno minion for\",2:\"§724 hours!\",3:\"\",4:\"§7Replaces §c4/5 §7of the regular minion\",5:\"§7production with a §bspecialty §7item.\",6:\"\",7:\"§cHypergolic-grade fuels create\",8:\"§cextra unique items! RARELY!\",9:\"\",10:\"§7Speed multiplier: §a20x\",11:\"§7Specialty: §bGlowstone Dust\",12:\"§7Specialty amount: §e2 to 3\",13:\"\",14:\"§6§lLEGENDARY\"],Name:\"§6Inferno Minion Fuel\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Inferno Minion Fuel\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Inferno Minion Fuel\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Can be used as minion fuel\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"exclusively in the Inferno minion for\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"24 hours!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Replaces \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"4/5 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"of the regular minion\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"production with a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"specialty \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"item.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Hypergolic-grade fuels create\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"extra unique items! RARELY!\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed multiplier: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20x\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Specialty: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Glowstone Dust\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Specialty amount: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2 to 3\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"INFERNO_HYPERGOLIC_GLOWSTONE_DUST\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAyYTExNjkzMDlmMDVlZjJmMDYxYjFmYTBmZTIyNWYyOWQ3M2EyNGY4ZjA3Y2NjMmE3MDVkZWVhY2EwNjlkMSJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Can be used as minion fuel",
-    "§7exclusively in the Inferno minion for",
-    "§724 hours!",
-    "",
-    "§7Replaces §c4/5 §7of the regular minion",
-    "§7production with a §bspecialty §7item.",
-    "",
-    "§cHypergolic-grade fuels create",
-    "§cextra unique items! RARELY!",
-    "",
-    "§7Speed multiplier: §a20x",
-    "§7Specialty: §bGlowstone Dust",
-    "§7Specialty amount: §e2 to 3",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Can be used as minion fuel\",\"color\":\"gray\"}",
+    "{\"text\":\"exclusively in the Inferno minion for\",\"color\":\"gray\"}",
+    "{\"text\":\"24 hours!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Replaces \",\"color\":\"gray\"},{\"text\":\"4/5 \",\"color\":\"red\"},{\"text\":\"of the regular minion\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"production with a \",\"color\":\"gray\"},{\"text\":\"specialty \",\"color\":\"aqua\"},{\"text\":\"item.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Hypergolic-grade fuels create\",\"color\":\"red\"}",
+    "{\"text\":\"extra unique items! RARELY!\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed multiplier: \",\"color\":\"gray\"},{\"text\":\"20x\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Specialty: \",\"color\":\"gray\"},{\"text\":\"Glowstone Dust\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Specialty amount: \",\"color\":\"gray\"},{\"text\":\"2 to 3\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "INFERNO_HYPERGOLIC_GLOWSTONE_DUST",
   "clickcommand": "viewrecipe",
@@ -39,5 +39,8 @@
     "C1": "GLOWSTONE_DUST_DISTILLATE:1",
     "C2": "INFERNO_FUEL_BLOCK:1",
     "C3": "GLOWSTONE_DUST_DISTILLATE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

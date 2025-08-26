@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:flint",
-  "displayname": "§5Silex",
-  "nbttag": "{ExtraAttributes:{id:\"SIL_EX\"},HideFlags:254,ItemModel:\"minecraft:flint\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7When applied to a pickaxe or a drill,\",3:\"§7increases its §9Efficiency §7level by §a1§7!\",4:\"§8Can be applied up to Efficiency X.\",5:\"§8Requires Efficiency V!\",6:\"\",7:\"§5§lEPIC\"],Name:\"§5Silex\"},ench:[]}",
+  "displayname": "{\"text\":\"Silex\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:flint\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Silex\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"When applied to a pickaxe or a drill,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"increases its \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Efficiency \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"level by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Can be applied up to Efficiency X.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Requires Efficiency V!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7When applied to a pickaxe or a drill,",
-    "§7increases its §9Efficiency §7level by §a1§7!",
-    "§8Can be applied up to Efficiency X.",
-    "§8Requires Efficiency V!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"When applied to a pickaxe or a drill,\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"increases its \",\"color\":\"gray\"},{\"text\":\"Efficiency \",\"color\":\"blue\"},{\"text\":\"level by \",\"color\":\"gray\"},{\"text\":\"1\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Can be applied up to Efficiency X.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Requires Efficiency V!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SIL_EX",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "CONCENTRATED_STONE:1",
     "C2": "CONCENTRATED_STONE:1",
     "C3": "CONCENTRATED_STONE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

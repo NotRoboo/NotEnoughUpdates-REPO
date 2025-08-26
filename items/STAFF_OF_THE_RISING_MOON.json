@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:red_flower",
-  "displayname": "§5Staff of the Rising Moon",
-  "nbttag": "{ExtraAttributes:{id:\"STAFF_OF_THE_RISING_MOON\"},HideFlags:254,ItemModel:\"minecraft:allium\",display:{Lore:[0:\"§6Ability: Ray of Hope  §e§lRIGHT CLICK\",1:\"§7Launches an explosive moon towards the\",2:\"§7target location, dealing §c1❤ Heart §7of damage\",3:\"§7to §cWizardman §7when hit.\",4:\"§8Mana Cost: §31\",5:\"\",6:\"§5§lEPIC WAND\"],Name:\"§5Staff of the Rising Moon\"},ench:[]}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Staff of the Rising Moon\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:red_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Staff of the Rising Moon\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Ray of Hope \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Launches an explosive moon towards the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"target location, dealing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1❤ Heart \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"of damage\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Wizardman \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"when hit.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC WAND\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STAFF_OF_THE_RISING_MOON\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§6Ability: Ray of Hope  §e§lRIGHT CLICK",
-    "§7Launches an explosive moon towards the",
-    "§7target location, dealing §c1❤ Heart §7of damage",
-    "§7to §cWizardman §7when hit.",
-    "§8Mana Cost: §31",
-    "",
-    "§5§lEPIC WAND"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Ray of Hope \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Launches an explosive moon towards the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"target location, dealing \",\"color\":\"gray\"},{\"text\":\"1❤ Heart \",\"color\":\"red\"},{\"text\":\"of damage\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to \",\"color\":\"gray\"},{\"text\":\"Wizardman \",\"color\":\"red\"},{\"text\":\"when hit.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"1\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC WAND\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "STAFF_OF_THE_RISING_MOON",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Staff_of_the_Rising_Moon",
     "https://wiki.hypixel.net/Staff_Of_The_Rising_Moon"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

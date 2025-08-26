@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Great Spook Necklace",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"cdef231a-65a2-3313-94e3-3210f1df81a6\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MzUxNzA5NTQzMiwKICAicHJvZmlsZUlkIiA6ICJhYzM2YmVkZGQxNGQ0YjVmYmQyYzc5OThlMWMwOTg3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYWlzYWthIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RjZGUyZmY2MGU0ZjVjZDFjMmIxM2M2MDk3MDUzOWRiZGMzY2U5NDQyZTdlNjEyNDdkMWIxZjEyMmYwNDU4ZGQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Fear: §a+5\",1:\"\",2:\"§7§7Obtained during the §e2022\",3:\"§e§5Alchemist §7experiments!\",4:\"\",5:\"§8Edition #§k420\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§5§lEPIC NECKLACE\"],Name:\"§5Great Spook Necklace\"},ExtraAttributes:{year:2022,edition:-1,id:\"GREAT_SPOOK_NECKLACE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Great Spook Necklace\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Great Spook Necklace\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fear: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2022\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Alchemist \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"experiments!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Edition #\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"420\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC NECKLACE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"year\":2022,\"edition\":-1,\"id\":\"GREAT_SPOOK_NECKLACE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Fear: §a+5",
-    "",
-    "§7§7Obtained during the §e2022",
-    "§e§5Alchemist §7experiments!",
-    "",
-    "§8Edition #§k420",
-    "",
-    "§7§8This item can be reforged!",
-    "§5§lEPIC NECKLACE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fear: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained during the \",\"color\":\"gray\"},{\"text\":\"2022\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Alchemist \",\"color\":\"dark_purple\"},{\"text\":\"experiments!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Edition #\",\"color\":\"dark_gray\"},{\"text\":\"420\",\"color\":\"dark_gray\",\"obfuscated\":true}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC NECKLACE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "GREAT_SPOOK_NECKLACE",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Great_Spook_Necklace",
     "https://wiki.hypixel.net/Great_Spook_Necklace"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:clay_ball",
-  "displayname": "§5Dark Queen's Soul",
-  "nbttag": "{ExtraAttributes:{id:\"DARK_QUEENS_SOUL_DROP\"},HideFlags:254,ItemModel:\"minecraft:clay_ball\",display:{Lore:[0:\"§7A portion of Arachne's Soul\",1:\"§7that can be used to craft items.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Dark Queen's Soul\"}}",
+  "displayname": "{\"text\":\"Dark Queen\u0027s Soul\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:clay_ball\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dark Queen\u0027s Soul\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A portion of Arachne\u0027s Soul\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"that can be used to craft items.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DARK_QUEENS_SOUL_DROP\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7A portion of Arachne's Soul",
-    "§7that can be used to craft items.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"A portion of Arachne\u0027s Soul\",\"color\":\"gray\"}",
+    "{\"text\":\"that can be used to craft items.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "DARK_QUEENS_SOUL_DROP",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dark_Queen%27s_Soul",
     "https://wiki.hypixel.net/Dark_Queen%27s_Soul"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

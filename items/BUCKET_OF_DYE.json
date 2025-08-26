@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Bucket of Dye",
-  "nbttag": "{ExtraAttributes:{dye_donated:\"DYE_CHOCOLATE\",id:\"BUCKET_OF_DYE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"cfcc5d97-8c8a-34cb-a5fe-98c83a3bb007\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDU2NTk2MDQ1MywKICAicHJvZmlsZUlkIiA6ICJmODI3NGFhYWU5MzU0Zjk4YTBlNDZmMTgxZDU3Y2IxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaG9ydXZhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM0ZjZhOWE1MjM1NGI1MDYxNmRkNWExMDA0ZGI5Mzc2ZTZkNGEzNzUzOGJmZjBiY2UyMGU0ZmE1MmQ5MzYyZTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Increases your chance of dropping\",1:\"§7Dyes by §a1%§7.\",2:\"\",3:\"§6✿ Chocolate Dye Donated\",4:\"\",5:\"§9§lRARE ACCESSORY\"],Name:\"§9Bucket of Dye\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bucket of Dye\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bucket of Dye\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Increases your chance of dropping\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Dyes by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"✿ Chocolate Dye Donated\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE ACCESSORY\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"dye_donated\":\"DYE_CHOCOLATE\",\"id\":\"BUCKET_OF_DYE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDU2NTk2MDQ1MywKICAicHJvZmlsZUlkIiA6ICJmODI3NGFhYWU5MzU0Zjk4YTBlNDZmMTgxZDU3Y2IxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaG9ydXZhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM0ZjZhOWE1MjM1NGI1MDYxNmRkNWExMDA0ZGI5Mzc2ZTZkNGEzNzUzOGJmZjBiY2UyMGU0ZmE1MmQ5MzYyZTEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Increases your chance of dropping",
-    "§7Dyes by §a1%§7.",
-    "",
-    "§6✿ Chocolate Dye Donated",
-    "",
-    "§9§lRARE ACCESSORY"
+    "{\"text\":\"Increases your chance of dropping\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Dyes by \",\"color\":\"gray\"},{\"text\":\"1%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"✿ Chocolate Dye Donated\",\"color\":\"gold\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE ACCESSORY\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BUCKET_OF_DYE",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bucket_of_Dye",
     "https://wiki.hypixel.net/Bucket_Of_Dye"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

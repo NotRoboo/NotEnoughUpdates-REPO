@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f❤ Rough Ruby Gemstone",
-  "nbttag": "{ExtraAttributes:{id:\"ROUGH_RUBY_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"26d3d671-9982-3157-b1f8-a81fd1fba172\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4MzU1ODUzNCwKICAicHJvZmlsZUlkIiA6ICJjNTBhZmE4YWJlYjk0ZTQ1OTRiZjFiNDI1YTk4MGYwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd29FQmFlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxNTliMDMyNDNiZTE4YTE0ZjNlYWU3NjNjNDU2NWM3OGYxZjMzOWE4NzQyZDI2ZmRlNTQxYmU1OWI3ZGUwNyIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Harvested from the plentiful\",1:\"§7gemstone veins in the §5Crystal\",2:\"§5Hollows§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its\",6:\"§7owner extra §c❤ Health§7.\",7:\"\",8:\"§f§lCOMMON\"],Name:\"§f❤ Rough Ruby Gemstone\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"❤ Rough Ruby Gemstone\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"❤ Rough Ruby Gemstone\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Harvested from the plentiful\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"gemstone veins in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Crystal\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hollows\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Some say that when \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"harnessed\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"properly\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\", it can give its\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"owner extra \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ROUGH_RUBY_GEM\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4MzU1ODUzNCwKICAicHJvZmlsZUlkIiA6ICJjNTBhZmE4YWJlYjk0ZTQ1OTRiZjFiNDI1YTk4MGYwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd29FQmFlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxNTliMDMyNDNiZTE4YTE0ZjNlYWU3NjNjNDU2NWM3OGYxZjMzOWE4NzQyZDI2ZmRlNTQxYmU1OWI3ZGUwNyIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Harvested from the plentiful",
-    "§7gemstone veins in the §5Crystal",
-    "§5Hollows§7.",
-    "",
-    "§7Some say that when §eharnessed",
-    "§eproperly§7, it can give its",
-    "§7owner extra §c❤ Health§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Harvested from the plentiful\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"gemstone veins in the \",\"color\":\"gray\"},{\"text\":\"Crystal\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hollows\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Some say that when \",\"color\":\"gray\"},{\"text\":\"harnessed\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"properly\",\"color\":\"yellow\"},{\"text\":\", it can give its\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"owner extra \",\"color\":\"gray\"},{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ROUGH_RUBY_GEM",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gemstone",
     "https://wiki.hypixel.net/Gemstone"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

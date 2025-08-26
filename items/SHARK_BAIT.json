@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aShark Bait",
-  "nbttag": "{ExtraAttributes:{id:\"SHARK_BAIT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"34f3da30-d258-3416-a743-b3594ab044ec\",Properties:{textures:[0:{Name:\"textures\",Signature:\"w21pqMebgj/2IpvwjufXu78ewY0qtdWWYkRNDxsPE6gy71yfHNyakUO/Zb5EfHRnEeqNDJn4nZCQbj6avNHumB0wpel8owqMswKeBE7Zgy/jhmP37qai2vgk6+age8NpIhAuTLfwgFmn8wMUmqQ4bG3RsyEdtkA9r6Jc19gNdMYmup3HL2H4D3kMdazjdlbaEcn0YqEWpHMHJZh2rCcpalpyJB5z7zMUXFpykGwhOvmh20RpJIZDC5mnUU/aWUrjQzaFs7CkSbLOoiaIwQP/VWHTCMZF6H8IQMATeB9qID/2BPphuFj+Olx3JfZE0x2h8atRdSbNO0jX+LMSSiPzdzxeFW2g4Ggcx1PdSY/sfFFbutEA7pMatDe5ZxlJH997mjXtJrWVp9iQGnZxXU+zBNlrTGNCbP6zP4kHfxCvVtXQe9ctXyZAf3qvkTXCpkRqSp4ef2I/bGFAhpdlmL4+fFN3ueHyLdk38tg4WXHbw+PfL25S8PWK9gHJ5JdxiWh6BHfWDBEIxXZh9Vec0pRFzwjySpHLCG8mU6tHFHoA+DqJAFIVJjGGewOVIJF14BxXfrz49jIoG4uTI52RyQyR1V0jqiTWl2VhnSQyiaJk/AJt2FSWkPG+CHxNBvPp7TNCh3c8x+Sm6YmgR2lZVFCMbftfSwXly64X0FUNfZZkYog=\",Value:\"eyJ0aW1lc3RhbXAiOjE1ODYwMTk5NzM0NDMsInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRmZjkwNDEyNGVmZTQ4NmIzYTU0MjYxZGJiODA3MmIwYTRlMTE2MTVhZDhkNzM5NGQ4MTRlMGU4YzhlZjllYiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Fishing Bait\",1:\"§8Consumes on Cast\",2:\"\",3:\"§7Increases your chance to catch\",4:\"§bSharks §7during the §bFishing Festival §7by\",5:\"§a20%§7.\",6:\"\",7:\"§a§lUNCOMMON BAIT\"],Name:\"§aShark Bait\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Shark Bait\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shark Bait\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Fishing Bait\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Consumes on Cast\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Increases your chance to catch\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sharks \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Fishing Festival \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"by\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"20%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON BAIT\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SHARK_BAIT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1ODYwMTk5NzM0NDMsInByb2ZpbGVJZCI6ImIwZDczMmZlMDBmNzQwN2U5ZTdmNzQ2MzAxY2Q5OGNhIiwicHJvZmlsZU5hbWUiOiJPUHBscyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRmZjkwNDEyNGVmZTQ4NmIzYTU0MjYxZGJiODA3MmIwYTRlMTE2MTVhZDhkNzM5NGQ4MTRlMGU4YzhlZjllYiJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Fishing Bait",
-    "§8Consumes on Cast",
-    "",
-    "§7Increases your chance to catch",
-    "§bSharks §7during the §bFishing Festival §7by",
-    "§a20%§7.",
-    "",
-    "§a§lUNCOMMON BAIT"
+    "{\"text\":\"Fishing Bait\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Consumes on Cast\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Increases your chance to catch\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sharks \",\"color\":\"aqua\"},{\"text\":\"during the \",\"color\":\"gray\"},{\"text\":\"Fishing Festival \",\"color\":\"aqua\"},{\"text\":\"by\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"20%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON BAIT\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SHARK_BAIT",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

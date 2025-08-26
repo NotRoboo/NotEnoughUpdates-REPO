@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Divan's Alloy",
-  "nbttag": "{ExtraAttributes:{id:\"DIVAN_ALLOY\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"87e89bea-b2db-3d69-8429-16f5c4b889a0\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRhNDE0ZDI5Y2M5ZWJiZmMxY2JkY2QyMTFlZWU0NzI2ZDA2NzZiZTI2MmU5Y2I4ZWVmZmFmZDFmYzM4MGIxNCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7§oThe legendary Divan explored where\",1:\"§7§ono other man has set foot, and came\",2:\"§7§oback with this incredibly rare alloy.\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Divan's Alloy\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Divan\u0027s Alloy\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Divan\u0027s Alloy\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The legendary Divan explored where\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"no other man has set foot, and came\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"back with this incredibly rare alloy.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIVAN_ALLOY\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRhNDE0ZDI5Y2M5ZWJiZmMxY2JkY2QyMTFlZWU0NzI2ZDA2NzZiZTI2MmU5Y2I4ZWVmZmFmZDFmYzM4MGIxNCJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7§oThe legendary Divan explored where",
-    "§7§ono other man has set foot, and came",
-    "§7§oback with this incredibly rare alloy.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"The legendary Divan explored where\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"no other man has set foot, and came\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"back with this incredibly rare alloy.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "DIVAN_ALLOY",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Divan%27s_Alloy",
     "https://wiki.hypixel.net/Divan%27s_Alloy"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

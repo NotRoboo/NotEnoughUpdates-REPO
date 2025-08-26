@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:iron_leggings",
-  "displayname": "§fIron Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+25\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON LEGGINGS\"],Name:\"§fIron Leggings\"},ExtraAttributes:{originTag:\"CRAFTING_GRID_COLLECT\",id:\"IRON_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Iron Leggings\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Iron Leggings\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON LEGGINGS\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"CRAFTING_GRID_COLLECT\",\"id\":\"IRON_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+25",
-    "",
-    "§7§8This item can be reforged!",
-    "§f§lCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON LEGGINGS\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "IRON_LEGGINGS",
   "crafttext": "",
@@ -28,5 +28,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Iron_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

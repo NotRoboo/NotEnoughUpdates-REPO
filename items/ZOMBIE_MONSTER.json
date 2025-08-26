@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aZombie (Monster)",
-  "nbttag": "{display:{Lore:[0:\"§7The Zombie is a natural mob in Minecraft. Zombies\",1:\"\",2:\"§c❤ Health§8: §c100 - 707\"],Name:\"§aZombie (Monster)\"},ExtraAttributes:{id:\"ZOMBIE_MONSTER\"}}",
-  "damage": 2,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Zombie (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Zombie is a natural mob in Minecraft. Zombies\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"100 - 707\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"ZOMBIE_MONSTER\"}}}",
+  "damage": 0,
   "lore": [
-    "§7The Zombie is a natural mob in Minecraft. Zombies",
-    "",
-    "§c❤ Health§8: §c100 - 707"
+    "{\"text\":\"The Zombie is a natural mob in Minecraft. Zombies\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"100 - 707\",\"color\":\"red\"}]}"
   ],
   "internalname": "ZOMBIE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -44,5 +44,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Lunar Sea Horse Dolphin Skin",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d10375ce-626e-3b9a-abe6-defd001dbe28\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzI5NjE1OTUwNiwKICAicHJvZmlsZUlkIiA6ICI4N2RlZmVhMTQwMWQ0MzYxODFhNmNhOWI3ZGQ2ODg0MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGh5bnhpdHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmUwZDFjZDBhNDY3YjIxNzY0YTE4M2Q2NzUzYjZjYmRjYjRmZjNiYmJmMTk4OTU2ZDYxMDJjODBmZjQ4NzIxMyIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7§7Pet skins change the look and\",3:\"§7particle trail of your pet but only\",4:\"§7one skin can be active at a time!\",5:\"\",6:\"§7§7This skin can only be applied to\",7:\"§7Dolphin pets.\",8:\"\",9:\"§7§eRight-click on your summoned pet to\",10:\"§eapply this skin!\",11:\"\",12:\"§5§lEPIC COSMETIC\"],Name:\"§5Lunar Sea Horse Dolphin Skin\"},ExtraAttributes:{id:\"PET_SKIN_DOLPHIN_LUNAR_HORSE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Lunar Sea Horse Dolphin Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lunar Sea Horse Dolphin Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Pet skins change the look and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"particle trail of your pet but only\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"one skin can be active at a time!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin can only be applied to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Dolphin pets.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"apply this skin!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PET_SKIN_DOLPHIN_LUNAR_HORSE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Consumed on use",
-    "",
-    "§7§7Pet skins change the look and",
-    "§7particle trail of your pet but only",
-    "§7one skin can be active at a time!",
-    "",
-    "§7§7This skin can only be applied to",
-    "§7Dolphin pets.",
-    "",
-    "§7§eRight-click on your summoned pet to",
-    "§eapply this skin!",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Consumed on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Pet skins change the look and\",\"color\":\"gray\"}",
+    "{\"text\":\"particle trail of your pet but only\",\"color\":\"gray\"}",
+    "{\"text\":\"one skin can be active at a time!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin can only be applied to\",\"color\":\"gray\"}",
+    "{\"text\":\"Dolphin pets.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"apply this skin!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PET_SKIN_DOLPHIN_LUNAR_HORSE",
   "crafttext": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pet_Skins",
     "https://wiki.hypixel.net/Pet_Skins"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§5Exp Share Core",
-  "nbttag": "{ExtraAttributes:{id:\"PET_ITEM_EXP_SHARE_DROP\"},HideFlags:254,ItemModel:\"minecraft:yellow_dye\",display:{Lore:[0:\"§7Used to craft the Exp Share pet item.\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5Exp Share Core\"}}",
-  "damage": 11,
+  "displayname": "{\"text\":\"Exp Share Core\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Exp Share Core\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Used to craft the Exp Share pet item.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PET_ITEM_EXP_SHARE_DROP\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Used to craft the Exp Share pet item.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Used to craft the Exp Share pet item.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PET_ITEM_EXP_SHARE_DROP",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Exp_Share_Core",
     "https://wiki.hypixel.net/Exp_Share_Core"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

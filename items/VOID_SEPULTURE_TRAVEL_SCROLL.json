@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:map",
-  "displayname": "§5Travel Scroll to the Void Sepulture",
-  "nbttag": "{ExtraAttributes:{id:\"VOID_SEPULTURE_TRAVEL_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:map\",display:{Lore:[0:\"§7Consume this item to add its\",1:\"§7destination to your Fast Travel\",2:\"§7options.\",3:\"\",4:\"§7Requires §bMVP§c+ §7to consume!\",5:\"\",6:\"§7Island: §aThe End\",7:\"§7Teleport: §eVoid Sepulture\",8:\"\",9:\"§5§lEPIC TRAVEL SCROLL\"],Name:\"§5Travel Scroll to the Void Sepulture\"}}",
+  "displayname": "{\"text\":\"Travel Scroll to the Void Sepulture\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:map\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Travel Scroll to the Void Sepulture\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consume this item to add its\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"destination to your Fast Travel\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"options.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"MVP\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"+ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"to consume!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Island: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The End\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Teleport: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Void Sepulture\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC TRAVEL SCROLL\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"VOID_SEPULTURE_TRAVEL_SCROLL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Consume this item to add its",
-    "§7destination to your Fast Travel",
-    "§7options.",
-    "",
-    "§7Requires §bMVP§c+ §7to consume!",
-    "",
-    "§7Island: §aThe End",
-    "§7Teleport: §eVoid Sepulture",
-    "",
-    "§5§lEPIC TRAVEL SCROLL"
+    "{\"text\":\"Consume this item to add its\",\"color\":\"gray\"}",
+    "{\"text\":\"destination to your Fast Travel\",\"color\":\"gray\"}",
+    "{\"text\":\"options.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"MVP\",\"color\":\"aqua\"},{\"text\":\"+ \",\"color\":\"red\"},{\"text\":\"to consume!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Island: \",\"color\":\"gray\"},{\"text\":\"The End\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Teleport: \",\"color\":\"gray\"},{\"text\":\"Void Sepulture\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC TRAVEL SCROLL\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "VOID_SEPULTURE_TRAVEL_SCROLL",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C2": "RAW_SOULFLOW:16",
     "C3": "RAW_SOULFLOW:16"
   },
-  "slayer_req": "EMAN_4"
+  "slayer_req": "EMAN_4",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

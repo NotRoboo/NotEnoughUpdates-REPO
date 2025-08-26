@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aIce Bait",
-  "nbttag": "{ExtraAttributes:{id:\"ICE_BAIT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"26436699-a4b7-3135-bc6a-85d1195675ca\",Properties:{textures:[0:{Name:\"textures\",Signature:\"YIrKV3ujp9xmIPTEiK9M8YDd0uStka7ayBuNnU7TfQvfxUqwNSHahU+r+j/IPmykpNxKoGIhnYtNUJ+0ZxlvWZTXOc9CkOL3xiQTIai3GZiQSatAj9prhasNb5qsBXcl7ifZEcM+GyIz76jw2MB43mCngsDaSxB6WyesSy15Fjc+UnKWfI4Lt0eJ3PN52i1vtLENQSg9NDEmYaYyLewgR7+MDffP+jC3dub3FItyAzcIN0iBudSDr6eHpmSn7NkR1DcSx1FIltZQS+nG4gMp/va0nGxiOZssKJ7itlRUdyrU/Xx9grHpTiN1Ac9yAh7brGxCDFMmTVtLoBBF1fppPxb2DvRTlZyqL5pJe0xuOi4N1oZYBx8zDu5X/SwZMl22HHjxsSOz/CsGtl9yW+w+pRp2yUd8tqQuMFxsk7Eb0oFQpLmiRVaP5A4kgfa9zgACHOprgflu07MGTl8PG54F1HBxi0NKSQWXoo64aMPvw6sqxPIyk5uJZX1hNL88EgRbmjvX1h0VV0DJQINfbEm0bWAtVuE0+gTGKI8YYA8CGiiKYM912hoE85KUZpJ5G+Nvl74VduuCoieMr49db3S/Kh1GfLUFiXtQ6LdJT7i0FegIXwTCzaUQ0xFyJy4QZcDc+D80uuDwvu7vQP6dq+P7Bx0ApTy5g2VL2FVK69qIw1M=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NzcwMzk3ODA5OTAsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYwOWUxNjFiZGMzMjVjNzE1NzJhNTQ4YTc5YmIxNTQ4MWM5MjRkNjNlNGZiODIxMzc5ZDVkZDZjODkyOWYzOWYifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Fishing Bait\",1:\"§8Consumes on Cast\",2:\"\",3:\"§7Increases your chance to catch\",4:\"§7Winter Sea Creatures during the\",5:\"§cSeason of Jerry §7by §a20%§7.\",6:\"\",7:\"§a§lUNCOMMON BAIT\"],Name:\"§aIce Bait\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Ice Bait\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ice Bait\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Fishing Bait\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Consumes on Cast\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Increases your chance to catch\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Winter Sea Creatures during the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Season of Jerry \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON BAIT\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ICE_BAIT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NzcwMzk3ODA5OTAsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYwOWUxNjFiZGMzMjVjNzE1NzJhNTQ4YTc5YmIxNTQ4MWM5MjRkNjNlNGZiODIxMzc5ZDVkZDZjODkyOWYzOWYifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Fishing Bait",
-    "§8Consumes on Cast",
-    "",
-    "§7Increases your chance to catch",
-    "§7Winter Sea Creatures during the",
-    "§cSeason of Jerry §7by §a20%§7.",
-    "",
-    "§a§lUNCOMMON BAIT"
+    "{\"text\":\"Fishing Bait\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Consumes on Cast\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Increases your chance to catch\",\"color\":\"gray\"}",
+    "{\"text\":\"Winter Sea Creatures during the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Season of Jerry \",\"color\":\"red\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"20%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON BAIT\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ICE_BAIT",
   "clickcommand": "viewrecipe",
@@ -39,5 +39,8 @@
       "cost": "EMERALD:20",
       "result": "ICE_BAIT"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

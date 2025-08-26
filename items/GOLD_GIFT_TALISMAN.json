@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Gold Gift Talisman",
-  "nbttag": "{ExtraAttributes:{id:\"GOLD_GIFT_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8bc80b3a-ddfb-3e9b-bce7-a5e9ea8badae\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2OTUxNDE0NjQyNywKICAicHJvZmlsZUlkIiA6ICIxMzdmMjg3MjUwOTE0ZmI4YjA0ZTYwYjg4MWUwZWE2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3JtYWxpc2luZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hYmQ5ODc5MmRkOTJkOTcxOTg5NDM0MWFjOTAxMmE1ODRjNDQyODU1OGZkMmM3MTJmNzhlNWYwZDRkYTg1NDcwIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Grants §a+25% §6Coin §7and\",1:\"§aEXP §7rewards from gifts.\",2:\"\",3:\"§6§lLEGENDARY ACCESSORY\"],Name:\"§6Gold Gift Talisman\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Gold Gift Talisman\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gold Gift Talisman\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Coin \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"EXP \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"rewards from gifts.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY ACCESSORY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLD_GIFT_TALISMAN\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY2OTUxNDE0NjQyNywKICAicHJvZmlsZUlkIiA6ICIxMzdmMjg3MjUwOTE0ZmI4YjA0ZTYwYjg4MWUwZWE2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3JtYWxpc2luZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hYmQ5ODc5MmRkOTJkOTcxOTg5NDM0MWFjOTAxMmE1ODRjNDQyODU1OGZkMmM3MTJmNzhlNWYwZDRkYTg1NDcwIgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Grants §a+25% §6Coin §7and",
-    "§aEXP §7rewards from gifts.",
-    "",
-    "§6§lLEGENDARY ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+25% \",\"color\":\"green\"},{\"text\":\"Coin \",\"color\":\"gold\"},{\"text\":\"and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"EXP \",\"color\":\"green\"},{\"text\":\"rewards from gifts.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY ACCESSORY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "GOLD_GIFT_TALISMAN",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gold_Gift_Talisman",
     "https://wiki.hypixel.net/Gold_Gift_Talisman"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

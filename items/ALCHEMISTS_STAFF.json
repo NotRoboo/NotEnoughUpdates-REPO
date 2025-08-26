@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:red_flower",
-  "displayname": "§9The Alchemist's Staff",
-  "nbttag": "{ExtraAttributes:{id:\"ALCHEMISTS_STAFF\"},HideFlags:254,ItemModel:\"minecraft:allium\",display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+20\",2:\"§7Intelligence: §a+20\",3:\"\",4:\"§6Ability: Coin Conversion  §e§lRIGHT CLICK\",5:\"§7Spend coins to cast a projectile which deals\",6:\"§c10,080.1 §7damage on hit and knocks enemies\",7:\"§7back.\",8:\"§8Coin Cost: §6100,000\",9:\"\",10:\"§4❣ §cRequires §aCombat Skill 22§c.\",11:\"§8§l* §8Soulbound §8§l*\",12:\"§9§lRARE WAND\"],Name:\"§9The Alchemist's Staff\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"The Alchemist\u0027s Staff\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:red_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"The Alchemist\u0027s Staff\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Coin Conversion \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Spend coins to cast a projectile which deals\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"10,080.1 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage on hit and knocks enemies\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"back.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Coin Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"100,000\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE WAND\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ALCHEMISTS_STAFF\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Damage: §c+50",
-    "§7Strength: §c+20",
-    "§7Intelligence: §a+20",
-    "",
-    "§6Ability: Coin Conversion  §e§lRIGHT CLICK",
-    "§7Spend coins to cast a projectile which deals",
-    "§c10,080.1 §7damage on hit and knocks enemies",
-    "§7back.",
-    "§8Coin Cost: §6100,000",
-    "",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
-    "§8§l* §8Soulbound §8§l*",
-    "§9§lRARE WAND"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Coin Conversion \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Spend coins to cast a projectile which deals\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"10,080.1 \",\"color\":\"red\"},{\"text\":\"damage on hit and knocks enemies\",\"color\":\"gray\"}]}",
+    "{\"text\":\"back.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Coin Cost: \",\"color\":\"dark_gray\"},{\"text\":\"100,000\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE WAND\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ALCHEMISTS_STAFF",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/The_Alchemist%27s_Staff",
     "https://wiki.hypixel.net/The_Alchemist%27s_Staff"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

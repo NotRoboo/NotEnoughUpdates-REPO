@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:gunpowder",
-  "displayname": "§aDerelict Ashe",
-  "nbttag": "{ExtraAttributes:{id:\"DERELICT_ASHE\"},HideFlags:254,ItemModel:\"minecraft:gunpowder\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aDerelict Ashe\"},ench:[]}",
+  "displayname": "{\"text\":\"Derelict Ashe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:gunpowder\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Derelict Ashe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DERELICT_ASHE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DERELICT_ASHE",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Derelict_Ashe",
     "https://wiki.hypixel.net/Derelict_Ashe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

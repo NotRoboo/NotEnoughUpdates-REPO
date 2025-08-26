@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:carpet",
-  "displayname": "§dAnti-Bite Scarf",
-  "nbttag": "{ExtraAttributes:{id:\"ANTI_BITE_SCARF_2\"},HideFlags:254,ItemModel:\"minecraft:red_carpet\",display:{Lore:[0:\"§7Intelligence: §a+22\",1:\"\",2:\"§6Ability: Helmets All The Way Around \",3:\"§7Regain §a+2ф §7when killing a monster.\",4:\"\",5:\"§7If you would take §c❤ §7damage, take\",6:\"§c0.5❤ §7less.\",7:\"\",8:\"§eLeft-click to pick color!\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4☠ §cRequires §5Vampire Slayer 4§c.\",12:\"§d§lMYTHIC HELMET\"],Name:\"§dAnti-Bite Scarf\"},ench:[]}",
-  "damage": 14,
+  "displayname": "{\"text\":\"Anti-Bite Scarf\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:carpet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Anti-Bite Scarf\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+22\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Helmets All The Way Around \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2ф \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"when killing a monster.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"If you would take \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage, take\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"0.5❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"less.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Left-click to pick color!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Vampire Slayer 4\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"MYTHIC HELMET\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ANTI_BITE_SCARF_2\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Intelligence: §a+22",
-    "",
-    "§6Ability: Helmets All The Way Around ",
-    "§7Regain §a+2ф §7when killing a monster.",
-    "",
-    "§7If you would take §c❤ §7damage, take",
-    "§c0.5❤ §7less.",
-    "",
-    "§eLeft-click to pick color!",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Vampire Slayer 4§c.",
-    "§d§lMYTHIC HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+22\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Helmets All The Way Around \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regain \",\"color\":\"gray\"},{\"text\":\"+2ф \",\"color\":\"green\"},{\"text\":\"when killing a monster.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"If you would take \",\"color\":\"gray\"},{\"text\":\"❤ \",\"color\":\"red\"},{\"text\":\"damage, take\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"0.5❤ \",\"color\":\"red\"},{\"text\":\"less.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Left-click to pick color!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Vampire Slayer 4\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"MYTHIC HELMET\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "ANTI_BITE_SCARF_2",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C1": "BLOODBADGE:1",
     "C2": "ANTI_BITE_SCARF:1",
     "C3": "BLOODBADGE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

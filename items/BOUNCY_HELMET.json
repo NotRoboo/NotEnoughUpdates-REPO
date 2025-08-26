@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:leather_helmet",
-  "displayname": "§9Bouncy Helmet",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d85 \",1:\"§7Crit Chance: §c+5%\",2:\"§7Health: §a+65\",3:\"\",4:\"§6Full Set Bonus: Bouncing Arrow\",5:\"§7Your arrows have a §e25%\",6:\"§e§7chance to bounce to another\",7:\"§7target after it hits something.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§7§4❣ §cRequires §cCatacombs Skill\",11:\"§c9§c.\",12:\"§9§lRARE DUNGEON HELMET\"],color:11403055,Name:\"§9Bouncy Helmet\"},ExtraAttributes:{dungeon_item_level:0,id:\"BOUNCY_HELMET\"}}",
+  "displayname": "{\"text\":\"Bouncy Helmet\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bouncy Helmet\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"85 \\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+65\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Bouncing Arrow\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Your arrows have a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"25%\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"chance to bounce to another\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"target after it hits something.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Catacombs Skill\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"9\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE DUNGEON HELMET\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"dungeon_item_level\":0,\"id\":\"BOUNCY_HELMET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d85 ",
-    "§7Crit Chance: §c+5%",
-    "§7Health: §a+65",
-    "",
-    "§6Full Set Bonus: Bouncing Arrow",
-    "§7Your arrows have a §e25%",
-    "§e§7chance to bounce to another",
-    "§7target after it hits something.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §cCatacombs Skill",
-    "§c9§c.",
-    "§9§lRARE DUNGEON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"85 \",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Chance: \",\"color\":\"gray\"},{\"text\":\"+5%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+65\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Bouncing Arrow\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Your arrows have a \",\"color\":\"gray\"},{\"text\":\"25%\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"chance to bounce to another\",\"color\":\"gray\"}",
+    "{\"text\":\"target after it hits something.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Catacombs Skill\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"9\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE DUNGEON HELMET\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BOUNCY_HELMET",
   "crafttext": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bouncy_Helmet",
     "https://wiki.hypixel.net/Bouncy_Helmet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

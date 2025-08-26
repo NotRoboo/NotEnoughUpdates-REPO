@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Jine (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"c0315e5d-d677-2d31-a552-89b3d984ddeb\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk1ZmExM2NjMjY1Mzk4NTNmZWE1OTU1MmIyZTVlOTAxNmRjNDE0ZGRhMmY4MzdiNzJhYTk1OWY3ZjE3M2NmMyJ9fX0\u003d\"}]},Name:\"c0315e5d-d677-2d31-a552-89b3d984ddeb\"},display:{Lore:[0:\"\"],Name:\"§9Jine (NPC)\"},ExtraAttributes:{id:\"JINE_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Jine (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jine (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"JINE_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "JINE_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Jine",
     "https://wiki.hypixel.net/Jine"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:iron_horse_armor",
-  "displayname": "§aLucky Hoof",
-  "nbttag": "{ExtraAttributes:{id:\"LUCKY_HOOF\"},HideFlags:254,ItemModel:\"minecraft:iron_horse_armor\",display:{Lore:[0:\"§7Gain §a1% §7chance to find Trick\",1:\"§7or Treat chests.\",2:\"\",3:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aLucky Hoof\"}}",
+  "displayname": "{\"text\":\"Lucky Hoof\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_horse_armor\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lucky Hoof\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance to find Trick\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"or Treat chests.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ACCESSORY\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LUCKY_HOOF\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gain §a1% §7chance to find Trick",
-    "§7or Treat chests.",
-    "",
-    "§a§lUNCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"1% \",\"color\":\"green\"},{\"text\":\"chance to find Trick\",\"color\":\"gray\"}]}",
+    "{\"text\":\"or Treat chests.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ACCESSORY\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "LUCKY_HOOF",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lucky_Hoof",
     "https://wiki.hypixel.net/Lucky_Hoof"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

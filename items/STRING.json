@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:string",
-  "displayname": "§fString",
-  "nbttag": "{ExtraAttributes:{id:\"STRING\"},HideFlags:254,ItemModel:\"minecraft:string\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fString\"}}",
+  "displayname": "{\"text\":\"String\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:string\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"String\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STRING\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STRING",
   "clickcommand": "",
@@ -17,5 +17,8 @@
     "https://wiki.hypixel.net/String",
     "https://hypixel-skyblock.fandom.com/wiki/String"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

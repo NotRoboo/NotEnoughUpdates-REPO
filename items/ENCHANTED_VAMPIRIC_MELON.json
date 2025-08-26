@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:melon_block",
-  "displayname": "§aEnchanted Vampiric Melon",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_VAMPIRIC_MELON\"},HideFlags:254,ItemModel:\"minecraft:melon\",display:{Lore:[0:\"§7Worth more §dMotes §7than the sum of its\",1:\"§7parts, because it's glowing!\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Vampiric Melon\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Vampiric Melon\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:melon_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Vampiric Melon\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Worth more \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Motes \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"than the sum of its\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"parts, because it\u0027s glowing!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_VAMPIRIC_MELON\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Worth more §dMotes §7than the sum of its",
-    "§7parts, because it's glowing!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Worth more \",\"color\":\"gray\"},{\"text\":\"Motes \",\"color\":\"light_purple\"},{\"text\":\"than the sum of its\",\"color\":\"gray\"}]}",
+    "{\"text\":\"parts, because it\u0027s glowing!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_VAMPIRIC_MELON",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "",
     "C2": "VAMPIRIC_MELON:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

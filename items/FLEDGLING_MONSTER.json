@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aFledgling (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9873a3cb-988e-26c1-a75b-7f38296f8398\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNmODNiYmFhMTA5YWUyMGZiYTU5MWRjNjZlNThmMmQwYzNlZTI1YTkzNTQ3MGYzMWNlYzM4MzhlMmZhNDM0MSJ9fX0\u003d\"}]},Name:\"§897d94b2-5656-46df-ba23-966ca6c74b80\"},display:{Lore:[0:\"§c❤ Health§8: §c210\"],Name:\"§aFledgling (Monster)\"},ExtraAttributes:{id:\"FLEDGLING_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Fledgling (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fledgling (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"210\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"FLEDGLING_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§c❤ Health§8: §c210"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"210\",\"color\":\"red\"}]}"
   ],
   "internalname": "FLEDGLING_MONSTER",
   "crafttext": "",
@@ -44,5 +44,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fledgling",
     "https://wiki.hypixel.net/Fledgling"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

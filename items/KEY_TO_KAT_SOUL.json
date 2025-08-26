@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:gold_nugget",
-  "displayname": "§9Key to Infested House Soul",
-  "nbttag": "{ExtraAttributes:{id:\"KEY_TO_KAT_SOUL\"},HideFlags:254,ItemModel:\"minecraft:gold_nugget\",display:{Lore:[0:\"§7Hold this item in your inventory\",1:\"§7to use the soul in the infested\",2:\"§7house.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Key to Infested House Soul\"},ench:[]}",
+  "displayname": "{\"text\":\"Key to Infested House Soul\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:gold_nugget\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Key to Infested House Soul\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Hold this item in your inventory\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to use the soul in the infested\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"house.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"KEY_TO_KAT_SOUL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Hold this item in your inventory",
-    "§7to use the soul in the infested",
-    "§7house.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Hold this item in your inventory\",\"color\":\"gray\"}",
+    "{\"text\":\"to use the soul in the infested\",\"color\":\"gray\"}",
+    "{\"text\":\"house.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "KEY_TO_KAT_SOUL",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Key_to_Infested_House_Soul",
     "https://wiki.hypixel.net/Key_To_Infested_House_Soul"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

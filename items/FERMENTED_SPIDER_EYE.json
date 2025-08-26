@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:fermented_spider_eye",
-  "displayname": "§fFermented Spider Eye",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§f§lCOMMON\"],Name:\"§fFermented Spider Eye\"},ExtraAttributes:{id:\"FERMENTED_SPIDER_EYE\"}}",
+  "displayname": "{\"text\":\"Fermented Spider Eye\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:fermented_spider_eye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fermented Spider Eye\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FERMENTED_SPIDER_EYE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "§f§lCOMMON"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FERMENTED_SPIDER_EYE",
   "modver": "2.1.1-PRE",
@@ -26,5 +26,8 @@
   "info": [
     "https://wiki.hypixel.net/Fermented_Spider_Eye"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

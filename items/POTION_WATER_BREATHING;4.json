@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aWater Breathing IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:13b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§9Water Breathing IV §f(3:00)\",2:\"§7Grants a §a60% §7chance of not taking\",3:\"§7drowning damage.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aWater Breathing IV Potion\"},ExtraAttributes:{potion_level:4,potion:\"water_breathing\",effects:[0:{level:4,effect:\"water_breathing\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_WATER_BREATHING;4\"}}",
-  "damage": 13,
+  "displayname": "{\"text\":\"Water Breathing IV Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Water Breathing IV Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Water Breathing IV \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"60% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance of not taking\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"drowning damage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":4,\"potion\":\"water_breathing\",\"effects\":\"[0:{level:4\",\"effect\":\"water_breathing\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§9Water Breathing IV §f(3:00)",
-    "§7Grants a §a60% §7chance of not taking",
-    "§7drowning damage.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Water Breathing IV \",\"color\":\"blue\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants a \",\"color\":\"gray\"},{\"text\":\"60% \",\"color\":\"green\"},{\"text\":\"chance of not taking\",\"color\":\"gray\"}]}",
+    "{\"text\":\"drowning damage.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_WATER_BREATHING;4",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:red_flower",
-  "displayname": "§9Endstone Rose",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7\\\"The Zealots have shown me so much\",1:\"§7love, I hope this simple rose shows\",2:\"§7how much I care for them.\\\" -\",3:\"§7Endstone Protector\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Endstone Rose\"},ExtraAttributes:{id:\"ENDSTONE_ROSE\"}}",
+  "displayname": "{\"text\":\"Endstone Rose\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:red_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Endstone Rose\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\\\\\"The Zealots have shown me so much\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"love, I hope this simple rose shows\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"how much I care for them.\\\\\\\" -\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Endstone Protector\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENDSTONE_ROSE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7\"The Zealots have shown me so much",
-    "§7love, I hope this simple rose shows",
-    "§7how much I care for them.\" -",
-    "§7Endstone Protector",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\\\"The Zealots have shown me so much\",\"color\":\"gray\"}",
+    "{\"text\":\"love, I hope this simple rose shows\",\"color\":\"gray\"}",
+    "{\"text\":\"how much I care for them.\\\" -\",\"color\":\"gray\"}",
+    "{\"text\":\"Endstone Protector\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENDSTONE_ROSE",
   "clickcommand": "",
@@ -19,5 +19,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Endstone_Rose",
     "https://wiki.hypixel.net/Endstone_Rose"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

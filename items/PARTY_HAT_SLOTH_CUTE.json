@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cCute Sloth Hat of Celebration",
-  "nbttag": "{ExtraAttributes:{id:\"PARTY_HAT_SLOTH_CUTE\",party_hat_emoji:\"cute\",party_hat_year:2023},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a5e4ce09-5de8-305a-9980-85a19b7edd7e\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4NTk3NzgwODU4NywKICAicHJvZmlsZUlkIiA6ICI1MTY4ZjZlMjIyM2E0Y2FjYjdiN2QyZjYyZWMxZGFhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWZfbm90X2FzaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWQ4ZWJiYzI4OWQ5NTRmZjZlZjFjY2VmNzg5NTFmZDlhMDcwY2ExNTI5Y2M5NDliYTgzZTIzMDBmODkxY2QiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Magic Find: §a+1\",1:\"\",2:\"§6Ability: Party Time!\",3:\"§7Gain §b+1✎ Intelligence §7while\",4:\"§7on your head for each SkyBlock\",5:\"§7year you've been playing.\",6:\"\",7:\"§7Obtained: §e2023\",8:\"\",9:\"§c§lSPECIAL HATCESSORY\"],Name:\"§cCute Sloth Hat of Celebration\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Cute Sloth Hat of Celebration\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cute Sloth Hat of Celebration\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Magic Find: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Party Time!\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1✎ Intelligence \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"while\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"on your head for each SkyBlock\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"year you\u0027ve been playing.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2023\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL HATCESSORY\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"party_hat_emoji\":\"cute\",\"party_hat_year\":2023,\"id\":\"PARTY_HAT_SLOTH_CUTE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY4NTk3NzgwODU4NywKICAicHJvZmlsZUlkIiA6ICI1MTY4ZjZlMjIyM2E0Y2FjYjdiN2QyZjYyZWMxZGFhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWZfbm90X2FzaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWQ4ZWJiYzI4OWQ5NTRmZjZlZjFjY2VmNzg5NTFmZDlhMDcwY2ExNTI5Y2M5NDliYTgzZTIzMDBmODkxY2QiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Magic Find: §a+1",
-    "",
-    "§6Ability: Party Time!",
-    "§7Gain §b+1✎ Intelligence §7while",
-    "§7on your head for each SkyBlock",
-    "§7year you've been playing.",
-    "",
-    "§7Obtained: §e2023",
-    "",
-    "§c§lSPECIAL HATCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Magic Find: \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Party Time!\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+1✎ Intelligence \",\"color\":\"aqua\"},{\"text\":\"while\",\"color\":\"gray\"}]}",
+    "{\"text\":\"on your head for each SkyBlock\",\"color\":\"gray\"}",
+    "{\"text\":\"year you\u0027ve been playing.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained: \",\"color\":\"gray\"},{\"text\":\"2023\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL HATCESSORY\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "PARTY_HAT_SLOTH_CUTE",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cute_Sloth_Hat_of_Celebration",
     "https://wiki.hypixel.net/Cute_Sloth_Hat_Of_Celebration"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

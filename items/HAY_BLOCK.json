@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:hay_block",
-  "displayname": "§fHay Bale",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fHay Bale\"},ExtraAttributes:{id:\"HAY_BLOCK\"}}",
+  "displayname": "{\"text\":\"Hay Bale\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:hay_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hay Bale\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HAY_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "HAY_BLOCK",
   "modver": "2.2.2",
@@ -27,5 +27,8 @@
   "info": [
     "https://wiki.hypixel.net/Hay_Bale"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

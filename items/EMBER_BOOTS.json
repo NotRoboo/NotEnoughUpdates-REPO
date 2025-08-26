@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:chainmail_boots",
-  "displayname": "§5Ember Boots",
-  "nbttag": "{ExtraAttributes:{id:\"EMBER_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:chainmail_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+35\",1:\"§7Defense: §a+30\",2:\"§7Intelligence: §a+5\",3:\"\",4:\"§6Full Set Bonus: Nether Lord §7(0/4)\",5:\"§7Walking over §cLava§7 creates §5Obsidian\",6:\"§7under your feet. You are also immune\",7:\"§7to all damage from §cLava§7 and §cFire§7.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §aCombat Skill 8§c.\",11:\"§5§lEPIC BOOTS\"],Name:\"§5Ember Boots\"}}",
+  "displayname": "{\"text\":\"Ember Boots\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:chainmail_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ember Boots\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Nether Lord \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Walking over \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Lava\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" creates \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Obsidian\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"under your feet. You are also immune\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to all damage from \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Lava\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Fire\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 8\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC BOOTS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EMBER_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+35",
-    "§7Defense: §a+30",
-    "§7Intelligence: §a+5",
-    "",
-    "§6Full Set Bonus: Nether Lord §7(0/4)",
-    "§7Walking over §cLava§7 creates §5Obsidian",
-    "§7under your feet. You are also immune",
-    "§7to all damage from §cLava§7 and §cFire§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 8§c.",
-    "§5§lEPIC BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+35\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Nether Lord \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Walking over \",\"color\":\"gray\"},{\"text\":\"Lava\",\"color\":\"red\"},{\"text\":\" creates \",\"color\":\"gray\"},{\"text\":\"Obsidian\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"under your feet. You are also immune\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to all damage from \",\"color\":\"gray\"},{\"text\":\"Lava\",\"color\":\"red\"},{\"text\":\" and \",\"color\":\"gray\"},{\"text\":\"Fire\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 8\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC BOOTS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "EMBER_BOOTS",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

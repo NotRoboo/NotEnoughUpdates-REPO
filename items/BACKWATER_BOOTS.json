@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§aBackwater Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Sea Creature Chance: §c+1%\",1:\"§7Health: §a+20\",2:\"§7Defense: §a+10\",3:\"§7Treasure Chance: §a+0.1%\",4:\"\",5:\"§8Tiered Bonus: Swamp Soldier (0/8)\",6:\"§7Increases damage dealt to §3Sea\",7:\"§3Creatures §7by §a5%§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§a§lUNCOMMON BOOTS\"],color:97585,Name:\"§aBackwater Boots\"},ExtraAttributes:{id:\"BACKWATER_BOOTS\"}}",
+  "displayname": "{\"text\":\"Backwater Boots\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Backwater Boots\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Treasure Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+0.1%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Swamp Soldier (0/8)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases damage dealt to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sea\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Creatures \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON BOOTS\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BACKWATER_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Sea Creature Chance: §c+1%",
-    "§7Health: §a+20",
-    "§7Defense: §a+10",
-    "§7Treasure Chance: §a+0.1%",
-    "",
-    "§8Tiered Bonus: Swamp Soldier (0/8)",
-    "§7Increases damage dealt to §3Sea",
-    "§3Creatures §7by §a5%§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§a§lUNCOMMON BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+1%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Treasure Chance: \",\"color\":\"gray\"},{\"text\":\"+0.1%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Swamp Soldier (0/8)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases damage dealt to \",\"color\":\"gray\"},{\"text\":\"Sea\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Creatures \",\"color\":\"dark_aqua\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"5%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON BOOTS\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "BACKWATER_BOOTS",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Backwater_Boots"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }
