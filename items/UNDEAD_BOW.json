@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§9Undead Bow",
-  "nbttag": "{ExtraAttributes:{id:\"UNDEAD_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d80\",1:\"§7Damage: §c+80\",2:\"\",3:\"§7Deals §a+100% §7damage to §2༕ Undead\",4:\"§7mobs.\",5:\"\",6:\"§8This item can be reforged!\",7:\"§9§lRARE DUNGEON BOW\"],Name:\"§9Undead Bow\"}}",
+  "displayname": "{\"text\":\"Undead Bow\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Undead Bow\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"80\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+80\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"damage to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"༕ Undead\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"mobs.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE DUNGEON BOW\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"UNDEAD_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d80",
-    "§7Damage: §c+80",
-    "",
-    "§7Deals §a+100% §7damage to §2༕ Undead",
-    "§7mobs.",
-    "",
-    "§8This item can be reforged!",
-    "§9§lRARE DUNGEON BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"80\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+80\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deals \",\"color\":\"gray\"},{\"text\":\"+100% \",\"color\":\"green\"},{\"text\":\"damage to \",\"color\":\"gray\"},{\"text\":\"༕ Undead\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"mobs.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE DUNGEON BOW\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "UNDEAD_BOW",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Undead_Bow",
     "https://wiki.hypixel.net/Undead_Bow"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

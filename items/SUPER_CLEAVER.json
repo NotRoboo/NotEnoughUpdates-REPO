@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:golden_sword",
-  "displayname": "§9Super Cleaver",
-  "nbttag": "{ExtraAttributes:{id:\"SUPER_CLEAVER\"},HideFlags:254,ItemModel:\"minecraft:golden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d141\",1:\"§7Damage: §c+105\",2:\"§7Strength: §c+20\",3:\"§7Crit Damage: §c+20%\",4:\"\",5:\"§6Ability: Cleave \",6:\"§7When hitting an entity, monsters in a §a3§7 block\",7:\"§7range will be hit for a portion of that damage\",8:\"§7too.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§9§lRARE DUNGEON SWORD\"],Name:\"§9Super Cleaver\"}}",
+  "displayname": "{\"text\":\"Super Cleaver\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Super Cleaver\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"141\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+105\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Cleave \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"When hitting an entity, monsters in a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" block\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"range will be hit for a portion of that damage\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"too.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE DUNGEON SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SUPER_CLEAVER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d141",
-    "§7Damage: §c+105",
-    "§7Strength: §c+20",
-    "§7Crit Damage: §c+20%",
-    "",
-    "§6Ability: Cleave ",
-    "§7When hitting an entity, monsters in a §a3§7 block",
-    "§7range will be hit for a portion of that damage",
-    "§7too.",
-    "",
-    "§8This item can be reforged!",
-    "§9§lRARE DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"141\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+105\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+20%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Cleave \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"When hitting an entity, monsters in a \",\"color\":\"gray\"},{\"text\":\"3\",\"color\":\"green\"},{\"text\":\" block\",\"color\":\"gray\"}]}",
+    "{\"text\":\"range will be hit for a portion of that damage\",\"color\":\"gray\"}",
+    "{\"text\":\"too.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE DUNGEON SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SUPER_CLEAVER",
   "clickcommand": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Super_Cleaver",
     "https://wiki.hypixel.net/Super_Cleaver"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:web",
-  "displayname": "§5Flycatcher",
-  "nbttag": "{ExtraAttributes:{id:\"FLYCATCHER_UPGRADE\"},HideFlags:254,ItemModel:\"minecraft:cobweb\",display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade. Prevents your minions from\",2:\"§7getting distracted by flies.\",3:\"§7Increases the speed of your minion\",4:\"§7by §a20%§7.\",5:\"\",6:\"§4☠ §cRequires §5Spider Slayer 6§c.\",7:\"§5§lEPIC\"],Name:\"§5Flycatcher\"},ench:[]}",
+  "displayname": "{\"text\":\"Flycatcher\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:web\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Flycatcher\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be used as a minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"upgrade. Prevents your minions from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"getting distracted by flies.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Increases the speed of your minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Spider Slayer 6\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLYCATCHER_UPGRADE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7This item can be used as a minion",
-    "§7upgrade. Prevents your minions from",
-    "§7getting distracted by flies.",
-    "§7Increases the speed of your minion",
-    "§7by §a20%§7.",
-    "",
-    "§4☠ §cRequires §5Spider Slayer 6§c.",
-    "§5§lEPIC"
+    "{\"text\":\"This item can be used as a minion\",\"color\":\"gray\"}",
+    "{\"text\":\"upgrade. Prevents your minions from\",\"color\":\"gray\"}",
+    "{\"text\":\"getting distracted by flies.\",\"color\":\"gray\"}",
+    "{\"text\":\"Increases the speed of your minion\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"20%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Spider Slayer 6\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FLYCATCHER_UPGRADE",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C2": "TARANTULA_SILK:17",
     "C3": "TARANTULA_SILK:17"
   },
-  "slayer_req": "SPIDER_6"
+  "slayer_req": "SPIDER_6",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

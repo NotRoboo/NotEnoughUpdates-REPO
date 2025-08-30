@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§6Protector Dragon Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+100\",1:\"§7Defense: §a+165\",2:\" §8[§8❈§8]\",3:\"\",4:\"§6Full Set Bonus: Protective Blood §7(0/4)\",5:\"§7Increases the defense of each\",6:\"§7armor piece by §a+1%§7 §a❈ Defense§7 for\",7:\"§7each missing percent of HP.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§7§4❣ §cRequires §aCombat Skill 16§c.\",11:\"§6§lLEGENDARY LEGGINGS\"],color:10065803,Name:\"§6Protector Dragon Leggings\"},ExtraAttributes:{id:\"PROTECTOR_DRAGON_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Protector Dragon Leggings\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Protector Dragon Leggings\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+165\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❈\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Protective Blood \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Increases the defense of each\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"armor piece by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❈ Defense\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"each missing percent of HP.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 16\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY LEGGINGS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PROTECTOR_DRAGON_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+100",
-    "§7Defense: §a+165",
-    " §8[§8❈§8]",
-    "",
-    "§6Full Set Bonus: Protective Blood §7(0/4)",
-    "§7Increases the defense of each",
-    "§7armor piece by §a+1%§7 §a❈ Defense§7 for",
-    "§7each missing percent of HP.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 16§c.",
-    "§6§lLEGENDARY LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+165\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"❈\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Protective Blood \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Increases the defense of each\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"armor piece by \",\"color\":\"gray\"},{\"text\":\"+1%\",\"color\":\"green\"},{\"text\":\" \",\"color\":\"gray\"},{\"text\":\"❈ Defense\",\"color\":\"green\"},{\"text\":\" for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"each missing percent of HP.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 16\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY LEGGINGS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "PROTECTOR_FRAGMENT:10",
@@ -36,5 +36,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Protector_Dragon_Leggings",
     "https://wiki.hypixel.net/Protector_Dragon_Leggings"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

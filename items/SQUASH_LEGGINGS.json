@@ -1,25 +1,25 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§5Squash Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+180\",1:\"§7Defense: §a+35\",2:\"§7Speed: §a+5\",3:\"§7Farming Fortune: §a+30\",4:\" §8[§8☘§8]\",5:\"\",6:\"§8Tiered Bonus: Mento Fermento (0/4)\",7:\"§7§7Farming Sugar Cane, Cacti,\",8:\"§7Mushrooms, and Nether Warts has a\",9:\"§7§a0.005% §7chance of dropping a\",10:\"§7Fermento. §7Grants §60☘ Farming\",11:\"§6Fortune§7.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4❣ §cRequires §aFarming Skill 35§c.\",15:\"§5§lEPIC LEGGINGS\"],color:805398,Name:\"§5Squash Leggings\"},ExtraAttributes:{id:\"SQUASH_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Squash Leggings\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Squash Leggings\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+180\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Farming Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"☘\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Mento Fermento (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Farming Sugar Cane, Cacti,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Mushrooms, and Nether Warts has a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"0.005% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance of dropping a\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fermento. \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0☘ Farming\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 35\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC LEGGINGS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SQUASH_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+180",
-    "§7Defense: §a+35",
-    "§7Speed: §a+5",
-    "§7Farming Fortune: §a+30",
-    " §8[§8☘§8]",
-    "",
-    "§8Tiered Bonus: Mento Fermento (0/4)",
-    "§7§7Farming Sugar Cane, Cacti,",
-    "§7Mushrooms, and Nether Warts has a",
-    "§7§a0.005% §7chance of dropping a",
-    "§7Fermento. §7Grants §60☘ Farming",
-    "§6Fortune§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 35§c.",
-    "§5§lEPIC LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+180\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+35\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Farming Fortune: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"☘\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Mento Fermento (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Farming Sugar Cane, Cacti,\",\"color\":\"gray\"}",
+    "{\"text\":\"Mushrooms, and Nether Warts has a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"0.005% \",\"color\":\"green\"},{\"text\":\"chance of dropping a\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fermento. \",\"color\":\"gray\"},{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"0☘ Farming\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fortune\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 35\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC LEGGINGS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "SQUASH:10",
@@ -40,5 +40,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Squash_Leggings",
     "https://wiki.hypixel.net/Squash_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

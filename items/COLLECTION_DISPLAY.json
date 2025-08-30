@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:hay_block",
-  "displayname": "§aCollection Display",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Show off your collection\",1:\"§7progress!\",2:\"\",3:\"§8§l* §8Co-op Soulbound §8§l*\",4:\"§a§lUNCOMMON COSMETIC\"],Name:\"§aCollection Display\"},ExtraAttributes:{id:\"COLLECTION_DISPLAY\"}}",
+  "displayname": "{\"text\":\"Collection Display\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:hay_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Collection Display\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Show off your collection\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"progress!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON COSMETIC\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COLLECTION_DISPLAY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7Show off your collection",
-    "§7progress!",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§a§lUNCOMMON COSMETIC"
+    "{\"text\":\"Show off your collection\",\"color\":\"gray\"}",
+    "{\"text\":\"progress!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON COSMETIC\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "COLLECTION_DISPLAY",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Collection_Display",
     "https://wiki.hypixel.net/Collection_Display"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

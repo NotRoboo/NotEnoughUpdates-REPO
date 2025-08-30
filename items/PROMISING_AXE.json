@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:iron_axe",
-  "displayname": "§aPromising Axe",
-  "nbttag": "{ExtraAttributes:{id:\"PROMISING_AXE\"},HideFlags:254,ItemModel:\"minecraft:iron_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+25\",1:\"\",2:\"§7Gains §9Efficiency I §7after breaking §a50\",3:\"§ablocks§7!\",4:\"\",5:\"§7Blocks Broken: §a0\",6:\"\",7:\"§8This item can be reforged!\",8:\"§a§lUNCOMMON AXE\"],Name:\"§aPromising Axe\"}}",
+  "displayname": "{\"text\":\"Promising Axe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Promising Axe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gains \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Efficiency I \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"after breaking \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"blocks\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Blocks Broken: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON AXE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PROMISING_AXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+25",
-    "",
-    "§7Gains §9Efficiency I §7after breaking §a50",
-    "§ablocks§7!",
-    "",
-    "§7Blocks Broken: §a0",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON AXE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gains \",\"color\":\"gray\"},{\"text\":\"Efficiency I \",\"color\":\"blue\"},{\"text\":\"after breaking \",\"color\":\"gray\"},{\"text\":\"50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"blocks\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Blocks Broken: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON AXE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "PROMISING_AXE",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

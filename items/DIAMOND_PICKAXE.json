@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:diamond_pickaxe",
-  "displayname": "§aDiamond Pickaxe",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 4\",1:\"\",2:\"§7Damage: §c+30\",3:\"§7Mining Speed: §a+220\",4:\"\",5:\"§7§8This item can be reforged!\",6:\"§a§lUNCOMMON PICKAXE\"],Name:\"§aDiamond Pickaxe\"},ExtraAttributes:{id:\"DIAMOND_PICKAXE\"}}",
+  "displayname": "{\"text\":\"Diamond Pickaxe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Pickaxe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 4\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+220\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON PICKAXE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND_PICKAXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 4",
-    "",
-    "§7Damage: §c+30",
-    "§7Mining Speed: §a+220",
-    "",
-    "§7§8This item can be reforged!",
-    "§a§lUNCOMMON PICKAXE"
+    "{\"text\":\"Breaking Power 4\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+220\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON PICKAXE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DIAMOND_PICKAXE",
   "vanilla": true,
@@ -31,5 +31,8 @@
   },
   "info": [
     "https://wiki.hypixel.net/Diamond_Pickaxe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

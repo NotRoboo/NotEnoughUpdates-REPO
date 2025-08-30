@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:chest",
-  "displayname": "§fSmall Storage",
-  "nbttag": "{ExtraAttributes:{id:\"SMALL_ENCHANTED_CHEST\"},HideFlags:254,ItemModel:\"minecraft:chest\",display:{Lore:[0:\"§7Place this chest next to a minion and\",1:\"§7the minion will store items inside once\",2:\"§7its storage is full!\",3:\"\",4:\"§7Storage space: §b3 §7items\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§fSmall Storage\"}}",
+  "displayname": "{\"text\":\"Small Storage\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:chest\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Small Storage\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this chest next to a minion and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the minion will store items inside once\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"its storage is full!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Storage space: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3 \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"items\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SMALL_ENCHANTED_CHEST\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Place this chest next to a minion and",
-    "§7the minion will store items inside once",
-    "§7its storage is full!",
-    "",
-    "§7Storage space: §b3 §7items",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Place this chest next to a minion and\",\"color\":\"gray\"}",
+    "{\"text\":\"the minion will store items inside once\",\"color\":\"gray\"}",
+    "{\"text\":\"its storage is full!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Storage space: \",\"color\":\"gray\"},{\"text\":\"3 \",\"color\":\"aqua\"},{\"text\":\"items\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SMALL_ENCHANTED_CHEST",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "LOG:8",
     "C2": "LOG:8",
     "C3": "LOG:8"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fBitter Iced Tea",
-  "nbttag": "{ExtraAttributes:{id:\"BITTER_ICE_TEA\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"00467a00-74d6-3636-ac51-de5e7fb0d5f4\",Properties:{textures:[0:{Name:\"textures\",Signature:\"EntSGUykCWKGSAK5k1fgnSlhynsKylqNtOu23BmsN8x+WLTTPBt52VWXBZXPEwATVBOeasVSUfaQRde++n35Pc+dyEuC74+oun2iA0B9y5qVAWpFMkU536Y3r28RF4+JNT49yLK3UAXzGBqz686H1Qn0glRmOkrPu38Lpz/fsvhxYLBmhqpxJhtbwQG0vnvLDdgtqcAtzwItw49OgpH6rFa7jdyuPhtyDsz+cy20dwHyW6IFd7YRY0O/OLyoAlkZ+Ec3aPeUPGebp6B2GvuM4qZsRH4bCjh5MLoKeckBv7eHh5asyoYUS8uLUw5DqMZ4vZLFN0eBEHq9deUtG+qZCxs9WTBoILvJtXRXIdTWFs4iyeRYDV0WaRkLQ/ntBqEIwPbBhn+4go9b8PKoYv1Xs+RTtATCXZea1GIJnTXZQhZNugemHyyyIgOw4jjW2lOJdLDNku3BTGOtTRbyhfIVsT0TAcq7kLoytsaAOWEzqQZj7SZQ20dff0+CgkcTvR6XGUZyWFAuDlReP+T2IOSYLhIgsEH1SJdtwf1HmqNb5VSC4LsKJFHEHxt8fVYXoMwUy86J0EuUuFf1BAEEAHZMt7O3EW6faFithYlPUUk2ExdPrCKd1CSx+ppsFA9foOHTpVvGK3I/456Px2DNZg0iPsHUWU5H2llICU/HNuYasLk=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzczOTc0NCwKICAicHJvZmlsZUlkIiA6ICIwNTAzNzZmZjAxY2I0OGVjOTUwM2NhMjhjMWU2MzlkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKb25haDU1OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY4NmJjZjgwOGI5YTQwMjRhMmM5YTg3YTY3NGU4ZDljOTU3NTkzYzhiZjc4OTdjMWM5ZmVlMTljNDQ1YmUxOCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Basic Brew\",1:\"\",2:\"§7Use this item in place of an\",3:\"§7Awkward Potion for certain\",4:\"§7potions.\",5:\"\",6:\"§7Buffs the §b✎ Mana §7and §bExperience\",7:\"§7values of potions by §a+20%§7.\",8:\"\",9:\"§f§lCOMMON\"],Name:\"§fBitter Iced Tea\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bitter Iced Tea\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bitter Iced Tea\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Basic Brew\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Use this item in place of an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Awkward Potion for certain\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"potions.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Buffs the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✎ Mana \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Experience\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"values of potions by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BITTER_ICE_TEA\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzczOTc0NCwKICAicHJvZmlsZUlkIiA6ICIwNTAzNzZmZjAxY2I0OGVjOTUwM2NhMjhjMWU2MzlkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKb25haDU1OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY4NmJjZjgwOGI5YTQwMjRhMmM5YTg3YTY3NGU4ZDljOTU3NTkzYzhiZjc4OTdjMWM5ZmVlMTljNDQ1YmUxOCIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Basic Brew",
-    "",
-    "§7Use this item in place of an",
-    "§7Awkward Potion for certain",
-    "§7potions.",
-    "",
-    "§7Buffs the §b✎ Mana §7and §bExperience",
-    "§7values of potions by §a+20%§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Basic Brew\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Use this item in place of an\",\"color\":\"gray\"}",
+    "{\"text\":\"Awkward Potion for certain\",\"color\":\"gray\"}",
+    "{\"text\":\"potions.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Buffs the \",\"color\":\"gray\"},{\"text\":\"✎ Mana \",\"color\":\"aqua\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"Experience\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"values of potions by \",\"color\":\"gray\"},{\"text\":\"+20%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "BITTER_ICE_TEA",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bitter_Iced_Tea",
     "https://wiki.hypixel.net/Bitter_Iced_Tea"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

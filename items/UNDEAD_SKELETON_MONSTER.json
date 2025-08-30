@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Undead Skeleton (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Redundant name.\",1:\"\",2:\"§c❤ Health§8: §c25,000 - 360,000\",3:\"§c❤ Health §8(MM) : §c4,500,000 - 12,800,000\"],Name:\"§9Undead Skeleton (Monster)\"},ExtraAttributes:{id:\"UNDEAD_SKELETON_MONSTER\"}}",
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Undead Skeleton (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Undead Skeleton (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Redundant name.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"25,000 - 360,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(MM) : \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"4,500,000 - 12,800,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"UNDEAD_SKELETON_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Redundant name.",
-    "",
-    "§c❤ Health§8: §c25,000 - 360,000",
-    "§c❤ Health §8(MM) : §c4,500,000 - 12,800,000"
+    "{\"text\":\"Redundant name.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"25,000 - 360,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"(MM) : \",\"color\":\"dark_gray\"},{\"text\":\"4,500,000 - 12,800,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "UNDEAD_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§9Mycelium Dust",
-  "nbttag": "{ExtraAttributes:{id:\"MYCELIUM_DUST\"},HideFlags:254,ItemModel:\"minecraft:pink_dye\",display:{Lore:[0:\"§7Instantly grows crops and saplings\",1:\"§7in a 3x3 square.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Mycelium Dust\"}}",
-  "damage": 9,
+  "displayname": "{\"text\":\"Mycelium Dust\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mycelium Dust\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Instantly grows crops and saplings\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in a 3x3 square.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MYCELIUM_DUST\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Instantly grows crops and saplings",
-    "§7in a 3x3 square.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Instantly grows crops and saplings\",\"color\":\"gray\"}",
+    "{\"text\":\"in a 3x3 square.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MYCELIUM_DUST",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C2": "SPECTRE_DUST:1",
     "C3": "",
     "count": 32
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

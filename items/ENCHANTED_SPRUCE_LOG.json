@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:log",
-  "displayname": "§aEnchanted Spruce Log",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SPRUCE_LOG\"},HideFlags:254,ItemModel:\"minecraft:spruce_log\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Spruce Log\"},ench:[]}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Enchanted Spruce Log\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:log\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Spruce Log\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_SPRUCE_LOG\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_SPRUCE_LOG",
   "clickcommand": "",
@@ -31,5 +31,8 @@
       "count": 1,
       "overrideOutputId": "ENCHANTED_SPRUCE_LOG"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

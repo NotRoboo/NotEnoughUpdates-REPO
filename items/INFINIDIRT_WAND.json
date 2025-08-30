@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§aInfiniDirt™ Wand",
-  "nbttag": "{ExtraAttributes:{id:\"INFINIDIRT_WAND\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§6Ability: Place Dirt §e§lRIGHT CLICK\",1:\"§7Place a dirt block.\",2:\"§7Costs §61 coins§7.\",3:\"\",4:\"§7Can be used within the Builders\",5:\"§7Wand!\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aInfiniDirt™ Wand\"},ench:[]}",
+  "displayname": "{\"text\":\"InfiniDirt™ Wand\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"InfiniDirt™ Wand\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Place Dirt \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Place a dirt block.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Costs \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1 coins\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Can be used within the Builders\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Wand!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"INFINIDIRT_WAND\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Place Dirt §e§lRIGHT CLICK",
-    "§7Place a dirt block.",
-    "§7Costs §61 coins§7.",
-    "",
-    "§7Can be used within the Builders",
-    "§7Wand!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Place Dirt \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Place a dirt block.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Costs \",\"color\":\"gray\"},{\"text\":\"1 coins\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Can be used within the Builders\",\"color\":\"gray\"}",
+    "{\"text\":\"Wand!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "INFINIDIRT_WAND",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/InfiniDirt™_Wand",
     "https://wiki.hypixel.net/InfiniDirt™_Wand"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

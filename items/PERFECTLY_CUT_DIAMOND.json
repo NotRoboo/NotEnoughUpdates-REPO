@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§6Perfectly Cut Diamond",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"808b4e91-63be-335b-9f87-3a68954bb663\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NjI5MTUzMzQzMywKICAicHJvZmlsZUlkIiA6ICIwZjlmYzU0MDQxZjk0NzEyOWQxYmEzODg1YmQ3N2M4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICI4MTE5NGJheiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZGI3ZmMyYjY5YmNkNDI5YWJmZDFjZWIxYWVhMTBjZWJmMTc0OWE4MDY4MGM2M2NkOGI2MGYzYTRjN2U0ZmZkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7An outstanding find. While few\",1:\"§7are known to exist, even fewer\",2:\"§7have been successfully\",3:\"§7retrieved.\",4:\"§7\",5:\"§7§6Used in an anvil to upgrade\",6:\"§6Perfect Armor to Tier XIII.\",7:\"\",8:\"§6§lLEGENDARY\"],Name:\"§f§f§6Perfectly Cut Diamond\"},ExtraAttributes:{id:\"PERFECTLY_CUT_DIAMOND\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Perfectly Cut Diamond\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Perfectly Cut Diamond\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"An outstanding find. While few\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"are known to exist, even fewer\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"have been successfully\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"retrieved.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Used in an anvil to upgrade\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Perfect Armor to Tier XIII.\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PERFECTLY_CUT_DIAMOND\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7An outstanding find. While few",
-    "§7are known to exist, even fewer",
-    "§7have been successfully",
-    "§7retrieved.",
-    "§7",
-    "§7§6Used in an anvil to upgrade",
-    "§6Perfect Armor to Tier XIII.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"An outstanding find. While few\",\"color\":\"gray\"}",
+    "{\"text\":\"are known to exist, even fewer\",\"color\":\"gray\"}",
+    "{\"text\":\"have been successfully\",\"color\":\"gray\"}",
+    "{\"text\":\"retrieved.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Used in an anvil to upgrade\",\"color\":\"gold\"}",
+    "{\"text\":\"Perfect Armor to Tier XIII.\",\"color\":\"gold\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "PERFECTLY_CUT_DIAMOND",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Perfectly_Cut_Diamond",
     "https://wiki.hypixel.net/Perfectly_Cut_Diamond"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

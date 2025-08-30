@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:nether_wart",
-  "displayname": "§aRiftwart Roots",
-  "nbttag": "{ExtraAttributes:{id:\"RIFTWART_ROOTS\"},HideFlags:254,ItemModel:\"minecraft:nether_wart\",display:{Lore:[0:\"§7Do not eat.\",1:\"\",2:\"§a§lUNCOMMON\"],Name:\"§aRiftwart Roots\"}}",
+  "displayname": "{\"text\":\"Riftwart Roots\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:nether_wart\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Riftwart Roots\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Do not eat.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RIFTWART_ROOTS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Do not eat.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Do not eat.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "RIFTWART_ROOTS",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Riftwart_Roots",
     "https://wiki.hypixel.net/Riftwart_Roots"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

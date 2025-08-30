@@ -1,26 +1,29 @@
 {
   "internalname": "FANCY_TUXEDO_CHESTPLATE",
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§6Fancy Tuxedo Jacket",
+  "displayname": "{\"text\":\"Fancy Tuxedo Jacket\",\"color\":\"gold\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Crit Damage: §c+80%\",1:\"§7Intelligence: §a+150\",2:\"\",3:\"§6Full Set Bonus: Dashing\",4:\"§7Max health set to §c150❤§7.\",5:\"§7Deal §c+100% §7damage!\",6:\"§8Very stylish.\",7:\"\",8:\"§6§lLEGENDARY CHESTPLATE\"],color:3353130,Name:\"§6Fancy Tuxedo Jacket\"},ExtraAttributes:{color:\"51:42:42\",modifier:\"godly\",id:\"FANCY_TUXEDO_CHESTPLATE\"}}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fancy Tuxedo Jacket\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+80%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Dashing\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max health set to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"150❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Very stylish.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY CHESTPLATE\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"51:42:42\",\"modifier\":\"godly\",\"id\":\"FANCY_TUXEDO_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§7Crit Damage: §c+80%",
-    "§7Intelligence: §a+150",
-    "",
-    "§6Full Set Bonus: Dashing",
-    "§7Max health set to §c150❤§7.",
-    "§7Deal §c+100% §7damage!",
-    "§8Very stylish.",
-    "",
-    "§6§lLEGENDARY CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+80%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+150\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Dashing\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max health set to \",\"color\":\"gray\"},{\"text\":\"150❤\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"+100% \",\"color\":\"red\"},{\"text\":\"damage!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Very stylish.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY CHESTPLATE\",\"color\":\"gold\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fancy_Tuxedo_Jacket",
     "https://wiki.hypixel.net/Fancy_Tuxedo_Jacket"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

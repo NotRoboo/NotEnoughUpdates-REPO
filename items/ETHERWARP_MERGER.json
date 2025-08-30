@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Etherwarp Merger",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"209e7834-3376-36e1-84eb-da13ef083836\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTYxNzYxOTExMywKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U1MzE0ZjQ5MTk2OTFjY2JmODA3NzQzZGFlNDdhZTQ1YWMyZTNmZjA4Zjc5ZWVjZGQ0NTJmZTYwMmVmZjdmNiIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"\",1:\"§7§8Crafted by the Etherchemist\",2:\"§8and dropped by the Voidgloom\",3:\"§8Seraph.\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Etherwarp Merger\"},ExtraAttributes:{id:\"ETHERWARP_MERGER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Etherwarp Merger\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Etherwarp Merger\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Crafted by the Etherchemist\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"and dropped by the Voidgloom\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Seraph.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ETHERWARP_MERGER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§7§8Crafted by the Etherchemist",
-    "§8and dropped by the Voidgloom",
-    "§8Seraph.",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\"}",
+    "{\"text\":\"Crafted by the Etherchemist\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"and dropped by the Voidgloom\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Seraph.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ETHERWARP_MERGER",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Etherwarp_Merger",
     "https://wiki.hypixel.net/Etherwarp_Merger"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

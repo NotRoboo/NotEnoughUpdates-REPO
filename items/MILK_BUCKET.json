@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:milk_bucket",
-  "displayname": "§fMilk Bucket",
-  "nbttag": "{ExtraAttributes:{id:\"MILK_BUCKET\"},HideFlags:254,ItemModel:\"minecraft:milk_bucket\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMilk Bucket\"}}",
+  "displayname": "{\"text\":\"Milk Bucket\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:milk_bucket\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Milk Bucket\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MILK_BUCKET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MILK_BUCKET",
   "clickcommand": "",
@@ -12,5 +12,8 @@
   "modver": "Firmament 3.2.0-dev+mc1.21.5+gb028db5",
   "infoType": "",
   "info": [],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

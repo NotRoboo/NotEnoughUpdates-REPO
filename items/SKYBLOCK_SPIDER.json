@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dSpider (Rift)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"248e0c38-34b5-4ed2-a343-1b2b10a0199c\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1MDU1NjEzMTkxNywKICAicHJvZmlsZUlkIiA6ICI0ODI5MmJkMjI1OTc0YzUwOTZiMTZhNjEyOGFmMzY3NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLVVJPVE9ZVEIyOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZmRmNjJkNGUwM2NhNTk0YzhjZDIxZGQxNzUzMjdmMWNmNzdjNGJjMDU3YTA5NTk2MDNkODNhNjhiYTI3MDA4IgogICAgfQogIH0KfQ\"}]},Name:\"§897d94b2-5656-46df-ba23-966ca6c74b80\"},display:{Lore:[0:\"§7Used for NEU NPC-Shops\",1:\"§7Can be collected with the\",2:\"§9Turbomax Vacuum Cleaner§7.\",3:\"\",4:\"§c§l§ka§r §c§l§c§lSPECIAL §c§l§ka\"],Name:\"§dSpider (Rift)\"},ExtraAttributes:{id:\"SKYBLOCK_SPIDER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Spider (Rift)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spider (Rift)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Used for NEU NPC-Shops\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Can be collected with the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Turbomax Vacuum Cleaner\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"SPECIAL \\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"obfuscated\\\":true}]}\"],\"minecraft:custom_data\":{\"id\":\"SKYBLOCK_SPIDER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Used for NEU NPC-Shops",
-    "§7Can be collected with the",
-    "§9Turbomax Vacuum Cleaner§7.",
-    "",
-    "§c§l§ka§r §c§l§c§lSPECIAL §c§l§ka"
+    "{\"text\":\"Used for NEU NPC-Shops\",\"color\":\"gray\"}",
+    "{\"text\":\"Can be collected with the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Turbomax Vacuum Cleaner\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a\",\"color\":\"red\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"SPECIAL \",\"color\":\"red\",\"bold\":true},{\"text\":\"a\",\"color\":\"red\",\"bold\":true,\"obfuscated\":true}]}"
   ],
   "internalname": "SKYBLOCK_SPIDER",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Spider",
     "https://wiki.hypixel.net/Kat_(Rift)"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

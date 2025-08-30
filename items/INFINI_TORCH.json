@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:torch",
-  "displayname": "§5InfiniTorch™",
-  "nbttag": "{ExtraAttributes:{id:\"INFINI_TORCH\"},HideFlags:254,ItemModel:\"minecraft:torch\",display:{Lore:[0:\"§7Places a torch for §62 coins§7.\",1:\"\",2:\"§eRight-Click a block to use!\",3:\"\",4:\"§5§lEPIC\"],Name:\"§5InfiniTorch™\"},ench:[]}",
+  "displayname": "{\"text\":\"InfiniTorch™\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:torch\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"InfiniTorch™\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Places a torch for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2 coins\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-Click a block to use!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"INFINI_TORCH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Places a torch for §62 coins§7.",
-    "",
-    "§eRight-Click a block to use!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Places a torch for \",\"color\":\"gray\"},{\"text\":\"2 coins\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-Click a block to use!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "INFINI_TORCH",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/InfiniTorch™",
     "https://wiki.hypixel.net/InfiniTorch™"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

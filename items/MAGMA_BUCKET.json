@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:lava_bucket",
-  "displayname": "§6Magma Bucket",
-  "nbttag": "{ExtraAttributes:{id:\"MAGMA_BUCKET\"},HideFlags:254,ItemModel:\"minecraft:lava_bucket\",display:{Lore:[0:\"§7Increases the speed of your minion\",1:\"§7by §a30%§7. Unlimited Duration!\",2:\"\",3:\"§6§lLEGENDARY\"],Name:\"§6Magma Bucket\"},ench:[]}",
+  "displayname": "{\"text\":\"Magma Bucket\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:lava_bucket\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Magma Bucket\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Increases the speed of your minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"30%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\". Unlimited Duration!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MAGMA_BUCKET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Increases the speed of your minion",
-    "§7by §a30%§7. Unlimited Duration!",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Increases the speed of your minion\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"30%\",\"color\":\"green\"},{\"text\":\". Unlimited Duration!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "MAGMA_BUCKET",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§9Biofuel",
-  "nbttag": "{ExtraAttributes:{id:\"BIOFUEL\"},HideFlags:254,ItemModel:\"minecraft:green_dye\",display:{Lore:[0:\"§8Machine Fuel\",1:\"\",2:\"§7Adds §2+3,000♢ Fuel §7to a refuelable\",3:\"§7machine.\",4:\"\",5:\"§7§o100% renewable energy!\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Biofuel\"},ench:[]}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Biofuel\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Biofuel\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Machine Fuel\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Adds \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3,000♢ Fuel \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"to a refuelable\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"machine.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"100% renewable energy!\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BIOFUEL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Machine Fuel",
-    "",
-    "§7Adds §2+3,000♢ Fuel §7to a refuelable",
-    "§7machine.",
-    "",
-    "§7§o100% renewable energy!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Machine Fuel\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Adds \",\"color\":\"gray\"},{\"text\":\"+3,000♢ Fuel \",\"color\":\"dark_green\"},{\"text\":\"to a refuelable\",\"color\":\"gray\"}]}",
+    "{\"text\":\"machine.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"100% renewable energy!\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BIOFUEL",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Biofuel",
     "https://wiki.hypixel.net/Biofuel"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§9Vanille§r §l§8§LBRONZE",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ca0d2bd5-184c-38ea-af9e-e402f2d8819f\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTIzNzc0Nzg3NCwKICAicHJvZmlsZUlkIiA6ICJhOGJhMGY1YTFmNjQ0MTgzODZkZGI3OWExZmY5ZWRlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcmVlcGVyOTA3NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NzEyMDIyMmNjZTM4ZDUzYmE2OWZjNjU0MGU5N2JmZjlhYmRiZTIyYmE2MDY4ZDRlZTlhZjUyZWNjNTY4NDJmIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Only caught with §aStarter Lava\",1:\"§aRod §7with no enchantments.\",2:\"\",3:\"§7Bring this to §fOdger §7at the\",4:\"§7top of the Blazing Volcano.\",5:\"\",6:\"§8§l* §8Soulbound §8§l*\",7:\"§9§lRARE TROPHY FISH\"],Name:\"§f§f§9Vanille§r §l§8§LBRONZE\"},ExtraAttributes:{id:\"VANILLE_BRONZE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"Vanille\",\"color\":\"blue\"},{\"text\":\" \"},{\"text\":\"§LBRONZE\",\"color\":\"dark_gray\"}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vanille\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"§LBRONZE\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Only caught with \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Starter Lava\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rod \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"with no enchantments.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring this to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Odger \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"at the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"top of the Blazing Volcano.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE TROPHY FISH\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"VANILLE_BRONZE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Only caught with §aStarter Lava",
-    "§aRod §7with no enchantments.",
-    "",
-    "§7Bring this to §fOdger §7at the",
-    "§7top of the Blazing Volcano.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§9§lRARE TROPHY FISH"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Only caught with \",\"color\":\"gray\"},{\"text\":\"Starter Lava\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rod \",\"color\":\"green\"},{\"text\":\"with no enchantments.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring this to \",\"color\":\"gray\"},{\"text\":\"Odger \",\"color\":\"white\"},{\"text\":\"at the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"top of the Blazing Volcano.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE TROPHY FISH\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "VANILLE_BRONZE",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Trophy_Fishes",
     "https://wiki.hypixel.net/Trophy_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

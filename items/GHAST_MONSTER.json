@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aGhast (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"69725d7d-1933-3dea-87bd-a3052482ab2c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4YTM4ZTlhZmJkM2RhMTBkMTliNTc3YzU1YzdiZmQ2YjRmMmU0MDdlNDRkNDAxN2IyM2JlOTE2N2FiZmYwMiJ9fX0\"}]}},display:{Lore:[0:\"§7Ghasts are mobs found in the northern end of\",1:\"§7the Blazing Fortress at nighttime (8:30 PM - 5:00\",2:\"§7AM skyblock time) in the sky within the zone where\",3:\"§7level 9 Magma Cubes spawn, or the Magma Cube Boss.\",4:\"§7It can also be spawned from Ghast Minions.\",5:\"\",6:\"§c❤ Health§8: §c330\"],Name:\"§aGhast (Monster)\"},ExtraAttributes:{id:\"GHAST_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Ghast (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ghast (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Ghasts are mobs found in the northern end of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the Blazing Fortress at nighttime (8:30 PM - 5:00\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"AM skyblock time) in the sky within the zone where\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"level 9 Magma Cubes spawn, or the Magma Cube Boss.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"It can also be spawned from Ghast Minions.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"330\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"GHAST_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Ghasts are mobs found in the northern end of",
-    "§7the Blazing Fortress at nighttime (8:30 PM - 5:00",
-    "§7AM skyblock time) in the sky within the zone where",
-    "§7level 9 Magma Cubes spawn, or the Magma Cube Boss.",
-    "§7It can also be spawned from Ghast Minions.",
-    "",
-    "§c❤ Health§8: §c330"
+    "{\"text\":\"Ghasts are mobs found in the northern end of\",\"color\":\"gray\"}",
+    "{\"text\":\"the Blazing Fortress at nighttime (8:30 PM - 5:00\",\"color\":\"gray\"}",
+    "{\"text\":\"AM skyblock time) in the sky within the zone where\",\"color\":\"gray\"}",
+    "{\"text\":\"level 9 Magma Cubes spawn, or the Magma Cube Boss.\",\"color\":\"gray\"}",
+    "{\"text\":\"It can also be spawned from Ghast Minions.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"330\",\"color\":\"red\"}]}"
   ],
   "internalname": "GHAST_MONSTER",
   "clickcommand": "viewrecipe",
@@ -35,7 +35,9 @@
       "drops": [
         {
           "id": "GHAST_TEAR:1",
-          "extra": ["x1-2"],
+          "extra": [
+            "x1-2"
+          ],
           "chance": "100%"
         },
         {
@@ -76,5 +78,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aLagoon Leech (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"db3815d5-5c69-43ec-b35c-12d47d6baf14\",hypixelPopulated:1b,Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY3ZWRlOWM4OGYxYzMzYzk1NGJiYzgxYzhkYTg3MWNhYmZjYzIzZDU1ZjhiNDkzYTU4OWY4MjM5ZDZjMzkifX19\"}]},Name:\"§db3815d5-5c69-43ec-b35c-12d47d6baf14\"},display:{Lore:[0:\"§7Found in the §3Black Lagoon§7.\",1:\"\",2:\"§c❤ Health§8: §c80\"],Name:\"§aLagoon Leech (Monster)\"},ExtraAttributes:{id:\"LAGOON_LEECH_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Lagoon Leech (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lagoon Leech (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Found in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Black Lagoon\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"80\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"LAGOON_LEECH_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Found in the §3Black Lagoon§7.",
-    "",
-    "§c❤ Health§8: §c80"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Found in the \",\"color\":\"gray\"},{\"text\":\"Black Lagoon\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"80\",\"color\":\"red\"}]}"
   ],
   "internalname": "LAGOON_LEECH_MONSTER",
   "crafttext": "",
@@ -42,5 +42,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lagoon_Leech",
     "https://wiki.hypixel.net/Lagoon_Leech"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

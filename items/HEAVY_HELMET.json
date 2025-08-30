@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:leather_helmet",
-  "displayname": "§9Heavy Helmet",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d134\",1:\"§7Defense: §a+62\",2:\"§7Speed: §a-5\",3:\"\",4:\"§6Full Set Bonus: Vindicate\",5:\"§7Grants §f+1 walk speed §7for\",6:\"§7every §a50 §7defense that you\",7:\"§7have.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§7§4❣ §cRequires §cCatacombs Skill\",11:\"§c2§c.\",12:\"§9§lRARE DUNGEON HELMET\"],color:16777215,Name:\"§9Heavy Helmet\"},ExtraAttributes:{dungeon_item_level:0,id:\"HEAVY_HELMET\"}}",
+  "displayname": "{\"text\":\"Heavy Helmet\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Heavy Helmet\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"134\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+62\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"-5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Vindicate\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1 walk speed \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"defense that you\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"have.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Catacombs Skill\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"2\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE DUNGEON HELMET\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"dungeon_item_level\":0,\"id\":\"HEAVY_HELMET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d134",
-    "§7Defense: §a+62",
-    "§7Speed: §a-5",
-    "",
-    "§6Full Set Bonus: Vindicate",
-    "§7Grants §f+1 walk speed §7for",
-    "§7every §a50 §7defense that you",
-    "§7have.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §cCatacombs Skill",
-    "§c2§c.",
-    "§9§lRARE DUNGEON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"134\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+62\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"-5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Vindicate\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+1 walk speed \",\"color\":\"white\"},{\"text\":\"for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"every \",\"color\":\"gray\"},{\"text\":\"50 \",\"color\":\"green\"},{\"text\":\"defense that you\",\"color\":\"gray\"}]}",
+    "{\"text\":\"have.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Catacombs Skill\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"2\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE DUNGEON HELMET\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "HEAVY_HELMET",
   "crafttext": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Heavy_Helmet",
     "https://wiki.hypixel.net/Heavy_Helmet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:chainmail_chestplate",
-  "displayname": "§5Mithril Coat",
-  "nbttag": "{ExtraAttributes:{id:\"MITHRIL_COAT\"},HideFlags:254,ItemModel:\"minecraft:chainmail_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+125\",1:\"§7Speed: §a+15\",2:\"\",3:\"§6Ability: Mithril's Protection \",4:\"§7Any damage taken is max §a40% §7of the wearer's\",5:\"§c❤ Health§7. Gain §cRegeneration §7when this ability\",6:\"§7activates.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Mithril Coat\"}}",
+  "displayname": "{\"text\":\"Mithril Coat\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:chainmail_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mithril Coat\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+125\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Mithril\u0027s Protection \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Any damage taken is max \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"40% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of the wearer\u0027s\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\". Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Regeneration \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"when this ability\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"activates.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MITHRIL_COAT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+125",
-    "§7Speed: §a+15",
-    "",
-    "§6Ability: Mithril's Protection ",
-    "§7Any damage taken is max §a40% §7of the wearer's",
-    "§c❤ Health§7. Gain §cRegeneration §7when this ability",
-    "§7activates.",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+125\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Mithril\u0027s Protection \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Any damage taken is max \",\"color\":\"gray\"},{\"text\":\"40% \",\"color\":\"green\"},{\"text\":\"of the wearer\u0027s\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\". Gain \",\"color\":\"gray\"},{\"text\":\"Regeneration \",\"color\":\"red\"},{\"text\":\"when this ability\",\"color\":\"gray\"}]}",
+    "{\"text\":\"activates.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "MITHRIL_COAT",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "ENCHANTED_MITHRIL:4",
     "C2": "ENCHANTED_MITHRIL:4",
     "C3": "ENCHANTED_MITHRIL:4"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

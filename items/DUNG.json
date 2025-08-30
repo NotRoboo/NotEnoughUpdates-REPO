@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:wool",
-  "displayname": "§aDung",
-  "nbttag": "{ExtraAttributes:{id:\"DUNG\"},HideFlags:254,ItemModel:\"minecraft:brown_wool\",display:{Lore:[0:\"§7Can be spread across a §aGarden §7plot\",1:\"§7with a §aSprayonator§7 or used in §2Pest\",2:\"§2Traps§7.\",3:\"\",4:\"§7Attracts: §6Beetle§7, §6Fly\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aDung\"}}",
-  "damage": 12,
+  "itemid": "minecraft:brown_wool",
+  "displayname": "{\"text\":\"Dung\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:brown_wool\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dung\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be spread across a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Garden \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"plot\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"with a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sprayonator\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" or used in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Pest\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Traps\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Attracts: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Beetle\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Fly\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DUNG\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Can be spread across a §aGarden §7plot",
-    "§7with a §aSprayonator§7 or used in §2Pest",
-    "§2Traps§7.",
-    "",
-    "§7Attracts: §6Beetle§7, §6Fly",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be spread across a \",\"color\":\"gray\"},{\"text\":\"Garden \",\"color\":\"green\"},{\"text\":\"plot\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"with a \",\"color\":\"gray\"},{\"text\":\"Sprayonator\",\"color\":\"green\"},{\"text\":\" or used in \",\"color\":\"gray\"},{\"text\":\"Pest\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Traps\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Attracts: \",\"color\":\"gray\"},{\"text\":\"Beetle\",\"color\":\"gold\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Fly\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DUNG",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dung",
     "https://wiki.hypixel.net/Dung"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:yellow_flower",
-  "displayname": "§5Fire Freeze Staff",
-  "nbttag": "{ExtraAttributes:{id:\"FIRE_FREEZE_STAFF\"},HideFlags:254,ItemModel:\"minecraft:dandelion\",display:{Lore:[0:\"§7Damage: §c+50\",1:\"§7Strength: §c+20\",2:\" §8[§7✎§8]\",3:\"\",4:\"§6Ability: Fire Freeze  §e§lRIGHT CLICK\",5:\"§7Creates a circle with a radius of §a5 blocks§7.\",6:\"§7After §a5s§7, all mobs inside are frozen for §a10s§7.\",7:\"§8Mana Cost: §3500\",8:\"§8Cooldown: §a10s\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§5§lEPIC SWORD\"],Name:\"§5Fire Freeze Staff\"}}",
+  "displayname": "{\"text\":\"Fire Freeze Staff\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:yellow_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fire Freeze Staff\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"✎\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Fire Freeze \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Creates a circle with a radius of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 blocks\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"After \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", all mobs inside are frozen for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"500\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"10s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FIRE_FREEZE_STAFF\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+50",
-    "§7Strength: §c+20",
-    " §8[§7✎§8]",
-    "",
-    "§6Ability: Fire Freeze  §e§lRIGHT CLICK",
-    "§7Creates a circle with a radius of §a5 blocks§7.",
-    "§7After §a5s§7, all mobs inside are frozen for §a10s§7.",
-    "§8Mana Cost: §3500",
-    "§8Cooldown: §a10s",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 22§c.",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"✎\",\"color\":\"gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Fire Freeze \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Creates a circle with a radius of \",\"color\":\"gray\"},{\"text\":\"5 blocks\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"After \",\"color\":\"gray\"},{\"text\":\"5s\",\"color\":\"green\"},{\"text\":\", all mobs inside are frozen for \",\"color\":\"gray\"},{\"text\":\"10s\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"500\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"10s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FIRE_FREEZE_STAFF",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

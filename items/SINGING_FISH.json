@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:fish",
-  "displayname": "§cSinging Fish",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Obtained during the §e§k1§est Carnival §7for\",1:\"§7achieving a §dhigh score §7in §3Catch a\",2:\"§3Fish§7!\",3:\"\",4:\"§7Player: §bEisengolem\",5:\"§7Position: §a#§k10\",6:\"§7Score: §a§k5,175\",7:\"\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§c§lSPECIAL\"],Name:\"§cSinging Fish\"},ExtraAttributes:{leaderboard_score:5175,leaderboard_player:\"§bEisengolem\",leaderboard_position:21527,new_years_cake:361,id:\"SINGING_FISH\",event:\"carnival_0\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Singing Fish\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Singing Fish\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1\\\",\\\"color\\\":\\\"yellow\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\"st Carnival \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"achieving a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"high score \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Catch a\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fish\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Player: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Eisengolem\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Position: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"#\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"10\\\",\\\"color\\\":\\\"green\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5,175\\\",\\\"color\\\":\\\"green\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"leaderboard_score\":5175,\"leaderboard_player\":\"§bEisengolem\",\"leaderboard_position\":21527,\"new_years_cake\":361,\"id\":\"SINGING_FISH\",\"event\":\"carnival_0\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Obtained during the §e§k1§est Carnival §7for",
-    "§7achieving a §dhigh score §7in §3Catch a",
-    "§3Fish§7!",
-    "",
-    "§7Player: §bEisengolem",
-    "§7Position: §a#§k10",
-    "§7Score: §a§k5,175",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§c§lSPECIAL"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained during the \",\"color\":\"gray\"},{\"text\":\"1\",\"color\":\"yellow\",\"obfuscated\":true},{\"text\":\"st Carnival \",\"color\":\"yellow\"},{\"text\":\"for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"achieving a \",\"color\":\"gray\"},{\"text\":\"high score \",\"color\":\"light_purple\"},{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"Catch a\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fish\",\"color\":\"dark_aqua\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Player: \",\"color\":\"gray\"},{\"text\":\"Eisengolem\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Position: \",\"color\":\"gray\"},{\"text\":\"#\",\"color\":\"green\"},{\"text\":\"10\",\"color\":\"green\",\"obfuscated\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Score: \",\"color\":\"gray\"},{\"text\":\"5,175\",\"color\":\"green\",\"obfuscated\":true}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "SINGING_FISH",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Singing_Fish",
     "https://wiki.hypixel.net/Singing_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

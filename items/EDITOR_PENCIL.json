@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:feather",
-  "displayname": "§cEditor\u0027s Pencil",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7A truly remarkable pencil,\",1:\"§7Refined, sharpened, and\",2:\"§7plished over time.\",3:\"\",4:\"§7Given to those who went above and beyond.\",5:\"\",6:\"§7Awarded To: Unknown\",7:\"§7From: Unknown\",8:\"§7Date: §e1st January 1970\",9:\"\",10:\"§eRight-Click to visit a random Wiki page!\",11:\"\",12:\"§8* Co-op Soulbound *\",13:\"§c§lVERY SPECIAL\"],Name:\"§cEditor\u0027s Pencil\"},ExtraAttributes:{id:\"EDITOR_PENCIL\"}}",
+  "displayname": "{\"text\":\"Editor\u0027s Pencil\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:feather\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Editor\u0027s Pencil\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A truly remarkable pencil,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Refined, sharpened, and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"plished over time.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Given to those who went above and beyond.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Awarded To: Unknown\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"From: Unknown\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Date: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1st January 1970\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-Click to visit a random Wiki page!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"* Co-op Soulbound *\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"VERY SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7A truly remarkable pencil,",
-    "§7Refined, sharpened, and",
-    "§7plished over time.",
-    "",
-    "§7Given to those who went above and beyond.",
-    "",
-    "§7Awarded To: Unknown",
-    "§7From: Unknown",
-    "§7Date: §e1st January 1970",
-    "",
-    "§eRight-Click to visit a random Wiki page!",
-    "",
-    "§8* Co-op Soulbound *",
-    "§c§lVERY SPECIAL"
+    "{\"text\":\"A truly remarkable pencil,\",\"color\":\"gray\"}",
+    "{\"text\":\"Refined, sharpened, and\",\"color\":\"gray\"}",
+    "{\"text\":\"plished over time.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Given to those who went above and beyond.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Awarded To: Unknown\",\"color\":\"gray\"}",
+    "{\"text\":\"From: Unknown\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Date: \",\"color\":\"gray\"},{\"text\":\"1st January 1970\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-Click to visit a random Wiki page!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"* Co-op Soulbound *\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"VERY SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "EDITOR_PENCIL",
   "clickcommand": "",
@@ -27,5 +27,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Editor%27s_Pencil",
     "https://wiki.hypixel.net/Editor%27s_Pencil"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

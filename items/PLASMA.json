@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Plasma",
-  "nbttag": "{ExtraAttributes:{id:\"PLASMA\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"3498885a-3841-3748-8183-893f766ad136\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDY0MjExNzM0NywKICAicHJvZmlsZUlkIiA6ICJkZTU3MWExMDJjYjg0ODgwOGZlN2M5ZjQ0OTZlY2RhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTWluZXNraW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzVhYTgzMzJiYmVjNGE5NThmZWEyYmU2NGI4ZjE2ODJmNWQ4MjQ3NDUxYWEyYjc1NjllZGQwNDk4NDM3ZDcwNiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7§oStable magnetic field, but handle with\",1:\"§7§ocaution.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Plasma\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Plasma\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Plasma\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Stable magnetic field, but handle with\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"caution.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PLASMA\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDY0MjExNzM0NywKICAicHJvZmlsZUlkIiA6ICJkZTU3MWExMDJjYjg0ODgwOGZlN2M5ZjQ0OTZlY2RhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTWluZXNraW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzVhYTgzMzJiYmVjNGE5NThmZWEyYmU2NGI4ZjE2ODJmNWQ4MjQ3NDUxYWEyYjc1NjllZGQwNDk4NDM3ZDcwNiIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7§oStable magnetic field, but handle with",
-    "§7§ocaution.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Stable magnetic field, but handle with\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"caution.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "PLASMA",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Plasma",
     "https://wiki.hypixel.net/Plasma"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

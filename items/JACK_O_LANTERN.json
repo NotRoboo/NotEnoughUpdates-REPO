@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:lit_pumpkin",
-  "displayname": "§fJack o' Lantern",
-  "nbttag": "{ExtraAttributes:{id:\"JACK_O_LANTERN\"},HideFlags:254,ItemModel:\"minecraft:jack_o_lantern\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fJack o' Lantern\"}}",
+  "displayname": "{\"text\":\"Jack o\u0027 Lantern\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:lit_pumpkin\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jack o\u0027 Lantern\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"JACK_O_LANTERN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "JACK_O_LANTERN",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

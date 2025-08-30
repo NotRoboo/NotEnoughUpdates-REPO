@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§dCake Soul",
-  "nbttag": "{ExtraAttributes:{id:\"CAKE_SOUL\",soul_durability:1},HideFlags:254,ItemModel:\"minecraft:red_dye\",display:{Lore:[0:\"§7What does it all mean???\",1:\"\",2:\"§d§lMYTHIC\"],Name:\"§dCake Soul\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Cake Soul\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cake Soul\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"What does it all mean???\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CAKE_SOUL\",\"soul_durability\":1},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7What does it all mean???",
-    "",
-    "§d§lMYTHIC"
+    "{\"text\":\"What does it all mean???\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "CAKE_SOUL",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cake_Soul",
     "https://wiki.hypixel.net/Cake_Soul"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Vanille§r §6§lGOLD",
-  "nbttag": "{ExtraAttributes:{id:\"VANILLE_GOLD\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4bb7a6a4-767f-3ef1-9065-72301e4059ae\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTIzNzcxMTExMiwKICAicHJvZmlsZUlkIiA6ICI0NWY3YTJlNjE3ODE0YjJjODAwODM5MmRmN2IzNWY0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfSnVzdERvSXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4NGI1NTNjOWIwNDVhNDI5YTc3NTg4MTEzMGM1ZTZkYWE1NDdkMzE0ZjFmMDI1NTEzNWY1YmQ0Njg3MGU4NSIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Only caught with §aStarter Lava\",1:\"§aRod §7with no enchantments.\",2:\"\",3:\"§7Bring this to §fOdger §7at the\",4:\"§7top of the Blazing Volcano.\",5:\"\",6:\"§8§l* §8Soulbound §8§l*\",7:\"§9§lRARE TROPHY FISH\"],Name:\"§9Vanille§r §6§lGOLD\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"Vanille\",\"color\":\"blue\"},{\"text\":\" \"},{\"text\":\"GOLD\",\"color\":\"gold\",\"bold\":true}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vanille\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"GOLD\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Only caught with \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Starter Lava\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rod \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"with no enchantments.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring this to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Odger \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"at the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"top of the Blazing Volcano.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE TROPHY FISH\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"VANILLE_GOLD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTIzNzcxMTExMiwKICAicHJvZmlsZUlkIiA6ICI0NWY3YTJlNjE3ODE0YjJjODAwODM5MmRmN2IzNWY0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfSnVzdERvSXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4NGI1NTNjOWIwNDVhNDI5YTc3NTg4MTEzMGM1ZTZkYWE1NDdkMzE0ZjFmMDI1NTEzNWY1YmQ0Njg3MGU4NSIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Only caught with §aStarter Lava",
-    "§aRod §7with no enchantments.",
-    "",
-    "§7Bring this to §fOdger §7at the",
-    "§7top of the Blazing Volcano.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§9§lRARE TROPHY FISH"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Only caught with \",\"color\":\"gray\"},{\"text\":\"Starter Lava\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rod \",\"color\":\"green\"},{\"text\":\"with no enchantments.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring this to \",\"color\":\"gray\"},{\"text\":\"Odger \",\"color\":\"white\"},{\"text\":\"at the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"top of the Blazing Volcano.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE TROPHY FISH\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "VANILLE_GOLD",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Trophy_Fishes",
     "https://wiki.hypixel.net/Trophy_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

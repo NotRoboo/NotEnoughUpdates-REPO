@@ -1,23 +1,23 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cMinos Inquisitor (Mythological Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1388719b-179b-3088-9388-719b179be088\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UxYTYwMWIxYWQ2NDA5MDQ5YTVmZGY0ODA0N2NmYTUyYTFhNzc5N2E4YWM1ZWU5M2ZiMGEyYjFiYjNiY2QzMiJ9fX0\"}]}},display:{Lore:[0:\"§7The Minos Inquisitor is the rarest mob in the\",1:\"§7Mythological Ritual, and can only be found\",2:\"§7using a legendary Griffin Pet. It reduces\",3:\"§7your stats by 10% every time you hit it,\",4:\"§7maxing out at a 40% reduction. Similar to the\",5:\"§7Minos Champion, its stats increase by 6% for every\",6:\"§7second it is alive, capping at 600%, which is\",7:\"§7when it despawns. While alive, it summons\",8:\"§7lightning on the block you are standing on.\",9:\"\",10:\"§c❤ Health§8:\",11:\"§8[§6Griffin§8] §c40,000,000 ❤\",12:\"\",13:\"§6§lLEGENDARY\"],Name:\"§cMinos Inquisitor (Mythological Creature)\"},ExtraAttributes:{id:\"MINOS_INQUISITOR_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Minos Inquisitor (Mythological Creature)\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Minos Inquisitor (Mythological Creature)\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Minos Inquisitor is the rarest mob in the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Mythological Ritual, and can only be found\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"using a legendary Griffin Pet. It reduces\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"your stats by 10% every time you hit it,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"maxing out at a 40% reduction. Similar to the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Minos Champion, its stats increase by 6% for every\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"second it is alive, capping at 600%, which is\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"when it despawns. While alive, it summons\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"lightning on the block you are standing on.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\":\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"40,000,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7The Minos Inquisitor is the rarest mob in the",
-    "§7Mythological Ritual, and can only be found",
-    "§7using a legendary Griffin Pet. It reduces",
-    "§7your stats by 10% every time you hit it,",
-    "§7maxing out at a 40% reduction. Similar to the",
-    "§7Minos Champion, its stats increase by 6% for every",
-    "§7second it is alive, capping at 600%, which is",
-    "§7when it despawns. While alive, it summons",
-    "§7lightning on the block you are standing on.",
-    "",
-    "§c❤ Health§8:",
-    "§8[§6Griffin§8] §c40,000,000 ❤",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"The Minos Inquisitor is the rarest mob in the\",\"color\":\"gray\"}",
+    "{\"text\":\"Mythological Ritual, and can only be found\",\"color\":\"gray\"}",
+    "{\"text\":\"using a legendary Griffin Pet. It reduces\",\"color\":\"gray\"}",
+    "{\"text\":\"your stats by 10% every time you hit it,\",\"color\":\"gray\"}",
+    "{\"text\":\"maxing out at a 40% reduction. Similar to the\",\"color\":\"gray\"}",
+    "{\"text\":\"Minos Champion, its stats increase by 6% for every\",\"color\":\"gray\"}",
+    "{\"text\":\"second it is alive, capping at 600%, which is\",\"color\":\"gray\"}",
+    "{\"text\":\"when it despawns. While alive, it summons\",\"color\":\"gray\"}",
+    "{\"text\":\"lightning on the block you are standing on.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\":\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"gold\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"40,000,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "MINOS_INQUISITOR_MONSTER",
   "clickcommand": "viewrecipe",
@@ -74,5 +74,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

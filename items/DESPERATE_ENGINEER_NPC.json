@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Desperate Engineer (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0dae11c3-e014-54ca-9487-6e6619af5dd2\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc1ZWE0MjA1MGE0NzhmMjgzOTQ4ODQxMjBiNDIwOTFhYTQyMTIxNTQ4NzZkYzNkNzIwNjJhZWEwN2NhYzBlOSJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Scoop (NPC)\"},ExtraAttributes:{id:\"SCOOP_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Desperate Engineer (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Desperate Engineer (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"SCOOP_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "DESPERATE_ENGINEER_NPC",
   "clickcommand": "viewrecipe",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Desperate_Engineer",
     "https://wiki.hypixel.net/Desperate_Engineer"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

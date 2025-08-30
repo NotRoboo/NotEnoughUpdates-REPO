@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aField Mouse (Pest)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c9873ef5-6132-3bf8-94ec-92b14da39bc5\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyNzkwNDc5NzQ1OSwKICAicHJvZmlsZUlkIiA6ICI0MmIwOTMyZDUwMWI0MWQ1YTM4YjEwOTcxYTYwYmYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJib2x0MDc4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YzNzllMDkyNTI4MTczMTRiZDBiNjk0ZjdkNTNiNDhhZjJjN2ZhODQ5OTEwOTgwMmE0MWJiMjk0ZDJmOTNlM2UiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7A shy little fellow!\",1:\"\",2:\"§c❤ Health§8: §c600\"],Name:\"§aField Mouse (Pest)\"},ExtraAttributes:{id:\"PEST_FIELD_MOUSE_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Field Mouse (Pest)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Field Mouse (Pest)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A shy little fellow!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"600\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"PEST_FIELD_MOUSE_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7A shy little fellow!",
-    "",
-    "§c❤ Health§8: §c600"
+    "{\"text\":\"A shy little fellow!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"600\",\"color\":\"red\"}]}"
   ],
   "internalname": "PEST_FIELD_MOUSE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -123,5 +123,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

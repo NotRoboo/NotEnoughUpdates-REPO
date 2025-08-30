@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:banner",
-  "displayname": "§aTotem of Corruption",
-  "nbttag": "{ExtraAttributes:{id:\"TOTEM_OF_CORRUPTION\"},HideFlags:254,ItemModel:\"minecraft:white_banner\",display:{Lore:[0:\"§6Ability: Deploy  §e§lRIGHT CLICK\",1:\"§7Place a totem down for §a2m §7turning\",2:\"§7nearby mobs into their §cCorrupted\",3:\"§7forms.\",4:\"\",5:\"§eNote: §7Only one Corrupted Totem can\",6:\"§7be active at a time.\",7:\"§8Mana Cost: §3200\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§aTotem of Corruption\"}}",
-  "damage": 15,
+  "displayname": "{\"text\":\"Totem of Corruption\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:banner\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Totem of Corruption\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Deploy \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Place a totem down for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2m \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"turning\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"nearby mobs into their \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Corrupted\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"forms.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Note: \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"Only one Corrupted Totem can\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"be active at a time.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"200\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TOTEM_OF_CORRUPTION\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§6Ability: Deploy  §e§lRIGHT CLICK",
-    "§7Place a totem down for §a2m §7turning",
-    "§7nearby mobs into their §cCorrupted",
-    "§7forms.",
-    "",
-    "§eNote: §7Only one Corrupted Totem can",
-    "§7be active at a time.",
-    "§8Mana Cost: §3200",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Deploy \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Place a totem down for \",\"color\":\"gray\"},{\"text\":\"2m \",\"color\":\"green\"},{\"text\":\"turning\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"nearby mobs into their \",\"color\":\"gray\"},{\"text\":\"Corrupted\",\"color\":\"red\"}]}",
+    "{\"text\":\"forms.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Note: \",\"color\":\"yellow\"},{\"text\":\"Only one Corrupted Totem can\",\"color\":\"gray\"}]}",
+    "{\"text\":\"be active at a time.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"200\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "TOTEM_OF_CORRUPTION",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "MAGMA_CHUNK:30",
     "C2": "CORRUPTED_FRAGMENT:20",
     "C3": "MAGMA_CHUNK:30"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

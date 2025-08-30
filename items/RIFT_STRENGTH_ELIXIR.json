@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Strength Elixir",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"5f95b8e2-1c93-3c6f-aec1-2a6f3bd9dfd7\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGEwMGM1M2NmNTdjYWNjN2Y1ZThlM2ZlODRiMmY1ZGIxMjJjZDc2ZmNlZDc4MGE5NTNiOTk2MzlmYjMxOTg4MiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Grants §cStrength §7(10:00)§7,\",1:\"§7granting §5+3❁ Rift Damage§7.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Strength Elixir\"},ExtraAttributes:{id:\"RIFT_STRENGTH_ELIXIR\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Strength Elixir\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Strength Elixir\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Strength \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(10:00)\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"granting \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3❁ Rift Damage\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7Grants §cStrength §7(10:00)§7,",
-    "§7granting §5+3❁ Rift Damage§7.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"Strength \",\"color\":\"red\"},{\"text\":\"(10:00)\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"granting \",\"color\":\"gray\"},{\"text\":\"+3❁ Rift Damage\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "RIFT_STRENGTH_ELIXIR",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Strength_Elixir",
     "https://wiki.hypixel.net/Strength_Elixir"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

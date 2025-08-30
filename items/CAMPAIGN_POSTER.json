@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:filled_map",
-  "displayname": "§cCampaign Poster",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7If these posters are being dropped\",1:\"§7en-masse, who\u0027s responsible for\",2:\"§7picking them all up?\",3:\"§7\",4:\"§7Unlocked for all players who\",5:\"§7participated in the Better Mayors\",6:\"§7alpha test.\",7:\"\",8:\"§c§lSPECIAL\"],Name:\"§cCampaign Poster\"},ExtraAttributes:{id:\"CAMPAIGN_POSTER\"}}",
-  "damage": 30888,
+  "displayname": "{\"text\":\"Campaign Poster\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:filled_map\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Campaign Poster\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"If these posters are being dropped\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"en-masse, who\u0027s responsible for\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"picking them all up?\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Unlocked for all players who\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"participated in the Better Mayors\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"alpha test.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CAMPAIGN_POSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7If these posters are being dropped",
-    "§7en-masse, who\u0027s responsible for",
-    "§7picking them all up?",
-    "§7",
-    "§7Unlocked for all players who",
-    "§7participated in the Better Mayors",
-    "§7alpha test.",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"If these posters are being dropped\",\"color\":\"gray\"}",
+    "{\"text\":\"en-masse, who\u0027s responsible for\",\"color\":\"gray\"}",
+    "{\"text\":\"picking them all up?\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Unlocked for all players who\",\"color\":\"gray\"}",
+    "{\"text\":\"participated in the Better Mayors\",\"color\":\"gray\"}",
+    "{\"text\":\"alpha test.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "CAMPAIGN_POSTER",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Campaign_Poster",
     "https://wiki.hypixel.net/Campaign_Poster"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

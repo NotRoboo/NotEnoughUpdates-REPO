@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:gravel",
-  "displayname": "§fGravel",
-  "nbttag": "{ExtraAttributes:{id:\"GRAVEL\"},HideFlags:254,ItemModel:\"minecraft:gravel\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON BLOCK\"],Name:\"§fGravel\"}}",
+  "displayname": "{\"text\":\"Gravel\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:gravel\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gravel\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON BLOCK\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GRAVEL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON BLOCK"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON BLOCK\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GRAVEL",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://wiki.hypixel.net/Gravel"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:diamond_leggings",
-  "displayname": "§5Perfect Leggings - Tier VII",
-  "nbttag": "{ExtraAttributes:{id:\"PERFECT_LEGGINGS_7\"},HideFlags:254,ItemModel:\"minecraft:diamond_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+260\",1:\" §8[§7❈§8] [§7❈§8] [§7❈§8]\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§8This item can be reforged!\",6:\"§5§lEPIC LEGGINGS\"],Name:\"§5Perfect Leggings - Tier VII\"}}",
+  "displayname": "{\"text\":\"Perfect Leggings - Tier VII\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Perfect Leggings - Tier VII\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+260\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❈\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"] [\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❈\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"] [\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❈\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC LEGGINGS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PERFECT_LEGGINGS_7\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+260",
-    " §8[§7❈§8] [§7❈§8] [§7❈§8]",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+260\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"❈\",\"color\":\"gray\"},{\"text\":\"] [\",\"color\":\"dark_gray\"},{\"text\":\"❈\",\"color\":\"gray\"},{\"text\":\"] [\",\"color\":\"dark_gray\"},{\"text\":\"❈\",\"color\":\"gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC LEGGINGS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PERFECT_LEGGINGS_7",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C2": "ENCHANTED_DIAMOND_BLOCK:1",
     "C3": ""
   },
-  "parent": "PERFECT_LEGGINGS_1"
+  "parent": "PERFECT_LEGGINGS_1",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

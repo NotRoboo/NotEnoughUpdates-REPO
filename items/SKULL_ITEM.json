@@ -1,15 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Skeleton Skull",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§9§lRARE\"],Name:\"§9Skeleton Skull\"},ExtraAttributes:{id:\"SKULL_ITEM\"}}",
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Skeleton Skull\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Skeleton Skull\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SKULL_ITEM\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§9§lRARE"
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SKULL_ITEM",
   "modver": "2.0.0-REL",
   "vanilla": true,
   "crafttext": "",
   "infoType": "",
-  "clickcommand": ""
+  "clickcommand": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

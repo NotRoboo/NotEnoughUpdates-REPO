@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:golden_sword",
-  "displayname": "§5Giant Cleaver",
-  "nbttag": "{ExtraAttributes:{id:\"GIANT_CLEAVER\"},HideFlags:254,ItemModel:\"minecraft:golden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d501\",1:\"§7Damage: §c+235\",2:\"§7Strength: §c+120\",3:\"§7Crit Damage: §c+120%\",4:\"\",5:\"§6Ability: Cleave \",6:\"§7When hitting an entity, monsters in a §a5§7 block\",7:\"§7range will be hit for a portion of that damage\",8:\"§7too.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires The Catacombs Floor VI Completion.\",12:\"§5§lEPIC DUNGEON SWORD\"],Name:\"§5Giant Cleaver\"}}",
+  "displayname": "{\"text\":\"Giant Cleaver\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Giant Cleaver\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"501\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+235\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Cleave \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"When hitting an entity, monsters in a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" block\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"range will be hit for a portion of that damage\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"too.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires The Catacombs Floor VI Completion.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GIANT_CLEAVER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d501",
-    "§7Damage: §c+235",
-    "§7Strength: §c+120",
-    "§7Crit Damage: §c+120%",
-    "",
-    "§6Ability: Cleave ",
-    "§7When hitting an entity, monsters in a §a5§7 block",
-    "§7range will be hit for a portion of that damage",
-    "§7too.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires The Catacombs Floor VI Completion.",
-    "§5§lEPIC DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"501\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+235\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+120\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+120%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Cleave \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"When hitting an entity, monsters in a \",\"color\":\"gray\"},{\"text\":\"5\",\"color\":\"green\"},{\"text\":\" block\",\"color\":\"gray\"}]}",
+    "{\"text\":\"range will be hit for a portion of that damage\",\"color\":\"gray\"}",
+    "{\"text\":\"too.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires The Catacombs Floor VI Completion.\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "GIANT_CLEAVER",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Giant_Cleaver",
     "https://wiki.hypixel.net/Giant_Cleaver"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

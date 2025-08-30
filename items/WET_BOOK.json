@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§5Wet Book",
-  "nbttag": "{ExtraAttributes:{id:\"WET_BOOK\"},HideFlags:254,ItemModel:\"minecraft:book\",display:{Lore:[0:\"§8Combinable in Anvil and Reforge Anvil\",1:\"\",2:\"§7When applied to Fishing Rods, grants\",3:\"§b+1☂ Fishing Speed§7.\",4:\"\",5:\"§7This can be applied to an item up to\",6:\"§a5 §7times!\",7:\"\",8:\"§5§lEPIC\"],Name:\"§5Wet Book\"},ench:[]}",
+  "displayname": "{\"text\":\"Wet Book\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wet Book\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil and Reforge Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"When applied to Fishing Rods, grants\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+1☂ Fishing Speed\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This can be applied to an item up to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"times!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WET_BOOK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Combinable in Anvil and Reforge Anvil",
-    "",
-    "§7When applied to Fishing Rods, grants",
-    "§b+1☂ Fishing Speed§7.",
-    "",
-    "§7This can be applied to an item up to",
-    "§a5 §7times!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Combinable in Anvil and Reforge Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"When applied to Fishing Rods, grants\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+1☂ Fishing Speed\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This can be applied to an item up to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"5 \",\"color\":\"green\"},{\"text\":\"times!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "WET_BOOK",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Wet_Book"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

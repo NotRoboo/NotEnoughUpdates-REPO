@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Burststopper Artifact",
-  "nbttag": "{ExtraAttributes:{id:\"BURSTSTOPPER_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"462343a4-b388-3551-a4c1-e99881ec716d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"HFa+uTVpobpHFKxwmGTam1DJZii1PXxaFXNoWer2hHs5W02aearwGULdMnxLlfppIYpnpvgNGsHsnf3jYjqrXvNeWxvtCSeQU1IzxdEyky5nXd3EJ7YIzwEIm06uGLXuv87oBJVeEnfZMWXfLcIyMYxd7wzKQev41cu8iyEX98CSNmvxJueXR8oJHqFpsfRMa7k27/jfu81B/4iMJK1s1erpswxwlSreep8kGknf7zIfWtvxbUgacxcSsBfcUYaI3ZPoo4nYj7Hm2+BjOlYYAsR71LNKHhheQcwhrDzXtI+Zx6Uq6TKjGB35a85fz3eUdyy2poiqoWHi0C8BOtgk8dSlxMUeTkkGDLVls8ePOT90yc2ix/txhYfJq8TyemP/YyD6uspmOtBKzDBpLvXfylvKwhVhu3GrzmdYKPNHESLZi2C50ex2hvmqQpb9RnRol8NPV7twCg2ox26K4dpsUuFCUNRAzNGuU82+URW/g5Swh4ZiiclORJ68oaiXnbZE31xb0Ft4vrvb75t/GxwM+Nbo6AVwsoNBJqN5BoCPAZLXnNu1411eFfJ06Pe5LQnrMQuFLmWorRK6RKt50crPU0TJUu8flE7yrkuw2+Gbma2VTw4p8aRl7PWcDSVejDpfy7em3lNG0iVWXEUAKfQUCi8NKvO38kH5IxmeZ5vMyyg=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MTk2ODA3OCwKICAicHJvZmlsZUlkIiA6ICI4NzViMjk5MjQyODM0Njc1ODcwMzlkZWUxNzVmNTc0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMc0thaXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODljYmJiZTdlZDAzNTZkNTg0NjU5NmM0YWQxY2ZhOWZhNzE5ZGIxYzQ1NjhmM2Y3ZjBjNzk3OWU3YTQwMTIwOCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Strength: §c+2\",1:\"§7True Defense: §a+3\",2:\"\",3:\"§7If an incoming hit would deal at least\",4:\"§c50% §7of your §c❤§7, multiply its damage\",5:\"§7by §a0.9§7.\",6:\"\",7:\"§4☠ §cRequires §5Blaze Slayer 7§c.\",8:\"§5§lEPIC ACCESSORY\"],Name:\"§5Burststopper Artifact\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Burststopper Artifact\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Burststopper Artifact\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"True Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"If an incoming hit would deal at least\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"50% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"of your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\", multiply its damage\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0.9\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Blaze Slayer 7\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC ACCESSORY\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BURSTSTOPPER_ARTIFACT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MTk2ODA3OCwKICAicHJvZmlsZUlkIiA6ICI4NzViMjk5MjQyODM0Njc1ODcwMzlkZWUxNzVmNTc0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMc0thaXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODljYmJiZTdlZDAzNTZkNTg0NjU5NmM0YWQxY2ZhOWZhNzE5ZGIxYzQ1NjhmM2Y3ZjBjNzk3OWU3YTQwMTIwOCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Strength: §c+2",
-    "§7True Defense: §a+3",
-    "",
-    "§7If an incoming hit would deal at least",
-    "§c50% §7of your §c❤§7, multiply its damage",
-    "§7by §a0.9§7.",
-    "",
-    "§4☠ §cRequires §5Blaze Slayer 7§c.",
-    "§5§lEPIC ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"True Defense: \",\"color\":\"gray\"},{\"text\":\"+3\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"If an incoming hit would deal at least\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"50% \",\"color\":\"red\"},{\"text\":\"of your \",\"color\":\"gray\"},{\"text\":\"❤\",\"color\":\"red\"},{\"text\":\", multiply its damage\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"0.9\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Blaze Slayer 7\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC ACCESSORY\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "BURSTSTOPPER_ARTIFACT",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C2": "WHIPPED_MAGMA_CREAM:20",
     "C3": "MOLTEN_POWDER:32"
   },
-  "slayer_req": "BLAZE_7"
+  "slayer_req": "BLAZE_7",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

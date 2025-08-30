@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Karate Fish§r §l§7§LSILVER",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e589b285-c0ce-3989-80bf-00b549f4469c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTIzNzY0NzY0MiwKICAicHJvZmlsZUlkIiA6ICI3MzY0ODFkZmY2ZGY0NWUwOTA0ODg0ZjNiMWExMjY1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd2lsaWdodFFBUSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lNTYyMjdkMGU5OGI3NTQxYjI5MjJlOWNkOTExMzE1NWQxMzAyODk3OGQ0YzNmNjg3NzUxOTllYTI3Mjk5ZmQ0IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Found in Dojo.\",1:\"\",2:\"§7Bring this to §fOdger §7at the\",3:\"§7top of the Blazing Volcano.\",4:\"\",5:\"§8§l* §8Soulbound §8§l*\",6:\"§5§lEPIC TROPHY FISH\"],Name:\"§5Karate Fish§r §l§7§LSILVER\"},ExtraAttributes:{id:\"KARATE_FISH_SILVER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"Karate Fish\",\"color\":\"dark_purple\"},{\"text\":\" \"},{\"text\":\"§LSILVER\",\"color\":\"gray\"}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Karate Fish\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"§LSILVER\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Found in Dojo.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring this to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Odger \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"at the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"top of the Blazing Volcano.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC TROPHY FISH\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"KARATE_FISH_SILVER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Found in Dojo.",
-    "",
-    "§7Bring this to §fOdger §7at the",
-    "§7top of the Blazing Volcano.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§5§lEPIC TROPHY FISH"
+    "{\"text\":\"Found in Dojo.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring this to \",\"color\":\"gray\"},{\"text\":\"Odger \",\"color\":\"white\"},{\"text\":\"at the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"top of the Blazing Volcano.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"EPIC TROPHY FISH\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "KARATE_FISH_SILVER",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Trophy_Fishes",
     "https://wiki.hypixel.net/Trophy_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

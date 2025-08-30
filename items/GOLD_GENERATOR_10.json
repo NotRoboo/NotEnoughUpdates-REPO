@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Gold Minion X",
-  "nbttag": "{ExtraAttributes:{id:\"GOLD_GENERATOR_10\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c2a32db1-ef64-3901-a84f-574a2bb1df5b\",Properties:{textures:[0:{Name:\"textures\",Signature:\"cJWa+GqhngPL9qokwM/j2jMb8Tv0v1M/6CfKmkoTUOBWcFmnt3ezbJnrSbRgykxu9mjG5S2X5SE+SFkVmP4k7diMXpY1+vY3IyV+4qDMp4LniPy5ZJ2PQO/OlbSuBCj8K3w57XafCRkAdUwzyjh8dbatFtJWa4njha7GxtEskaE9E5vP82oWC9OByJFZAdWgf5MY1ACQ9RRyoF4KsIymcqBwio1ZmYdIvzoC2svPYCSw4gL/zK3689MA2Q5QhPVTl5yrFcP+A/dcjXUhi/1cpAwPih4UzUH7CeQ9cPCu9xxI/4eebajaDHFc5LTqyQtvZv17HeFO67yL6ljmdkmOFBxxGbHIrCY2Pra7pHQYlr7ORYxZFhOVUhWYXAy3jX4BOcSZEqqk9WjKsKF2/3y8iE5SJQkItEIdpaY2S5Mm7BLnGv+46vKmfZZD1jrxeLVxbEWFIePgfl6PFwKqvpFFFMpR7Han7Y1xqORNSXe0xauh9/C50UqhLmnKvDQ+xNLM5F+iEnWL5ld9sX4HhimpRtVgRUZidAdSMLRKwOLg9xh89+5tNUlTecxFzdQsLVB2Uvdge3laSTYUSVa4i3tb9d0W59s8qGaPEKc55p2vS4/PEzo5o8zqG7BTH2llM6rs9vWcQaH9tsa7HC12Wn5SVwI7AdNELGW7VcFwsUChlsk=\",Value:\"eyJ0aW1lc3RhbXAiOjE1NTc5MzcwMDQ1NTksInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNkMjM2ZTFlM2VmMGRlYTA2ZTNiZTcyZjA5ODA3NjdjNWFlYTQxYjg4MmY4YjliNTg4MzgyOThhY2U2NGRjOWQifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and mining gold ore!\",2:\"§7Requires an open area to place gold\",3:\"§7ore. Minions also work when you are\",4:\"§7offline!\",5:\"\",6:\"§7Time Between Actions: §a14s\",7:\"§7Max Storage: §e960\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Gold Minion X\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Gold Minion X\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gold Minion X\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and mining gold ore!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Requires an open area to place gold\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"ore. Minions also work when you are\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"14s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"960\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLD_GENERATOR_10\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NTc5MzcwMDQ1NTksInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNkMjM2ZTFlM2VmMGRlYTA2ZTNiZTcyZjA5ODA3NjdjNWFlYTQxYjg4MmY4YjliNTg4MzgyOThhY2U2NGRjOWQifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and mining gold ore!",
-    "§7Requires an open area to place gold",
-    "§7ore. Minions also work when you are",
-    "§7offline!",
-    "",
-    "§7Time Between Actions: §a14s",
-    "§7Max Storage: §e960",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and mining gold ore!\",\"color\":\"gray\"}",
+    "{\"text\":\"Requires an open area to place gold\",\"color\":\"gray\"}",
+    "{\"text\":\"ore. Minions also work when you are\",\"color\":\"gray\"}",
+    "{\"text\":\"offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"14s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"960\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "GOLD_GENERATOR_10",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C2": "ENCHANTED_GOLD:64",
     "C3": "ENCHANTED_GOLD:64"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:iron_hoe",
-  "displayname": "§5Ghoul Buster",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+140\",1:\"§7Strength: §c+90\",2:\"§7Crit Damage: §c+25%\",3:\"\",4:\"§6Ability: Spooktacular\",5:\"§7Deal §a100% §7more damage to\",6:\"§7§6Spooky §7enemies during the\",7:\"§7§6Spooky Festival§7.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§5§lEPIC SWORD\"],Name:\"§5Ghoul Buster\"},ExtraAttributes:{id:\"GHOUL_BUSTER\"}}",
+  "displayname": "{\"text\":\"Ghoul Buster\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_hoe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ghoul Buster\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+140\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+90\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Spooktacular\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"100% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"more damage to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spooky \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"enemies during the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spooky Festival\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GHOUL_BUSTER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+140",
-    "§7Strength: §c+90",
-    "§7Crit Damage: §c+25%",
-    "",
-    "§6Ability: Spooktacular",
-    "§7Deal §a100% §7more damage to",
-    "§7§6Spooky §7enemies during the",
-    "§7§6Spooky Festival§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+140\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+90\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+25%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Spooktacular\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"100% \",\"color\":\"green\"},{\"text\":\"more damage to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spooky \",\"color\":\"gold\"},{\"text\":\"enemies during the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spooky Festival\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "",
@@ -35,5 +35,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ghoul_Buster",
     "https://wiki.hypixel.net/Ghoul_Buster"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,26 +1,26 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fLoudmouth Bass",
-  "nbttag": "{ExtraAttributes:{id:\"LOUDMOUTH_BASS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"a6f1c696-00e6-36d0-a8d2-6b447bd32825\",Properties:{textures:[0:{Name:\"textures\",Signature:\"sFUxp59UAxB9W0oZ6qlMIVTkowhwLQYj0YRdNhw89ZcWjsCKabCmF/pdHKwupPdsfjboKnypf4RIa55BEihAgePY/DYN01EGr/IqwHrVbRvE7hsidtvwKrr6PLhHSHlcKi35WaY+21ePtK3BNusBldXoroosi/ecmnilga3AmziGQ+A8YS0O/dJKPiAXIzQqB3K3SyZl95xzHtSE46gQ+ySFrIxdFGJ3lubIQyr8nuldkDmK6ymqL4xM623Gx5ZM/iEZ8MRsHaWtZRWNi6M/O4btYdBBUw5O7OhfZZoNaOlELKhphVXFxtJjBAsZUGDz0NCNi0qBmubWsQ1a2KGBvcl57uxRI0UQ1VnoUXO37+GhZRjA6FM22ojcxmNXEdFIGJxBkHOrRfMlRJ9c2ZDnMPtC08+VkfPZCK/s4pjyFbseNAoCpIhZP5E8edaCdfFqTG40uUWaof83csrSPT/dZEeRfTQ54KziZ8s2rAyg8vSPMA4g3HQr6xWbE+/jYloBpNubnwloKVoQaquZcQIkGL1YWwOu7HFeNg9GLFa6GWx2DcxIeXfZGfold7oNdJYDwL07xeCrZwyxMWNYSMMQ49UaEN7rbXwPOfUQ/QbyCNJxNtfy3KuO3yRjj79MFVI9wdUDbfjnNGvZDIgsP3xH8i4eAeH8LF7Se1HIZlsHDYY=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMDE0Mjc1OTc1MSwKICAicHJvZmlsZUlkIiA6ICI0NmNhODkyZTY4ODA0YThmYjFkYzkwYjg0ZTY5ZjVmZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPbG8xNjA2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M5NTJlMTYwMDdmZDdmOGVhNWFkNGQ2NzRjMWFlNWEzZmUxZDIxYzdhMmU3NGY4YTJiYjVlMTdjY2E1MWEzOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Right-click a player holding a\",1:\"§fLoudmouth Bass§7 to engage in a duel!\",2:\"§7The heavier your bass is, the more\",3:\"§7likely it is to win!\",4:\"\",5:\"§7The winning bass will §cconsume §7the\",6:\"§7other and grow heavier.\",7:\"\",8:\"§7If your bass is consumed, you\",9:\"§7receive some §fFish Food§7 and §3Social\",10:\"§3XP§7 as compensation, scaling with\",11:\"§7bass weight.\",12:\"\",13:\"§7Current weight: §a1 lb\",14:\"§8Upgrades rarity in 49 lbs\",15:\"\",16:\"§f§lCOMMON\"],Name:\"§fLoudmouth Bass\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Loudmouth Bass\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Loudmouth Bass\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click a player holding a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Loudmouth Bass\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\" to engage in a duel!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"The heavier your bass is, the more\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"likely it is to win!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The winning bass will \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"consume \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"other and grow heavier.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"If your bass is consumed, you\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"receive some \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Fish Food\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\" and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Social\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"XP\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\" as compensation, scaling with\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"bass weight.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Current weight: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1 lb\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"Upgrades rarity in 49 lbs\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LOUDMOUTH_BASS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTczMDE0Mjc1OTc1MSwKICAicHJvZmlsZUlkIiA6ICI0NmNhODkyZTY4ODA0YThmYjFkYzkwYjg0ZTY5ZjVmZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPbG8xNjA2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M5NTJlMTYwMDdmZDdmOGVhNWFkNGQ2NzRjMWFlNWEzZmUxZDIxYzdhMmU3NGY4YTJiYjVlMTdjY2E1MWEzOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Right-click a player holding a",
-    "§fLoudmouth Bass§7 to engage in a duel!",
-    "§7The heavier your bass is, the more",
-    "§7likely it is to win!",
-    "",
-    "§7The winning bass will §cconsume §7the",
-    "§7other and grow heavier.",
-    "",
-    "§7If your bass is consumed, you",
-    "§7receive some §fFish Food§7 and §3Social",
-    "§3XP§7 as compensation, scaling with",
-    "§7bass weight.",
-    "",
-    "§7Current weight: §a1 lb",
-    "§8Upgrades rarity in 49 lbs",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Right-click a player holding a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Loudmouth Bass\",\"color\":\"white\"},{\"text\":\" to engage in a duel!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"The heavier your bass is, the more\",\"color\":\"gray\"}",
+    "{\"text\":\"likely it is to win!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The winning bass will \",\"color\":\"gray\"},{\"text\":\"consume \",\"color\":\"red\"},{\"text\":\"the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"other and grow heavier.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"If your bass is consumed, you\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"receive some \",\"color\":\"gray\"},{\"text\":\"Fish Food\",\"color\":\"white\"},{\"text\":\" and \",\"color\":\"gray\"},{\"text\":\"Social\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"XP\",\"color\":\"dark_aqua\"},{\"text\":\" as compensation, scaling with\",\"color\":\"gray\"}]}",
+    "{\"text\":\"bass weight.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Current weight: \",\"color\":\"gray\"},{\"text\":\"1 lb\",\"color\":\"green\"}]}",
+    "{\"text\":\"Upgrades rarity in 49 lbs\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "LOUDMOUTH_BASS",
   "clickcommand": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Loudmouth_Bass",
     "https://wiki.hypixel.net/Loudmouth_Bass"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

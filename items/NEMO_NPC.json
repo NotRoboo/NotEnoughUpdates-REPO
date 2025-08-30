@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Nemo (NPC)",
-  "nbttag": "{ExtraAttributes:{id:\"NEMO_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e99f632c-8f93-2aef-9369-f1764c31c146\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ5NTI1OGQ4ZDdkYTVhMzg5NGEwYzRmMTI3NTE3YTg2ZjNiYTFjMDYzZmRlYjBkOGJjZWUwZmFmNzQxM2ExMCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJlOTlmNjMyYzhmOTMyYWVmOTM2OWYxNzY0YzMxYzE0NiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUwNzAwODQyMjE4fQ\u003d\u003d\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Nemo (NPC)\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Nemo (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nemo (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"NEMO_NPC\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ5NTI1OGQ4ZDdkYTVhMzg5NGEwYzRmMTI3NTE3YTg2ZjNiYTFjMDYzZmRlYjBkOGJjZWUwZmFmNzQxM2ExMCIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiJlOTlmNjMyYzhmOTMyYWVmOTM2OWYxNzY0YzMxYzE0NiIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUwNzAwODQyMjE4fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "NEMO_NPC",
   "clickcommand": "",
@@ -55,5 +55,8 @@
       ],
       "result": "RESPIRATION;4:1"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

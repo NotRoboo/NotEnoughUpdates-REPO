@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:name_tag",
-  "displayname": "§aCarnival Ticket",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Used to play games at §eThe Carnival\",1:\"§e§7when §dFoxy §7is elected!\",2:\"§7\",3:\"§7§8§oIt takes a while for Foxy to prepare\",4:\"§8§oher Carnivals, but she\u0027s always\",5:\"§8§ohanding out Tickets to ramp up the\",6:\"§8§ohype.\",7:\"\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§a§lUNCOMMON\"],Name:\"§aCarnival Ticket\"},ExtraAttributes:{id:\"CARNIVAL_TICKET\"}}",
+  "displayname": "{\"text\":\"Carnival Ticket\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:name_tag\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Carnival Ticket\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Used to play games at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Carnival\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"when \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Foxy \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"is elected!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"It takes a while for Foxy to prepare\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"her Carnivals, but she\u0027s always\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"handing out Tickets to ramp up the\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"hype.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CARNIVAL_TICKET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Used to play games at §eThe Carnival",
-    "§e§7when §dFoxy §7is elected!",
-    "§7",
-    "§7§8§oIt takes a while for Foxy to prepare",
-    "§8§oher Carnivals, but she\u0027s always",
-    "§8§ohanding out Tickets to ramp up the",
-    "§8§ohype.",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Used to play games at \",\"color\":\"gray\"},{\"text\":\"The Carnival\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"when \",\"color\":\"gray\"},{\"text\":\"Foxy \",\"color\":\"light_purple\"},{\"text\":\"is elected!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"It takes a while for Foxy to prepare\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"her Carnivals, but she\u0027s always\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"handing out Tickets to ramp up the\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"hype.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CARNIVAL_TICKET",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Carnival_Ticket",
     "https://wiki.hypixel.net/Carnival_Ticket"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§5Zombie Knight Sword",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_KNIGHT_SWORD\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d123\",1:\"§7Damage: §c+82\",2:\"§7Strength: §c+21\",3:\"\",4:\"§6Full Set Bonus: Zombie Knight \",5:\"§7Gains §c+30❁ §7Strength when used with\",6:\"§7the Zombie Knight Armor\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires Catacombs Skill 14.\",10:\"§5§lEPIC DUNGEON SWORD\"],Name:\"§5Zombie Knight Sword\"}}",
+  "displayname": "{\"text\":\"Zombie Knight Sword\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie Knight Sword\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"123\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+82\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+21\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Zombie Knight \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gains \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30❁ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Strength when used with\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"the Zombie Knight Armor\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 14.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ZOMBIE_KNIGHT_SWORD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d123",
-    "§7Damage: §c+82",
-    "§7Strength: §c+21",
-    "",
-    "§6Full Set Bonus: Zombie Knight ",
-    "§7Gains §c+30❁ §7Strength when used with",
-    "§7the Zombie Knight Armor",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Catacombs Skill 14.",
-    "§5§lEPIC DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"123\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+82\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+21\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Zombie Knight \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gains \",\"color\":\"gray\"},{\"text\":\"+30❁ \",\"color\":\"red\"},{\"text\":\"Strength when used with\",\"color\":\"gray\"}]}",
+    "{\"text\":\"the Zombie Knight Armor\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 14.\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ZOMBIE_KNIGHT_SWORD",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Zombie_Knight_Sword",
     "https://wiki.hypixel.net/Zombie_Knight_Sword"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:repeater",
-  "displayname": "§9Talbot's Theodolite",
-  "nbttag": "{ExtraAttributes:{id:\"TALBOTS_THEODOLITE\"},HideFlags:254,ItemModel:\"minecraft:repeater\",display:{Lore:[0:\"§6Ability: Track §e§lRIGHT CLICK\",1:\"§7Indicates the approximate height\",2:\"§7difference and angle between you\",3:\"§7and your tracked mob.\",4:\"§8Mana Cost: §398\",5:\"§8Cooldown: §a10s\",6:\"\",7:\"§9§lRARE\"],Name:\"§9Talbot's Theodolite\"}}",
+  "displayname": "{\"text\":\"Talbot\u0027s Theodolite\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:repeater\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Talbot\u0027s Theodolite\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Track \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Indicates the approximate height\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"difference and angle between you\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"and your tracked mob.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"98\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"10s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TALBOTS_THEODOLITE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Track §e§lRIGHT CLICK",
-    "§7Indicates the approximate height",
-    "§7difference and angle between you",
-    "§7and your tracked mob.",
-    "§8Mana Cost: §398",
-    "§8Cooldown: §a10s",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Track \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Indicates the approximate height\",\"color\":\"gray\"}",
+    "{\"text\":\"difference and angle between you\",\"color\":\"gray\"}",
+    "{\"text\":\"and your tracked mob.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"98\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"10s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "TALBOTS_THEODOLITE",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Talbot%27s_Theodolite",
     "https://wiki.hypixel.net/Talbot%27s_Theodolite"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

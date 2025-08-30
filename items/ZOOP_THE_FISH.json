@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:fish",
-  "displayname": "§cZoop the Fish",
-  "nbttag": "{ExtraAttributes:{id:\"ZOOP_THE_FISH\"},HideFlags:254,ItemModel:\"minecraft:salmon\",display:{Lore:[0:\"§7Keep me in here please.\",1:\"\",2:\"§5§kX§5 Rift-Transferable §5§kX\",3:\"§c§lSPECIAL\"],Name:\"§cZoop the Fish\"},ench:[]}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Zoop the Fish\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zoop the Fish\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Keep me in here please.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ZOOP_THE_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Keep me in here please.",
-    "",
-    "§5§kX§5 Rift-Transferable §5§kX",
-    "§c§lSPECIAL"
+    "{\"text\":\"Keep me in here please.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "ZOOP_THE_FISH",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Zoop_the_Fish",
     "https://wiki.hypixel.net/Zoop_The_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

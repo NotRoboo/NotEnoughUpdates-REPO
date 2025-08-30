@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:diamond_sword",
-  "displayname": "§5Reaper Falchion",
-  "nbttag": "{ExtraAttributes:{id:\"REAPER_SWORD\"},HideFlags:254,ItemModel:\"minecraft:diamond_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+120\",1:\"§7Strength: §c+100\",2:\"§7Intelligence: §a+200\",3:\" §8[❁]\",4:\"\",5:\"§7Heal §c10❤ §7per hit.\",6:\"§7Deal §a+200% §7damage to §2༕ Undead §7mobs.\",7:\"§7Gain §3+45☯ Combat Wisdom§7 against §2༕\",8:\"§2Undead §7mobs.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4☠ §cRequires §5Zombie Slayer 6§c.\",12:\"§5§lEPIC SWORD\"],Name:\"§5Reaper Falchion\"}}",
+  "displayname": "{\"text\":\"Reaper Falchion\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Reaper Falchion\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+200\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[❁]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Heal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per hit.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+200% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"damage to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"༕ Undead \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"mobs.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+45☯ Combat Wisdom\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\" against \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"༕\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Undead \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"mobs.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Zombie Slayer 6\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REAPER_SWORD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+120",
-    "§7Strength: §c+100",
-    "§7Intelligence: §a+200",
-    " §8[❁]",
-    "",
-    "§7Heal §c10❤ §7per hit.",
-    "§7Deal §a+200% §7damage to §2༕ Undead §7mobs.",
-    "§7Gain §3+45☯ Combat Wisdom§7 against §2༕",
-    "§2Undead §7mobs.",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Zombie Slayer 6§c.",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+120\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+200\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[❁]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Heal \",\"color\":\"gray\"},{\"text\":\"10❤ \",\"color\":\"red\"},{\"text\":\"per hit.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"+200% \",\"color\":\"green\"},{\"text\":\"damage to \",\"color\":\"gray\"},{\"text\":\"༕ Undead \",\"color\":\"dark_green\"},{\"text\":\"mobs.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+45☯ Combat Wisdom\",\"color\":\"dark_aqua\"},{\"text\":\" against \",\"color\":\"gray\"},{\"text\":\"༕\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Undead \",\"color\":\"dark_green\"},{\"text\":\"mobs.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Zombie Slayer 6\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "REAPER_SWORD",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
     "C2": "REVENANT_SWORD:1",
     "C3": ""
   },
-  "slayer_req": "ZOMBIE_6"
+  "slayer_req": "ZOMBIE_6",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

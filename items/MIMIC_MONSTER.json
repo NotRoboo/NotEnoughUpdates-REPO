@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Mimic (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d6af0fbb-0321-32df-96af-0fbb0321d2df\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE5YzEyNTQzYmM3NzkyNjA1ZWY2OGUxZjg3NDlhZThmMmEzODFkOTA4NWQ0ZDRiNzgwYmExMjgyZDM1OTdhMCJ9fX0\"}]}},display:{Lore:[0:\"§7Mimics are a type of Dungeon Mobs that\",1:\"§7rarely take the place of a secret\",2:\"§7chest in Dungeons. They can appear\",3:\"§7in Floor VI and above. They have varying\",4:\"§7health from §c1M❤ §7to §c2M❤§7.\",5:\"§7In Master Mode, they have up to §c150M❤§7.\",6:\"\",7:\"§6§lPossible Drops:\",8:\"§9Mimic Fragment\"],Name:\"§9Mimic (Monster)\"},ExtraAttributes:{id:\"MIMIC_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mimic (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mimic (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Mimics are a type of Dungeon Mobs that\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"rarely take the place of a secret\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"chest in Dungeons. They can appear\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in Floor VI and above. They have varying\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"health from \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1M❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2M❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"In Master Mode, they have up to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"150M❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Possible Drops:\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"Mimic Fragment\\\",\\\"color\\\":\\\"blue\\\"}\"],\"minecraft:custom_data\":{\"id\":\"MIMIC_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Mimics are a type of Dungeon Mobs that",
-    "§7rarely take the place of a secret",
-    "§7chest in Dungeons. They can appear",
-    "§7in Floor VI and above. They have varying",
-    "§7health from §c1M❤ §7to §c2M❤§7.",
-    "§7In Master Mode, they have up to §c150M❤§7.",
-    "",
-    "§6§lPossible Drops:",
-    "§9Mimic Fragment"
+    "{\"text\":\"Mimics are a type of Dungeon Mobs that\",\"color\":\"gray\"}",
+    "{\"text\":\"rarely take the place of a secret\",\"color\":\"gray\"}",
+    "{\"text\":\"chest in Dungeons. They can appear\",\"color\":\"gray\"}",
+    "{\"text\":\"in Floor VI and above. They have varying\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"health from \",\"color\":\"gray\"},{\"text\":\"1M❤ \",\"color\":\"red\"},{\"text\":\"to \",\"color\":\"gray\"},{\"text\":\"2M❤\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"In Master Mode, they have up to \",\"color\":\"gray\"},{\"text\":\"150M❤\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Possible Drops:\",\"color\":\"gold\",\"bold\":true}",
+    "{\"text\":\"Mimic Fragment\",\"color\":\"blue\"}"
   ],
   "internalname": "MIMIC_MONSTER",
   "clickcommand": "",
@@ -44,5 +44,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

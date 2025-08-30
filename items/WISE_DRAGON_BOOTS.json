@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§6Wise Dragon Boots",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+60\",1:\"§7Defense: §a+90\",2:\"§7Intelligence: §a+75\",3:\" §8[§8✎§8]\",4:\"\",5:\"§6Full Set Bonus: Wise Blood §7(0/4)\",6:\"§7Abilities have §a2/3 §7of the mana cost.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §aCombat Skill 16§c.\",10:\"§6§lLEGENDARY BOOTS\"],color:2748649,Name:\"§6Wise Dragon Boots\"},ExtraAttributes:{id:\"WISE_DRAGON_BOOTS\"}}",
+  "displayname": "{\"text\":\"Wise Dragon Boots\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wise Dragon Boots\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+90\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+75\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"✎\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Wise Blood \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Abilities have \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2/3 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of the mana cost.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 16\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY BOOTS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WISE_DRAGON_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+60",
-    "§7Defense: §a+90",
-    "§7Intelligence: §a+75",
-    " §8[§8✎§8]",
-    "",
-    "§6Full Set Bonus: Wise Blood §7(0/4)",
-    "§7Abilities have §a2/3 §7of the mana cost.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 16§c.",
-    "§6§lLEGENDARY BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+60\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+90\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+75\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"✎\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Wise Blood \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Abilities have \",\"color\":\"gray\"},{\"text\":\"2/3 \",\"color\":\"green\"},{\"text\":\"of the mana cost.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 16\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY BOOTS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "WISE_FRAGMENT:10",
@@ -35,5 +35,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Wise_Dragon_Boots",
     "https://wiki.hypixel.net/Wise_Dragon_Boots"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

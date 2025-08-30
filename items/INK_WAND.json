@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§5Ink Wand",
-  "nbttag": "{ExtraAttributes:{id:\"INK_WAND\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§7Damage: §c+130\",1:\"§7Strength: §c+90\",2:\"\",3:\"§6Ability: Ink Bomb  §e§lRIGHT CLICK\",4:\"§7Shoot an ink bomb in front of you dealing\",5:\"§a10,150.5 §7damage and giving blindness!\",6:\"§8Mana Cost: §360\",7:\"§8Cooldown: §a30s\",8:\"\",9:\"§8This item can be reforged!\",10:\"§5§lEPIC SWORD\"],Name:\"§5Ink Wand\"},ench:[]}",
+  "displayname": "{\"text\":\"Ink Wand\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ink Wand\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+130\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+90\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Ink Bomb \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Shoot an ink bomb in front of you dealing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"10,150.5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"damage and giving blindness!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"60\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"30s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"INK_WAND\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+130",
-    "§7Strength: §c+90",
-    "",
-    "§6Ability: Ink Bomb  §e§lRIGHT CLICK",
-    "§7Shoot an ink bomb in front of you dealing",
-    "§a10,150.5 §7damage and giving blindness!",
-    "§8Mana Cost: §360",
-    "§8Cooldown: §a30s",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+130\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+90\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Ink Bomb \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Shoot an ink bomb in front of you dealing\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"10,150.5 \",\"color\":\"green\"},{\"text\":\"damage and giving blindness!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"60\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"30s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "INK_WAND",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:spawn_egg",
-  "displayname": "§9Amalgamated Crimsonite",
-  "nbttag": "{ExtraAttributes:{id:\"AMALGAMATED_CRIMSONITE_NEW\"},HideFlags:254,ItemModel:\"minecraft:spider_spawn_egg\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Amalgamated Crimsonite\"},ench:[]}",
-  "damage": 52,
+  "itemid": "minecraft:spider_spawn_egg",
+  "displayname": "{\"text\":\"Amalgamated Crimsonite\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:spider_spawn_egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Amalgamated Crimsonite\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"AMALGAMATED_CRIMSONITE_NEW\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "AMALGAMATED_CRIMSONITE_NEW",
   "clickcommand": "viewrecipe",
@@ -44,5 +44,8 @@
       "C3": "",
       "count": 40
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

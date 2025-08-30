@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fAbsorption I Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:12b,Amplifier:0b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§6Absorption I §f(3:00)\",2:\"§7Grants §a+20 §7of absorption.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fAbsorption I Potion\"},ExtraAttributes:{potion_level:1,potion:\"absorption\",effects:[0:{level:1,effect:\"absorption\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_ABSORPTION;1\"}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Absorption I Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Absorption I Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Absorption I \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of absorption.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":1,\"potion\":\"absorption\",\"effects\":\"[0:{level:1\",\"effect\":\"absorption\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§6Absorption I §f(3:00)",
-    "§7Grants §a+20 §7of absorption.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Absorption I \",\"color\":\"gold\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+20 \",\"color\":\"green\"},{\"text\":\"of absorption.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_ABSORPTION;1",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

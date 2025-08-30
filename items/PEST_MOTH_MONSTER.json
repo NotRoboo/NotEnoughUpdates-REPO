@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aMoth (Pest)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e36704a8-21e6-30f2-a2d7-a197bc679485\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njg3MDQwNTk1NCwKICAicHJvZmlsZUlkIiA6ICJiMTUyZDlhZTE1MTM0OWNmOWM2NmI0Y2RjMTA5NTZjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaXNxdW90aCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NTQ4NWM0YjM0ZTViNTQ3MGJlOTRkZTEwMGU2MWY3ODE2ZjgxYmM1YTExZGZkZjBlY2NmODkwMTcyZGE1ZDBhIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Fluttering around a Garden near\",1:\"§7you.\",2:\"\",3:\"§7Attracted to §aHoney Jar§7.\",4:\"\",5:\"§c❤ Health§8: §c600\"],Name:\"§aMoth (Pest)\"},ExtraAttributes:{id:\"PEST_MOTH_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Moth (Pest)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Moth (Pest)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Fluttering around a Garden near\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"you.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Attracted to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Honey Jar\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"600\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"PEST_MOTH_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Fluttering around a Garden near",
-    "§7you.",
-    "",
-    "§7Attracted to §aHoney Jar§7.",
-    "",
-    "§c❤ Health§8: §c600"
+    "{\"text\":\"Fluttering around a Garden near\",\"color\":\"gray\"}",
+    "{\"text\":\"you.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Attracted to \",\"color\":\"gray\"},{\"text\":\"Honey Jar\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"600\",\"color\":\"red\"}]}"
   ],
   "internalname": "PEST_MOTH_MONSTER",
   "clickcommand": "viewrecipe",
@@ -92,5 +92,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

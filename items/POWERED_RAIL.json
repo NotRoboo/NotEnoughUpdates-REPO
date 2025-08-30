@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:golden_rail",
-  "displayname": "§fPowered Rail",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPowered Rail\"},ExtraAttributes:{id:\"POWERED_RAIL\"}}",
+  "displayname": "{\"text\":\"Powered Rail\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_rail\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Powered Rail\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"POWERED_RAIL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POWERED_RAIL",
   "modver": "2.1.1-PRE",
@@ -21,5 +21,8 @@
     "C2": "REDSTONE:1",
     "C3": "GOLD_INGOT:1",
     "count": 6
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

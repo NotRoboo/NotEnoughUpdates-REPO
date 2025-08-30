@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§9Silent Death",
-  "nbttag": "{ExtraAttributes:{id:\"SILENT_DEATH\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d165\",1:\"§7Damage: §c+85\",2:\"§7Strength: §c+31\",3:\"§7Crit Chance: §c+1%\",4:\"§7Crit Damage: §c+9%\",5:\"\",6:\"§6Ability: Shadowstep  §e§lRIGHT CLICK\",7:\"§7Teleport behind the enemy you are looking at,\",8:\"§7gaining §c+25❁ Strength§7 for §a10§7 seconds. Max\",9:\"§7range of 20 blocks. Cooldown resets on kills.\",10:\"§8Cooldown: §a60s\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4❣ §cRequires Catacombs Skill 20.\",14:\"§9§lRARE DUNGEON SWORD\"],Name:\"§9Silent Death\"}}",
+  "displayname": "{\"text\":\"Silent Death\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Silent Death\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"165\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+85\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+31\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+9%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Shadowstep \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Teleport behind the enemy you are looking at,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"gaining \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25❁ Strength\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" seconds. Max\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"range of 20 blocks. Cooldown resets on kills.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"60s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 20.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE DUNGEON SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d165",
-    "§7Damage: §c+85",
-    "§7Strength: §c+31",
-    "§7Crit Chance: §c+1%",
-    "§7Crit Damage: §c+9%",
-    "",
-    "§6Ability: Shadowstep  §e§lRIGHT CLICK",
-    "§7Teleport behind the enemy you are looking at,",
-    "§7gaining §c+25❁ Strength§7 for §a10§7 seconds. Max",
-    "§7range of 20 blocks. Cooldown resets on kills.",
-    "§8Cooldown: §a60s",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Catacombs Skill 20.",
-    "§9§lRARE DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"165\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+85\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+31\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Chance: \",\"color\":\"gray\"},{\"text\":\"+1%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+9%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Shadowstep \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Teleport behind the enemy you are looking at,\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"gaining \",\"color\":\"gray\"},{\"text\":\"+25❁ Strength\",\"color\":\"red\"},{\"text\":\" for \",\"color\":\"gray\"},{\"text\":\"10\",\"color\":\"green\"},{\"text\":\" seconds. Max\",\"color\":\"gray\"}]}",
+    "{\"text\":\"range of 20 blocks. Cooldown resets on kills.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"60s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 20.\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE DUNGEON SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SILENT_DEATH",
   "clickcommand": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Silent_Death",
     "https://wiki.hypixel.net/Silent_Death"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

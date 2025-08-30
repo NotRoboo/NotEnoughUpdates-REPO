@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§9Bookworm\u0027s Favorite Book",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7When applied to a vacuum, grants\",3:\"§7§c+10❁ Damage§7.\",4:\"\",5:\"§7This can be applied to a vacuum\",6:\"§7up to §a5 §7times!\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Bookworm\u0027s Favorite Book\"},ExtraAttributes:{id:\"BOOKWORM_BOOK\"}}",
+  "displayname": "{\"text\":\"Bookworm\u0027s Favorite Book\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bookworm\u0027s Favorite Book\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"When applied to a vacuum, grants\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+10❁ Damage\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This can be applied to a vacuum\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"up to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"times!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BOOKWORM_BOOK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
-    "",
-    "§7When applied to a vacuum, grants",
-    "§7§c+10❁ Damage§7.",
-    "",
-    "§7This can be applied to a vacuum",
-    "§7up to §a5 §7times!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"When applied to a vacuum, grants\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+10❁ Damage\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This can be applied to a vacuum\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"up to \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"green\"},{\"text\":\"times!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BOOKWORM_BOOK",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bookworm%27s_Favorite_Book",
     "https://wiki.hypixel.net/Bookworm%27s_Favorite_Book"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

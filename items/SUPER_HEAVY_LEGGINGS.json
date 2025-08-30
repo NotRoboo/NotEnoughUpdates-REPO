@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§5Super Heavy Leggings",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d206\",1:\"§7Defense: §a+98\",2:\"§7Speed: §a-10\",3:\"\",4:\"§7Each piece of this armor reduces\",5:\"§7the cooldown of §9Seismic Wave\",6:\"§9§7by §a1s§7.\",7:\"\",8:\"§6Full Set Bonus: Vindicate\",9:\"§7Grants §f+1 walk speed §7for\",10:\"§7every §a50 §7defense that you\",11:\"§7have.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§7§4❣ §cRequires §cCatacombs Skill\",15:\"§c15§c.\",16:\"§5§lEPIC DUNGEON LEGGINGS\"],color:5923940,Name:\"§5Super Heavy Leggings\"},ExtraAttributes:{dungeon_item_level:0,id:\"SUPER_HEAVY_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Super Heavy Leggings\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Super Heavy Leggings\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"206\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+98\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"-10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Each piece of this armor reduces\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the cooldown of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Seismic Wave\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Vindicate\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1 walk speed \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"every \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"defense that you\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"have.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Catacombs Skill\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"15\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON LEGGINGS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"dungeon_item_level\":0,\"id\":\"SUPER_HEAVY_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d206",
-    "§7Defense: §a+98",
-    "§7Speed: §a-10",
-    "",
-    "§7Each piece of this armor reduces",
-    "§7the cooldown of §9Seismic Wave",
-    "§9§7by §a1s§7.",
-    "",
-    "§6Full Set Bonus: Vindicate",
-    "§7Grants §f+1 walk speed §7for",
-    "§7every §a50 §7defense that you",
-    "§7have.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §cCatacombs Skill",
-    "§c15§c.",
-    "§5§lEPIC DUNGEON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"206\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+98\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"-10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Each piece of this armor reduces\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the cooldown of \",\"color\":\"gray\"},{\"text\":\"Seismic Wave\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"1s\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Vindicate\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+1 walk speed \",\"color\":\"white\"},{\"text\":\"for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"every \",\"color\":\"gray\"},{\"text\":\"50 \",\"color\":\"green\"},{\"text\":\"defense that you\",\"color\":\"gray\"}]}",
+    "{\"text\":\"have.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Catacombs Skill\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"15\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON LEGGINGS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SUPER_HEAVY_LEGGINGS",
   "crafttext": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Super_Heavy_Leggings",
     "https://wiki.hypixel.net/Super_Heavy_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

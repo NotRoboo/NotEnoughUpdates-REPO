@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Green Elephant Skin",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"8a96cf53-45b1-35e2-9f96-cc13d463e6e0\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMTMxNDcxMCwKICAicHJvZmlsZUlkIiA6ICI5NGMzZGM3YTdiMmQ0NzQ1YmVlYjQzZDc2ZjRjNDVkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEb25fVml0b0Nvcmxlb25lIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM2MGMxMjJhZGU1YjJmZWRjYTE0YWE3OGM4MzRhN2IwYWM5Y2I1ZGEyYTBjOTMxMTIxNjMwODZmOTBjMTNiNjgiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7§7Pet skins change the look and\",3:\"§7particle trail of your pet but only\",4:\"§7one skin can be active at a time!\",5:\"\",6:\"§7§7This skin can only be applied to\",7:\"§7Elephant pets.\",8:\"\",9:\"§7§eRight-click on your summoned pet to\",10:\"§eapply this skin!\",11:\"\",12:\"§9§lRARE COSMETIC\"],Name:\"§9Green Elephant Skin\"},ExtraAttributes:{id:\"PET_SKIN_ELEPHANT_GREEN\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Green Elephant Skin\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Green Elephant Skin\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Pet skins change the look and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"particle trail of your pet but only\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"one skin can be active at a time!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin can only be applied to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Elephant pets.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"apply this skin!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE COSMETIC\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PET_SKIN_ELEPHANT_GREEN\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Consumed on use",
-    "",
-    "§7§7Pet skins change the look and",
-    "§7particle trail of your pet but only",
-    "§7one skin can be active at a time!",
-    "",
-    "§7§7This skin can only be applied to",
-    "§7Elephant pets.",
-    "",
-    "§7§eRight-click on your summoned pet to",
-    "§eapply this skin!",
-    "",
-    "§9§lRARE COSMETIC"
+    "{\"text\":\"Consumed on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Pet skins change the look and\",\"color\":\"gray\"}",
+    "{\"text\":\"particle trail of your pet but only\",\"color\":\"gray\"}",
+    "{\"text\":\"one skin can be active at a time!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin can only be applied to\",\"color\":\"gray\"}",
+    "{\"text\":\"Elephant pets.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"apply this skin!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE COSMETIC\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "PET_SKIN_ELEPHANT_GREEN",
   "crafttext": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pet_Skins",
     "https://wiki.hypixel.net/Pet_Skins"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

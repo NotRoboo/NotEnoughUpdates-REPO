@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Terry's Snowglobe",
-  "nbttag": "{ExtraAttributes:{id:\"TERRY_SNOWGLOBE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c226b4b5-8b72-38b7-80cd-d8ece5f3022d\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JiZThmZDFhYTM5ZjE1MDc2ZTg4NGRmZTZkZGI5YTNmMzc2MWRiMzFlMmIxZjk5NDBiNWRmZDM0ZDFjNGQifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Snowy §7reforge when\",4:\"§7combined with equipment.\",5:\"\",6:\"§9Snowy §7(§6Legendary§7):\",7:\"§7Sea Creature Chance: §c+0.8%\",8:\"§7Fishing Speed: §a+2.5\",9:\"\",10:\"§7Requires §aMining Skill Level XV§7!\",11:\"\",12:\"§9§lRARE REFORGE STONE\"],Name:\"§9Terry's Snowglobe\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Terry\u0027s Snowglobe\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Terry\u0027s Snowglobe\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Reforge Stone\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Combinable in Reforge Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applies the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Snowy \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"reforge when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"combined with equipment.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Snowy \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"(\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Legendary\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"):\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+0.8%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fishing Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2.5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mining Skill Level XV\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE REFORGE STONE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TERRY_SNOWGLOBE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JiZThmZDFhYTM5ZjE1MDc2ZTg4NGRmZTZkZGI5YTNmMzc2MWRiMzFlMmIxZjk5NDBiNWRmZDM0ZDFjNGQifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Reforge Stone",
-    "§8Combinable in Reforge Anvil",
-    "",
-    "§7Applies the §9Snowy §7reforge when",
-    "§7combined with equipment.",
-    "",
-    "§9Snowy §7(§6Legendary§7):",
-    "§7Sea Creature Chance: §c+0.8%",
-    "§7Fishing Speed: §a+2.5",
-    "",
-    "§7Requires §aMining Skill Level XV§7!",
-    "",
-    "§9§lRARE REFORGE STONE"
+    "{\"text\":\"Reforge Stone\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Combinable in Reforge Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applies the \",\"color\":\"gray\"},{\"text\":\"Snowy \",\"color\":\"blue\"},{\"text\":\"reforge when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"combined with equipment.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Snowy \",\"color\":\"blue\"},{\"text\":\"(\",\"color\":\"gray\"},{\"text\":\"Legendary\",\"color\":\"gold\"},{\"text\":\"):\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+0.8%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fishing Speed: \",\"color\":\"gray\"},{\"text\":\"+2.5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"Mining Skill Level XV\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE REFORGE STONE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "TERRY_SNOWGLOBE",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Terry%27s_Snowglobe",
     "https://wiki.hypixel.net/Terry%27s_Snowglobe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

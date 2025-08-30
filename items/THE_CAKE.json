@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:cake",
-  "displayname": "§f§f§cThe Cake",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§dThere is no cake.\",1:\"\",2:\"§8§l* §8Soulbound §8§l*\",3:\"§c§lSPECIAL\"],Name:\"§f§f§cThe Cake\"},ExtraAttributes:{id:\"THE_CAKE\"},AttributeModifiers:[]}",
+  "displayname": "{\"text\":\"The Cake\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:cake\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"The Cake\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"There is no cake.\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"THE_CAKE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§dThere is no cake.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§c§lSPECIAL"
+    "{\"text\":\"There is no cake.\",\"color\":\"light_purple\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "THE_CAKE",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/The_Cake",
     "https://wiki.hypixel.net/The_Cake"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

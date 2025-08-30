@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:ghast_tear",
-  "displayname": "§aNurse Shark Tooth",
-  "nbttag": "{ExtraAttributes:{id:\"NURSE_SHARK_TOOTH\"},HideFlags:254,ItemModel:\"minecraft:ghast_tear\",display:{Lore:[0:\"§7Dropped by a Shark during\",1:\"§7Fishing Festival.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aNurse Shark Tooth\"},ench:[]}",
+  "displayname": "{\"text\":\"Nurse Shark Tooth\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:ghast_tear\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nurse Shark Tooth\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Dropped by a Shark during\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Fishing Festival.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NURSE_SHARK_TOOTH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Dropped by a Shark during",
-    "§7Fishing Festival.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Dropped by a Shark during\",\"color\":\"gray\"}",
+    "{\"text\":\"Fishing Festival.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "NURSE_SHARK_TOOTH",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Nurse_Shark_Tooth",
     "https://wiki.hypixel.net/Nurse_Shark_Tooth"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

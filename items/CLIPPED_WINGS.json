@@ -1,25 +1,25 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Clipped Wings",
-  "nbttag": "{ExtraAttributes:{id:\"CLIPPED_WINGS\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4cc5d9e2-0a73-3566-ada1-604fb7d9203f\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NTA3NzM3NCwKICAicHJvZmlsZUlkIiA6ICI5Y2ZlNTBiMGIzMGE0ODUxOTg3ZTExMjc3N2RmYWRhYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCdXpCbG9nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY1ZTMyNjA2MmNkYzk0OWI4ODMwMjdmOWEzNGE3N2RiM2U0Mjk3NmIyMjRkOTM2NzM5Y2IwYWJkNzUxMzY4ZDciCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Reforge Stone\",1:\"§8Combinable in Reforge Anvil\",2:\"\",3:\"§7Applies the §9Buzzing §7reforge when\",4:\"§7combined with a vacuum.\",5:\"\",6:\"§9Buzzing §7(§6Legendary§7):\",7:\"§7Speed: §a+10\",8:\"\",9:\"§9Buzzing Bonus\",10:\"§7Doubles the §c❁ Damage §7dealt by\",11:\"§aVacuums§7.\",12:\"\",13:\"§7Requires §aMining Skill Level XV§7!\",14:\"\",15:\"§5§lEPIC REFORGE STONE\"],Name:\"§5Clipped Wings\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Clipped Wings\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Clipped Wings\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Reforge Stone\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Combinable in Reforge Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applies the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Buzzing \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"reforge when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"combined with a vacuum.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Buzzing \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"(\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Legendary\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"):\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Buzzing Bonus\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Doubles the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❁ Damage \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"dealt by\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vacuums\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mining Skill Level XV\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC REFORGE STONE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CLIPPED_WINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NTA3NzM3NCwKICAicHJvZmlsZUlkIiA6ICI5Y2ZlNTBiMGIzMGE0ODUxOTg3ZTExMjc3N2RmYWRhYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCdXpCbG9nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY1ZTMyNjA2MmNkYzk0OWI4ODMwMjdmOWEzNGE3N2RiM2U0Mjk3NmIyMjRkOTM2NzM5Y2IwYWJkNzUxMzY4ZDciCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Reforge Stone",
-    "§8Combinable in Reforge Anvil",
-    "",
-    "§7Applies the §9Buzzing §7reforge when",
-    "§7combined with a vacuum.",
-    "",
-    "§9Buzzing §7(§6Legendary§7):",
-    "§7Speed: §a+10",
-    "",
-    "§9Buzzing Bonus",
-    "§7Doubles the §c❁ Damage §7dealt by",
-    "§aVacuums§7.",
-    "",
-    "§7Requires §aMining Skill Level XV§7!",
-    "",
-    "§5§lEPIC REFORGE STONE"
+    "{\"text\":\"Reforge Stone\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Combinable in Reforge Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applies the \",\"color\":\"gray\"},{\"text\":\"Buzzing \",\"color\":\"blue\"},{\"text\":\"reforge when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"combined with a vacuum.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Buzzing \",\"color\":\"blue\"},{\"text\":\"(\",\"color\":\"gray\"},{\"text\":\"Legendary\",\"color\":\"gold\"},{\"text\":\"):\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Buzzing Bonus\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Doubles the \",\"color\":\"gray\"},{\"text\":\"❁ Damage \",\"color\":\"red\"},{\"text\":\"dealt by\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Vacuums\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"gray\"},{\"text\":\"Mining Skill Level XV\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC REFORGE STONE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "CLIPPED_WINGS",
   "clickcommand": "",
@@ -29,5 +29,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Clipped_Wings",
     "https://wiki.hypixel.net/Clipped_Wings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:diamond_chestplate",
-  "displayname": "§aDiamond Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:diamond_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+40\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON CHESTPLATE\"],Name:\"§aDiamond Chestplate\"}}",
+  "displayname": "{\"text\":\"Diamond Chestplate\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Chestplate\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON CHESTPLATE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+40",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON CHESTPLATE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DIAMOND_CHESTPLATE",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C2": "DIAMOND:1",
     "C3": "DIAMOND:1"
   },
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

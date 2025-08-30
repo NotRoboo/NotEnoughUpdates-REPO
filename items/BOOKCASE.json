@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fBookcase",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"116f4f8c-158a-3603-b471-a65a0c4855f6\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjE1NjM3ODk3MTUzMTQsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNTU5NjY4MGZkMWY4MzhhOTRkYzYzOGFiNjg5M2Y5Mzk1YzFkZjI4MDI3MThiMGViYmExOWE5OTdhMmQ5YjNmIn0sIkNBUEUiOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNTNiMWEwZGZjYmFlOTUzY2RlYjZmMmMyYmY2YmY3OTk0MzIzOWIxMzcyNzgwZGE0NGJjYmIyOTI3MzEzMWRhIn19fQ==\"}]}},display:{Lore:[0:\"§8Furniture\",1:\"\",2:\"§7This cosmetic bookcase adds\",3:\"§7atmosphere to any build\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fBookcase\"},ExtraAttributes:{id:\"BOOKCASE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bookcase\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bookcase\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This cosmetic bookcase adds\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"atmosphere to any build\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BOOKCASE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "",
-    "§7This cosmetic bookcase adds",
-    "§7atmosphere to any build",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This cosmetic bookcase adds\",\"color\":\"gray\"}",
+    "{\"text\":\"atmosphere to any build\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "BOOKCASE",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bookcase",
     "https://wiki.hypixel.net/Bookcase"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

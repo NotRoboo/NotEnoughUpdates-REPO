@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Talbot (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8a053db1-2736-2df1-a628-2f1e6c44fa5e\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVlNzhlNGI4ZTk4MGZiODY4YzdkOGJjNWI4YTlhZmQ1MjJlNjVhZmRlNWQ0NWRlMGRkNzU1MDhlYTVkOTE3OGQifX19\"}]},Name:\"8a053db1-2736-2df1-a628-2f1e6c44fa5e\"},display:{Lore:[0:\"§7Only appears while the\",1:\"§eMayor Finnegan §7is active.\",2:\"§7The Mayor needs the Perk\",3:\"§ePelt-pocalypse§7.\"],Name:\"§9Talbot (NPC)\"},ExtraAttributes:{id:\"TALBOT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Talbot (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Talbot (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Only appears while the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mayor Finnegan \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"is active.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"The Mayor needs the Perk\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pelt-pocalypse\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"TALBOT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Only appears while the",
-    "§eMayor Finnegan §7is active.",
-    "§7The Mayor needs the Perk",
-    "§ePelt-pocalypse§7."
+    "{\"text\":\"Only appears while the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mayor Finnegan \",\"color\":\"yellow\"},{\"text\":\"is active.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"The Mayor needs the Perk\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pelt-pocalypse\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}"
   ],
   "internalname": "TALBOT_NPC",
   "clickcommand": "",
@@ -58,5 +58,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Talbot",
     "https://wiki.hypixel.net/Talbot"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

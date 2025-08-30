@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Dark Cacao Truffle",
-  "nbttag": "{ExtraAttributes:{id:\"DARK_CACAO_TRUFFLE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1a2826e4-2ef7-3a38-abff-fb8b6d213cce\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjYxMDEwNCwKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI5ZGIzNzNjYWRiZWMxOTEyYTlhYjM4NmQzMWNlYjNlMGNkNGQ2YTY0ZjIyMjQyNjU4OGEzYjJlYjMxZWQyOSIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Consume to boost your §6☘ Global\",1:\"§6Fortune §7for §a60m§7.\",2:\"\",3:\"§7Keep this item in your inventory to\",4:\"§7increase the bonus up to §6+30☘\",5:\"§6Global Fortune§7, at which point the\",6:\"§7item §c§oevolves§7!\",7:\"\",8:\"§7Current Bonus: §6+0☘ Global Fortune\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Dark Cacao Truffle\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Dark Cacao Truffle\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dark Cacao Truffle\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consume to boost your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"☘ Global\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fortune \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"60m\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Keep this item in your inventory to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"increase the bonus up to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30☘\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Global Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\", at which point the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"item \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"evolves\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":true},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Current Bonus: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+0☘ Global Fortune\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DARK_CACAO_TRUFFLE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjYxMDEwNCwKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI5ZGIzNzNjYWRiZWMxOTEyYTlhYjM4NmQzMWNlYjNlMGNkNGQ2YTY0ZjIyMjQyNjU4OGEzYjJlYjMxZWQyOSIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Consume to boost your §6☘ Global",
-    "§6Fortune §7for §a60m§7.",
-    "",
-    "§7Keep this item in your inventory to",
-    "§7increase the bonus up to §6+30☘",
-    "§6Global Fortune§7, at which point the",
-    "§7item §c§oevolves§7!",
-    "",
-    "§7Current Bonus: §6+0☘ Global Fortune",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consume to boost your \",\"color\":\"gray\"},{\"text\":\"☘ Global\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fortune \",\"color\":\"gold\"},{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"60m\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Keep this item in your inventory to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"increase the bonus up to \",\"color\":\"gray\"},{\"text\":\"+30☘\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Global Fortune\",\"color\":\"gold\"},{\"text\":\", at which point the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"item \",\"color\":\"gray\"},{\"text\":\"evolves\",\"color\":\"red\",\"italic\":true},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Current Bonus: \",\"color\":\"gray\"},{\"text\":\"+0☘ Global Fortune\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "DARK_CACAO_TRUFFLE",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dark_Cacao_Truffle",
     "https://wiki.hypixel.net/Dark_Cacao_Truffle"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:golden_carrot",
-  "displayname": "§fGolden Carrot",
-  "nbttag": "{ExtraAttributes:{id:\"GOLDEN_CARROT\"},HideFlags:254,ItemModel:\"minecraft:golden_carrot\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fGolden Carrot\"}}",
+  "displayname": "{\"text\":\"Golden Carrot\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_carrot\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Golden Carrot\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLDEN_CARROT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GOLDEN_CARROT",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "GOLD_NUGGET:1",
     "C2": "GOLD_NUGGET:1",
     "C3": "GOLD_NUGGET:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

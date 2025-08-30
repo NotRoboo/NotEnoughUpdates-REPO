@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Nether Wart Minion XII",
-  "nbttag": "{ExtraAttributes:{id:\"NETHER_WARTS_GENERATOR_12\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1eace9bb-8b57-35ea-90ca-9cfe9ca83b33\",Properties:{textures:[0:{Name:\"textures\",Signature:\"AYmBOcA4L/TILvv1kEdTZm4qAj30ABzY0LthVV5Lrphael4g0OY0HAgTrnTZIQiMo16uhg2gn4LXF+SYmN8BhYbtMf+KQkaUIu9oycbCKyqjpc6moCUn8CkOoOm50Gm41/Op/9BvTAhfN67WWrVVWSSWbz6FA/1/rZ2PvksTYAGoW6oIpCCmdTn4suN1lI2N8G3pDESE2fPS8OE7ovbdZakN7ev2fsQVV7bIUCejBOZ8oDoL3OIfMBtxQbgl4sAhF2KoWNGGYgRn+XXPB5RPB+Wa0TQAvvBtwU5PXv2e1I8BlMf5K7jhKdGa3nJzRVla6k9T1yWgyd7KvkYfjXmHHMy6nAg1nQ7COOkCTuOk2kcfC3fsnw1AI5jDJNXKexFgLkwWUXZwT3QJOJV9f1lmD01Xho7HqhNNOso/N9yf857DQZZ1FhGZi2wMXWqEX26cuDWMfAw4HnIkkqup46pWQTpzOxXvwpwioQkh3Bkz1eooeJ6wg7TF0Xtkxd3oXgbr3RcDMKoX6FCOOy0z59n3Am8sV7WnVlOIfFlZ7ZJVTJ+iA+/N24vQuBLAzOhWPvCz9lvSrSwLNgfKZumtqDjJXZeKm+kHd0eHhPOhp9H2SapHe3SwS/ew/7yDk23UTr5RAk8V5UmpEd/uTEE2jfDdqEPPXrrZbEqqU/dCU3B8MFk=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTQ1MDYwMTAxMiwKICAicHJvZmlsZUlkIiA6ICI3ZjU2ZjY1MDI2NjY0ZmM1OWFjNWYyYjVjMTNlZGY3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXhBbnRvbnkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg4M2Q0ZDJiNzI0MGVmN2Y0NzUwZWE1YTFmN2M1ZWQ5NTExM2Y5MmQwZDIwODlmYTM4NzE3ZDNkN2VmYzQzOCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and harvesting nether\",2:\"§7warts. Requires soul sand nearby so\",3:\"§7nether warts can be planted. Minions\",4:\"§7also work when you are offline!\",5:\"\",6:\"§7Time Between Actions: §a27s\",7:\"§7Max Storage: §e960\",8:\"§7Resources Generated: §b0\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Nether Wart Minion XII\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Nether Wart Minion XII\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nether Wart Minion XII\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and harvesting nether\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"warts. Requires soul sand nearby so\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"nether warts can be planted. Minions\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"also work when you are offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"27s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"960\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NETHER_WARTS_GENERATOR_12\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTQ1MDYwMTAxMiwKICAicHJvZmlsZUlkIiA6ICI3ZjU2ZjY1MDI2NjY0ZmM1OWFjNWYyYjVjMTNlZGY3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXhBbnRvbnkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg4M2Q0ZDJiNzI0MGVmN2Y0NzUwZWE1YTFmN2M1ZWQ5NTExM2Y5MmQwZDIwODlmYTM4NzE3ZDNkN2VmYzQzOCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and harvesting nether",
-    "§7warts. Requires soul sand nearby so",
-    "§7nether warts can be planted. Minions",
-    "§7also work when you are offline!",
-    "",
-    "§7Time Between Actions: §a27s",
-    "§7Max Storage: §e960",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and harvesting nether\",\"color\":\"gray\"}",
+    "{\"text\":\"warts. Requires soul sand nearby so\",\"color\":\"gray\"}",
+    "{\"text\":\"nether warts can be planted. Minions\",\"color\":\"gray\"}",
+    "{\"text\":\"also work when you are offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"27s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"960\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "NETHER_WARTS_GENERATOR_12",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Nether_Wart_Minion",
     "https://wiki.hypixel.net/Nether_Wart_Minion_XII"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

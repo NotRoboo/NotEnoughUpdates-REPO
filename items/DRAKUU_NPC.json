@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Drakuu (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a94da853-7926-2b75-9da0-8ab60dbdd8b9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MjM1NDA1MDAwNywKICAicHJvZmlsZUlkIiA6ICIwMGZiNTRiOWI4NDA0YTA0YTViMmJhMzBlYzBlYTAxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrbGxveWQ3MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMGNkNjI2YmFmMTYzY2ZkNGZlNzY4ZjQ3NTNmODBkNTBkZDExOTc3MDBlNGMzYTJkNTg1MGNmNzliZWIwOTQ3IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"\"],Name:\"§9Drakuu (NPC)\"},ExtraAttributes:{id:\"DRAKUU_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Drakuu (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Drakuu (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"DRAKUU_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "DRAKUU_NPC",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Drakuu",
     "https://wiki.hypixel.net/Drakuu"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

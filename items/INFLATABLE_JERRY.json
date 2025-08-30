@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:spawn_egg",
-  "displayname": "§fInflatable Jerry",
-  "nbttag": "{ExtraAttributes:{id:\"INFLATABLE_JERRY\"},HideFlags:254,ItemModel:\"minecraft:villager_spawn_egg\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§7May it be a light to you in dark\",3:\"§7places, when all other lights go out.\",4:\"\",5:\"§cDungeons only!\",6:\"\",7:\"§f§lCOMMON DUNGEON ITEM\"],Name:\"§fInflatable Jerry\"}}",
-  "damage": 120,
+  "itemid": "minecraft:villager_spawn_egg",
+  "displayname": "{\"text\":\"Inflatable Jerry\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:villager_spawn_egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Inflatable Jerry\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"May it be a light to you in dark\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"places, when all other lights go out.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Dungeons only!\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON DUNGEON ITEM\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"INFLATABLE_JERRY\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "",
-    "§7May it be a light to you in dark",
-    "§7places, when all other lights go out.",
-    "",
-    "§cDungeons only!",
-    "",
-    "§f§lCOMMON DUNGEON ITEM"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"May it be a light to you in dark\",\"color\":\"gray\"}",
+    "{\"text\":\"places, when all other lights go out.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Dungeons only!\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON DUNGEON ITEM\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "INFLATABLE_JERRY",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Inflatable_Jerry",
     "https://wiki.hypixel.net/Inflatable_Jerry"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

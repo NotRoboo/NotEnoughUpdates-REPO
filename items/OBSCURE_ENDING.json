@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Obscure Ending",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8ba55f9a-7776-3391-9174-216823bbfa8f\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2Mzk1OTUxNDUxNywKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M1MDQ5YjlhNTU2MzQyMjZiOWNiYmEzZmI3NjllZWU5ZmNiMjUyNWFhZGZkOTg5NjMwNDllMzgyMGZlMjVmZWIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7§7Darkened by shadow.\",1:\"\",2:\"§8§l* §8Soulbound §8§l*\",3:\"§9§lRARE\"],Name:\"§9Obscure Ending\"},ExtraAttributes:{id:\"OBSCURE_ENDING\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Obscure Ending\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Obscure Ending\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Darkened by shadow.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"OBSCURE_ENDING\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7Darkened by shadow.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§9§lRARE"
+    "{\"text\":\"Darkened by shadow.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "OBSCURE_ENDING",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Obscure_Ending",
     "https://wiki.hypixel.net/Obscure_Ending"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

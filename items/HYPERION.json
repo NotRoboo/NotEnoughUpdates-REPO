@@ -1,25 +1,25 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§6Hyperion",
-  "nbttag": "{ExtraAttributes:{id:\"HYPERION\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d715\",1:\"§7Damage: §c+310\",2:\"§7Strength: §c+150\",3:\"§7Intelligence: §a+450\",4:\"§7Ferocity: §a+30\",5:\" §8[✎] [⚔]\",6:\"\",7:\"§7Deals §c+50% §7damage to §8☠ Wither §7mobs.\",8:\"§7Grants §c+1 ❁ Damage §7and §a+2 §b✎\",9:\"§bIntelligence §7per §cCatacombs §7level.\",10:\"\",11:\"§eRight-click to use your class ability!\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires The Catacombs Floor VII Completion.\",15:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Hyperion\"}}",
+  "displayname": "{\"text\":\"Hyperion\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hyperion\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"715\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+310\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+450\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ferocity: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[✎] [⚔]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"☠ Wither \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"mobs.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1 ❁ Damage \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"✎\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"per \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Catacombs \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"level.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to use your class ability!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires The Catacombs Floor VII Completion.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY DUNGEON SWORD\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HYPERION\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d715",
-    "§7Damage: §c+310",
-    "§7Strength: §c+150",
-    "§7Intelligence: §a+450",
-    "§7Ferocity: §a+30",
-    " §8[✎] [⚔]",
-    "",
-    "§7Deals §c+50% §7damage to §8☠ Wither §7mobs.",
-    "§7Grants §c+1 ❁ Damage §7and §a+2 §b✎",
-    "§bIntelligence §7per §cCatacombs §7level.",
-    "",
-    "§eRight-click to use your class ability!",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires The Catacombs Floor VII Completion.",
-    "§6§lLEGENDARY DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"715\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+310\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+150\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+450\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ferocity: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[✎] [⚔]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deals \",\"color\":\"gray\"},{\"text\":\"+50% \",\"color\":\"red\"},{\"text\":\"damage to \",\"color\":\"gray\"},{\"text\":\"☠ Wither \",\"color\":\"dark_gray\"},{\"text\":\"mobs.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+1 ❁ Damage \",\"color\":\"red\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"+2 \",\"color\":\"green\"},{\"text\":\"✎\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence \",\"color\":\"aqua\"},{\"text\":\"per \",\"color\":\"gray\"},{\"text\":\"Catacombs \",\"color\":\"red\"},{\"text\":\"level.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to use your class ability!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires The Catacombs Floor VII Completion.\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY DUNGEON SWORD\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "HYPERION",
   "clickcommand": "viewrecipe",
@@ -41,5 +41,8 @@
     "C2": "GIANT_FRAGMENT_LASER:1",
     "C3": "GIANT_FRAGMENT_LASER:1"
   },
-  "parent": "NECRON_BLADE"
+  "parent": "NECRON_BLADE",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

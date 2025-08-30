@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:diamond_pickaxe",
-  "displayname": "§dChipper McPickaxe (Rift NPC)",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"\"],Name:\"§dChipper McPickaxe (Rift NPC)\"},ExtraAttributes:{id:\"CHIPPER_MCPICKAXE_RIFT_NPC\"}}",
+  "displayname": "{\"text\":\"Chipper McPickaxe (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chipper McPickaxe (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"CHIPPER_MCPICKAXE_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "CHIPPER_MCPICKAXE_RIFT_NPC",
   "clickcommand": "",
@@ -23,5 +23,8 @@
     }
   ],
   "crafttext": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

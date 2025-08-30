@@ -1,23 +1,26 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§fEnchanted Book",
-  "nbttag": "{ExtraAttributes:{enchantments:{scuba:4},id:\"SCUBA;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Scuba 4\",1:\"§7Grants §9+4❍ Pressure Resistance§7.\",2:\"\",3:\"§7Applicable on: §9Armor\",4:\"\",5:\"§7Use this on an item in an Anvil to\",6:\"§7apply it!\",7:\"\",8:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Book\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:enchanted_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Book\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Scuba 4\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4❍ Pressure Resistance\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applicable on: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Armor\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Use this on an item in an Anvil to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"apply it!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"enchantments\":\"{scuba:4\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§9Scuba 4",
-    "§7Grants §9+4❍ Pressure Resistance§7.",
-    "",
-    "§7Applicable on: §9Armor",
-    "",
-    "§7Use this on an item in an Anvil to",
-    "§7apply it!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Scuba 4\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+4❍ Pressure Resistance\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applicable on: \",\"color\":\"gray\"},{\"text\":\"Armor\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Use this on an item in an Anvil to\",\"color\":\"gray\"}",
+    "{\"text\":\"apply it!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SCUBA;4",
   "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 3.1.0-dev+mc1.21.5+g4907900",
   "infoType": "",
-  "info": []
+  "info": [],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

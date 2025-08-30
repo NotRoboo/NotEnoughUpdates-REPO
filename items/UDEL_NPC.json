@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Udel (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d056a51f-b747-58ff-a077-742f603205ab\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQwYzI1ZmQ5ZDMyZTEyMDRhMWQzMmU1ZDk1YTJmMWNmYTA5NTI1YThmOThlMWRlZWY1YjJhM2M3N2Y5OGE4YyJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Scoop (NPC)\"},ExtraAttributes:{id:\"SCOOP_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Udel (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Udel (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"SCOOP_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "UDEL_NPC",
   "clickcommand": "viewrecipe",
@@ -118,5 +118,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Udel",
     "https://wiki.hypixel.net/Udel"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

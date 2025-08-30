@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Cryopowder Shard",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"da2663ce-b695-3613-b909-7f0da5b06cc6\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ2NDg3NGRmNDUyYzFkNzE3ZWRkZDBmYjNiODQ4MjAyYWQxNTU3MTI0NWFmNmZhZGUyZWNmNTE0ZjNjODBiYiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Combine in an anvil with\",1:\"§7§5Frosty the Snow Blaster §7to\",2:\"§7craft §6Frosty the Howitzer§7.\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Cryopowder Shard\"},ExtraAttributes:{id:\"CRYOPOWDER_SHARD\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Cryopowder Shard\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cryopowder Shard\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combine in an anvil with\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Frosty the Snow Blaster \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"craft \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Frosty the Howitzer\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CRYOPOWDER_SHARD\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Combine in an anvil with",
-    "§7§5Frosty the Snow Blaster §7to",
-    "§7craft §6Frosty the Howitzer§7.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Combine in an anvil with\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Frosty the Snow Blaster \",\"color\":\"dark_purple\"},{\"text\":\"to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"craft \",\"color\":\"gray\"},{\"text\":\"Frosty the Howitzer\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "CRYOPOWDER_SHARD",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cryopowder_Shard",
     "https://wiki.hypixel.net/Cryopowder_Shard"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:chainmail_leggings",
-  "displayname": "§aSquire Leggings",
-  "nbttag": "{ExtraAttributes:{id:\"SQUIRE_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:chainmail_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+30\",1:\"§7Defense: §a+30\",2:\"\",3:\"§8This item can be reforged!\",4:\"§4❣ §cRequires §aCombat Skill 4§c.\",5:\"§a§lUNCOMMON LEGGINGS\"],Name:\"§aSquire Leggings\"}}",
+  "displayname": "{\"text\":\"Squire Leggings\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:chainmail_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Squire Leggings\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 4\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON LEGGINGS\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SQUIRE_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+30",
-    "§7Defense: §a+30",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 4§c.",
-    "§a§lUNCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 4\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON LEGGINGS\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SQUIRE_LEGGINGS",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Squire_Leggings",
     "https://wiki.hypixel.net/Squire_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

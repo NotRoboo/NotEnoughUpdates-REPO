@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§fJungle Biome Stick",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Allows you to change the biome\",1:\"§7at the targeted block on your\",2:\"§7private island to §bJungle§7.\",3:\"§7Right-click to use, or\",4:\"§7Left-click to change the radius\",5:\"§7it effects.\",6:\"\",7:\"§7Selected Radius: §b3\",8:\"\",9:\"§f§lCOMMON\"],Name:\"§fJungle Biome Stick\"},ExtraAttributes:{id:\"JUNGLE_BIOME_STICK\"}}",
+  "displayname": "{\"text\":\"Jungle Biome Stick\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jungle Biome Stick\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Allows you to change the biome\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"at the targeted block on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"private island to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Jungle\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Right-click to use, or\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Left-click to change the radius\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"it effects.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Selected Radius: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"JUNGLE_BIOME_STICK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Allows you to change the biome",
-    "§7at the targeted block on your",
-    "§7private island to §bJungle§7.",
-    "§7Right-click to use, or",
-    "§7Left-click to change the radius",
-    "§7it effects.",
-    "",
-    "§7Selected Radius: §b3",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Allows you to change the biome\",\"color\":\"gray\"}",
+    "{\"text\":\"at the targeted block on your\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"private island to \",\"color\":\"gray\"},{\"text\":\"Jungle\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Right-click to use, or\",\"color\":\"gray\"}",
+    "{\"text\":\"Left-click to change the radius\",\"color\":\"gray\"}",
+    "{\"text\":\"it effects.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Selected Radius: \",\"color\":\"gray\"},{\"text\":\"3\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "",
@@ -34,5 +34,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Jungle_Biome_Stick",
     "https://wiki.hypixel.net/Jungle_Biome_Stick"
   ],
-  "crafttext": "Requires: Jungle Wood V"
+  "crafttext": "Requires: Jungle Wood V",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

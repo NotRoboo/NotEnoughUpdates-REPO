@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:bread",
-  "displayname": "§fEnchanted Bread",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_BREAD\"},HideFlags:254,ItemModel:\"minecraft:bread\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7Increases the speed of\",3:\"§7your minion by §a5%§7 for 12\",4:\"§7hours!\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§fEnchanted Bread\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Bread\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:bread\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Bread\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Increases the speed of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your minion by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" for 12\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"hours!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_BREAD\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7Increases the speed of",
-    "§7your minion by §a5%§7 for 12",
-    "§7hours!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Increases the speed of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your minion by \",\"color\":\"gray\"},{\"text\":\"5%\",\"color\":\"green\"},{\"text\":\" for 12\",\"color\":\"gray\"}]}",
+    "{\"text\":\"hours!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_BREAD",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "WHEAT:10",
     "C2": "WHEAT:10",
     "C3": "WHEAT:10"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

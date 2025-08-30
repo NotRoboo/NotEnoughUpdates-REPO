@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Soulflow Engine",
-  "nbttag": "{ExtraAttributes:{id:\"SOULFLOW_ENGINE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b5047a0a-5b46-3c18-8e23-9208799bc889\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMTkxOTQ1MTM2OCwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IwNDMzZjFjMjI3OTYwOGY3YmQyY2VjZWI5OGNkMTc1Y2JhYWRjM2Y2Mjk5YWUzY2NhZTI1N2RjMjJhNTViMiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade.\",2:\"\",3:\"§7Placing it in a minion will reduce the\",4:\"§7minion's output by §c50%§7, but it will\",5:\"§7start generating §bSoulflow §7items.\",6:\"\",7:\"§7While equipped on a Voidling minion,\",8:\"§7output is increased by §53% §7per minion\",9:\"§7level.\",10:\"\",11:\"§4☠ §cRequires §5Enderman Slayer 5§c.\",12:\"§5§lEPIC\"],Name:\"§5Soulflow Engine\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Soulflow Engine\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Soulflow Engine\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be used as a minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"upgrade.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Placing it in a minion will reduce the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"minion\u0027s output by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\", but it will\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"start generating \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Soulflow \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"items.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"While equipped on a Voidling minion,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"output is increased by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3% \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"per minion\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"level.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Enderman Slayer 5\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7This item can be used as a minion",
-    "§7upgrade.",
-    "",
-    "§7Placing it in a minion will reduce the",
-    "§7minion's output by §c50%§7, but it will",
-    "§7start generating §bSoulflow §7items.",
-    "",
-    "§7While equipped on a Voidling minion,",
-    "§7output is increased by §53% §7per minion",
-    "§7level.",
-    "",
-    "§4☠ §cRequires §5Enderman Slayer 5§c.",
-    "§5§lEPIC"
+    "{\"text\":\"This item can be used as a minion\",\"color\":\"gray\"}",
+    "{\"text\":\"upgrade.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Placing it in a minion will reduce the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"minion\u0027s output by \",\"color\":\"gray\"},{\"text\":\"50%\",\"color\":\"red\"},{\"text\":\", but it will\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"start generating \",\"color\":\"gray\"},{\"text\":\"Soulflow \",\"color\":\"aqua\"},{\"text\":\"items.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"While equipped on a Voidling minion,\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"output is increased by \",\"color\":\"gray\"},{\"text\":\"3% \",\"color\":\"dark_purple\"},{\"text\":\"per minion\",\"color\":\"gray\"}]}",
+    "{\"text\":\"level.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Enderman Slayer 5\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SOULFLOW_ENGINE",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
     "C2": "LESSER_SOULFLOW_ENGINE:1",
     "C3": "REFINED_TITANIUM:6"
   },
-  "slayer_req": "EMAN_5"
+  "slayer_req": "EMAN_5",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

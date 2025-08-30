@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:sponge",
-  "displayname": "§aPlumber\u0027s Sponge",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Instructions:\",1:\" §e1. §7Place on water.\",2:\" §e2. §7Drains other water.\",3:\" §e3. §7Double-bill client.\",4:\"\",5:\"§8Thanks Plumber Joe!\",6:\"\",7:\"§eAlso works with lava and floating liquids!\",8:\"\",9:\"§a§lUNCOMMON\"],Name:\"§aPlumber\u0027s Sponge\"},ExtraAttributes:{id:\"PLUMBER_SPONGE\"}}",
+  "displayname": "{\"text\":\"Plumber\u0027s Sponge\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:sponge\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Plumber\u0027s Sponge\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Instructions:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"1. \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"Place on water.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"2. \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"Drains other water.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"3. \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"Double-bill client.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Thanks Plumber Joe!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Also works with lava and floating liquids!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PLUMBER_SPONGE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Instructions:",
-    " §e1. §7Place on water.",
-    " §e2. §7Drains other water.",
-    " §e3. §7Double-bill client.",
-    "",
-    "§8Thanks Plumber Joe!",
-    "",
-    "§eAlso works with lava and floating liquids!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Instructions:\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"1. \",\"color\":\"yellow\"},{\"text\":\"Place on water.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"2. \",\"color\":\"yellow\"},{\"text\":\"Drains other water.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"3. \",\"color\":\"yellow\"},{\"text\":\"Double-bill client.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Thanks Plumber Joe!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Also works with lava and floating liquids!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "PLUMBER_SPONGE",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Plumber%27s_Sponge",
     "https://wiki.hypixel.net/Plumber%27s_Sponge"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

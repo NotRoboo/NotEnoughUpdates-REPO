@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3Snapping Turtle (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"64174160-196f-3ae8-8004-fd0356215d09\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc0MjMyOTU1ODgzMywKICAicHJvZmlsZUlkIiA6ICJkYzA5MjA4MTM2ZDg0Y2Y5OWIwMzFmMGI1NzM4OTdmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLRUlUSF8wMzAyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjZjZhYmZiYzc3OGIxZmFjMGQ2ZGIxNjFlNzQ0MzhhMWI0NjgzMjNiNmY5M2ZhNGQ2NTBlNDJjZDBmNTgwMmEiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c35,000\",1:\"\",2:\"§9§lRARE\"],Name:\"§3Snapping Turtle (Sea Creature)\"},ExtraAttributes:{id:\"SNAPPING_TURTLE_SC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Snapping Turtle (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Snapping Turtle (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"35,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SNAPPING_TURTLE_SC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§c❤ Health§8: §c35,000",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"35,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SNAPPING_TURTLE_SC",
   "clickcommand": "viewrecipe",
@@ -63,5 +63,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

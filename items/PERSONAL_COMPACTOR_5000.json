@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:dropper",
-  "displayname": "§9Personal Compactor 5000",
-  "nbttag": "{ExtraAttributes:{id:\"PERSONAL_COMPACTOR_5000\"},HideFlags:254,ItemModel:\"minecraft:dropper\",display:{Lore:[0:\"§7Automatically turns certain materials\",1:\"§7in your inventory into their\",2:\"§7enchanted form.\",3:\"\",4:\"§eRight-click to configure!\",5:\"\",6:\"§8Does not grant Carpentry XP!\",7:\"\",8:\"§9§lRARE ACCESSORY\"],Name:\"§9Personal Compactor 5000\"},ench:[]}",
+  "displayname": "{\"text\":\"Personal Compactor 5000\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:dropper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Personal Compactor 5000\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Automatically turns certain materials\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in your inventory into their\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enchanted form.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to configure!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Does not grant Carpentry XP!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE ACCESSORY\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PERSONAL_COMPACTOR_5000\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Automatically turns certain materials",
-    "§7in your inventory into their",
-    "§7enchanted form.",
-    "",
-    "§eRight-click to configure!",
-    "",
-    "§8Does not grant Carpentry XP!",
-    "",
-    "§9§lRARE ACCESSORY"
+    "{\"text\":\"Automatically turns certain materials\",\"color\":\"gray\"}",
+    "{\"text\":\"in your inventory into their\",\"color\":\"gray\"}",
+    "{\"text\":\"enchanted form.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to configure!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Does not grant Carpentry XP!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE ACCESSORY\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "PERSONAL_COMPACTOR_5000",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "ENCHANTED_REDSTONE_BLOCK:2",
     "C2": "PERSONAL_COMPACTOR_4000:1",
     "C3": "ENCHANTED_REDSTONE_BLOCK:2"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

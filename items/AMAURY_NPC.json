@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Amaury (NPC)",
-  "nbttag": "{ExtraAttributes:{id:\"AMAURY_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"6a4fbbf1-9d47-26ce-ba9f-e0348f202e80\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNmMWE0ZjAwY2JiMGIwNGE3ODBmNDcyMGZkYzVjY2M3NjgyOGExMjliZTk1MGQ1NmU1Zjc5YjU0NDUzZmU1MSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI2YTRmYmJmMTlkNDcyNmNlYmE5ZmUwMzQ4ZjIwMmU4MCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUwNjkzNzI2MzI4fQ\u003d\u003d\"}]},hypixelPopulated:1B},display:{Lore:[0:\"\"],Name:\"§9Amaury (NPC)\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Amaury (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Amaury (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"AMAURY_NPC\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNmMWE0ZjAwY2JiMGIwNGE3ODBmNDcyMGZkYzVjY2M3NjgyOGExMjliZTk1MGQ1NmU1Zjc5YjU0NDUzZmU1MSIsIm1ldGFkYXRhIjp7fX19LCJwcm9maWxlSWQiOiI2YTRmYmJmMTlkNDcyNmNlYmE5ZmUwMzQ4ZjIwMmU4MCIsInByb2ZpbGVOYW1lIjoibmVhODkiLCJpc1B1YmxpYyI6dHJ1ZSwidGltZXN0YW1wIjoxNzUwNjkzNzI2MzI4fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "AMAURY_NPC",
   "clickcommand": "",
@@ -61,5 +61,8 @@
       ],
       "result": "CANOPY_BOOTS:1"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

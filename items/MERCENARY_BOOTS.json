@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§f§f§9Mercenary Boots",
-  "nbttag": "{overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+30\",1:\"§7Defense: §a+30\",2:\"\",3:\"§6Full Set Bonus: Death Tax\",4:\"§7Earn §6+5 coins §7and heal §c20❤\",5:\"§c§7each kill.\",6:\"§8Only against level 10+ mobs!\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§4❣ §cRequires §aCombat Skill 8§c.\",10:\"§9§lRARE BOOTS\"],color:14744823,Name:\"§f§f§9Mercenary Boots\"},ExtraAttributes:{color:\"224:252:247\",originTag:\"SHOP_PURCHASE\",id:\"MERCENARY_BOOTS\"},AttributeModifiers:[]}",
+  "displayname": "{\"text\":\"Mercenary Boots\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mercenary Boots\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Death Tax\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Earn \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5 coins \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"and heal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"each kill.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Only against level 10+ mobs!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 8\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE BOOTS\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"224:252:247\",\"originTag\":\"SHOP_PURCHASE\",\"id\":\"MERCENARY_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+30",
-    "§7Defense: §a+30",
-    "",
-    "§6Full Set Bonus: Death Tax",
-    "§7Earn §6+5 coins §7and heal §c20❤",
-    "§c§7each kill.",
-    "§8Only against level 10+ mobs!",
-    "",
-    "§7§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 8§c.",
-    "§9§lRARE BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Death Tax\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Earn \",\"color\":\"gray\"},{\"text\":\"+5 coins \",\"color\":\"gold\"},{\"text\":\"and heal \",\"color\":\"gray\"},{\"text\":\"20❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"each kill.\",\"color\":\"gray\"}",
+    "{\"text\":\"Only against level 10+ mobs!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 8\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE BOOTS\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MERCENARY_BOOTS",
   "crafttext": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mercenary_Boots",
     "https://wiki.hypixel.net/Mercenary_Boots"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

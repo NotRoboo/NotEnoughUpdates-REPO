@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§5Moldfin§r §l§6§LGOLD",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ac55b180-04e7-3716-85a6-2d5b636a888c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTIzNzk4ODkxMSwKICAicHJvZmlsZUlkIiA6ICJmMTYwZTMxMzJjYWM0YjRiOWM5OTk2NDQ1OGIxOWM0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb255S3VuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUxMTNlMzg2OTM3YThlZDI1ZmU0MGZkYmU2Yjg4NzEyYWU3MzQxMWY2YTBhZTkyNzQyMGZmY2I5ZDc3ODIyNmIiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Found in Mystic Marsh.\",1:\"\",2:\"§7Bring this to §fOdger §7at the\",3:\"§7top of the Blazing Volcano.\",4:\"\",5:\"§8§l* §8Soulbound §8§l*\",6:\"§5§lEPIC TROPHY FISH\"],Name:\"§f§f§5Moldfin§r §l§6§LGOLD\"},ExtraAttributes:{id:\"MOLDFIN_GOLD\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"Moldfin\",\"color\":\"dark_purple\"},{\"text\":\" \"},{\"text\":\"§LGOLD\",\"color\":\"gold\"}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Moldfin\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"§LGOLD\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Found in Mystic Marsh.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring this to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Odger \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"at the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"top of the Blazing Volcano.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC TROPHY FISH\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MOLDFIN_GOLD\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Found in Mystic Marsh.",
-    "",
-    "§7Bring this to §fOdger §7at the",
-    "§7top of the Blazing Volcano.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§5§lEPIC TROPHY FISH"
+    "{\"text\":\"Found in Mystic Marsh.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring this to \",\"color\":\"gray\"},{\"text\":\"Odger \",\"color\":\"white\"},{\"text\":\"at the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"top of the Blazing Volcano.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"EPIC TROPHY FISH\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "MOLDFIN_GOLD",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Trophy_Fishes",
     "https://wiki.hypixel.net/Trophy_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

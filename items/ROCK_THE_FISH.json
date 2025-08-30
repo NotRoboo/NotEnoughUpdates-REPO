@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:fish",
-  "displayname": "§f§f§cRock the Fish",
-  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§7§7Fish ore.\",1:\"\",2:\"§c§lSPECIAL\"],Name:\"§f§f§cRock the Fish\"},ExtraAttributes:{id:\"ROCK_THE_FISH\"},AttributeModifiers:[]}",
+  "displayname": "{\"text\":\"Rock the Fish\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rock the Fish\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Fish ore.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ROCK_THE_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7Fish ore.",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Fish ore.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "ROCK_THE_FISH",
   "crafttext": "",
@@ -23,5 +23,8 @@
       "cost": "ENCHANTED_EMERALD:6",
       "result": "ROCK_THE_FISH"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:iron_hoe",
-  "displayname": "§aBasic Gardening Hoe",
-  "nbttag": "{ExtraAttributes:{id:\"BASIC_GARDENING_HOE\"},HideFlags:254,ItemModel:\"minecraft:iron_hoe\",Unbreakable:1B,display:{Lore:[0:\"§7Farming Fortune: §a+5\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON HOE\"],Name:\"§aBasic Gardening Hoe\"}}",
+  "displayname": "{\"text\":\"Basic Gardening Hoe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_hoe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Basic Gardening Hoe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Farming Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON HOE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BASIC_GARDENING_HOE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Farming Fortune: §a+5",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON HOE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Farming Fortune: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON HOE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "BASIC_GARDENING_HOE",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Basic_Gardening_Hoe",
     "https://wiki.hypixel.net/Basic_Gardening_Hoe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

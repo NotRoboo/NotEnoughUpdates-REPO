@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5Souls Rebound",
-  "nbttag": "{ExtraAttributes:{id:\"SOULS_REBOUND\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+450\",1:\"\",2:\"§7Your arrows mark enemies you hit\",3:\"§7for §b5 §7seconds. Marked Enemies don't\",4:\"§7take damage from you, once the mark\",5:\"§7expires the target will receive a\",6:\"§7burst of damage equal to all the\",7:\"§7damage dealt during the mark\",8:\"§7increased by up to §c10%§7.\",9:\"\",10:\"§4This item is Arachnal Ж!\",11:\"\",12:\"§8This item can be reforged!\",13:\"§5§lEPIC BOW\"],Name:\"§5Souls Rebound\"}}",
+  "displayname": "{\"text\":\"Souls Rebound\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Souls Rebound\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+450\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Your arrows mark enemies you hit\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"seconds. Marked Enemies don\u0027t\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"take damage from you, once the mark\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"expires the target will receive a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"burst of damage equal to all the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"damage dealt during the mark\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"increased by up to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item is Arachnal Ж!\\\",\\\"color\\\":\\\"dark_red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC BOW\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SOULS_REBOUND\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+450",
-    "",
-    "§7Your arrows mark enemies you hit",
-    "§7for §b5 §7seconds. Marked Enemies don't",
-    "§7take damage from you, once the mark",
-    "§7expires the target will receive a",
-    "§7burst of damage equal to all the",
-    "§7damage dealt during the mark",
-    "§7increased by up to §c10%§7.",
-    "",
-    "§4This item is Arachnal Ж!",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+450\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Your arrows mark enemies you hit\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"aqua\"},{\"text\":\"seconds. Marked Enemies don\u0027t\",\"color\":\"gray\"}]}",
+    "{\"text\":\"take damage from you, once the mark\",\"color\":\"gray\"}",
+    "{\"text\":\"expires the target will receive a\",\"color\":\"gray\"}",
+    "{\"text\":\"burst of damage equal to all the\",\"color\":\"gray\"}",
+    "{\"text\":\"damage dealt during the mark\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"increased by up to \",\"color\":\"gray\"},{\"text\":\"10%\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item is Arachnal Ж!\",\"color\":\"dark_red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC BOW\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SOULS_REBOUND",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
     "C1": "",
     "C2": "ENCHANTED_GHAST_TEAR:64",
     "C3": "SOUL_STRING:64"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

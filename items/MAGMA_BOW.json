@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5Magma Bow",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+100\",1:\"§7Strength: §c+100\",2:\"\",3:\"§7Consumes 1 §6Magma Cream§7 from\",4:\"§7the Inventory or Quiver to\",5:\"§7§ax2§7 damage per shot.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§5§lEPIC BOW\"],Name:\"§5Magma Bow\"},ExtraAttributes:{id:\"MAGMA_BOW\"}}",
+  "displayname": "{\"text\":\"Magma Bow\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Magma Bow\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consumes 1 \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Magma Cream\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\" from\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"the Inventory or Quiver to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"x2\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" damage per shot.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC BOW\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MAGMA_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+100",
-    "§7Strength: §c+100",
-    "",
-    "§7Consumes 1 §6Magma Cream§7 from",
-    "§7the Inventory or Quiver to",
-    "§7§ax2§7 damage per shot.",
-    "",
-    "§7§8This item can be reforged!",
-    "§5§lEPIC BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consumes 1 \",\"color\":\"gray\"},{\"text\":\"Magma Cream\",\"color\":\"gold\"},{\"text\":\" from\",\"color\":\"gray\"}]}",
+    "{\"text\":\"the Inventory or Quiver to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"x2\",\"color\":\"green\"},{\"text\":\" damage per shot.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC BOW\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "MAGMA_BOW",
   "clickcommand": "",
@@ -22,5 +22,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Magma_Bow",
     "https://wiki.hypixel.net/Magma_Bow"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§9Shimmering Light Tunic",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+130\",1:\"§7Defense: §a+120\",2:\"§7Intelligence: §a+120\",3:\" §8[§7⚔§8]\",4:\"\",5:\"§8Tiered Bonus: Shimmer (0/4)\",6:\"§7Increases all §aExperience Orbs\",7:\"§a§7gained from monsters and ores\",8:\"§7by §a200%§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",12:\"§9§lRARE CHESTPLATE\"],color:459547,Name:\"§9Shimmering Light Tunic\"},ExtraAttributes:{id:\"SHIMMERING_LIGHT_TUNIC\"}}",
+  "displayname": "{\"text\":\"Shimmering Light Tunic\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shimmering Light Tunic\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+130\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"⚔\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Shimmer (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases all \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Experience Orbs\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"gained from monsters and ores\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"200%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE CHESTPLATE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SHIMMERING_LIGHT_TUNIC\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+130",
-    "§7Defense: §a+120",
-    "§7Intelligence: §a+120",
-    " §8[§7⚔§8]",
-    "",
-    "§8Tiered Bonus: Shimmer (0/4)",
-    "§7Increases all §aExperience Orbs",
-    "§a§7gained from monsters and ores",
-    "§7by §a200%§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 22§c.",
-    "§9§lRARE CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+130\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+120\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+120\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"⚔\",\"color\":\"gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Shimmer (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases all \",\"color\":\"gray\"},{\"text\":\"Experience Orbs\",\"color\":\"green\"}]}",
+    "{\"text\":\"gained from monsters and ores\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"200%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE CHESTPLATE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "ENCHANTED_MYCELIUM_CUBE:1",
@@ -37,5 +37,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Shimmering_Light_Tunic",
     "https://wiki.hypixel.net/Shimmering_Light_Tunic"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

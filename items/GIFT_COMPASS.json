@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:compass",
-  "displayname": "§aGift Compass",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7When held, points towards the\",1:\"§7nearest unopened present while\",2:\"§7in Jerry\u0027s Workshop.\",3:\"\",4:\"§8§l* §8Co-op Soulbound §8§l*\",5:\"§a§lUNCOMMON\"],Name:\"§aGift Compass\"},ExtraAttributes:{id:\"GIFT_COMPASS\"}}",
+  "displayname": "{\"text\":\"Gift Compass\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:compass\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gift Compass\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"When held, points towards the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"nearest unopened present while\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in Jerry\u0027s Workshop.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GIFT_COMPASS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7When held, points towards the",
-    "§7nearest unopened present while",
-    "§7in Jerry\u0027s Workshop.",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§a§lUNCOMMON"
+    "{\"text\":\"When held, points towards the\",\"color\":\"gray\"}",
+    "{\"text\":\"nearest unopened present while\",\"color\":\"gray\"}",
+    "{\"text\":\"in Jerry\u0027s Workshop.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "GIFT_COMPASS",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Gift_Compass",
     "https://wiki.hypixel.net/Gift_Compass"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

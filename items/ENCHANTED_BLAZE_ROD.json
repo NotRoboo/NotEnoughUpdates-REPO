@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:blaze_rod",
-  "displayname": "§aEnchanted Blaze Rod",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_BLAZE_ROD\"},HideFlags:254,ItemModel:\"minecraft:blaze_rod\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Blaze Rod\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Blaze Rod\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:blaze_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Blaze Rod\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_BLAZE_ROD\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "§8Collection Item",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_BLAZE_ROD",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "",
     "C2": "ENCHANTED_BLAZE_POWDER:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

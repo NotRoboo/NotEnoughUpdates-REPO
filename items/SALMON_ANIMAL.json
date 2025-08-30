@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aSalmon (Animal)",
-  "nbttag": "{ExtraAttributes:{id:\"SALMON_ANIMAL\"},HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5ODMxNTUyMjUzNCwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNGQwMDE1ODliODZjMjJjZjI0ZjE2MThmZTdlZmVmMTI5MzJhYTkxNDhiNWU0ZmM2ZmY0YTYxNGI5OTBhZTEyIgogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Mob Types: §2⸙ Woodland§7, §9⚓ Aquatic§7, §a☮ Animal\"],Name:\"§aSalmon (Animal)\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Salmon (Animal)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Salmon (Animal)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mob Types: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"⸙ Woodland\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"⚓ Aquatic\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"☮ Animal\\\",\\\"color\\\":\\\"green\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"SALMON_ANIMAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Mob Types: §2⸙ Woodland§7, §9⚓ Aquatic§7, §a☮ Animal"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mob Types: \",\"color\":\"gray\"},{\"text\":\"⸙ Woodland\",\"color\":\"dark_green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"⚓ Aquatic\",\"color\":\"blue\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"☮ Animal\",\"color\":\"green\"}]}"
   ],
   "internalname": "SALMON_ANIMAL",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
   ],
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Salmon"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

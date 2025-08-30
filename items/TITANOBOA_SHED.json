@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Titanoboa Shed",
-  "nbttag": "{ExtraAttributes:{id:\"TITANOBOA_SHED\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0314a8fd-bd32-3492-87f2-98db0ce50875\",Properties:{textures:[0:{Name:\"textures\",Signature:\"wjCRw0Wnxq499gfDtYPUb2QvRqP1dodxFKUzqy/6oT+qaTzP90sEn6C6g19gGD0k2Wjyga1AfMaKV2tczhQDeSJzOyuWXLX205GdVpgSgLLFKtRw6ceGs3iDUPopl1M5lcXfxKdEctOgHsgoukl1IpqQ90EySTcRN50dAbWbIO0n8fwbFDepoKC3uVRpsHQHJdlkI/1C2D08L1UE8DNJAMR4y//OSn4nSMbk2QKGlAyc0R0xOvj7M2V52TbHbwPBWIXX64OebxaIqVLk4WNfKr/9InxXp56MCPPdxy/T9721nO4fs2eVwbBGm6PaDTsAuMbJk9AMPmclWmQg51e2gl3Ax2qiGfjrQNszfpouiaHrO5993pCjc2qWBd7B/pUwFVuZIGCAtW5X5x75IBjz81+6FwNwqdbnY+GCfSQazGVC3VEovxbwBu8/UIH4Fh/WGx/6nbqfgCujnglA11GtCFak+1RDA4ZB69AUov8tWwYvbfj7e4iqAqX15uavTYJLFlG2xYh6zg5FV9vU7JsuAHcJDEqcCKHI6HK0cILVw3WqKlVZiNKUeFtld7Xh64ORsBE+8LKYMdj+9dYLGhT9VuFU3SJpSYC8XdFHWkibdibbGBXtM0seu9iwv6yI0pW+6lb8cjXdU9auPLL1DJq9RrQUdyzGPeni69rpiyXbufM=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczOTg4ODEyOTA3OCwKICAicHJvZmlsZUlkIiA6ICI1MzgyNzM1OGIzOTc0ZmJiOTg0OTY5MWM5Yzg3NTA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPdmVyQmlnYm95MTIzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y3ZDMzNzkxM2QzMDFjZTM1MmQzN2EyOGZlMTNhN2M2ZmFlNDA4MzBmMjAzZmEyNWZiNTFiZDkzMWIzMzdiMWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7A massive set of discarded snake\",1:\"§7skin. There's so much of it that it's\",2:\"§7hard to lift.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§6Titanoboa Shed\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Titanoboa Shed\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Titanoboa Shed\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A massive set of discarded snake\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"skin. There\u0027s so much of it that it\u0027s\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"hard to lift.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TITANOBOA_SHED\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTczOTg4ODEyOTA3OCwKICAicHJvZmlsZUlkIiA6ICI1MzgyNzM1OGIzOTc0ZmJiOTg0OTY5MWM5Yzg3NTA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPdmVyQmlnYm95MTIzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y3ZDMzNzkxM2QzMDFjZTM1MmQzN2EyOGZlMTNhN2M2ZmFlNDA4MzBmMjAzZmEyNWZiNTFiZDkzMWIzMzdiMWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7A massive set of discarded snake",
-    "§7skin. There's so much of it that it's",
-    "§7hard to lift.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"A massive set of discarded snake\",\"color\":\"gray\"}",
+    "{\"text\":\"skin. There\u0027s so much of it that it\u0027s\",\"color\":\"gray\"}",
+    "{\"text\":\"hard to lift.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "TITANOBOA_SHED",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Titanoboa_Shed",
     "https://wiki.hypixel.net/Titanoboa_Shed"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

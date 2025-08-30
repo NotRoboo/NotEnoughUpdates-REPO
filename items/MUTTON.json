@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:mutton",
-  "displayname": "§fMutton",
-  "nbttag": "{ExtraAttributes:{id:\"MUTTON\"},HideFlags:254,ItemModel:\"minecraft:mutton\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fMutton\"}}",
+  "displayname": "{\"text\":\"Mutton\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:mutton\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mutton\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MUTTON\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MUTTON",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://wiki.hypixel.net/Raw_Mutton"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

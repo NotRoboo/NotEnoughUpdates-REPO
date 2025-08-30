@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aMagma Cube (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"35f02923-7bec-3869-9ef5-b42a4794cac8\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0\"}]}},display:{Lore:[0:\"§7The Magma Cube is a monster in Skyblock. They spawn\",1:\"§7naturally in the Blazing Fortress or by using a Magma\",2:\"§7Cube Minion. The higher level they are, the more Magma\",3:\"§7Cream they drop. \",4:\"\",5:\"§c❤ Health§8: §c400,000\"],Name:\"§aMagma Cube (Monster)\"},ExtraAttributes:{id:\"MAGMA_CUBE_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Magma Cube (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Magma Cube (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Magma Cube is a monster in Skyblock. They spawn\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"naturally in the Blazing Fortress or by using a Magma\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Cube Minion. The higher level they are, the more Magma\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Cream they drop. \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"400,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"MAGMA_CUBE_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Magma Cube is a monster in Skyblock. They spawn",
-    "§7naturally in the Blazing Fortress or by using a Magma",
-    "§7Cube Minion. The higher level they are, the more Magma",
-    "§7Cream they drop. ",
-    "",
-    "§c❤ Health§8: §c400,000"
+    "{\"text\":\"The Magma Cube is a monster in Skyblock. They spawn\",\"color\":\"gray\"}",
+    "{\"text\":\"naturally in the Blazing Fortress or by using a Magma\",\"color\":\"gray\"}",
+    "{\"text\":\"Cube Minion. The higher level they are, the more Magma\",\"color\":\"gray\"}",
+    "{\"text\":\"Cream they drop. \",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"400,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "MAGMA_CUBE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -109,5 +109,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

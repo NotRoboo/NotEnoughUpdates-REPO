@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:map",
-  "displayname": "§fEmpty Map",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fEmpty Map\"},ExtraAttributes:{id:\"MAP\"}}",
+  "displayname": "{\"text\":\"Empty Map\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:map\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Empty Map\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MAP\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MAP",
   "modver": "2.1.0-REL",
@@ -24,5 +24,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Empty_Map"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

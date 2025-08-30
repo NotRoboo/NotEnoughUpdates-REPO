@@ -1,28 +1,31 @@
 {
   "internalname": "STONE_CHESTPLATE",
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§9Stone Chestplate",
+  "displayname": "{\"text\":\"Stone Chestplate\",\"color\":\"blue\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Gear Score: §d130\",1:\"§7Health: §a+130\",2:\"\",3:\"§7While in Dungeons, players\",4:\"§7within §e10 §7blocks of you take\",5:\"§7§c5% §7less damage. This range\",6:\"§7is extended to §e30 §7blocks\",7:\"§7while playing as a Tank.\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§9§lRARE DUNGEON CHESTPLATE\"],color:14277081,Name:\"§9Stone Chestplate\"},ExtraAttributes:{color:\"217:217:217\",id:\"STONE_CHESTPLATE\"}}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Stone Chestplate\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"130\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+130\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"While in Dungeons, players\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"within \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10 \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"blocks of you take\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"5% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"less damage. This range\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"is extended to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"30 \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"blocks\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"while playing as a Tank.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE DUNGEON CHESTPLATE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"217:217:217\",\"id\":\"STONE_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "modver": "2.1.1-PRE",
   "lore": [
-    "§7Gear Score: §d130",
-    "§7Health: §a+130",
-    "",
-    "§7While in Dungeons, players",
-    "§7within §e10 §7blocks of you take",
-    "§7§c5% §7less damage. This range",
-    "§7is extended to §e30 §7blocks",
-    "§7while playing as a Tank.",
-    "",
-    "§7§8This item can be reforged!",
-    "§9§lRARE DUNGEON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"130\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+130\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"While in Dungeons, players\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"within \",\"color\":\"gray\"},{\"text\":\"10 \",\"color\":\"yellow\"},{\"text\":\"blocks of you take\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"5% \",\"color\":\"red\"},{\"text\":\"less damage. This range\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"is extended to \",\"color\":\"gray\"},{\"text\":\"30 \",\"color\":\"yellow\"},{\"text\":\"blocks\",\"color\":\"gray\"}]}",
+    "{\"text\":\"while playing as a Tank.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE DUNGEON CHESTPLATE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Stone_Chestplate",
     "https://wiki.hypixel.net/Stone_Chestplate"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

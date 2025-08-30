@@ -1,25 +1,25 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cMinos Hunter (Mythological Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7b125998-b7e8-3516-bb12-5998b7e8f516\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIwZmM5NDIyMjIzODdhYjkwOTg4NjE3OTI4MTU1MDRjMGYwMjNkOWU1ZmYwZTJmZDk0YmVmYjIxNWZlZjNjYyJ9fX0\"}]}},display:{Lore:[0:\"§7The Minos Hunter is the most common mob in\",1:\"§7the Mythological Ritual. It is relatively\",2:\"§7easy to kill if you have the right weapons,\",3:\"§7though it can be challenging for early-game\",4:\"§7players. It will attack with a sword, dealing\",5:\"§7damage and knockback if you get hit. It\u0027s the\",6:\"§7only Mythological Creature that can be damaged\",7:\"§7without having a Griffin Pet.\",8:\"\",9:\"§c❤ Health§8:\",10:\"§8[§8No Pet§8/§fGriffin§8] §c2,000 ❤\",11:\"§8[§aGriffin§8] §c8,000 ❤\",12:\"§8[§9Griffin§8/§5Griffin§8] §c100,000 ❤\",13:\"§8[§6Griffin§8] §c500,000 ❤\",14:\"\",15:\"§f§lCOMMON\"],Name:\"§cMinos Hunter (Mythological Creature)\"},ExtraAttributes:{id:\"MINOS_HUNTER_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Minos Hunter (Mythological Creature)\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Minos Hunter (Mythological Creature)\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Minos Hunter is the most common mob in\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the Mythological Ritual. It is relatively\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"easy to kill if you have the right weapons,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"though it can be challenging for early-game\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"players. It will attack with a sword, dealing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"damage and knockback if you get hit. It\u0027s the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"only Mythological Creature that can be damaged\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"without having a Griffin Pet.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\":\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"No Pet\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"8,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"100,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"500,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7The Minos Hunter is the most common mob in",
-    "§7the Mythological Ritual. It is relatively",
-    "§7easy to kill if you have the right weapons,",
-    "§7though it can be challenging for early-game",
-    "§7players. It will attack with a sword, dealing",
-    "§7damage and knockback if you get hit. It\u0027s the",
-    "§7only Mythological Creature that can be damaged",
-    "§7without having a Griffin Pet.",
-    "",
-    "§c❤ Health§8:",
-    "§8[§8No Pet§8/§fGriffin§8] §c2,000 ❤",
-    "§8[§aGriffin§8] §c8,000 ❤",
-    "§8[§9Griffin§8/§5Griffin§8] §c100,000 ❤",
-    "§8[§6Griffin§8] §c500,000 ❤",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"The Minos Hunter is the most common mob in\",\"color\":\"gray\"}",
+    "{\"text\":\"the Mythological Ritual. It is relatively\",\"color\":\"gray\"}",
+    "{\"text\":\"easy to kill if you have the right weapons,\",\"color\":\"gray\"}",
+    "{\"text\":\"though it can be challenging for early-game\",\"color\":\"gray\"}",
+    "{\"text\":\"players. It will attack with a sword, dealing\",\"color\":\"gray\"}",
+    "{\"text\":\"damage and knockback if you get hit. It\u0027s the\",\"color\":\"gray\"}",
+    "{\"text\":\"only Mythological Creature that can be damaged\",\"color\":\"gray\"}",
+    "{\"text\":\"without having a Griffin Pet.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\":\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"No Pet\",\"color\":\"dark_gray\"},{\"text\":\"/\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"white\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"2,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"green\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"8,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"blue\"},{\"text\":\"/\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"dark_purple\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"100,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"gold\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"500,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MINOS_HUNTER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -97,5 +97,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

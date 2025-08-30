@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aWither Skeleton (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Keepers of the Crimson Isle.\",1:\"\",2:\"§c❤ Health§8: §c300,000\"],Name:\"§aWither Skeleton (Monster)\"},ExtraAttributes:{id:\"WITHER_SKELETON_MONSTER\"}}",
-  "damage": 1,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Wither Skeleton (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wither Skeleton (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Keepers of the Crimson Isle.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"300,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"WITHER_SKELETON_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Keepers of the Crimson Isle.",
-    "",
-    "§c❤ Health§8: §c300,000"
+    "{\"text\":\"Keepers of the Crimson Isle.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"300,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "WITHER_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
@@ -81,5 +81,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

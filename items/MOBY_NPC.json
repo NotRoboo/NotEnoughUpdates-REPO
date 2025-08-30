@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Moby (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4e18839d-6ff6-27c3-ae70-f715f3403b71\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzliNjg4NTQ1ZTMyNmU0ZjFmZDFjNDA1ODczZDljNWI4YmJlNjlkZDI2ODg5Y2UzZGVhMTBiNGQ5ZTNkN2I0ZGIifX19\"}]},Name:\"4e18839d-6ff6-27c3-ae70-f715f3403b71\"},display:{Lore:[0:\"\"],Name:\"§9Moby (NPC)\"},ExtraAttributes:{id:\"MOBY_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Moby (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Moby (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"MOBY_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "MOBY_NPC",
   "clickcommand": "",
@@ -83,5 +83,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Moby",
     "https://wiki.hypixel.net/Moby"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

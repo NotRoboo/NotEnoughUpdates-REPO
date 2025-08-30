@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:wheat_seeds",
-  "displayname": "§fSeeds",
-  "nbttag": "{ExtraAttributes:{id:\"SEEDS\"},HideFlags:254,ItemModel:\"minecraft:wheat_seeds\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fSeeds\"}}",
+  "displayname": "{\"text\":\"Seeds\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:wheat_seeds\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Seeds\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SEEDS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SEEDS",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://wiki.hypixel.net/Seeds"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Bingo Relic",
-  "nbttag": "{ExtraAttributes:{id:\"BINGO_RELIC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"8cfc5b9a-e4c7-345d-84e1-9d47b836a55f\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzUxNWFjZjRhNmFjNjk4NzM2ZTU0ZGVmMGJjNzgxNDNjMTQ0NDk5NzhlNzUwYWZiYjhkN2FkZTBhZGYwZWYwMCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7B.I.N.G.O.\",1:\"\",2:\"§cRequires §6Ⓑ Bingo Rank IV§c!\",3:\"§5§lEPIC ACCESSORY\"],Name:\"§5Bingo Relic\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bingo Relic\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bingo Relic\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"B.I.N.G.O.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Ⓑ Bingo Rank IV\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC ACCESSORY\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BINGO_RELIC\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzUxNWFjZjRhNmFjNjk4NzM2ZTU0ZGVmMGJjNzgxNDNjMTQ0NDk5NzhlNzUwYWZiYjhkN2FkZTBhZGYwZWYwMCJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7B.I.N.G.O.",
-    "",
-    "§cRequires §6Ⓑ Bingo Rank IV§c!",
-    "§5§lEPIC ACCESSORY"
+    "{\"text\":\"B.I.N.G.O.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Ⓑ Bingo Rank IV\",\"color\":\"gold\"},{\"text\":\"!\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC ACCESSORY\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "BINGO_RELIC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bingo_Relic",
     "https://wiki.hypixel.net/Bingo_Relic"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

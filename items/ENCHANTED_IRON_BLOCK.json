@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:iron_block",
-  "displayname": "§9Enchanted Iron Block",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_IRON_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:iron_block\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE ORE\"],Name:\"§9Enchanted Iron Block\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Iron Block\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Iron Block\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE ORE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_IRON_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§9§lRARE ORE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE ORE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_IRON_BLOCK",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "ENCHANTED_IRON:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

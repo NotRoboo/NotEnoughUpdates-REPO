@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§9Ender Bow",
-  "nbttag": "{ExtraAttributes:{id:\"ENDER_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+60\",1:\"\",2:\"§6Ability: Ender Warp  §e§lLEFT CLICK\",3:\"§7Shoots an Ender Pearl. Upon landing\",4:\"§7you deal damage to all Monsters in a\",5:\"§a8§7 block radius for §a10%§7 of their §c❤\",6:\"§cHealth§7.\",7:\"§8Mana Cost: §350\",8:\"§8Cooldown: §a5s\",9:\"\",10:\"§8This item can be reforged!\",11:\"§9§lRARE BOW\"],Name:\"§9Ender Bow\"}}",
+  "displayname": "{\"text\":\"Ender Bow\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ender Bow\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Ender Warp \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"LEFT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Shoots an Ender Pearl. Upon landing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"you deal damage to all Monsters in a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"8\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" block radius for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" of their \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"50\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"5s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE BOW\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENDER_BOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+60",
-    "",
-    "§6Ability: Ender Warp  §e§lLEFT CLICK",
-    "§7Shoots an Ender Pearl. Upon landing",
-    "§7you deal damage to all Monsters in a",
-    "§a8§7 block radius for §a10%§7 of their §c❤",
-    "§cHealth§7.",
-    "§8Mana Cost: §350",
-    "§8Cooldown: §a5s",
-    "",
-    "§8This item can be reforged!",
-    "§9§lRARE BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+60\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Ender Warp \",\"color\":\"gold\"},{\"text\":\"LEFT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Shoots an Ender Pearl. Upon landing\",\"color\":\"gray\"}",
+    "{\"text\":\"you deal damage to all Monsters in a\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"8\",\"color\":\"green\"},{\"text\":\" block radius for \",\"color\":\"gray\"},{\"text\":\"10%\",\"color\":\"green\"},{\"text\":\" of their \",\"color\":\"gray\"},{\"text\":\"❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"50\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"5s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE BOW\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENDER_BOW",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "",
     "C2": "ENCHANTED_ENDER_PEARL:4",
     "C3": "STRING:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

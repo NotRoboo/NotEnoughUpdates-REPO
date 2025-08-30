@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Pesthunter Artifact",
-  "nbttag": "{ExtraAttributes:{id:\"PESTHUNTER_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"bb129489-bc31-395b-9bb1-57e56afec963\",Properties:{textures:[0:{Name:\"textures\",Signature:\"NQdP2/jozDipoRrJhFWGoW+Bibr+TSPfTUvRYwphXG4scJz7+C0Du3r/C6p9i2NgquBSCAxGKKwpr4NCMLPglmEGljXXNJxoTL2W6pjp6VvwXCxiR/7P3Hmq/Qfva9M9eC8pnjQHiCO3DQXhW02F40Kt6GxGeUJOW8xk/dWkqajsGAqrKZ840rm0nM8zulhFDCQ+H4/gu87U7MzwnFYiUGh9fPc7KNDI1QJXZUyiDo0Uy9xSJIIugrIxnRRRBgdVLR+6jRUHqjYX2OvKytXjLS7vgtjvbZRopmlnfNLu+sBbvc2XC3VxxGSYH5rmJFVEDqf2qBNBK4MqFduAxcjhEjJAN5+0bUf0lEEEknMy5O2iPCHiYqb9aNnKkXLlWxok5YVurvh0Th1iW6OXT0T/f1WkBRXTZry7Md8bzVXKyB1RsCC+aj2mxICI1K5OsZCb4WdM7nDYQuCFdOazIstm7RX/0KXoCLRFI+vEu8utS1dREsXPJs/TeDjYLaUStMNHLKUGoEj2DqtQSoHc2Jd74r5eMHRJk99O8SXBRAdrQm7wbIXCPBMgzRVGL3pjDjICPZ3doPkAPiNLIw48ZRDHN2uwMgnsJVtShz5VNilSiEi9qD1mTSJxvi+KMWPqpzur2cAJVur2/+e+8rwR95hdLBiXpXaGJ07h+lbhtU0Qx0c=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5OTU4Njk4NjYzMiwKICAicHJvZmlsZUlkIiA6ICJkMjdhNDM3YmI2OWQ0N2E0OTY4NjU1OGFhYzA4NzA1OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYWx5bmthYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iM2FlZmQ4YmNhMjM2ZDMxNTkyMGQ1M2JlYTFmZTQ4OTJjOGYxZjMwOGQ2ZDU3NjMwNjc3ZjA1OWEzYjAyOTNmIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Bonus Pest Chance: §a+60%\",1:\"\",2:\"§7Can be used to enable or disable\",3:\"§7your §2ൠ Bonus Pest Chance §7stat.\",4:\"\",5:\"§7Enabled: §cOff\",6:\"§eRight-click to toggle!\",7:\"\",8:\"§5§lEPIC ACCESSORY\"],Name:\"§5Pesthunter Artifact\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Pesthunter Artifact\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pesthunter Artifact\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bonus Pest Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Can be used to enable or disable\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"ൠ Bonus Pest Chance \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"stat.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Enabled: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Off\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"Right-click to toggle!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC ACCESSORY\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PESTHUNTER_ARTIFACT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5OTU4Njk4NjYzMiwKICAicHJvZmlsZUlkIiA6ICJkMjdhNDM3YmI2OWQ0N2E0OTY4NjU1OGFhYzA4NzA1OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYWx5bmthYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iM2FlZmQ4YmNhMjM2ZDMxNTkyMGQ1M2JlYTFmZTQ4OTJjOGYxZjMwOGQ2ZDU3NjMwNjc3ZjA1OWEzYjAyOTNmIgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Bonus Pest Chance: §a+60%",
-    "",
-    "§7Can be used to enable or disable",
-    "§7your §2ൠ Bonus Pest Chance §7stat.",
-    "",
-    "§7Enabled: §cOff",
-    "§eRight-click to toggle!",
-    "",
-    "§5§lEPIC ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bonus Pest Chance: \",\"color\":\"gray\"},{\"text\":\"+60%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Can be used to enable or disable\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your \",\"color\":\"gray\"},{\"text\":\"ൠ Bonus Pest Chance \",\"color\":\"dark_green\"},{\"text\":\"stat.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Enabled: \",\"color\":\"gray\"},{\"text\":\"Off\",\"color\":\"red\"}]}",
+    "{\"text\":\"Right-click to toggle!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC ACCESSORY\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PESTHUNTER_ARTIFACT",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pesthunter_Artifact",
     "https://wiki.hypixel.net/Pesthunter_Artifact"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§fdoR gnihsiF",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fdoR gnihsiF\"},ExtraAttributes:{id:\"MIRRORED_FISHING_ROD\"}}",
+  "displayname": "{\"text\":\"doR gnihsiF\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:fishing_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"doR gnihsiF\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MIRRORED_FISHING_ROD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "MIRRORED_STICK:1",
@@ -23,5 +23,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Dor_Gnihsif"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

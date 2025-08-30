@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:golden_sword",
-  "displayname": "§fRogue Sword",
-  "nbttag": "{ExtraAttributes:{id:\"ROGUE_SWORD\"},HideFlags:254,ItemModel:\"minecraft:golden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§6Ability: Speed Boost  §e§lRIGHT CLICK\",3:\"§7Grants §f+100✦ Speed §7for §a30s§7.\",4:\"§8Mana Cost: §350\",5:\"§8Cooldown: §a5s\",6:\"\",7:\"§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§f§lCOMMON SWORD\"],Name:\"§fRogue Sword\"}}",
+  "displayname": "{\"text\":\"Rogue Sword\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rogue Sword\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Speed Boost \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100✦ Speed \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"30s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"50\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"5s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"COMMON SWORD\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ROGUE_SWORD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+20",
-    "",
-    "§6Ability: Speed Boost  §e§lRIGHT CLICK",
-    "§7Grants §f+100✦ Speed §7for §a30s§7.",
-    "§8Mana Cost: §350",
-    "§8Cooldown: §a5s",
-    "",
-    "§8This item can be reforged!",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§f§lCOMMON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Speed Boost \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+100✦ Speed \",\"color\":\"white\"},{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"30s\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"50\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"5s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"COMMON SWORD\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ROGUE_SWORD",
   "clickcommand": "",
@@ -30,5 +30,8 @@
       "cost": "EMERALD:120",
       "result": "ROGUE_SWORD"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

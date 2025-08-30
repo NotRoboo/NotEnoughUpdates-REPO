@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:melon_block",
-  "displayname": "§6Melon Barn Skin",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Consume this item to unlock the §6Melon\",1:\"§6Barn Skin §7on §aThe Garden§7!\",2:\"\",3:\"§eClick to consume!\",4:\"\",5:\"§6§lLEGENDARY COSMETIC\"],Name:\"§6Melon Barn Skin\"},ExtraAttributes:{id:\"MELON_BARN_SKIN\"}}",
+  "displayname": "{\"text\":\"Melon Barn Skin\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:melon_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Melon Barn Skin\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consume this item to unlock the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Melon\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Barn Skin \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY COSMETIC\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MELON_BARN_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7Consume this item to unlock the §6Melon",
-    "§6Barn Skin §7on §aThe Garden§7!",
-    "",
-    "§eClick to consume!",
-    "",
-    "§6§lLEGENDARY COSMETIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consume this item to unlock the \",\"color\":\"gray\"},{\"text\":\"Melon\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Barn Skin \",\"color\":\"gold\"},{\"text\":\"on \",\"color\":\"gray\"},{\"text\":\"The Garden\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY COSMETIC\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "MELON_BARN_SKIN",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Melon_Barn_Skin",
     "https://wiki.hypixel.net/Melon_Barn_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:leather",
-  "displayname": "§aMoogma Pelt",
-  "nbttag": "{ExtraAttributes:{id:\"MOOGMA_PELT\"},HideFlags:254,ItemModel:\"minecraft:leather\",display:{Lore:[0:\"§7§oThe bottom of the volcano is filled\",1:\"§7§owith it, Moogmas keep on moulting. It's\",2:\"§7§oa problem.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aMoogma Pelt\"},ench:[]}",
+  "displayname": "{\"text\":\"Moogma Pelt\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:leather\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Moogma Pelt\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The bottom of the volcano is filled\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"with it, Moogmas keep on moulting. It\u0027s\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"a problem.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MOOGMA_PELT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§oThe bottom of the volcano is filled",
-    "§7§owith it, Moogmas keep on moulting. It's",
-    "§7§oa problem.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"The bottom of the volcano is filled\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"with it, Moogmas keep on moulting. It\u0027s\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"a problem.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "MOOGMA_PELT",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Moogma_Pelt",
     "https://wiki.hypixel.net/Moogma_Pelt"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

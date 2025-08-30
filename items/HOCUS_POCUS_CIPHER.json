@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Hocus-Pocus Cipher",
-  "nbttag": "{ExtraAttributes:{id:\"HOCUS_POCUS_CIPHER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"11607c21-8730-3935-90f7-60271635c167\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2OTc1YWY3MDcyNGQ2YTQ0ZmQ1OTQ2ZTYwYjI3MTc3MzdkZmRiNTQ1YjRkYWIxODkzMzUxYTljOWRkMTgzYyJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7While in the rift:\",1:\" §a+65ф Rift Time\",2:\" §b+5✎ Intelligence\",3:\" §b+5⚡ Mana Regen\",4:\"\",5:\"§8This item §8§lCANNOT§8 be reforged!\",6:\"§5§kX§5 Rift-Transferable §5§kX\",7:\"§5§lEPIC ACCESSORY\"],Name:\"§5Hocus-Pocus Cipher\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Hocus-Pocus Cipher\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hocus-Pocus Cipher\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"While in the rift:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"+65ф Rift Time\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"+5✎ Intelligence\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"+5⚡ Mana Regen\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This item \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"CANNOT\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\" be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC ACCESSORY\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HOCUS_POCUS_CIPHER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2OTc1YWY3MDcyNGQ2YTQ0ZmQ1OTQ2ZTYwYjI3MTc3MzdkZmRiNTQ1YjRkYWIxODkzMzUxYTljOWRkMTgzYyJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7While in the rift:",
-    " §a+65ф Rift Time",
-    " §b+5✎ Intelligence",
-    " §b+5⚡ Mana Regen",
-    "",
-    "§8This item §8§lCANNOT§8 be reforged!",
-    "§5§kX§5 Rift-Transferable §5§kX",
-    "§5§lEPIC ACCESSORY"
+    "{\"text\":\"While in the rift:\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"+65ф Rift Time\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"+5✎ Intelligence\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"+5⚡ Mana Regen\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This item \",\"color\":\"dark_gray\"},{\"text\":\"CANNOT\",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\" be reforged!\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"EPIC ACCESSORY\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "HOCUS_POCUS_CIPHER",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hocus-Pocus_Cipher",
     "https://wiki.hypixel.net/Hocus-Pocus_Cipher"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

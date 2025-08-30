@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:golden_shovel",
-  "displayname": "§fGolden Shovel",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+15\",1:\"\",2:\"§f§lCOMMON SHOVEL\"],Name:\"§fGolden Shovel\"},ExtraAttributes:{id:\"GOLD_SPADE\"}}",
+  "displayname": "{\"text\":\"Golden Shovel\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_shovel\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Golden Shovel\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON SHOVEL\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLD_SPADE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+15",
-    "",
-    "§f§lCOMMON SHOVEL"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON SHOVEL\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GOLD_SPADE",
   "modver": "2.1.0-REL",
@@ -27,5 +27,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Golden_Shovel"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

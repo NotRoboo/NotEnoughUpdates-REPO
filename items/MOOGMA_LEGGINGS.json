@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§9Moogma Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Crit Damage: §c+15%\",1:\"§7Sea Creature Chance: §c+3%\",2:\"§7Health: §a+200\",3:\"§7Defense: §a+175\",4:\" §8[§8⚔§8] §8[§8☂§8]\",5:\"\",6:\"§7Damage taken by §cLava Sea\",7:\"§cCreatures §7is reduced by §a5% §7and\",8:\"§7damage dealt is increased by §c1.1x§7.\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§7§4❣ §cRequires §aFishing Skill 28§c.\",12:\"§9§lRARE LEGGINGS\"],color:13511724,Name:\"§9Moogma Leggings\"},ExtraAttributes:{id:\"MOOGMA_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Moogma Leggings\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Moogma Leggings\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+200\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+175\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"⚔\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"☂\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage taken by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Lava Sea\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Creatures \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"is reduced by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"damage dealt is increased by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1.1x\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Fishing Skill 28\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE LEGGINGS\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MOOGMA_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Crit Damage: §c+15%",
-    "§7Sea Creature Chance: §c+3%",
-    "§7Health: §a+200",
-    "§7Defense: §a+175",
-    " §8[§8⚔§8] §8[§8☂§8]",
-    "",
-    "§7Damage taken by §cLava Sea",
-    "§cCreatures §7is reduced by §a5% §7and",
-    "§7damage dealt is increased by §c1.1x§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 28§c.",
-    "§9§lRARE LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+15%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+3%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+200\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+175\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"⚔\",\"color\":\"dark_gray\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"☂\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage taken by \",\"color\":\"gray\"},{\"text\":\"Lava Sea\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Creatures \",\"color\":\"red\"},{\"text\":\"is reduced by \",\"color\":\"gray\"},{\"text\":\"5% \",\"color\":\"green\"},{\"text\":\"and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"damage dealt is increased by \",\"color\":\"gray\"},{\"text\":\"1.1x\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Fishing Skill 28\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE LEGGINGS\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MOOGMA_LEGGINGS",
   "crafttext": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Moogma_Leggings",
     "https://wiki.hypixel.net/Moogma_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

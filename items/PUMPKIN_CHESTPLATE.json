@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§fPumpkin Chestplate",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+14\",1:\"§7Defense: §a+14\",2:\"\",3:\"§6Full Set Bonus: Pumpkin Buff\",4:\"§7Reduce all taken damage by\",5:\"§7§a+10%§7 and deal §a+10%\",6:\"§a§7damage.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§f§lCOMMON CHESTPLATE\"],color:15575606,Name:\"§fPumpkin Chestplate\"},ExtraAttributes:{color:\"237:170:54\",id:\"PUMPKIN_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Pumpkin Chestplate\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pumpkin Chestplate\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+14\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+14\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Pumpkin Buff\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Reduce all taken damage by\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+10%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" and deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"damage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON CHESTPLATE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"237:170:54\",\"id\":\"PUMPKIN_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+14",
-    "§7Defense: §a+14",
-    "",
-    "§6Full Set Bonus: Pumpkin Buff",
-    "§7Reduce all taken damage by",
-    "§7§a+10%§7 and deal §a+10%",
-    "§a§7damage.",
-    "",
-    "§7§8This item can be reforged!",
-    "§f§lCOMMON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+14\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+14\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Pumpkin Buff\",\"color\":\"gold\"}",
+    "{\"text\":\"Reduce all taken damage by\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+10%\",\"color\":\"green\"},{\"text\":\" and deal \",\"color\":\"gray\"},{\"text\":\"+10%\",\"color\":\"green\"}]}",
+    "{\"text\":\"damage.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON CHESTPLATE\",\"color\":\"white\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "PUMPKIN:1",
@@ -34,5 +34,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Pumpkin_Chestplate",
     "https://wiki.hypixel.net/Pumpkin_Chestplate"
   ],
-  "crafttext": "Requires: Pumpkin II"
+  "crafttext": "Requires: Pumpkin II",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

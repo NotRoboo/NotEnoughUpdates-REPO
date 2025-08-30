@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:fish",
-  "displayname": "§cNope the Fish",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Why did we follow Shrimp...\",1:\"\",2:\"§8§l* §8Co-op Soulbound §8§l*\",3:\"§c§lSPECIAL\"],Name:\"§cNope the Fish\"},ExtraAttributes:{id:\"NOPE_THE_FISH\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Nope the Fish\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nope the Fish\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Why did we follow Shrimp...\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NOPE_THE_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Why did we follow Shrimp...",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§c§lSPECIAL"
+    "{\"text\":\"Why did we follow Shrimp...\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "NOPE_THE_FISH",
   "crafttext": "",
@@ -24,5 +24,8 @@
       "cost": "ENCHANTED_EMERALD:6",
       "result": "NOPE_THE_FISH"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

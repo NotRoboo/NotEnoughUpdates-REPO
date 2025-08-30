@@ -1,11 +1,11 @@
 {
   "itemid": "minecraft:flint",
-  "displayname": "§fPolished Pebble",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§8§l* §8Co-op Soulbound §8§l*\",1:\"§f§lCOMMON\"],Name:\"§fPolished Pebble\"},ExtraAttributes:{id:\"POLISHED_PEBBLE\"}}",
+  "displayname": "{\"text\":\"Polished Pebble\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:flint\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Polished Pebble\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"POLISHED_PEBBLE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§f§lCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POLISHED_PEBBLE",
   "crafttext": "",
@@ -18,9 +18,12 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:70",
-    "result": "POLISHED_PEBBLE"
+      "type": "trade",
+      "cost": "EMERALD:70",
+      "result": "POLISHED_PEBBLE"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

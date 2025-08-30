@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aJoydive (Animal)",
-  "nbttag": "{ExtraAttributes:{id:\"JOYDIVE_ANIMAL\"},HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMjYxNzE3NDg5NywKICAicHJvZmlsZUlkIiA6ICIyYThjZTE5ZWY3Mjg0NTBjYjY2YmEyNzNhNzVmNjI1MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJYRDROVDNfNjY2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZhNTk4YWY4YzQ4NTczYWQ3OTRmZDdlMjU4MThhMzU1YTk3OTNjMmE0Yzc5MWNiM2EyOWExNTIwNmE4Y2JkYzMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"§7The Joydive has a §a16% §7chance to spawn every Skyblock Hour.\",1:\"\",2:\"§7Mob Types: §2⸙ Woodland§7, §9⚓ Aquatic§7, §a☮ Animal\",3:\"§c❤ Health§8: §c200\"],Name:\"§aJoydive (Animal)\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Joydive (Animal)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Joydive (Animal)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The Joydive has a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"16% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance to spawn every Skyblock Hour.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mob Types: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"⸙ Woodland\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"⚓ Aquatic\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"☮ Animal\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"200\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"JOYDIVE_ANIMAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Joydive has a §a16% §7chance to spawn every Skyblock Hour.",
-    "",
-    "§7Mob Types: §2⸙ Woodland§7, §9⚓ Aquatic§7, §a☮ Animal",
-    "§c❤ Health§8: §c200"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The Joydive has a \",\"color\":\"gray\"},{\"text\":\"16% \",\"color\":\"green\"},{\"text\":\"chance to spawn every Skyblock Hour.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mob Types: \",\"color\":\"gray\"},{\"text\":\"⸙ Woodland\",\"color\":\"dark_green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"⚓ Aquatic\",\"color\":\"blue\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"☮ Animal\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"200\",\"color\":\"red\"}]}"
   ],
   "internalname": "JOYDIVE_ANIMAL",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

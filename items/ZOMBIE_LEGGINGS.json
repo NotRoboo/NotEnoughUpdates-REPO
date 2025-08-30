@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:diamond_leggings",
-  "displayname": "§5Zombie Leggings",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:diamond_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+160\",1:\"§7Defense: §a+30\",2:\"\",3:\"§6Full Set Bonus: Projectile Absorption §7(0/3)\",4:\"§7Heals the wearer for §a10§7 per second\",5:\"§7for §a5§7 seconds when hit by a\",6:\"§7projectile.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§5§lEPIC LEGGINGS\"],Name:\"§5Zombie Leggings\"}}",
+  "displayname": "{\"text\":\"Zombie Leggings\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie Leggings\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+160\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Projectile Absorption \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/3)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Heals the wearer for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" per second\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" seconds when hit by a\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"projectile.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC LEGGINGS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ZOMBIE_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+160",
-    "§7Defense: §a+30",
-    "",
-    "§6Full Set Bonus: Projectile Absorption §7(0/3)",
-    "§7Heals the wearer for §a10§7 per second",
-    "§7for §a5§7 seconds when hit by a",
-    "§7projectile.",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+160\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Projectile Absorption \",\"color\":\"gold\"},{\"text\":\"(0/3)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Heals the wearer for \",\"color\":\"gray\"},{\"text\":\"10\",\"color\":\"green\"},{\"text\":\" per second\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"5\",\"color\":\"green\"},{\"text\":\" seconds when hit by a\",\"color\":\"gray\"}]}",
+    "{\"text\":\"projectile.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC LEGGINGS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ZOMBIE_LEGGINGS",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "ENCHANTED_ROTTEN_FLESH:1",
     "C2": "",
     "C3": "ENCHANTED_ROTTEN_FLESH:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

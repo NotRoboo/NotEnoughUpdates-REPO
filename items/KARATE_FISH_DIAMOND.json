@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Karate Fish§r §b§lDIAMOND",
-  "nbttag": "{ExtraAttributes:{id:\"KARATE_FISH_DIAMOND\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2d29c4ca-22ec-36fd-b0e2-c077c13dabcb\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTIzNzYxMTYwNSwKICAicHJvZmlsZUlkIiA6ICIzNDkxZjJiOTdjMDE0MWE2OTM2YjFjMjJhMmEwMGZiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZXNzc3N1aGgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE1N2U2MmUzOTNmODBjZDRiYjIzMTA5YzdjODY5YjFmNjY2MjFjZWNjYWU0Yjc2MDFhZmIzMjY5MTIwMjk0ZCIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Found in Dojo.\",1:\"\",2:\"§7Bring this to §fOdger §7at the\",3:\"§7top of the Blazing Volcano.\",4:\"\",5:\"§8§l* §8Soulbound §8§l*\",6:\"§5§lEPIC TROPHY FISH\"],Name:\"§5Karate Fish§r §b§lDIAMOND\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"Karate Fish\",\"color\":\"dark_purple\"},{\"text\":\" \"},{\"text\":\"DIAMOND\",\"color\":\"aqua\",\"bold\":true}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Karate Fish\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"DIAMOND\\\",\\\"color\\\":\\\"aqua\\\",\\\"bold\\\":true}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Found in Dojo.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring this to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Odger \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"at the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"top of the Blazing Volcano.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC TROPHY FISH\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"KARATE_FISH_DIAMOND\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTIzNzYxMTYwNSwKICAicHJvZmlsZUlkIiA6ICIzNDkxZjJiOTdjMDE0MWE2OTM2YjFjMjJhMmEwMGZiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZXNzc3N1aGgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE1N2U2MmUzOTNmODBjZDRiYjIzMTA5YzdjODY5YjFmNjY2MjFjZWNjYWU0Yjc2MDFhZmIzMjY5MTIwMjk0ZCIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Found in Dojo.",
-    "",
-    "§7Bring this to §fOdger §7at the",
-    "§7top of the Blazing Volcano.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§5§lEPIC TROPHY FISH"
+    "{\"text\":\"Found in Dojo.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring this to \",\"color\":\"gray\"},{\"text\":\"Odger \",\"color\":\"white\"},{\"text\":\"at the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"top of the Blazing Volcano.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"EPIC TROPHY FISH\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "KARATE_FISH_DIAMOND",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Trophy_Fishes",
     "https://wiki.hypixel.net/Trophy_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

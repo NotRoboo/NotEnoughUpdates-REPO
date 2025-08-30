@@ -1,21 +1,21 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Spooky Sack",
-  "nbttag": "{ExtraAttributes:{id:\"LARGE_CANDY_SACK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b4561440-c97d-3c34-b539-4bea8e0516d4\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ZX79C+u3hwP9WjoQ88bZPPMmoBVT3IrsM/agd7cgdGxeJGIswesX6kn6xCiLyQZ3KSN+JJUqLlzMrq7U2YAA8zjfx7c7vBT6Q5r0ci2pj9rPQ3KaalXKo5t7AiEwEkCBUmr//firKp7PkM+aol3A4p/50+l+JasLdvbsnZQuX6pGNUrK2i0HcpcEXhWPaf8DdClYp+I1Wm2TYeYHqAPztMFU9xDLmUTrqaoogVPYQUUuDcvV8pXe7rphnldiP9lbUqyxcDWqc3D0t2WvqrUb4zsjtxGreimfNZCRcMPFShJHo2o7G5iwDJfQsd4qQf5//LI2UJKKp42ar4If3HeIxBbPGe6LeQSKJ5EJNJ6n2XI//pEVUMYnBmsh9i1MXOm8i2GoNUFHxan+YTB3fMtq+hkoWTE7Sbo+dBr1qUH2U0XcfyYsYh8q9wxAWHPCtSH7O1jfu58Aifu+wKTDwlOiJEB1OdSq96Q+8SQIIC6m2jGEmdE2HBnx4evh74nAEJtCmWqJyLx6+AJdsUfrDSmaiAeiEDlJ6b0hNS4Uwj+L09nJ9SlHAfKQceWMSvsFTFs0zLtlcCLPrQpyYyW0vGbjMZvDJLmtjGojbTo/ofkTL9bJ8SEkzM038OaWAUPYVfaOI29k2eEGa3YRcrxRw2uJdx2fftPeJ2YBEg01gIYcf+w=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYzNTA3NTI3OTM0NCwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyZWYzOTQzN2Q3ZDQzYTAzNGM1YTQwYjk3NGU4ZDJjNjczNGEyMThjNzY0ODVkMDQ5MTBmNTA3YmRjMmU4MDkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Item pickups go directly into your\",1:\"§7sacks.\",2:\"\",3:\"§7Items: §aDark Candy§7, §aEctoplasm§7, §aGreen Candy§7, §aPumpkin\",4:\"§aGuts§7, §aPurple Candy§7, §aSpooky Shard§7, §aWerewolf Skin\",5:\"\",6:\"§7Capacity: §e20,160 per item\",7:\"§8Sacks sum their capacity.\",8:\"\",9:\"§eRight Click to open sack!\",10:\"\",11:\"§5§lEPIC\"],Name:\"§5Spooky Sack\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Spooky Sack\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spooky Sack\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Item pickups go directly into your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"sacks.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Items: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Dark Candy\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Ectoplasm\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Green Candy\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Pumpkin\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Guts\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Purple Candy\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Spooky Shard\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Werewolf Skin\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Capacity: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20,160 per item\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"Sacks sum their capacity.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right Click to open sack!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LARGE_CANDY_SACK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYzNTA3NTI3OTM0NCwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyZWYzOTQzN2Q3ZDQzYTAzNGM1YTQwYjk3NGU4ZDJjNjczNGEyMThjNzY0ODVkMDQ5MTBmNTA3YmRjMmU4MDkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Item pickups go directly into your",
-    "§7sacks.",
-    "",
-    "§7Items: §aDark Candy§7, §aEctoplasm§7, §aGreen Candy§7, §aPumpkin",
-    "§aGuts§7, §aPurple Candy§7, §aSpooky Shard§7, §aWerewolf Skin",
-    "",
-    "§7Capacity: §e20,160 per item",
-    "§8Sacks sum their capacity.",
-    "",
-    "§eRight Click to open sack!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Item pickups go directly into your\",\"color\":\"gray\"}",
+    "{\"text\":\"sacks.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Items: \",\"color\":\"gray\"},{\"text\":\"Dark Candy\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Ectoplasm\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Green Candy\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Pumpkin\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Guts\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Purple Candy\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Spooky Shard\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Werewolf Skin\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Capacity: \",\"color\":\"gray\"},{\"text\":\"20,160 per item\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"Sacks sum their capacity.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right Click to open sack!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "LARGE_CANDY_SACK",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "PUMPKIN_GUTS:4",
     "C2": "PUMPKIN_GUTS:4",
     "C3": "PUMPKIN_GUTS:4"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

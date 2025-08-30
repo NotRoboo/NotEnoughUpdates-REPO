@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Carnival Cowboy (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"405b6046-4a47-2527-8c29-c578e082a3ee\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1NjIxOTZlYjcyNDVlMzM0ZjNiNzg4MzE1ZTgwZTgxYjI0ZDI4OTg4NDFiYjBhYzRmOTRjYWMxOTQ2YjExNzkifX19\"}]},Name:\"405b6046-4a47-2527-8c29-c578e082a3ee\"},display:{Lore:[0:\"§7Only appears during §eThe Carnival Event \",1:\"§7when §dFoxy §7is Mayor.\"],Name:\"§9Carnival Cowboy (NPC)\"},ExtraAttributes:{id:\"CARNIVAL_COWBOY_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Carnival Cowboy (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Carnival Cowboy (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Only appears during \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Carnival Event \\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"when \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Foxy \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"is Mayor.\\\",\\\"color\\\":\\\"gray\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"CARNIVAL_COWBOY_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Only appears during §eThe Carnival Event ",
-    "§7when §dFoxy §7is Mayor."
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Only appears during \",\"color\":\"gray\"},{\"text\":\"The Carnival Event \",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"when \",\"color\":\"gray\"},{\"text\":\"Foxy \",\"color\":\"light_purple\"},{\"text\":\"is Mayor.\",\"color\":\"gray\"}]}"
   ],
   "internalname": "CARNIVAL_COWBOY_NPC",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Carnival_Cowboy",
     "https://wiki.hypixel.net/Carnival_Cowboy"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

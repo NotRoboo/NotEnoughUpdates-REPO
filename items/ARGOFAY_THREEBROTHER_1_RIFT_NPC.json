@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dArgofay Threebrother 1 (Rift NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9774c54c-4766-2f25-8348-02ec8f6d0c66\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI1ZmU1OTVlMDg1Yzc0MTUwNGQ2ZGM4ZDgyYjMzZWYyNGI5NzQ2MTc0OGU4NDUwNzBlYTQ5ZTA3OTE2NWFmZjUifX19\"}]},Name:\"9774c54c-4766-2f25-8348-02ec8f6d0c66\"},display:{Lore:[0:\"§7Talk to all three brothers to unlock\",1:\"§7the §aWyld Sword\"],Name:\"§dArgofay Threebrother 1 (Rift NPC)\"},ExtraAttributes:{id:\"ARGOFAY_THREEBROTHER_1_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Argofay Threebrother 1 (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Argofay Threebrother 1 (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Talk to all three brothers to unlock\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Wyld Sword\\\",\\\"color\\\":\\\"green\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"ARGOFAY_THREEBROTHER_1_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Talk to all three brothers to unlock",
-    "§7the §aWyld Sword"
+    "{\"text\":\"Talk to all three brothers to unlock\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the \",\"color\":\"gray\"},{\"text\":\"Wyld Sword\",\"color\":\"green\"}]}"
   ],
   "internalname": "ARGOFAY_THREEBROTHER_1_RIFT_NPC",
   "clickcommand": "",
@@ -29,5 +29,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Argofay_Threebrother",
     "https://wiki.hypixel.net/Argofay_Threebrother"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Wet Pumpkin",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"4434ee4f-15ca-37b9-90e9-fc6ae7a002d2\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYzNDkyNzY3NjA4MSwKICAicHJvZmlsZUlkIiA6ICJmYzUwMjkzYTVkMGI0NzViYWYwNDJhNzIwMWJhMzBkMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkzNTdmMjVkY2NhNWZhZDFkOWI5ZDc2YTJhOGQxYmE1ZGY4OTM2MGU2NDJjN2ZiMzE3MTgwODdhODUxNTcxZWIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"§7§7A squishy moist mess.\",1:\"\",2:\"§5§lEPIC\"],Name:\"§5Wet Pumpkin\"},ExtraAttributes:{id:\"WET_PUMPKIN\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Wet Pumpkin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wet Pumpkin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A squishy moist mess.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WET_PUMPKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7A squishy moist mess.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"A squishy moist mess.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "WET_PUMPKIN",
   "crafttext": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Wet_Pumpkin",
     "https://wiki.hypixel.net/Wet_Pumpkin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

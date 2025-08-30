@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aRegeneration IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:10b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§4Regeneration IV §f(0:45)\",2:\"§7Grants §c+20❣ Health Regen§7.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aRegeneration IV Potion\"},ExtraAttributes:{potion_level:4,potion:\"regeneration\",effects:[0:{level:4,effect:\"regeneration\",duration_ticks:900}],potion_type:\"POTION\",id:\"POTION_REGENERATION;4\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Regeneration IV Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Regeneration IV Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regeneration IV \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"(0:45)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20❣ Health Regen\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":4,\"potion\":\"regeneration\",\"effects\":\"[0:{level:4\",\"effect\":\"regeneration\",\"duration_ticks\":900},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§4Regeneration IV §f(0:45)",
-    "§7Grants §c+20❣ Health Regen§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regeneration IV \",\"color\":\"dark_red\"},{\"text\":\"(0:45)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+20❣ Health Regen\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_REGENERATION;4",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

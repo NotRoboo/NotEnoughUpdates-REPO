@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Pig Mask",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"177c6862-dc55-37c3-acca-43e5d4b7d101\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODQ5OTM0MzY2MiwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjUzZjNhMWNlYWUwZjlhOTgzMjBmYTIxYmYyMTYyYzVjZTY5MjkzM2I2MjA1YzQ3Mjg2ZDc4ZGFhMmUyMDczMiIKICAgIH0KICB9Cn0=\"}]}},display:{Lore:[0:\"§7Speed: §a+1\",1:\"\",2:\"§7Wear this mask to show your\",3:\"§7support for the Dante\",4:\"§7resistance.\",5:\"\",6:\"§9Cosmetic item!\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§6§lLEGENDARY HELMET\"],Name:\"§6Pig Mask\"},ExtraAttributes:{id:\"PIG_MASK\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Pig Mask\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pig Mask\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Wear this mask to show your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"support for the Dante\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"resistance.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Cosmetic item!\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY HELMET\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PIG_MASK\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Speed: §a+1",
-    "",
-    "§7Wear this mask to show your",
-    "§7support for the Dante",
-    "§7resistance.",
-    "",
-    "§9Cosmetic item!",
-    "",
-    "§7§8This item can be reforged!",
-    "§6§lLEGENDARY HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Wear this mask to show your\",\"color\":\"gray\"}",
+    "{\"text\":\"support for the Dante\",\"color\":\"gray\"}",
+    "{\"text\":\"resistance.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Cosmetic item!\",\"color\":\"blue\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"LEGENDARY HELMET\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "PIG_MASK",
   "crafttext": "",
@@ -26,9 +26,12 @@
   ],
   "recipes": [
     {
-    "type": "trade",
-    "cost": "EMERALD:50",
-    "result": "PIG_MASK"
+      "type": "trade",
+      "cost": "EMERALD:50",
+      "result": "PIG_MASK"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

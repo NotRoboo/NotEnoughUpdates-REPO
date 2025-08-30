@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:coal_block",
-  "displayname": "§fBlock of Coal",
-  "nbttag": "{ExtraAttributes:{id:\"COAL_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:coal_block\",display:{Lore:[0:\"§7Increases the speed of\",1:\"§7your minion by §a5%§7 for 5\",2:\"§7hours!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fBlock of Coal\"}}",
+  "displayname": "{\"text\":\"Block of Coal\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:coal_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Block of Coal\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Increases the speed of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your minion by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" for 5\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"hours!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COAL_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Increases the speed of",
-    "§7your minion by §a5%§7 for 5",
-    "§7hours!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Increases the speed of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your minion by \",\"color\":\"gray\"},{\"text\":\"5%\",\"color\":\"green\"},{\"text\":\" for 5\",\"color\":\"gray\"}]}",
+    "{\"text\":\"hours!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "COAL_BLOCK",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
       "overrideOutputId": "COAL_BLOCK",
       "supercraftable": true
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

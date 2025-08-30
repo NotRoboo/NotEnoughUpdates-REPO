@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:planks",
-  "displayname": "§fJungle Planks",
-  "nbttag": "{ExtraAttributes:{id:\"WOOD-3\"},HideFlags:254,ItemModel:\"minecraft:jungle_planks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fJungle Planks\"}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Jungle Planks\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:planks\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jungle Planks\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WOOD-3\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WOOD-3",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 4
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

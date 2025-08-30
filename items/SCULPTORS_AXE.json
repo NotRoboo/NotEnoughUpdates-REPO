@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:stone_axe",
-  "displayname": "§fSculptor's Axe",
-  "nbttag": "{ExtraAttributes:{id:\"SCULPTORS_AXE\"},HideFlags:254,ItemModel:\"minecraft:stone_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Right-click on any log on your island\",1:\"§7to turn it into a 6 sided log!\",2:\"\",3:\"§8This item can be reforged!\",4:\"§f§lCOMMON AXE\"],Name:\"§fSculptor's Axe\"}}",
+  "displayname": "{\"text\":\"Sculptor\u0027s Axe\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stone_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sculptor\u0027s Axe\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click on any log on your island\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to turn it into a 6 sided log!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON AXE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SCULPTORS_AXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Right-click on any log on your island",
-    "§7to turn it into a 6 sided log!",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON AXE"
+    "{\"text\":\"Right-click on any log on your island\",\"color\":\"gray\"}",
+    "{\"text\":\"to turn it into a 6 sided log!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON AXE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SCULPTORS_AXE",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

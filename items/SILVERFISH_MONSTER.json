@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aSilverfish (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"30a4cd5c-5754-4db8-8960-18022a74627d\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5MWRhYjgzOTFhZjVmZGE1NGFjZDJjMGIxOGZiZDgxOWI4NjVlMWE4ZjFkNjIzODEzZmE3NjFlOTI0NTQwIn19fQ==\"}]}},display:{Lore:[0:\"§7Silverfish are a vanilla mob which retain their\",1:\"§7typical behavior when encountered in Skyblock. \"],Name:\"§aSilverfish (Monster)\"},ExtraAttributes:{id:\"SILVERFISH_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Silverfish (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Silverfish (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Silverfish are a vanilla mob which retain their\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"typical behavior when encountered in Skyblock. \\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"SILVERFISH_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Silverfish are a vanilla mob which retain their",
-    "§7typical behavior when encountered in Skyblock. "
+    "{\"text\":\"Silverfish are a vanilla mob which retain their\",\"color\":\"gray\"}",
+    "{\"text\":\"typical behavior when encountered in Skyblock. \",\"color\":\"gray\"}"
   ],
   "internalname": "SILVERFISH_MONSTER",
   "clickcommand": "",
@@ -30,5 +30,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

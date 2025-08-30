@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aSpelunker IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:16b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§bSpelunker IV §f(3:00)\",2:\"§7Grants §a20 §6☘ Mining Fortune§7.\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aSpelunker IV Potion\"},ExtraAttributes:{potion_level:4,potion:\"spelunker\",effects:[0:{level:4,effect:\"spelunker\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_SPELUNKER;4\"}}",
-  "damage": 6,
+  "displayname": "{\"text\":\"Spelunker IV Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spelunker IV Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spelunker IV \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"☘ Mining Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":4,\"potion\":\"spelunker\",\"effects\":\"[0:{level:4\",\"effect\":\"spelunker\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§bSpelunker IV §f(3:00)",
-    "§7Grants §a20 §6☘ Mining Fortune§7.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spelunker IV \",\"color\":\"aqua\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"20 \",\"color\":\"green\"},{\"text\":\"☘ Mining Fortune\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_SPELUNKER;4",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

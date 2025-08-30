@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Diamond Goblin (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"73295c81-4085-34e9-83e4-fcaf4b335156\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NjI5MTQ2NDM2NywKICAicHJvZmlsZUlkIiA6ICI2NTk0YzdiMTExOWE0Njc3ODc0Y2ZmOWNlMzM3NzYxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJzaG1lbGxvMjIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFkMjExNjgyN2E0MWE3MTM2NjBiYjUyYzliYTNiYzZkZDAzODE3NWFmYjc0YTQ3M2I4NWYwY2Y2MGZmNzBlMiIKICAgIH0KICB9Cn0=\"}]},Name:\"81435058-f0e1-2bda-b932-aa34dbb702c3\"},display:{Lore:[0:\"§7The §bDiamond Goblin §7has a §a3.33% §7chance \",1:\"§7to replace a §6Golden Goblin §7when it is spawned.\",2:\"\",3:\"§c❤ Health§8: §c5\"],Name:\"§9Diamond Goblin (Monster)\"},ExtraAttributes:{id:\"DIAMOND_GOBLIN_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Diamond Goblin (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Goblin (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Diamond Goblin \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"has a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3.33% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance \\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to replace a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Golden Goblin \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"when it is spawned.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"5\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND_GOBLIN_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The §bDiamond Goblin §7has a §a3.33% §7chance ",
-    "§7to replace a §6Golden Goblin §7when it is spawned.",
-    "",
-    "§c❤ Health§8: §c5"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The \",\"color\":\"gray\"},{\"text\":\"Diamond Goblin \",\"color\":\"aqua\"},{\"text\":\"has a \",\"color\":\"gray\"},{\"text\":\"3.33% \",\"color\":\"green\"},{\"text\":\"chance \",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to replace a \",\"color\":\"gray\"},{\"text\":\"Golden Goblin \",\"color\":\"gold\"},{\"text\":\"when it is spawned.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"5\",\"color\":\"red\"}]}"
   ],
   "internalname": "DIAMOND_GOBLIN_MONSTER",
   "clickcommand": "viewrecipe",
@@ -52,5 +52,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

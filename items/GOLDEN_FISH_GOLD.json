@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§6Golden Fish§r §l§6§LGOLD",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a2cc2302-e770-335d-a057-743fe61798e7\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTIzNzQ4MTkxNCwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM4MTc1NTM4MjEwYWY2YTRkMWE0NDNlMDhlZTMyMWFiYWQ4MzdjNmM5MjdjNzgwM2FiMzYxZDI5ZTNmOGU1MDkiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Found swimming around in the lava.\",1:\"\",2:\"§7Bring this to §fOdger §7at the top of the\",3:\"§7Blazing Volcano.\",4:\"\",5:\"§8§l* §8Soulbound §8§l*\",6:\"§6§lLEGENDARY TROPHY FISH\"],Name:\"§f§f§6Golden Fish§r §l§6§LGOLD\"},ExtraAttributes:{id:\"GOLDEN_FISH_GOLD\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"Golden Fish\",\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"§LGOLD\",\"color\":\"gold\"}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Golden Fish\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"§LGOLD\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Found swimming around in the lava.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring this to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Odger \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"at the top of the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Blazing Volcano.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"LEGENDARY TROPHY FISH\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLDEN_FISH_GOLD\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Found swimming around in the lava.",
-    "",
-    "§7Bring this to §fOdger §7at the top of the",
-    "§7Blazing Volcano.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§6§lLEGENDARY TROPHY FISH"
+    "{\"text\":\"Found swimming around in the lava.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring this to \",\"color\":\"gray\"},{\"text\":\"Odger \",\"color\":\"white\"},{\"text\":\"at the top of the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Blazing Volcano.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"LEGENDARY TROPHY FISH\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "GOLDEN_FISH_GOLD",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Trophy_Fishes",
     "https://wiki.hypixel.net/Trophy_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

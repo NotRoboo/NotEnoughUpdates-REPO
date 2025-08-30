@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:dispenser",
-  "displayname": "§6Personal Deletor 7000",
-  "nbttag": "{ExtraAttributes:{id:\"PERSONAL_DELETOR_7000\"},HideFlags:254,ItemModel:\"minecraft:dispenser\",display:{Lore:[0:\"§7Automatically delete specific items on\",1:\"§7pickup.\",2:\"\",3:\"§eRight-click to configure!\",4:\"\",5:\"§6§lLEGENDARY ACCESSORY\"],Name:\"§6Personal Deletor 7000\"},ench:[]}",
+  "displayname": "{\"text\":\"Personal Deletor 7000\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:dispenser\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Personal Deletor 7000\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Automatically delete specific items on\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"pickup.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to configure!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY ACCESSORY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PERSONAL_DELETOR_7000\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Automatically delete specific items on",
-    "§7pickup.",
-    "",
-    "§eRight-click to configure!",
-    "",
-    "§6§lLEGENDARY ACCESSORY"
+    "{\"text\":\"Automatically delete specific items on\",\"color\":\"gray\"}",
+    "{\"text\":\"pickup.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to configure!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY ACCESSORY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "PERSONAL_DELETOR_7000",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C1": "ENCHANTED_IRON_BLOCK:1",
     "C2": "PERSONAL_DELETOR_6000:1",
     "C3": "ENCHANTED_IRON_BLOCK:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

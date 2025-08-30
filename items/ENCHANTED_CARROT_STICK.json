@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:carrot_on_a_stick",
-  "displayname": "§aEnchanted Carrot on a Stick",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_CARROT_STICK\"},HideFlags:254,ItemModel:\"minecraft:carrot_on_a_stick\",Unbreakable:1B,display:{Lore:[0:\"§7Increases the speed of the\",1:\"§7creature you are riding when holding.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Carrot on a Stick\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Carrot on a Stick\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:carrot_on_a_stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Carrot on a Stick\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Increases the speed of the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"creature you are riding when holding.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_CARROT_STICK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Increases the speed of the",
-    "§7creature you are riding when holding.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Increases the speed of the\",\"color\":\"gray\"}",
+    "{\"text\":\"creature you are riding when holding.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_CARROT_STICK",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": "ENCHANTED_CARROT:32"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

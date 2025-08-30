@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:golden_horse_armor",
-  "displayname": "§5Jerry-chine Gun",
-  "nbttag": "{ExtraAttributes:{id:\"JERRY_STAFF\"},HideFlags:254,ItemModel:\"minecraft:golden_horse_armor\",display:{Lore:[0:\"§7Damage: §c+80\",1:\"§7Intelligence: §a+200\",2:\"\",3:\"§6Ability: Rapid-fire  §e§lRIGHT CLICK\",4:\"§7Shoots a Jerry bullet, dealing §c500\",5:\"§7damage on impact and knocking you\",6:\"§7back.\",7:\"\",8:\"§7Each shot costs §3+30 mana §7more than\",9:\"§7the previous, resetting after §a4s §7of\",10:\"§7not firing.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§5§lEPIC SWORD\"],Name:\"§5Jerry-chine Gun\"}}",
+  "displayname": "{\"text\":\"Jerry-chine Gun\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_horse_armor\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jerry-chine Gun\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+80\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+200\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Rapid-fire \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Shoots a Jerry bullet, dealing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"500\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"damage on impact and knocking you\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"back.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Each shot costs \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30 mana \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"more than\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the previous, resetting after \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"4s \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"of\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"not firing.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"JERRY_STAFF\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+80",
-    "§7Intelligence: §a+200",
-    "",
-    "§6Ability: Rapid-fire  §e§lRIGHT CLICK",
-    "§7Shoots a Jerry bullet, dealing §c500",
-    "§7damage on impact and knocking you",
-    "§7back.",
-    "",
-    "§7Each shot costs §3+30 mana §7more than",
-    "§7the previous, resetting after §a4s §7of",
-    "§7not firing.",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+80\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+200\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Rapid-fire \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Shoots a Jerry bullet, dealing \",\"color\":\"gray\"},{\"text\":\"500\",\"color\":\"red\"}]}",
+    "{\"text\":\"damage on impact and knocking you\",\"color\":\"gray\"}",
+    "{\"text\":\"back.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Each shot costs \",\"color\":\"gray\"},{\"text\":\"+30 mana \",\"color\":\"dark_aqua\"},{\"text\":\"more than\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the previous, resetting after \",\"color\":\"gray\"},{\"text\":\"4s \",\"color\":\"green\"},{\"text\":\"of\",\"color\":\"gray\"}]}",
+    "{\"text\":\"not firing.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "JERRY_STAFF",
   "clickcommand": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Jerry-chine_Gun",
     "https://wiki.hypixel.net/Jerry-chine_Gun"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:hopper_minecart",
-  "displayname": "§9Turbomax Vacuum Cleaner",
-  "nbttag": "{ExtraAttributes:{id:\"TURBOMAX_VACUUM\"},HideFlags:254,ItemModel:\"minecraft:hopper_minecart\",display:{Lore:[0:\"§7Lended to you by Kat the Potentially\",1:\"§7Fake Neuroscientist.\",2:\"\",3:\"§6Ability: Vacuum  §e§lHOLD RIGHT CLICK\",4:\"§7Creates an air pressure differential\",5:\"§7to efficiently collect dust and vermin.\",6:\"\",7:\"§fVacuum Bag: §70 Silverfishes\",8:\"§fVacuum Bag: §70 Spiders\",9:\"§fVacuum Bag: §70 Flies\",10:\"\",11:\"§8It's not an industrial model, but it\",12:\"§8should do the trick.\",13:\"\",14:\"§9§lRARE\"],Name:\"§9Turbomax Vacuum Cleaner\"}}",
+  "displayname": "{\"text\":\"Turbomax Vacuum Cleaner\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:hopper_minecart\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Turbomax Vacuum Cleaner\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Lended to you by Kat the Potentially\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Fake Neuroscientist.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Vacuum \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"HOLD RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Creates an air pressure differential\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to efficiently collect dust and vermin.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vacuum Bag: \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"0 Silverfishes\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vacuum Bag: \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"0 Spiders\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vacuum Bag: \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"0 Flies\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"It\u0027s not an industrial model, but it\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"should do the trick.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TURBOMAX_VACUUM\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Lended to you by Kat the Potentially",
-    "§7Fake Neuroscientist.",
-    "",
-    "§6Ability: Vacuum  §e§lHOLD RIGHT CLICK",
-    "§7Creates an air pressure differential",
-    "§7to efficiently collect dust and vermin.",
-    "",
-    "§fVacuum Bag: §70 Silverfishes",
-    "§fVacuum Bag: §70 Spiders",
-    "§fVacuum Bag: §70 Flies",
-    "",
-    "§8It's not an industrial model, but it",
-    "§8should do the trick.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Lended to you by Kat the Potentially\",\"color\":\"gray\"}",
+    "{\"text\":\"Fake Neuroscientist.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Vacuum \",\"color\":\"gold\"},{\"text\":\"HOLD RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Creates an air pressure differential\",\"color\":\"gray\"}",
+    "{\"text\":\"to efficiently collect dust and vermin.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Vacuum Bag: \",\"color\":\"white\"},{\"text\":\"0 Silverfishes\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Vacuum Bag: \",\"color\":\"white\"},{\"text\":\"0 Spiders\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Vacuum Bag: \",\"color\":\"white\"},{\"text\":\"0 Flies\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"It\u0027s not an industrial model, but it\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"should do the trick.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "TURBOMAX_VACUUM",
   "clickcommand": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Turbomax_Vacuum_Cleaner",
     "https://wiki.hypixel.net/Turbomax_Vacuum_Cleaner"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

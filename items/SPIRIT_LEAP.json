@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:ender_pearl",
-  "displayname": "§9Spirit Leap",
-  "nbttag": "{ExtraAttributes:{id:\"SPIRIT_LEAP\"},HideFlags:254,ItemModel:\"minecraft:ender_pearl\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"\",2:\"§6Ability: Spirit Leap  §e§lRIGHT CLICK\",3:\"§7Allows you to teleport to any\",4:\"§7teammate! Grants §a1 §7second of\",5:\"§7immunity after teleporting, immunity is\",6:\"§7cancelled upon dealing damage.\",7:\"§8Cooldown: §a5s\",8:\"\",9:\"§cDungeons only!\",10:\"\",11:\"§9§lRARE DUNGEON ITEM\"],Name:\"§9Spirit Leap\"},ench:[]}",
+  "displayname": "{\"text\":\"Spirit Leap\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:ender_pearl\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spirit Leap\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Spirit Leap \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Allows you to teleport to any\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"teammate! Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"second of\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"immunity after teleporting, immunity is\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"cancelled upon dealing damage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"5s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Dungeons only!\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE DUNGEON ITEM\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPIRIT_LEAP\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "",
-    "§6Ability: Spirit Leap  §e§lRIGHT CLICK",
-    "§7Allows you to teleport to any",
-    "§7teammate! Grants §a1 §7second of",
-    "§7immunity after teleporting, immunity is",
-    "§7cancelled upon dealing damage.",
-    "§8Cooldown: §a5s",
-    "",
-    "§cDungeons only!",
-    "",
-    "§9§lRARE DUNGEON ITEM"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Spirit Leap \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Allows you to teleport to any\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"teammate! Grants \",\"color\":\"gray\"},{\"text\":\"1 \",\"color\":\"green\"},{\"text\":\"second of\",\"color\":\"gray\"}]}",
+    "{\"text\":\"immunity after teleporting, immunity is\",\"color\":\"gray\"}",
+    "{\"text\":\"cancelled upon dealing damage.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"5s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Dungeons only!\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE DUNGEON ITEM\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SPIRIT_LEAP",
   "clickcommand": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Spirit_Leap",
     "https://wiki.hypixel.net/Spirit_Leap"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

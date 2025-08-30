@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3Rider of the Deep (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"04af20d2-52ff-4339-b01c-459b780f2544\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI4OGZjYmRhNGZmODVhY2E3ZmYyMTEzM2QxYWZlYzllZTI0NmRkOTIzZWNhOWJmZDA5MmYyMzMzZTY2ZiJ9fX0=\"}]}},display:{Lore:[0:\"§7The Rider of the Deep is a Uncommon Sea\",1:\"§7Creature that can only be fished with a fishing\",2:\"§7skill level of 11 or higher.\",3:\"\",4:\"§c❤ Health§8: §c20,000\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§3Rider of the Deep (Sea Creature)\"},ExtraAttributes:{id:\"RIDER_OF_THE_DEEP_SC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Rider of the Deep (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rider of the Deep (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Rider of the Deep is a Uncommon Sea\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Creature that can only be fished with a fishing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"skill level of 11 or higher.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"20,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RIDER_OF_THE_DEEP_SC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Rider of the Deep is a Uncommon Sea",
-    "§7Creature that can only be fished with a fishing",
-    "§7skill level of 11 or higher.",
-    "",
-    "§c❤ Health§8: §c20,000",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"The Rider of the Deep is a Uncommon Sea\",\"color\":\"gray\"}",
+    "{\"text\":\"Creature that can only be fished with a fishing\",\"color\":\"gray\"}",
+    "{\"text\":\"skill level of 11 or higher.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"20,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "RIDER_OF_THE_DEEP_SC",
   "clickcommand": "viewrecipe",
@@ -67,5 +67,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

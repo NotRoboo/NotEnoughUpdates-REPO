@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:cactus",
-  "displayname": "§9Enchanted Cactus",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_CACTUS\"},HideFlags:254,ItemModel:\"minecraft:cactus\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Enchanted Cactus\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Cactus\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:cactus\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Cactus\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_CACTUS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "§8Collection Item",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_CACTUS",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "",
     "C2": "ENCHANTED_CACTUS_GREEN:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

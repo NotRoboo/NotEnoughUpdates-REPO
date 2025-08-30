@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§5Brimstone Handle",
-  "nbttag": "{ExtraAttributes:{id:\"BRIMSTONE_HANDLE\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§7A splendid handle belonging to a\",1:\"§7feared foe. In exchange for\",2:\"§7granting them immense power, it saps\",3:\"§7the life force from its wielder.\",4:\"\",5:\"§eRight-click to view recipes!\",6:\"\",7:\"§5§lEPIC\"],Name:\"§5Brimstone Handle\"},ench:[]}",
+  "displayname": "{\"text\":\"Brimstone Handle\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Brimstone Handle\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A splendid handle belonging to a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"feared foe. In exchange for\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"granting them immense power, it saps\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the life force from its wielder.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BRIMSTONE_HANDLE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7A splendid handle belonging to a",
-    "§7feared foe. In exchange for",
-    "§7granting them immense power, it saps",
-    "§7the life force from its wielder.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"A splendid handle belonging to a\",\"color\":\"gray\"}",
+    "{\"text\":\"feared foe. In exchange for\",\"color\":\"gray\"}",
+    "{\"text\":\"granting them immense power, it saps\",\"color\":\"gray\"}",
+    "{\"text\":\"the life force from its wielder.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "BRIMSTONE_HANDLE",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Brimstone_Handle"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

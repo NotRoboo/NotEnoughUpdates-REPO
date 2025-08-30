@@ -1,26 +1,29 @@
 {
   "internalname": "FANCY_TUXEDO_LEGGINGS",
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§6Fancy Tuxedo Pants",
+  "displayname": "{\"text\":\"Fancy Tuxedo Pants\",\"color\":\"gold\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Crit Damage: §c+35%\",1:\"§7Intelligence: §a+75\",2:\"\",3:\"§6Full Set Bonus: Dashing\",4:\"§7Max health set to §c150❤§7.\",5:\"§7Deal §c+100% §7damage!\",6:\"§8Very stylish.\",7:\"\",8:\"§6§lLEGENDARY LEGGINGS\"],color:13948116,Name:\"§6Fancy Tuxedo Pants\"},ExtraAttributes:{color:\"252:252:252\",modifier:\"strong\",id:\"FANCY_TUXEDO_LEGGINGS\"}}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fancy Tuxedo Pants\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+35%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+75\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Dashing\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max health set to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"150❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Very stylish.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY LEGGINGS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"252:252:252\",\"modifier\":\"strong\",\"id\":\"FANCY_TUXEDO_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§7Crit Damage: §c+35%",
-    "§7Intelligence: §a+75",
-    "",
-    "§6Full Set Bonus: Dashing",
-    "§7Max health set to §c150❤§7.",
-    "§7Deal §c+100% §7damage!",
-    "§8Very stylish.",
-    "",
-    "§6§lLEGENDARY LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+35%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+75\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Dashing\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max health set to \",\"color\":\"gray\"},{\"text\":\"150❤\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deal \",\"color\":\"gray\"},{\"text\":\"+100% \",\"color\":\"red\"},{\"text\":\"damage!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Very stylish.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY LEGGINGS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fancy_Tuxedo_Pants",
     "https://wiki.hypixel.net/Fancy_Tuxedo_Pants"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

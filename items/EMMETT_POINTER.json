@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:blaze_rod",
-  "displayname": "§aEmmett Pointer",
-  "nbttag": "{ExtraAttributes:{id:\"EMMETT_POINTER\"},HideFlags:254,ItemModel:\"minecraft:blaze_rod\",display:{Lore:[0:\"§6Ability: Lazer §e§lRIGHT CLICK\",1:\"§7Point something.\",2:\"§8Cooldown: §a2s\",3:\"\",4:\"§8He's not a vampire, he's a\",5:\"§8scientist.\",6:\"\",7:\"§a§lUNCOMMON\"],Name:\"§aEmmett Pointer\"}}",
+  "displayname": "{\"text\":\"Emmett Pointer\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:blaze_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Emmett Pointer\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Lazer \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Point something.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"He\u0027s not a vampire, he\u0027s a\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"scientist.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EMMETT_POINTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Lazer §e§lRIGHT CLICK",
-    "§7Point something.",
-    "§8Cooldown: §a2s",
-    "",
-    "§8He's not a vampire, he's a",
-    "§8scientist.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Lazer \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Point something.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"2s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"He\u0027s not a vampire, he\u0027s a\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"scientist.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "EMMETT_POINTER",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Emmett_Pointer",
     "https://wiki.hypixel.net/Emmett_Pointer"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

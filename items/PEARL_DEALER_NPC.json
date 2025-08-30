@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Pearl Dealer (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9733d005-216e-54a2-aaf5-8b58877b8413\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2EyYTRlZGU4ZWU5YzYyZTJlMTQ4ZTE1ZTdkNmViN2EzNDliOTA2OTdlN2UyNmRlNWY1M2I5NzY0ZjMzNWFlZCJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Pearl Dealer (NPC)\"},ExtraAttributes:{id:\"PEARL_DEALER_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Pearl Dealer (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pearl Dealer (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"PEARL_DEALER_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "PEARL_DEALER_NPC",
   "clickcommand": "viewrecipe",
@@ -69,5 +69,8 @@
       ],
       "result": "ENDER_SLAYER;6"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

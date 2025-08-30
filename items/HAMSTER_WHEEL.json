@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:trapdoor",
-  "displayname": "§9Hamster Wheel",
-  "nbttag": "{ExtraAttributes:{id:\"HAMSTER_WHEEL\"},HideFlags:254,ItemModel:\"minecraft:oak_trapdoor\",display:{Lore:[0:\"§7increases the speed of\",1:\"§7your minion by §a50%\",2:\"§7for 24 hours!\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Hamster Wheel\"},ench:[]}",
+  "displayname": "{\"text\":\"Hamster Wheel\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:trapdoor\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hamster Wheel\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"increases the speed of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your minion by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"for 24 hours!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HAMSTER_WHEEL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7increases the speed of",
-    "§7your minion by §a50%",
-    "§7for 24 hours!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"increases the speed of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your minion by \",\"color\":\"gray\"},{\"text\":\"50%\",\"color\":\"green\"}]}",
+    "{\"text\":\"for 24 hours!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "HAMSTER_WHEEL",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hamster_Wheel",
     "https://wiki.hypixel.net/Hamster_Wheel"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

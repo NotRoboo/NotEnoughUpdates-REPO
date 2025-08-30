@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Lonely Philosopher (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"fa8499b8-72af-52d5-a55d-77974ef055fd\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjAwOGRjYzg5YjdkMTQ4NzBmMzJhMjg5NjI5M2Q3NzhiMGU1MGQyNWZjNGRiNDRhMTBiYWI5ODAwMjFiYWRiNiJ9fX0\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Lonely Philosopher (NPC)\"},ExtraAttributes:{id:\"LONELY_PHILOSOPHER_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Lonely Philosopher (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lonely Philosopher (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"LONELY_PHILOSOPHER_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "LONELY_PHILOSOPHER_NPC",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
       ],
       "result": "HUB_CASTLE_TRAVEL_SCROLL"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

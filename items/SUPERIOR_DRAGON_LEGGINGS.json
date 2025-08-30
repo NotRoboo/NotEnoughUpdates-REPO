@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§6Superior Dragon Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+10\",1:\"§7Crit Chance: §c+2%\",2:\"§7Crit Damage: §c+10%\",3:\"§7Health: §a+130\",4:\"§7Defense: §a+170\",5:\"§7Speed: §a+3\",6:\"§7Intelligence: §a+25\",7:\" §8[§8⚔§8]\",8:\"\",9:\"§6Full Set Bonus: Superior Blood §7(0/4)\",10:\"§7Most of your stats are increased by\",11:\"§7§a5%§7 and §6Aspect of the Dragons§7 ability\",12:\"§7deals §a50%§7 more damage.\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§7§4❣ §cRequires §aCombat Skill 20§c.\",16:\"§6§lLEGENDARY LEGGINGS\"],color:15916817,Name:\"§6Superior Dragon Leggings\"},ExtraAttributes:{id:\"SUPERIOR_DRAGON_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Superior Dragon Leggings\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Superior Dragon Leggings\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+130\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+170\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+3\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"⚔\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Superior Blood \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Most of your stats are increased by\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Aspect of the Dragons\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\" ability\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" more damage.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 20\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY LEGGINGS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SUPERIOR_DRAGON_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Strength: §c+10",
-    "§7Crit Chance: §c+2%",
-    "§7Crit Damage: §c+10%",
-    "§7Health: §a+130",
-    "§7Defense: §a+170",
-    "§7Speed: §a+3",
-    "§7Intelligence: §a+25",
-    " §8[§8⚔§8]",
-    "",
-    "§6Full Set Bonus: Superior Blood §7(0/4)",
-    "§7Most of your stats are increased by",
-    "§7§a5%§7 and §6Aspect of the Dragons§7 ability",
-    "§7deals §a50%§7 more damage.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 20§c.",
-    "§6§lLEGENDARY LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Chance: \",\"color\":\"gray\"},{\"text\":\"+2%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+10%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+130\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+170\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+3\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"⚔\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Superior Blood \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Most of your stats are increased by\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"5%\",\"color\":\"green\"},{\"text\":\" and \",\"color\":\"gray\"},{\"text\":\"Aspect of the Dragons\",\"color\":\"gold\"},{\"text\":\" ability\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"deals \",\"color\":\"gray\"},{\"text\":\"50%\",\"color\":\"green\"},{\"text\":\" more damage.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 20\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY LEGGINGS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "SUPERIOR_FRAGMENT:10",
@@ -41,5 +41,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Superior_Dragon_Leggings",
     "https://wiki.hypixel.net/Superior_Dragon_Leggings"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fPortal to Jungle Island",
-  "nbttag": "{ExtraAttributes:{id:\"FORAGING_3_PORTAL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4c5a041f-062d-33bd-bef2-bf82ca018583\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ux5D9nOnFHqNYZC/hVMsjegEGLhtqyxuJMVxUef8VW/Z/9IVR8GS34eUsLwSPtE7d6TfJNaZKDjo4zatiuoeDbtysunQzLmtcCX9U1W4/s2K5/4Y6TJKPoWikQiBXL8ks+DMt0YH466Kg4NCyeqTISRIwvXrwYYQLlWMHHXRypos5I/7T0+jQN7TouMc7HFW5yj6E8ZPWkbDnpYCjItKrWu59YvakQe6jenmWauR4J7feJZS5YqIen4yuimODZFaB/ZGcLf6oHAe03WJc4/KrBfE5Wc/Ni/u27kKBenUbqU7fLFRHPAjs65NdwQ2JDHIv801/3c+rYu6bHe0/4HG1qo5H10qjQWEoL+3dmbN54L43LvcBeu+af2CYuRefGt9XkXfA8dhsz1ZXFesD96bZHJ7EuyUfcskf+525ydSy6b4qbPuYQjThRtIEyeAmtoq83SExjZHaGYJX7+uxycsuT/GrFQnSJUCMoz8oDvT9JBi9ybNorDTxAM5pOnVhSD4iBLr9SpGTkUU89htIy0bOay5N8fmWM8sXk3P1lr+B7XfHKPTAthZXyTvuzRQ3x6NvWfY8DkxYnjef6dYE7NH1RxmnGQOw7Q+3NAM8D5OIaEeS0YnnPygi9pFot0OzO2BRh3r3i0l91ghy7GdrwkYialNi6PiFf4mNDMK9a7c+p4=\",Value:\"eyJ0aW1lc3RhbXAiOjE1MTc5ODAxMDIxNDcsInByb2ZpbGVJZCI6ImFkMWM2Yjk1YTA5ODRmNTE4MWJhOTgyMzY0OTllM2JkIiwicHJvZmlsZU5hbWUiOiJGdXJrYW5iejAwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xY2VmYzE5MzgwNjgzMDE1ZTQ3YzY2NmU1OTI2YjE1ZWU1N2FiMzMxOTJmNmE3ZTQyOTI0NGNkZmZjYzI2MiJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Placing this item on your private\",1:\"§7island will create a portal to §aJungle\",2:\"§aIsland§7 for you to use whenever you\",3:\"§7want!\",4:\"\",5:\"§8The portal will spawn facing you on\",6:\"§8the block you click on.\",7:\"\",8:\"§f§lCOMMON PORTAL\"],Name:\"§fPortal to Jungle Island\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Portal to Jungle Island\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Portal to Jungle Island\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Placing this item on your private\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"island will create a portal to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Jungle\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Island\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" for you to use whenever you\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"want!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"The portal will spawn facing you on\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"the block you click on.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON PORTAL\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FORAGING_3_PORTAL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1MTc5ODAxMDIxNDcsInByb2ZpbGVJZCI6ImFkMWM2Yjk1YTA5ODRmNTE4MWJhOTgyMzY0OTllM2JkIiwicHJvZmlsZU5hbWUiOiJGdXJrYW5iejAwIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xY2VmYzE5MzgwNjgzMDE1ZTQ3YzY2NmU1OTI2YjE1ZWU1N2FiMzMxOTJmNmE3ZTQyOTI0NGNkZmZjYzI2MiJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Placing this item on your private",
-    "§7island will create a portal to §aJungle",
-    "§aIsland§7 for you to use whenever you",
-    "§7want!",
-    "",
-    "§8The portal will spawn facing you on",
-    "§8the block you click on.",
-    "",
-    "§f§lCOMMON PORTAL"
+    "{\"text\":\"Placing this item on your private\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"island will create a portal to \",\"color\":\"gray\"},{\"text\":\"Jungle\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Island\",\"color\":\"green\"},{\"text\":\" for you to use whenever you\",\"color\":\"gray\"}]}",
+    "{\"text\":\"want!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"The portal will spawn facing you on\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"the block you click on.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON PORTAL\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FORAGING_3_PORTAL",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "LOG-3:16",
     "C2": "LOG-3:16",
     "C3": "LOG-3:16"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

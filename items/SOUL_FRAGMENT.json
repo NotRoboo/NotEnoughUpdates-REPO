@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Soul Fragment",
-  "nbttag": "{ExtraAttributes:{id:\"SOUL_FRAGMENT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"e1b7a919-7d51-3c04-b268-2d35eea99f7e\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFjODc0NTRmMWVlNTg1YjkwZmRiM2EzZTQwOTUyYTVjMmY4MGMwYTQ5ZGZlYzYyODcwZmRmZjE4Mzk2N2E4NCJ9fX0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Dropped by Grim Reaper sea\",1:\"§7creatures during the Spooky\",2:\"§7Festival\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Soul Fragment\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Soul Fragment\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Soul Fragment\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Dropped by Grim Reaper sea\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"creatures during the Spooky\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Festival\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SOUL_FRAGMENT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFjODc0NTRmMWVlNTg1YjkwZmRiM2EzZTQwOTUyYTVjMmY4MGMwYTQ5ZGZlYzYyODcwZmRmZjE4Mzk2N2E4NCJ9fX0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Dropped by Grim Reaper sea",
-    "§7creatures during the Spooky",
-    "§7Festival",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Dropped by Grim Reaper sea\",\"color\":\"gray\"}",
+    "{\"text\":\"creatures during the Spooky\",\"color\":\"gray\"}",
+    "{\"text\":\"Festival\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SOUL_FRAGMENT",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Soul_Fragment",
     "https://wiki.hypixel.net/Soul_Fragment"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5❁ Flawless Jasper Gemstone",
-  "nbttag": "{ExtraAttributes:{id:\"FLAWLESS_JASPER_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"701a9042-b6a9-33b6-b57f-b9457a57a367\",Properties:{textures:[0:{Name:\"textures\",Signature:\"AVqRnamYq+RIsWlrZXbzBDcQxE13vzjlWYysSIBbbVjsbFxf5sN/qFU6zThYv26M35pOReYwiOSOvvaLxrRHMd/l6ZrKcz5YENo/E5G2aW38ePR/tRaPgvlp1B9tZ0sin8VVuGadlpgbXwNjj7G15rX0yAFg8vwzfTb9rU0/V0iGvdIWUvH6pBqCuoh5JFSMzEq0ENxUzDlsJEsX39PnFSM2nRpMrrAtZlH/HHpFjWXL98zcFQO+FAsc4EWysrJgkE1bDsWnnehV0ugYSHc/+6njYguawn+/vQpZ1mwmnVST9VEKMkVbONepm8DqlSUPv2nD5TY6P728h5ez69bETrdoklueWHqbjrH8ZKYiW7iDXusV1QMjrTrRmHsPCkWTnkuLCrkLkLCSLJpw1ButvWY1cR7hz39nZXArts7/882L617HNE3hAJ5ujsFKmvwrqI4Ma1FIODFFVEuI4sJXPV+nOeBeysZDFsDuZzMM7dcnwHMxeQw278txoDBIlN5CMw31ankB5nSjzb28Mppd8umNzqA9QhM75ZR7QSDdr9V3zfxPTMH9P9bikh63q4st7Rrfh2Ix4W3fBjqvWUJNzLaIDwPdfMxBzg38d6JNacYbLSDRH5k+Y2EHqA8Q+ng/NSeHBOZw30+hMeUS+wcqpJkGDibOqgYXeRh6YZ6CxV8=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4NjAzNDI0NywKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZjk5M2QzYTQzZDQwNTk3YjQ3NDQ4NTk3NjE2MGQwY2Y1MmFjNjRkMTU3MzA3ZDNiMWM5NDFkYjIyNGQwYWM2IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A near perfect version of §dJasper§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§c❁ Strength§7.\",7:\"\",8:\"§5§lEPIC GEMSTONE\"],Name:\"§5❁ Flawless Jasper Gemstone\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"❁ Flawless Jasper Gemstone\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"❁ Flawless Jasper Gemstone\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"A near perfect version of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Jasper\\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Some say that when \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"harnessed\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"properly\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\", it can give its owner extra\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❁ Strength\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC GEMSTONE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLAWLESS_JASPER_GEM\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4NjAzNDI0NywKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZjk5M2QzYTQzZDQwNTk3YjQ3NDQ4NTk3NjE2MGQwY2Y1MmFjNjRkMTU3MzA3ZDNiMWM5NDFkYjIyNGQwYWM2IgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7A near perfect version of §dJasper§7.",
-    "",
-    "§7Some say that when §eharnessed",
-    "§eproperly§7, it can give its owner extra",
-    "§c❁ Strength§7.",
-    "",
-    "§5§lEPIC GEMSTONE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"A near perfect version of \",\"color\":\"gray\"},{\"text\":\"Jasper\",\"color\":\"light_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Some say that when \",\"color\":\"gray\"},{\"text\":\"harnessed\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"properly\",\"color\":\"yellow\"},{\"text\":\", it can give its owner extra\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❁ Strength\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC GEMSTONE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FLAWLESS_JASPER_GEM",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "",
     "C2": "FINE_JASPER_GEM:16",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

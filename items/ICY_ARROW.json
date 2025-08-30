@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:arrow",
-  "displayname": "§9Icy Arrow",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Damage: §c+24\",1:\"\",2:\"§6Passive: Muscle Freeze\",3:\"§7Applies §bSlowness 1 §7for §a3s §7to targets.\",4:\"\",5:\"§7§4❣ §cRequires §aCombat Skill 21§c.\",6:\"§7§4❣ §cRequires §aIce Collection VII§c.\",7:\"§7§4❣ §cRequires §6Target Practice II§c.\",8:\"§8Stats added when shot!\",9:\"§9§lRARE ARROW\"],Name:\"§9Icy Arrow\"},ExtraAttributes:{id:\"ICY_ARROW\"}}",
+  "displayname": "{\"text\":\"Icy Arrow\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:arrow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Icy Arrow\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+24\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Passive: Muscle Freeze\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applies \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Slowness 1 \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3s \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"to targets.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 21\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Ice Collection VII\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Target Practice II\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"Stats added when shot!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE ARROW\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ICY_ARROW\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+24",
-    "",
-    "§6Passive: Muscle Freeze",
-    "§7Applies §bSlowness 1 §7for §a3s §7to targets.",
-    "",
-    "§7§4❣ §cRequires §aCombat Skill 21§c.",
-    "§7§4❣ §cRequires §aIce Collection VII§c.",
-    "§7§4❣ §cRequires §6Target Practice II§c.",
-    "§8Stats added when shot!",
-    "§9§lRARE ARROW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+24\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Passive: Muscle Freeze\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applies \",\"color\":\"gray\"},{\"text\":\"Slowness 1 \",\"color\":\"aqua\"},{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"3s \",\"color\":\"green\"},{\"text\":\"to targets.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 21\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Ice Collection VII\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Target Practice II\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"Stats added when shot!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE ARROW\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ICY_ARROW",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Icy_Arrow",
     "https://wiki.hypixel.net/Icy_Arrow"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§6Tormentor",
-  "nbttag": "{ExtraAttributes:{id:\"TORMENTOR\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+525\",1:\"§7Crit Damage: §c+100%\",2:\" §8[§7✎§8]\",3:\"\",4:\"§6Ability: Angered \",5:\"§7The damage you take is §c§odoubled §7while\",6:\"§7holding this weapon.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §aCombat Skill 42§c.\",10:\"§4❣ §cRequires Kuudra Infernal Tier Completion.\",11:\"§6§lLEGENDARY SWORD\"],Name:\"§6Tormentor\"}}",
+  "displayname": "{\"text\":\"Tormentor\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tormentor\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+525\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"✎\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Angered \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The damage you take is \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"doubled \\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":true},{\\\"text\\\":\\\"while\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"holding this weapon.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 42\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Kuudra Infernal Tier Completion.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY SWORD\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TORMENTOR\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+525",
-    "§7Crit Damage: §c+100%",
-    " §8[§7✎§8]",
-    "",
-    "§6Ability: Angered ",
-    "§7The damage you take is §c§odoubled §7while",
-    "§7holding this weapon.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 42§c.",
-    "§4❣ §cRequires Kuudra Infernal Tier Completion.",
-    "§6§lLEGENDARY SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+525\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+100%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"✎\",\"color\":\"gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Angered \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The damage you take is \",\"color\":\"gray\"},{\"text\":\"doubled \",\"color\":\"red\",\"italic\":true},{\"text\":\"while\",\"color\":\"gray\"}]}",
+    "{\"text\":\"holding this weapon.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 42\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Kuudra Infernal Tier Completion.\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY SWORD\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "TORMENTOR",
   "clickcommand": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Tormentor",
     "https://wiki.hypixel.net/Tormentor"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

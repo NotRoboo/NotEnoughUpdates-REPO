@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aDodge IV Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:1b,Amplifier:3b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§9Dodge IV §f(3:00)\",2:\"§7Mob attacks have a §a40% §7chance to\",3:\"§7miss.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aDodge IV Potion\"},ExtraAttributes:{potion_level:4,potion:\"dodge\",effects:[0:{level:4,effect:\"dodge\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_DODGE;4\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Dodge IV Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dodge IV Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Dodge IV \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mob attacks have a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"40% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"miss.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":4,\"potion\":\"dodge\",\"effects\":\"[0:{level:4\",\"effect\":\"dodge\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§9Dodge IV §f(3:00)",
-    "§7Mob attacks have a §a40% §7chance to",
-    "§7miss.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Dodge IV \",\"color\":\"blue\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mob attacks have a \",\"color\":\"gray\"},{\"text\":\"40% \",\"color\":\"green\"},{\"text\":\"chance to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"miss.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_DODGE;4",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

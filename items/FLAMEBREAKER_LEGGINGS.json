@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:chainmail_leggings",
-  "displayname": "§f§f§aEmber Ash Leggings",
-  "nbttag": "{overrideMeta:1b,Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Mining Speed: §a+15\",1:\"§7Mining Fortune: §a+5\",2:\"\",3:\"§7§7An old charred shadow of the\",4:\"§7real thing leaving behind\",5:\"§7streaks of coal on the wearer\",6:\"§7from its shoddy construction.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §aHard Stone Collection V§c.\",10:\"§a§lUNCOMMON LEGGINGS\"],Name:\"§f§f§aEmber Ash Leggings\"},ExtraAttributes:{originTag:\"QUICK_CRAFTING_SHIFT\",id:\"FLAMEBREAKER_LEGGINGS\"},AttributeModifiers:[]}",
+  "displayname": "{\"text\":\"Ember Ash Leggings\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:chainmail_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ember Ash Leggings\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"An old charred shadow of the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"real thing leaving behind\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"streaks of coal on the wearer\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"from its shoddy construction.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Hard Stone Collection V\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON LEGGINGS\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"QUICK_CRAFTING_SHIFT\",\"id\":\"FLAMEBREAKER_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Mining Speed: §a+15",
-    "§7Mining Fortune: §a+5",
-    "",
-    "§7§7An old charred shadow of the",
-    "§7real thing leaving behind",
-    "§7streaks of coal on the wearer",
-    "§7from its shoddy construction.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aHard Stone Collection V§c.",
-    "§a§lUNCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Fortune: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"An old charred shadow of the\",\"color\":\"gray\"}",
+    "{\"text\":\"real thing leaving behind\",\"color\":\"gray\"}",
+    "{\"text\":\"streaks of coal on the wearer\",\"color\":\"gray\"}",
+    "{\"text\":\"from its shoddy construction.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Hard Stone Collection V\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON LEGGINGS\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "FLAMEBREAKER_LEGGINGS",
   "crafttext": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ember_Ash_Leggings",
     "https://wiki.hypixel.net/Ember_Ash_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fTrue Resistance I Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:11b,Amplifier:0b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§fTrue Resistance I §f(3:00)\",2:\"§7Gain §f+5❂ True Defense§7.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fTrue Resistance I Potion\"},ExtraAttributes:{potion_level:1,potion:\"true_defense\",effects:[0:{level:1,effect:\"true_defense\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_TRUE_DEFENSE;1\"}}",
+  "displayname": "{\"text\":\"True Resistance I Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"True Resistance I Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"True Resistance I \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5❂ True Defense\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":1,\"potion\":\"true_defense\",\"effects\":\"[0:{level:1\",\"effect\":\"true_defense\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "",
-    "§fTrue Resistance I §f(3:00)",
-    "§7Gain §f+5❂ True Defense§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"True Resistance I \",\"color\":\"white\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+5❂ True Defense\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_TRUE_DEFENSE;1",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

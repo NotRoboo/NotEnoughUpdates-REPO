@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§aProspecting Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+40\",1:\"§7Mining Speed: §a+15\",2:\"\",3:\"§6Full Set Bonus: Beginner\u0027s Boost §7(0/4)\",4:\"§7Grants §6+40⸕ Mining Speed§7.\",5:\"\",6:\"§7§8This item can be reforged!\",7:\"§a§lUNCOMMON CHESTPLATE\"],color:8026468,Name:\"§aProspecting Chestplate\"},ExtraAttributes:{id:\"MINER_OUTFIT_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Prospecting Chestplate\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Prospecting Chestplate\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Beginner\u0027s Boost \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40⸕ Mining Speed\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON CHESTPLATE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MINER_OUTFIT_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+40",
-    "§7Mining Speed: §a+15",
-    "",
-    "§6Full Set Bonus: Beginner\u0027s Boost §7(0/4)",
-    "§7Grants §6+40⸕ Mining Speed§7.",
-    "",
-    "§7§8This item can be reforged!",
-    "§a§lUNCOMMON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Beginner\u0027s Boost \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+40⸕ Mining Speed\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON CHESTPLATE\",\"color\":\"green\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "IRON_BLOCK:1",
@@ -32,5 +32,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Prospecting_Chestplate",
     "https://wiki.hypixel.net/Prospecting_Chestplate"
   ],
-  "crafttext": "Requires: Iron Ingot II"
+  "crafttext": "Requires: Iron Ingot II",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,22 +1,25 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§fEnchanted Book",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§9Great Spook I\",1:\"§7§7Grants §a+1 §5Fear §7on\",2:\"§7§5Great Spook Armor§7.\",3:\"\",4:\"§7Applicable on: §9Armor\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ExtraAttributes:{year:2023,id:\"GREAT_SPOOK;1\",enchantments:{great_spook:1}}}",
+  "displayname": "{\"text\":\"Enchanted Book\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:enchanted_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Book\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Great Spook I\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Fear \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"on\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Great Spook Armor\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applicable on: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Armor\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"Use this on an item in an Anvil\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to apply it!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"year\":2023,\"id\":\"GREAT_SPOOK;1\",\"enchantments\":\"{great_spook:1\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§9Great Spook I",
-    "§7§7Grants §a+1 §5Fear §7on",
-    "§7§5Great Spook Armor§7.",
-    "",
-    "§7Applicable on: §9Armor",
-    "§7Use this on an item in an Anvil",
-    "§7to apply it!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Great Spook I\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+1 \",\"color\":\"green\"},{\"text\":\"Fear \",\"color\":\"dark_purple\"},{\"text\":\"on\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Great Spook Armor\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applicable on: \",\"color\":\"gray\"},{\"text\":\"Armor\",\"color\":\"blue\"}]}",
+    "{\"text\":\"Use this on an item in an Anvil\",\"color\":\"gray\"}",
+    "{\"text\":\"to apply it!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GREAT_SPOOK;1",
   "crafttext": "",
   "clickcommand": "",
   "modver": "2.1.1-PRE",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:record_stal",
-  "displayname": "§5Dungeon Disc",
-  "nbttag": "{ExtraAttributes:{id:\"DUNGEON_DISC_1\"},HideFlags:254,ItemModel:\"minecraft:music_disc_stal\",display:{Lore:[0:\"§7Place this inside a jukebox to\",1:\"§7play a dungeon song!\",2:\"\",3:\"§6Dungeon Drama\",4:\"  §7By ShinkoNet\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Dungeon Disc\"}}",
+  "displayname": "{\"text\":\"Dungeon Disc\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:record_stal\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dungeon Disc\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this inside a jukebox to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"play a dungeon song!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Dungeon Drama\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"By ShinkoNet\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DUNGEON_DISC_1\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Place this inside a jukebox to",
-    "§7play a dungeon song!",
-    "",
-    "§6Dungeon Drama",
-    "  §7By ShinkoNet",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Place this inside a jukebox to\",\"color\":\"gray\"}",
+    "{\"text\":\"play a dungeon song!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Dungeon Drama\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"By ShinkoNet\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "DUNGEON_DISC_1",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dungeon_Disc",
     "https://wiki.hypixel.net/Dungeon_Disc"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

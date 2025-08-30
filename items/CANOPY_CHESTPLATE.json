@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§aCanopy Shirt",
-  "nbttag": "{ExtraAttributes:{id:\"CANOPY_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:leather_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+120\",1:\"§7Defense: §a+40\",2:\"§7Sweep: §a+6\",3:\"\",4:\"§8This item can be reforged!\",5:\"§4❣ §cRequires §aForaging Skill 8§c.\",6:\"§a§lUNCOMMON CHESTPLATE\"],Name:\"§aCanopy Shirt\",color:26163}}",
+  "displayname": "{\"text\":\"Canopy Shirt\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Canopy Shirt\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+120\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sweep: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+6\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Foraging Skill 8\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON CHESTPLATE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CANOPY_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+120",
-    "§7Defense: §a+40",
-    "§7Sweep: §a+6",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aForaging Skill 8§c.",
-    "§a§lUNCOMMON CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+120\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sweep: \",\"color\":\"gray\"},{\"text\":\"+6\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Foraging Skill 8\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON CHESTPLATE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CANOPY_CHESTPLATE",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Canopy_Shirt"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:stained_glass",
-  "displayname": "§fLight Gray Stained Glass",
-  "nbttag": "{ExtraAttributes:{id:\"STAINED_GLASS-8\"},HideFlags:254,ItemModel:\"minecraft:light_gray_stained_glass\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fLight Gray Stained Glass\"}}",
-  "damage": 8,
+  "displayname": "{\"text\":\"Light Gray Stained Glass\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stained_glass\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Light Gray Stained Glass\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STAINED_GLASS-8\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STAINED_GLASS-8",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C2": "GLASS:1",
     "C3": "GLASS:1",
     "count": 8
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

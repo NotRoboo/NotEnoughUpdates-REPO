@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Lucky Barn Skin",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d3fd4302-c489-32de-ac0c-7b683a7cf010\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJkZjlmYjdmMmFjNTk4N2VjZmJkMTczZThiOTcxMWQ5OWI1ODExNmY4Y2E0ZDc3ZDBhZjhiMzg5ZiJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7§7Consume this item to unlock the\",1:\"§7§6Lucky Barn Skin §7on §aThe Garden§7!\",2:\"\",3:\"§eClick to consume!\",4:\"\",5:\"§6§lLEGENDARY COSMETIC\"],Name:\"§6Lucky Barn Skin\"},ExtraAttributes:{id:\"LUCKY_BARN_SKIN\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Lucky Barn Skin\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lucky Barn Skin\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consume this item to unlock the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Lucky Barn Skin \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY COSMETIC\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LUCKY_BARN_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7Consume this item to unlock the",
-    "§7§6Lucky Barn Skin §7on §aThe Garden§7!",
-    "",
-    "§eClick to consume!",
-    "",
-    "§6§lLEGENDARY COSMETIC"
+    "{\"text\":\"Consume this item to unlock the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Lucky Barn Skin \",\"color\":\"gold\"},{\"text\":\"on \",\"color\":\"gray\"},{\"text\":\"The Garden\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY COSMETIC\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "LUCKY_BARN_SKIN",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lucky_Barn_Skin",
     "https://wiki.hypixel.net/Lucky_Barn_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

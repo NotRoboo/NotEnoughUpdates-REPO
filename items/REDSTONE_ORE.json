@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:redstone_ore",
-  "displayname": "§aRedstone Ore",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON ORE\"],Name:\"§aRedstone Ore\"},ExtraAttributes:{id:\"REDSTONE_ORE\"}}",
+  "displayname": "{\"text\":\"Redstone Ore\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:redstone_ore\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Redstone Ore\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON ORE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REDSTONE_ORE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§a§lUNCOMMON ORE"
+    "{\"text\":\"UNCOMMON ORE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "REDSTONE_ORE",
   "modver": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://wiki.hypixel.net/Redstone_Ore"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

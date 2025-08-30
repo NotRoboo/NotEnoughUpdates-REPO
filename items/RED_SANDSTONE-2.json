@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:red_sandstone",
-  "displayname": "§fRed Smooth Sandstone",
-  "nbttag": "{ExtraAttributes:{id:\"RED_SANDSTONE-2\"},HideFlags:254,ItemModel:\"minecraft:cut_red_sandstone\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRed Smooth Sandstone\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Red Smooth Sandstone\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:red_sandstone\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Red Smooth Sandstone\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RED_SANDSTONE-2\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "RED_SANDSTONE-2",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 4
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

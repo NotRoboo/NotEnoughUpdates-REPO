@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:gold_nugget",
-  "displayname": "§eYellow Rock",
-  "nbttag": "{ExtraAttributes:{id:\"YELLOW_ROCK\"},HideFlags:254,ItemModel:\"minecraft:gold_nugget\",display:{Lore:[0:\"§8Quest Item\",1:\" \",2:\"§7Bring it to §eRomero §7in §aThe Park§7.\",3:\" \",4:\"§8§oA little rough around the edges, but\",5:\"§8§obeauty can be found within.\",6:\"\",7:\"§f§lCOMMON\"],Name:\"§eYellow Rock\"},ench:[]}",
+  "displayname": "{\"text\":\"Yellow Rock\",\"color\":\"yellow\"}",
+  "nbttag": "{\"id\":\"minecraft:gold_nugget\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Yellow Rock\\\",\\\"color\\\":\\\"yellow\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Quest Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring it to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Romero \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Park\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"A little rough around the edges, but\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"beauty can be found within.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"YELLOW_ROCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Quest Item",
-    " ",
-    "§7Bring it to §eRomero §7in §aThe Park§7.",
-    " ",
-    "§8§oA little rough around the edges, but",
-    "§8§obeauty can be found within.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Quest Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\" \"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring it to \",\"color\":\"gray\"},{\"text\":\"Romero \",\"color\":\"yellow\"},{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"The Park\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\" \"}",
+    "{\"text\":\"A little rough around the edges, but\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"beauty can be found within.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "YELLOW_ROCK",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Yellow_Rock",
     "https://wiki.hypixel.net/Yellow_Rock"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

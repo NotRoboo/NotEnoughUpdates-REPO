@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fDesk",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7ac5aa23-341b-323c-a67d-bae461457f70\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjAsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80YzNlOGMxOTRjOWYxNGZkOThjMjM0N2E0Y2M0ZmNjM2Q3NTVkOTQ4YmRjNThlNDI5MjZkOWQ2ZjQ1YjYyMGE1In19fQ==\"}]}},display:{Lore:[0:\"§8Furniture\",1:\"\",2:\"§7This cosmetic writing desk adds\",3:\"§7atmosphere to any build\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fDesk\"},ExtraAttributes:{id:\"DESK\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Desk\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Desk\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This cosmetic writing desk adds\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"atmosphere to any build\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DESK\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "",
-    "§7This cosmetic writing desk adds",
-    "§7atmosphere to any build",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This cosmetic writing desk adds\",\"color\":\"gray\"}",
+    "{\"text\":\"atmosphere to any build\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DESK",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Desk",
     "https://wiki.hypixel.net/Desk"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

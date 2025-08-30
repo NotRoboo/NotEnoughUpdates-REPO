@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:leather_helmet",
-  "displayname": "§aCeleste Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"CELESTE_HELMET\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+10\",1:\"§7Intelligence: §a+30\",2:\"\",3:\"§8This item can be reforged!\",4:\"§4❣ §cRequires §aCombat Skill 4§c.\",5:\"§a§lUNCOMMON HELMET\"],Name:\"§aCeleste Helmet\",color:13930226}}",
+  "displayname": "{\"text\":\"Celeste Helmet\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Celeste Helmet\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 4\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON HELMET\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CELESTE_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+10",
-    "§7Intelligence: §a+30",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill 4§c.",
-    "§a§lUNCOMMON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 4\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON HELMET\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CELESTE_HELMET",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Celeste_Helmet",
     "https://wiki.hypixel.net/Celeste_Helmet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

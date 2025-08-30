@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§6Daedalus Stick",
-  "nbttag": "{ExtraAttributes:{id:\"DAEDALUS_STICK\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§7Drops rare off of Minotaurs from\",1:\"§7Diana's Mythological Ritual.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§6§lLEGENDARY\"],Name:\"§6Daedalus Stick\"},ench:[]}",
+  "displayname": "{\"text\":\"Daedalus Stick\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Daedalus Stick\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Drops rare off of Minotaurs from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Diana\u0027s Mythological Ritual.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DAEDALUS_STICK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Drops rare off of Minotaurs from",
-    "§7Diana's Mythological Ritual.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Drops rare off of Minotaurs from\",\"color\":\"gray\"}",
+    "{\"text\":\"Diana\u0027s Mythological Ritual.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "DAEDALUS_STICK",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Daedalus_Stick",
     "https://wiki.hypixel.net/Daedalus_Stick"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

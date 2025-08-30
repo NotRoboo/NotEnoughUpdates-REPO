@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:redstone",
-  "displayname": "§aEnchanted Redstone",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_REDSTONE\"},HideFlags:254,ItemModel:\"minecraft:redstone\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§a§lUNCOMMON ORE\"],Name:\"§aEnchanted Redstone\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Redstone\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:redstone\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Redstone\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ORE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_REDSTONE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "§8Collection Item",
-    "",
-    "§a§lUNCOMMON ORE"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ORE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_REDSTONE",
   "clickcommand": "viewrecipe",
@@ -45,5 +45,8 @@
       "C3": "",
       "count": 9
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

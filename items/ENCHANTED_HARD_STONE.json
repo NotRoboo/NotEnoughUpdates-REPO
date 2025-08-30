@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:stone",
-  "displayname": "§aEnchanted Hard Stone",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_HARD_STONE\"},HideFlags:254,ItemModel:\"minecraft:stone\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A refined form of heavy rock from\",3:\"§7the darkest depths.\",4:\"\",5:\"§a§lUNCOMMON BLOCK\"],Name:\"§aEnchanted Hard Stone\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Hard Stone\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:stone\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Hard Stone\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A refined form of heavy rock from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the darkest depths.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON BLOCK\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_HARD_STONE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7A refined form of heavy rock from",
-    "§7the darkest depths.",
-    "",
-    "§a§lUNCOMMON BLOCK"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A refined form of heavy rock from\",\"color\":\"gray\"}",
+    "{\"text\":\"the darkest depths.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON BLOCK\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_HARD_STONE",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C1": "HARD_STONE:64",
     "C2": "HARD_STONE:64",
     "C3": "HARD_STONE:64"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

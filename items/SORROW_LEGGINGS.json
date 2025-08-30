@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:chainmail_leggings",
-  "displayname": "§6Sorrow Leggings",
-  "nbttag": "{ExtraAttributes:{id:\"SORROW_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:chainmail_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Magic Find: §a+5\",1:\"§7True Defense: §a+70\",2:\"§7Mining Speed: §a+50\",3:\"§7Mining Fortune: §a+20\",4:\" §8[§7⸕§8] [☘] [❂]\",5:\"\",6:\"§62-Piece Set Bonus: Mist Aura\",7:\"§7Hides the wearer in a guise of mist,\",8:\"§7multiplying damage from ghosts by\",9:\"§c0.6x§7.\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4❣ §cRequires §5Heart of the Mountain Tier 5§c.\",13:\"§6§lLEGENDARY LEGGINGS\"],Name:\"§6Sorrow Leggings\"}}",
+  "displayname": "{\"text\":\"Sorrow Leggings\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:chainmail_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sorrow Leggings\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Magic Find: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"True Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+70\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"⸕\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"] [☘] [❂]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"2-Piece Set Bonus: Mist Aura\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Hides the wearer in a guise of mist,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"multiplying damage from ghosts by\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"0.6x\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 5\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY LEGGINGS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SORROW_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Magic Find: §a+5",
-    "§7True Defense: §a+70",
-    "§7Mining Speed: §a+50",
-    "§7Mining Fortune: §a+20",
-    " §8[§7⸕§8] [☘] [❂]",
-    "",
-    "§62-Piece Set Bonus: Mist Aura",
-    "§7Hides the wearer in a guise of mist,",
-    "§7multiplying damage from ghosts by",
-    "§c0.6x§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 5§c.",
-    "§6§lLEGENDARY LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Magic Find: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"True Defense: \",\"color\":\"gray\"},{\"text\":\"+70\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Fortune: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"⸕\",\"color\":\"gray\"},{\"text\":\"] [☘] [❂]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"2-Piece Set Bonus: Mist Aura\",\"color\":\"gold\"}",
+    "{\"text\":\"Hides the wearer in a guise of mist,\",\"color\":\"gray\"}",
+    "{\"text\":\"multiplying damage from ghosts by\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"0.6x\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 5\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY LEGGINGS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "SORROW_LEGGINGS",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
     "C1": "SORROW:3",
     "C2": "",
     "C3": "SORROW:3"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

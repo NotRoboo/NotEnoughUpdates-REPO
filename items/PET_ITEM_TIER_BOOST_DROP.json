@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§6Tier Boost Core",
-  "nbttag": "{ExtraAttributes:{id:\"PET_ITEM_TIER_BOOST_DROP\"},HideFlags:254,ItemModel:\"minecraft:red_dye\",display:{Lore:[0:\"§7Used to craft the Tier Boost pet item.\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§6§lLEGENDARY\"],Name:\"§6Tier Boost Core\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Tier Boost Core\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tier Boost Core\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Used to craft the Tier Boost pet item.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PET_ITEM_TIER_BOOST_DROP\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Used to craft the Tier Boost pet item.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Used to craft the Tier Boost pet item.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "PET_ITEM_TIER_BOOST_DROP",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Tier_Boost_Core",
     "https://wiki.hypixel.net/Tier_Boost_Core"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:ice",
-  "displayname": "§fIce",
-  "nbttag": "{ExtraAttributes:{id:\"ICE\"},HideFlags:254,ItemModel:\"minecraft:ice\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON BLOCK\"],Name:\"§fIce\"}}",
+  "displayname": "{\"text\":\"Ice\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:ice\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ice\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON BLOCK\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ICE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON BLOCK"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON BLOCK\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ICE",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://wiki.hypixel.net/Ice"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

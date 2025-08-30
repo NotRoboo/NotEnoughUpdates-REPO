@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:activator_rail",
-  "displayname": "§fActivator Rail",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fActivator Rail\"},ExtraAttributes:{id:\"ACTIVATOR_RAIL\"}}",
+  "displayname": "{\"text\":\"Activator Rail\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:activator_rail\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Activator Rail\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ACTIVATOR_RAIL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ACTIVATOR_RAIL",
   "modver": "2.1.1-PRE",
@@ -21,5 +21,8 @@
     "C2": "STICK:1",
     "C3": "IRON_INGOT:1",
     "count": 6
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,27 +1,27 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cGaia Construct (Mythological Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a46a9adf-60a3-38f2-a3dd-335d85f1cc10\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJiY2FjZWViNDE2MmY0MDBkNDQ3NDMzMTU5MzJhYzgyMGQzMTE5YWM4OTg2YTAxNjFhNzI2MTYxY2NjOTNmYyJ9fX0\"}]}},display:{Lore:[0:\"§7The Gaia Construct is a Mythological Creature\",1:\"§7that can be found by using a §9rare §7or higher \",2:\"§7Griffin Pet. It deals §6True Knockback §7and ignores \",3:\"§7anti-knockback capabilities like Dwarf Turtle\",4:\"§7Shelmet. It has three stages upon spawning:\",5:\"\",6:\"§aStage 1§8: §7Damaged once every 6 hits, \",7:\"§7summons a little lightning.\",8:\"§9Stage 2 (66% HP)§8: §7Damaged once every 7 hits,\",9:\"§7summons more lightning.               \",10:\"§cStage 3 (33% HP)§8: §7Damaged once every 8 hits,\",11:\"§7summons the most lightning.\",12:\"\",13:\"§c❤ Health§8:\",14:\"§8[§9Griffin§8/§5Griffin§8] §c300,000 ❤\",15:\"§8[§6Griffin§8] §c1,500,000 ❤\",16:\"\",17:\"§9§lRARE\"],Name:\"§cGaia Construct (Mythological Creature)\"},ExtraAttributes:{id:\"GAIA_CONSTRUCT_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Gaia Construct (Mythological Creature)\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Gaia Construct (Mythological Creature)\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Gaia Construct is a Mythological Creature\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"that can be found by using a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"rare \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"or higher \\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Griffin Pet. It deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"True Knockback \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"and ignores \\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"anti-knockback capabilities like Dwarf Turtle\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Shelmet. It has three stages upon spawning:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Stage 1\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Damaged once every 6 hits, \\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"summons a little lightning.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Stage 2 (66% HP)\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Damaged once every 7 hits,\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"summons more lightning. \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Stage 3 (33% HP)\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Damaged once every 8 hits,\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"summons the most lightning.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\":\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"/\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"300,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"Griffin\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1,500,000 ❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7The Gaia Construct is a Mythological Creature",
-    "§7that can be found by using a §9rare §7or higher ",
-    "§7Griffin Pet. It deals §6True Knockback §7and ignores ",
-    "§7anti-knockback capabilities like Dwarf Turtle",
-    "§7Shelmet. It has three stages upon spawning:",
-    "",
-    "§aStage 1§8: §7Damaged once every 6 hits, ",
-    "§7summons a little lightning.",
-    "§9Stage 2 (66% HP)§8: §7Damaged once every 7 hits,",
-    "§7summons more lightning.               ",
-    "§cStage 3 (33% HP)§8: §7Damaged once every 8 hits,",
-    "§7summons the most lightning.",
-    "",
-    "§c❤ Health§8:",
-    "§8[§9Griffin§8/§5Griffin§8] §c300,000 ❤",
-    "§8[§6Griffin§8] §c1,500,000 ❤",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"The Gaia Construct is a Mythological Creature\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"that can be found by using a \",\"color\":\"gray\"},{\"text\":\"rare \",\"color\":\"blue\"},{\"text\":\"or higher \",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Griffin Pet. It deals \",\"color\":\"gray\"},{\"text\":\"True Knockback \",\"color\":\"gold\"},{\"text\":\"and ignores \",\"color\":\"gray\"}]}",
+    "{\"text\":\"anti-knockback capabilities like Dwarf Turtle\",\"color\":\"gray\"}",
+    "{\"text\":\"Shelmet. It has three stages upon spawning:\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Stage 1\",\"color\":\"green\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"Damaged once every 6 hits, \",\"color\":\"gray\"}]}",
+    "{\"text\":\"summons a little lightning.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Stage 2 (66% HP)\",\"color\":\"blue\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"Damaged once every 7 hits,\",\"color\":\"gray\"}]}",
+    "{\"text\":\"summons more lightning. \",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Stage 3 (33% HP)\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"Damaged once every 8 hits,\",\"color\":\"gray\"}]}",
+    "{\"text\":\"summons the most lightning.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\":\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"blue\"},{\"text\":\"/\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"dark_purple\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"300,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Griffin\",\"color\":\"gold\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"1,500,000 ❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "GAIA_CONSTRUCT_MONSTER",
   "clickcommand": "viewrecipe",
@@ -96,5 +96,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

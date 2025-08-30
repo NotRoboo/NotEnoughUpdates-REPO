@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:end_portal_frame",
-  "displayname": "§fEnd Portal Frame",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fEnd Portal Frame\"},ExtraAttributes:{id:\"ENDER_PORTAL_FRAME\"}}",
+  "displayname": "{\"text\":\"End Portal Frame\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:end_portal_frame\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"End Portal Frame\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENDER_PORTAL_FRAME\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ENDER_PORTAL_FRAME",
   "modver": "2.0.0-REL",
@@ -13,5 +13,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/End_Portal_Frame"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

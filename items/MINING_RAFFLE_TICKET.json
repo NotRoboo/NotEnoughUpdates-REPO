@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:name_tag",
-  "displayname": "§aRaffle Ticket",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Bring this back to the\",1:\"§7raffle box!\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aRaffle Ticket\"},ExtraAttributes:{id:\"MINING_RAFFLE_TICKET\"}}",
+  "displayname": "{\"text\":\"Raffle Ticket\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:name_tag\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Raffle Ticket\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Bring this back to the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"raffle box!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MINING_RAFFLE_TICKET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Bring this back to the",
-    "§7raffle box!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Bring this back to the\",\"color\":\"gray\"}",
+    "{\"text\":\"raffle box!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "MINING_RAFFLE_TICKET",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Raffle_Ticket",
     "https://wiki.hypixel.net/Raffle_Ticket"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

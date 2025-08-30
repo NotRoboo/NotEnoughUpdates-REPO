@@ -1,23 +1,23 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Spirit Mask",
-  "nbttag": "{ExtraAttributes:{id:\"SPIRIT_MASK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fa516dbb-2827-3e69-ab09-715fa0c3b585\",Properties:{textures:[0:{Name:\"textures\",Signature:\"BvTwl3pF3ab7hGRXD46RBSPXS0ue/I4F4mWOq40BUVZJGAplUlZWnXSm9WZhEiTlxSbza8xrwAawofgoCdRVEzLsNYdejYztdktGgqjOusAexXR2V85g4PXIPeoTtqvDlG97EVL0IJcRQsrlJ8WipdbUfeWHSzqy9Ibo689CblgGEgjQ8rNynwC+ncsRzQZ7t3uNviBpGNq1YllVLROt79uTmeI8EkwmkYOawXswIdFfMr5FXLZhWAaQ1c6zxPxTvPhkY9S5VxnSA0tFfyoqV6MD2SHkWvdQLT1VB3KCtsJi3hHXzgTH/24BrlkWUygmaG+Q89l7aG1v4bYoJMF9uUQe4e47JZKeWkLVSoadf+OUQv7K2h6aNJKYRmrdWd+Z9h3gfKFTTiIKF4VQ4kF5mDnlH8+FICRK6KcatQeEoC89WWHUcaHPmhQoih2X01mGUh+lusPc/l/v+ZjNKUuK+WDAu6HYZA3MGh60duLNrAHnoDcLaWbVJ8a4cyXQHVqHM43KJV8ljm9Zq1yElbAdExKW7F9WZ1jlPae6JJj9qJlFH+PZnMhlU9mxPMHttFz9jRmd5Bg//3g5jPb5PMZ/Y3mQ/YURJ2j5bYAO1+F4rYa6FE33UKLWbIZ8wY10HiK7d0hfr7DTy1NscQOOwQFeyxj4wfewMRoSmLa8uu9T7pc=\",Value:\"eyJ0aW1lc3RhbXAiOjE1MDUyMjI5OTg3MzQsInByb2ZpbGVJZCI6IjBiZTU2MmUxNzIyODQ3YmQ5MDY3MWYxNzNjNjA5NmNhIiwicHJvZmlsZU5hbWUiOiJ4Y29vbHgzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn0sInVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiZTcyMWQ3YWQ4YWI5NjVmMDhjYmVjMGI4MzRmNzc5YjUxOTdmNzlkYTRhZWEzZDEzZDI1M2VjZTlkZWMyIn19fQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Gear Score: §d230\",1:\"§7Health: §a+100\",2:\"§7Defense: §a+50\",3:\"§7Speed: §a+15\",4:\"§7Intelligence: §a+20\",5:\"\",6:\"§6Ability: Second Wind \",7:\"§7Instead of dying, gain §f+50✦ Speed\",8:\"§7and damage immunity for §a3 §7seconds.\",9:\"§8Cooldown: §a30s\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4❣ §cRequires Catacombs Skill 15.\",13:\"§5§lEPIC DUNGEON HELMET\"],Name:\"§5Spirit Mask\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Spirit Mask\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spirit Mask\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"230\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Second Wind \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Instead of dying, gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50✦ Speed\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and damage immunity for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"seconds.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"30s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 15.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON HELMET\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPIRIT_MASK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1MDUyMjI5OTg3MzQsInByb2ZpbGVJZCI6IjBiZTU2MmUxNzIyODQ3YmQ5MDY3MWYxNzNjNjA5NmNhIiwicHJvZmlsZU5hbWUiOiJ4Y29vbHgzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn0sInVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiZTcyMWQ3YWQ4YWI5NjVmMDhjYmVjMGI4MzRmNzc5YjUxOTdmNzlkYTRhZWEzZDEzZDI1M2VjZTlkZWMyIn19fQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Gear Score: §d230",
-    "§7Health: §a+100",
-    "§7Defense: §a+50",
-    "§7Speed: §a+15",
-    "§7Intelligence: §a+20",
-    "",
-    "§6Ability: Second Wind ",
-    "§7Instead of dying, gain §f+50✦ Speed",
-    "§7and damage immunity for §a3 §7seconds.",
-    "§8Cooldown: §a30s",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Catacombs Skill 15.",
-    "§5§lEPIC DUNGEON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"230\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Second Wind \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Instead of dying, gain \",\"color\":\"gray\"},{\"text\":\"+50✦ Speed\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and damage immunity for \",\"color\":\"gray\"},{\"text\":\"3 \",\"color\":\"green\"},{\"text\":\"seconds.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"30s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 15.\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON HELMET\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SPIRIT_MASK",
   "clickcommand": "",
@@ -34,5 +34,8 @@
       "cost": "ENCHANTED_EMERALD:75",
       "result": "SPIRIT_MASK"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

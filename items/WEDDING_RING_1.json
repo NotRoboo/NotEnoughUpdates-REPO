@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:gold_nugget",
-  "displayname": "§eYellow Rock of Love",
-  "nbttag": "{ExtraAttributes:{id:\"WEDDING_RING_1\"},HideFlags:254,ItemModel:\"minecraft:gold_nugget\",display:{Lore:[0:\"§7Grants a 1 in 100,000,000,000\",1:\"§7chance to deal §c+100% §7damage.\",2:\"\",3:\"§8True love is tough to find, but\",4:\"§8finding it hits you hard!\",5:\"\",6:\"§7Requires quest progress!\",7:\"\",8:\"§f§lCOMMON ACCESSORY\"],Name:\"§eYellow Rock of Love\"},ench:[]}",
+  "displayname": "{\"text\":\"Yellow Rock of Love\",\"color\":\"yellow\"}",
+  "nbttag": "{\"id\":\"minecraft:gold_nugget\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Yellow Rock of Love\\\",\\\"color\\\":\\\"yellow\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Grants a 1 in 100,000,000,000\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"chance to deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"True love is tough to find, but\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"finding it hits you hard!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Requires quest progress!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON ACCESSORY\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WEDDING_RING_1\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Grants a 1 in 100,000,000,000",
-    "§7chance to deal §c+100% §7damage.",
-    "",
-    "§8True love is tough to find, but",
-    "§8finding it hits you hard!",
-    "",
-    "§7Requires quest progress!",
-    "",
-    "§f§lCOMMON ACCESSORY"
+    "{\"text\":\"Grants a 1 in 100,000,000,000\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"chance to deal \",\"color\":\"gray\"},{\"text\":\"+100% \",\"color\":\"red\"},{\"text\":\"damage.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"True love is tough to find, but\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"finding it hits you hard!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Requires quest progress!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON ACCESSORY\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WEDDING_RING_1",
   "clickcommand": "",
@@ -23,5 +23,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Yellow_Rock_of_Love",
     "https://wiki.hypixel.net/Yellow_Rock_Of_Love"
   ],
-  "parent": "WEDDING_RING_0"
+  "parent": "WEDDING_RING_0",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

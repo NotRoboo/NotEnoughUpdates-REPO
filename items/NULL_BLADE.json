@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:shears",
-  "displayname": "§6Null Blade",
-  "nbttag": "{ExtraAttributes:{id:\"NULL_BLADE\"},HideFlags:254,ItemModel:\"minecraft:shears\",Unbreakable:1B,display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§6§lLEGENDARY\"],Name:\"§6Null Blade\"},ench:[]}",
+  "displayname": "{\"text\":\"Null Blade\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:shears\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Null Blade\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NULL_BLADE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "NULL_BLADE",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "NULL_OVOID:16",
     "C2": "NULL_EDGE:1",
     "C3": "NULL_OVOID:16"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

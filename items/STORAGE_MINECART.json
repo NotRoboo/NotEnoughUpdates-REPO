@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:chest_minecart",
-  "displayname": "§fMinecart with Chest",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMinecart with Chest\"},ExtraAttributes:{id:\"STORAGE_MINECART\"}}",
+  "displayname": "{\"text\":\"Minecart with Chest\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:chest_minecart\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Minecart with Chest\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STORAGE_MINECART\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STORAGE_MINECART",
   "modver": "1.3-REL",
@@ -20,5 +20,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

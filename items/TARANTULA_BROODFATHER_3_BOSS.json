@@ -1,29 +1,29 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Tarantula Broodfather III (Boss)",
-  "nbttag": "{ExtraAttributes:{id:\"TARANTULA_BROODFATHER_3_BOSS\"},HideFlags:254,SkullOwner:{Id:\"7c63f3cf-a963-311a-aeca-3a075b417806\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ\"}]}},display:{Lore:[0:\"§8Challenging\",1:\"\",2:\"§7Health: §c900,000❤\",3:\"§7Damage: §c260 §7per second\",4:\"\",5:\"§eBackstab\",6:\"§7Occasionally leaps behind you. Attacks\",7:\"§7from behind deal §c100% Damage§7.\",8:\"\",9:\"§eNoxious Paralysis\",10:\"§7Reduces §4♨ Vitality§7 by §c50% §7and each hit\",11:\"§7you take reduces your §f✦ Speed Cap§7 by §c1§7.\",12:\"\",13:\"§cWeb of Lies\",14:\"§7The boss begins to heal and spews\",15:\"§7webbing along the ground, disabling\",16:\"§7§5teleportation§7 abilities until they are\",17:\"§7cleared, and spawns §a2§7 egg sacs in the\",18:\"§7air. Destroy them before they hatch into\",19:\"§7minions!\"],Name:\"§6Tarantula Broodfather III (Boss)\"},ench:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Tarantula Broodfather III (Boss)\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Tarantula Broodfather III (Boss)\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Challenging\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"900,000❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"260 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per second\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Backstab\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"Occasionally leaps behind you. Attacks\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"from behind deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"100% Damage\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Noxious Paralysis\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Reduces \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"♨ Vitality\\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\" by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and each hit\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"you take reduces your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✦ Speed Cap\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\" by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Web of Lies\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"The boss begins to heal and spews\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"webbing along the ground, disabling\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"teleportation\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\" abilities until they are\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"cleared, and spawns \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" egg sacs in the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"air. Destroy them before they hatch into\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"minions!\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"TARANTULA_BROODFATHER_3_BOSS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Challenging",
-    "",
-    "§7Health: §c900,000❤",
-    "§7Damage: §c260 §7per second",
-    "",
-    "§eBackstab",
-    "§7Occasionally leaps behind you. Attacks",
-    "§7from behind deal §c100% Damage§7.",
-    "",
-    "§eNoxious Paralysis",
-    "§7Reduces §4♨ Vitality§7 by §c50% §7and each hit",
-    "§7you take reduces your §f✦ Speed Cap§7 by §c1§7.",
-    "",
-    "§cWeb of Lies",
-    "§7The boss begins to heal and spews",
-    "§7webbing along the ground, disabling",
-    "§7§5teleportation§7 abilities until they are",
-    "§7cleared, and spawns §a2§7 egg sacs in the",
-    "§7air. Destroy them before they hatch into",
-    "§7minions!"
+    "{\"text\":\"Challenging\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"900,000❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"260 \",\"color\":\"red\"},{\"text\":\"per second\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Backstab\",\"color\":\"yellow\"}",
+    "{\"text\":\"Occasionally leaps behind you. Attacks\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"from behind deal \",\"color\":\"gray\"},{\"text\":\"100% Damage\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Noxious Paralysis\",\"color\":\"yellow\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Reduces \",\"color\":\"gray\"},{\"text\":\"♨ Vitality\",\"color\":\"dark_red\"},{\"text\":\" by \",\"color\":\"gray\"},{\"text\":\"50% \",\"color\":\"red\"},{\"text\":\"and each hit\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"you take reduces your \",\"color\":\"gray\"},{\"text\":\"✦ Speed Cap\",\"color\":\"white\"},{\"text\":\" by \",\"color\":\"gray\"},{\"text\":\"1\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Web of Lies\",\"color\":\"red\"}",
+    "{\"text\":\"The boss begins to heal and spews\",\"color\":\"gray\"}",
+    "{\"text\":\"webbing along the ground, disabling\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"teleportation\",\"color\":\"dark_purple\"},{\"text\":\" abilities until they are\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"cleared, and spawns \",\"color\":\"gray\"},{\"text\":\"2\",\"color\":\"green\"},{\"text\":\" egg sacs in the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"air. Destroy them before they hatch into\",\"color\":\"gray\"}",
+    "{\"text\":\"minions!\",\"color\":\"gray\"}"
   ],
   "internalname": "TARANTULA_BROODFATHER_3_BOSS",
   "clickcommand": "viewrecipe",
@@ -109,5 +109,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

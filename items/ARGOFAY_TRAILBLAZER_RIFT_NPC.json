@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dArgofay Trailblazer (Rift NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"8cce9abc-fd91-294f-9633-605ecbd7dd8b\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjYmU3MGMyZDFjNjhmZmFiZDJmYmJiZTNmZmYxNzQ2ZjQyMjI5Mzc4NjU2MDQ3NmVjZGZlYzVhYTI5M2Q3ZmEifX19\"}]},Name:\"8cce9abc-fd91-294f-9633-605ecbd7dd8b\"},display:{Lore:[0:\"§7An NPC located in the Wyld Woods\",1:\"§7in the Rift Dimension.\"],Name:\"§dArgofay Trailblazer (Rift NPC)\"},ExtraAttributes:{id:\"ARGOFAY_TRAILBLAZER_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Argofay Trailblazer (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Argofay Trailblazer (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"An NPC located in the Wyld Woods\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in the Rift Dimension.\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"ARGOFAY_TRAILBLAZER_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7An NPC located in the Wyld Woods",
-    "§7in the Rift Dimension."
+    "{\"text\":\"An NPC located in the Wyld Woods\",\"color\":\"gray\"}",
+    "{\"text\":\"in the Rift Dimension.\",\"color\":\"gray\"}"
   ],
   "internalname": "ARGOFAY_TRAILBLAZER_RIFT_NPC",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Argofay_Trailblazer",
     "https://wiki.hypixel.net/Argofay_Trailblazer"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

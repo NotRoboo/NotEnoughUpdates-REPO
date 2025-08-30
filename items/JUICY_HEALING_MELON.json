@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:melon",
-  "displayname": "§5Juicy Healing Melon",
-  "nbttag": "{ExtraAttributes:{id:\"JUICY_HEALING_MELON\"},HideFlags:254,ItemModel:\"minecraft:melon_slice\",display:{Lore:[0:\"§6Ability: Succulence  §e§lRIGHT CLICK\",1:\"§7Take a bite and heal §c9❤§7.\",2:\"§8Mana Cost: §350\",3:\"\",4:\"§4☠ §cRequires §5Vampire Slayer 2§c.\",5:\"§5§lEPIC\"],Name:\"§5Juicy Healing Melon\"}}",
+  "displayname": "{\"text\":\"Juicy Healing Melon\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:melon\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Juicy Healing Melon\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Succulence \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Take a bite and heal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"9❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"50\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Vampire Slayer 2\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"JUICY_HEALING_MELON\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Succulence  §e§lRIGHT CLICK",
-    "§7Take a bite and heal §c9❤§7.",
-    "§8Mana Cost: §350",
-    "",
-    "§4☠ §cRequires §5Vampire Slayer 2§c.",
-    "§5§lEPIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Succulence \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Take a bite and heal \",\"color\":\"gray\"},{\"text\":\"9❤\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"50\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Vampire Slayer 2\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "JUICY_HEALING_MELON",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C1": "COVEN_SEAL:2",
     "C2": "COVEN_SEAL:2",
     "C3": "COVEN_SEAL:2"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

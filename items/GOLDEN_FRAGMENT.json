@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Golden Fragment",
-  "nbttag": "{ExtraAttributes:{id:\"GOLDEN_FRAGMENT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"3f7f8ff6-31d8-3c7f-824f-1faf758463f7\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTYzMzcxNywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgwNGM1Y2UxMjU0NWE3Y2NkZjBhMzViOWRmMGVmOWJhYzE1ODI2YzNhMDc4NmUxY2UxMGYzZWM3ZDA2NTZmNjEiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§6Gold§7, but broken into fragments. This\",1:\"§7makes it important somehow.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§5§lEPIC\"],Name:\"§5Golden Fragment\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Golden Fragment\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Golden Fragment\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gold\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\", but broken into fragments. This\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"makes it important somehow.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLDEN_FRAGMENT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTYzMzcxNywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgwNGM1Y2UxMjU0NWE3Y2NkZjBhMzViOWRmMGVmOWJhYzE1ODI2YzNhMDc4NmUxY2UxMGYzZWM3ZDA2NTZmNjEiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§6Gold§7, but broken into fragments. This",
-    "§7makes it important somehow.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gold\",\"color\":\"gold\"},{\"text\":\", but broken into fragments. This\",\"color\":\"gray\"}]}",
+    "{\"text\":\"makes it important somehow.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "GOLDEN_FRAGMENT",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Golden_Fragment",
     "https://wiki.hypixel.net/Golden_Fragment"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

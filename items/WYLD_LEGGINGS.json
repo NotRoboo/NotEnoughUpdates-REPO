@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§aWyld Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Time: §a+15s\",1:\"\",2:\"§a§lUNCOMMON LEGGINGS\"],color:3520315,Name:\"§aWyld Leggings\"},ExtraAttributes:{id:\"WYLD_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Wyld Leggings\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wyld Leggings\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON LEGGINGS\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WYLD_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Rift Time: §a+15s",
-    "",
-    "§a§lUNCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+15s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON LEGGINGS\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "WYLD_LEGGINGS",
   "crafttext": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Wyld_Leggings",
     "https://wiki.hypixel.net/Wyld_Leggings"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

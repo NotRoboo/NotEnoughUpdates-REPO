@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§fPumpkin Leggings",
-  "nbttag": "{ExtraAttributes:{color:\"237:170:54\",id:\"PUMPKIN_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+10\",1:\"§7Defense: §a+10\",2:\"\",3:\"§6Full Set Bonus: Pumpkin Buff\",4:\"§7Reduce all taken damage by\",5:\"§a+10%§7 and deal §a+10%\",6:\"§7damage.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§f§lCOMMON LEGGINGS\"],Name:\"§fPumpkin Leggings\",color:15575606}}",
+  "displayname": "{\"text\":\"Pumpkin Leggings\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pumpkin Leggings\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Pumpkin Buff\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Reduce all taken damage by\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+10%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" and deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"damage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON LEGGINGS\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"color\":\"237:170:54\",\"id\":\"PUMPKIN_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+10",
-    "§7Defense: §a+10",
-    "",
-    "§6Full Set Bonus: Pumpkin Buff",
-    "§7Reduce all taken damage by",
-    "§a+10%§7 and deal §a+10%",
-    "§7damage.",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Pumpkin Buff\",\"color\":\"gold\"}",
+    "{\"text\":\"Reduce all taken damage by\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+10%\",\"color\":\"green\"},{\"text\":\" and deal \",\"color\":\"gray\"},{\"text\":\"+10%\",\"color\":\"green\"}]}",
+    "{\"text\":\"damage.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON LEGGINGS\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "PUMPKIN_LEGGINGS",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "PUMPKIN:1",
     "C2": "",
     "C3": "PUMPKIN:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:packed_ice",
-  "displayname": "§9Winter Homestead Barn Skin",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Consume this item to unlock the\",1:\"§7§5Winter Homestead Barn Skin §7on §aThe\",2:\"§aGarden§7!\",3:\"\",4:\"§eClick to consume!\",5:\"\",6:\"§9§lRARE COSMETIC\"],Name:\"§9Winter Homestead Barn Skin\"},ExtraAttributes:{id:\"WINTER_HOMESTEAD_BARN_SKIN\"}}",
+  "displayname": "{\"text\":\"Winter Homestead Barn Skin\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:packed_ice\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Winter Homestead Barn Skin\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consume this item to unlock the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Winter Homestead Barn Skin \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE COSMETIC\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WINTER_HOMESTEAD_BARN_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7Consume this item to unlock the",
-    "§7§5Winter Homestead Barn Skin §7on §aThe",
-    "§aGarden§7!",
-    "",
-    "§eClick to consume!",
-    "",
-    "§9§lRARE COSMETIC"
+    "{\"text\":\"Consume this item to unlock the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Winter Homestead Barn Skin \",\"color\":\"dark_purple\"},{\"text\":\"on \",\"color\":\"gray\"},{\"text\":\"The\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Garden\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE COSMETIC\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "WINTER_HOMESTEAD_BARN_SKIN",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Winter_Homestead_Barn_Skin",
     "https://wiki.hypixel.net/Winter_Homestead_Barn_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

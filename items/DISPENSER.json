@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:dispenser",
-  "displayname": "§fDispenser",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDispenser\"},ExtraAttributes:{id:\"DISPENSER\"}}",
+  "displayname": "{\"text\":\"Dispenser\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:dispenser\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dispenser\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DISPENSER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DISPENSER",
   "modver": "1.3-REL",
@@ -20,5 +20,8 @@
     "C1": "COBBLESTONE:1",
     "C2": "REDSTONE:1",
     "C3": "COBBLESTONE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

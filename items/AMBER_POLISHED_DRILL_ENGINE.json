@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Amber-Polished Drill Engine",
-  "nbttag": "{ExtraAttributes:{id:\"AMBER_POLISHED_DRILL_ENGINE\",stored_drill_fuel:14954},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"de8d4c78-9bd3-3f01-91a8-0b45dab9f2ed\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyNTQ5MjY3ODAzMiwKICAicHJvZmlsZUlkIiA6ICI1ZjE4ZmY4NTEyZGQ0NmQ1OGY1MjJlYjg2MDg2ZjU5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYWtlb3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZlZjcyMmRhMDVhZThiZDgxMzI5MDVhMTFiNWI2ZGZiZjhlN2FlMGFmNTk5YzgyNjZlMTYwZmIwNWU2MTU5YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§6+600⸕ Mining Speed\",3:\"§6+100☘ Mining Fortune\",4:\"\",5:\"§7Put this item in the §6Drill Engine §7slot\",6:\"§7of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§4❣ §cRequires §5Heart of the Mountain Tier 9§c.\",9:\"§9§lRARE\"],Name:\"§9Amber-Polished Drill Engine\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Amber-Polished Drill Engine\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Amber-Polished Drill Engine\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Drill Part\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"+600⸕ Mining Speed\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"+100☘ Mining Fortune\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Put this item in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Drill Engine \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"slot\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"of a Drill at a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Drill Mechanic\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 9\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"stored_drill_fuel\":14954,\"id\":\"AMBER_POLISHED_DRILL_ENGINE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYyNTQ5MjY3ODAzMiwKICAicHJvZmlsZUlkIiA6ICI1ZjE4ZmY4NTEyZGQ0NmQ1OGY1MjJlYjg2MDg2ZjU5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYWtlb3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZlZjcyMmRhMDVhZThiZDgxMzI5MDVhMTFiNWI2ZGZiZjhlN2FlMGFmNTk5YzgyNjZlMTYwZmIwNWU2MTU5YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Drill Part",
-    "",
-    "§6+600⸕ Mining Speed",
-    "§6+100☘ Mining Fortune",
-    "",
-    "§7Put this item in the §6Drill Engine §7slot",
-    "§7of a Drill at a §2Drill Mechanic§7!",
-    "",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 9§c.",
-    "§9§lRARE"
+    "{\"text\":\"Drill Part\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"+600⸕ Mining Speed\",\"color\":\"gold\"}",
+    "{\"text\":\"+100☘ Mining Fortune\",\"color\":\"gold\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Put this item in the \",\"color\":\"gray\"},{\"text\":\"Drill Engine \",\"color\":\"gold\"},{\"text\":\"slot\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"of a Drill at a \",\"color\":\"gray\"},{\"text\":\"Drill Mechanic\",\"color\":\"dark_green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 9\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "AMBER_POLISHED_DRILL_ENGINE",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
       "overrideOutputId": "AMBER_POLISHED_DRILL_ENGINE",
       "duration": 30
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§aCarnival Rod",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7§7Used to catch §3fish §7in the §3Catch a\",1:\"§3Fish §7game.\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§8§l* §8Soulbound §8§l*\",5:\"§a§lUNCOMMON FISHING ROD\"],Name:\"§aCarnival Rod\"},ExtraAttributes:{id:\"CARNIVAL_FISHING_ROD\"}}",
+  "displayname": "{\"text\":\"Carnival Rod\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:fishing_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Carnival Rod\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Used to catch \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"fish \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Catch a\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fish \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"game.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON FISHING ROD\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CARNIVAL_FISHING_ROD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7Used to catch §3fish §7in the §3Catch a",
-    "§3Fish §7game.",
-    "",
-    "§7§8This item can be reforged!",
-    "§8§l* §8Soulbound §8§l*",
-    "§a§lUNCOMMON FISHING ROD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Used to catch \",\"color\":\"gray\"},{\"text\":\"fish \",\"color\":\"dark_aqua\"},{\"text\":\"in the \",\"color\":\"gray\"},{\"text\":\"Catch a\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fish \",\"color\":\"dark_aqua\"},{\"text\":\"game.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON FISHING ROD\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CARNIVAL_FISHING_ROD",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Carnival_Rod",
     "https://wiki.hypixel.net/Carnival_Rod"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

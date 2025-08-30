@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§fMushroom Leggings",
-  "nbttag": "{ExtraAttributes:{id:\"MUSHROOM_LEGGINGS\"},HideFlags:254,ItemModel:\"minecraft:leather_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+10\",1:\"§7Defense: §a+5\",2:\"\",3:\"§6Full Set Bonus: Night Affinity §7(0/4)\",4:\"§7Grants the wearer permanent §aNight\",5:\"§aVision§7 while worn. All stats on this\",6:\"§7armor piece are multiplied by §a3x§7 at\",7:\"§5night§7 while in §aThe Garden§7.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §aFarming Skill 7§c.\",11:\"§f§lCOMMON LEGGINGS\"],Name:\"§fMushroom Leggings\",color:16711680}}",
+  "displayname": "{\"text\":\"Mushroom Leggings\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mushroom Leggings\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Night Affinity \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants the wearer permanent \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Night\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Vision\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" while worn. All stats on this\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"armor piece are multiplied by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3x\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" at\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"night\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\" while in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 7\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"COMMON LEGGINGS\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MUSHROOM_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+10",
-    "§7Defense: §a+5",
-    "",
-    "§6Full Set Bonus: Night Affinity §7(0/4)",
-    "§7Grants the wearer permanent §aNight",
-    "§aVision§7 while worn. All stats on this",
-    "§7armor piece are multiplied by §a3x§7 at",
-    "§5night§7 while in §aThe Garden§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aFarming Skill 7§c.",
-    "§f§lCOMMON LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Night Affinity \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants the wearer permanent \",\"color\":\"gray\"},{\"text\":\"Night\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Vision\",\"color\":\"green\"},{\"text\":\" while worn. All stats on this\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"armor piece are multiplied by \",\"color\":\"gray\"},{\"text\":\"3x\",\"color\":\"green\"},{\"text\":\" at\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"night\",\"color\":\"dark_purple\"},{\"text\":\" while in \",\"color\":\"gray\"},{\"text\":\"The Garden\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 7\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"COMMON LEGGINGS\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MUSHROOM_LEGGINGS",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "RED_MUSHROOM:1",
     "C2": "",
     "C3": "RED_MUSHROOM:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

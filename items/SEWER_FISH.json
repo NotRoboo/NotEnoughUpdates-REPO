@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:fish",
-  "displayname": "§aSewer Fish",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Where did you find these? They\",1:\"§7stink!\",2:\"\",3:\"§8§l* §8Co-op Soulbound §8§l*\",4:\"§a§lUNCOMMON\"],Name:\"§aSewer Fish\"},ExtraAttributes:{id:\"SEWER_FISH\"}}",
+  "displayname": "{\"text\":\"Sewer Fish\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sewer Fish\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Where did you find these? They\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"stink!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SEWER_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Where did you find these? They",
-    "§7stink!",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Where did you find these? They\",\"color\":\"gray\"}",
+    "{\"text\":\"stink!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SEWER_FISH",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sewer_Fish",
     "https://wiki.hypixel.net/Sewer_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

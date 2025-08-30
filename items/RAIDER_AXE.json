@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§9Raider Sword",
-  "nbttag": "{ExtraAttributes:{id:\"RAIDER_AXE\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+80\",1:\"§7Strength: §c+150\",2:\"\",3:\"§7Earn §6+20 coins §7from monster kills (Level §e10+ §7only)\",4:\"\",5:\"§c+1 Damage §7per §c500 §7kills\",6:\"§8Max +35\",7:\"§7Kills: §c0\",8:\"\",9:\"§c+1❁ Strength §7per §e500 §7wood\",10:\"§7Wood collections: §e§k000000\",11:\"\",12:\"§8This item can be reforged!\",13:\"§9§lRARE SWORD\"],Name:\"§9Raider Sword\"}}",
+  "displayname": "{\"text\":\"Raider Sword\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Raider Sword\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+80\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Earn \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20 coins \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"from monster kills (Level \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10+ \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"only)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+1 Damage \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"500 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"kills\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Max +35\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Kills: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+1❁ Strength \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"500 \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"wood\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Wood collections: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"000000\\\",\\\"color\\\":\\\"yellow\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RAIDER_AXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+80",
-    "§7Strength: §c+150",
-    "",
-    "§7Earn §6+20 coins §7from monster kills (Level §e10+ §7only)",
-    "",
-    "§c+1 Damage §7per §c500 §7kills",
-    "§8Max +35",
-    "§7Kills: §c0",
-    "",
-    "§c+1❁ Strength §7per §e500 §7wood",
-    "§7Wood collections: §e§k000000",
-    "",
-    "§8This item can be reforged!",
-    "§9§lRARE SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+80\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+150\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Earn \",\"color\":\"gray\"},{\"text\":\"+20 coins \",\"color\":\"gold\"},{\"text\":\"from monster kills (Level \",\"color\":\"gray\"},{\"text\":\"10+ \",\"color\":\"yellow\"},{\"text\":\"only)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+1 Damage \",\"color\":\"red\"},{\"text\":\"per \",\"color\":\"gray\"},{\"text\":\"500 \",\"color\":\"red\"},{\"text\":\"kills\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Max +35\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Kills: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+1❁ Strength \",\"color\":\"red\"},{\"text\":\"per \",\"color\":\"gray\"},{\"text\":\"500 \",\"color\":\"yellow\"},{\"text\":\"wood\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Wood collections: \",\"color\":\"gray\"},{\"text\":\"000000\",\"color\":\"yellow\",\"obfuscated\":true}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "RAIDER_AXE",
   "clickcommand": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Raider_Axe",
     "https://wiki.hypixel.net/Raider_Axe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

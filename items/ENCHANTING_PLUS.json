@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Enchanting Table+",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"f13dc4c0-5a85-3e56-ac8b-b5c1a6bc6244\",Properties:{textures:[0:{Value:\"eyJ0aW1lc3RhbXAiOjAsInByb2ZpbGVJZCI6ImRiYTJmMTE1NmNjMjQwMWJhOWU5YjRkMjdmN2M4OTdkIiwicHJvZmlsZU5hbWUiOiJjb2RlbmFtZV9CIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwczovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZWM4M2FiMjA1OWNjZmVhYTM2YzNmNGYyMGRhYTk1MDNkNDgzYTUzMGZiZGI4MGY5NDA5NDBhYTgxZDJjNjEifX19\"}]}},display:{Lore:[0:\"§8Furniture\",1:\"§8Replicates Vanilla functions\",2:\"\",3:\"§7It's a fancier enchanting table,\",4:\"§7with maxed bookshelves!\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Enchanting Table+\"},ExtraAttributes:{id:\"ENCHANTING_PLUS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Enchanting Table+\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanting Table+\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Replicates Vanilla functions\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"It\u0027s a fancier enchanting table,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"with maxed bookshelves!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "§8Replicates Vanilla functions",
-    "",
-    "§7It's a fancier enchanting table,",
-    "§7with maxed bookshelves!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Replicates Vanilla functions\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"It\u0027s a fancier enchanting table,\",\"color\":\"gray\"}",
+    "{\"text\":\"with maxed bookshelves!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENCHANTING_PLUS",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanting_Table+",
     "https://wiki.hypixel.net/Enchanting_Table+"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

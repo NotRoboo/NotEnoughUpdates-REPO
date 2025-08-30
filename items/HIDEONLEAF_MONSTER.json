@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aHideonleaf (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"HIDEONLEAF_MONSTER\"},HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMzA4Mjc2NzIzNSwKICAicHJvZmlsZUlkIiA6ICI5OWY1MzhjMDhlN2E0NTg3YmU4MGJjNGVmNzU0ZmQyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb2xvV1MyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkwYjNiZGM5ODFiODE3NTRhMjU2MzViZWEyZGVmOTNmOTkyYzA0MDc5ODFjZDdjNTAwYWQ0OWQxY2FkYTA0YWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§c❤ Health§8: §c1\",1:\"§c❁ Damage§8: §c1\"],Name:\"§aHideonleaf (Monster)\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Hideonleaf (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hideonleaf (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❁ Damage\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"HIDEONLEAF_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§c❤ Health§8: §c1",
-    "§c❁ Damage§8: §c1"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"1\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❁ Damage\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"1\",\"color\":\"red\"}]}"
   ],
   "internalname": "HIDEONLEAF_MONSTER",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
   ],
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hideonleaf"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

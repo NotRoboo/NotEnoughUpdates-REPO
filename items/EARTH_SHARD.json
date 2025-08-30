@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:stone_sword",
-  "displayname": "§5Earth Shard",
-  "nbttag": "{ExtraAttributes:{id:\"EARTH_SHARD\"},HideFlags:254,ItemModel:\"minecraft:stone_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d261\",1:\"§7Damage: §c+105\",2:\"§7Defense: §a+73\",3:\"\",4:\"§7This shard automatically adapts to\",5:\"§7its user inside Dungeons, allowing\",6:\"§7you to perform your class ability.\",7:\"§7Reduces the cooldown of §9Seismic\",8:\"§9Wave §7by §a2s§7.\",9:\"\",10:\"§eRight-click to use your class ability!\",11:\"\",12:\"§8This item can be reforged!\",13:\"§4❣ §cRequires Catacombs Skill 19.\",14:\"§5§lEPIC DUNGEON SWORD\"],Name:\"§5Earth Shard\"}}",
+  "displayname": "{\"text\":\"Earth Shard\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:stone_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Earth Shard\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"261\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+105\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+73\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This shard automatically adapts to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"its user inside Dungeons, allowing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"you to perform your class ability.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Reduces the cooldown of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Seismic\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Wave \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to use your class ability!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 19.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"EARTH_SHARD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d261",
-    "§7Damage: §c+105",
-    "§7Defense: §a+73",
-    "",
-    "§7This shard automatically adapts to",
-    "§7its user inside Dungeons, allowing",
-    "§7you to perform your class ability.",
-    "§7Reduces the cooldown of §9Seismic",
-    "§9Wave §7by §a2s§7.",
-    "",
-    "§eRight-click to use your class ability!",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Catacombs Skill 19.",
-    "§5§lEPIC DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"261\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+105\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+73\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This shard automatically adapts to\",\"color\":\"gray\"}",
+    "{\"text\":\"its user inside Dungeons, allowing\",\"color\":\"gray\"}",
+    "{\"text\":\"you to perform your class ability.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Reduces the cooldown of \",\"color\":\"gray\"},{\"text\":\"Seismic\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Wave \",\"color\":\"blue\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"2s\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to use your class ability!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 19.\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "EARTH_SHARD",
   "clickcommand": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Earth_Shard",
     "https://wiki.hypixel.net/Earth_Shard"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aBonzo Statue",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"71e08ca3-64d6-3013-b87f-a616ee6dced2\",Properties:{textures:[0:{Value:\"ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I1MzQxNjhjNTI2MThlNDc3MDE1ZGY3ZWVkNzlkMmQ1ZmU0ZDdmNzJmMDBkNGI3MTM2ZmNmYjkyNjFmNDAyYyIKICAgIH0KICB9Cn0=\"}]}},display:{Lore:[0:\"§7Spawn a statue of Bonzo.\",1:\"\",2:\"§8§l* §8Co-op Soulbound §8§l*\",3:\"§a§lUNCOMMON COSMETIC\"],Name:\"§aBonzo Statue\"},ExtraAttributes:{id:\"BONZO_STATUE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bonzo Statue\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bonzo Statue\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Spawn a statue of Bonzo.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON COSMETIC\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BONZO_STATUE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Spawn a statue of Bonzo.",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§a§lUNCOMMON COSMETIC"
+    "{\"text\":\"Spawn a statue of Bonzo.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON COSMETIC\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "BONZO_STATUE",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bonzo_Statue",
     "https://wiki.hypixel.net/Bonzo_Statue"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

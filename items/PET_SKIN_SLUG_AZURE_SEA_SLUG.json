@@ -1,23 +1,23 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Azure Sea Slug Skin",
-  "nbttag": "{ExtraAttributes:{id:\"PET_SKIN_SLUG_AZURE_SEA_SLUG\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f952438d-04f3-3842-b26d-c1ca5caa6bdd\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwMTI1NTA5ODgzNCwKICAicHJvZmlsZUlkIiA6ICI3ZGY4NmY1MWFjZmI0MjQzYTkzNDQ1OTAyZDEzYTc0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNclJpcHRpZGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY0ZTg5OWRlMzRiNTRjYzc1Y2YwOTU5MDY3Njc4ZDJjNDE3M2YxZGEwZmMzZjhiYTEzODRiNmE1OGE2ZDg0NyIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7Pet skins change the look and\",3:\"§7particle trail of your pet but\",4:\"§7only one skin can be active at a\",5:\"§7time!\",6:\"\",7:\"§7This skin can only be applied\",8:\"§7to Slug pets.\",9:\"\",10:\"§eRight-click on your summoned\",11:\"§epet to apply this skin!\",12:\"\",13:\"§5§lEPIC COSMETIC\"],Name:\"§5Azure Sea Slug Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Azure Sea Slug Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Azure Sea Slug Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Pet skins change the look and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"particle trail of your pet but\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"only one skin can be active at a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"time!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin can only be applied\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to Slug pets.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"pet to apply this skin!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PET_SKIN_SLUG_AZURE_SEA_SLUG\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcwMTI1NTA5ODgzNCwKICAicHJvZmlsZUlkIiA6ICI3ZGY4NmY1MWFjZmI0MjQzYTkzNDQ1OTAyZDEzYTc0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNclJpcHRpZGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY0ZTg5OWRlMzRiNTRjYzc1Y2YwOTU5MDY3Njc4ZDJjNDE3M2YxZGEwZmMzZjhiYTEzODRiNmE1OGE2ZDg0NyIKICAgIH0KICB9Cn0\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Consumed on use",
-    "",
-    "§7Pet skins change the look and",
-    "§7particle trail of your pet but",
-    "§7only one skin can be active at a",
-    "§7time!",
-    "",
-    "§7This skin can only be applied",
-    "§7to Slug pets.",
-    "",
-    "§eRight-click on your summoned",
-    "§epet to apply this skin!",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Consumed on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Pet skins change the look and\",\"color\":\"gray\"}",
+    "{\"text\":\"particle trail of your pet but\",\"color\":\"gray\"}",
+    "{\"text\":\"only one skin can be active at a\",\"color\":\"gray\"}",
+    "{\"text\":\"time!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin can only be applied\",\"color\":\"gray\"}",
+    "{\"text\":\"to Slug pets.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned\",\"color\":\"yellow\"}",
+    "{\"text\":\"pet to apply this skin!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PET_SKIN_SLUG_AZURE_SEA_SLUG",
   "clickcommand": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pet_Skins",
     "https://wiki.hypixel.net/Pet_Skins"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

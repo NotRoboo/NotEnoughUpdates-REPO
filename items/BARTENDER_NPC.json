@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Bartender (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"dfe24556-f0e9-5e84-b9f0-772c60865ff0\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJkMTE3MmEzMTA4MzFkNWRiYjg0Yzk5N2IzZjU1NmUxNjllYTY0MWM4NTI0OTEzYTE5MTFiZTU5ODViNCJ9fX0\u003d\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Bartender (NPC)\"},ExtraAttributes:{id:\"BARTENDER_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bartender (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bartender (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"BARTENDER_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "BARTENDER_NPC",
   "clickcommand": "viewrecipe",
@@ -113,5 +113,8 @@
       ],
       "result": "GABAGOEY_MIXIN"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Mithril-Plated Drill Engine",
-  "nbttag": "{ExtraAttributes:{id:\"MITHRIL_DRILL_ENGINE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2d5766d3-3b4e-3e72-9d0d-6ece4ac8efc0\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDYzNTk0Nzk2NiwKICAicHJvZmlsZUlkIiA6ICIzOWEzOTMzZWE4MjU0OGU3ODQwNzQ1YzBjNGY3MjU2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZW1pbmVjcmFmdGVybG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhN2Q1NGNhNDVhMzk4YzM2NGNlYmJmZmI1MzkwY2U1ZTAzNDVlMGM3YmM1ZTg2M2FjYWJmNTdkMTM0MmM0YmQiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Drill Part\",1:\"\",2:\"§6+75⸕ Mining Speed\",3:\"§6+5☘ Mining Fortune\",4:\"\",5:\"§7Put this item in the §6Drill Engine §7slot\",6:\"§7of a Drill at a §2Drill Mechanic§7!\",7:\"\",8:\"§4❣ §cRequires §5Heart of the Mountain Tier 3§c.\",9:\"§9§lRARE\"],Name:\"§9Mithril-Plated Drill Engine\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Mithril-Plated Drill Engine\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mithril-Plated Drill Engine\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Drill Part\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"+75⸕ Mining Speed\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"+5☘ Mining Fortune\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Put this item in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Drill Engine \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"slot\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"of a Drill at a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Drill Mechanic\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 3\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MITHRIL_DRILL_ENGINE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDYzNTk0Nzk2NiwKICAicHJvZmlsZUlkIiA6ICIzOWEzOTMzZWE4MjU0OGU3ODQwNzQ1YzBjNGY3MjU2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZW1pbmVjcmFmdGVybG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRhN2Q1NGNhNDVhMzk4YzM2NGNlYmJmZmI1MzkwY2U1ZTAzNDVlMGM3YmM1ZTg2M2FjYWJmNTdkMTM0MmM0YmQiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Drill Part",
-    "",
-    "§6+75⸕ Mining Speed",
-    "§6+5☘ Mining Fortune",
-    "",
-    "§7Put this item in the §6Drill Engine §7slot",
-    "§7of a Drill at a §2Drill Mechanic§7!",
-    "",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 3§c.",
-    "§9§lRARE"
+    "{\"text\":\"Drill Part\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"+75⸕ Mining Speed\",\"color\":\"gold\"}",
+    "{\"text\":\"+5☘ Mining Fortune\",\"color\":\"gold\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Put this item in the \",\"color\":\"gray\"},{\"text\":\"Drill Engine \",\"color\":\"gold\"},{\"text\":\"slot\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"of a Drill at a \",\"color\":\"gray\"},{\"text\":\"Drill Mechanic\",\"color\":\"dark_green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 3\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MITHRIL_DRILL_ENGINE",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
       "overrideOutputId": "MITHRIL_DRILL_ENGINE",
       "duration": 86400
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:sea_lantern",
-  "displayname": "§aSea Lantern Hat",
-  "nbttag": "{ExtraAttributes:{id:\"SEA_LANTERN_HAT\"},HideFlags:254,ItemModel:\"minecraft:sea_lantern\",display:{Lore:[0:\"§7Breathe §a5x §7as long underwater when\",1:\"§7wearing!\",2:\"\",3:\"§8This item can be reforged!\",4:\"§a§lUNCOMMON HELMET\"],Name:\"§aSea Lantern Hat\"}}",
+  "displayname": "{\"text\":\"Sea Lantern Hat\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:sea_lantern\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sea Lantern Hat\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Breathe \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5x \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"as long underwater when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"wearing!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON HELMET\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SEA_LANTERN_HAT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Breathe §a5x §7as long underwater when",
-    "§7wearing!",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Breathe \",\"color\":\"gray\"},{\"text\":\"5x \",\"color\":\"green\"},{\"text\":\"as long underwater when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"wearing!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON HELMET\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SEA_LANTERN_HAT",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

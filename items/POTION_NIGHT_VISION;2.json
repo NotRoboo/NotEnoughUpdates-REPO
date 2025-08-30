@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fNight Vision II Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:16b,Amplifier:1b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§5Night Vision II §f(3:00)\",2:\"§7Grants greater visibility at night.\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fNight Vision II Potion\"},ExtraAttributes:{potion_level:2,potion:\"night_vision\",effects:[0:{level:2,effect:\"night_vision\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_NIGHT_VISION;2\"}}",
-  "damage": 6,
+  "displayname": "{\"text\":\"Night Vision II Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Night Vision II Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Night Vision II \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"Grants greater visibility at night.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":2,\"potion\":\"night_vision\",\"effects\":\"[0:{level:2\",\"effect\":\"night_vision\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§5Night Vision II §f(3:00)",
-    "§7Grants greater visibility at night.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Night Vision II \",\"color\":\"dark_purple\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"Grants greater visibility at night.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_NIGHT_VISION;2",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

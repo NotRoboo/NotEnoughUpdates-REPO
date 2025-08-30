@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:leather_chestplate",
-  "displayname": "§5Sponge Chestplate",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Sea Creature Chance: §c+2%\",1:\"§7Defense: §a+150\",2:\" §8[§8☂§8]\",3:\"\",4:\"§6Full Set Bonus: Absorb §7(0/4)\",5:\"§7§9Doubles§7 your §a❈ Defense§7 while in\",6:\"§7water.\",7:\"\",8:\"§7§8This item can be reforged!\",9:\"§7§4❣ §cRequires §aFishing Skill 17§c.\",10:\"§5§lEPIC CHESTPLATE\"],color:16768081,Name:\"§5Sponge Chestplate\"},ExtraAttributes:{id:\"SPONGE_CHESTPLATE\"}}",
+  "displayname": "{\"text\":\"Sponge Chestplate\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sponge Chestplate\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"☂\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Absorb \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Doubles\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\" your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❈ Defense\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" while in\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"water.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Fishing Skill 17\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPONGE_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Sea Creature Chance: §c+2%",
-    "§7Defense: §a+150",
-    " §8[§8☂§8]",
-    "",
-    "§6Full Set Bonus: Absorb §7(0/4)",
-    "§7§9Doubles§7 your §a❈ Defense§7 while in",
-    "§7water.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 17§c.",
-    "§5§lEPIC CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+2%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+150\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"☂\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Absorb \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Doubles\",\"color\":\"blue\"},{\"text\":\" your \",\"color\":\"gray\"},{\"text\":\"❈ Defense\",\"color\":\"green\"},{\"text\":\" while in\",\"color\":\"gray\"}]}",
+    "{\"text\":\"water.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Fishing Skill 17\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "ENCHANTED_WET_SPONGE:1",
@@ -35,5 +35,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Sponge_Chestplate",
     "https://wiki.hypixel.net/Sponge_Chestplate"
   ],
-  "crafttext": "Requires: Sponge IX"
+  "crafttext": "Requires: Sponge IX",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

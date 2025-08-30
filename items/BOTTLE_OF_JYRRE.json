@@ -1,23 +1,23 @@
 {
   "internalname": "BOTTLE_OF_JYRRE",
   "itemid": "minecraft:potion",
-  "displayname": "§f§cLost Bottle of Jyrre",
+  "displayname": "{\"text\":\"Lost Bottle of Jyrre\",\"color\":\"red\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Provides a boost to your §b✎\",1:\"§bIntelligence§7! The longer this item\",2:\"§7stays in your inventory, the more\",3:\"§7intelligent you will be after drinking\",4:\"§7it. Must be kept in your inventory at\",5:\"§7all times!\",6:\"\",7:\"§7Intelligence Bonus: §b0\",8:\"§7Duration: §b10 Minutes\",9:\"\",10:\"§f§lCOMMON\"],Name:\"§f§cLost Bottle of Jyrre\"},ExtraAttributes:{bottle_of_jyrre_seconds:40,bottle_of_jyrre_last_update:1703624609113L,originTag:\"UNKNOWN\",id:\"BOTTLE_OF_JYRRE\"}}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lost Bottle of Jyrre\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Provides a boost to your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✎\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"! The longer this item\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"stays in your inventory, the more\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"intelligent you will be after drinking\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"it. Must be kept in your inventory at\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"all times!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence Bonus: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Duration: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10 Minutes\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"bottle_of_jyrre_seconds\":40,\"bottle_of_jyrre_last_update\":\"1703624609113L\",\"originTag\":\"UNKNOWN\",\"id\":\"BOTTLE_OF_JYRRE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "modver": "2.1.1-PRE",
   "lore": [
-    "§7Provides a boost to your §b✎",
-    "§bIntelligence§7! The longer this item",
-    "§7stays in your inventory, the more",
-    "§7intelligent you will be after drinking",
-    "§7it. Must be kept in your inventory at",
-    "§7all times!",
-    "",
-    "§7Intelligence Bonus: §b0",
-    "§7Duration: §b10 Minutes",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Provides a boost to your \",\"color\":\"gray\"},{\"text\":\"✎\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence\",\"color\":\"aqua\"},{\"text\":\"! The longer this item\",\"color\":\"gray\"}]}",
+    "{\"text\":\"stays in your inventory, the more\",\"color\":\"gray\"}",
+    "{\"text\":\"intelligent you will be after drinking\",\"color\":\"gray\"}",
+    "{\"text\":\"it. Must be kept in your inventory at\",\"color\":\"gray\"}",
+    "{\"text\":\"all times!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence Bonus: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Duration: \",\"color\":\"gray\"},{\"text\":\"10 Minutes\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
@@ -30,5 +30,8 @@
       "result": "BOTTLE_OF_JYRRE"
     }
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

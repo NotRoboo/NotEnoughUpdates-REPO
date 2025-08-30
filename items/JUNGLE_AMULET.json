@@ -1,12 +1,12 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aJungle Amulet",
-  "nbttag": "{ExtraAttributes:{id:\"JUNGLE_AMULET\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"5e201afe-0c21-3f56-8b47-34bdaab7639b\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxOTE4MzY1NjY4MCwKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJmZjY1NDc5ZmI3MDI5ZGVjZmU2Nzc5MzgyNzYyYTA4ZmM3YzhlY2VmZjU0NDhkZTI2M2Q5ZDM3NTA2NmY3YSIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Gemstone Fortune: §a+10\",1:\"\",2:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aJungle Amulet\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Jungle Amulet\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Jungle Amulet\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gemstone Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ACCESSORY\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"JUNGLE_AMULET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxOTE4MzY1NjY4MCwKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJmZjY1NDc5ZmI3MDI5ZGVjZmU2Nzc5MzgyNzYyYTA4ZmM3YzhlY2VmZjU0NDhkZTI2M2Q5ZDM3NTA2NmY3YSIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Gemstone Fortune: §a+10",
-    "",
-    "§a§lUNCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gemstone Fortune: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ACCESSORY\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "JUNGLE_AMULET",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Jungle_Amulet",
     "https://wiki.hypixel.net/Jungle_Amulet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

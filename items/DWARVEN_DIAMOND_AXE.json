@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:diamond_axe",
-  "displayname": "§cScavenged Diamond Axe",
-  "nbttag": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Quest Item\",1:\"\",2:\"§7Bring to the §6Keeper of Diamond §7in\",3:\"§7the §2Mines of Divan§7.\",4:\"\",5:\"§c§lSPECIAL\"],Name:\"§cScavenged Diamond Axe\"},ExtraAttributes:{id:\"DWARVEN_DIAMOND_AXE\"}}",
+  "displayname": "{\"text\":\"Scavenged Diamond Axe\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Scavenged Diamond Axe\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Quest Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring to the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Keeper of Diamond \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"in\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mines of Divan\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DWARVEN_DIAMOND_AXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Quest Item",
-    "",
-    "§7Bring to the §6Keeper of Diamond §7in",
-    "§7the §2Mines of Divan§7.",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Quest Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring to the \",\"color\":\"gray\"},{\"text\":\"Keeper of Diamond \",\"color\":\"gold\"},{\"text\":\"in\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the \",\"color\":\"gray\"},{\"text\":\"Mines of Divan\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "DWARVEN_DIAMOND_AXE",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Scavenged_Diamond_Axe",
     "https://wiki.hypixel.net/Scavenged_Diamond_Axe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

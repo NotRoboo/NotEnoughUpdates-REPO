@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:end_portal_frame",
-  "displayname": "§aTeleport Pad",
-  "nbttag": "{ExtraAttributes:{id:\"TELEPORT_PAD\"},HideFlags:254,ItemModel:\"minecraft:end_portal_frame\",display:{Lore:[0:\"§7Places a Teleport Pad down,\",1:\"§7allowing you to teleport to any\",2:\"§7other Teleport Pad on your\",3:\"§7private island!\",4:\"§8Maximum of 56 per island.\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aTeleport Pad\"},ench:[]}",
+  "displayname": "{\"text\":\"Teleport Pad\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:end_portal_frame\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Teleport Pad\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Places a Teleport Pad down,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"allowing you to teleport to any\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"other Teleport Pad on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"private island!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Maximum of 56 per island.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7Places a Teleport Pad down,",
-    "§7allowing you to teleport to any",
-    "§7other Teleport Pad on your",
-    "§7private island!",
-    "§8Maximum of 56 per island.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Places a Teleport Pad down,\",\"color\":\"gray\"}",
+    "{\"text\":\"allowing you to teleport to any\",\"color\":\"gray\"}",
+    "{\"text\":\"other Teleport Pad on your\",\"color\":\"gray\"}",
+    "{\"text\":\"private island!\",\"color\":\"gray\"}",
+    "{\"text\":\"Maximum of 56 per island.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "TELEPORT_PAD",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Teleport_Pad",
     "https://wiki.hypixel.net/Teleport_Pad"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

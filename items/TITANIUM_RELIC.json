@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Titanium Relic",
-  "nbttag": "{ExtraAttributes:{id:\"TITANIUM_RELIC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"fd26d29c-4280-3e4b-93dd-601f10a183e0\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDQ4MDgxMjk0NSwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJmMjQwNWE3YjhkZWZkZGIwYjgyNjhiZWE4ZjJlMTJmYzA5YmJjN2RlMTI5ODFmODVkYjJhNzAwMWFjODFlYiIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Mining Speed: §a+60\",1:\"\",2:\"§4❣ §cRequires §5Heart of the Mountain Tier 5§c.\",3:\"§6§lLEGENDARY ACCESSORY\"],Name:\"§6Titanium Relic\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Titanium Relic\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Titanium Relic\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 5\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY ACCESSORY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TITANIUM_RELIC\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxMDQ4MDgxMjk0NSwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJmMjQwNWE3YjhkZWZkZGIwYjgyNjhiZWE4ZjJlMTJmYzA5YmJjN2RlMTI5ODFmODVkYjJhNzAwMWFjODFlYiIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Mining Speed: §a+60",
-    "",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 5§c.",
-    "§6§lLEGENDARY ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+60\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 5\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY ACCESSORY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "TITANIUM_RELIC",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
       "overrideOutputId": "TITANIUM_RELIC",
       "duration": 259200
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

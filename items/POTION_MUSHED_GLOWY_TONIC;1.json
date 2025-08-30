@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fMushed Glowy Tonic I Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0B,Amplifier:0B,Duration:3600,Id:8B},1:{Ambient:0B,Amplifier:0B,Duration:20,Id:8B}],ExtraAttributes:{effects:[0:{duration_ticks:72000,effect:\"mushed_glowy_tonic\",level:1}],id:\"POTION_MUSHED_GLOWY_TONIC;1\",potion:\"mushed_glowy_tonic\",potion_level:1,potion_name:\"Mushed Glowy Tonic\",potion_type:\"POTION\",splash:0B},HideFlags:254,ItemModel:\"minecraft:potion\",display:{Lore:[0:\"§2Mushed Glowy Tonic I §f(1:00:00)\",1:\"§7Grants §b+30☂ Fishing Speed§7.\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fMushed Glowy Tonic I Potion\"}}",
-  "damage": 11,
+  "displayname": "{\"text\":\"Mushed Glowy Tonic I Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mushed Glowy Tonic I Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mushed Glowy Tonic I \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"(1:00:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30☂ Fishing Speed\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"effects\":\"[0:{duration_ticks:72000\",\"level\":1,\"effect\":\"mushed_glowy_tonic\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§2Mushed Glowy Tonic I §f(1:00:00)",
-    "§7Grants §b+30☂ Fishing Speed§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mushed Glowy Tonic I \",\"color\":\"dark_green\"},{\"text\":\"(1:00:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+30☂ Fishing Speed\",\"color\":\"aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_MUSHED_GLOWY_TONIC;1",
   "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 3.8.1+mc1.21.7",
   "infoType": "",
-  "info": []
+  "info": [],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }
