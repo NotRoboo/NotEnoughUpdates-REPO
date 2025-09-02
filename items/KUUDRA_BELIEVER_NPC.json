@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Kuudra Believer (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"31b36337-1084-24f7-9cda-017423a8d29b\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RjN2I4M2Y4MWU1OGYyYTExNzk4NWM2NjI3NzE4MzNjMzRkYTY4NDQxN2MzYWE3ZTI5NjBiMDEyNzVlMzFlOWEifX19\"}]},Name:\"31b36337-1084-24f7-9cda-017423a8d29b\"},display:{Lore:[0:\"\"],Name:\"§9Kuudra Believer (NPC)\"},ExtraAttributes:{id:\"KUUDRA_BELIEVER_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Kuudra Believer (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Kuudra Believer (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"KUUDRA_BELIEVER_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "KUUDRA_BELIEVER_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Kuudra_Believer",
     "https://wiki.hypixel.net/Kuudra_Believer"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

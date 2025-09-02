@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§fPink Donut Minion Skin",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"4e8bb901-08a0-3fbb-9f41-1af99bb2aed6\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM3YzliODJiMTg2NjU2ZTlmNjM2M2EyYTFjNmE0YjViOTNjZmE5ZWY0ZGFkNmYxNmI5NGViYjVlMzYyNjc4In19fQ==\"}]}},display:{Lore:[0:\"§7§7This Minion skin changes\",1:\"§7your minion's appearance to\",2:\"§7a §ePink Frosted Donut§7.\",3:\"\",4:\"§7§7You can place this item\",5:\"§7in any minion of your\",6:\"§7choice!\",7:\"\",8:\"§f§lCOMMON COSMETIC\"],Name:\"§f§f§fPink Donut Minion Skin\"},ExtraAttributes:{id:\"PINK_DONUT_PERSONALITY\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Pink Donut Minion Skin\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pink Donut Minion Skin\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This Minion skin changes\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"your minion\u0027s appearance to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Pink Frosted Donut\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"You can place this item\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"in any minion of your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"choice!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON COSMETIC\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PINK_DONUT_PERSONALITY\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§7This Minion skin changes",
-    "§7your minion's appearance to",
-    "§7a §ePink Frosted Donut§7.",
-    "",
-    "§7§7You can place this item",
-    "§7in any minion of your",
-    "§7choice!",
-    "",
-    "§f§lCOMMON COSMETIC"
+    "{\"text\":\"This Minion skin changes\",\"color\":\"gray\"}",
+    "{\"text\":\"your minion\u0027s appearance to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a \",\"color\":\"gray\"},{\"text\":\"Pink Frosted Donut\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"You can place this item\",\"color\":\"gray\"}",
+    "{\"text\":\"in any minion of your\",\"color\":\"gray\"}",
+    "{\"text\":\"choice!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON COSMETIC\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "PINK_DONUT_PERSONALITY",
   "crafttext": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Minion_Skin",
     "https://wiki.hypixel.net/Minion_Skins"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

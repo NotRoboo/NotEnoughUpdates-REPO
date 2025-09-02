@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:tripwire_hook",
-  "displayname": "§9Dungeon Chest Key",
-  "nbttag": "{ExtraAttributes:{id:\"DUNGEON_CHEST_KEY\"},HideFlags:254,ItemModel:\"minecraft:tripwire_hook\",display:{Lore:[0:\"§7Allows you to open an additional\",1:\"§7treasure chest at the end of a\",2:\"§7dungeon!\",3:\"\",4:\"§9§lRARE DUNGEON ITEM\"],Name:\"§9Dungeon Chest Key\"}}",
+  "displayname": "{\"text\":\"Dungeon Chest Key\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:tripwire_hook\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dungeon Chest Key\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Allows you to open an additional\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"treasure chest at the end of a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"dungeon!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE DUNGEON ITEM\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DUNGEON_CHEST_KEY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Allows you to open an additional",
-    "§7treasure chest at the end of a",
-    "§7dungeon!",
-    "",
-    "§9§lRARE DUNGEON ITEM"
+    "{\"text\":\"Allows you to open an additional\",\"color\":\"gray\"}",
+    "{\"text\":\"treasure chest at the end of a\",\"color\":\"gray\"}",
+    "{\"text\":\"dungeon!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE DUNGEON ITEM\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "DUNGEON_CHEST_KEY",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dungeon_Chest_Key",
     "https://wiki.hypixel.net/Dungeon_Chest_Key"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

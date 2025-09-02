@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9✧ Fine Topaz Gemstone",
-  "nbttag": "{ExtraAttributes:{id:\"FINE_TOPAZ_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"83e79d1d-aabf-3369-a7d0-b5215f9147b9\",Properties:{textures:[0:{Name:\"textures\",Signature:\"vZU2CB6YO40eHqidV6+CLBsKKIjR3uJa5AOJWWo6boXb+F8ErwuL2BFyI7zI2QnxoUf355iOCRe04WC85olr3d9ttpy0hq9dkcmdQCWiiWoTRUfAIFhqGYYNLZwAHGPCN7XQQyhJQLgVt1NWJpCnchXGMQClSOwbNBHFoqNDP786xvYPIzlcMM/rbT8g96UxUUCvBBxLBjffEPtcboy4wjMb//FcCjJBMPuGJoh5fvUZUiaupostRH+oVv174oyzmNeSveDZG4uSd9VmF5f0VbbXkS2rpkj9otvaF6XljLXW8sOKToGHOjb49Fr9wJC5VhmGc3wmpGhXP10wjQXcCGstZBuU/GWcl9+DjqYgUkPAM1I5w+ZSdyQrf+rwIPQnvJ3HD145fSRUZL5mvnI/ZJ5DH8oelE7FO82EEttzO3fIvfChkve2uW7SJEaRqlMGlWn0RN2HkrRE/QxDiPOgPhqbYJ7yBT1ckWAgdLSmVDw9f8mTY0Adhrub9kSzkht1mPnmxbkE/uwhtnaR30GoEx/NUlrbLg564LJCx3fxAjfWZJablP8pOyoYmvGju0lKd8TfR+4fj/TmnOtySKxqHxuDaXJnlLae0tM+SeS1+qEDklkGvh9DuY390ftBZHcp1XwCbM6k9d5hzQHca8oVp8flbEacM9EZ2acn1xEBvHg=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4MzkxOTUyNywKICAicHJvZmlsZUlkIiA6ICJjMGYzYjI3YTUwMDE0YzVhYjIxZDc5ZGRlMTAxZGZlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkyY2I2ZTUxYzQ2MWU3MzU5NTI2YmVhNWUwNjIwOWNkZGRlN2M2NDY5YTgxOWYzNDA1Y2YwYTAzOGMxNTk1MDIiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A type of §eTopaz §7that has clearly\",3:\"§7been treated with care.\",4:\"\",5:\"§7Some say that when §eharnessed\",6:\"§eproperly§7, it can give its owner extra\",7:\"§5✧ Pristine§7.\",8:\"\",9:\"§9§lRARE GEMSTONE\"],Name:\"§9✧ Fine Topaz Gemstone\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"✧ Fine Topaz Gemstone\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"✧ Fine Topaz Gemstone\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"A type of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Topaz \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"that has clearly\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"been treated with care.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Some say that when \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"harnessed\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"properly\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\", it can give its owner extra\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"✧ Pristine\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE GEMSTONE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FINE_TOPAZ_GEM\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4MzkxOTUyNywKICAicHJvZmlsZUlkIiA6ICJjMGYzYjI3YTUwMDE0YzVhYjIxZDc5ZGRlMTAxZGZlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkyY2I2ZTUxYzQ2MWU3MzU5NTI2YmVhNWUwNjIwOWNkZGRlN2M2NDY5YTgxOWYzNDA1Y2YwYTAzOGMxNTk1MDIiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7A type of §eTopaz §7that has clearly",
-    "§7been treated with care.",
-    "",
-    "§7Some say that when §eharnessed",
-    "§eproperly§7, it can give its owner extra",
-    "§5✧ Pristine§7.",
-    "",
-    "§9§lRARE GEMSTONE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"A type of \",\"color\":\"gray\"},{\"text\":\"Topaz \",\"color\":\"yellow\"},{\"text\":\"that has clearly\",\"color\":\"gray\"}]}",
+    "{\"text\":\"been treated with care.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Some say that when \",\"color\":\"gray\"},{\"text\":\"harnessed\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"properly\",\"color\":\"yellow\"},{\"text\":\", it can give its owner extra\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"✧ Pristine\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE GEMSTONE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "FINE_TOPAZ_GEM",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "",
     "C2": "FLAWED_TOPAZ_GEM:16",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

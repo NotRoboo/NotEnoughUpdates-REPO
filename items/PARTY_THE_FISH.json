@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:fish",
-  "displayname": "§cParty the Fish",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Big fan of parties, yet its hard to\",1:\"§7enjoy them without friends.\",2:\"\",3:\"§c§lSPECIAL\"],Name:\"§cParty the Fish\"},ExtraAttributes:{id:\"PARTY_THE_FISH\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Party the Fish\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:fish\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Party the Fish\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Big fan of parties, yet its hard to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enjoy them without friends.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PARTY_THE_FISH\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Big fan of parties, yet its hard to",
-    "§7enjoy them without friends.",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Big fan of parties, yet its hard to\",\"color\":\"gray\"}",
+    "{\"text\":\"enjoy them without friends.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "PARTY_THE_FISH",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Party_the_Fish",
     "https://wiki.hypixel.net/Party_The_Fish"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

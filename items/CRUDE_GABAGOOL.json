@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aCrude Gabagool",
-  "nbttag": "{ExtraAttributes:{id:\"CRUDE_GABAGOOL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"74f204e8-5aa7-3057-adbe-0a6e7c5ccd90\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NjIwNzEzMzkyNSwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U2NTY0YmJmYTc0OWM5ZTBlZjNhYzJhM2YyMTEwMTM5YTU1OTQ0ODQxZDEwNzM1Y2Y5MDBkMWUyOTAzOTQxOCIKICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Created by Inferno minions, use\",1:\"§7to feed Wisp pets or tier up\",2:\"§7into Fuel Gabagool.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aCrude Gabagool\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Crude Gabagool\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Crude Gabagool\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Created by Inferno minions, use\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to feed Wisp pets or tier up\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"into Fuel Gabagool.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CRUDE_GABAGOOL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY0NjIwNzEzMzkyNSwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U2NTY0YmJmYTc0OWM5ZTBlZjNhYzJhM2YyMTEwMTM5YTU1OTQ0ODQxZDEwNzM1Y2Y5MDBkMWUyOTAzOTQxOCIKICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Created by Inferno minions, use",
-    "§7to feed Wisp pets or tier up",
-    "§7into Fuel Gabagool.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Created by Inferno minions, use\",\"color\":\"gray\"}",
+    "{\"text\":\"to feed Wisp pets or tier up\",\"color\":\"gray\"}",
+    "{\"text\":\"into Fuel Gabagool.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CRUDE_GABAGOOL",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Crude_Gabagool",
     "https://wiki.hypixel.net/Crude_Gabagool"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

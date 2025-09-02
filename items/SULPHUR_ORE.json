@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:glowstone_dust",
-  "displayname": "§aSulphur",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Collection Item\",1:\"\",2:\"§7§7§o\\\"Give me some Sulphur and I\u0027ll make a\",3:\"§7§owand. Give me all the Sulphur and I\u0027ll\",4:\"§7§oconquer the world.\\\" - Unnamed Mage.\",5:\"\",6:\"§a§lUNCOMMON ORE\"],Name:\"§aSulphur\"},ExtraAttributes:{id:\"SULPHUR_ORE\"}}",
+  "displayname": "{\"text\":\"Sulphur\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:glowstone_dust\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sulphur\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\\\\\"Give me some Sulphur and I\u0027ll make a\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"wand. Give me all the Sulphur and I\u0027ll\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"conquer the world.\\\\\\\" - Unnamed Mage.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ORE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SULPHUR_ORE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§8Collection Item",
-    "",
-    "§7§7§o\"Give me some Sulphur and I\u0027ll make a",
-    "§7§owand. Give me all the Sulphur and I\u0027ll",
-    "§7§oconquer the world.\" - Unnamed Mage.",
-    "",
-    "§a§lUNCOMMON ORE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\\\"Give me some Sulphur and I\u0027ll make a\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"wand. Give me all the Sulphur and I\u0027ll\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"conquer the world.\\\" - Unnamed Mage.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ORE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SULPHUR_ORE",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sulphur",
     "https://wiki.hypixel.net/Sulphur"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

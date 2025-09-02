@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:stick",
-  "displayname": "§5Wand of Restoration",
-  "nbttag": "{ExtraAttributes:{id:\"WAND_OF_RESTORATION\"},HideFlags:254,ItemModel:\"minecraft:stick\",display:{Lore:[0:\"§6Ability: Big Heal  §e§lRIGHT CLICK\",1:\"§7Heal §c120❤§7/s for 7s.\",2:\"§8Wand heals don't stack.\",3:\"§8Mana Cost: §3200\",4:\"§8Cooldown: §a1s\",5:\"\",6:\"§4☠ §cRequires §5Zombie Slayer 6§c.\",7:\"§5§lEPIC WAND\"],Name:\"§5Wand of Restoration\"},ench:[]}",
+  "displayname": "{\"text\":\"Wand of Restoration\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wand of Restoration\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Big Heal \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Heal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"120❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"/s for 7s.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Wand heals don\u0027t stack.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"200\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Zombie Slayer 6\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC WAND\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WAND_OF_RESTORATION\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Big Heal  §e§lRIGHT CLICK",
-    "§7Heal §c120❤§7/s for 7s.",
-    "§8Wand heals don't stack.",
-    "§8Mana Cost: §3200",
-    "§8Cooldown: §a1s",
-    "",
-    "§4☠ §cRequires §5Zombie Slayer 6§c.",
-    "§5§lEPIC WAND"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Big Heal \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Heal \",\"color\":\"gray\"},{\"text\":\"120❤\",\"color\":\"red\"},{\"text\":\"/s for 7s.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Wand heals don\u0027t stack.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"200\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"1s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Zombie Slayer 6\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC WAND\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "WAND_OF_RESTORATION",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C2": "",
     "C3": ""
   },
-  "slayer_req": "ZOMBIE_6"
+  "slayer_req": "ZOMBIE_6",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:coal",
-  "displayname": "§fCharcoal",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCharcoal\"},ExtraAttributes:{id:\"COAL-1\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Charcoal\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:coal\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Charcoal\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COAL-1\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "parent": "COAL",
   "internalname": "COAL-1",
@@ -14,5 +14,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Charcoal"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

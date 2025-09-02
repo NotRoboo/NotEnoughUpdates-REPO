@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:diamond_pickaxe",
-  "displayname": "§9Self-Recursive Pickaxe",
-  "nbttag": "{ExtraAttributes:{id:\"SELF_RECURSIVE_PICKAXE\"},HideFlags:254,ItemModel:\"minecraft:diamond_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§7Allows you to break living metal ore\",1:\"§7and, potentially, living metal faces.\",2:\"\",3:\"§7Regens §b4 Mana §7on hit.\",4:\"\",5:\"§8This item can be reforged!\",6:\"§9§lRARE SWORD\"],Name:\"§9Self-Recursive Pickaxe\"}}",
+  "displayname": "{\"text\":\"Self-Recursive Pickaxe\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Self-Recursive Pickaxe\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Allows you to break living metal ore\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"and, potentially, living metal faces.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regens \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"4 Mana \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"on hit.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SELF_RECURSIVE_PICKAXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Allows you to break living metal ore",
-    "§7and, potentially, living metal faces.",
-    "",
-    "§7Regens §b4 Mana §7on hit.",
-    "",
-    "§8This item can be reforged!",
-    "§9§lRARE SWORD"
+    "{\"text\":\"Allows you to break living metal ore\",\"color\":\"gray\"}",
+    "{\"text\":\"and, potentially, living metal faces.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regens \",\"color\":\"gray\"},{\"text\":\"4 Mana \",\"color\":\"aqua\"},{\"text\":\"on hit.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SELF_RECURSIVE_PICKAXE",
   "clickcommand": "viewrecipe",
@@ -46,5 +46,8 @@
       "C2": "LEECH_SWORD",
       "C3": ""
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

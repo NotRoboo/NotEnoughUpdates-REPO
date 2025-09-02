@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:diamond_shovel",
-  "displayname": "§9Snow Shovel",
-  "nbttag": "{ExtraAttributes:{id:\"SNOW_SHOVEL\"},HideFlags:254,ItemModel:\"minecraft:diamond_shovel\",Unbreakable:1B,display:{Lore:[0:\"§6Ability: Snow Placer §e§lRIGHT CLICK\",1:\"§7Right-Click a block to place a\",2:\"§73x3 snow layer.\",3:\"\",4:\"§7Cost: §610 Coins\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Snow Shovel\"}}",
+  "displayname": "{\"text\":\"Snow Shovel\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_shovel\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Snow Shovel\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Snow Placer \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Right-Click a block to place a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"3x3 snow layer.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cost: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10 Coins\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SNOW_SHOVEL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Snow Placer §e§lRIGHT CLICK",
-    "§7Right-Click a block to place a",
-    "§73x3 snow layer.",
-    "",
-    "§7Cost: §610 Coins",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Snow Placer \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Right-Click a block to place a\",\"color\":\"gray\"}",
+    "{\"text\":\"3x3 snow layer.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cost: \",\"color\":\"gray\"},{\"text\":\"10 Coins\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SNOW_SHOVEL",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Snow_Shovel",
     "https://wiki.hypixel.net/Snow_Shovel"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

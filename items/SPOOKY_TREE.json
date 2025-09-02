@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§5Great Spook Tree",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"99612808-297a-3291-915d-d7d3f8340028\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NzY0MzU3MDcxMywKICAicHJvZmlsZUlkIiA6ICI3ZjU2ZjY1MDI2NjY0ZmM1OWFjNWYyYjVjMTNlZGY3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXhBbnRvbnkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzAzZGVhNmJlNGI3ODY5MDBjMTAyODI3NGQ0YjYxMmYxNzQyMzQ3MThmMGJmNWJmZTNiODI3MTU3NzJiOTgyYiIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Place this item on your\",1:\"§7island!\",2:\"\",3:\"§7Place ONE of this tree on your\",4:\"§7island, and collect its\",5:\"§7§5fruits§7... rarely.\",6:\"\",7:\"§5§lEPIC\"],Name:\"§f§f§5Great Spook Tree\"},ExtraAttributes:{id:\"SPOOKY_TREE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Great Spook Tree\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Great Spook Tree\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this item on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"island!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Place ONE of this tree on your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"island, and collect its\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"fruits\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"... rarely.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPOOKY_TREE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this item on your",
-    "§7island!",
-    "",
-    "§7Place ONE of this tree on your",
-    "§7island, and collect its",
-    "§7§5fruits§7... rarely.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Place this item on your\",\"color\":\"gray\"}",
+    "{\"text\":\"island!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Place ONE of this tree on your\",\"color\":\"gray\"}",
+    "{\"text\":\"island, and collect its\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"fruits\",\"color\":\"dark_purple\"},{\"text\":\"... rarely.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SPOOKY_TREE",
   "crafttext": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Great_Spook_Tree",
     "https://wiki.hypixel.net/Great_Spook_Tree"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

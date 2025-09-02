@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Miner Zombie (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Like their skeleton\",1:\"§7counterparts these zombies have\",2:\"§7bedazzled themselves throughout\",3:\"§7the years.\",4:\"\",5:\"§c❤ Health§8: §c250 - 300\"],Name:\"§9Miner Zombie (Monster)\"},ExtraAttributes:{id:\"MINER_ZOMBIE_MONSTER\"}}",
-  "damage": 2,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Miner Zombie (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Miner Zombie (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Like their skeleton\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"counterparts these zombies have\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"bedazzled themselves throughout\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the years.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"250 - 300\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"MINER_ZOMBIE_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Like their skeleton",
-    "§7counterparts these zombies have",
-    "§7bedazzled themselves throughout",
-    "§7the years.",
-    "",
-    "§c❤ Health§8: §c250 - 300"
+    "{\"text\":\"Like their skeleton\",\"color\":\"gray\"}",
+    "{\"text\":\"counterparts these zombies have\",\"color\":\"gray\"}",
+    "{\"text\":\"bedazzled themselves throughout\",\"color\":\"gray\"}",
+    "{\"text\":\"the years.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"250 - 300\",\"color\":\"red\"}]}"
   ],
   "internalname": "MINER_ZOMBIE_MONSTER",
   "clickcommand": "viewrecipe",
@@ -109,5 +109,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

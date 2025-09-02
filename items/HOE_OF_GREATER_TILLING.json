@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:diamond_hoe",
-  "displayname": "§9Hoe of Greater Tilling",
-  "nbttag": "{ExtraAttributes:{id:\"HOE_OF_GREATER_TILLING\"},HideFlags:254,ItemModel:\"minecraft:diamond_hoe\",Unbreakable:1B,display:{Lore:[0:\"§7Tills a §95x5 §7area of farmland at a time.\",1:\"\",2:\"§8This item can be reforged!\",3:\"§4❣ §cRequires §aFarming Skill 5§c.\",4:\"§9§lRARE HOE\"],Name:\"§9Hoe of Greater Tilling\"}}",
+  "displayname": "{\"text\":\"Hoe of Greater Tilling\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_hoe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hoe of Greater Tilling\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Tills a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5x5 \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"area of farmland at a time.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 5\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE HOE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HOE_OF_GREATER_TILLING\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Tills a §95x5 §7area of farmland at a time.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aFarming Skill 5§c.",
-    "§9§lRARE HOE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Tills a \",\"color\":\"gray\"},{\"text\":\"5x5 \",\"color\":\"blue\"},{\"text\":\"area of farmland at a time.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 5\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE HOE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "HOE_OF_GREATER_TILLING",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Hoe_of_Greater_Tilling",
     "https://wiki.hypixel.net/Hoe_Of_Greater_Tilling"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

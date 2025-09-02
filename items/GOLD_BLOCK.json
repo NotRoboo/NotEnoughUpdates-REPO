@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:gold_block",
-  "displayname": "§fBlock of Gold",
-  "nbttag": "{ExtraAttributes:{id:\"GOLD_BLOCK\"},HideFlags:254,ItemModel:\"minecraft:gold_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlock of Gold\"}}",
+  "displayname": "{\"text\":\"Block of Gold\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:gold_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Block of Gold\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLD_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "GOLD_BLOCK",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "GOLD_INGOT:1",
     "C2": "GOLD_INGOT:1",
     "C3": "GOLD_INGOT:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

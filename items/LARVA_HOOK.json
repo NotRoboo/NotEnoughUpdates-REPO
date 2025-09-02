@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:tripwire_hook",
-  "displayname": "§aLarva Hook",
-  "nbttag": "{ExtraAttributes:{id:\"LARVA_HOOK\"},HideFlags:254,ItemModel:\"minecraft:tripwire_hook\",display:{Lore:[0:\"§7Click the §6larvas §7crawling around\",1:\"§7tree branches to tactfully extract\",2:\"§7their silk.\",3:\"\",4:\"§7You may harvest §68 larvas §7per hook.\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aLarva Hook\"}}",
+  "displayname": "{\"text\":\"Larva Hook\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:tripwire_hook\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Larva Hook\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Click the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"larvas \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"crawling around\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"tree branches to tactfully extract\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"their silk.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"You may harvest \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"8 larvas \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"per hook.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LARVA_HOOK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Click the §6larvas §7crawling around",
-    "§7tree branches to tactfully extract",
-    "§7their silk.",
-    "",
-    "§7You may harvest §68 larvas §7per hook.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Click the \",\"color\":\"gray\"},{\"text\":\"larvas \",\"color\":\"gold\"},{\"text\":\"crawling around\",\"color\":\"gray\"}]}",
+    "{\"text\":\"tree branches to tactfully extract\",\"color\":\"gray\"}",
+    "{\"text\":\"their silk.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"You may harvest \",\"color\":\"gray\"},{\"text\":\"8 larvas \",\"color\":\"gold\"},{\"text\":\"per hook.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "LARVA_HOOK",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Larva_Hook",
     "https://wiki.hypixel.net/Larva_Hook"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:cauldron",
-  "displayname": "§fCauldron",
-  "nbttag": "{ExtraAttributes:{id:\"CAULDRON_ITEM\"},HideFlags:254,ItemModel:\"minecraft:cauldron\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCauldron\"}}",
+  "displayname": "{\"text\":\"Cauldron\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:cauldron\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cauldron\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CAULDRON_ITEM\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "CAULDRON_ITEM",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "IRON_INGOT:1",
     "C2": "IRON_INGOT:1",
     "C3": "IRON_INGOT:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

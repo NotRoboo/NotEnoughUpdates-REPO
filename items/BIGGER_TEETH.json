@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:ghast_tear",
-  "displayname": "§aBigger Teeth",
-  "nbttag": "{ExtraAttributes:{id:\"BIGGER_TEETH\"},HideFlags:254,ItemModel:\"minecraft:ghast_tear\",display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§aPet Items §7can boost pets in many powerful ways!\",3:\"§7A pet can only hold one §aPet Item §7at a time.\",4:\"§7The pet must be §evisible §7to apply the item!\",5:\"\",6:\"§7Grants §9+10☣ Crit Chance§7.\",7:\"\",8:\"§eRight-click on your summoned pet to\",9:\"§egive it this item!\",10:\"\",11:\"§a§lUNCOMMON PET ITEM\"],Name:\"§aBigger Teeth\"},ench:[]}",
+  "displayname": "{\"text\":\"Bigger Teeth\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:ghast_tear\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bigger Teeth\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pet Items \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"can boost pets in many powerful ways!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"A pet can only hold one \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Pet Item \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"at a time.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The pet must be \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"visible \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"to apply the item!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10☣ Crit Chance\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"give it this item!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON PET ITEM\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BIGGER_TEETH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Consumed on use",
-    "",
-    "§aPet Items §7can boost pets in many powerful ways!",
-    "§7A pet can only hold one §aPet Item §7at a time.",
-    "§7The pet must be §evisible §7to apply the item!",
-    "",
-    "§7Grants §9+10☣ Crit Chance§7.",
-    "",
-    "§eRight-click on your summoned pet to",
-    "§egive it this item!",
-    "",
-    "§a§lUNCOMMON PET ITEM"
+    "{\"text\":\"Consumed on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pet Items \",\"color\":\"green\"},{\"text\":\"can boost pets in many powerful ways!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"A pet can only hold one \",\"color\":\"gray\"},{\"text\":\"Pet Item \",\"color\":\"green\"},{\"text\":\"at a time.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The pet must be \",\"color\":\"gray\"},{\"text\":\"visible \",\"color\":\"yellow\"},{\"text\":\"to apply the item!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+10☣ Crit Chance\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"give it this item!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON PET ITEM\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "BIGGER_TEETH",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "",
     "C2": "ZOG_ANVIL:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§f§f§7[Lvl {LVL}] §aElephant",
-  "nbttag": "{AttributeModifiers:[],ExtraAttributes:{id:\"ELEPHANT;1\",petInfo:\"{\\\"type\\\":\\\"ELEPHANT\\\",\\\"active\\\":false,\\\"exp\\\":0,\\\"tier\\\":\\\"UNCOMMON\\\",\\\"hideInfo\\\":false,\\\"candyUsed\\\":0}\"},HideFlags:254,SkullOwner:{Id:\"cf7d262e-0ebf-3ad2-91c7-d05775bedd44\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3MWE3NmY2NjlkYjVlZDZkMzJiNDhiYjJkYmE1NWQ1MzE3ZDdmNDUyMjVjYjMyNjdlYzQzNWNmYTUxNCJ9fX0=\"}]}},display:{Lore:[0:\"§8Farming Pet\",1:\"\",2:\"§7Health: §a{HEALTH}\",3:\"§7Intelligence: §a{INTELLIGENCE}\",4:\"\",5:\"§6Stomp\",6:\"§7§7Gain §a{0}❈ Defense §7for\",7:\"§7every 100 §f✦ Speed§7.\",8:\"\",9:\"§7§eRight-click to add this pet to\",10:\"§eyour pet menu!\",11:\"\",12:\"§a§lUNCOMMON\"],Name:\"§f§f§7[Lvl {LVL}] §aElephant\"},overrideMeta:1B}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"[Lvl {LVL}] \",\"color\":\"gray\"},{\"text\":\"Elephant\",\"color\":\"green\"}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[Lvl {LVL}] \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Elephant\\\",\\\"color\\\":\\\"green\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Farming Pet\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{HEALTH}\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{INTELLIGENCE}\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Stomp\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{0}❈ Defense \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"every 100 \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✦ Speed\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to add this pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"your pet menu!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"\\\\\\\"candyUsed\\\\\\\"\":0,\"\\\\\\\"exp\\\\\\\"\":0,\"petInfo\":\"{\\\\\\\"type\\\\\\\":\\\\\\\"ELEPHANT\\\\\",\"\\\\\\\"active\\\\\\\"\":\"false\",\"\\\\\\\"hideInfo\\\\\\\"\":\"false\",\"\\\\\\\"tier\\\\\\\"\":\"\\\\\\\"UNCOMMON\\\\\\\"\",\"id\":\"ELEPHANT;1\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Farming Pet",
-    "",
-    "§7Health: §a{HEALTH}",
-    "§7Intelligence: §a{INTELLIGENCE}",
-    "",
-    "§6Stomp",
-    "§7§7Gain §a{0}❈ Defense §7for",
-    "§7every 100 §f✦ Speed§7.",
-    "",
-    "§7§eRight-click to add this pet to",
-    "§eyour pet menu!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Farming Pet\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"{HEALTH}\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"{INTELLIGENCE}\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Stomp\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"{0}❈ Defense \",\"color\":\"green\"},{\"text\":\"for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"every 100 \",\"color\":\"gray\"},{\"text\":\"✦ Speed\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to add this pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"your pet menu!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ELEPHANT;1",
   "crafttext": "",
@@ -36,5 +36,8 @@
       "output": "ELEPHANT;1",
       "items": []
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

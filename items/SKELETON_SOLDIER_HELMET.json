@@ -1,27 +1,27 @@
 {
   "itemid": "minecraft:leather_helmet",
-  "displayname": "§5Skeleton Soldier Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"SKELETON_SOLDIER_HELMET\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d95\",1:\"§7Crit Chance: §c+2%\",2:\"§7Crit Damage: §c+16%\",3:\"§7Health: §a+16\",4:\"§7Defense: §a+26\",5:\"\",6:\"§7Increase the damage you deal with\",7:\"§7arrows by §c5%§7.\",8:\"\",9:\"§6Full Set Bonus: Skeleton Soldier §7(0/4)\",10:\"§7Increase the damage you deal with\",11:\"§7arrows by an extra §c25%§7.\",12:\"\",13:\"§2This item is Undead ༕!\",14:\"\",15:\"§8This item can be reforged!\",16:\"§4❣ §cRequires Catacombs Skill 9.\",17:\"§5§lEPIC DUNGEON HELMET\"],Name:\"§5Skeleton Soldier Helmet\",color:16759819}}",
+  "displayname": "{\"text\":\"Skeleton Soldier Helmet\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Skeleton Soldier Helmet\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"95\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+16%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+16\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+26\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Increase the damage you deal with\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"arrows by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Skeleton Soldier \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Increase the damage you deal with\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"arrows by an extra \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"25%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item is Undead ༕!\\\",\\\"color\\\":\\\"dark_green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 9.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC DUNGEON HELMET\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SKELETON_SOLDIER_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d95",
-    "§7Crit Chance: §c+2%",
-    "§7Crit Damage: §c+16%",
-    "§7Health: §a+16",
-    "§7Defense: §a+26",
-    "",
-    "§7Increase the damage you deal with",
-    "§7arrows by §c5%§7.",
-    "",
-    "§6Full Set Bonus: Skeleton Soldier §7(0/4)",
-    "§7Increase the damage you deal with",
-    "§7arrows by an extra §c25%§7.",
-    "",
-    "§2This item is Undead ༕!",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Catacombs Skill 9.",
-    "§5§lEPIC DUNGEON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"95\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Chance: \",\"color\":\"gray\"},{\"text\":\"+2%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+16%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+16\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+26\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Increase the damage you deal with\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"arrows by \",\"color\":\"gray\"},{\"text\":\"5%\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Skeleton Soldier \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Increase the damage you deal with\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"arrows by an extra \",\"color\":\"gray\"},{\"text\":\"25%\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item is Undead ༕!\",\"color\":\"dark_green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 9.\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC DUNGEON HELMET\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SKELETON_SOLDIER_HELMET",
   "clickcommand": "",
@@ -31,5 +31,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Soldier_Helmet",
     "https://wiki.hypixel.net/Skeleton_Soldier_Helmet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:tnt",
-  "displayname": "§5Infinityboom TNT",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Instantly breaks weak walls. Can be\",1:\"§7used to blow up Crypts in §cThe\",2:\"§cCatacombs §7and §5Crystal Hollows§7.\",3:\"\",4:\"§8Cooldown: §a2s\",5:\"\",6:\"§5§lEPIC\"],Name:\"§5Infinityboom TNT\"},ExtraAttributes:{id:\"INFINITE_SUPERBOOM_TNT\"}}",
+  "displayname": "{\"text\":\"Infinityboom TNT\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:tnt\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Infinityboom TNT\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Instantly breaks weak walls. Can be\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"used to blow up Crypts in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Catacombs \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Crystal Hollows\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"INFINITE_SUPERBOOM_TNT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Instantly breaks weak walls. Can be",
-    "§7used to blow up Crypts in §cThe",
-    "§cCatacombs §7and §5Crystal Hollows§7.",
-    "",
-    "§8Cooldown: §a2s",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Instantly breaks weak walls. Can be\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"used to blow up Crypts in \",\"color\":\"gray\"},{\"text\":\"The\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Catacombs \",\"color\":\"red\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"Crystal Hollows\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"2s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "INFINITE_SUPERBOOM_TNT",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Infinityboom_TNT",
     "https://wiki.hypixel.net/Infinityboom_TNT"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

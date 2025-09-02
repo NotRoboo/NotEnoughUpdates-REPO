@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3Frozen Steve (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0a449771-7d30-43bc-9db3-3f0a8db7d833\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA2OTFjOTljNDU1NTE3ZGVkMzdiZjM5ODA2MjI2MzYyZDdjZTYxMjVhMDRiZTcwZWM2ODNiM2M4YTI1ZmUyNCJ9fX0=\"}]}},display:{Lore:[0:\"§7The Frozen Steve is a Common Sea Creature that\",1:\"§7can only be fished up from the Jerry Pond and\",2:\"§7requires Fishing IV. \",3:\"\",4:\"§c❤ Health§8: §c700\",5:\"\",6:\"§f§lCOMMON\"],Name:\"§3Frozen Steve (Sea Creature)\"},ExtraAttributes:{id:\"FROZEN_STEVE_SC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Frozen Steve (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Frozen Steve (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Frozen Steve is a Common Sea Creature that\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"can only be fished up from the Jerry Pond and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"requires Fishing IV. \\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"700\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FROZEN_STEVE_SC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Frozen Steve is a Common Sea Creature that",
-    "§7can only be fished up from the Jerry Pond and",
-    "§7requires Fishing IV. ",
-    "",
-    "§c❤ Health§8: §c700",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"The Frozen Steve is a Common Sea Creature that\",\"color\":\"gray\"}",
+    "{\"text\":\"can only be fished up from the Jerry Pond and\",\"color\":\"gray\"}",
+    "{\"text\":\"requires Fishing IV. \",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"700\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FROZEN_STEVE_SC",
   "clickcommand": "viewrecipe",
@@ -33,7 +33,7 @@
       "extra": [
         "§cRequirements:",
         "§7- Fishing Skill 1",
-        "§7- §bJerry's Workshop",
+        "§7- §bJerry\u0027s Workshop",
         "§7- §bFished from water"
       ],
       "drops": [
@@ -80,5 +80,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

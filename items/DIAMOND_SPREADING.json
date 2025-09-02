@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:diamond",
-  "displayname": "§9Diamond Spreading",
-  "nbttag": "{ExtraAttributes:{id:\"DIAMOND_SPREADING\"},HideFlags:254,ItemModel:\"minecraft:diamond\",display:{Lore:[0:\"§7This item can be used as a minion\",1:\"§7upgrade. Place it in any minion and it\",2:\"§7will occasionally generate Diamonds!\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Diamond Spreading\"},ench:[]}",
+  "displayname": "{\"text\":\"Diamond Spreading\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diamond Spreading\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be used as a minion\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"upgrade. Place it in any minion and it\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"will occasionally generate Diamonds!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND_SPREADING\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7This item can be used as a minion",
-    "§7upgrade. Place it in any minion and it",
-    "§7will occasionally generate Diamonds!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"This item can be used as a minion\",\"color\":\"gray\"}",
+    "{\"text\":\"upgrade. Place it in any minion and it\",\"color\":\"gray\"}",
+    "{\"text\":\"will occasionally generate Diamonds!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "DIAMOND_SPREADING",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "VINE:1",
     "C2": "VINE:1",
     "C3": "VINE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

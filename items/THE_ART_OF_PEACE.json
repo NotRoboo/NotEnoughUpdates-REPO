@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:book",
-  "displayname": "§6The Art of Peace",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7Grants §c+40❤ Health §7when\",3:\"§7applied to an armor piece. Can\",4:\"§7only be applied to an item once.\",5:\"\",6:\"§7§8Stop quoting my brother.\",7:\"§8 - Moon Tzu\",8:\"\",9:\"§6§lLEGENDARY\"],Name:\"§6The Art of Peace\"},ExtraAttributes:{id:\"THE_ART_OF_PEACE\"}}",
+  "displayname": "{\"text\":\"The Art of Peace\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"The Art of Peace\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"applied to an armor piece. Can\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"only be applied to an item once.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Stop quoting my brother.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\" - Moon Tzu\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"THE_ART_OF_PEACE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
-    "",
-    "§7Grants §c+40❤ Health §7when",
-    "§7applied to an armor piece. Can",
-    "§7only be applied to an item once.",
-    "",
-    "§7§8Stop quoting my brother.",
-    "§8 - Moon Tzu",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+40❤ Health \",\"color\":\"red\"},{\"text\":\"when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"applied to an armor piece. Can\",\"color\":\"gray\"}",
+    "{\"text\":\"only be applied to an item once.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Stop quoting my brother.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\" - Moon Tzu\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "THE_ART_OF_PEACE",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/The_Art_Of_Peace",
     "https://wiki.hypixel.net/The_Art_Of_Peace"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

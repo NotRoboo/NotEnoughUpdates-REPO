@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cSpeckled Teacup",
-  "nbttag": "{ExtraAttributes:{id:\"SPECKLED_TEACUP\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"63639150-20d9-3172-9324-09387cc39a45\",Properties:{textures:[0:{Name:\"textures\",Signature:\"siTzlJnSqQM++KpEa++n6XgYdeakdciXXHl8GS7rWfGiWSo5jX1KbVlvKxOBbN+PAhaKzZ6tc3Gm+G4Dzg2v6FaCRA4jVvLnqFYfxB7812oKFZiHO7H4EAOZI/31wMQzXHI0fW0bMKUhWp3uajRss2qLASN1oZAzCjUD+q7k/AA/c071XcxTpTVGxBF8Tgk3txQqgjCUldZgGcgYn10hKdim71lVmPltVUbqerppy0VgtpaQ7gmsNCYSyHYUEeN1XYAGu5XhnX7sg78v+gi9fCahmKNEEgZh0N7oWvAsYIq+GsZeG0UZTQ2JvobLj2nyuRuBp4EVXi/qU6lkqgD8Y+5JXxi+9Qs/Q+VS3lxRHw9HEujsoIzPLn8OkKxweMhaI/ofANV40YsoGrU/EuRMrgkEqvpNTTtRgGULK45Ma5nOb73UZS4C4V05VqSIlmYrDI3Z8Ta1Cc98qyEO+n8UiLuY5SNy2YYy5n7q1YofQ8w1TXdpv9qdl+L1J4f7fY0x+pr1UuD6HrlSsjAXbmn2lTe0AmZ3KSuErg0xFlrab4CmY1VhZUt3OT3spxalv/gth8smFqAikk/bDqJcS4a7FP1DoFixMs0OfjsTku1vMKdHmFGn/Hwz/mlCcinPl0xkBh0n8W6jv7V5cRoRKdbTMjeAJZdGQnRmMRmAqSy3KkQ=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczNjg5MTUyOTk5MCwKICAicHJvZmlsZUlkIiA6ICI1ZjU5NmViY2JlOTQ0NmQxYmI0M2JlNGYzZjRiOGJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWlsMHNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM1OTA4ZWNmNGVkM2FiNjNmYmExZWNlZGUwM2Q3YTBkZDU4YjUzYWMyZTIwNjgxMjU1MjE5NjA5ZjJkYWM5NGIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Quest Item\",1:\"\",2:\"§7A garish ornament that is oddly\",3:\"§7beloved by §6Brynmor§7, owner of the\",4:\"§2Dwarven Tavern§7. If you return it to\",5:\"§7him, he will give you his §9Abiphone\",6:\"§9Contact§7.\",7:\"\",8:\"§8§l* §8Soulbound §8§l*\",9:\"§c§lSPECIAL\"],Name:\"§cSpeckled Teacup\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Speckled Teacup\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Speckled Teacup\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Quest Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A garish ornament that is oddly\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"beloved by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Brynmor\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\", owner of the\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Dwarven Tavern\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\". If you return it to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"him, he will give you his \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Abiphone\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Contact\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPECKLED_TEACUP\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTczNjg5MTUyOTk5MCwKICAicHJvZmlsZUlkIiA6ICI1ZjU5NmViY2JlOTQ0NmQxYmI0M2JlNGYzZjRiOGJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWlsMHNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM1OTA4ZWNmNGVkM2FiNjNmYmExZWNlZGUwM2Q3YTBkZDU4YjUzYWMyZTIwNjgxMjU1MjE5NjA5ZjJkYWM5NGIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Quest Item",
-    "",
-    "§7A garish ornament that is oddly",
-    "§7beloved by §6Brynmor§7, owner of the",
-    "§2Dwarven Tavern§7. If you return it to",
-    "§7him, he will give you his §9Abiphone",
-    "§9Contact§7.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§c§lSPECIAL"
+    "{\"text\":\"Quest Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A garish ornament that is oddly\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"beloved by \",\"color\":\"gray\"},{\"text\":\"Brynmor\",\"color\":\"gold\"},{\"text\":\", owner of the\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Dwarven Tavern\",\"color\":\"dark_green\"},{\"text\":\". If you return it to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"him, he will give you his \",\"color\":\"gray\"},{\"text\":\"Abiphone\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Contact\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "SPECKLED_TEACUP",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Speckled_Teacup",
     "https://wiki.hypixel.net/Speckled_Teacup"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

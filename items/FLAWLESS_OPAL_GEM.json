@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5❂ Flawless Opal Gemstone",
-  "nbttag": "{ExtraAttributes:{id:\"FLAWLESS_OPAL_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"3784c1fc-8fc8-36e1-9aaf-4569952fd499\",Properties:{textures:[0:{Name:\"textures\",Signature:\"lft24c0fCYAB4oqTLeroviV3qH4AEVVeg0wjEQKuj/PyRyMOmmycFAFzjj9gDvm9LC7WoJjWdbVfF7JRHRY8J8/9Scp4Wzwa6jKNyWXvU3B3+rcHeeMowqKcLipU5xnvQb1WdVCg0vqv4E0coIEno7ddUlp8ZSyDB3Tno74pgEGorO56gFJ4GC/DZLhPQkKo8TOfDkzc1mR/t+Pm0sGN8BKOTAT99rEyiQbTJHbcs7w7PzBCDuM3sxGhyTNAOaCnDw8N0j9d2YDN1Cr4L7zRqxS+wftZWY2rpWCAhtEBb2VqUhWBtEebCjTbMp7Q53ap6zGk8dEPx4fjqu48oxwyTiBg18M6gNGKewCY/53b2a0LSA5Fqhbnt44vd2STUpfw7izi2dMtGSHXlWlAQfesQFTAEk/cLPMr2EUkz46C/dytmQpTwJgULCuA0a0rs7lH420afy9ZBk4wqJpDk/6JAwsAjVo2ckqgvmRAKyDZnJm1iTlZYjTEX+xWahnvXYm781V7XevuKcdx2hjwzix+7h0dV2di7kd4hr4MG10+X+mOmrLy+p+dpSdu+iRUGjSshRwri9MpwMS4CCpEIvhRqRdoHm6Y8TODyMDtRiwflFXuOMxnYsDqBdAs3Xl6Z0rQIrfJPXRlw9y9GIFzCkjr/baBtDsasRt/DLnMrUNUiMc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjA1OTQ4NywKICAicHJvZmlsZUlkIiA6ICI1ZTdmY2RjYTU5YzI0NjkwODAwNjg4OTNkODU1ODM3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYWVsbGFyaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZDE1ZWQ3MGU3MjAwNDBhZDczMTFlNjkzNTlkZmRmNWUxMTRlYWRkMmE0YzFmOTcxYTk1MDEzNDFhNDUyNjRiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A near perfect version of §fOpal§7.\",3:\"\",4:\"§7Some say that when §eharnessed\",5:\"§eproperly§7, it can give its owner extra\",6:\"§f❂ True Defense§7.\",7:\"\",8:\"§5§lEPIC GEMSTONE\"],Name:\"§5❂ Flawless Opal Gemstone\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"❂ Flawless Opal Gemstone\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"❂ Flawless Opal Gemstone\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"A near perfect version of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Opal\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Some say that when \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"harnessed\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"properly\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\", it can give its owner extra\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❂ True Defense\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC GEMSTONE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLAWLESS_OPAL_GEM\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjA1OTQ4NywKICAicHJvZmlsZUlkIiA6ICI1ZTdmY2RjYTU5YzI0NjkwODAwNjg4OTNkODU1ODM3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYWVsbGFyaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZDE1ZWQ3MGU3MjAwNDBhZDczMTFlNjkzNTlkZmRmNWUxMTRlYWRkMmE0YzFmOTcxYTk1MDEzNDFhNDUyNjRiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7A near perfect version of §fOpal§7.",
-    "",
-    "§7Some say that when §eharnessed",
-    "§eproperly§7, it can give its owner extra",
-    "§f❂ True Defense§7.",
-    "",
-    "§5§lEPIC GEMSTONE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"A near perfect version of \",\"color\":\"gray\"},{\"text\":\"Opal\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Some say that when \",\"color\":\"gray\"},{\"text\":\"harnessed\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"properly\",\"color\":\"yellow\"},{\"text\":\", it can give its owner extra\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❂ True Defense\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC GEMSTONE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FLAWLESS_OPAL_GEM",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "",
     "C2": "FINE_OPAL_GEM:16",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:netherrack",
-  "displayname": "§fNetherrack",
-  "nbttag": "{ExtraAttributes:{id:\"NETHERRACK\"},HideFlags:254,ItemModel:\"minecraft:netherrack\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§f§lCOMMON BLOCK\"],Name:\"§fNetherrack\"}}",
+  "displayname": "{\"text\":\"Netherrack\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:netherrack\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Netherrack\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON BLOCK\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NETHERRACK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON BLOCK"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON BLOCK\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "NETHERRACK",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://wiki.hypixel.net/Netherrack"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

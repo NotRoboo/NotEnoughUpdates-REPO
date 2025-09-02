@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:coal",
-  "displayname": "§fCharcoal",
-  "nbttag": "{ExtraAttributes:{id:\"CHARCOAL\"},HideFlags:254,ItemModel:\"minecraft:charcoal\",display:{Lore:[0:\"§7Increases the speed of\",1:\"§7your minion by §a5%§7 for 30\",2:\"§7minutes!\",3:\"\",4:\"§f§lCOMMON\"],Name:\"§fCharcoal\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Charcoal\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:coal\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Charcoal\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Increases the speed of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your minion by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" for 30\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"minutes!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CHARCOAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Increases the speed of",
-    "§7your minion by §a5%§7 for 30",
-    "§7minutes!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Increases the speed of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your minion by \",\"color\":\"gray\"},{\"text\":\"5%\",\"color\":\"green\"},{\"text\":\" for 30\",\"color\":\"gray\"}]}",
+    "{\"text\":\"minutes!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "CHARCOAL",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Charcoal",
     "https://wiki.hypixel.net/Charcoal"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aChillshot (Monster)",
-  "nbttag": "{ExtraAttributes:{id:\"CHILLSHOT_MONSTER\"},HideFlags:254,SkullOwner:{Id:\"01b77ad6-2139-3bec-81b7-7ad621397bec\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMDMyMDYwMTk3MCwKICAicHJvZmlsZUlkIiA6ICJjNWVmOGQ1NDIwOWY0OTdlYWYzYzA1NjA3MjZhYTMwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaXNoX0RheCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NTcyNzQ3YTYzOWQyMjQwZmVlYWU1YzgxYzY4NzRlNmVlNzU0N2I1OTllNzQ1NDY0OTBkYzc1ZmEyMDg5MTg2IgogICAgfQogIH0KfQ==\"}]}},display:{Lore:[0:\"§7No chill!\",1:\"\",2:\"§7Mob Type: §2⸙ Woodland§7, §f🦴 Skeletal\",3:\"§c❤ Health§8: §c400\",4:\"§c❁ Damage§8: §c200\"],Name:\"§aChillshot (Monster)\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Chillshot (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chillshot (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"No chill!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mob Type: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"⸙ Woodland\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"🦴 Skeletal\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"400\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❁ Damage\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"200\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"CHILLSHOT_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7No chill!",
-    "",
-    "§7Mob Type: §2⸙ Woodland§7, §f🦴 Skeletal",
-    "§c❤ Health§8: §c400",
-    "§c❁ Damage§8: §c200"
+    "{\"text\":\"No chill!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mob Type: \",\"color\":\"gray\"},{\"text\":\"⸙ Woodland\",\"color\":\"dark_green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"🦴 Skeletal\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"400\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❁ Damage\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"200\",\"color\":\"red\"}]}"
   ],
   "internalname": "CHILLSHOT_MONSTER",
   "clickcommand": "viewrecipe",
@@ -61,5 +61,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

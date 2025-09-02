@@ -1,25 +1,25 @@
 {
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§aDirt Rod",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Fishing Speed: §a+20\",1:\"\",2:\"§7§7This rod allows you to fish on\",3:\"§7dirt.\",4:\"\",5:\"§7§8§oAt least you won\u0027t get wet!\",6:\"\",7:\"§7Purchased by: §b[MVP§2+§b] Moulberry§f\",8:\"§7Purchased for: §6§k666,666,666 §6 coins\",9:\"\",10:\"§8Auction #§k1\",11:\"§8Bid #§k1\",12:\"§8July 2022\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§a§lUNCOMMON FISHING ROD\"],Name:\"§aDirt Rod\"},ExtraAttributes:{date:1658838959882L,edition:103,id:\"DIRT_ROD\",recipient_name:\"§6[MVP§c++§6] _Ein_Wolf_§f\",player:\"§6[MVP§c++§6] _Ein_Wolf_§f\"}}",
+  "displayname": "{\"text\":\"Dirt Rod\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:fishing_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dirt Rod\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fishing Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This rod allows you to fish on\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"dirt.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"At least you won\u0027t get wet!\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Purchased by: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"[MVP\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"] Moulberry\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Purchased for: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"666,666,666 \\\",\\\"color\\\":\\\"gold\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" coins\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Auction #\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bid #\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"July 2022\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON FISHING ROD\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"date\":\"1658838959882L\",\"edition\":103,\"id\":\"DIRT_ROD\",\"recipient_name\":\"§6[MVP§c++§6] _Ein_Wolf_§f\",\"player\":\"§6[MVP§c++§6] _Ein_Wolf_§f\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Fishing Speed: §a+20",
-    "",
-    "§7§7This rod allows you to fish on",
-    "§7dirt.",
-    "",
-    "§7§8§oAt least you won\u0027t get wet!",
-    "",
-    "§7Purchased by: §b[MVP§2+§b] Moulberry§f",
-    "§7Purchased for: §6§k666,666,666 §6 coins",
-    "",
-    "§8Auction #§k1",
-    "§8Bid #§k1",
-    "§8July 2022",
-    "",
-    "§7§8This item can be reforged!",
-    "§a§lUNCOMMON FISHING ROD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fishing Speed: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This rod allows you to fish on\",\"color\":\"gray\"}",
+    "{\"text\":\"dirt.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"At least you won\u0027t get wet!\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Purchased by: \",\"color\":\"gray\"},{\"text\":\"[MVP\",\"color\":\"aqua\"},{\"text\":\"+\",\"color\":\"dark_green\"},{\"text\":\"] Moulberry\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Purchased for: \",\"color\":\"gray\"},{\"text\":\"666,666,666 \",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" coins\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Auction #\",\"color\":\"dark_gray\"},{\"text\":\"1\",\"color\":\"dark_gray\",\"obfuscated\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bid #\",\"color\":\"dark_gray\"},{\"text\":\"1\",\"color\":\"dark_gray\",\"obfuscated\":true}]}",
+    "{\"text\":\"July 2022\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON FISHING ROD\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DIRT_ROD",
   "crafttext": "",
@@ -29,5 +29,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dirt_Rod",
     "https://wiki.hypixel.net/Dirt_Rod"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

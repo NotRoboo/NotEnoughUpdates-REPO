@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:double_plant",
-  "displayname": "§fLarge Fern",
-  "nbttag": "{ExtraAttributes:{id:\"DOUBLE_PLANT-3\"},HideFlags:254,ItemModel:\"minecraft:large_fern\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fLarge Fern\"}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Large Fern\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:double_plant\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Large Fern\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DOUBLE_PLANT-3\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DOUBLE_PLANT-3",
   "clickcommand": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Large_Fern",
     "https://wiki.hypixel.net/Large_Fern"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

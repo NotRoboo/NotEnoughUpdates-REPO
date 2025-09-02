@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:quartz_ore",
-  "displayname": "§aNether Quartz Ore",
-  "nbttag": "{ExtraAttributes:{id:\"QUARTZ_ORE\"},HideFlags:254,ItemModel:\"minecraft:nether_quartz_ore\",display:{Lore:[0:\"§a§lUNCOMMON ORE\"],Name:\"§aNether Quartz Ore\"}}",
+  "displayname": "{\"text\":\"Nether Quartz Ore\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:quartz_ore\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nether Quartz Ore\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON ORE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"QUARTZ_ORE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§a§lUNCOMMON ORE"
+    "{\"text\":\"UNCOMMON ORE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "QUARTZ_ORE",
   "clickcommand": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://wiki.hypixel.net/Nether_Quartz_Ore"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aWood Affinity Talisman",
-  "nbttag": "{ExtraAttributes:{id:\"WOOD_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"821b06d8-0efd-39b6-be38-11120d348b9a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"IWJ2xBfhCOcn4q/1AYv16C2YuOQHbm25/bLAxeUk3z2rIZy/bGUsg40u/AnIbgC1pWZfjt8F2pTfDHuRC+ezjjfxhpGWaWLoOrCrOD+WWbMexzvidBT0EUsSwJOGztVM32gmRkIclMH2/h8A4/GzwUXaSYIp02SxRjTwUAwaJUG1MQimlE+xht3nIgMvAKzwkTW34yD7lvOrc909JOdAprQsmF1geCe1oDcI0DP7VDTO9rMy+lFgkaanL2zYncTRM/DyvqDaTfHkpgPuURF+gmZyleKEaY6+9xnw038qO5S3U1IfbAUuW01ybQU40aPdx9yJTOZlw32+3v9/Xnv6CfPHfOysiS1KjKxjDghLaxV1wQyMrqmPmHX8XPgc39ErqzGnmfUuUwsBzxsnPy1ASNfVOtzn/7eyfaHDvgowD39mKrwGn74hJCQOLwYXtwUqTg6E7KLOcm7KvPo9PtuG0H4axt3uyDxC5PK3+dsQNgnPF+1QnHabPcTIFkPYWqfZ2LZTXNLIk3EHkEE1tk2AGBJ2kj7v5nNi3x35XaeEIrlNOp1cX1P/67nWoT+hfgmKdC0Zhen2rad3mDyPHQTfVcQ9WsuzZnScZE0nXBqbiGp8N4HlkAeBbqpmY9TFswAXLZST4+z4NFPUhuhGdJPH2taC1ocn4Vn56e/99d4YRJs=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzNzY3NTE4NiwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkwN2E5MTM0NzFhNWJiYmI0YzBhN2YyMzNkNzhjMjc2MjhjZjBlNTE2YTJmYjQ2MzYwY2QwZTM3MGM1MDgzNDUiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Increases your §f✦ Speed §7by §a+10\",1:\"§7while held in the §bForest§7, §cGraveyard§7,\",2:\"§2Wilderness§7, §aThe Park§7, and §2Galatea§7.\",3:\"\",4:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aWood Affinity Talisman\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Wood Affinity Talisman\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wood Affinity Talisman\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✦ Speed \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"while held in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Forest\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Graveyard\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Wilderness\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\", \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Park\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Galatea\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ACCESSORY\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7Increases your §f✦ Speed §7by §a+10",
-    "§7while held in the §bForest§7, §cGraveyard§7,",
-    "§2Wilderness§7, §aThe Park§7, and §2Galatea§7.",
-    "",
-    "§a§lUNCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases your \",\"color\":\"gray\"},{\"text\":\"✦ Speed \",\"color\":\"white\"},{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"while held in the \",\"color\":\"gray\"},{\"text\":\"Forest\",\"color\":\"aqua\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"Graveyard\",\"color\":\"red\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Wilderness\",\"color\":\"dark_green\"},{\"text\":\", \",\"color\":\"gray\"},{\"text\":\"The Park\",\"color\":\"green\"},{\"text\":\", and \",\"color\":\"gray\"},{\"text\":\"Galatea\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ACCESSORY\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "WOOD_TALISMAN",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "LEAVES:1",
     "C2": "LEAVES:1",
     "C3": "LEAVES:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

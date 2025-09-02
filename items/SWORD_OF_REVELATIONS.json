@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:wooden_sword",
-  "displayname": "§5Sword of Revelations",
-  "nbttag": "{ExtraAttributes:{id:\"SWORD_OF_REVELATIONS\"},HideFlags:254,ItemModel:\"minecraft:wooden_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+180\",1:\"§7Strength: §c+50\",2:\"\",3:\"§7Deals §a+150% §7damage to §2✿ Mythological §7mobs\",4:\"§7and grants §b+5✯ Magic Find §7on them.\",5:\"\",6:\"§8This item can be reforged!\",7:\"§5§lEPIC SWORD\"],Name:\"§5Sword of Revelations\"}}",
+  "displayname": "{\"text\":\"Sword of Revelations\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sword of Revelations\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+180\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+150% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"damage to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✿ Mythological \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"mobs\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5✯ Magic Find \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"on them.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SWORD_OF_REVELATIONS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+180",
-    "§7Strength: §c+50",
-    "",
-    "§7Deals §a+150% §7damage to §2✿ Mythological §7mobs",
-    "§7and grants §b+5✯ Magic Find §7on them.",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+180\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Deals \",\"color\":\"gray\"},{\"text\":\"+150% \",\"color\":\"green\"},{\"text\":\"damage to \",\"color\":\"gray\"},{\"text\":\"✿ Mythological \",\"color\":\"dark_green\"},{\"text\":\"mobs\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and grants \",\"color\":\"gray\"},{\"text\":\"+5✯ Magic Find \",\"color\":\"aqua\"},{\"text\":\"on them.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SWORD_OF_REVELATIONS",
   "clickcommand": "viewrecipe",
@@ -32,5 +32,8 @@
     "C1": "GRIFFIN_FEATHER:32",
     "C2": "STICK:1",
     "C3": "GRIFFIN_FEATHER:32"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

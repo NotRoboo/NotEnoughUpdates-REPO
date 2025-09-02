@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:golden_shovel",
-  "displayname": "§5Fly Swatter",
-  "nbttag": "{ExtraAttributes:{id:\"FLY_SWATTER\"},HideFlags:254,ItemModel:\"minecraft:golden_shovel\",Unbreakable:1B,display:{Lore:[0:\"§5§lEPIC\"],Name:\"§5Fly Swatter\"},ench:[]}",
+  "displayname": "{\"text\":\"Fly Swatter\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_shovel\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fly Swatter\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLY_SWATTER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§5§lEPIC"
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "FLY_SWATTER",
   "clickcommand": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fly_Swatter",
     "https://wiki.hypixel.net/Fly_Swatter"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

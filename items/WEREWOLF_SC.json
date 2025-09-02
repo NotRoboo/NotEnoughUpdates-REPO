@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3Werewolf (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"c8e41e94-9c30-38af-80c6-05b2ed6d5c53\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYwMzY2ODk3MjkwMywKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVyb2Ryb2dvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NlNDYwNmM2ZDk3M2E5OTlhZWMxNjg3YzdlMDc1ZjdkMzdkYjgxODVlODhiODQ0NTA3ZjE2YjNlMmIzZWI2OTAiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7The Werewolf is an epic sea creature added in the Spooky\",1:\"§7Festival v2 update. It can only be caught from 1 hour before\",2:\"§7until 1 hour after the Spooky Festival by those above Fishing 17\",3:\"\",4:\"§c❤ Health§8: §c50,000\",5:\"\",6:\"§5§lEPIC\"],Name:\"§3Werewolf (Sea Creature)\"},ExtraAttributes:{id:\"WEREWOLF_SC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Werewolf (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Werewolf (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Werewolf is an epic sea creature added in the Spooky\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Festival v2 update. It can only be caught from 1 hour before\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"until 1 hour after the Spooky Festival by those above Fishing 17\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"50,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WEREWOLF_SC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Werewolf is an epic sea creature added in the Spooky",
-    "§7Festival v2 update. It can only be caught from 1 hour before",
-    "§7until 1 hour after the Spooky Festival by those above Fishing 17",
-    "",
-    "§c❤ Health§8: §c50,000",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"The Werewolf is an epic sea creature added in the Spooky\",\"color\":\"gray\"}",
+    "{\"text\":\"Festival v2 update. It can only be caught from 1 hour before\",\"color\":\"gray\"}",
+    "{\"text\":\"until 1 hour after the Spooky Festival by those above Fishing 17\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"50,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "WEREWOLF_SC",
   "clickcommand": "viewrecipe",
@@ -63,5 +63,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

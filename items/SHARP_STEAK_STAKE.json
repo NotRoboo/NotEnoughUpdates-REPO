@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:cooked_mutton",
-  "displayname": "§5Super Sharp 'n Stabby Steak Stake",
-  "nbttag": "{ExtraAttributes:{id:\"SHARP_STEAK_STAKE\"},HideFlags:254,ItemModel:\"minecraft:cooked_mutton\",display:{Lore:[0:\"§6Ability: A bit of Impalement  §e§lLEFT CLICK\",1:\"§7Stab a §4Vampire §7at §c20%❤ §7to instantly\",2:\"§7vanquish it.\",3:\"§8(Does not actually hurt the vampire)\",4:\"\",5:\"§6Ability: Bloodcrave \",6:\"§7After vanquishing a §4Vampire§7, your\",7:\"§7next hit will deal §c2x ❁ Damage §7and\",8:\"§7your next §4Vampire §7kill will award §31.5x\",9:\"§3Combat Exp§7.\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4☠ §cRequires §5Vampire Slayer 3§c.\",13:\"§5§lEPIC SWORD\"],Name:\"§5Super Sharp 'n Stabby Steak Stake\"},ench:[]}",
+  "displayname": "{\"text\":\"Super Sharp \u0027n Stabby Steak Stake\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:cooked_mutton\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Super Sharp \u0027n Stabby Steak Stake\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: A bit of Impalement \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"LEFT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Stab a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Vampire \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20%❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"to instantly\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"vanquish it.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"(Does not actually hurt the vampire)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Bloodcrave \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"After vanquishing a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Vampire\\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\", your\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"next hit will deal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2x ❁ Damage \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"your next \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Vampire \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"kill will award \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1.5x\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Combat Exp\\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Vampire Slayer 3\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC SWORD\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SHARP_STEAK_STAKE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: A bit of Impalement  §e§lLEFT CLICK",
-    "§7Stab a §4Vampire §7at §c20%❤ §7to instantly",
-    "§7vanquish it.",
-    "§8(Does not actually hurt the vampire)",
-    "",
-    "§6Ability: Bloodcrave ",
-    "§7After vanquishing a §4Vampire§7, your",
-    "§7next hit will deal §c2x ❁ Damage §7and",
-    "§7your next §4Vampire §7kill will award §31.5x",
-    "§3Combat Exp§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Vampire Slayer 3§c.",
-    "§5§lEPIC SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: A bit of Impalement \",\"color\":\"gold\"},{\"text\":\"LEFT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Stab a \",\"color\":\"gray\"},{\"text\":\"Vampire \",\"color\":\"dark_red\"},{\"text\":\"at \",\"color\":\"gray\"},{\"text\":\"20%❤ \",\"color\":\"red\"},{\"text\":\"to instantly\",\"color\":\"gray\"}]}",
+    "{\"text\":\"vanquish it.\",\"color\":\"gray\"}",
+    "{\"text\":\"(Does not actually hurt the vampire)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Bloodcrave \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"After vanquishing a \",\"color\":\"gray\"},{\"text\":\"Vampire\",\"color\":\"dark_red\"},{\"text\":\", your\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"next hit will deal \",\"color\":\"gray\"},{\"text\":\"2x ❁ Damage \",\"color\":\"red\"},{\"text\":\"and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"your next \",\"color\":\"gray\"},{\"text\":\"Vampire \",\"color\":\"dark_red\"},{\"text\":\"kill will award \",\"color\":\"gray\"},{\"text\":\"1.5x\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Combat Exp\",\"color\":\"dark_aqua\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Vampire Slayer 3\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC SWORD\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SHARP_STEAK_STAKE",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
     "C1": "CRUXMOTION:1",
     "C2": "CRUXMOTION:1",
     "C3": "CRUXMOTION:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

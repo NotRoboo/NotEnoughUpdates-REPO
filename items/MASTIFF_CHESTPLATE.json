@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:golden_chestplate",
-  "displayname": "§5Mastiff Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"MASTIFF_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:golden_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+500\",1:\"§7Defense: §a-1,000,000\",2:\" §8[§7❤§8] [§7❤§8] [❤] [❤] [❤]\",3:\"\",4:\"§6Full Set Bonus: Absolute Unit §7(0/4)\",5:\"§c+50❤ §7per §91☠ Crit Damage§7.\",6:\"§7Regain §c2% §7of §cmax ❤ §7when hit. §8(1s cd)\",7:\"§7Receive §a-20% §7damage from §a☮ Animal §7mobs.\",8:\"§7Your §9☠ Crit Damage§7 is §950% §7less effective.\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4☠ §cRequires §5Wolf Slayer 4§c.\",12:\"§5§lEPIC CHESTPLATE\"],Name:\"§5Mastiff Chestplate\"}}",
+  "displayname": "{\"text\":\"Mastiff Chestplate\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mastiff Chestplate\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+500\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"-1,000,000\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❤\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"] [\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❤\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"] [❤] [❤] [❤]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Absolute Unit \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+50❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1☠ Crit Damage\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2% \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"max ❤ \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"when hit. \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"(1s cd)\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Receive \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"-20% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"damage from \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"☮ Animal \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"mobs.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"☠ Crit Damage\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\" is \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50% \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"less effective.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Wolf Slayer 4\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"EPIC CHESTPLATE\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MASTIFF_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+500",
-    "§7Defense: §a-1,000,000",
-    " §8[§7❤§8] [§7❤§8] [❤] [❤] [❤]",
-    "",
-    "§6Full Set Bonus: Absolute Unit §7(0/4)",
-    "§c+50❤ §7per §91☠ Crit Damage§7.",
-    "§7Regain §c2% §7of §cmax ❤ §7when hit. §8(1s cd)",
-    "§7Receive §a-20% §7damage from §a☮ Animal §7mobs.",
-    "§7Your §9☠ Crit Damage§7 is §950% §7less effective.",
-    "",
-    "§8This item can be reforged!",
-    "§4☠ §cRequires §5Wolf Slayer 4§c.",
-    "§5§lEPIC CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+500\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"-1,000,000\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"❤\",\"color\":\"gray\"},{\"text\":\"] [\",\"color\":\"dark_gray\"},{\"text\":\"❤\",\"color\":\"gray\"},{\"text\":\"] [❤] [❤] [❤]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Absolute Unit \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+50❤ \",\"color\":\"red\"},{\"text\":\"per \",\"color\":\"gray\"},{\"text\":\"1☠ Crit Damage\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regain \",\"color\":\"gray\"},{\"text\":\"2% \",\"color\":\"red\"},{\"text\":\"of \",\"color\":\"gray\"},{\"text\":\"max ❤ \",\"color\":\"red\"},{\"text\":\"when hit. \",\"color\":\"gray\"},{\"text\":\"(1s cd)\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Receive \",\"color\":\"gray\"},{\"text\":\"-20% \",\"color\":\"green\"},{\"text\":\"damage from \",\"color\":\"gray\"},{\"text\":\"☮ Animal \",\"color\":\"green\"},{\"text\":\"mobs.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Your \",\"color\":\"gray\"},{\"text\":\"☠ Crit Damage\",\"color\":\"blue\"},{\"text\":\" is \",\"color\":\"gray\"},{\"text\":\"50% \",\"color\":\"blue\"},{\"text\":\"less effective.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Wolf Slayer 4\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"EPIC CHESTPLATE\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "MASTIFF_CHESTPLATE",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
     "C2": "ENCHANTED_GOLD:16",
     "C3": "GOLDEN_TOOTH:1"
   },
-  "slayer_req": "WOLF_4"
+  "slayer_req": "WOLF_4",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

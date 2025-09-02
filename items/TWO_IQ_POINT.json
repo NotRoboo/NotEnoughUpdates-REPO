@@ -1,15 +1,15 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§a2 IQ Points",
-  "nbttag": "{ExtraAttributes:{id:\"TWO_IQ_POINT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"98ff6926-2aad-3011-abb4-604f88dbfa50\",Properties:{textures:[0:{Name:\"textures\",Signature:\"Ble49zN/oEh2muV1TnSCDwcv2fp89plDL8a5+RWduCVMm56TRXUeX22ZPALjhU/jH4kCZO9aIpx33dgu3As/Zl7BwABJZWsZ9rDJxxrJl6yfeGkuxpHvAIEelAXg87c+oEi2UjGTuB/+7GxOwhRa8mOWGyIdy4L4+UoG8n+ThmkZSoEqjJ6+k5lUEdAfk+TYFtePrsO0Rt0nZaYkg7tlQqCPpgznj/zMb2uZCE5oDcoZ6I/7vXLqwOlBIweTtT4CAwCkyYby2r8W0UKQXVvTFzw6sOqcGKefh/TtmUl5lPq58+SjUWNEEj7wH3HV6L96sNorPAZ+StHXTKYmGT/BFu0solp2qKoqyBn8h4jOGP0EvzRCbJPZgRHOttWi3mjnphUSDw21y0xLUDGxt0qC/zHkVjS4AZi3bwgcyHaAqUP3m0DqPLx3G9LSjLY6LCnTAPTlZY0kkmfCZ6pwf1SSVjSd72ozD5jMcz3IOXImSabz1x+B/aj5IKfYTisguZRI+5eP9A3FBGH/dkM3th2EwIHI4DNNbE3NEkBM9Jkm1H3Y2GI9xrxfnhDsxMzK75JFgCGTfiafiO3NIA/XG0g4VnoXOK7tEhIkATeWXi1Fzy4GUI4HIkCmfegN82t6e6zipeBevAbLD4plj3CRRKTR1+6ZVT7j7v4BLYGmw9fhY3E=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyNzU4OTI2OTUwMywKICAicHJvZmlsZUlkIiA6ICJmZjQ3NzI5YmQwZDI0YWYwOThiMTFjMGE3ZTFiMGVlZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXRzY2FuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE1MWM1MzQ3MTllNmY4OTM3ZTJjOWM0NWM2MDFjZDVhZTdlMDZmZmQ3ZjQ0NjM2NTljMDQzMTc5MDI5NTA0ZWEiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Increases your total §b✎ Intelligence\",1:\"§7by §a2%§7.\",2:\"\",3:\"§8§l* §8Soulbound §8§l*\",4:\"§5§kX§5 Rift-Transferable §r§kX\",5:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§a2 IQ Points\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"2 IQ Points\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"2 IQ Points\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Increases your total \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✎ Intelligence\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON ACCESSORY\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TWO_IQ_POINT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcyNzU4OTI2OTUwMywKICAicHJvZmlsZUlkIiA6ICJmZjQ3NzI5YmQwZDI0YWYwOThiMTFjMGE3ZTFiMGVlZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXRzY2FuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE1MWM1MzQ3MTllNmY4OTM3ZTJjOWM0NWM2MDFjZDVhZTdlMDZmZmQ3ZjQ0NjM2NTljMDQzMTc5MDI5NTA0ZWEiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Increases your total §b✎ Intelligence",
-    "§7by §a2%§7.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§5§kX§5 Rift-Transferable §r§kX",
-    "§a§lUNCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Increases your total \",\"color\":\"gray\"},{\"text\":\"✎ Intelligence\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"by \",\"color\":\"gray\"},{\"text\":\"2%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"obfuscated\":true}]}",
+    "{\"text\":\"UNCOMMON ACCESSORY\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "TWO_IQ_POINT",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C1": "IQ_POINT:1",
     "C2": "IQ_POINT:1",
     "C3": "IQ_POINT:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

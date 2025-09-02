@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:saddle",
-  "displayname": "§aSaddle",
-  "nbttag": "{ExtraAttributes:{id:\"SADDLE\"},HideFlags:254,ItemModel:\"minecraft:saddle\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aSaddle\"}}",
+  "displayname": "{\"text\":\"Saddle\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:saddle\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Saddle\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SADDLE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§a§lUNCOMMON"
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SADDLE",
   "clickcommand": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://wiki.hypixel.net/Saddle"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

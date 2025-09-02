@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:golden_carrot",
-  "displayname": "§5Superb Carrot Candy",
-  "nbttag": "{ExtraAttributes:{id:\"SUPERB_CARROT_CANDY\"},HideFlags:254,ItemModel:\"minecraft:golden_carrot\",display:{Lore:[0:\"§aCarrot Candy §7gives pets boosts of §ePet EXP§7!\",1:\"§7Pets can only eat §a10 §7candy in their lifetime!\",2:\"\",3:\"§7Grants §a750,000 §ePet EXP§7.\",4:\"\",5:\"§eRight-click on your summoned pet to\",6:\"§efeed it this candy!\",7:\"\",8:\"§5§lEPIC\"],Name:\"§5Superb Carrot Candy\"},ench:[]}",
+  "displayname": "{\"text\":\"Superb Carrot Candy\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_carrot\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Superb Carrot Candy\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Carrot Candy \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"gives pets boosts of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Pet EXP\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pets can only eat \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"candy in their lifetime!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"750,000 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Pet EXP\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"feed it this candy!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SUPERB_CARROT_CANDY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§aCarrot Candy §7gives pets boosts of §ePet EXP§7!",
-    "§7Pets can only eat §a10 §7candy in their lifetime!",
-    "",
-    "§7Grants §a750,000 §ePet EXP§7.",
-    "",
-    "§eRight-click on your summoned pet to",
-    "§efeed it this candy!",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Carrot Candy \",\"color\":\"green\"},{\"text\":\"gives pets boosts of \",\"color\":\"gray\"},{\"text\":\"Pet EXP\",\"color\":\"yellow\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pets can only eat \",\"color\":\"gray\"},{\"text\":\"10 \",\"color\":\"green\"},{\"text\":\"candy in their lifetime!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"750,000 \",\"color\":\"green\"},{\"text\":\"Pet EXP\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"feed it this candy!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SUPERB_CARROT_CANDY",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "ENCHANTED_GOLDEN_CARROT:3",
     "C2": "ENCHANTED_GOLDEN_CARROT:3",
     "C3": "ENCHANTED_GOLDEN_CARROT:3"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

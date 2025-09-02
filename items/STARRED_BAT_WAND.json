@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:red_flower",
-  "displayname": "§6⚚ Spirit Sceptre",
-  "nbttag": "{ExtraAttributes:{id:\"STARRED_BAT_WAND\"},HideFlags:254,ItemModel:\"minecraft:allium\",display:{Lore:[0:\"§7Gear Score: §d395\",1:\"§7Damage: §c+190\",2:\"§7Intelligence: §a+330\",3:\" §8[✎]\",4:\"\",5:\"§6Ability: Guided Bat  §e§lRIGHT CLICK\",6:\"§7Shoots a guided spirit bat, following your aim\",7:\"§7and exploding for §c2,250 §7damage.\",8:\"§8Mana Cost: §3200\",9:\"\",10:\"§8This item can be reforged!\",11:\"§4❣ §cRequires The Catacombs Floor IV Completion.\",12:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6⚚ Spirit Sceptre\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"⚚ Spirit Sceptre\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:red_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"⚚ Spirit Sceptre\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"395\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+190\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+330\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[✎]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Guided Bat \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Shoots a guided spirit bat, following your aim\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and exploding for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2,250 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"200\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires The Catacombs Floor IV Completion.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY DUNGEON SWORD\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STARRED_BAT_WAND\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Gear Score: §d395",
-    "§7Damage: §c+190",
-    "§7Intelligence: §a+330",
-    " §8[✎]",
-    "",
-    "§6Ability: Guided Bat  §e§lRIGHT CLICK",
-    "§7Shoots a guided spirit bat, following your aim",
-    "§7and exploding for §c2,250 §7damage.",
-    "§8Mana Cost: §3200",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires The Catacombs Floor IV Completion.",
-    "§6§lLEGENDARY DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"395\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+190\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+330\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[✎]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Guided Bat \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Shoots a guided spirit bat, following your aim\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and exploding for \",\"color\":\"gray\"},{\"text\":\"2,250 \",\"color\":\"red\"},{\"text\":\"damage.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"200\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires The Catacombs Floor IV Completion.\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY DUNGEON SWORD\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "STARRED_BAT_WAND",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "THORN_FRAGMENT:1",
     "C2": "THORN_FRAGMENT:1",
     "C3": "THORN_FRAGMENT:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

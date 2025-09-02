@@ -1,18 +1,18 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Hypergolic Gabagool",
-  "nbttag": "{ExtraAttributes:{id:\"HYPERGOLIC_GABAGOOL\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"3538bd31-52d1-3c1a-a14a-14e62e25cef8\",Properties:{textures:[0:{Name:\"textures\",Signature:\"GSgPh8TXGeScVxgSwS5qzLEcc3IiJxwuzEr0cXvuPr/eTA2nMf/gpEXRTjAa9WjPHnts+N7zr0ptMuinRvR1yaNUSYNmdFMkRf9wDQVK2ec2WFGR3vZI0qmaJlfsyyLGeFw8PCl8XTg276k4CNTfFGmmeEOSsM6KIhgCxLLGVIKd8Gwl0DdCJtwXU5VuZA9cnOOIB9HNXpZ8iYyKpTQTBfim4NQQXylaFcOtLuyZQ/yTbiSCGBjDtMLqtU2z7xIur7coqZiG1jGuQjEthFr3qFMcYxKEX2qnE+F42p4pKhRyXHhmu057WNPJ8GPdfV4CqdmPxG2UPLWvd1hWVQsk8MvtDfWgG6JIcY1Wi57HgyA+YsIoG88emq+f/KXE2nIH8szOUfwGP32aVblJaZqa+sO8jsTTKJGtLiMNnH74NWTx2ZyxIs5/PHbEp+NYYd0gdQuhxS/+SN18E8h0bdJZ9zyeGkS9VBFgyVO2zME4fXo6GGddRa4ziRFCttb4AX1SrLWqVlDvjYasNT4Ks9SW2joFNUa9wNYwV1Ne4LaQCkFqWnyAiidP/h2/Bqoqj1SuC+Yvhmig+80tf9xznIySmu+/T6UuxaMNP5Erj18f8xTVtcCXoJFLKUvhUkm4hYsNbSB6bAEAEVzL35ZaUJVV4lVGRsX5v2Pk6/tpnETnOFc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1OTc5MTg1MzI2MCwKICAicHJvZmlsZUlkIiA6ICIwYWMwY2IxMTI1MWE0ZjAwOTJjNjIyNzM2NjczMDNmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDbG91Y2wiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ0NDg5YzI0MzJlZmE4OWU1NjQxMTE3OGU2MGRkZGU0M2E2NTQ5NzRhZDQ1ZDEzOTk2ZDQ4NTk0ZGVlYTM5OSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Feed Wisp pets or craft into strong\",1:\"§7Inferno minion fuel.\",2:\"\",3:\"§cHypergolic-grade fuels create\",4:\"§cextra unique items!\",5:\"\",6:\"§eRight-click to view recipes!\",7:\"\",8:\"§6§lLEGENDARY\"],Name:\"§6Hypergolic Gabagool\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Hypergolic Gabagool\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Hypergolic Gabagool\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Feed Wisp pets or craft into strong\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Inferno minion fuel.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Hypergolic-grade fuels create\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"extra unique items!\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HYPERGOLIC_GABAGOOL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY1OTc5MTg1MzI2MCwKICAicHJvZmlsZUlkIiA6ICIwYWMwY2IxMTI1MWE0ZjAwOTJjNjIyNzM2NjczMDNmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDbG91Y2wiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ0NDg5YzI0MzJlZmE4OWU1NjQxMTE3OGU2MGRkZGU0M2E2NTQ5NzRhZDQ1ZDEzOTk2ZDQ4NTk0ZGVlYTM5OSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Feed Wisp pets or craft into strong",
-    "§7Inferno minion fuel.",
-    "",
-    "§cHypergolic-grade fuels create",
-    "§cextra unique items!",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Feed Wisp pets or craft into strong\",\"color\":\"gray\"}",
+    "{\"text\":\"Inferno minion fuel.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Hypergolic-grade fuels create\",\"color\":\"red\"}",
+    "{\"text\":\"extra unique items!\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "HYPERGOLIC_GABAGOOL",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "",
     "C2": "HEAVY_GABAGOOL:3",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

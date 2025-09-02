@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:stone_pickaxe",
-  "displayname": "§fStone Pickaxe",
-  "nbttag": "{ExtraAttributes:{id:\"STONE_PICKAXE\"},HideFlags:254,ItemModel:\"minecraft:stone_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 2\",1:\"\",2:\"§7Damage: §c+20\",3:\"§7Mining Speed: §a+110\",4:\"\",5:\"§8This item can be reforged!\",6:\"§f§lCOMMON PICKAXE\"],Name:\"§fStone Pickaxe\"}}",
+  "displayname": "{\"text\":\"Stone Pickaxe\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stone_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Stone Pickaxe\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 2\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+110\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON PICKAXE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STONE_PICKAXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 2",
-    "",
-    "§7Damage: §c+20",
-    "§7Mining Speed: §a+110",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON PICKAXE"
+    "{\"text\":\"Breaking Power 2\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+110\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON PICKAXE\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STONE_PICKAXE",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "",
     "C2": "STICK:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

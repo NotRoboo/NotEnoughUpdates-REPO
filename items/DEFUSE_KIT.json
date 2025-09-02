@@ -1,17 +1,17 @@
 {
   "itemid": "minecraft:shears",
-  "displayname": "§aDefuse Kit",
-  "nbttag": "{ExtraAttributes:{id:\"DEFUSE_KIT\"},HideFlags:254,ItemModel:\"minecraft:shears\",Unbreakable:1B,display:{Lore:[0:\"§7Can be used to defuse Dungeon\",1:\"§7traps. Successful defusing of\",2:\"§7traps may increase your §b✎\",3:\"§bIntelligence§7! (Maximum +10)\",4:\"\",5:\"§7Traps Defused: §a0\",6:\"\",7:\"§a§lUNCOMMON DUNGEON ITEM\"],Name:\"§aDefuse Kit\"},ench:[]}",
+  "displayname": "{\"text\":\"Defuse Kit\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:shears\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Defuse Kit\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Can be used to defuse Dungeon\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"traps. Successful defusing of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"traps may increase your \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"✎\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"! (Maximum +10)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Traps Defused: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON DUNGEON ITEM\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DEFUSE_KIT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Can be used to defuse Dungeon",
-    "§7traps. Successful defusing of",
-    "§7traps may increase your §b✎",
-    "§bIntelligence§7! (Maximum +10)",
-    "",
-    "§7Traps Defused: §a0",
-    "",
-    "§a§lUNCOMMON DUNGEON ITEM"
+    "{\"text\":\"Can be used to defuse Dungeon\",\"color\":\"gray\"}",
+    "{\"text\":\"traps. Successful defusing of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"traps may increase your \",\"color\":\"gray\"},{\"text\":\"✎\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence\",\"color\":\"aqua\"},{\"text\":\"! (Maximum +10)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Traps Defused: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON DUNGEON ITEM\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "DEFUSE_KIT",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Defuse_Kit",
     "https://wiki.hypixel.net/Defuse_Kit"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

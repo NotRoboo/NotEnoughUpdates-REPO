@@ -1,23 +1,23 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aMedium Huntrap",
-  "nbttag": "{ExtraAttributes:{id:\"RETIA_MELIORA\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"ed43a29d-59cf-3fc9-b857-345f550a0a30\",Properties:{textures:[0:{Name:\"textures\",Signature:\"vnbSngqk5uhJ9SXcig8ZSJsAXdSfJqH8QuP275kFXGChaCkV39TwJp9UFrd3QXI2KCcL3iwEfguJVajyYJSPx4enrSomhQ6OdhLKCEAKuZHNAxb/ylZkXUGtL8j40Lxj3MUFSR+rpK6qBd4/XLepEsZwmkeFQMPXfpb3CTEus49ofYbYsMZqVFE1JhPJn3ieAbKcnEKgYjk/IWy220EWaoQkUwpVWWd8ESHSHuEuuSbwfkIwF7UQ4iZMFikOr6Z+lPecochdimweK0IYge0Oazl69yS/AekvbfTnbD8W4Euy00zyEgpcHf6RvZH/gCXSJX70dvwAvQPL33Ni5q591HHEMBlbYqhy5jI/GV8ex+WtLZ8Tpfx41Nhsm02NFAzGyo26F31Wa+y0+SVhxH1eT0bK8MutHav8dswoEbUVvtK/P442XFs3AMQkrvu0sDq1PeyWMX4YKq7hClICXUkZYDw2mPZwMfQZGLJtKLMHKd69dFIFUupEGqhrC3AGhKlHTs5345QFgxyz5DGkNACU5fi1EJJ7+G1746YmnfPmXnEKgOLUHHF3otBll5NB0mHCP+fA7EW7qGUaCmB+WjzLCp5nJttjGiQVrcAwYlQ1NMOdesAOfp5aDTlBOPAyLaIUOc5BIBZyrM02Zo2Xdo9l1j24JswgMSPxZv0RYz40HPU=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTMyODMxMDUwMSwKICAicHJvZmlsZUlkIiA6ICIzZWUxYWRlMzljZDI0ZjFkOWYwODliYjA2ZTkzNTY5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNvR01SIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M1YWVlNTRlZWE3ZjI5MWRkODEzNDRmZTgzMWI0OTdlNjZmMGNiMzQ4NDA4YTE3NTM2MzZiMDliN2E3NWE2MmQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Hunting Tool\",1:\"\",2:\"§6Ability: Retentio  §e§lRIGHT CLICK\",3:\"§cTraps §7can be placed near the spawn\",4:\"§7location of a §9Shard §7creature, with\",5:\"§7time it will eventually catch it.\",6:\"\",7:\"§6Ability: Meliora \",8:\"§7Reduces the time to capture by §c10%§7.\",9:\"\",10:\"§8§oUbi ars naturam superat.\",11:\"\",12:\"§4❣ §cRequires §aHunting Skill 5§c.\",13:\"§a§lUNCOMMON TRAP\"],Name:\"§aMedium Huntrap\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Medium Huntrap\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Medium Huntrap\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Hunting Tool\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Retentio \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Traps \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"can be placed near the spawn\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"location of a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Shard \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"creature, with\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"time it will eventually catch it.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Meliora \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Reduces the time to capture by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10%\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ubi ars naturam superat.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Hunting Skill 5\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON TRAP\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RETIA_MELIORA\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTMyODMxMDUwMSwKICAicHJvZmlsZUlkIiA6ICIzZWUxYWRlMzljZDI0ZjFkOWYwODliYjA2ZTkzNTY5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNvR01SIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M1YWVlNTRlZWE3ZjI5MWRkODEzNDRmZTgzMWI0OTdlNjZmMGNiMzQ4NDA4YTE3NTM2MzZiMDliN2E3NWE2MmQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Hunting Tool",
-    "",
-    "§6Ability: Retentio  §e§lRIGHT CLICK",
-    "§cTraps §7can be placed near the spawn",
-    "§7location of a §9Shard §7creature, with",
-    "§7time it will eventually catch it.",
-    "",
-    "§6Ability: Meliora ",
-    "§7Reduces the time to capture by §c10%§7.",
-    "",
-    "§8§oUbi ars naturam superat.",
-    "",
-    "§4❣ §cRequires §aHunting Skill 5§c.",
-    "§a§lUNCOMMON TRAP"
+    "{\"text\":\"Hunting Tool\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Retentio \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Traps \",\"color\":\"red\"},{\"text\":\"can be placed near the spawn\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"location of a \",\"color\":\"gray\"},{\"text\":\"Shard \",\"color\":\"blue\"},{\"text\":\"creature, with\",\"color\":\"gray\"}]}",
+    "{\"text\":\"time it will eventually catch it.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Meliora \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Reduces the time to capture by \",\"color\":\"gray\"},{\"text\":\"10%\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ubi ars naturam superat.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Hunting Skill 5\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON TRAP\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "RETIA_MELIORA",
   "clickcommand": "",
@@ -42,5 +42,8 @@
       "count": 1,
       "overrideOutputId": "RETIA_MELIORA"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:iron_pickaxe",
-  "displayname": "§9Titanium Pickaxe",
-  "nbttag": "{ExtraAttributes:{id:\"TITANIUM_PICKAXE\"},HideFlags:254,ItemModel:\"minecraft:iron_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 6\",1:\"\",2:\"§7Damage: §c+60\",3:\"§7Mining Speed: §a+140\",4:\"\",5:\"§7Grants §6+50☘ Mining Fortune §7when\",6:\"§7mining §fTitanium Ore§7.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §5Heart of the Mountain Tier 3§c.\",10:\"§9§lRARE PICKAXE\"],Name:\"§9Titanium Pickaxe\"},ench:[]}",
+  "displayname": "{\"text\":\"Titanium Pickaxe\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Titanium Pickaxe\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 6\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+140\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50☘ Mining Fortune \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"when\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"mining \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Titanium Ore\\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Heart of the Mountain Tier 3\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE PICKAXE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TITANIUM_PICKAXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 6",
-    "",
-    "§7Damage: §c+60",
-    "§7Mining Speed: §a+140",
-    "",
-    "§7Grants §6+50☘ Mining Fortune §7when",
-    "§7mining §fTitanium Ore§7.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §5Heart of the Mountain Tier 3§c.",
-    "§9§lRARE PICKAXE"
+    "{\"text\":\"Breaking Power 6\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+60\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+140\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+50☘ Mining Fortune \",\"color\":\"gold\"},{\"text\":\"when\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"mining \",\"color\":\"gray\"},{\"text\":\"Titanium Ore\",\"color\":\"white\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Heart of the Mountain Tier 3\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE PICKAXE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "TITANIUM_PICKAXE",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Titanium_Pickaxe",
     "https://wiki.hypixel.net/Titanium_Pickaxe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fAnita's Talisman",
-  "nbttag": "{ExtraAttributes:{id:\"ANITA_TALISMAN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"18719ec2-31ff-33cb-b049-db885285e401\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5NzU4NDE1NjMwMCwKICAicHJvZmlsZUlkIiA6ICJmMTYwZTMxMzJjYWM0YjRiOWM5OTk2NDQ1OGIxOWM0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWNrX1JvbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYjhlYzU3YjM3ZmRmMDkzZmU2NmVmZTJhYzA3MGE4ZjUxODE5NDk5NzBhNDQ1OGQ1NmVjOTcwMWVkZWQ4Y2ZmIgogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Grants a random §6+5☘ Farming\",1:\"§6Fortune §7stat during §eJacob's\",2:\"§eFarming Contest§7.\",3:\"\",4:\"§f§lCOMMON ACCESSORY\"],Name:\"§fAnita's Talisman\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Anita\u0027s Talisman\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Anita\u0027s Talisman\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants a random \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5☘ Farming\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fortune \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"stat during \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Jacob\u0027s\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Farming Contest\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON ACCESSORY\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ANITA_TALISMAN\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5NzU4NDE1NjMwMCwKICAicHJvZmlsZUlkIiA6ICJmMTYwZTMxMzJjYWM0YjRiOWM5OTk2NDQ1OGIxOWM0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWNrX1JvbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYjhlYzU3YjM3ZmRmMDkzZmU2NmVmZTJhYzA3MGE4ZjUxODE5NDk5NzBhNDQ1OGQ1NmVjOTcwMWVkZWQ4Y2ZmIgogICAgfQogIH0KfQ\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Grants a random §6+5☘ Farming",
-    "§6Fortune §7stat during §eJacob's",
-    "§eFarming Contest§7.",
-    "",
-    "§f§lCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants a random \",\"color\":\"gray\"},{\"text\":\"+5☘ Farming\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fortune \",\"color\":\"gold\"},{\"text\":\"stat during \",\"color\":\"gray\"},{\"text\":\"Jacob\u0027s\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Farming Contest\",\"color\":\"yellow\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON ACCESSORY\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ANITA_TALISMAN",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Anita%27s_Talisman",
     "https://wiki.hypixel.net/Anita%27s_Talisman"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

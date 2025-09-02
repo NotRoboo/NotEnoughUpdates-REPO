@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:cookie",
-  "displayname": "§fCookie",
-  "nbttag": "{ExtraAttributes:{id:\"COOKIE\"},HideFlags:254,ItemModel:\"minecraft:cookie\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fCookie\"}}",
+  "displayname": "{\"text\":\"Cookie\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:cookie\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cookie\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"COOKIE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "COOKIE",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 8
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

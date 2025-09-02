@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aEnchanted Book Bundle",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a1112929-40af-3d97-9743-d9f9fb2b4a20\",hypixelPopulated:1b,Properties:{textures:[0:{Signature:\"xyWiCC0hZjujkri7H0RdbdirsnW9VBXClLFYGe4tsRyJ6N8yoM3R7RRpbAnGh28nQbUbIc6kOEJvHeaH3zkkHTeQYG7f5D00y4JZ0F/uXTTdHt1orAHRphl7M9O5K+kw2t2bG4Nx7use0Ec6DRF2E7hNfC5fyiYxUXor7PFeIQNWF36MbzndfO0HV3HShR4mTNiCZJ1PohVW6InmFHVNuifk/x/B65TpM/xPlLFEykuHqOzya6C/e4PsYHgyVzIzF+Oz9lQfqOcskZ0BKEQjqWLfY+OhOW+4j2c/IE2HeKKMs9E5qHrhPy0VwIo6BFAwv/rj0X1EIyhVNrmgrRYlrSpOdtMm8U3j+84CY8Kin8P5NjcjFZv58gdsGOCkO+nJM0pTDR09MCCyZgJF95r+hQFFLYA60AO+9yU4mIOz4sSQ21Ab4b2dJiVyfz0NN4iWAaUatT2u9gO8MCzfz4xrVI1WAgxCEcrggEgFk9lWgxVcgJE8DNxO3K+pC3Y1MybOQBR/3ZgVAQcLrSr/F9F0fdjEPyEIXeU/a/IdtgSaVSa5yXYbmltCyMmm00fpXoy+oeSivEiCEhmn5MyblFhYPo8mrVHXKiYG90YyAEvTm9hAuyrYkx4lGrIsxoLH7UsCDVdFLQEkeLgexW03kQs6pn/7nmlt0pe5pMMkpIAI5kE\u003d\",Value:\"eyJ0aW1lc3RhbXAiOjE1MTgyODU4NTc4NDQsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U1YmUyMmI1ZDRhODc1ZDc3ZGYzZjc3MTBmZjQ1NzhlZjI3OTM5YTk2ODRjYmRiM2QzMWQ5NzNmMTY2ODQ5In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§9Quantum III\",1:\"§7Grants §4+2.4♨ Vitality §7on weekdays\",2:\"§7and §3+1.2☯ §7of a random §3Wisdom §7stat\",3:\"§7on weekends.\",4:\"\",5:\"§7Right-click to open this bundle\",6:\"§7containing §f1 §7enchanted book.\",7:\"\",8:\"§8§l* §8Soulbound §8§l*\",9:\"§5§kX§5 Rift-Exportable §kX\",10:\"§7§8Loses motes value when crossing\",11:\"§8dimensions.\",12:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book Bundle\"},ExtraAttributes:{id:\"ENCHANTED_BOOK_BUNDLE_QUANTUM\",enchantments:{quantum:3}}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Enchanted Book Bundle\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Book Bundle\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Quantum III\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2.4♨ Vitality \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"on weekdays\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1.2☯ \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"of a random \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Wisdom \\\",\\\"color\\\":\\\"dark_aqua\\\"},{\\\"text\\\":\\\"stat\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"on weekends.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to open this bundle\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"containing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1 \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"enchanted book.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Exportable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"Loses motes value when crossing\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"dimensions.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_BOOK_BUNDLE_QUANTUM\",\"enchantments\":\"{quantum:3\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§9Quantum III",
-    "§7Grants §4+2.4♨ Vitality §7on weekdays",
-    "§7and §3+1.2☯ §7of a random §3Wisdom §7stat",
-    "§7on weekends.",
-    "",
-    "§7Right-click to open this bundle",
-    "§7containing §f1 §7enchanted book.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§5§kX§5 Rift-Exportable §kX",
-    "§7§8Loses motes value when crossing",
-    "§8dimensions.",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Quantum III\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+2.4♨ Vitality \",\"color\":\"dark_red\"},{\"text\":\"on weekdays\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"+1.2☯ \",\"color\":\"dark_aqua\"},{\"text\":\"of a random \",\"color\":\"gray\"},{\"text\":\"Wisdom \",\"color\":\"dark_aqua\"},{\"text\":\"stat\",\"color\":\"gray\"}]}",
+    "{\"text\":\"on weekends.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to open this bundle\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"containing \",\"color\":\"gray\"},{\"text\":\"1 \",\"color\":\"white\"},{\"text\":\"enchanted book.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Exportable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"Loses motes value when crossing\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"dimensions.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_BOOK_BUNDLE_QUANTUM",
   "crafttext": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Enchanted_Book_Bundle",
     "https://wiki.hypixel.net/Enchanted_Book_Bundle"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

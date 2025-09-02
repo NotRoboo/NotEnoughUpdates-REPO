@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:stone_shovel",
-  "displayname": "§fStone Shovel",
-  "nbttag": "{ExtraAttributes:{id:\"STONE_SPADE\"},HideFlags:254,ItemModel:\"minecraft:stone_shovel\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+20\",1:\"\",2:\"§f§lCOMMON SHOVEL\"],Name:\"§fStone Shovel\"}}",
+  "displayname": "{\"text\":\"Stone Shovel\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stone_shovel\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Stone Shovel\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON SHOVEL\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STONE_SPADE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+20",
-    "",
-    "§f§lCOMMON SHOVEL"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+20\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON SHOVEL\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STONE_SPADE",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

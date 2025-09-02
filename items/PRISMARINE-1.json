@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:prismarine",
-  "displayname": "§aPrismarine Bricks",
-  "nbttag": "{ExtraAttributes:{id:\"PRISMARINE-1\"},HideFlags:254,ItemModel:\"minecraft:prismarine_bricks\",display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aPrismarine Bricks\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Prismarine Bricks\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:prismarine\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Prismarine Bricks\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PRISMARINE-1\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§a§lUNCOMMON"
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "PRISMARINE-1",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C1": "PRISMARINE_SHARD:1",
     "C2": "PRISMARINE_SHARD:1",
     "C3": "PRISMARINE_SHARD:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

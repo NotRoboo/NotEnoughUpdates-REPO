@@ -1,26 +1,26 @@
 {
   "itemid": "minecraft:leather_helmet",
-  "displayname": "§9Rotten Helmet",
-  "nbttag": "{ExtraAttributes:{id:\"ROTTEN_HELMET\"},HideFlags:254,ItemModel:\"minecraft:leather_helmet\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d85\",1:\"§7Strength: §c+10\",2:\"§7Health: §a+70\",3:\"\",4:\"§7This rotten piece of armor grants\",5:\"§e15% §7knockback resistance to arrows\",6:\"§7per piece worn.\",7:\"\",8:\"§6Full Set Bonus: Sieve Body §7(0/4)\",9:\"§7Gain an additional §e20% §7knockback\",10:\"§7resistance to arrows.\",11:\"\",12:\"§2This item is Undead ༕!\",13:\"\",14:\"§8This item can be reforged!\",15:\"§4❣ §cRequires Catacombs Skill 1.\",16:\"§9§lRARE DUNGEON HELMET\"],Name:\"§9Rotten Helmet\",color:10383363}}",
+  "displayname": "{\"text\":\"Rotten Helmet\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rotten Helmet\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"85\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+70\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This rotten piece of armor grants\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"15% \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"knockback resistance to arrows\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"per piece worn.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Sieve Body \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain an additional \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20% \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"knockback\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"resistance to arrows.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item is Undead ༕!\\\",\\\"color\\\":\\\"dark_green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 1.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE DUNGEON HELMET\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ROTTEN_HELMET\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d85",
-    "§7Strength: §c+10",
-    "§7Health: §a+70",
-    "",
-    "§7This rotten piece of armor grants",
-    "§e15% §7knockback resistance to arrows",
-    "§7per piece worn.",
-    "",
-    "§6Full Set Bonus: Sieve Body §7(0/4)",
-    "§7Gain an additional §e20% §7knockback",
-    "§7resistance to arrows.",
-    "",
-    "§2This item is Undead ༕!",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Catacombs Skill 1.",
-    "§9§lRARE DUNGEON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"85\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+70\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This rotten piece of armor grants\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"15% \",\"color\":\"yellow\"},{\"text\":\"knockback resistance to arrows\",\"color\":\"gray\"}]}",
+    "{\"text\":\"per piece worn.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Sieve Body \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain an additional \",\"color\":\"gray\"},{\"text\":\"20% \",\"color\":\"yellow\"},{\"text\":\"knockback\",\"color\":\"gray\"}]}",
+    "{\"text\":\"resistance to arrows.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item is Undead ༕!\",\"color\":\"dark_green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 1.\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE DUNGEON HELMET\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ROTTEN_HELMET",
   "clickcommand": "",
@@ -30,5 +30,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Rotten_Helmet",
     "https://wiki.hypixel.net/Rotten_Helmet"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

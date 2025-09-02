@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:torch",
-  "displayname": "§fTorch",
-  "nbttag": "{ExtraAttributes:{id:\"TORCH\"},HideFlags:254,ItemModel:\"minecraft:torch\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fTorch\"}}",
+  "displayname": "{\"text\":\"Torch\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:torch\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Torch\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TORCH\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "TORCH",
   "clickcommand": "viewrecipe",
@@ -23,5 +23,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

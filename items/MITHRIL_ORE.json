@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:prismarine_crystals",
-  "displayname": "§fMithril",
-  "nbttag": "{ExtraAttributes:{id:\"MITHRIL_ORE\"},HideFlags:254,ItemModel:\"minecraft:prismarine_crystals\",display:{Lore:[0:\"§8Brewing Ingredient\",1:\"§8Collection Item\",2:\"\",3:\"§7§o\\\"The Man called it \\\"true-silver\\\" while\",4:\"§7§othe Dwarves, who loved it above all\",5:\"§7§othings, had their own, secret name\",6:\"§7§ofor it.\\\"\",7:\"\",8:\"§f§lCOMMON DWARVEN METAL\"],Name:\"§fMithril\"}}",
+  "displayname": "{\"text\":\"Mithril\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:prismarine_crystals\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mithril\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Brewing Ingredient\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\\\\\"The Man called it \\\\\\\"true-silver\\\\\\\" while\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"the Dwarves, who loved it above all\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"things, had their own, secret name\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"for it.\\\\\\\"\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON DWARVEN METAL\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MITHRIL_ORE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Brewing Ingredient",
-    "§8Collection Item",
-    "",
-    "§7§o\"The Man called it \"true-silver\" while",
-    "§7§othe Dwarves, who loved it above all",
-    "§7§othings, had their own, secret name",
-    "§7§ofor it.\"",
-    "",
-    "§f§lCOMMON DWARVEN METAL"
+    "{\"text\":\"Brewing Ingredient\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\\\"The Man called it \\\"true-silver\\\" while\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"the Dwarves, who loved it above all\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"things, had their own, secret name\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"for it.\\\"\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON DWARVEN METAL\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "MITHRIL_ORE",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mithril",
     "https://wiki.hypixel.net/Mithril"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,24 +1,24 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dCosmic Elephant Skin",
-  "nbttag": "{ExtraAttributes:{id:\"PET_SKIN_ELEPHANT_COSMIC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"395f12ae-65b7-3cd5-9f39-a9b188167475\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNDI3NTc4NjA3MywKICAicHJvZmlsZUlkIiA6ICIzZWUxYWRlMzljZDI0ZjFkOWYwODliYjA2ZTkzNTY5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNvR01SIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VkMWE4ODk2YWI1ZmI5ZWRlMTgzZGY5OTM4ZjI0ZjU5NmFjMjNmNzNmZTYyMDU3NDkyNTBiZGRmZGIxMDNmMDMiCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7Pet skins change the look and\",3:\"§7particle trail of your pet but only\",4:\"§7one skin can be active at a time!\",5:\"\",6:\"§7This skin can only be applied to\",7:\"§7Elephant pets.\",8:\"\",9:\"§aThis skin is animated!\",10:\"\",11:\"§eRight-click on your summoned pet to\",12:\"§eapply this skin!\",13:\"\",14:\"§d§lMYTHIC COSMETIC\"],Name:\"§dCosmic Elephant Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Cosmic Elephant Skin\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cosmic Elephant Skin\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Pet skins change the look and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"particle trail of your pet but only\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"one skin can be active at a time!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin can only be applied to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Elephant pets.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin is animated!\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned pet to\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"apply this skin!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC COSMETIC\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PET_SKIN_ELEPHANT_COSMIC\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcwNDI3NTc4NjA3MywKICAicHJvZmlsZUlkIiA6ICIzZWUxYWRlMzljZDI0ZjFkOWYwODliYjA2ZTkzNTY5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNvR01SIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VkMWE4ODk2YWI1ZmI5ZWRlMTgzZGY5OTM4ZjI0ZjU5NmFjMjNmNzNmZTYyMDU3NDkyNTBiZGRmZGIxMDNmMDMiCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Consumed on use",
-    "",
-    "§7Pet skins change the look and",
-    "§7particle trail of your pet but only",
-    "§7one skin can be active at a time!",
-    "",
-    "§7This skin can only be applied to",
-    "§7Elephant pets.",
-    "",
-    "§aThis skin is animated!",
-    "",
-    "§eRight-click on your summoned pet to",
-    "§eapply this skin!",
-    "",
-    "§d§lMYTHIC COSMETIC"
+    "{\"text\":\"Consumed on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Pet skins change the look and\",\"color\":\"gray\"}",
+    "{\"text\":\"particle trail of your pet but only\",\"color\":\"gray\"}",
+    "{\"text\":\"one skin can be active at a time!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin can only be applied to\",\"color\":\"gray\"}",
+    "{\"text\":\"Elephant pets.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin is animated!\",\"color\":\"green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned pet to\",\"color\":\"yellow\"}",
+    "{\"text\":\"apply this skin!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC COSMETIC\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "PET_SKIN_ELEPHANT_COSMIC",
   "clickcommand": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pet_Skins",
     "https://wiki.hypixel.net/Pet_Skins"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:iron_sword",
-  "displayname": "§9Zombie Soldier Cutlass",
-  "nbttag": "{ExtraAttributes:{id:\"ZOMBIE_SOLDIER_CUTLASS\"},HideFlags:254,ItemModel:\"minecraft:iron_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d283\",1:\"§7Damage: §c+52\",2:\"§7Strength: §c+26\",3:\"§7Bonus Attack Speed: §c+100%\",4:\"\",5:\"§6Ability: Love Tap \",6:\"§7Heals you for §c+10❤ Health §7when you hit an\",7:\"§7entity!\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires Catacombs Skill 5.\",11:\"§9§lRARE DUNGEON SWORD\"],Name:\"§9Zombie Soldier Cutlass\"}}",
+  "displayname": "{\"text\":\"Zombie Soldier Cutlass\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zombie Soldier Cutlass\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"283\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+52\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+26\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bonus Attack Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Love Tap \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Heals you for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"when you hit an\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"entity!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Catacombs Skill 5.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE DUNGEON SWORD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ZOMBIE_SOLDIER_CUTLASS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d283",
-    "§7Damage: §c+52",
-    "§7Strength: §c+26",
-    "§7Bonus Attack Speed: §c+100%",
-    "",
-    "§6Ability: Love Tap ",
-    "§7Heals you for §c+10❤ Health §7when you hit an",
-    "§7entity!",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires Catacombs Skill 5.",
-    "§9§lRARE DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"283\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+52\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+26\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bonus Attack Speed: \",\"color\":\"gray\"},{\"text\":\"+100%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Love Tap \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Heals you for \",\"color\":\"gray\"},{\"text\":\"+10❤ Health \",\"color\":\"red\"},{\"text\":\"when you hit an\",\"color\":\"gray\"}]}",
+    "{\"text\":\"entity!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Catacombs Skill 5.\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE DUNGEON SWORD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ZOMBIE_SOLDIER_CUTLASS",
   "clickcommand": "",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Zombie_Soldier_Cutlass",
     "https://wiki.hypixel.net/Zombie_Soldier_Cutlass"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

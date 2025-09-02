@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:chest",
-  "displayname": "§cXX-Large Storage",
-  "nbttag": "{ExtraAttributes:{id:\"XXLARGE_ENCHANTED_CHEST\"},HideFlags:254,ItemModel:\"minecraft:chest\",display:{Lore:[0:\"§7Place this chest next to a minion and\",1:\"§7the minion will store items inside once\",2:\"§7its storage is full!\",3:\"\",4:\"§7Storage space: §b27 §7items\",5:\"\",6:\"§c§lSPECIAL\"],Name:\"§cXX-Large Storage\"}}",
+  "displayname": "{\"text\":\"XX-Large Storage\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:chest\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"XX-Large Storage\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this chest next to a minion and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"the minion will store items inside once\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"its storage is full!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Storage space: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"27 \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"items\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"XXLARGE_ENCHANTED_CHEST\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Place this chest next to a minion and",
-    "§7the minion will store items inside once",
-    "§7its storage is full!",
-    "",
-    "§7Storage space: §b27 §7items",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Place this chest next to a minion and\",\"color\":\"gray\"}",
+    "{\"text\":\"the minion will store items inside once\",\"color\":\"gray\"}",
+    "{\"text\":\"its storage is full!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Storage space: \",\"color\":\"gray\"},{\"text\":\"27 \",\"color\":\"aqua\"},{\"text\":\"items\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "XXLARGE_ENCHANTED_CHEST",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

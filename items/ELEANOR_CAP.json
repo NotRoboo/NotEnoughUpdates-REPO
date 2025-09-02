@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:leather_helmet",
-  "displayname": "§6Eleanor\u0027s Cap",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Time: §a+20s\",1:\"\",2:\"§8Tiered Bonus: Riches (0/4)\",3:\"§7Gain §a1.5x §9Scavenger §7Coins.\",4:\"\",5:\"§7Scavenger Coins Gained: §60\",6:\"\",7:\"§7§8§oDelicately crafted from the finest\",8:\"§8§oenchanted silk, this cap combines\",9:\"§8§oelegance with subtlety.\",10:\"\",11:\"§8§l* §8Soulbound §8§l*\",12:\"§5§kX§5 Rift-Transferable §kX\",13:\"§6§lLEGENDARY HELMET\"],color:16766720,Name:\"§6Eleanor\u0027s Cap\"},ExtraAttributes:{id:\"ELEANOR_CAP\"}}",
+  "displayname": "{\"text\":\"Eleanor\u0027s Cap\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_helmet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Eleanor\u0027s Cap\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Tiered Bonus: Riches (0/4)\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1.5x \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"Scavenger \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"Coins.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Scavenger Coins Gained: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Delicately crafted from the finest\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"enchanted silk, this cap combines\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"elegance with subtlety.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"LEGENDARY HELMET\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ELEANOR_CAP\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Rift Time: §a+20s",
-    "",
-    "§8Tiered Bonus: Riches (0/4)",
-    "§7Gain §a1.5x §9Scavenger §7Coins.",
-    "",
-    "§7Scavenger Coins Gained: §60",
-    "",
-    "§7§8§oDelicately crafted from the finest",
-    "§8§oenchanted silk, this cap combines",
-    "§8§oelegance with subtlety.",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§5§kX§5 Rift-Transferable §kX",
-    "§6§lLEGENDARY HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+20s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Tiered Bonus: Riches (0/4)\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"1.5x \",\"color\":\"green\"},{\"text\":\"Scavenger \",\"color\":\"blue\"},{\"text\":\"Coins.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Scavenger Coins Gained: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Delicately crafted from the finest\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"enchanted silk, this cap combines\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"elegance with subtlety.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"LEGENDARY HELMET\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "ELEANOR_CAP",
   "crafttext": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Eleanor%27s_Cap",
     "https://wiki.hypixel.net/Eleanor%27s_Cap"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

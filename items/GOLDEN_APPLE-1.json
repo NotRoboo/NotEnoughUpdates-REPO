@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:golden_apple",
-  "displayname": "§aEnchanted Golden Apple",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Golden Apple\"},ExtraAttributes:{id:\"GOLDEN_APPLE-1\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Enchanted Golden Apple\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_apple\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Golden Apple\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLDEN_APPLE-1\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§a§lUNCOMMON"
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "GOLD_BLOCK:1",
@@ -22,5 +22,8 @@
   "clickcommand": "viewrecipe",
   "vanilla": true,
   "modver": "2.1.0-REL",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

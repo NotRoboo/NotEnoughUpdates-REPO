@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:sapling",
-  "displayname": "§9Soul Esoward",
-  "nbttag": "{ExtraAttributes:{id:\"SOUL_ESOWARD\"},HideFlags:254,ItemModel:\"minecraft:birch_sapling\",display:{Lore:[0:\"§6Ability: Soulward  §e§lRIGHT CLICK\",1:\"§7Become §9invulnerable§7 for §a5s§7, but can't deal\",2:\"§7damage.\",3:\"§7Halves your damage for §a2s §7afterwards.\",4:\"§8Soulflow Cost: §310\",5:\"§8Mana Cost: §3350\",6:\"§8Cooldown: §a20s\",7:\"\",8:\"§9§lRARE\"],Name:\"§9Soul Esoward\"},ench:[]}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Soul Esoward\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:sapling\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Soul Esoward\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Soulward \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Become \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"invulnerable\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\" for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\", but can\u0027t deal\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"damage.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Halves your damage for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2s \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"afterwards.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Soulflow Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"10\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"350\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"20s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SOUL_ESOWARD\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§6Ability: Soulward  §e§lRIGHT CLICK",
-    "§7Become §9invulnerable§7 for §a5s§7, but can't deal",
-    "§7damage.",
-    "§7Halves your damage for §a2s §7afterwards.",
-    "§8Soulflow Cost: §310",
-    "§8Mana Cost: §3350",
-    "§8Cooldown: §a20s",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Soulward \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Become \",\"color\":\"gray\"},{\"text\":\"invulnerable\",\"color\":\"blue\"},{\"text\":\" for \",\"color\":\"gray\"},{\"text\":\"5s\",\"color\":\"green\"},{\"text\":\", but can\u0027t deal\",\"color\":\"gray\"}]}",
+    "{\"text\":\"damage.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Halves your damage for \",\"color\":\"gray\"},{\"text\":\"2s \",\"color\":\"green\"},{\"text\":\"afterwards.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Soulflow Cost: \",\"color\":\"dark_gray\"},{\"text\":\"10\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"350\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"20s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SOUL_ESOWARD",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C2": "ENCHANTED_BIRCH_LOG:11",
     "C3": "NULL_OVOID:2"
   },
-  "slayer_req": "EMAN_3"
+  "slayer_req": "EMAN_3",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:gold_block",
-  "displayname": "§6Town Hall Barn Skin",
-  "nbttag": "{ExtraAttributes:{id:\"TOWN_HALL_BARN_SKIN\"},HideFlags:254,ItemModel:\"minecraft:gold_block\",display:{Lore:[0:\"§7Consume this item to unlock the §6Town\",1:\"§6Hall Barn Skin §7on §aThe Garden§7!\",2:\"\",3:\"§eClick to consume!\",4:\"\",5:\"§6§lLEGENDARY COSMETIC\"],Name:\"§6Town Hall Barn Skin\"}}",
+  "displayname": "{\"text\":\"Town Hall Barn Skin\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:gold_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Town Hall Barn Skin\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consume this item to unlock the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Town\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hall Barn Skin \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY COSMETIC\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TOWN_HALL_BARN_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Consume this item to unlock the §6Town",
-    "§6Hall Barn Skin §7on §aThe Garden§7!",
-    "",
-    "§eClick to consume!",
-    "",
-    "§6§lLEGENDARY COSMETIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consume this item to unlock the \",\"color\":\"gray\"},{\"text\":\"Town\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hall Barn Skin \",\"color\":\"gold\"},{\"text\":\"on \",\"color\":\"gray\"},{\"text\":\"The Garden\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY COSMETIC\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "TOWN_HALL_BARN_SKIN",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Town_Hall_Barn_Skin",
     "https://wiki.hypixel.net/Town_Hall_Barn_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

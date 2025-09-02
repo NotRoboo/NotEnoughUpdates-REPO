@@ -1,23 +1,26 @@
 {
   "internalname": "ROOKIE_HOE",
   "itemid": "minecraft:stone_hoe",
-  "displayname": "§fRookie Hoe",
+  "displayname": "{\"text\":\"Rookie Hoe\",\"color\":\"white\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Crops broken with this hoe have\",1:\"§7a §a50%§7 chance to drop a seed.\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§7§4❣ §cRequires §aFarming Skill 1§c.\",5:\"§f§lCOMMON HOE\"],Name:\"§fRookie Hoe\"},ExtraAttributes:{id:\"ROOKIE_HOE\"}}",
+  "nbttag": "{\"id\":\"minecraft:stone_hoe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Rookie Hoe\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Crops broken with this hoe have\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" chance to drop a seed.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 1\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"COMMON HOE\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ROOKIE_HOE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "modver": "2.1.1-PRE",
   "lore": [
-    "§7Crops broken with this hoe have",
-    "§7a §a50%§7 chance to drop a seed.",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFarming Skill 1§c.",
-    "§f§lCOMMON HOE"
+    "{\"text\":\"Crops broken with this hoe have\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a \",\"color\":\"gray\"},{\"text\":\"50%\",\"color\":\"green\"},{\"text\":\" chance to drop a seed.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 1\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"COMMON HOE\",\"color\":\"white\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Rookie_Hoe",
     "https://wiki.hypixel.net/Rookie_Hoe"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

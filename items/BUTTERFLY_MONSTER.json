@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aButterfly (Monster)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"aed56745-0562-307d-aed5-67450562907d\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZkODA2ZGVmZGZkZjU5YjFmMjYwOWM4ZWUzNjQ2NjZkZTY2MTI3YTYyMzQxNWI1NDMwYzkzNThjNjAxZWY3YyJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Beautiful critters that\",1:\"§7around harmlessly in Fairy\",2:\"§7regions\",3:\"\",4:\"§c❤ Health§8: §c100\"],Name:\"§aButterfly (Monster)\"},ExtraAttributes:{id:\"BUTTERFLY_MONSTER\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Butterfly (Monster)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Butterfly (Monster)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Beautiful critters that\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"around harmlessly in Fairy\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"regions\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"100\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"BUTTERFLY_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Beautiful critters that",
-    "§7around harmlessly in Fairy",
-    "§7regions",
-    "",
-    "§c❤ Health§8: §c100"
+    "{\"text\":\"Beautiful critters that\",\"color\":\"gray\"}",
+    "{\"text\":\"around harmlessly in Fairy\",\"color\":\"gray\"}",
+    "{\"text\":\"regions\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"100\",\"color\":\"red\"}]}"
   ],
   "internalname": "BUTTERFLY_MONSTER",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

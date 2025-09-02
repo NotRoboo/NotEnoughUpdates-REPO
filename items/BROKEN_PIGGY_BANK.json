@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aBroken Piggy Bank",
-  "nbttag": "{ExtraAttributes:{id:\"BROKEN_PIGGY_BANK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"758ba8b2-2fad-3ea2-baf4-a6c3e559295a\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0aW1lc3RhbXAiOjE1NzUzMDE2MDgyNzUsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I1OTAyMDdhZWVhMmQ4ZmM4MDE5NGYyYTEwOWY1YjE5OTljOTFlYmQzNzdkZmYwMWI5ZTdlYmUwOTFhM2E0MTkifX19\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7It broke!\",1:\"\",2:\"§eRight-click to view recipe!\",3:\"\",4:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aBroken Piggy Bank\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Broken Piggy Bank\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Broken Piggy Bank\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"It broke!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipe!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ACCESSORY\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BROKEN_PIGGY_BANK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"eyJ0aW1lc3RhbXAiOjE1NzUzMDE2MDgyNzUsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I1OTAyMDdhZWVhMmQ4ZmM4MDE5NGYyYTEwOWY1YjE5OTljOTFlYmQzNzdkZmYwMWI5ZTdlYmUwOTFhM2E0MTkifX19\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7It broke!",
-    "",
-    "§eRight-click to view recipe!",
-    "",
-    "§a§lUNCOMMON ACCESSORY"
+    "{\"text\":\"It broke!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipe!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ACCESSORY\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "BROKEN_PIGGY_BANK",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Broken_Piggy_Bank",
     "https://wiki.hypixel.net/Broken_Piggy_Bank"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

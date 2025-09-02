@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§fPink Dye",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fPink Dye\"},ExtraAttributes:{id:\"INK_SACK-9\"}}",
-  "damage": 9,
+  "displayname": "{\"text\":\"Pink Dye\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pink Dye\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"INK_SACK-9\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "parent": "INK_SACK",
   "internalname": "INK_SACK-9",
@@ -25,5 +25,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Pink_Dye"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

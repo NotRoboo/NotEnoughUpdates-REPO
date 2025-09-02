@@ -1,25 +1,25 @@
 {
   "itemid": "minecraft:diamond_sword",
-  "displayname": "§6⚚ Shadow Fury",
-  "nbttag": "{ExtraAttributes:{id:\"STARRED_SHADOW_FURY\"},HideFlags:254,ItemModel:\"minecraft:diamond_sword\",Unbreakable:1B,display:{Lore:[0:\"§7Gear Score: §d618\",1:\"§7Damage: §c+310\",2:\"§7Strength: §c+160\",3:\"§7Crit Damage: §c+60%\",4:\"§7Speed: §a+40\",5:\" §8[❁] [⚔]\",6:\"\",7:\"§6Ability: Shadow Fury  §e§lRIGHT CLICK\",8:\"§7Rapidly teleports you to up to §b5 §7enemies within\",9:\"§e12 §7blocks, rooting each of them and allowing\",10:\"§7you to hit them.\",11:\"§8Cooldown: §a15s\",12:\"\",13:\"§8This item can be reforged!\",14:\"§4❣ §cRequires The Catacombs Floor V Completion.\",15:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6⚚ Shadow Fury\"}}",
+  "displayname": "{\"text\":\"⚚ Shadow Fury\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_sword\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"⚚ Shadow Fury\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gear Score: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"618\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+310\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+160\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Crit Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+60%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[❁] [⚔]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Shadow Fury \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rapidly teleports you to up to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"enemies within\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"12 \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"blocks, rooting each of them and allowing\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"you to hit them.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"15s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires The Catacombs Floor V Completion.\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY DUNGEON SWORD\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STARRED_SHADOW_FURY\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gear Score: §d618",
-    "§7Damage: §c+310",
-    "§7Strength: §c+160",
-    "§7Crit Damage: §c+60%",
-    "§7Speed: §a+40",
-    " §8[❁] [⚔]",
-    "",
-    "§6Ability: Shadow Fury  §e§lRIGHT CLICK",
-    "§7Rapidly teleports you to up to §b5 §7enemies within",
-    "§e12 §7blocks, rooting each of them and allowing",
-    "§7you to hit them.",
-    "§8Cooldown: §a15s",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires The Catacombs Floor V Completion.",
-    "§6§lLEGENDARY DUNGEON SWORD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gear Score: \",\"color\":\"gray\"},{\"text\":\"618\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+310\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+160\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Crit Damage: \",\"color\":\"gray\"},{\"text\":\"+60%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[❁] [⚔]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Shadow Fury \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rapidly teleports you to up to \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"aqua\"},{\"text\":\"enemies within\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"12 \",\"color\":\"yellow\"},{\"text\":\"blocks, rooting each of them and allowing\",\"color\":\"gray\"}]}",
+    "{\"text\":\"you to hit them.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"15s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires The Catacombs Floor V Completion.\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY DUNGEON SWORD\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "STARRED_SHADOW_FURY",
   "clickcommand": "viewrecipe",
@@ -41,5 +41,8 @@
     "C2": "LIVID_FRAGMENT:1",
     "C3": "LIVID_FRAGMENT:1"
   },
-  "parent": "SHADOW_FURY"
+  "parent": "SHADOW_FURY",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:leather_boots",
-  "displayname": "§9Boots of Growth",
-  "nbttag": "{ExtraAttributes:{id:\"GROWTH_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:leather_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+50\",1:\"§7Defense: §a+25\",2:\"\",3:\"§6Ability: Growth \",4:\"§7Heals you for §a1% §c❤ Health §7after\",5:\"§7killing a Monster, and also increases\",6:\"§7the §c❤ Health §7bonus of a piece of\",7:\"§7the armor by §a1§8 (Max 100)\",8:\"§8Cooldown: §a4s\",9:\"\",10:\"§7Bonus HP: §a0/100\",11:\"\",12:\"§8This item can be reforged!\",13:\"§9§lRARE BOOTS\"],Name:\"§9Boots of Growth\",color:48640}}",
+  "displayname": "{\"text\":\"Boots of Growth\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Boots of Growth\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+25\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Growth \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Heals you for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"after\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"killing a Monster, and also increases\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"bonus of a piece of\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the armor by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" (Max 100)\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"4s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bonus HP: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0/100\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE BOOTS\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GROWTH_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+50",
-    "§7Defense: §a+25",
-    "",
-    "§6Ability: Growth ",
-    "§7Heals you for §a1% §c❤ Health §7after",
-    "§7killing a Monster, and also increases",
-    "§7the §c❤ Health §7bonus of a piece of",
-    "§7the armor by §a1§8 (Max 100)",
-    "§8Cooldown: §a4s",
-    "",
-    "§7Bonus HP: §a0/100",
-    "",
-    "§8This item can be reforged!",
-    "§9§lRARE BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+25\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Growth \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Heals you for \",\"color\":\"gray\"},{\"text\":\"1% \",\"color\":\"green\"},{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"after\",\"color\":\"gray\"}]}",
+    "{\"text\":\"killing a Monster, and also increases\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the \",\"color\":\"gray\"},{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"bonus of a piece of\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the armor by \",\"color\":\"gray\"},{\"text\":\"1\",\"color\":\"green\"},{\"text\":\" (Max 100)\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"4s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bonus HP: \",\"color\":\"gray\"},{\"text\":\"0/100\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE BOOTS\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "GROWTH_BOOTS",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

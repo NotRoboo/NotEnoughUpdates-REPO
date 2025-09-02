@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:egg",
-  "displayname": "§fBridge Egg",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7Creates a path of stone blocks\",1:\"§7as it travels through the air!\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fBridge Egg\"},ExtraAttributes:{id:\"BRIDGE_EGG\"}}",
+  "displayname": "{\"text\":\"Bridge Egg\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:egg\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bridge Egg\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Creates a path of stone blocks\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"as it travels through the air!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BRIDGE_EGG\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Creates a path of stone blocks",
-    "§7as it travels through the air!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Creates a path of stone blocks\",\"color\":\"gray\"}",
+    "{\"text\":\"as it travels through the air!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "STONE:1",
@@ -28,5 +28,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Bridge_Egg",
     "https://wiki.hypixel.net/Bridge_Egg"
   ],
-  "crafttext": "Requires: Raw Chicken II"
+  "crafttext": "Requires: Raw Chicken II",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5⚚ Spider Queen's Stinger",
-  "nbttag": "{ExtraAttributes:{id:\"STARRED_SPIDER_QUEENS_STINGER\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+600\",1:\"\",2:\"§7Arrows shot using this bow have an\",3:\"§7aura around them that deals §c606❁\",4:\"§cDamage §7to nearby enemies instead of\",5:\"§7dealing impact damage. Arrows travel\",6:\"§7through enemies.\",7:\"\",8:\"§4This item is Arachnal Ж!\",9:\"\",10:\"§8This item can be reforged!\",11:\"§5§lEPIC BOW\"],Name:\"§5⚚ Spider Queen's Stinger\"}}",
+  "displayname": "{\"text\":\"⚚ Spider Queen\u0027s Stinger\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"⚚ Spider Queen\u0027s Stinger\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+600\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Arrows shot using this bow have an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"aura around them that deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"606❁\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"to nearby enemies instead of\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"dealing impact damage. Arrows travel\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"through enemies.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item is Arachnal Ж!\\\",\\\"color\\\":\\\"dark_red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC BOW\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STARRED_SPIDER_QUEENS_STINGER\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+600",
-    "",
-    "§7Arrows shot using this bow have an",
-    "§7aura around them that deals §c606❁",
-    "§cDamage §7to nearby enemies instead of",
-    "§7dealing impact damage. Arrows travel",
-    "§7through enemies.",
-    "",
-    "§4This item is Arachnal Ж!",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+600\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Arrows shot using this bow have an\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"aura around them that deals \",\"color\":\"gray\"},{\"text\":\"606❁\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage \",\"color\":\"red\"},{\"text\":\"to nearby enemies instead of\",\"color\":\"gray\"}]}",
+    "{\"text\":\"dealing impact damage. Arrows travel\",\"color\":\"gray\"}",
+    "{\"text\":\"through enemies.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item is Arachnal Ж!\",\"color\":\"dark_red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC BOW\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "STARRED_SPIDER_QUEENS_STINGER",
   "clickcommand": "viewrecipe",
@@ -36,5 +36,8 @@
     "C1": "",
     "C2": "ENCHANTED_DARK_OAK_LOG:30",
     "C3": "SOUL_STRING:50"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

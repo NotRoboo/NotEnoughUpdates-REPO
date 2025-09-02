@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:tripwire_hook",
-  "displayname": "§5Moody Grappleshot",
-  "nbttag": "{ExtraAttributes:{id:\"MOODY_GRAPPLESHOT\"},HideFlags:254,ItemModel:\"minecraft:tripwire_hook\",display:{Lore:[0:\"§6Ability: Big Pull §e§lRIGHT CLICK\",1:\"§7Throw a hook to grab and pull\",2:\"§7blazes.\",3:\"\",4:\"§7Pulling a blaze multiplies its\",5:\"§7damage taken by §c2x §7and stops\",6:\"§7it from flying.\",7:\"§8Mana Cost: §330\",8:\"§8Cooldown: §a1s\",9:\"\",10:\"§5§lEPIC\"],Name:\"§5Moody Grappleshot\"}}",
+  "displayname": "{\"text\":\"Moody Grappleshot\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:tripwire_hook\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Moody Grappleshot\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Big Pull \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Throw a hook to grab and pull\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"blazes.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Pulling a blaze multiplies its\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"damage taken by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2x \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and stops\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"it from flying.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"30\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MOODY_GRAPPLESHOT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Big Pull §e§lRIGHT CLICK",
-    "§7Throw a hook to grab and pull",
-    "§7blazes.",
-    "",
-    "§7Pulling a blaze multiplies its",
-    "§7damage taken by §c2x §7and stops",
-    "§7it from flying.",
-    "§8Mana Cost: §330",
-    "§8Cooldown: §a1s",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Big Pull \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Throw a hook to grab and pull\",\"color\":\"gray\"}",
+    "{\"text\":\"blazes.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Pulling a blaze multiplies its\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"damage taken by \",\"color\":\"gray\"},{\"text\":\"2x \",\"color\":\"red\"},{\"text\":\"and stops\",\"color\":\"gray\"}]}",
+    "{\"text\":\"it from flying.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"30\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"1s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "MOODY_GRAPPLESHOT",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Moody_Grappleshot",
     "https://wiki.hypixel.net/Moody_Grappleshot"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

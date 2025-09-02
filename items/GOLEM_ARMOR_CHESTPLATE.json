@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:iron_chestplate",
-  "displayname": "§9Golem Armor Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"GOLEM_ARMOR_CHESTPLATE\"},HideFlags:254,ItemModel:\"minecraft:iron_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+65\",1:\"§7Defense: §a+90\",2:\"\",3:\"§6Full Set Bonus: Absorption §7(0/4)\",4:\"§7Grants the wearer §aAbsorption 3§7 for\",5:\"§a20 seconds§7 when they kill an enemy.\",6:\"\",7:\"§8This item can be reforged!\",8:\"§9§lRARE CHESTPLATE\"],Name:\"§9Golem Armor Chestplate\"}}",
+  "displayname": "{\"text\":\"Golem Armor Chestplate\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Golem Armor Chestplate\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+65\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+90\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Absorption \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants the wearer \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Absorption 3\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"20 seconds\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" when they kill an enemy.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE CHESTPLATE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GOLEM_ARMOR_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+65",
-    "§7Defense: §a+90",
-    "",
-    "§6Full Set Bonus: Absorption §7(0/4)",
-    "§7Grants the wearer §aAbsorption 3§7 for",
-    "§a20 seconds§7 when they kill an enemy.",
-    "",
-    "§8This item can be reforged!",
-    "§9§lRARE CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+65\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+90\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Absorption \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants the wearer \",\"color\":\"gray\"},{\"text\":\"Absorption 3\",\"color\":\"green\"},{\"text\":\" for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"20 seconds\",\"color\":\"green\"},{\"text\":\" when they kill an enemy.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE CHESTPLATE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "GOLEM_ARMOR_CHESTPLATE",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "ENCHANTED_IRON:10",
     "C2": "ENCHANTED_IRON:10",
     "C3": "ENCHANTED_IRON:10"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

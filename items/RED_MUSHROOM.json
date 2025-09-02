@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:red_mushroom",
-  "displayname": "§fRed Mushroom",
-  "nbttag": "{ExtraAttributes:{id:\"RED_MUSHROOM\"},HideFlags:254,ItemModel:\"minecraft:red_mushroom\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§f§lCOMMON\"],Name:\"§fRed Mushroom\"}}",
+  "displayname": "{\"text\":\"Red Mushroom\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:red_mushroom\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Red Mushroom\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RED_MUSHROOM\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "RED_MUSHROOM",
   "clickcommand": "",
@@ -17,5 +17,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Mushroom",
     "https://wiki.hypixel.net/Mushroom"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

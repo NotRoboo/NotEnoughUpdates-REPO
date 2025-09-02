@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:wooden_axe",
-  "displayname": "§aSheep Axe",
-  "nbttag": "{ExtraAttributes:{enchantments:{},entity_required:\"SHEEP\",id:\"SHEEP_AXE\",originTag:\"SHOP_PURCHASE\"},HideFlags:254,ItemModel:\"minecraft:wooden_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Killing a §dSheep §7increases\",1:\"§7the amount of drops by §a+2\",2:\"§7for common loot.\",3:\"\",4:\"§8This item can be reforged!\",5:\"§4❣ §cRequires §aFarming Skill 15§c.\",6:\"§a§lUNCOMMON AXE\"],Name:\"§aSheep Axe\"}}",
+  "displayname": "{\"text\":\"Sheep Axe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_axe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sheep Axe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Killing a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Sheep \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"increases\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the amount of drops by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"for common loot.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Farming Skill 15\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON AXE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"enchantments\":\"{\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Killing a §dSheep §7increases",
-    "§7the amount of drops by §a+2",
-    "§7for common loot.",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aFarming Skill 15§c.",
-    "§a§lUNCOMMON AXE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Killing a \",\"color\":\"gray\"},{\"text\":\"Sheep \",\"color\":\"light_purple\"},{\"text\":\"increases\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the amount of drops by \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"green\"}]}",
+    "{\"text\":\"for common loot.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Farming Skill 15\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON AXE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SHEEP_AXE",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Sheep_Axe",
     "https://wiki.hypixel.net/Sheep_Axe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

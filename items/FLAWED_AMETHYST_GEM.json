@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§a❈ Flawed Amethyst Gemstone",
-  "nbttag": "{ExtraAttributes:{id:\"FLAWED_AMETHYST_GEM\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"2a8142e1-42a6-3f5d-a8b8-fe7fa49f354a\",Properties:{textures:[0:{Name:\"textures\",Signature:\"OvX16CV/N3Nl/pWsuBMTY9SD5Cr1pAtvMmgIwmkI4qqAasVbz4DKgU2/yMB80hihJ0rV0J2Rff28EtNhJgZtG76aA0mNfMW/Y8WEzA8olDCI5VRopYntj0oNM/gs+5DO37c39zi0hneSjIdqtL/1s1gjwjhnhugf737hBK2altv/P6JDrJ4TcrgiTF50+bhLZvGFTVPaV2SNRH2n/ZKGkUYu8DG1DBMSn7LyMtA8aI48r+MNAp4NzYPtwFXYdk79aAZUpDr7H1cH7VKjQJZVrafpd9rFsQi5CyvULNpIkU1N6yRVni6yuKVlPwoPJKpjSki110vt1k88D8kCn4RTgbDM0Sr1BZHBw55jolN1qDMQokq/hSM6v3ImMkOHoEjQeayYaihRf94qv3JF2QyEDzgzmipkj2eAIpQKNpUaT54cGs8UTWIGv/JzrOeQdX7xSuhnLPMvVwjQ4XC7IUbc5UunpqK59hkxs/jbKHUVWU4bpW5QXX6peiAyShyiEIWzTQD6uBv2e6TYaEesOmeaD4DA0vCr+BJum6JJv4zH0HvHnJny1sIumAgeA18QK+aWGN+9/Ob4WmwW1swfpKXadd3Eg98k/XL08WtHBiF82V7uRxykpyZcp/KmQ0VuY3G6UKlFcdN9Fkj5qEb/XWYtDAiedDy3Ss80fl3GWFze6tY=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4NTQzNDMwMSwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MWRiNTkyNjA4OTU1NzhkMzdlNTk1MDU4ODA2MDJkZTk0MGIwODhlNWZmZjhkYTNlNjUyMDFkNzM5Yzg2ZTg0IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§7A slightly better version of\",3:\"§5Amethyst§7, but it could still use some\",4:\"§7work.\",5:\"\",6:\"§7Some say that when §eharnessed\",7:\"§eproperly§7, it can give its owner extra\",8:\"§a❈ Defense§7.\",9:\"\",10:\"§a§lUNCOMMON GEMSTONE\"],Name:\"§a❈ Flawed Amethyst Gemstone\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"❈ Flawed Amethyst Gemstone\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"❈ Flawed Amethyst Gemstone\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A slightly better version of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Amethyst\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\", but it could still use some\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"work.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Some say that when \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"harnessed\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"properly\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\", it can give its owner extra\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❈ Defense\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON GEMSTONE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FLAWED_AMETHYST_GEM\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYxODA4NTQzNDMwMSwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MWRiNTkyNjA4OTU1NzhkMzdlNTk1MDU4ODA2MDJkZTk0MGIwODhlNWZmZjhkYTNlNjUyMDFkNzM5Yzg2ZTg0IgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§7A slightly better version of",
-    "§5Amethyst§7, but it could still use some",
-    "§7work.",
-    "",
-    "§7Some say that when §eharnessed",
-    "§eproperly§7, it can give its owner extra",
-    "§a❈ Defense§7.",
-    "",
-    "§a§lUNCOMMON GEMSTONE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A slightly better version of\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Amethyst\",\"color\":\"dark_purple\"},{\"text\":\", but it could still use some\",\"color\":\"gray\"}]}",
+    "{\"text\":\"work.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Some say that when \",\"color\":\"gray\"},{\"text\":\"harnessed\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"properly\",\"color\":\"yellow\"},{\"text\":\", it can give its owner extra\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❈ Defense\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON GEMSTONE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "FLAWED_AMETHYST_GEM",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C1": "",
     "C2": "ROUGH_AMETHYST_GEM:16",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

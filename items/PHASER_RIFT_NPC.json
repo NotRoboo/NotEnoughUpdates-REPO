@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dPhaser (Rift NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"2d1eb7ff-37db-24c2-9973-e98d16cef30a\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg3MzRiYjk3ODdlYmM2OWRiZmMyOWY3ZmI3OTgwMDM5ZTdjZDYxM2MwMjk2MzMxOWI1Y2NhZjlhN2FkODg0NGQifX19\"}]},Name:\"2d1eb7ff-37db-24c2-9973-e98d16cef30a\"},display:{Lore:[0:\"\"],Name:\"§dPhaser (Rift NPC)\"},ExtraAttributes:{id:\"PHASER_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Phaser (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Phaser (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"PHASER_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "PHASER_RIFT_NPC",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Phaser",
     "https://wiki.hypixel.net/Phaser"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

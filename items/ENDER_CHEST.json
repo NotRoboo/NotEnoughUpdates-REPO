@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:ender_chest",
-  "displayname": "§fEnder Chest",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fEnder Chest\"},ExtraAttributes:{id:\"ENDER_CHEST\"}}",
+  "displayname": "{\"text\":\"Ender Chest\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:ender_chest\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ender Chest\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENDER_CHEST\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ENDER_CHEST",
   "modver": "2.1.0-REL",
@@ -24,5 +24,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Ender_Chest"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

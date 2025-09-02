@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:iron_shovel",
-  "displayname": "§aCarnival Shovel",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Used to dig up §6fruits §7in the §6Fruit\",1:\"§6Digging §7game.\",2:\"§7\",3:\"§7§eDowsing Mode: §cMines\",4:\"§7§7Reveals the amount of §cBombs\",5:\"§c§7adjacent to this block when you dig.\",6:\"§7\",7:\"§7§eRight-click to cycle Dowsing Modes!\",8:\"\",9:\"§8§l* §8Soulbound §8§l*\",10:\"§a§lUNCOMMON SHOVEL\"],Name:\"§aCarnival Shovel\"},ExtraAttributes:{id:\"CARNIVAL_SHOVEL\"}}",
+  "displayname": "{\"text\":\"Carnival Shovel\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_shovel\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Carnival Shovel\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Used to dig up \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"fruits \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Fruit\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Digging \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"game.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Dowsing Mode: \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"Mines\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Reveals the amount of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Bombs\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"adjacent to this block when you dig.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to cycle Dowsing Modes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON SHOVEL\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CARNIVAL_SHOVEL\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Used to dig up §6fruits §7in the §6Fruit",
-    "§6Digging §7game.",
-    "§7",
-    "§7§eDowsing Mode: §cMines",
-    "§7§7Reveals the amount of §cBombs",
-    "§c§7adjacent to this block when you dig.",
-    "§7",
-    "§7§eRight-click to cycle Dowsing Modes!",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§a§lUNCOMMON SHOVEL"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Used to dig up \",\"color\":\"gray\"},{\"text\":\"fruits \",\"color\":\"gold\"},{\"text\":\"in the \",\"color\":\"gray\"},{\"text\":\"Fruit\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Digging \",\"color\":\"gold\"},{\"text\":\"game.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Dowsing Mode: \",\"color\":\"yellow\"},{\"text\":\"Mines\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Reveals the amount of \",\"color\":\"gray\"},{\"text\":\"Bombs\",\"color\":\"red\"}]}",
+    "{\"text\":\"adjacent to this block when you dig.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to cycle Dowsing Modes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON SHOVEL\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CARNIVAL_SHOVEL",
   "crafttext": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Carnival_Shovel",
     "https://wiki.hypixel.net/Carnival_Shovel"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

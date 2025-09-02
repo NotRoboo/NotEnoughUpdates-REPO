@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cNovice Skull",
-  "nbttag": "{ExtraAttributes:{id:\"NOVICE_SKULL\"},HideFlags:254,ItemModel:\"minecraft:wither_skeleton_skull\",display:{Lore:[0:\"§7Grants §a+2% §c❤ Health §7and §c❁\",1:\"§cStrength §7while in the §cDungeon Hub§7.\",2:\"\",3:\"§7Obtained from the §dA Honk and Seek\",4:\"§dAdventure §7event during April Fools.\",5:\"\",6:\"§8This item can be reforged!\",7:\"§c§lSPECIAL HELMET\"],Name:\"§cNovice Skull\"}}",
-  "damage": 1,
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Novice Skull\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Novice Skull\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❁\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"while in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Dungeon Hub\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained from the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"A Honk and Seek\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Adventure \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"event during April Fools.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"SPECIAL HELMET\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NOVICE_SKULL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Grants §a+2% §c❤ Health §7and §c❁",
-    "§cStrength §7while in the §cDungeon Hub§7.",
-    "",
-    "§7Obtained from the §dA Honk and Seek",
-    "§dAdventure §7event during April Fools.",
-    "",
-    "§8This item can be reforged!",
-    "§c§lSPECIAL HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+2% \",\"color\":\"green\"},{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"❁\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength \",\"color\":\"red\"},{\"text\":\"while in the \",\"color\":\"gray\"},{\"text\":\"Dungeon Hub\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained from the \",\"color\":\"gray\"},{\"text\":\"A Honk and Seek\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Adventure \",\"color\":\"light_purple\"},{\"text\":\"event during April Fools.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"SPECIAL HELMET\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "NOVICE_SKULL",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Novice_Skull"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Silnar (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"29e7bde9-df5f-21ec-9375-1626731c720c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3YjM1NTJjNWFmMmFiMmRjNGUxZjg0ZDc4Y2E0YzRkNjc2ZGVjMDY4MTU3MjI1YTNjMjY3NGU1NTc0ZDIzNDgifX19\"}]},Name:\"29e7bde9-df5f-21ec-9375-1626731c720c\"},display:{Lore:[0:\"\"],Name:\"§9Silnar (NPC)\"},ExtraAttributes:{id:\"SILNAR_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Silnar (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Silnar (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"SILNAR_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "SILNAR_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Silnar",
     "https://wiki.hypixel.net/Silnar"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dRagnarok\u0027s Bane Magma Lord Skin",
-  "nbttag": "{ExtraAttributes:{id:\"MAGMA_LORD_RAGNAROK\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"f99544a0-8dfa-302e-8829-f1d722c53678\",Properties:{textures:[0:{Name:\"textures\",Signature:\"TlEDUzB04N74oJHV4QrctMKmpxZ1tuLbTly+JBBuZLof3zEQ3gFCzDKLtSkUO05BE7ZmhgWVhoaNse+TqiKOzItGqFOeSjMt38kk2kBSu3F2ghxGtfd6xBFTt+7Fcv/B4hPkCYREeAm4Hux+YnXQbZySIZ+qzPDFgXSQpIRIQQ/Gct/CMjebZsePyDrxBkN5rq4f6bBa44Dr36xhqBGtASF/wHG1GGUCinyrmq9scOSdizlZS/9cYKU5fhj2Xb+D6/IJa2IeNr8greQbxQ9VE3o+joZRl2xPSIHT45EVfw73ryhD9+6cMEQk1P/OsoUn4vXsUH7ymFUKoBVb8uZbrC2vN9oSrQJjcvpgU1x1xaUodZbkLOvUPNH7aGr53nCCvgYN8KMT+OBHSMgaDIEhVxmfdzudDsjHwgca8AA3cgaLHGjsKxSi8X9e7c/Jfw+1UuMTTHSbHyoYrA0xdup96O1A8v/kS2k280nWKX6Psa4pCne1QY/Umngf9RijERU6y+He+iGyr1kjjdQDPTRy15OM8lUKzBVBPHau1KS/Axs/A5eKSlcum2sR2sasYgZoowjMgMW7Jps4qjJ5zkTndVQ9PLaxxRQ3lz57Viz9Up8QnBnPgLv6iMpFlqisJ8132dvTylJMe0n8aNiwWIlNXxaLSxeWxCU+SRt2Ba3quyY\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc0OTcwMTYzMjM4NCwKICAicHJvZmlsZUlkIiA6ICJmMzNlZGMyNTRmNDk0NWY2YTg5ZjFjM2JhZmNkZjIwNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGVV9CYWJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M1NTJmODU0MjZlN2M5N2RkODMzM2FiMmY0NGIxNjM0YjMxNWExZGQzZjUxZjkzMWIwZTdiZmVkNTE3ZTYwYTQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Item skins give your gear a fresh\",3:\"§7new look! Apply them just like an\",4:\"§7enchant book using the anvil.\",5:\"\",6:\"§7This skin can be applied to §6Magma\",7:\"§6Lord Helmet§7.\",8:\"\",9:\"§aThis skin will allow you to swap\",10:\"§abetween 15 fishy versions!\",11:\"\",12:\"§d§lMYTHIC COSMETIC\"],Name:\"§dRagnarok\u0027s Bane Magma Lord Skin\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Ragnarok\u0027s Bane Magma Lord Skin\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ragnarok\u0027s Bane Magma Lord Skin\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Item skins give your gear a fresh\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"new look! Apply them just like an\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enchant book using the anvil.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This skin can be applied to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Magma\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Lord Helmet\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin will allow you to swap\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"between 15 fishy versions!\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"MYTHIC COSMETIC\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"MAGMA_LORD_RAGNAROK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTc0OTcwMTYzMjM4NCwKICAicHJvZmlsZUlkIiA6ICJmMzNlZGMyNTRmNDk0NWY2YTg5ZjFjM2JhZmNkZjIwNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGVV9CYWJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M1NTJmODU0MjZlN2M5N2RkODMzM2FiMmY0NGIxNjM0YjMxNWExZGQzZjUxZjkzMWIwZTdiZmVkNTE3ZTYwYTQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Item skins give your gear a fresh",
-    "§7new look! Apply them just like an",
-    "§7enchant book using the anvil.",
-    "",
-    "§7This skin can be applied to §6Magma",
-    "§6Lord Helmet§7.",
-    "",
-    "§aThis skin will allow you to swap",
-    "§abetween 15 fishy versions!",
-    "",
-    "§d§lMYTHIC COSMETIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Item skins give your gear a fresh\",\"color\":\"gray\"}",
+    "{\"text\":\"new look! Apply them just like an\",\"color\":\"gray\"}",
+    "{\"text\":\"enchant book using the anvil.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This skin can be applied to \",\"color\":\"gray\"},{\"text\":\"Magma\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Lord Helmet\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin will allow you to swap\",\"color\":\"green\"}",
+    "{\"text\":\"between 15 fishy versions!\",\"color\":\"green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"MYTHIC COSMETIC\",\"color\":\"light_purple\",\"bold\":true}"
   ],
   "internalname": "MAGMA_LORD_RAGNAROK",
   "clickcommand": "",
@@ -25,5 +25,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ragnarok%27s_Bane_Magma_Lord_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

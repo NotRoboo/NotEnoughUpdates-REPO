@@ -1,24 +1,27 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§fEnchanted Book",
-  "nbttag": "{ExtraAttributes:{enchantments:{forest_pledge:4},id:\"FOREST_PLEDGE;4\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Forest Pledge IV\",1:\"§7Grants §6+8☘ Foraging Fortune§7.\",2:\"\",3:\"§7Applicable on: §9Armor\",4:\"§7Apply Cost: §340 Exp Levels\",5:\"\",6:\"§7Use this on an item in an Anvil to\",7:\"§7apply it!\",8:\"\",9:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Book\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:enchanted_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Book\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Forest Pledge IV\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+8☘ Foraging Fortune\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applicable on: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Armor\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Apply Cost: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"40 Exp Levels\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Use this on an item in an Anvil to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"apply it!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"enchantments\":\"{forest_pledge:4\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§9Forest Pledge IV",
-    "§7Grants §6+8☘ Foraging Fortune§7.",
-    "",
-    "§7Applicable on: §9Armor",
-    "§7Apply Cost: §340 Exp Levels",
-    "",
-    "§7Use this on an item in an Anvil to",
-    "§7apply it!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Forest Pledge IV\",\"color\":\"blue\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+8☘ Foraging Fortune\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applicable on: \",\"color\":\"gray\"},{\"text\":\"Armor\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Apply Cost: \",\"color\":\"gray\"},{\"text\":\"40 Exp Levels\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Use this on an item in an Anvil to\",\"color\":\"gray\"}",
+    "{\"text\":\"apply it!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FOREST_PLEDGE;4",
   "clickcommand": "",
   "crafttext": "",
   "modver": "Firmament 3.1.0-dev+mc1.21.5+g4402b1f",
   "infoType": "",
-  "info": []
+  "info": [],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

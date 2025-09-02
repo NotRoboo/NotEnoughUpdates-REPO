@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:carrot_on_a_stick",
-  "displayname": "§aNearly Coherent doR gnihsiF",
-  "nbttag": "{ExtraAttributes:{id:\"NEARLY_COHERENT_ROD\"},HideFlags:254,ItemModel:\"minecraft:carrot_on_a_stick\",Unbreakable:1B,display:{Lore:[0:\"§7Hold this and §aChester §7will follow you\",1:\"§7instead of running away.\",2:\"\",3:\"§a§lUNCOMMON\"],Name:\"§aNearly Coherent doR gnihsiF\"}}",
+  "displayname": "{\"text\":\"Nearly Coherent doR gnihsiF\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:carrot_on_a_stick\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Nearly Coherent doR gnihsiF\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hold this and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Chester \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"will follow you\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"instead of running away.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"NEARLY_COHERENT_ROD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Hold this and §aChester §7will follow you",
-    "§7instead of running away.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hold this and \",\"color\":\"gray\"},{\"text\":\"Chester \",\"color\":\"green\"},{\"text\":\"will follow you\",\"color\":\"gray\"}]}",
+    "{\"text\":\"instead of running away.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "NEARLY_COHERENT_ROD",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "NEARLY_WHOLE_CARROT:16",
     "C2": "",
     "C3": "MIRRORED_STICK:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

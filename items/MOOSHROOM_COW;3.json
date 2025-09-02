@@ -1,28 +1,28 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§7[Lvl {LVL}] §5Mooshroom Cow",
-  "nbttag": "{ExtraAttributes:{id:\"MOOSHROOM_COW;3\",petInfo:\"{\\\"type\\\":\\\"MOOSHROOM_COW\\\",\\\"tier\\\":\\\"EPIC\\\",\\\"exp\\\":0.0,\\\"candyUsed\\\":0}\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"4d162227-609b-3e9c-96a0-91b4642d0263\",Properties:{textures:[0:{Name:\"textures\",Signature:\"ki63Ky+79PdUFjx5+QrWgHkv46MxdemBPl/TwJHqdEhSL2hx+q7xWurABzFY1+TFp3p/hOvY3BGtnfCnNUOOIqEtAm3qk7SbKhDVgmHBlrQO6J6B7XCp7WmLcM3ZlxtSH5kL1PabJu1IpKkI6xTIt8ZRwydd+HZ0aRdOOL1RYv7+Rt0elQRBtD/ID0FhWdhUbVbrNmHXvCEx22iQlbfqDVLc8tdMZFY6mlwT0LwjQDR5zqluYcXNUpW0GQ9pg6l3qniRK/oSiYLuNqtNSdLX6hEtjZebYEL4MMtVxxHl/8UKj7etJltsTsUz/DCv2eVgiHtphXD9vtDHLFlj9WROYVMMC71r+g6e2hCB6XzuDsuK+uA+TGbqo+vkxzlfjh0lKV1WuTsfvy4udJTGn4q6VmQyTCPDNBQIRQYsjQJ382hrTvVokBHC1hNidIjlecL3T0DdfcX+qe/1bLjwGFEyrTLLhr/6knDjFp0eWt+gqrbDFsA3DOURBXyyd9n7TkFqM+oH5ZDOBFr3Gxn5FyLuRddY+vcqhffEWn9GMTktQlikoQhMCwsh7x/V9przwfKbuoPTvJxOwwKUw77Pwfplt8rS0K33KBA66cl3HyzT5nIFwdszmIz6og80fXAqJ3VOVDYBHavO9+wn/WaUb18GBzElVUOtrYZAgYciXn3Nim0=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1ODA3MzA0MzEwMCwKICAicHJvZmlsZUlkIiA6ICI3MzY0ODFkZmY2ZGY0NWUwOTA0ODg0ZjNiMWExMjY1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd2lsaWdodFFBUSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80N2YxYmMzZmE5MWNkODZjZjRiYTc3NDU1ODZkNjcyMDdiNThlN2NmMjdiZGY3YTcxNzc4MDg0Mzc4NWJmOWI1IgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Farming Pet\",1:\"\",2:\"§7Health: §a{HEALTH}\",3:\"§7Farming Fortune: §a{FARMING_FORTUNE}\",4:\"\",5:\"§6Efficient Mushrooms\",6:\"§7Mushroom and Mycelium minions work\",7:\"§a{0}% §7faster while on your island.\",8:\"\",9:\"§6Mushroom Eater\",10:\"§7When breaking mature crops, there\",11:\"§7is a §a{1}% §7chance that a mushroom will\",12:\"§7drop.\",13:\"\",14:\"§eRight-click to add this pet to your\",15:\"§epet menu!\",16:\"\",17:\"§8Can be upgraded at Kat in The Hub!\",18:\"§5§lEPIC\"],Name:\"§7[Lvl {LVL}] §5Mooshroom Cow\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"\",\"extra\":[{\"text\":\"[Lvl {LVL}] \",\"color\":\"gray\"},{\"text\":\"Mooshroom Cow\",\"color\":\"dark_purple\"}]}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"[Lvl {LVL}] \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mooshroom Cow\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Farming Pet\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{HEALTH}\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Farming Fortune: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{FARMING_FORTUNE}\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Efficient Mushrooms\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Mushroom and Mycelium minions work\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"{0}% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"faster while on your island.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Mushroom Eater\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"When breaking mature crops, there\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"is a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"{1}% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance that a mushroom will\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"drop.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to add this pet to your\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"pet menu!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Can be upgraded at Kat in The Hub!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"\\\\\\\"candyUsed\\\\\\\"\":0,\"\\\\\\\"exp\\\\\\\"\":0.0,\"petInfo\":\"{\\\\\\\"type\\\\\\\":\\\\\\\"MOOSHROOM_COW\\\\\",\"\\\\\\\"tier\\\\\\\"\":\"\\\\\\\"EPIC\\\\\\\"\",\"id\":\"MOOSHROOM_COW;3\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY1ODA3MzA0MzEwMCwKICAicHJvZmlsZUlkIiA6ICI3MzY0ODFkZmY2ZGY0NWUwOTA0ODg0ZjNiMWExMjY1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd2lsaWdodFFBUSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80N2YxYmMzZmE5MWNkODZjZjRiYTc3NDU1ODZkNjcyMDdiNThlN2NmMjdiZGY3YTcxNzc4MDg0Mzc4NWJmOWI1IgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Farming Pet",
-    "",
-    "§7Health: §a{HEALTH}",
-    "§7Farming Fortune: §a{FARMING_FORTUNE}",
-    "",
-    "§6Efficient Mushrooms",
-    "§7Mushroom and Mycelium minions work",
-    "§a{0}% §7faster while on your island.",
-    "",
-    "§6Mushroom Eater",
-    "§7When breaking mature crops, there",
-    "§7is a §a{1}% §7chance that a mushroom will",
-    "§7drop.",
-    "",
-    "§eRight-click to add this pet to your",
-    "§epet menu!",
-    "",
-    "§8Can be upgraded at Kat in The Hub!",
-    "§5§lEPIC"
+    "{\"text\":\"Farming Pet\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"{HEALTH}\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Farming Fortune: \",\"color\":\"gray\"},{\"text\":\"{FARMING_FORTUNE}\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Efficient Mushrooms\",\"color\":\"gold\"}",
+    "{\"text\":\"Mushroom and Mycelium minions work\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"{0}% \",\"color\":\"green\"},{\"text\":\"faster while on your island.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Mushroom Eater\",\"color\":\"gold\"}",
+    "{\"text\":\"When breaking mature crops, there\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"is a \",\"color\":\"gray\"},{\"text\":\"{1}% \",\"color\":\"green\"},{\"text\":\"chance that a mushroom will\",\"color\":\"gray\"}]}",
+    "{\"text\":\"drop.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to add this pet to your\",\"color\":\"yellow\"}",
+    "{\"text\":\"pet menu!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Can be upgraded at Kat in The Hub!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "MOOSHROOM_COW;3",
   "clickcommand": "",
@@ -45,5 +45,8 @@
         "ENCHANTED_MYCELIUM:64"
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

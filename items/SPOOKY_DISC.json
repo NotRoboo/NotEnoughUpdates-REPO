@@ -1,23 +1,26 @@
 {
   "internalname": "SPOOKY_DISC",
   "itemid": "minecraft:record_cat",
-  "displayname": "§9Spooky Disc",
+  "displayname": "{\"text\":\"Spooky Disc\",\"color\":\"blue\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Place this inside a jukebox to\",1:\"§7play a spooky song!\",2:\"\",3:\"§6Hallow Hallow\",4:\"  §7By ShinkoNet\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Spooky Disc\"},ExtraAttributes:{id:\"SPOOKY_DISC\"}}",
+  "nbttag": "{\"id\":\"minecraft:record_cat\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spooky Disc\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this inside a jukebox to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"play a spooky song!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Hallow Hallow\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"By ShinkoNet\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPOOKY_DISC\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§7Place this inside a jukebox to",
-    "§7play a spooky song!",
-    "",
-    "§6Hallow Hallow",
-    "  §7By ShinkoNet",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this inside a jukebox to\",\"color\":\"gray\"}",
+    "{\"text\":\"play a spooky song!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Hallow Hallow\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"By ShinkoNet\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Spooky_Disc",
     "https://wiki.hypixel.net/Spooky_Disc"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

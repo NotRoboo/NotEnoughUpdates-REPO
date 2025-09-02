@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§9Creeper Pants",
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Health: §a+200\",1:\"§7Defense: §a+65\",2:\"\",3:\"§6Ability: Detonate\",4:\"§7Causes an explosion when\",5:\"§7dropping below §a20% HP§7,\",6:\"§7damaging and knocking back all\",7:\"§7monsters around you.\",8:\"§8Cooldown: §a60s\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§9§lRARE LEGGINGS\"],color:8054828,Name:\"§9Creeper Pants\"},ExtraAttributes:{color:\"122:232:44\",id:\"CREEPER_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Creeper Pants\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Creeper Pants\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+200\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+65\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Detonate\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Causes an explosion when\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"dropping below \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20% HP\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\",\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"damaging and knocking back all\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"monsters around you.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"60s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE LEGGINGS\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"]}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+200",
-    "§7Defense: §a+65",
-    "",
-    "§6Ability: Detonate",
-    "§7Causes an explosion when",
-    "§7dropping below §a20% HP§7,",
-    "§7damaging and knocking back all",
-    "§7monsters around you.",
-    "§8Cooldown: §a60s",
-    "",
-    "§7§8This item can be reforged!",
-    "§9§lRARE LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+200\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+65\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Detonate\",\"color\":\"gold\"}",
+    "{\"text\":\"Causes an explosion when\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"dropping below \",\"color\":\"gray\"},{\"text\":\"20% HP\",\"color\":\"green\"},{\"text\":\",\",\"color\":\"gray\"}]}",
+    "{\"text\":\"damaging and knocking back all\",\"color\":\"gray\"}",
+    "{\"text\":\"monsters around you.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"60s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE LEGGINGS\",\"color\":\"blue\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "ENCHANTED_GUNPOWDER:32",
@@ -36,5 +36,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Creeper_Pants",
     "https://wiki.hypixel.net/Creeper_Pants"
   ],
-  "crafttext": "Requires: Gunpowder VIII"
+  "crafttext": "Requires: Gunpowder VIII",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

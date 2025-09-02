@@ -1,25 +1,25 @@
 {
   "itemid": "minecraft:blaze_powder",
-  "displayname": "§6Free Will",
-  "nbttag": "{ExtraAttributes:{id:\"FREE_WILL\"},HideFlags:254,ItemModel:\"minecraft:blaze_powder\",display:{Lore:[0:\"§7Giving this to a minion will give them\",1:\"§7the illusion of §dFree Will§7. They will be\",2:\"§7met with the most important choice of\",3:\"§7their minion life.\",4:\"\",5:\"§7They will either §astay §7and become\",6:\"§7loyal, granting §a+10% Minion Speed §7or\",7:\"§cleave you forever §7and send you a\",8:\"§dPostcard§7.\",9:\"\",10:\"§7Loyalty Chance:\",11:\"§a50% §7at Minion Tier I, §a+4% §7per minion\",12:\"§7tier.\",13:\"\",14:\"§5§kX§5 Rift-Transferable §5§kX\",15:\"§6§lLEGENDARY\"],Name:\"§6Free Will\"},ench:[]}",
+  "displayname": "{\"text\":\"Free Will\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:blaze_powder\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Free Will\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Giving this to a minion will give them\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the illusion of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Free Will\\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\". They will be\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"met with the most important choice of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"their minion life.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"They will either \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"stay \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"and become\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"loyal, granting \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10% Minion Speed \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"or\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"leave you forever \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"and send you a\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Postcard\\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Loyalty Chance:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"50% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"at Minion Tier I, \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+4% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"per minion\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"tier.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FREE_WILL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Giving this to a minion will give them",
-    "§7the illusion of §dFree Will§7. They will be",
-    "§7met with the most important choice of",
-    "§7their minion life.",
-    "",
-    "§7They will either §astay §7and become",
-    "§7loyal, granting §a+10% Minion Speed §7or",
-    "§cleave you forever §7and send you a",
-    "§dPostcard§7.",
-    "",
-    "§7Loyalty Chance:",
-    "§a50% §7at Minion Tier I, §a+4% §7per minion",
-    "§7tier.",
-    "",
-    "§5§kX§5 Rift-Transferable §5§kX",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Giving this to a minion will give them\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the illusion of \",\"color\":\"gray\"},{\"text\":\"Free Will\",\"color\":\"light_purple\"},{\"text\":\". They will be\",\"color\":\"gray\"}]}",
+    "{\"text\":\"met with the most important choice of\",\"color\":\"gray\"}",
+    "{\"text\":\"their minion life.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"They will either \",\"color\":\"gray\"},{\"text\":\"stay \",\"color\":\"green\"},{\"text\":\"and become\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"loyal, granting \",\"color\":\"gray\"},{\"text\":\"+10% Minion Speed \",\"color\":\"green\"},{\"text\":\"or\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"leave you forever \",\"color\":\"red\"},{\"text\":\"and send you a\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Postcard\",\"color\":\"light_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Loyalty Chance:\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"50% \",\"color\":\"green\"},{\"text\":\"at Minion Tier I, \",\"color\":\"gray\"},{\"text\":\"+4% \",\"color\":\"green\"},{\"text\":\"per minion\",\"color\":\"gray\"}]}",
+    "{\"text\":\"tier.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "FREE_WILL",
   "clickcommand": "",
@@ -29,5 +29,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Free_Will",
     "https://wiki.hypixel.net/Free_Will"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:enchanted_book",
-  "displayname": "§fEnchanted Book",
-  "nbttag": "{ExtraAttributes:{enchantments:{stealth:1},id:\"STEALTH;1\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Stealth I\",1:\"§7Causes timid creatures that normally\",2:\"§7flee to remain still.\",3:\"\",4:\"§7Applicable on: §9Boots\",5:\"§7Apply Cost: §310 Exp Levels\",6:\"\",7:\"§e▲ §7Stealth cannot be combined!\",8:\"§7Use this on an item in an Anvil to\",9:\"§7apply it!\",10:\"\",11:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Book\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:enchanted_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Book\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Stealth I\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"Causes timid creatures that normally\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"flee to remain still.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Applicable on: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Boots\\\",\\\"color\\\":\\\"blue\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Apply Cost: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10 Exp Levels\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"▲ \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"Stealth cannot be combined!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Use this on an item in an Anvil to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"apply it!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"enchantments\":\"{stealth:1\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§9Stealth I",
-    "§7Causes timid creatures that normally",
-    "§7flee to remain still.",
-    "",
-    "§7Applicable on: §9Boots",
-    "§7Apply Cost: §310 Exp Levels",
-    "",
-    "§e▲ §7Stealth cannot be combined!",
-    "§7Use this on an item in an Anvil to",
-    "§7apply it!",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"Stealth I\",\"color\":\"blue\"}",
+    "{\"text\":\"Causes timid creatures that normally\",\"color\":\"gray\"}",
+    "{\"text\":\"flee to remain still.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Applicable on: \",\"color\":\"gray\"},{\"text\":\"Boots\",\"color\":\"blue\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Apply Cost: \",\"color\":\"gray\"},{\"text\":\"10 Exp Levels\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"▲ \",\"color\":\"yellow\"},{\"text\":\"Stealth cannot be combined!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Use this on an item in an Anvil to\",\"color\":\"gray\"}",
+    "{\"text\":\"apply it!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STEALTH;1",
   "clickcommand": "",
@@ -38,5 +38,8 @@
       "count": 1,
       "overrideOutputId": "STEALTH;1"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,23 +1,23 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5KaRate Rat Skin",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,SkullOwner:{Id:\"db577f72-259f-3cd7-9b4e-78376aaf1848\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5OTk0NjY3MzQ2OSwKICAicHJvZmlsZUlkIiA6ICJmMTYwZTMxMzJjYWM0YjRiOWM5OTk2NDQ1OGIxOWM0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYWNrX1JvbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMDk4M2ZmN2YzZTc1MjVmMzJmY2VhYjA3YjY0YWNlZDEwNGU0Yzg3OTgyOTRhMWRjYzI2MmU1MjgzMzI3MjU4IgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§8Consumed on use\",1:\"\",2:\"§7§7Pet skins change the look and\",3:\"§7particle trail of your pet but\",4:\"§7only one skin can be active at a\",5:\"§7time!\",6:\"\",7:\"§7§7This skin can only be applied\",8:\"§7to Rat pets.\",9:\"\",10:\"§7§eRight-click on your summoned\",11:\"§epet to apply this skin!\",12:\"\",13:\"§5§lEPIC COSMETIC\"],Name:\"§5KaRate Rat Skin\"},ExtraAttributes:{id:\"PET_SKIN_RAT_KARATE\"},AttributeModifiers:[]}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"KaRate Rat Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"KaRate Rat Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on use\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Pet skins change the look and\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"particle trail of your pet but\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"only one skin can be active at a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"time!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin can only be applied\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"to Rat pets.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click on your summoned\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"pet to apply this skin!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PET_SKIN_RAT_KARATE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Consumed on use",
-    "",
-    "§7§7Pet skins change the look and",
-    "§7particle trail of your pet but",
-    "§7only one skin can be active at a",
-    "§7time!",
-    "",
-    "§7§7This skin can only be applied",
-    "§7to Rat pets.",
-    "",
-    "§7§eRight-click on your summoned",
-    "§epet to apply this skin!",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Consumed on use\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Pet skins change the look and\",\"color\":\"gray\"}",
+    "{\"text\":\"particle trail of your pet but\",\"color\":\"gray\"}",
+    "{\"text\":\"only one skin can be active at a\",\"color\":\"gray\"}",
+    "{\"text\":\"time!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin can only be applied\",\"color\":\"gray\"}",
+    "{\"text\":\"to Rat pets.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click on your summoned\",\"color\":\"yellow\"}",
+    "{\"text\":\"pet to apply this skin!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "PET_SKIN_RAT_KARATE",
   "crafttext": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pet_Skins",
     "https://wiki.hypixel.net/Pet_Skins"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

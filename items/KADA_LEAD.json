@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:lead",
-  "displayname": "§aKada Lead",
-  "nbttag": "{ExtraAttributes:{id:\"KADA_LEAD\"},HideFlags:254,ItemModel:\"minecraft:lead\",display:{Lore:[0:\"§7§oThe lead has to be exceedingly soft\",1:\"§7§odue to the nature of the mount. The\",2:\"§7§ochicken needs to be comfy.\",3:\"\",4:\"§eRight-click to view recipes!\",5:\"\",6:\"§a§lUNCOMMON\"],Name:\"§aKada Lead\"},ench:[]}",
+  "displayname": "{\"text\":\"Kada Lead\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:lead\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Kada Lead\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The lead has to be exceedingly soft\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"due to the nature of the mount. The\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"chicken needs to be comfy.\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"KADA_LEAD\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§oThe lead has to be exceedingly soft",
-    "§7§odue to the nature of the mount. The",
-    "§7§ochicken needs to be comfy.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"The lead has to be exceedingly soft\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"due to the nature of the mount. The\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"chicken needs to be comfy.\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "KADA_LEAD",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Kada_Lead",
     "https://wiki.hypixel.net/Kada_Lead"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

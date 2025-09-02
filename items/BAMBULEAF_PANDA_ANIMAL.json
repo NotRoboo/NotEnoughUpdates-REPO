@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aBambuleaf Panda (Animal)",
-  "nbttag": "{ExtraAttributes:{id:\"BAMBULEAF_PANDA_ANIMAL\"},HideFlags:254,SkullOwner:{Id:\"e1e1c2e4-1ed2-473d-bde2-3ec718535399\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyNTUxNTM2NTA1MCwKICAicHJvZmlsZUlkIiA6ICJjNmViMzdjNmE4YjM0MDI3OGJjN2FmZGE3ZjMxOWJmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbFJleUNhbGFiYXphbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNWQ4MGQyMGQyMWUyY2EzN2Y2OGRmOTFhZmY5OTc0Y2I1MWE5ZDU5MGMwZmExNDFiNTQ0ZDdlZjkwNTY4MjMyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]}},display:{Lore:[0:\"§7The Bambuleaf Panda is a passive mob that can be found on §2Galatea§7.\",1:\"§7They only appear while it is Spring or Summer.\"],Name:\"§aBambuleaf Panda (Animal)\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bambuleaf Panda (Animal)\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bambuleaf Panda (Animal)\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"The Bambuleaf Panda is a passive mob that can be found on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Galatea\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"They only appear while it is Spring or Summer.\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"BAMBULEAF_PANDA_ANIMAL\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Bambuleaf Panda is a passive mob that can be found on §2Galatea§7.",
-    "§7They only appear while it is Spring or Summer."
+    "{\"text\":\"\",\"extra\":[{\"text\":\"The Bambuleaf Panda is a passive mob that can be found on \",\"color\":\"gray\"},{\"text\":\"Galatea\",\"color\":\"dark_green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"They only appear while it is Spring or Summer.\",\"color\":\"gray\"}"
   ],
   "internalname": "BAMBULEAF_PANDA_ANIMAL",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

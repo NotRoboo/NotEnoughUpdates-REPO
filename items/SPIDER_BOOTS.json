@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:iron_boots",
-  "displayname": "§9Spider's Boots",
-  "nbttag": "{ExtraAttributes:{id:\"SPIDER_BOOTS\"},HideFlags:254,ItemModel:\"minecraft:iron_boots\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+45\",1:\"§7Speed: §a+5\",2:\"§7Intelligence: §a+50\",3:\"\",4:\"§6Ability: Double Jump \",5:\"§7Allows you to double jump by\",6:\"§7sneaking mid air!\",7:\"§8Mana Cost: §350\",8:\"\",9:\"§4This item is Arachnal Ж!\",10:\"\",11:\"§8This item can be reforged!\",12:\"§9§lRARE BOOTS\"],Name:\"§9Spider's Boots\"}}",
+  "displayname": "{\"text\":\"Spider\u0027s Boots\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_boots\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spider\u0027s Boots\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+45\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+50\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Double Jump \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"Allows you to double jump by\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"sneaking mid air!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"50\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item is Arachnal Ж!\\\",\\\"color\\\":\\\"dark_red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE BOOTS\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SPIDER_BOOTS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+45",
-    "§7Speed: §a+5",
-    "§7Intelligence: §a+50",
-    "",
-    "§6Ability: Double Jump ",
-    "§7Allows you to double jump by",
-    "§7sneaking mid air!",
-    "§8Mana Cost: §350",
-    "",
-    "§4This item is Arachnal Ж!",
-    "",
-    "§8This item can be reforged!",
-    "§9§lRARE BOOTS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+45\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+50\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Double Jump \",\"color\":\"gold\"}",
+    "{\"text\":\"Allows you to double jump by\",\"color\":\"gray\"}",
+    "{\"text\":\"sneaking mid air!\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"50\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item is Arachnal Ж!\",\"color\":\"dark_red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE BOOTS\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SPIDER_BOOTS",
   "clickcommand": "viewrecipe",
@@ -37,5 +37,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

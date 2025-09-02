@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:diamond_leggings",
-  "displayname": "§6Perfect Leggings - Tier XII",
-  "nbttag": "{ExtraAttributes:{id:\"PERFECT_LEGGINGS_12\"},HideFlags:254,ItemModel:\"minecraft:diamond_leggings\",Unbreakable:1B,display:{Lore:[0:\"§7Defense: §a+360\",1:\" §8[§7❈§8] [§7❈§8] [§7❈§8]\",2:\"\",3:\"§8This item can be reforged!\",4:\"§6§lLEGENDARY LEGGINGS\"],Name:\"§6Perfect Leggings - Tier XII\"}}",
+  "displayname": "{\"text\":\"Perfect Leggings - Tier XII\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Perfect Leggings - Tier XII\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+360\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❈\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"] [\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❈\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"] [\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❈\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY LEGGINGS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PERFECT_LEGGINGS_12\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+360",
-    " §8[§7❈§8] [§7❈§8] [§7❈§8]",
-    "",
-    "§8This item can be reforged!",
-    "§6§lLEGENDARY LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+360\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"❈\",\"color\":\"gray\"},{\"text\":\"] [\",\"color\":\"dark_gray\"},{\"text\":\"❈\",\"color\":\"gray\"},{\"text\":\"] [\",\"color\":\"dark_gray\"},{\"text\":\"❈\",\"color\":\"gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"LEGENDARY LEGGINGS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "PERFECT_LEGGINGS_12",
   "clickcommand": "viewrecipe",
@@ -30,5 +30,8 @@
     "C2": "ENCHANTED_DIAMOND_BLOCK:1",
     "C3": ""
   },
-  "parent": "PERFECT_LEGGINGS_1"
+  "parent": "PERFECT_LEGGINGS_1",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

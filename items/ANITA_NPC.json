@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Anita (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"87cc81d1-6e2e-5165-8b60-e26cb7677a55\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVhYzE3YzEyZjQ3YTUxZjBiOTNjZDA3OWJmYmJjNWEzMTU2NTg1M2ZhMmExYWRhYTlkNWFlNDgzNzA4OWM2In19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Anita (NPC)\"},ExtraAttributes:{id:\"ANITA_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Anita (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Anita (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"ANITA_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "ANITA_NPC",
   "clickcommand": "viewrecipe",
@@ -206,5 +206,8 @@
       "result": "JACOBS_TICKET:16"
     }
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

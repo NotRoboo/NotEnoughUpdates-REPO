@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:stone_pickaxe",
-  "displayname": "§aFractured Mithril Pickaxe",
-  "nbttag": "{ExtraAttributes:{id:\"FRACTURED_MITHRIL_PICKAXE\"},HideFlags:254,ItemModel:\"minecraft:stone_pickaxe\",Unbreakable:1B,display:{Lore:[0:\"§8Breaking Power 5\",1:\"\",2:\"§7Damage: §c+30\",3:\"§7Mining Speed: §a+225\",4:\"\",5:\"§8This item can be reforged!\",6:\"§a§lUNCOMMON PICKAXE\"],Name:\"§aFractured Mithril Pickaxe\"},ench:[]}",
+  "displayname": "{\"text\":\"Fractured Mithril Pickaxe\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:stone_pickaxe\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fractured Mithril Pickaxe\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Breaking Power 5\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mining Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+225\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON PICKAXE\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FRACTURED_MITHRIL_PICKAXE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Breaking Power 5",
-    "",
-    "§7Damage: §c+30",
-    "§7Mining Speed: §a+225",
-    "",
-    "§8This item can be reforged!",
-    "§a§lUNCOMMON PICKAXE"
+    "{\"text\":\"Breaking Power 5\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mining Speed: \",\"color\":\"gray\"},{\"text\":\"+225\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"UNCOMMON PICKAXE\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "FRACTURED_MITHRIL_PICKAXE",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Fractured_Mithril_Pickaxe",
     "https://wiki.hypixel.net/Fractured_Mithril_Pickaxe"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

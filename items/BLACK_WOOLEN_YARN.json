@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:wool",
-  "displayname": "§9Black Woolen Yarn",
-  "nbttag": "{ExtraAttributes:{id:\"BLACK_WOOLEN_YARN\"},HideFlags:254,ItemModel:\"minecraft:black_wool\",display:{Lore:[0:\"§7Use at §bKat §7to upgrade §eBlack Cat Pets\",1:\"§7to §dMythic §7rarity.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Black Woolen Yarn\"}}",
-  "damage": 15,
+  "itemid": "minecraft:black_wool",
+  "displayname": "{\"text\":\"Black Woolen Yarn\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:black_wool\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Black Woolen Yarn\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Use at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Kat \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"to upgrade \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Black Cat Pets\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Mythic \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"rarity.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BLACK_WOOLEN_YARN\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Use at §bKat §7to upgrade §eBlack Cat Pets",
-    "§7to §dMythic §7rarity.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Use at \",\"color\":\"gray\"},{\"text\":\"Kat \",\"color\":\"aqua\"},{\"text\":\"to upgrade \",\"color\":\"gray\"},{\"text\":\"Black Cat Pets\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"to \",\"color\":\"gray\"},{\"text\":\"Mythic \",\"color\":\"light_purple\"},{\"text\":\"rarity.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "BLACK_WOOLEN_YARN",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Black_Woolen_Yarn",
     "https://wiki.hypixel.net/Black_Woolen_Yarn"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

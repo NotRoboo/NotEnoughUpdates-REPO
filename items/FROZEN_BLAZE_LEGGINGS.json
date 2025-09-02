@@ -1,27 +1,27 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§6Frozen Blaze Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+40\",1:\"§7Defense: §a+140\",2:\"§7Speed: §a+2\",3:\" §8[§8❁§8] §8[§8⚔§8]\",4:\"\",5:\"§6Full Set Bonus: Frozen Blazing Aura §7(0/4)\",6:\"§7Damages mobs in a §a5§7 block range for\",7:\"§7§a300 §7base damage + §a3%§7 of their max\",8:\"§7§7§c❤ Health §7every second and applies\",9:\"§7§bSlowness I §7for §e4 §7seconds.\",10:\"\",11:\"§7Max §c500 §7damage/s\",12:\"§7Blaze Rod Collection: §6§k000\",13:\"§8+100 per 5,000 rods\",14:\"\",15:\"§7§8This item can be reforged!\",16:\"§7§4❣ §cRequires §aCombat Skill 22§c.\",17:\"§6§lLEGENDARY LEGGINGS\"],color:10541807,Name:\"§6Frozen Blaze Leggings\"},ExtraAttributes:{id:\"FROZEN_BLAZE_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Frozen Blaze Leggings\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Frozen Blaze Leggings\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+140\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"❁\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"] \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"[\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"⚔\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"]\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Frozen Blazing Aura \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damages mobs in a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" block range for\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"300 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"base damage + \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" of their max\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"every second and applies\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Slowness I \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"4 \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"seconds.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"500 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage/s\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Blaze Rod Collection: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"000\\\",\\\"color\\\":\\\"gold\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"+100 per 5,000 rods\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill 22\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY LEGGINGS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FROZEN_BLAZE_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Strength: §c+40",
-    "§7Defense: §a+140",
-    "§7Speed: §a+2",
-    " §8[§8❁§8] §8[§8⚔§8]",
-    "",
-    "§6Full Set Bonus: Frozen Blazing Aura §7(0/4)",
-    "§7Damages mobs in a §a5§7 block range for",
-    "§7§a300 §7base damage + §a3%§7 of their max",
-    "§7§7§c❤ Health §7every second and applies",
-    "§7§bSlowness I §7for §e4 §7seconds.",
-    "",
-    "§7Max §c500 §7damage/s",
-    "§7Blaze Rod Collection: §6§k000",
-    "§8+100 per 5,000 rods",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aCombat Skill 22§c.",
-    "§6§lLEGENDARY LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+140\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\" \"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"❁\",\"color\":\"dark_gray\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"⚔\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Frozen Blazing Aura \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damages mobs in a \",\"color\":\"gray\"},{\"text\":\"5\",\"color\":\"green\"},{\"text\":\" block range for\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"300 \",\"color\":\"green\"},{\"text\":\"base damage + \",\"color\":\"gray\"},{\"text\":\"3%\",\"color\":\"green\"},{\"text\":\" of their max\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"every second and applies\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Slowness I \",\"color\":\"aqua\"},{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"4 \",\"color\":\"yellow\"},{\"text\":\"seconds.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max \",\"color\":\"gray\"},{\"text\":\"500 \",\"color\":\"red\"},{\"text\":\"damage/s\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Blaze Rod Collection: \",\"color\":\"gray\"},{\"text\":\"000\",\"color\":\"gold\",\"obfuscated\":true}]}",
+    "{\"text\":\"+100 per 5,000 rods\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill 22\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY LEGGINGS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "ENCHANTED_PACKED_ICE:8",
@@ -42,5 +42,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Frozen_Blaze_Leggings",
     "https://wiki.hypixel.net/Frozen_Blaze_Leggings"
   ],
-  "crafttext": "Requires: Ice IX"
+  "crafttext": "Requires: Ice IX",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

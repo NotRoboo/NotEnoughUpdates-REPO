@@ -1,18 +1,21 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§fSpirit I Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:1b,Amplifier:0b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§bSpirit I §f(3:00)\",2:\"§7Grants §a+10 §f✦ Speed §7and\",3:\"§7§a+10% §9☠ Crit Damage§7.\",4:\"\",5:\"§f§lCOMMON\"],Name:\"§fSpirit I Potion\"},ExtraAttributes:{potion_level:1,potion:\"spirit\",effects:[0:{level:1,effect:\"spirit\",duration_ticks:3600}],potion_type:\"POTION\",id:\"SPIRIT\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Spirit I Potion\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Spirit I Potion\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Spirit I \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Grants \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"✦ Speed \\\",\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"and\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"+10% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"☠ Crit Damage\\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":1,\"potion\":\"spirit\",\"effects\":\"[0:{level:1\",\"effect\":\"spirit\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§bSpirit I §f(3:00)",
-    "§7Grants §a+10 §f✦ Speed §7and",
-    "§7§a+10% §9☠ Crit Damage§7.",
-    "",
-    "§f§lCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Spirit I \",\"color\":\"aqua\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Grants \",\"color\":\"gray\"},{\"text\":\"+10 \",\"color\":\"green\"},{\"text\":\"✦ Speed \",\"color\":\"white\"},{\"text\":\"and\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"+10% \",\"color\":\"green\"},{\"text\":\"☠ Crit Damage\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTION_SPIRIT;1",
   "clickcommand": "",
   "modver": "1.0.0",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

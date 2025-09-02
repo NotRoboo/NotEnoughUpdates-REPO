@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dMotes Grubber (Rift NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7c0ec203-5ec2-27af-9339-733dd4d24b9c\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E2YTZiZTA1YmJlNmZlZTFlNGEwNDgxNDg0MzcwNmE0YTVjOTA3ZWUyNTdhNGMxMTlkNTdiNjVkYjVhNzkxOCJ9fX0\u003d\"}]},Name:\"7c0ec203-5ec2-27af-9339-733dd4d24b9c\"},display:{Lore:[0:\"\"],Name:\"§dMotes Grubber (Rift NPC)\"},ExtraAttributes:{id:\"MOTES_GRUBBER_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Motes Grubber (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Motes Grubber (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"MOTES_GRUBBER_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "MOTES_GRUBBER_RIFT_NPC",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Motes_Grubber",
     "https://wiki.hypixel.net/Motes_Grubber"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Ubik's Cube",
-  "nbttag": "{ExtraAttributes:{id:\"UBIKS_CUBE\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"77f0968b-a50b-3784-8d78-a219fd64d254\",Properties:{textures:[0:{Name:\"textures\",Signature:\"mDsSHGipeGKkmliIDonXLsODRJat3FWShZFp6D5QaRcST5M3gMd0PwxC7yIvbQN0E3Jb+KiX+fn4uD60jmou6y5T6ZIfAR9jci3SVc/6wHWzNCRa7h0HA8/DrrWSF7tt+rgvPW3Efaf1YMWzzDPShRY/PKGHnlIR/HqKD2FaP5bC8k/Zp/Lqsh/5GY10k+3WdK9LsTBmGAKGlVcpA+fUJiGBpH010WsgOyoQvZOQ9+52qLm+gkXU6rSkN5kdano8cb/69lY5wHnR50ceeoTSeyCM2TxIS0s+unTEFZrvRZaPQVPyrg2FVRn1WgvivN7hq67gh8vP+sWdeoQC3qzxG4EICC0tsU2dP9P0I4sdYqWIbEYx4yEVKSMQMhfmijeYJ9kId3YPBtfEGLBse6q57pqgw7+k5JVquG2f/KlmHLaHB7DKksf+oyyo0+i+3cHXg7OMqqMJgDhjFA01/mYj4+6nLTC7Cw6lkAVbtJJd21CtbnynBgGExqDBG3c/7Ndu+J0hW0swqcXjUOkmquiF/vsLLrtYAtdJ3uf5JYPBd/fyQaN/fbJMzSDuqwjrzjl82r3jYqy27nmDvRkesBWlH4PFljcFlcIpqcX6IZV1qCve00nEte0Rjkg8VTMowQKOa/XA3S49VXgDXmbBdzFEAqAZSCkwCfqkiEjJMGAvxc8=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTczMTQyODAxMDM3NywKICAicHJvZmlsZUlkIiA6ICI1OTgyOWY1ZGY3MmM0ZmFlOTBmOGVhYmM0MjFjMzJkYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQZXBwZXJEcmlua2VyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMyMDU0NGQxNmNmMDg4NzY5MTJjY2EwODhiZDg1NWMzYzNiZTMxM2NiMDg3ZTg1MzhhMTVhMmExNzc1MzJlYTciCiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§6Ability: Split or Steal  §e§lRIGHT CLICK\",1:\"§7Click a Player or NPC to challenge\",2:\"§7them to a game of §aSplit §7or §cSteal§7.\",3:\"§8Cooldown: §a2h\",4:\"\",5:\"§6Ability: Stats  §e§lLEFT CLICK\",6:\"§7View the §aSplit §7or §cSteal §7stats of other\",7:\"§7players and NPCs.\",8:\"\",9:\"§6§lLEGENDARY\"],Name:\"§6Ubik's Cube\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Ubik\u0027s Cube\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ubik\u0027s Cube\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Split or Steal \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Click a Player or NPC to challenge\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"them to a game of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Split \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"or \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Steal\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"2h\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Stats \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"LEFT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"View the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Split \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"or \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Steal \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"stats of other\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"players and NPCs.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"UBIKS_CUBE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTczMTQyODAxMDM3NywKICAicHJvZmlsZUlkIiA6ICI1OTgyOWY1ZGY3MmM0ZmFlOTBmOGVhYmM0MjFjMzJkYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQZXBwZXJEcmlua2VyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMyMDU0NGQxNmNmMDg4NzY5MTJjY2EwODhiZDg1NWMzYzNiZTMxM2NiMDg3ZTg1MzhhMTVhMmExNzc1MzJlYTciCiAgICB9CiAgfQp9\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§6Ability: Split or Steal  §e§lRIGHT CLICK",
-    "§7Click a Player or NPC to challenge",
-    "§7them to a game of §aSplit §7or §cSteal§7.",
-    "§8Cooldown: §a2h",
-    "",
-    "§6Ability: Stats  §e§lLEFT CLICK",
-    "§7View the §aSplit §7or §cSteal §7stats of other",
-    "§7players and NPCs.",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Split or Steal \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Click a Player or NPC to challenge\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"them to a game of \",\"color\":\"gray\"},{\"text\":\"Split \",\"color\":\"green\"},{\"text\":\"or \",\"color\":\"gray\"},{\"text\":\"Steal\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"2h\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Stats \",\"color\":\"gold\"},{\"text\":\"LEFT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"View the \",\"color\":\"gray\"},{\"text\":\"Split \",\"color\":\"green\"},{\"text\":\"or \",\"color\":\"gray\"},{\"text\":\"Steal \",\"color\":\"red\"},{\"text\":\"stats of other\",\"color\":\"gray\"}]}",
+    "{\"text\":\"players and NPCs.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "UBIKS_CUBE",
   "clickcommand": "",
@@ -22,5 +22,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Ubik%27s_Cube"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

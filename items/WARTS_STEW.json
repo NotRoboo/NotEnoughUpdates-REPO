@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:rabbit_stew",
-  "displayname": "§cMushroom & Warts Stew",
-  "nbttag": "{ExtraAttributes:{id:\"WARTS_STEW\"},HideFlags:254,ItemModel:\"minecraft:rabbit_stew\",display:{Lore:[0:\"§8Quest Item\",1:\"\",2:\"§7Bring it to §eJuliette §7in §aThe Park§7.\",3:\"\",4:\"§8§oMade with love, and an array of\",5:\"§8§oslightly more questionable\",6:\"§8§oingredients.\",7:\"\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§9§lRARE\"],Name:\"§cMushroom & Warts Stew\"}}",
+  "displayname": "{\"text\":\"Mushroom \u0026 Warts Stew\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:rabbit_stew\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mushroom \u0026 Warts Stew\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Quest Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring it to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Juliette \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"in \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The Park\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Made with love, and an array of\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"slightly more questionable\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"ingredients.\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WARTS_STEW\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Quest Item",
-    "",
-    "§7Bring it to §eJuliette §7in §aThe Park§7.",
-    "",
-    "§8§oMade with love, and an array of",
-    "§8§oslightly more questionable",
-    "§8§oingredients.",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§9§lRARE"
+    "{\"text\":\"Quest Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring it to \",\"color\":\"gray\"},{\"text\":\"Juliette \",\"color\":\"yellow\"},{\"text\":\"in \",\"color\":\"gray\"},{\"text\":\"The Park\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Made with love, and an array of\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"slightly more questionable\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"ingredients.\",\"color\":\"dark_gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "WARTS_STEW",
   "clickcommand": "",
@@ -21,7 +21,10 @@
   "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
   "infoType": "WIKI_URL",
   "info": [
-    "https://hypixel-skyblock.fandom.com/wiki/Mushroom_&_Warts_Stew",
-    "https://wiki.hypixel.net/Mushroom_&_Warts_Stew"
-  ]
+    "https://hypixel-skyblock.fandom.com/wiki/Mushroom_\u0026_Warts_Stew",
+    "https://wiki.hypixel.net/Mushroom_\u0026_Warts_Stew"
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§aGrappling Hook",
-  "nbttag": "{ExtraAttributes:{id:\"GRAPPLING_HOOK\"},HideFlags:254,ItemModel:\"minecraft:fishing_rod\",Unbreakable:1B,display:{Lore:[0:\"§7Travel around in style using this\",1:\"§7Grappling Hook.\",2:\"§82 Second Cooldown\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aGrappling Hook\"}}",
+  "displayname": "{\"text\":\"Grappling Hook\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:fishing_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Grappling Hook\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Travel around in style using this\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Grappling Hook.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"2 Second Cooldown\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"GRAPPLING_HOOK\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Travel around in style using this",
-    "§7Grappling Hook.",
-    "§82 Second Cooldown",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Travel around in style using this\",\"color\":\"gray\"}",
+    "{\"text\":\"Grappling Hook.\",\"color\":\"gray\"}",
+    "{\"text\":\"2 Second Cooldown\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "GRAPPLING_HOOK",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "",
     "C2": "",
     "C3": "STICK:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§aOdger's Silver Tooth",
-  "nbttag": "{ExtraAttributes:{id:\"ODGERS_SILVER_TOOTH\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"78988033-ec31-3055-a5fc-cf92883ecfb5\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0Mzg4NjIyNDI3NiwKICAicHJvZmlsZUlkIiA6ICIwZjczMDA3NjEyNGU0NGM3YWYxMTE1NDY5YzQ5OTY3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPcmVfTWluZXIxMjMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzJkNDFiMjI3OWFiY2U1ZmQ2MjY5MjNiNjFlM2FiOThkY2U0OTcyNDE3Mjg5ZWUyYjczMjE0YzBhYWJhODQxZSIKICAgIH0KICB9Cn0\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Sea Creature Chance: §c+1%\",1:\"§7Trophy Fish Chance: §a+2%\",2:\"\",3:\"§7§oA perfectly fine tooth,\",4:\"§7§obesides a broken chunk...\",5:\"\",6:\"§4❣ §cRequires Adept Trophy\",7:\"§cFisher.\",8:\"§8§l* §8Soulbound §8§l*\",9:\"§a§lUNCOMMON ACCESSORY\"],Name:\"§aOdger's Silver Tooth\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Odger\u0027s Silver Tooth\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Odger\u0027s Silver Tooth\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Trophy Fish Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"A perfectly fine tooth,\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"besides a broken chunk...\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires Adept Trophy\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"Fisher.\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON ACCESSORY\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7Sea Creature Chance: §c+1%",
-    "§7Trophy Fish Chance: §a+2%",
-    "",
-    "§7§oA perfectly fine tooth,",
-    "§7§obesides a broken chunk...",
-    "",
-    "§4❣ §cRequires Adept Trophy",
-    "§cFisher.",
-    "§8§l* §8Soulbound §8§l*",
-    "§a§lUNCOMMON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+1%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Trophy Fish Chance: \",\"color\":\"gray\"},{\"text\":\"+2%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"A perfectly fine tooth,\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"besides a broken chunk...\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires Adept Trophy\",\"color\":\"red\"}]}",
+    "{\"text\":\"Fisher.\",\"color\":\"red\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON ACCESSORY\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "ODGERS_SILVER_TOOTH",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Odger%27s_Silver_Tooth",
     "https://wiki.hypixel.net/Odger%27s_Silver_Tooth"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

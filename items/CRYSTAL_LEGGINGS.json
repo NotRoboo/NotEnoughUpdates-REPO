@@ -1,22 +1,22 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§5Crystal Leggings",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Defense: §a+30\",1:\"§7Intelligence: §a+100\",2:\"\",3:\"§6Full Set Bonus: Refraction §7(0/4)\",4:\"§7The stats of this armor change from\",5:\"§7§a0§7 to §a200%§7 depending on the current\",6:\"§7light level.\",7:\"\",8:\"§7Current Light Level\",9:\"§c0§8 (0%)\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§5§lEPIC LEGGINGS\"],color:16577535,Name:\"§5Crystal Leggings\"},ExtraAttributes:{id:\"CRYSTAL_LEGGINGS\"}}",
+  "displayname": "{\"text\":\"Crystal Leggings\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Crystal Leggings\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Full Set Bonus: Refraction \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"(0/4)\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"The stats of this armor change from\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"200%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" depending on the current\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"light level.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Current Light Level\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\" (0%)\\\",\\\"color\\\":\\\"dark_gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC LEGGINGS\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CRYSTAL_LEGGINGS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Defense: §a+30",
-    "§7Intelligence: §a+100",
-    "",
-    "§6Full Set Bonus: Refraction §7(0/4)",
-    "§7The stats of this armor change from",
-    "§7§a0§7 to §a200%§7 depending on the current",
-    "§7light level.",
-    "",
-    "§7Current Light Level",
-    "§c0§8 (0%)",
-    "",
-    "§7§8This item can be reforged!",
-    "§5§lEPIC LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Full Set Bonus: Refraction \",\"color\":\"gold\"},{\"text\":\"(0/4)\",\"color\":\"gray\"}]}",
+    "{\"text\":\"The stats of this armor change from\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"0\",\"color\":\"green\"},{\"text\":\" to \",\"color\":\"gray\"},{\"text\":\"200%\",\"color\":\"green\"},{\"text\":\" depending on the current\",\"color\":\"gray\"}]}",
+    "{\"text\":\"light level.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Current Light Level\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"0\",\"color\":\"red\"},{\"text\":\" (0%)\",\"color\":\"dark_gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC LEGGINGS\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "CRYSTAL_FRAGMENT:1",
@@ -37,5 +37,8 @@
     "https://hypixel-skyblock.fandom.com/wiki/Crystal_Leggings",
     "https://wiki.hypixel.net/Crystal_Leggings"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

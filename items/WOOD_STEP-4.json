@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:wooden_slab",
-  "displayname": "§fAcacia Slab",
-  "nbttag": "{ExtraAttributes:{id:\"WOOD_STEP-4\"},HideFlags:254,ItemModel:\"minecraft:acacia_slab\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fAcacia Slab\"}}",
-  "damage": 4,
+  "displayname": "{\"text\":\"Acacia Slab\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:wooden_slab\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Acacia Slab\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WOOD_STEP-4\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "WOOD_STEP-4",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C2": "",
     "C3": "",
     "count": 6
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:ladder",
-  "displayname": "§fLadder",
-  "nbttag": "{ExtraAttributes:{id:\"LADDER\"},HideFlags:254,ItemModel:\"minecraft:ladder\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fLadder\"}}",
+  "displayname": "{\"text\":\"Ladder\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:ladder\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ladder\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LADDER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "LADDER",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "STICK:1",
     "count": 3
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:packed_ice",
-  "displayname": "§9Ice Cube",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Prevents all ice from melting on\",1:\"§7your private island.\",2:\"\",3:\"§9§lRARE\"],Name:\"§9Ice Cube\"},ExtraAttributes:{id:\"ICE_CUBE\"}}",
+  "displayname": "{\"text\":\"Ice Cube\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:packed_ice\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ice Cube\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Prevents all ice from melting on\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"your private island.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ICE_CUBE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Prevents all ice from melting on",
-    "§7your private island.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Prevents all ice from melting on\",\"color\":\"gray\"}",
+    "{\"text\":\"your private island.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "ENCHANTED_ICE:1",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ice_Cube",
     "https://wiki.hypixel.net/Ice_Cube"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

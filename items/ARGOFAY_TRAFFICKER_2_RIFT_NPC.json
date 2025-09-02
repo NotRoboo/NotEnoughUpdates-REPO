@@ -1,11 +1,11 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dArgofay Trafficker 2 (Rift NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"99c07e4d-4015-2859-865a-b7c5bcb75279\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U4Nzc0Y2FiYWVjYjRhMDVhYTFhYTE2MzVmZGYzNjA3MGVlYmRkMTkyODdkNGJlMGM2ZTI1NjBhM2ZjMDk4NWIifX19\"}]},Name:\"99c07e4d-4015-2859-865a-b7c5bcb75279\"},display:{Lore:[0:\"§7A set of NPCs that sell\",1:\"§7the §aWyld Armor §7set.\"],Name:\"§dArgofay Trafficker 2 (Rift NPC)\"},ExtraAttributes:{id:\"ARGOFAY_TRAFFICKER_2_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Argofay Trafficker 2 (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Argofay Trafficker 2 (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A set of NPCs that sell\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Wyld Armor \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"set.\\\",\\\"color\\\":\\\"gray\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"ARGOFAY_TRAFFICKER_2_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7A set of NPCs that sell",
-    "§7the §aWyld Armor §7set."
+    "{\"text\":\"A set of NPCs that sell\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the \",\"color\":\"gray\"},{\"text\":\"Wyld Armor \",\"color\":\"green\"},{\"text\":\"set.\",\"color\":\"gray\"}]}"
   ],
   "internalname": "ARGOFAY_TRAFFICKER_2_RIFT_NPC",
   "clickcommand": "",
@@ -24,5 +24,8 @@
     }
   ],
   "crafttext": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

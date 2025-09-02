@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:deadbush",
-  "displayname": "§cDead Bush of Love",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7This item was given to the kind\",1:\"§7souls who helped so much testing\",2:\"§7SkyBlock! Much love §c❤\",3:\"\",4:\"§c§lSPECIAL\"],Name:\"§cDead Bush of Love\"},ExtraAttributes:{id:\"DEAD_BUSH_OF_LOVE\"}}",
+  "displayname": "{\"text\":\"Dead Bush of Love\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:deadbush\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Dead Bush of Love\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item was given to the kind\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"souls who helped so much testing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"SkyBlock! Much love \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DEAD_BUSH_OF_LOVE\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7This item was given to the kind",
-    "§7souls who helped so much testing",
-    "§7SkyBlock! Much love §c❤",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"This item was given to the kind\",\"color\":\"gray\"}",
+    "{\"text\":\"souls who helped so much testing\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"SkyBlock! Much love \",\"color\":\"gray\"},{\"text\":\"❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "DEAD_BUSH_OF_LOVE",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Dead_Bush_of_Love",
     "https://wiki.hypixel.net/Dead_Bush_Of_Love"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

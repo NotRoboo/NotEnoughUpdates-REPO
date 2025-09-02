@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:paper",
-  "displayname": "§c§cExtreme Bingo Card (Extreme Bingo #1)",
-  "nbttag": "{ench:[],Unbreakable:0b,HideFlags:254,display:{Lore:[0:\"§7Obtained during the §61st\",1:\"§6§cExtreme Bingo Event §7during\",2:\"§7§aDecember 2022 §7for completing\",3:\"§7the entire Bingo Card!\",4:\"\",5:\"§7Player: §c§kEisengolem\",6:\"§7Playtime: §a§k69§ah\",7:\"\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§c§lSPECIAL\"],Name:\"§c§cExtreme Bingo Card (Extreme Bingo #1)\"},ExtraAttributes:{bingo_event:12,id:\"EXTREME_BINGO_CARD\",playtime:1425,player:\"§cEisengolem\"}}",
+  "displayname": "{\"text\":\"Extreme Bingo Card (Extreme Bingo #1)\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:paper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Extreme Bingo Card (Extreme Bingo #1)\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained during the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1st\\\",\\\"color\\\":\\\"gold\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Extreme Bingo Event \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"during\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"December 2022 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"for completing\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"the entire Bingo Card!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Player: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Eisengolem\\\",\\\"color\\\":\\\"red\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Playtime: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"69\\\",\\\"color\\\":\\\"green\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\"h\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"bingo_event\":12,\"id\":\"EXTREME_BINGO_CARD\",\"playtime\":1425,\"player\":\"§cEisengolem\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Obtained during the §61st",
-    "§6§cExtreme Bingo Event §7during",
-    "§7§aDecember 2022 §7for completing",
-    "§7the entire Bingo Card!",
-    "",
-    "§7Player: §c§kEisengolem",
-    "§7Playtime: §a§k69§ah",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§c§lSPECIAL"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained during the \",\"color\":\"gray\"},{\"text\":\"1st\",\"color\":\"gold\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Extreme Bingo Event \",\"color\":\"red\"},{\"text\":\"during\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"December 2022 \",\"color\":\"green\"},{\"text\":\"for completing\",\"color\":\"gray\"}]}",
+    "{\"text\":\"the entire Bingo Card!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Player: \",\"color\":\"gray\"},{\"text\":\"Eisengolem\",\"color\":\"red\",\"obfuscated\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Playtime: \",\"color\":\"gray\"},{\"text\":\"69\",\"color\":\"green\",\"obfuscated\":true},{\"text\":\"h\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "EXTREME_BINGO_CARD",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bingo_Card_(Item)",
     "https://wiki.hypixel.net/Bingo_Card"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

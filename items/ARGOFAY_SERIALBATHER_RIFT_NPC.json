@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§dArgofay Serialbather (Rift NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"03d93c3c-58fe-262f-9fbb-588bf4d1ca59\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MxZmQ4YjczNGFmMTYwZGNhMzVhODhmMTVkYWVlYjk0ZTA5Y2Q0NmYxMjRiNzE2ZDBjM2JkYjY3MWUwMmJiMjYifX19\"}]},Name:\"03d93c3c-58fe-262f-9fbb-588bf4d1ca59\"},display:{Lore:[0:\"§7Renowned Argofay Alchemist\"],Name:\"§dArgofay Serialbather (Rift NPC)\"},ExtraAttributes:{id:\"ARGOFAY_SERIALBATHER_RIFT_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Argofay Serialbather (Rift NPC)\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Argofay Serialbather (Rift NPC)\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Renowned Argofay Alchemist\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"ARGOFAY_SERIALBATHER_RIFT_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Renowned Argofay Alchemist"
+    "{\"text\":\"Renowned Argofay Alchemist\",\"color\":\"gray\"}"
   ],
   "internalname": "ARGOFAY_SERIALBATHER_RIFT_NPC",
   "clickcommand": "",
@@ -27,5 +27,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Argofay_Serialbather",
     "https://wiki.hypixel.net/Argofay_Serialbather"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

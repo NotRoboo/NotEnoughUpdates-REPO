@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:paper",
-  "displayname": "§a§oThe Soup",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7From a painter in hard times...\",1:\"\",2:\"§8§l* §8Co-op Soulbound §8§l*\",3:\"§a§lUNCOMMON\"],Name:\"§a§oThe Soup\"},ExtraAttributes:{id:\"THE_SOUP_PAINTING\"}}",
+  "displayname": "{\"text\":\"The Soup\",\"color\":\"green\",\"italic\":true}",
+  "nbttag": "{\"id\":\"minecraft:paper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"The Soup\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":true}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"From a painter in hard times...\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Co-op Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"THE_SOUP_PAINTING\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7From a painter in hard times...",
-    "",
-    "§8§l* §8Co-op Soulbound §8§l*",
-    "§a§lUNCOMMON"
+    "{\"text\":\"From a painter in hard times...\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Co-op Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "THE_SOUP_PAINTING",
   "crafttext": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/The_Soup",
     "https://wiki.hypixel.net/The_Soup"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

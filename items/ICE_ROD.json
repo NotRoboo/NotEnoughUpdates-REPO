@@ -1,29 +1,32 @@
 {
   "internalname": "ICE_ROD",
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§9Ice Rod",
+  "displayname": "{\"text\":\"Ice Rod\",\"color\":\"blue\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{Unbreakable:1,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+30\",1:\"§7Fishing Speed: §a+15\",2:\"\",3:\"§7§cThis rod is broken and cannot be\",4:\"§cused to fish.\",5:\"\",6:\"§7Bring it to §2Roddy §7in the §2Backwater\",7:\"§2Bayou §7to convert it into a §anew rod§7!\",8:\"\",9:\"§7§8This item can be reforged!\",10:\"§7§4❣ §cRequires §aFishing Skill 3§c.\",11:\"§9§lRARE FISHING ROD\"],Name:\"§9Ice Rod\"},ExtraAttributes:{id:\"ICE_ROD\"}}",
+  "nbttag": "{\"id\":\"minecraft:fishing_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ice Rod\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+30\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fishing Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This rod is broken and cannot be\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"used to fish.\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bring it to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Roddy \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Backwater\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bayou \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"to convert it into a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"new rod\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Fishing Skill 3\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE FISHING ROD\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ICE_ROD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "modver": "",
   "lore": [
-    "§7Damage: §c+30",
-    "§7Fishing Speed: §a+15",
-    "",
-    "§7§cThis rod is broken and cannot be",
-    "§cused to fish.",
-    "",
-    "§7Bring it to §2Roddy §7in the §2Backwater",
-    "§2Bayou §7to convert it into a §anew rod§7!",
-    "",
-    "§7§8This item can be reforged!",
-    "§7§4❣ §cRequires §aFishing Skill 3§c.",
-    "§9§lRARE FISHING ROD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+30\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fishing Speed: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This rod is broken and cannot be\",\"color\":\"red\"}",
+    "{\"text\":\"used to fish.\",\"color\":\"red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bring it to \",\"color\":\"gray\"},{\"text\":\"Roddy \",\"color\":\"dark_green\"},{\"text\":\"in the \",\"color\":\"gray\"},{\"text\":\"Backwater\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bayou \",\"color\":\"dark_green\"},{\"text\":\"to convert it into a \",\"color\":\"gray\"},{\"text\":\"new rod\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Fishing Skill 3\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE FISHING ROD\",\"color\":\"blue\",\"bold\":true}"
   ],
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Ice_Rod",
     "https://wiki.hypixel.net/Ice_Rod"
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

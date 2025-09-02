@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:web",
-  "displayname": "§aBasic Fishing Net",
-  "nbttag": "{ExtraAttributes:{id:\"BASIC_FISHING_NET\"},HideFlags:254,ItemModel:\"minecraft:cobweb\",display:{Lore:[0:\"§8Hunting Tool\",1:\"\",2:\"§7Pull: §a+5\",3:\"\",4:\"§6Ability: Yoink  §e§lRIGHT CLICK\",5:\"§7Throw your fishing net at swimming\",6:\"§7fish to catch them!\",7:\"§8Mana Cost: §310\",8:\"§8Cooldown: §a0.5s\",9:\"\",10:\"§a§lUNCOMMON FISHING NET\"],Name:\"§aBasic Fishing Net\"}}",
+  "displayname": "{\"text\":\"Basic Fishing Net\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:web\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Basic Fishing Net\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Hunting Tool\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pull: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Yoink \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Throw your fishing net at swimming\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"fish to catch them!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"10\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"0.5s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON FISHING NET\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BASIC_FISHING_NET\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Hunting Tool",
-    "",
-    "§7Pull: §a+5",
-    "",
-    "§6Ability: Yoink  §e§lRIGHT CLICK",
-    "§7Throw your fishing net at swimming",
-    "§7fish to catch them!",
-    "§8Mana Cost: §310",
-    "§8Cooldown: §a0.5s",
-    "",
-    "§a§lUNCOMMON FISHING NET"
+    "{\"text\":\"Hunting Tool\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pull: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Yoink \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Throw your fishing net at swimming\",\"color\":\"gray\"}",
+    "{\"text\":\"fish to catch them!\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"10\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"0.5s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON FISHING NET\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "BASIC_FISHING_NET",
   "clickcommand": "",
@@ -39,5 +39,8 @@
       "count": 1,
       "overrideOutputId": "BASIC_FISHING_NET"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

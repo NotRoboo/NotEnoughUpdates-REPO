@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cCake Slice of the Century",
-  "nbttag": "{ExtraAttributes:{century_year:300,id:\"CENTURY_MEMENTO_YELLOW\",recipient_id:\"3a2287bf-3755-49f9-9c8e-b7dbd579bc0c\",recipient_name:\"§a[VIP] Closerapha§f\",recipient_team:\"YELLOW\",tickets:150,winning_team:\"GREEN\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"1e2213b4-1b07-360e-964a-2b6550db5d5e\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5MzQzMTU2MjI4OCwKICAicHJvZmlsZUlkIiA6ICIxYmY4ZjBiZDRkZjc0Njg1ODQwNjU2NDc2ZGU0NmNmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcnV6YWRhMjIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4YzA0Nzg3OGY1YzZjOTM1NDQwOTVmNzQ4Zjk2ZTdhZGU0NGZhZDU3NDM4MTQ4YTBhMWJiNTVlZWNlNjkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Commemorates the victory of the\",1:\"§a§lGREEN §7team in the Year 300\",2:\"§7celebrations.\",3:\"\",4:\"§c§lSPECIAL MEMENTO\"],Name:\"§cCake Slice of the Century\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Cake Slice of the Century\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Cake Slice of the Century\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Commemorates the victory of the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"GREEN \\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"team in the Year 300\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"celebrations.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL MEMENTO\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"century_year\":300,\"tickets\":150,\"winning_team\":\"GREEN\",\"id\":\"CENTURY_MEMENTO_YELLOW\",\"recipient_name\":\"§a[VIP] Closerapha§f\",\"recipient_team\":\"YELLOW\",\"recipient_id\":\"3a2287bf-3755-49f9-9c8e-b7dbd579bc0c\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTY5MzQzMTU2MjI4OCwKICAicHJvZmlsZUlkIiA6ICIxYmY4ZjBiZDRkZjc0Njg1ODQwNjU2NDc2ZGU0NmNmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcnV6YWRhMjIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4YzA0Nzg3OGY1YzZjOTM1NDQwOTVmNzQ4Zjk2ZTdhZGU0NGZhZDU3NDM4MTQ4YTBhMWJiNTVlZWNlNjkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Commemorates the victory of the",
-    "§a§lGREEN §7team in the Year 300",
-    "§7celebrations.",
-    "",
-    "§c§lSPECIAL MEMENTO"
+    "{\"text\":\"Commemorates the victory of the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"GREEN \",\"color\":\"green\",\"bold\":true},{\"text\":\"team in the Year 300\",\"color\":\"gray\"}]}",
+    "{\"text\":\"celebrations.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL MEMENTO\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "CENTURY_MEMENTO_YELLOW",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Cake_Slice_of_the_Century",
     "https://wiki.hypixel.net/Cake_Slice_Of_The_Century"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

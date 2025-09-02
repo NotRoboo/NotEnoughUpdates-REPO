@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:nether_star",
-  "displayname": "§9Catalyst",
-  "nbttag": "{ExtraAttributes:{id:\"CATALYST\"},HideFlags:254,ItemModel:\"minecraft:nether_star\",display:{Lore:[0:\"§7When in a minion, this increases the\",1:\"§7number of resources created by §a3x\",2:\"§7for §a3 hours§7!\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Catalyst\"},ench:[]}",
+  "displayname": "{\"text\":\"Catalyst\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:nether_star\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Catalyst\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"When in a minion, this increases the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"number of resources created by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3x\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3 hours\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CATALYST\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7When in a minion, this increases the",
-    "§7number of resources created by §a3x",
-    "§7for §a3 hours§7!",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"When in a minion, this increases the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"number of resources created by \",\"color\":\"gray\"},{\"text\":\"3x\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"3 hours\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "CATALYST",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "ENDER_STONE:1",
     "C2": "ENDER_STONE:1",
     "C3": "ENDER_STONE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:stone",
-  "displayname": "§fDiorite",
-  "nbttag": "{ExtraAttributes:{id:\"STONE-3\"},HideFlags:254,ItemModel:\"minecraft:diorite\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fDiorite\"}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Diorite\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:stone\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Diorite\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"STONE-3\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "STONE-3",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 12
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

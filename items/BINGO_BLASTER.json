@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:golden_horse_armor",
-  "displayname": "§5Bingo Blaster",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Ability Damage: §c+20%\",1:\"§7Intelligence: §a+300\",2:\"\",3:\"§6Ability: Bingo Blast  §e§lRIGHT CLICK\",4:\"§7Shoots out a piercing ray of\",5:\"§7water that travels up to 15\",6:\"§7blocks. Deals §c865.2 §7damage\",7:\"§7to the first enemy hit. Damage\",8:\"§7is halved for each subsequent\",9:\"§7enemy hit.\",10:\"§8Mana Cost: §3125\",11:\"§8Cooldown: §a1s\",12:\"\",13:\"§8§l* §8Soulbound §8§l*\",14:\"§5§lEPIC WAND\"],Name:\"§5Bingo Blaster\"},ExtraAttributes:{id:\"BINGO_BLASTER\"}}",
+  "displayname": "{\"text\":\"Bingo Blaster\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_horse_armor\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bingo Blaster\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+20%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+300\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Bingo Blast \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"Shoots out a piercing ray of\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"water that travels up to 15\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"blocks. Deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"865.2 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"damage\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"to the first enemy hit. Damage\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"is halved for each subsequent\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"enemy hit.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"125\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Cooldown: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"* \\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Soulbound \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"*\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"EPIC WAND\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BINGO_BLASTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Ability Damage: §c+20%",
-    "§7Intelligence: §a+300",
-    "",
-    "§6Ability: Bingo Blast  §e§lRIGHT CLICK",
-    "§7Shoots out a piercing ray of",
-    "§7water that travels up to 15",
-    "§7blocks. Deals §c865.2 §7damage",
-    "§7to the first enemy hit. Damage",
-    "§7is halved for each subsequent",
-    "§7enemy hit.",
-    "§8Mana Cost: §3125",
-    "§8Cooldown: §a1s",
-    "",
-    "§8§l* §8Soulbound §8§l*",
-    "§5§lEPIC WAND"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability Damage: \",\"color\":\"gray\"},{\"text\":\"+20%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+300\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Bingo Blast \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"Shoots out a piercing ray of\",\"color\":\"gray\"}",
+    "{\"text\":\"water that travels up to 15\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"blocks. Deals \",\"color\":\"gray\"},{\"text\":\"865.2 \",\"color\":\"red\"},{\"text\":\"damage\",\"color\":\"gray\"}]}",
+    "{\"text\":\"to the first enemy hit. Damage\",\"color\":\"gray\"}",
+    "{\"text\":\"is halved for each subsequent\",\"color\":\"gray\"}",
+    "{\"text\":\"enemy hit.\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"125\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\"},{\"text\":\"1s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"* \",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\"Soulbound \",\"color\":\"dark_gray\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"EPIC WAND\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "BINGO_BLASTER",
   "crafttext": "",
@@ -28,5 +28,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bingo_Blaster",
     "https://wiki.hypixel.net/Bingo_Blaster"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

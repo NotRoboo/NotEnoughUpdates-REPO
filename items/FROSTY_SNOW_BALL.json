@@ -1,18 +1,21 @@
 {
   "internalname": "FROSTY_SNOW_BALL",
   "itemid": "minecraft:snowball",
-  "displayname": "§fFrosty Snowball",
+  "displayname": "{\"text\":\"Frosty Snowball\",\"color\":\"white\"}",
   "clickcommand": "",
   "damage": 0,
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fFrosty Snowball\"},ExtraAttributes:{id:\"FROSTY_SNOW_BALL\"}}",
+  "nbttag": "{\"id\":\"minecraft:snowball\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Frosty Snowball\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FROSTY_SNOW_BALL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "modver": "2.1.0-REL",
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "crafttext": "",
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Frosty_Snowball",
     "https://wiki.hypixel.net/Frosty_Snowball"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

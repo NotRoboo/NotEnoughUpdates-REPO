@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:shears",
-  "displayname": "§fEnchanted Shears",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_SHEARS\"},HideFlags:254,ItemModel:\"minecraft:shears\",Unbreakable:1B,display:{Lore:[0:\"§7This item can be used as a\",1:\"§7minion upgrade for sheep\",2:\"§7generators. This will\",3:\"§7automatically shear sheep for\",4:\"§7you as they spawn.\",5:\"\",6:\"§f§lCOMMON SHEARS\"],Name:\"§fEnchanted Shears\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Shears\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:shears\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Shears\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"This item can be used as a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"minion upgrade for sheep\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generators. This will\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"automatically shear sheep for\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"you as they spawn.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"COMMON SHEARS\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_SHEARS\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7This item can be used as a",
-    "§7minion upgrade for sheep",
-    "§7generators. This will",
-    "§7automatically shear sheep for",
-    "§7you as they spawn.",
-    "",
-    "§f§lCOMMON SHEARS"
+    "{\"text\":\"This item can be used as a\",\"color\":\"gray\"}",
+    "{\"text\":\"minion upgrade for sheep\",\"color\":\"gray\"}",
+    "{\"text\":\"generators. This will\",\"color\":\"gray\"}",
+    "{\"text\":\"automatically shear sheep for\",\"color\":\"gray\"}",
+    "{\"text\":\"you as they spawn.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"COMMON SHEARS\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_SHEARS",
   "clickcommand": "viewrecipe",
@@ -31,5 +31,8 @@
     "C1": "",
     "C2": "ENCHANTED_IRON:1",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

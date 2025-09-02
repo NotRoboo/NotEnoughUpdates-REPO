@@ -1,23 +1,23 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Revenant Horror V (Boss)",
-  "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"d6a01091-d766-391a-96a0-1091d766a91a\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwYWFkMmY0ZjA2ZDJlMGNhODNjNTQ2MjQ2MDA2NWZjNGEwZDMwOTNhYjY3YzU2NGE1YWU1ZDg5ZGJmMDJiNCJ9fX0\u003d\"}]}},display:{Lore:[0:\"§8Excruciating\",1:\"\",2:\"§7Health: §c10,000,000❤\",3:\"§7Damage: §c2,400 §7per second\",4:\"\",5:\"§aRedemption\",6:\"§7§7Heals rapidly.\",7:\"\",8:\"§cExplosive Assault\",9:\"§7§7Throws explosive TNT.\",10:\"\",11:\"§5Thermonuclear\",12:\"§7§7Charges up and releases a massive\",13:\"§7explosion.\"],Name:\"§6Revenant Horror V (Boss)\"},ExtraAttributes:{id:\"REVENANT_HORROR_5_BOSS\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Revenant Horror V (Boss)\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Revenant Horror V (Boss)\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Excruciating\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"10,000,000❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2,400 \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"per second\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Redemption\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"Heals rapidly.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Explosive Assault\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"Throws explosive TNT.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Thermonuclear\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"{\\\"text\\\":\\\"Charges up and releases a massive\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"explosion.\\\",\\\"color\\\":\\\"gray\\\"}\"],\"minecraft:custom_data\":{\"id\":\"REVENANT_HORROR_5_BOSS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Excruciating",
-    "",
-    "§7Health: §c10,000,000❤",
-    "§7Damage: §c2,400 §7per second",
-    "",
-    "§aRedemption",
-    "§7§7Heals rapidly.",
-    "",
-    "§cExplosive Assault",
-    "§7§7Throws explosive TNT.",
-    "",
-    "§5Thermonuclear",
-    "§7§7Charges up and releases a massive",
-    "§7explosion."
+    "{\"text\":\"Excruciating\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"10,000,000❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"2,400 \",\"color\":\"red\"},{\"text\":\"per second\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Redemption\",\"color\":\"green\"}",
+    "{\"text\":\"Heals rapidly.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Explosive Assault\",\"color\":\"red\"}",
+    "{\"text\":\"Throws explosive TNT.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Thermonuclear\",\"color\":\"dark_purple\"}",
+    "{\"text\":\"Charges up and releases a massive\",\"color\":\"gray\"}",
+    "{\"text\":\"explosion.\",\"color\":\"gray\"}"
   ],
   "internalname": "REVENANT_HORROR_5_BOSS",
   "clickcommand": "viewrecipe",
@@ -101,5 +101,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

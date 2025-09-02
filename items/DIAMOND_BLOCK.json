@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:diamond_block",
-  "displayname": "§fBlock of Diamond",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBlock of Diamond\"},ExtraAttributes:{id:\"DIAMOND_BLOCK\"}}",
+  "displayname": "{\"text\":\"Block of Diamond\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:diamond_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Block of Diamond\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"DIAMOND_BLOCK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "DIAMOND_BLOCK",
   "modver": "2.1.0-REL",
@@ -25,5 +25,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Block_of_Diamond",
     "https://wiki.hypixel.net/Block_Of_Diamond"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

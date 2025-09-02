@@ -1,17 +1,17 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§6Shen's Regalia",
-  "nbttag": "{ExtraAttributes:{id:\"SHENS_REGALIA\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"d4f3c713-ec61-327b-8eb3-1b3b25439e78\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1ODg3MTEwMDgzMywKICAicHJvZmlsZUlkIiA6ICI4YmM3MjdlYThjZjA0YWUzYTI4MDVhY2YzNjRjMmQyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3RpbnZlbnRpdmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM3ZmI2ZjQxNGZmMGViNmJmNTc5N2FjYjNiM2FmMzU0Y2EzYWY5NWNlYjhmMzQxODEyNWY2YjgwNTQxOWYzOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7According to the rumors,\",1:\"§6Shen §7himself is crafting\",2:\"§7special items. Have this in your\",3:\"§7inventory to gain access to a\",4:\"§7unique room hidden below the\",5:\"§6Auction House§7.\",6:\"\",7:\"§6§lLEGENDARY ACCESSORY\"],Name:\"§6Shen's Regalia\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Shen\u0027s Regalia\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Shen\u0027s Regalia\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"According to the rumors,\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Shen \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"himself is crafting\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"special items. Have this in your\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"inventory to gain access to a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"unique room hidden below the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Auction House\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY ACCESSORY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7According to the rumors,",
-    "§6Shen §7himself is crafting",
-    "§7special items. Have this in your",
-    "§7inventory to gain access to a",
-    "§7unique room hidden below the",
-    "§6Auction House§7.",
-    "",
-    "§6§lLEGENDARY ACCESSORY"
+    "{\"text\":\"According to the rumors,\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Shen \",\"color\":\"gold\"},{\"text\":\"himself is crafting\",\"color\":\"gray\"}]}",
+    "{\"text\":\"special items. Have this in your\",\"color\":\"gray\"}",
+    "{\"text\":\"inventory to gain access to a\",\"color\":\"gray\"}",
+    "{\"text\":\"unique room hidden below the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Auction House\",\"color\":\"gold\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY ACCESSORY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "SHENS_REGALIA",
   "clickcommand": "",
@@ -21,5 +21,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Shen%27s_Regalia",
     "https://wiki.hypixel.net/Shen%27s_Regalia"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

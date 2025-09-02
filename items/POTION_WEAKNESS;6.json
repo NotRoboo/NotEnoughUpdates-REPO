@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§9Weakness VI Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:18b,Amplifier:5b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§7Weakness VI §f(3:00)\",2:\"§7Reduces §c❁ Damage §7when attacking\",3:\"§7enemies by §c30§7.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9Weakness VI Potion\"},ExtraAttributes:{potion_level:6,potion:\"weakness\",effects:[0:{level:6,effect:\"weakness\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_WEAKNESS;6\"}}",
-  "damage": 8,
+  "displayname": "{\"text\":\"Weakness VI Potion\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Weakness VI Potion\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Weakness VI \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Reduces \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"❁ Damage \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"when attacking\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"enemies by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"30\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":6,\"potion\":\"weakness\",\"effects\":\"[0:{level:6\",\"effect\":\"weakness\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§7Weakness VI §f(3:00)",
-    "§7Reduces §c❁ Damage §7when attacking",
-    "§7enemies by §c30§7.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Weakness VI \",\"color\":\"gray\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Reduces \",\"color\":\"gray\"},{\"text\":\"❁ Damage \",\"color\":\"red\"},{\"text\":\"when attacking\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"enemies by \",\"color\":\"gray\"},{\"text\":\"30\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "POTION_WEAKNESS;6",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,20 +1,20 @@
 {
   "itemid": "minecraft:iron_chestplate",
-  "displayname": "§9Mercenary Chestplate",
-  "nbttag": "{ExtraAttributes:{id:\"MERCENARY_CHESTPLATE\",originTag:\"SHOP_PURCHASE\"},HideFlags:254,ItemModel:\"minecraft:iron_chestplate\",Unbreakable:1B,display:{Lore:[0:\"§7Health: §a+70\",1:\"§7Defense: §a+70\",2:\"\",3:\"§6Full Set Bonus: Death Tax\",4:\"§7Earn §6+5 coins §7and heal §c20❤\",5:\"§7each kill.\",6:\"§8Only against level 10+ mobs!\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §aCombat Skill §c.\",10:\"§9§lRARE CHESTPLATE\"],Name:\"§9Mercenary Chestplate\"}}",
+  "displayname": "{\"text\":\"Mercenary Chestplate\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:iron_chestplate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Mercenary Chestplate\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Health: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+70\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Defense: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+70\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Full Set Bonus: Death Tax\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Earn \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5 coins \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"and heal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20❤\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"each kill.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Only against level 10+ mobs!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Combat Skill \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"RARE CHESTPLATE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"originTag\":\"SHOP_PURCHASE\",\"id\":\"MERCENARY_CHESTPLATE\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Health: §a+70",
-    "§7Defense: §a+70",
-    "",
-    "§6Full Set Bonus: Death Tax",
-    "§7Earn §6+5 coins §7and heal §c20❤",
-    "§7each kill.",
-    "§8Only against level 10+ mobs!",
-    "",
-    "§8This item can be reforged!",
-    "§4❣ §cRequires §aCombat Skill §c.",
-    "§9§lRARE CHESTPLATE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Health: \",\"color\":\"gray\"},{\"text\":\"+70\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Defense: \",\"color\":\"gray\"},{\"text\":\"+70\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Full Set Bonus: Death Tax\",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Earn \",\"color\":\"gray\"},{\"text\":\"+5 coins \",\"color\":\"gold\"},{\"text\":\"and heal \",\"color\":\"gray\"},{\"text\":\"20❤\",\"color\":\"red\"}]}",
+    "{\"text\":\"each kill.\",\"color\":\"gray\"}",
+    "{\"text\":\"Only against level 10+ mobs!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Combat Skill \",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"RARE CHESTPLATE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "MERCENARY_CHESTPLATE",
   "clickcommand": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Mercenary_Chestplate",
     "https://wiki.hypixel.net/Mercenary_Chestplate"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

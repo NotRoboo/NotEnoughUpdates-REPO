@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:quartz_block",
-  "displayname": "§fChiseled Quartz Block",
-  "nbttag": "{ExtraAttributes:{id:\"QUARTZ_BLOCK-1\"},HideFlags:254,ItemModel:\"minecraft:chiseled_quartz_block\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fChiseled Quartz Block\"}}",
-  "damage": 1,
+  "displayname": "{\"text\":\"Chiseled Quartz Block\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:quartz_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chiseled Quartz Block\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"QUARTZ_BLOCK-1\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "QUARTZ_BLOCK-1",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

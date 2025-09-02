@@ -1,20 +1,20 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Bag of Coal Backpack Skin",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"438f34c5-e9b6-3f59-abdf-06a2da97c3ed\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwMjA1NTc3MTEwOSwKICAicHJvZmlsZUlkIiA6ICJmYjNhZTU0OTU3ODQ0MGVlODIzODJlMDY2MzlhYTkzMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJXZWx0ZXJ3ZWlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkyZGZhNjFhMzI0MjA3NDg4ZTQ1Yzc5ZDAzNTVkMjE2M2I3YTNiMzVmMGU5NThmODhmNTQyMzQ4NDM2MDk3OCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7§8Combinable in Anvil\",1:\"\",2:\"§7§7Item skins give your gear a\",3:\"§7fresh new look! Apply them just\",4:\"§7like an enchant book using the\",5:\"§7anvil.\",6:\"\",7:\"§7§7This skin can be applied to\",8:\"§7§aBackpacks§7.\",9:\"\",10:\"§5§lEPIC COSMETIC\"],Name:\"§5Bag of Coal Backpack Skin\"},ExtraAttributes:{id:\"BAG_OF_COAL_BACKPACK\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Bag of Coal Backpack Skin\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bag of Coal Backpack Skin\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Item skins give your gear a\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"fresh new look! Apply them just\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"like an enchant book using the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"anvil.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This skin can be applied to\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Backpacks\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC COSMETIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BAG_OF_COAL_BACKPACK\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7§8Combinable in Anvil",
-    "",
-    "§7§7Item skins give your gear a",
-    "§7fresh new look! Apply them just",
-    "§7like an enchant book using the",
-    "§7anvil.",
-    "",
-    "§7§7This skin can be applied to",
-    "§7§aBackpacks§7.",
-    "",
-    "§5§lEPIC COSMETIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Item skins give your gear a\",\"color\":\"gray\"}",
+    "{\"text\":\"fresh new look! Apply them just\",\"color\":\"gray\"}",
+    "{\"text\":\"like an enchant book using the\",\"color\":\"gray\"}",
+    "{\"text\":\"anvil.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This skin can be applied to\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Backpacks\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC COSMETIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "BAG_OF_COAL_BACKPACK",
   "crafttext": "",
@@ -24,5 +24,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Bag_of_Coal_Backpack_Skin",
     "https://wiki.hypixel.net/Bag_Of_Coal_Backpack_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

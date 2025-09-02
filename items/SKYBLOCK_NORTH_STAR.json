@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:nether_star",
-  "displayname": "§dNorth Star",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Used for NEU NPC-Shops\",1:\"\",2:\"§c§l§ka§r §c§l§c§lSPECIAL §c§l§ka\"],Name:\"§dNorth Star\"},ExtraAttributes:{id:\"SKYBLOCK_NORTH_STAR\"}}",
+  "displayname": "{\"text\":\"North Star\",\"color\":\"light_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:nether_star\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"North Star\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Used for NEU NPC-Shops\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"obfuscated\\\":true},{\\\"text\\\":\\\" \\\"},{\\\"text\\\":\\\"SPECIAL \\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"obfuscated\\\":true}]}\"],\"minecraft:custom_data\":{\"id\":\"SKYBLOCK_NORTH_STAR\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Used for NEU NPC-Shops",
-    "",
-    "§c§l§ka§r §c§l§c§lSPECIAL §c§l§ka"
+    "{\"text\":\"Used for NEU NPC-Shops\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a\",\"color\":\"red\",\"bold\":true,\"obfuscated\":true},{\"text\":\" \"},{\"text\":\"SPECIAL \",\"color\":\"red\",\"bold\":true},{\"text\":\"a\",\"color\":\"red\",\"bold\":true,\"obfuscated\":true}]}"
   ],
   "internalname": "SKYBLOCK_NORTH_STAR",
   "crafttext": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/North_Star",
     "https://wiki.hypixel.net/North_Star"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

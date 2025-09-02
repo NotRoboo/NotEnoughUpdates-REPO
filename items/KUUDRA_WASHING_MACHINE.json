@@ -1,14 +1,14 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cKuudra Washing Machine",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"268424ce-ea81-386f-8aab-efd1bad22add\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdkZTYzZDQwMWY4NWVlZDhhNWUwOGNmYTZjYjI5MGM0MGIxMWE3YzcyYjU3OWIyZjA2ZThiYjRhOGE3YzA5OSJ9fX0\u003d\"}]}},display:{Lore:[0:\"§7Combine in an anvil with any\",1:\"§7item to remove all attributes\",2:\"§7from the item.\",3:\"\",4:\"§c§lSPECIAL\"],Name:\"§cKuudra Washing Machine\"},ExtraAttributes:{id:\"KUUDRA_WASHING_MACHINE\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Kuudra Washing Machine\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Kuudra Washing Machine\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combine in an anvil with any\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"item to remove all attributes\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"from the item.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"KUUDRA_WASHING_MACHINE\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Combine in an anvil with any",
-    "§7item to remove all attributes",
-    "§7from the item.",
-    "",
-    "§c§lSPECIAL"
+    "{\"text\":\"Combine in an anvil with any\",\"color\":\"gray\"}",
+    "{\"text\":\"item to remove all attributes\",\"color\":\"gray\"}",
+    "{\"text\":\"from the item.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "KUUDRA_WASHING_MACHINE",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Kuudra_Washing_Machine",
     "https://wiki.hypixel.net/Kuudra_Washing_Machine"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

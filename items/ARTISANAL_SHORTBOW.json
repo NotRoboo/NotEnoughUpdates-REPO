@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§9Artisanal Shortbow",
-  "nbttag": "{ExtraAttributes:{id:\"ARTISANAL_SHORTBOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+40\",1:\"§7Shot Cooldown: §a0.5s\",2:\"\",3:\"§9Shortbow: Instantly shoots!\",4:\"\",5:\"§8This item can be reforged!\",6:\"§9§lRARE BOW\"],Name:\"§9Artisanal Shortbow\"}}",
+  "displayname": "{\"text\":\"Artisanal Shortbow\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Artisanal Shortbow\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+40\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Shot Cooldown: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0.5s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Shortbow: Instantly shoots!\\\",\\\"color\\\":\\\"blue\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"RARE BOW\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ARTISANAL_SHORTBOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+40",
-    "§7Shot Cooldown: §a0.5s",
-    "",
-    "§9Shortbow: Instantly shoots!",
-    "",
-    "§8This item can be reforged!",
-    "§9§lRARE BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+40\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Shot Cooldown: \",\"color\":\"gray\"},{\"text\":\"0.5s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Shortbow: Instantly shoots!\",\"color\":\"blue\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"RARE BOW\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ARTISANAL_SHORTBOW",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Artisanal_Shortbow",
     "https://wiki.hypixel.net/Artisanal_Shortbow"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:glowstone_dust",
-  "displayname": "§9§eWizard\u0027s Breadcrumbs",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§6Ability: Future Footsteps §e§lRIGHT CLICK\",1:\"§7Use while looking at §eyellow\",2:\"§eparticles §7in the world to mark\",3:\"§7a path to take in the §dRift§7.\",4:\"\",5:\"§9§lRARE\"],Name:\"§9§eWizard\u0027s Breadcrumbs\"},ExtraAttributes:{id:\"WIZARD_BREADCRUMBS\"}}",
+  "displayname": "{\"text\":\"Wizard\u0027s Breadcrumbs\",\"color\":\"yellow\"}",
+  "nbttag": "{\"id\":\"minecraft:glowstone_dust\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wizard\u0027s Breadcrumbs\\\",\\\"color\\\":\\\"yellow\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Future Footsteps \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Use while looking at \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"yellow\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"particles \\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"in the world to mark\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"a path to take in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Rift\\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WIZARD_BREADCRUMBS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Future Footsteps §e§lRIGHT CLICK",
-    "§7Use while looking at §eyellow",
-    "§eparticles §7in the world to mark",
-    "§7a path to take in the §dRift§7.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Future Footsteps \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Use while looking at \",\"color\":\"gray\"},{\"text\":\"yellow\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"particles \",\"color\":\"yellow\"},{\"text\":\"in the world to mark\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"a path to take in the \",\"color\":\"gray\"},{\"text\":\"Rift\",\"color\":\"light_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "WIZARD_BREADCRUMBS",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://wiki.hypixel.net/Wizard%27s_Breadcrumbs"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

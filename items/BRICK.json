@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:brick_block",
-  "displayname": "§fBricks",
-  "nbttag": "{ExtraAttributes:{id:\"BRICK\"},HideFlags:254,ItemModel:\"minecraft:bricks\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fBricks\"}}",
+  "displayname": "{\"text\":\"Bricks\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:brick_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Bricks\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"BRICK\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "BRICK",
   "clickcommand": "viewrecipe",
@@ -25,5 +25,8 @@
     "C1": "",
     "C2": "",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

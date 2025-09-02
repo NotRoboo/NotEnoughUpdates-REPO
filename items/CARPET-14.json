@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:carpet",
-  "displayname": "§fRed Carpet",
-  "nbttag": "{ExtraAttributes:{id:\"CARPET-14\"},HideFlags:254,ItemModel:\"minecraft:red_carpet\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fRed Carpet\"}}",
-  "damage": 14,
+  "displayname": "{\"text\":\"Red Carpet\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:carpet\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Red Carpet\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CARPET-14\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "CARPET-14",
   "clickcommand": "viewrecipe",
@@ -24,5 +24,8 @@
     "C2": "",
     "C3": "",
     "count": 3
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

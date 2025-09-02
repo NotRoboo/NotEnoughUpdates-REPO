@@ -1,16 +1,16 @@
 {
   "itemid": "minecraft:fence",
-  "displayname": "§aTrading Post Barn Skin",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Consume this item to unlock the\",1:\"§7§aTrading Post Barn Skin §7on §aThe\",2:\"§aGarden§7!\",3:\"\",4:\"§eClick to consume!\",5:\"\",6:\"§a§lUNCOMMON COSMETIC\"],Name:\"§aTrading Post Barn Skin\"},ExtraAttributes:{id:\"TRADING_POST_BARN_SKIN\"}}",
+  "displayname": "{\"text\":\"Trading Post Barn Skin\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:fence\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Trading Post Barn Skin\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consume this item to unlock the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Trading Post Barn Skin \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON COSMETIC\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TRADING_POST_BARN_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7Consume this item to unlock the",
-    "§7§aTrading Post Barn Skin §7on §aThe",
-    "§aGarden§7!",
-    "",
-    "§eClick to consume!",
-    "",
-    "§a§lUNCOMMON COSMETIC"
+    "{\"text\":\"Consume this item to unlock the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Trading Post Barn Skin \",\"color\":\"green\"},{\"text\":\"on \",\"color\":\"gray\"},{\"text\":\"The\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Garden\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON COSMETIC\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "TRADING_POST_BARN_SKIN",
   "crafttext": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Trading_Post_Barn_Skin",
     "https://wiki.hypixel.net/Trading_Post_Barn_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

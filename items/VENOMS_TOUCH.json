@@ -1,21 +1,21 @@
 {
   "itemid": "minecraft:bow",
-  "displayname": "§5Venom's Touch",
-  "nbttag": "{ExtraAttributes:{id:\"VENOMS_TOUCH\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+250\",1:\"§7Strength: §c+100\",2:\"\",3:\"§7Fires a volley of §b5 §7arrows. Arrows\",4:\"§7apply venom to all enemies hit dealing\",5:\"§c2❁ Damage §7every second for §b3\",6:\"§7seconds.\",7:\"\",8:\"§4This item is Arachnal Ж!\",9:\"\",10:\"§8This item can be reforged!\",11:\"§5§lEPIC BOW\"],Name:\"§5Venom's Touch\"}}",
+  "displayname": "{\"text\":\"Venom\u0027s Touch\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:bow\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Venom\u0027s Touch\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+250\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+100\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fires a volley of \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5 \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"arrows. Arrows\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"apply venom to all enemies hit dealing\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"2❁ Damage \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"every second for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"3\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"seconds.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item is Arachnal Ж!\\\",\\\"color\\\":\\\"dark_red\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"EPIC BOW\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"VENOMS_TOUCH\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+250",
-    "§7Strength: §c+100",
-    "",
-    "§7Fires a volley of §b5 §7arrows. Arrows",
-    "§7apply venom to all enemies hit dealing",
-    "§c2❁ Damage §7every second for §b3",
-    "§7seconds.",
-    "",
-    "§4This item is Arachnal Ж!",
-    "",
-    "§8This item can be reforged!",
-    "§5§lEPIC BOW"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+250\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+100\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fires a volley of \",\"color\":\"gray\"},{\"text\":\"5 \",\"color\":\"aqua\"},{\"text\":\"arrows. Arrows\",\"color\":\"gray\"}]}",
+    "{\"text\":\"apply venom to all enemies hit dealing\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"2❁ Damage \",\"color\":\"red\"},{\"text\":\"every second for \",\"color\":\"gray\"},{\"text\":\"3\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"seconds.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item is Arachnal Ж!\",\"color\":\"dark_red\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"EPIC BOW\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "VENOMS_TOUCH",
   "clickcommand": "viewrecipe",
@@ -55,5 +55,8 @@
       "count": 1,
       "overrideOutputId": "VENOMS_TOUCH"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

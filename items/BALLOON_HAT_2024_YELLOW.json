@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§eYellow 5th Anniversary Balloon Hat",
-  "nbttag": "{ExtraAttributes:{id:\"BALLOON_HAT_2024_YELLOW\",party_hat_color:\"yellow\",party_hat_year:2024},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"44861dc8-1102-3d94-8b05-f7d493028d9e\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNzQzNjM3MjIyOCwKICAicHJvZmlsZUlkIiA6ICI2Mjk5YzhlYzkxM2I0MzMyYjZiMDJhOTFmNDk2MzJhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIaW5hTGluayIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hOTBkOWFkZWY0NzMyZTU4MzI0NDg5NzNlMzU1N2ZjZThhMmU5ZWM4MTI5ZWQzMjE0M2ViNjY2YjRmYTg4YWIyIgogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Magic Find: §a+1\",1:\"\",2:\"§7Show your pride for SkyBlock's §d5th\",3:\"§dAnniversary §7with a balloon!\",4:\"\",5:\"§6Ability: Party Time! \",6:\"§7Gain §b+1✎ Intelligence §7while on your\",7:\"§7head for each SkyBlock year you've\",8:\"§7been playing.\",9:\"\",10:\"§7Obtained: §e2024\",11:\"\",12:\"§c§lSPECIAL HATCESSORY\"],Name:\"§eYellow 5th Anniversary Balloon Hat\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Yellow 5th Anniversary Balloon Hat\",\"color\":\"yellow\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Yellow 5th Anniversary Balloon Hat\\\",\\\"color\\\":\\\"yellow\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Magic Find: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Show your pride for SkyBlock\u0027s \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5th\\\",\\\"color\\\":\\\"light_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Anniversary \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"with a balloon!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Party Time! \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1✎ Intelligence \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"while on your\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"head for each SkyBlock year you\u0027ve\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"been playing.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Obtained: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2024\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL HATCESSORY\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"party_hat_color\":\"yellow\",\"party_hat_year\":2024,\"id\":\"BALLOON_HAT_2024_YELLOW\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxNzQzNjM3MjIyOCwKICAicHJvZmlsZUlkIiA6ICI2Mjk5YzhlYzkxM2I0MzMyYjZiMDJhOTFmNDk2MzJhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIaW5hTGluayIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hOTBkOWFkZWY0NzMyZTU4MzI0NDg5NzNlMzU1N2ZjZThhMmU5ZWM4MTI5ZWQzMjE0M2ViNjY2YjRmYTg4YWIyIgogICAgfQogIH0KfQ\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Magic Find: §a+1",
-    "",
-    "§7Show your pride for SkyBlock's §d5th",
-    "§dAnniversary §7with a balloon!",
-    "",
-    "§6Ability: Party Time! ",
-    "§7Gain §b+1✎ Intelligence §7while on your",
-    "§7head for each SkyBlock year you've",
-    "§7been playing.",
-    "",
-    "§7Obtained: §e2024",
-    "",
-    "§c§lSPECIAL HATCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Magic Find: \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Show your pride for SkyBlock\u0027s \",\"color\":\"gray\"},{\"text\":\"5th\",\"color\":\"light_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Anniversary \",\"color\":\"light_purple\"},{\"text\":\"with a balloon!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Party Time! \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+1✎ Intelligence \",\"color\":\"aqua\"},{\"text\":\"while on your\",\"color\":\"gray\"}]}",
+    "{\"text\":\"head for each SkyBlock year you\u0027ve\",\"color\":\"gray\"}",
+    "{\"text\":\"been playing.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Obtained: \",\"color\":\"gray\"},{\"text\":\"2024\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL HATCESSORY\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "BALLOON_HAT_2024_YELLOW",
   "clickcommand": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/5th_Anniversary_Balloon_Hat",
     "https://wiki.hypixel.net/5th_Anniversary_Balloon_Hat"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

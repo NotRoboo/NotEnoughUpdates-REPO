@@ -1,22 +1,22 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§cLocked Ballot Box",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"6301e5e4-3b44-38a3-8c56-090114201b48\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0ODc1MDk3NywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUyNmNhYzEwMGE4OGFhZjVlYzQyYTI5YmNmNzhiOTRhMmI1ODA0MzRlZGMxMzVhMTNkMzFlNzRmYzc4ZDg4MjUiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Commemorates your participation in\",1:\"§7the §bCommunity Center Refurbishment\",2:\"§b§7city project.\",3:\"\",4:\"§7Earned by: §b[MVP§2+§b] CalMWolfs§f\",5:\"§7Total Contributions: §a20\",6:\"§8Edition #§k6\",7:\"§8March 23, 2024\",8:\"\",9:\"§7§8Memento acquirer name becomes\",10:\"§8hidden if traded.\",11:\"\",12:\"§c§lSPECIAL MEMENTO\"],Name:\"§cLocked Ballot Box\"},ExtraAttributes:{date:1711216928709L,edition:6,id:\"LOCKED_BALLOT_BOX\",recipient_name:\"§b[MVP§2+§b] CalMWolfs§f\",recipient_id:\"eaa5623c-8413-46b7-a74b-2d74a42b2841\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Locked Ballot Box\",\"color\":\"red\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Locked Ballot Box\\\",\\\"color\\\":\\\"red\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Commemorates your participation in\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Community Center Refurbishment\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"city project.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Earned by: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"[MVP\\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"+\\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"] CalMWolfs\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Total Contributions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Edition #\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"6\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"March 23, 2024\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Memento acquirer name becomes\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"hidden if traded.\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"SPECIAL MEMENTO\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"date\":\"1711216928709L\",\"edition\":6,\"id\":\"LOCKED_BALLOT_BOX\",\"recipient_name\":\"§b[MVP§2+§b] CalMWolfs§f\",\"recipient_id\":\"eaa5623c-8413-46b7-a74b-2d74a42b2841\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7Commemorates your participation in",
-    "§7the §bCommunity Center Refurbishment",
-    "§b§7city project.",
-    "",
-    "§7Earned by: §b[MVP§2+§b] CalMWolfs§f",
-    "§7Total Contributions: §a20",
-    "§8Edition #§k6",
-    "§8March 23, 2024",
-    "",
-    "§7§8Memento acquirer name becomes",
-    "§8hidden if traded.",
-    "",
-    "§c§lSPECIAL MEMENTO"
+    "{\"text\":\"Commemorates your participation in\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"the \",\"color\":\"gray\"},{\"text\":\"Community Center Refurbishment\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"city project.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Earned by: \",\"color\":\"gray\"},{\"text\":\"[MVP\",\"color\":\"aqua\"},{\"text\":\"+\",\"color\":\"dark_green\"},{\"text\":\"] CalMWolfs\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Total Contributions: \",\"color\":\"gray\"},{\"text\":\"20\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Edition #\",\"color\":\"dark_gray\"},{\"text\":\"6\",\"color\":\"dark_gray\",\"obfuscated\":true}]}",
+    "{\"text\":\"March 23, 2024\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Memento acquirer name becomes\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"hidden if traded.\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"SPECIAL MEMENTO\",\"color\":\"red\",\"bold\":true}"
   ],
   "internalname": "LOCKED_BALLOT_BOX",
   "crafttext": "",
@@ -26,5 +26,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Locked_Ballot_Box",
     "https://wiki.hypixel.net/Locked_Ballot_Box"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,23 +1,23 @@
 {
   "itemid": "minecraft:fishing_rod",
-  "displayname": "§fFishing Rod",
-  "nbttag": "{ExtraAttributes:{id:\"FISHING_ROD\"},HideFlags:254,ItemModel:\"minecraft:fishing_rod\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+15\",1:\"§7Strength: §c+15\",2:\"§7Sea Creature Chance: §c+1%\",3:\"§7Fishing Speed: §a+5\",4:\"\",5:\"§9ථ Hook §8§lNONE\",6:\"§9ꨃ Line §8§lNONE\",7:\"§9࿉ Sinker §8§lNONE\",8:\"\",9:\"§7Talk to §2Roddy §7in the §2Backwater\",10:\"§2Bayou §7to apply parts to this rod.\",11:\"\",12:\"§8This item can be reforged!\",13:\"§f§lCOMMON FISHING ROD\"],Name:\"§fFishing Rod\"}}",
+  "displayname": "{\"text\":\"Fishing Rod\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:fishing_rod\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Fishing Rod\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Strength: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+15\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Sea Creature Chance: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1%\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Fishing Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"ථ Hook \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"NONE\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"ꨃ Line \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"NONE\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"࿉ Sinker \\\",\\\"color\\\":\\\"blue\\\"},{\\\"text\\\":\\\"NONE\\\",\\\"color\\\":\\\"dark_gray\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Talk to \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Roddy \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Backwater\\\",\\\"color\\\":\\\"dark_green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Bayou \\\",\\\"color\\\":\\\"dark_green\\\"},{\\\"text\\\":\\\"to apply parts to this rod.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON FISHING ROD\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"FISHING_ROD\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Damage: §c+15",
-    "§7Strength: §c+15",
-    "§7Sea Creature Chance: §c+1%",
-    "§7Fishing Speed: §a+5",
-    "",
-    "§9ථ Hook §8§lNONE",
-    "§9ꨃ Line §8§lNONE",
-    "§9࿉ Sinker §8§lNONE",
-    "",
-    "§7Talk to §2Roddy §7in the §2Backwater",
-    "§2Bayou §7to apply parts to this rod.",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON FISHING ROD"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damage: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Strength: \",\"color\":\"gray\"},{\"text\":\"+15\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Sea Creature Chance: \",\"color\":\"gray\"},{\"text\":\"+1%\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Fishing Speed: \",\"color\":\"gray\"},{\"text\":\"+5\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"ථ Hook \",\"color\":\"blue\"},{\"text\":\"NONE\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"ꨃ Line \",\"color\":\"blue\"},{\"text\":\"NONE\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"࿉ Sinker \",\"color\":\"blue\"},{\"text\":\"NONE\",\"color\":\"dark_gray\",\"bold\":true}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Talk to \",\"color\":\"gray\"},{\"text\":\"Roddy \",\"color\":\"dark_green\"},{\"text\":\"in the \",\"color\":\"gray\"},{\"text\":\"Backwater\",\"color\":\"dark_green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Bayou \",\"color\":\"dark_green\"},{\"text\":\"to apply parts to this rod.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON FISHING ROD\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "FISHING_ROD",
   "clickcommand": "viewrecipe",
@@ -38,5 +38,8 @@
     "C1": "STICK:1",
     "C2": "",
     "C3": "STRING:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

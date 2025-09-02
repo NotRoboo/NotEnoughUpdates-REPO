@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:paper",
-  "displayname": "§6Wilson's Engineering Plans",
-  "nbttag": "{ExtraAttributes:{id:\"WILSON_ENGINEERING_PLANS\"},HideFlags:254,ItemModel:\"minecraft:paper\",display:{Lore:[0:\"§7Drops very rarely from the\",1:\"§7Inferno Demonlord.\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§6§lLEGENDARY\"],Name:\"§6Wilson's Engineering Plans\"},ench:[]}",
+  "displayname": "{\"text\":\"Wilson\u0027s Engineering Plans\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:paper\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Wilson\u0027s Engineering Plans\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Drops very rarely from the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Inferno Demonlord.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"WILSON_ENGINEERING_PLANS\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Drops very rarely from the",
-    "§7Inferno Demonlord.",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"Drops very rarely from the\",\"color\":\"gray\"}",
+    "{\"text\":\"Inferno Demonlord.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "WILSON_ENGINEERING_PLANS",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Wilson%27s_Engineering_Plans",
     "https://wiki.hypixel.net/Wilson%27s_Engineering_Plans"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Scared Skeleton (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Scared of its own shadow.\",1:\"\",2:\"§c❤ Health§8: §c19,000 - 44,000\",3:\"§c❤ Health §8(MM) : §c1,800,000 - 3,300,000\"],Name:\"§9Scared Skeleton (Monster)\"},ExtraAttributes:{id:\"SCARED_SKELETON_MONSTER\"}}",
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Scared Skeleton (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Scared Skeleton (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Scared of its own shadow.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"19,000 - 44,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"(MM) : \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1,800,000 - 3,300,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"SCARED_SKELETON_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Scared of its own shadow.",
-    "",
-    "§c❤ Health§8: §c19,000 - 44,000",
-    "§c❤ Health §8(MM) : §c1,800,000 - 3,300,000"
+    "{\"text\":\"Scared of its own shadow.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"19,000 - 44,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health \",\"color\":\"red\"},{\"text\":\"(MM) : \",\"color\":\"dark_gray\"},{\"text\":\"1,800,000 - 3,300,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "SCARED_SKELETON_MONSTER",
   "clickcommand": "viewrecipe",
@@ -42,5 +42,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

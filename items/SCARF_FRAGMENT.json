@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:red_flower",
-  "displayname": "§9Scarf Fragment",
-  "nbttag": "{ExtraAttributes:{id:\"SCARF_FRAGMENT\"},HideFlags:254,ItemModel:\"minecraft:poppy\",display:{Lore:[0:\"§eRight-click to view recipes!\",1:\"\",2:\"§9§lRARE DUNGEON ITEM\"],Name:\"§9Scarf Fragment\"},ench:[]}",
+  "displayname": "{\"text\":\"Scarf Fragment\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:red_flower\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Scarf Fragment\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE DUNGEON ITEM\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SCARF_FRAGMENT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§eRight-click to view recipes!",
-    "",
-    "§9§lRARE DUNGEON ITEM"
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE DUNGEON ITEM\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SCARF_FRAGMENT",
   "clickcommand": "",
@@ -16,5 +16,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Scarf_Fragment",
     "https://wiki.hypixel.net/Scarf_Fragment"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Revenant Minion II",
-  "nbttag": "{ExtraAttributes:{id:\"REVENANT_GENERATOR_2\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"b46aa815-8840-3495-9445-1137858aa6c3\",Properties:{textures:[0:{Name:\"textures\",Signature:\"bBA5Imj8/loOV8mjjDP0Y3jnJVWG4b6qVgbXuYxgWaF0szC+CYXDmFdiNPvPT1f7ar1HvZXkVmz27Uu7j6sXuMPcvLS/Y4FJR3pUXJBR2SMngPvc5h5nc37G96YPXWz/Aj0KfBaWmuuLJ/SThnCbVsWTdBJUHmrhxnwrDWFCY6OnWuOyIgO4o+5nZvzzsDFTF+lo90eZGfeMkAPRwqUSBquqfR9lflQXFQms6m+Zy4RKhEzZbQmPKEbzphDPbKXD6f2G9AuQ7tyLiPR1AH4fzpoCqElq4QR0oyhWnxsmIzKzVqaG2GNl/Kvq/TcETxORAzQKiZn4QWt1ySFmd7cxOxmmBnVXEXKX0yuVPyN+UwkEUspKV6qtRZ68s+POnsvVZhIMxsoE7qqwsX62pxeiakUm1C0EIxcqgRAKx9n5ViwhHcbpQ4BXwCjkyImIkqDx0ps/C61iadX9PxmUM0rILTL22raqlCcuSc3QHyR+FW+aeW1DC2wBGP0vYh3BmZr7WoaGC37BryOduRm+3gsFuN1mhOu9bArYsQd6XR1JCGs7hV81NW3b47uzL5Z+lcoH7gP1HQ9N6wmUO31CQ63F/sXMeOCvHm5K20cRkuCQ7fCdaUMEppIOxSx7dx3hosmDojmKfCFvZ5VK+YRBEZWDAWk3hpUTOWgI1mfUa9Xb6Fc=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTQ1MTg3NzMzMSwKICAicHJvZmlsZUlkIiA6ICJkNWQ5NzUxOTNjMTM0MzAyYTU5MjRmODQ0NWQ4YzAwNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJzYWludGVkbGl0dGxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M1YWZmMWI0ZjUzM2JiMWUxY2Y1ZWE5NmNhZWE3MzQ5ZDVlZmU5ZTlhOTgyZWM4MDUxYWMzMjkxMGUzYWU2OGMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Place this minion and it will start\",1:\"§7generating and struggling with\",2:\"§7Revenants! Minions also work when\",3:\"§7you are offline!\",4:\"\",5:\"§7Time Between Actions: §a29s\",6:\"§7Max Storage: §e192\",7:\"§7Resources Generated: §b0\",8:\"\",9:\"§9§lRARE\"],Name:\"§9Revenant Minion II\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Revenant Minion II\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Revenant Minion II\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Place this minion and it will start\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"generating and struggling with\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Revenants! Minions also work when\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"you are offline!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Time Between Actions: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"29s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Max Storage: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"192\\\",\\\"color\\\":\\\"yellow\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Resources Generated: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"0\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"REVENANT_GENERATOR_2\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcxOTQ1MTg3NzMzMSwKICAicHJvZmlsZUlkIiA6ICJkNWQ5NzUxOTNjMTM0MzAyYTU5MjRmODQ0NWQ4YzAwNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJzYWludGVkbGl0dGxlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M1YWZmMWI0ZjUzM2JiMWUxY2Y1ZWE5NmNhZWE3MzQ5ZDVlZmU5ZTlhOTgyZWM4MDUxYWMzMjkxMGUzYWU2OGMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Place this minion and it will start",
-    "§7generating and struggling with",
-    "§7Revenants! Minions also work when",
-    "§7you are offline!",
-    "",
-    "§7Time Between Actions: §a29s",
-    "§7Max Storage: §e192",
-    "§7Resources Generated: §b0",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Place this minion and it will start\",\"color\":\"gray\"}",
+    "{\"text\":\"generating and struggling with\",\"color\":\"gray\"}",
+    "{\"text\":\"Revenants! Minions also work when\",\"color\":\"gray\"}",
+    "{\"text\":\"you are offline!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Time Between Actions: \",\"color\":\"gray\"},{\"text\":\"29s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Max Storage: \",\"color\":\"gray\"},{\"text\":\"192\",\"color\":\"yellow\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Resources Generated: \",\"color\":\"gray\"},{\"text\":\"0\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "REVENANT_GENERATOR_2",
   "clickcommand": "viewrecipe",
@@ -35,5 +35,8 @@
     "C2": "ZOMBIE_GENERATOR_1:1",
     "C3": "REVENANT_FLESH:20"
   },
-  "useneucraft": true
+  "useneucraft": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

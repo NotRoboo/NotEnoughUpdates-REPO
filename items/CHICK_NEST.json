@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Chick Nest",
-  "nbttag": "{ExtraAttributes:{id:\"CHICK_NEST\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"c2fc86ed-fab0-3d6b-b66e-8b20450b014d\",Properties:{textures:[0:{Name:\"textures\",Signature:\"B8CnLZX7NV+kSErusD9nqHqx4HQztGJMnC6GO9+Y1hCormyIrruPPkvwhR78VJjQg76JA7KrFCs1FdaTq1+w14fTrazYvT1usGUJhZ51KCpU8sVavqqBHPFjKk04yDhzwB82/iSojacIJQsjRvWWeUibwZoWfmUEB6fQiUbE7SD0wxWXFj8oAo9fJKyKzTY7e1WFX8alEzIZDTVWV+h78kWV94WoUJr/WeK7HIvlLpqK/V8WHQTMjulv/vjGzSFH/5MBdAdEOnX1Q5flciCfUpJK/r9eLK1rsCQOwgijbk6SatzeWrbcikq7XLXorwzKdiFUbCL6VMr3RubmCzGbhnPOJwevXr0l43lGNrCM9KMFEJzufaqYqW2gFXtC7AjsuG8iFAe5JqLQnv63bt4wKW6m5yfPoA+32BmBXVjbQ9lwoI58MlT7qV5csF0U6cJT3wTQDi0An1JgcXPn20m/b/JJYcijU96grWHxjIDY4R4IEGOPMV3v6X28HVVNh5xiHRip4WTMdn2IlN9faBLhADTE63c8u+syoGVNipXswq5Jp/W6mYeqfeAKGf4005V/rWjXC+TqWLJ9racQDk0pI1EXKcsIAi61xwTbxK9vTtHMMLbAfOspplQHIqh9c5fbiZb5MelM7k3I/ocHmJK7HiHouSrxeKUeXNQysp/9lts=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0Mzc1MTI5MiwKICAicHJvZmlsZUlkIiA6ICIxMzEzZGFmMDc2OGQ0YmQ5Yjc1ODJkMGI1NWUwZGQxNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW50aWNjaGllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmZjA2OTljYmM0OTFkNzFlNDlmNzAyMTM3ZjRhM2FjMTE3YzAwODk0MWE1Y2NiYTEyMDNkYzI3ZmYzMGQwIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§8Furniture\",1:\"§8Easter Cosmetic\",2:\"\",3:\"§7This exclusive §dEaster §7cosmetic can\",4:\"§7be placed on your island or traded.\",5:\"\",6:\"§9§lRARE\"],Name:\"§9Chick Nest\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Chick Nest\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chick Nest\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Furniture\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"Easter Cosmetic\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"This exclusive \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Easter \\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"cosmetic can\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"be placed on your island or traded.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CHICK_NEST\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0Mzc1MTI5MiwKICAicHJvZmlsZUlkIiA6ICIxMzEzZGFmMDc2OGQ0YmQ5Yjc1ODJkMGI1NWUwZGQxNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW50aWNjaGllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmZjA2OTljYmM0OTFkNzFlNDlmNzAyMTM3ZjRhM2FjMTE3YzAwODk0MWE1Y2NiYTEyMDNkYzI3ZmYzMGQwIgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§8Furniture",
-    "§8Easter Cosmetic",
-    "",
-    "§7This exclusive §dEaster §7cosmetic can",
-    "§7be placed on your island or traded.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Furniture\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"Easter Cosmetic\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"This exclusive \",\"color\":\"gray\"},{\"text\":\"Easter \",\"color\":\"light_purple\"},{\"text\":\"cosmetic can\",\"color\":\"gray\"}]}",
+    "{\"text\":\"be placed on your island or traded.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "CHICK_NEST",
   "clickcommand": "",
@@ -20,5 +20,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Chick_Nest",
     "https://wiki.hypixel.net/Chick_Nest"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

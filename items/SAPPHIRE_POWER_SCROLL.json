@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:writable_book",
-  "displayname": "§bSapphire Power Scroll",
-  "nbttag": "{ExtraAttributes:{id:\"SAPPHIRE_POWER_SCROLL\"},HideFlags:254,ItemModel:\"minecraft:writable_book\",display:{Lore:[0:\"§8Combinable in Anvil\",1:\"\",2:\"§7Gain §b+5✎ Mana §7when using your\",3:\"§e§lRIGHT CLICK §6Item Ability§7. Has a §c5s\",4:\"§7cooldown.\",5:\"\",6:\"§7Can be combined with any §bitem §7with a §e§lRIGHT\",7:\"§e§lCLICK §6Item Ability §7at an anvil.\",8:\"\",9:\"§5§lEPIC\"],Name:\"§bSapphire Power Scroll\"},ench:[]}",
+  "displayname": "{\"text\":\"Sapphire Power Scroll\",\"color\":\"aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:writable_book\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Sapphire Power Scroll\\\",\\\"color\\\":\\\"aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Combinable in Anvil\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+5✎ Mana \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"when using your\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"RIGHT CLICK \\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Item Ability\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\". Has a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"5s\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"cooldown.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Can be combined with any \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"item \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"with a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"RIGHT\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"CLICK \\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true},{\\\"text\\\":\\\"Item Ability \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"at an anvil.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SAPPHIRE_POWER_SCROLL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Combinable in Anvil",
-    "",
-    "§7Gain §b+5✎ Mana §7when using your",
-    "§e§lRIGHT CLICK §6Item Ability§7. Has a §c5s",
-    "§7cooldown.",
-    "",
-    "§7Can be combined with any §bitem §7with a §e§lRIGHT",
-    "§e§lCLICK §6Item Ability §7at an anvil.",
-    "",
-    "§5§lEPIC"
+    "{\"text\":\"Combinable in Anvil\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+5✎ Mana \",\"color\":\"aqua\"},{\"text\":\"when using your\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"RIGHT CLICK \",\"color\":\"yellow\",\"bold\":true},{\"text\":\"Item Ability\",\"color\":\"gold\"},{\"text\":\". Has a \",\"color\":\"gray\"},{\"text\":\"5s\",\"color\":\"red\"}]}",
+    "{\"text\":\"cooldown.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Can be combined with any \",\"color\":\"gray\"},{\"text\":\"item \",\"color\":\"aqua\"},{\"text\":\"with a \",\"color\":\"gray\"},{\"text\":\"RIGHT\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"CLICK \",\"color\":\"yellow\",\"bold\":true},{\"text\":\"Item Ability \",\"color\":\"gold\"},{\"text\":\"at an anvil.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "SAPPHIRE_POWER_SCROLL",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "",
     "C2": "ENCHANTED_PAPER:16",
     "C3": "FINE_SAPPHIRE_GEM:16"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

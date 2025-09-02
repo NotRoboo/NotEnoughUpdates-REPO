@@ -1,24 +1,24 @@
 {
   "itemid": "minecraft:leather_leggings",
-  "displayname": "§6Leggings of the Coven",
-  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Rift Time: §a+80s\",1:\"§7Hearts: §a+1\",2:\"§7Mana Regen: §a+6%\",3:\"\",4:\"§6Ability: Friendship is Power \",5:\"§7Gain §5+1❁ Rift Damage §7and §b+2⚡ Mana\",6:\"§bRegen §7for each other §7wearer within\",7:\"§7§a64 §7blocks.\",8:\"§8Max of 3 players!\",9:\"\",10:\"§7§dSame color \u003d 2x stats!\",11:\"§eLeft-click to pick color!\",12:\"\",13:\"§7§4☠ §cRequires §5Vampire Slayer 3§c.\",14:\"§6§lLEGENDARY LEGGINGS\"],color:10040115,Name:\"§6Leggings of the Coven\"},ExtraAttributes:{id:\"LEGGINGS_OF_THE_COVEN\"}}",
+  "displayname": "{\"text\":\"Leggings of the Coven\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:leather_leggings\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Leggings of the Coven\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Rift Time: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+80s\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Hearts: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Regen: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+6%\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Ability: Friendship is Power \\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+1❁ Rift Damage \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"and \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2⚡ Mana\\\",\\\"color\\\":\\\"aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Regen \\\",\\\"color\\\":\\\"aqua\\\"},{\\\"text\\\":\\\"for each other \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"wearer within\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"64 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"blocks.\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Max of 3 players!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Same color \u003d 2x stats!\\\",\\\"color\\\":\\\"light_purple\\\"}\",\"{\\\"text\\\":\\\"Left-click to pick color!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"☠ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Vampire Slayer 3\\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"LEGENDARY LEGGINGS\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LEGGINGS_OF_THE_COVEN\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:unbreakable\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Rift Time: §a+80s",
-    "§7Hearts: §a+1",
-    "§7Mana Regen: §a+6%",
-    "",
-    "§6Ability: Friendship is Power ",
-    "§7Gain §5+1❁ Rift Damage §7and §b+2⚡ Mana",
-    "§bRegen §7for each other §7wearer within",
-    "§7§a64 §7blocks.",
-    "§8Max of 3 players!",
-    "",
-    "§7§dSame color \u003d 2x stats!",
-    "§eLeft-click to pick color!",
-    "",
-    "§7§4☠ §cRequires §5Vampire Slayer 3§c.",
-    "§6§lLEGENDARY LEGGINGS"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Rift Time: \",\"color\":\"gray\"},{\"text\":\"+80s\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Hearts: \",\"color\":\"gray\"},{\"text\":\"+1\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Regen: \",\"color\":\"gray\"},{\"text\":\"+6%\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Ability: Friendship is Power \",\"color\":\"gold\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"+1❁ Rift Damage \",\"color\":\"dark_purple\"},{\"text\":\"and \",\"color\":\"gray\"},{\"text\":\"+2⚡ Mana\",\"color\":\"aqua\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Regen \",\"color\":\"aqua\"},{\"text\":\"for each other \",\"color\":\"gray\"},{\"text\":\"wearer within\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"64 \",\"color\":\"green\"},{\"text\":\"blocks.\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Max of 3 players!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Same color \u003d 2x stats!\",\"color\":\"light_purple\"}",
+    "{\"text\":\"Left-click to pick color!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"☠ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Vampire Slayer 3\",\"color\":\"dark_purple\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"LEGENDARY LEGGINGS\",\"color\":\"gold\",\"bold\":true}"
   ],
   "recipe": {
     "A1": "FEMURGROWTH_LEGGINGS:1",
@@ -39,5 +39,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Leggings_of_the_Coven",
     "https://wiki.hypixel.net/Leggings_Of_The_Coven"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

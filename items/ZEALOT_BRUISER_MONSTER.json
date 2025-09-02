@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:ender_chest",
-  "displayname": "§9Zealot Bruiser (Monster)",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§c❤ Health§8: §c65,000\"],Name:\"§9Zealot Bruiser (Monster)\"},ExtraAttributes:{id:\"ZEALOT_BRUISER_MONSTER\"}}",
+  "displayname": "{\"text\":\"Zealot Bruiser (Monster)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:ender_chest\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Zealot Bruiser (Monster)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"65,000\\\",\\\"color\\\":\\\"red\\\"}]}\"],\"minecraft:custom_data\":{\"id\":\"ZEALOT_BRUISER_MONSTER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§c❤ Health§8: §c65,000"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"65,000\",\"color\":\"red\"}]}"
   ],
   "internalname": "ZEALOT_BRUISER_MONSTER",
   "clickcommand": "viewrecipe",
@@ -53,5 +53,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

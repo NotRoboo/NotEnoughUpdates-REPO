@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:potato",
-  "displayname": "§f§f§fPotatoes",
-  "nbttag": "{overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§f§f§fPotatoes\"},ExtraAttributes:{id:\"POTATO\"},AttributeModifiers:[]}",
+  "displayname": "{\"text\":\"Potatoes\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:potato\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Potatoes\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"POTATO\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "POTATO",
   "crafttext": "",
@@ -13,5 +13,8 @@
   "infoType": "WIKI_URL",
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Potatoes"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

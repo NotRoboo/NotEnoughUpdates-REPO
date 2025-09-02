@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:dye",
-  "displayname": "§aTwilight Arrow Poison",
-  "nbttag": "{ExtraAttributes:{id:\"TWILIGHT_ARROW_POISON\"},HideFlags:254,ItemModel:\"minecraft:purple_dye\",display:{Lore:[0:\"§8Consumed on arrow shot\",1:\"§7Arrows apply a §5ᛤ poison\",2:\"§7that increases all incoming\",3:\"§7damage by §c1.1x §7for §a20s§7.\",4:\"\",5:\"§a§lUNCOMMON ARROW POISON\"],Name:\"§aTwilight Arrow Poison\"}}",
-  "damage": 5,
+  "displayname": "{\"text\":\"Twilight Arrow Poison\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:dye\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Twilight Arrow Poison\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumed on arrow shot\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Arrows apply a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"ᛤ poison\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"that increases all incoming\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"damage by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"1.1x \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"for \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20s\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON ARROW POISON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"TWILIGHT_ARROW_POISON\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§8Consumed on arrow shot",
-    "§7Arrows apply a §5ᛤ poison",
-    "§7that increases all incoming",
-    "§7damage by §c1.1x §7for §a20s§7.",
-    "",
-    "§a§lUNCOMMON ARROW POISON"
+    "{\"text\":\"Consumed on arrow shot\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Arrows apply a \",\"color\":\"gray\"},{\"text\":\"ᛤ poison\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"that increases all incoming\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"damage by \",\"color\":\"gray\"},{\"text\":\"1.1x \",\"color\":\"red\"},{\"text\":\"for \",\"color\":\"gray\"},{\"text\":\"20s\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON ARROW POISON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "TWILIGHT_ARROW_POISON",
   "clickcommand": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Twilight_Arrow_Poison",
     "https://wiki.hypixel.net/Twilight_Arrow_Poison"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

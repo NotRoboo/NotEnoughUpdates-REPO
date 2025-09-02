@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Scarf's Studies",
-  "nbttag": "{ExtraAttributes:{id:\"SCARF_STUDIES\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"eb6966be-d293-35e9-9aa0-26d233d7e91d\",Properties:{textures:[0:{Name:\"textures\",Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRlNGFiMTI5ZTEzN2Y5ZjRjYmY3MDYwMzE4ZWUxNzQ4ZGMzOWRhOWI1ZDEyOWE4ZGEwZTYxNGUyMzM3NjkzIn19fQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Gain §a2% §7more Dungeons class\",1:\"§7experience.\",2:\"\",3:\"§7§oThe collection of his studies,\",4:\"§7§obeautiful handwriting!\",5:\"\",6:\"§eRight-click to view recipes!\",7:\"\",8:\"§5§kX§5 Rift-Transferable §5§kX\",9:\"§9§lRARE DUNGEON ACCESSORY\"],Name:\"§9Scarf's Studies\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Scarf\u0027s Studies\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Scarf\u0027s Studies\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"more Dungeons class\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"experience.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"The collection of his studies,\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"beautiful handwriting!\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true},{\\\"text\\\":\\\" Rift-Transferable \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"X\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"obfuscated\\\":true}]}\",\"{\\\"text\\\":\\\"RARE DUNGEON ACCESSORY\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"]}}",
+  "damage": 0,
   "lore": [
-    "§7Gain §a2% §7more Dungeons class",
-    "§7experience.",
-    "",
-    "§7§oThe collection of his studies,",
-    "§7§obeautiful handwriting!",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§5§kX§5 Rift-Transferable §5§kX",
-    "§9§lRARE DUNGEON ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"2% \",\"color\":\"green\"},{\"text\":\"more Dungeons class\",\"color\":\"gray\"}]}",
+    "{\"text\":\"experience.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"The collection of his studies,\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"beautiful handwriting!\",\"color\":\"gray\",\"italic\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true},{\"text\":\" Rift-Transferable \",\"color\":\"dark_purple\"},{\"text\":\"X\",\"color\":\"dark_purple\",\"obfuscated\":true}]}",
+    "{\"text\":\"RARE DUNGEON ACCESSORY\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "SCARF_STUDIES",
   "clickcommand": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Scarf%27s_Studies",
     "https://wiki.hypixel.net/Scarf%27s_Studies"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

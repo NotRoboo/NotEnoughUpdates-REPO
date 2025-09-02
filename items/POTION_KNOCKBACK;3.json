@@ -1,19 +1,22 @@
 {
   "itemid": "minecraft:potion",
-  "displayname": "§aKnockback III Potion",
-  "nbttag": "{CustomPotionEffects:[0:{Ambient:0b,Duration:20,Id:5b,Amplifier:2b}],HideFlags:254,display:{Lore:[0:\"\",1:\"§4Knockback III §f(3:00)\",2:\"§7Damaging enemies deals §a60% §7more\",3:\"§7knockback.\",4:\"\",5:\"§a§lUNCOMMON\"],Name:\"§aKnockback III Potion\"},ExtraAttributes:{potion_level:3,potion:\"knockback\",effects:[0:{level:3,effect:\"knockback\",duration_ticks:3600}],potion_type:\"POTION\",id:\"POTION_KNOCKBACK;3\"}}",
-  "damage": 9,
+  "displayname": "{\"text\":\"Knockback III Potion\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:potion\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Knockback III Potion\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Knockback III \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"(3:00)\\\",\\\"color\\\":\\\"white\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Damaging enemies deals \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"60% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"more\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"knockback.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"potion_level\":3,\"potion\":\"knockback\",\"effects\":\"[0:{level:3\",\"effect\":\"knockback\",\"duration_ticks\":3600},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "",
-    "§4Knockback III §f(3:00)",
-    "§7Damaging enemies deals §a60% §7more",
-    "§7knockback.",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Knockback III \",\"color\":\"dark_red\"},{\"text\":\"(3:00)\",\"color\":\"white\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Damaging enemies deals \",\"color\":\"gray\"},{\"text\":\"60% \",\"color\":\"green\"},{\"text\":\"more\",\"color\":\"gray\"}]}",
+    "{\"text\":\"knockback.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "POTION_KNOCKBACK;3",
   "crafttext": "",
   "clickcommand": "viewpotion",
   "modver": "2.4.0",
-  "infoType": ""
+  "infoType": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

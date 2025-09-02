@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:prismarine_crystals",
-  "displayname": "§9Enchanted Mithril",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_MITHRIL\"},HideFlags:254,ItemModel:\"minecraft:prismarine_crystals\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE DWARVEN METAL\"],Name:\"§9Enchanted Mithril\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Mithril\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:prismarine_crystals\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Mithril\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE DWARVEN METAL\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_MITHRIL\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§9§lRARE DWARVEN METAL"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE DWARVEN METAL\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_MITHRIL",
   "clickcommand": "viewrecipe",
@@ -27,5 +27,8 @@
     "C1": "",
     "C2": "MITHRIL_ORE:32",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

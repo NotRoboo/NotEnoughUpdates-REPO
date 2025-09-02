@@ -1,10 +1,10 @@
 {
   "itemid": "minecraft:record_mellohi",
-  "displayname": "§fMusic Disc",
-  "nbttag": "{ExtraAttributes:{id:\"RECORD_7\"},HideFlags:254,ItemModel:\"minecraft:music_disc_mellohi\",display:{Lore:[0:\"§f§lCOMMON\"],Name:\"§fMusic Disc\"}}",
+  "displayname": "{\"text\":\"Music Disc\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:record_mellohi\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Music Disc\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"RECORD_7\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§f§lCOMMON"
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "RECORD_7",
   "clickcommand": "",
@@ -14,5 +14,8 @@
   "info": [
     "https://wiki.hypixel.net/Music_Disc"
   ],
-  "vanilla": true
+  "vanilla": true,
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

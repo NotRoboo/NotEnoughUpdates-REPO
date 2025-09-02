@@ -1,15 +1,15 @@
 {
   "itemid": "minecraft:gold_block",
-  "displayname": "§aSocial Display",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Places a hologram displaying the\",1:\"§7top players on your island by\",2:\"§7points.\",3:\"\",4:\"§7§4❣ §cRequires §aSocial Skill 2§c.\",5:\"§a§lUNCOMMON\"],Name:\"§aSocial Display\"},ExtraAttributes:{id:\"SOCIAL_DISPLAY\"}}",
+  "displayname": "{\"text\":\"Social Display\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:gold_block\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Social Display\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Places a hologram displaying the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"top players on your island by\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"points.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Social Skill 2\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SOCIAL_DISPLAY\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Places a hologram displaying the",
-    "§7top players on your island by",
-    "§7points.",
-    "",
-    "§7§4❣ §cRequires §aSocial Skill 2§c.",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Places a hologram displaying the\",\"color\":\"gray\"}",
+    "{\"text\":\"top players on your island by\",\"color\":\"gray\"}",
+    "{\"text\":\"points.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Social Skill 2\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "SOCIAL_DISPLAY",
   "crafttext": "",
@@ -19,5 +19,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Social_Display",
     "https://wiki.hypixel.net/Social_Display"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:double_plant",
-  "displayname": "§aLush Berberis",
-  "nbttag": "{ExtraAttributes:{id:\"LUSH_BERBERIS\"},HideFlags:254,ItemModel:\"minecraft:large_fern\",display:{Lore:[0:\"§7A wonderful plant!\",1:\"\",2:\"§eRight-click to view recipes!\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aLush Berberis\"}}",
-  "damage": 3,
+  "displayname": "{\"text\":\"Lush Berberis\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:double_plant\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Lush Berberis\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"A wonderful plant!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to view recipes!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"LUSH_BERBERIS\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7A wonderful plant!",
-    "",
-    "§eRight-click to view recipes!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"A wonderful plant!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to view recipes!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "LUSH_BERBERIS",
   "clickcommand": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Lush_Berberis",
     "https://wiki.hypixel.net/Lush_Berberis"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

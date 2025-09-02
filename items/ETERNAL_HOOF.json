@@ -1,13 +1,13 @@
 {
   "itemid": "minecraft:golden_horse_armor",
-  "displayname": "§9Eternal Hoof",
-  "nbttag": "{ExtraAttributes:{id:\"ETERNAL_HOOF\"},HideFlags:254,ItemModel:\"minecraft:golden_horse_armor\",display:{Lore:[0:\"§7Gain §a2% §7chance to find Trick or\",1:\"§7Treat Chests.\",2:\"\",3:\"§9§lRARE ACCESSORY\"],Name:\"§9Eternal Hoof\"}}",
+  "displayname": "{\"text\":\"Eternal Hoof\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:golden_horse_armor\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Eternal Hoof\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"2% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance to find Trick or\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Treat Chests.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE ACCESSORY\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ETERNAL_HOOF\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Gain §a2% §7chance to find Trick or",
-    "§7Treat Chests.",
-    "",
-    "§9§lRARE ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Gain \",\"color\":\"gray\"},{\"text\":\"2% \",\"color\":\"green\"},{\"text\":\"chance to find Trick or\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Treat Chests.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE ACCESSORY\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ETERNAL_HOOF",
   "clickcommand": "viewrecipe",
@@ -28,5 +28,8 @@
     "C1": "SOUL_FRAGMENT:1",
     "C2": "SOUL_FRAGMENT:1",
     "C3": "SOUL_FRAGMENT:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

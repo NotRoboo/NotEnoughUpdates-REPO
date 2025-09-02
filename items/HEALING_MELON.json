@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:speckled_melon",
-  "displayname": "§aHealing Melon",
-  "nbttag": "{ExtraAttributes:{id:\"HEALING_MELON\"},HideFlags:254,ItemModel:\"minecraft:glistering_melon_slice\",display:{Lore:[0:\"§6Ability: Succulence  §e§lRIGHT CLICK\",1:\"§7Take a bite and heal §c7❤§7.\",2:\"§8Mana Cost: §350\",3:\"\",4:\"§a§lUNCOMMON\"],Name:\"§aHealing Melon\"}}",
+  "displayname": "{\"text\":\"Healing Melon\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:speckled_melon\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Healing Melon\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Succulence \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Take a bite and heal \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"7❤\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Mana Cost: \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"50\\\",\\\"color\\\":\\\"dark_aqua\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"HEALING_MELON\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§6Ability: Succulence  §e§lRIGHT CLICK",
-    "§7Take a bite and heal §c7❤§7.",
-    "§8Mana Cost: §350",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Succulence \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Take a bite and heal \",\"color\":\"gray\"},{\"text\":\"7❤\",\"color\":\"red\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\"},{\"text\":\"50\",\"color\":\"dark_aqua\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "HEALING_MELON",
   "clickcommand": "viewrecipe",
@@ -29,5 +29,8 @@
     "C1": "VAMPIRIC_MELON:2",
     "C2": "VAMPIRIC_MELON:2",
     "C3": "VAMPIRIC_MELON:2"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Joyful Viking (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"b59bb6c9-a2fd-5d19-adb9-f3909a7e8e2f\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk2N2IyNzRkZGNmZGQyYWNmNmQ2ZmZkNGZkMjMyYjgyMGY3YmEyMzQzNjNiODk0NjBjMmMxNDExMjU2MjcifX19\"}]}},display:{Lore:[0:\"\"],Name:\"§9Joyful Viking (NPC)\"},ExtraAttributes:{id:\"JOYFUL_VIKING_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Joyful Viking (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Joyful Viking (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"JOYFUL_VIKING_NPC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "JOYFUL_VIKING_NPC",
   "clickcommand": "viewrecipe",
@@ -48,5 +48,8 @@
       "result": "EXPERIENCE;4"
     }
   ],
-  "crafttext": ""
+  "crafttext": "",
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,13 +1,13 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§5Ender Artifact",
-  "nbttag": "{ExtraAttributes:{id:\"ENDER_ARTIFACT\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"0ac035dc-411a-314b-b4de-f7797d90f066\",Properties:{textures:[0:{Name:\"textures\",Signature:\"M+YHyHfhScE2u9GaiE7cGm82eWE0Yq/ca9+/dCz+XTrb90JrHcSCzI+AUtteahB3g/xdw2WlrIL+VJACeTAqlvRTCS70kRXbLltDsTMJU9uAhnbvSxfBeqSV7jnYkWXmV7u1gtKZLx+9xhIhlGo3CGJNLd21PALe2b1C6nch25xVtBc4dyW0ttaUEtBmRDoqpqhl4enaxXhTph6AvGVUfM1hwS7iQpahnRvljmXCz336Ns4vH1zPG8338w6HgbyLBMSCnnOUX6ctwL2NjaualWLNWAw+RAE7ne72xF7k+YXtm+/plh1gjbdbusz1VAjMj+sZp7s/serhkwaWJAmA8UpaaMVo6qL/VkeZy3lo44ZtQPe1RkosHHlHPhqoWYJRK522y0b7GhbJRmBn44WlG2jLgsf8IYWoF9VZjbwNEmDhP6lXtDFzhpvntDzRghXbJ/bS54jVquACzCw+XU8aRDazpLyoz9kAT6410e33HGs6/I2i8h9Zims63JaSJJV7Dz39gwOEEutkz+8uSzZT9a1erCybxW64hrG6lF6qHMtrC/KiTgow5qeVJb0qlCtMmJVJSxQMNvsuM4C1UswIkMmoqOY+2B30+kG5r14NOyla7sDQ1SHbdPHTbiW6CgdXpUtthDCiSMX+N5ZBMxqhpGXq6Vz2mrIVb/IcRbCO1V8=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMDQ2MTAwMDQ3MSwKICAicHJvZmlsZUlkIiA6ICJmMjU5MTFiOTZkZDU0MjJhYTcwNzNiOTBmOGI4MTUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmYXJsb3VjaDEwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yODg3NDgwMTQ4MDk4NjJlOGJkMjEwYTBhM2RmY2Q3YmU2ZTBkZGM3YjQ1M2UzOTQ3ZWU2ZDczZjQ2ZmRlOWUyIgogICAgfQogIH0KfQ==\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Reduces the damage taken from §5⊙\",1:\"§5Ender §7mobs by §a20%§7.\",2:\"\",3:\"§5§lEPIC ACCESSORY\"],Name:\"§5Ender Artifact\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Ender Artifact\",\"color\":\"dark_purple\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Ender Artifact\\\",\\\"color\\\":\\\"dark_purple\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Reduces the damage taken from \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"⊙\\\",\\\"color\\\":\\\"dark_purple\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ender \\\",\\\"color\\\":\\\"dark_purple\\\"},{\\\"text\\\":\\\"mobs by \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20%\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"EPIC ACCESSORY\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENDER_ARTIFACT\"},\"minecraft:hide_additional_tooltip\":{},\"minecraft:profile\":{\"properties\":{\"textures\":[{\"value\":\"ewogICJ0aW1lc3RhbXAiIDogMTYyMDQ2MTAwMDQ3MSwKICAicHJvZmlsZUlkIiA6ICJmMjU5MTFiOTZkZDU0MjJhYTcwNzNiOTBmOGI4MTUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmYXJsb3VjaDEwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yODg3NDgwMTQ4MDk4NjJlOGJkMjEwYTBhM2RmY2Q3YmU2ZTBkZGM3YjQ1M2UzOTQ3ZWU2ZDczZjQ2ZmRlOWUyIgogICAgfQogIH0KfQ\u003d\u003d\"}]},\"name\":\"textures\"}}}",
+  "damage": 0,
   "lore": [
-    "§7Reduces the damage taken from §5⊙",
-    "§5Ender §7mobs by §a20%§7.",
-    "",
-    "§5§lEPIC ACCESSORY"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Reduces the damage taken from \",\"color\":\"gray\"},{\"text\":\"⊙\",\"color\":\"dark_purple\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ender \",\"color\":\"dark_purple\"},{\"text\":\"mobs by \",\"color\":\"gray\"},{\"text\":\"20%\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"EPIC ACCESSORY\",\"color\":\"dark_purple\",\"bold\":true}"
   ],
   "internalname": "ENDER_ARTIFACT",
   "clickcommand": "",
@@ -24,5 +24,8 @@
       "cost": "ENCHANTED_EMERALD:312",
       "result": "ENDER_ARTIFACT"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

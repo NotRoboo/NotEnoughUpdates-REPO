@@ -1,16 +1,16 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§3Phantom Fisherman (Sea Creature)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"50390032-cb42-3e3f-9039-0032cb428e3f\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM5YmMwMWYyOTlmOThkNTY1YTI3YmExMGExMjkzOTE1YWU4YmVlZWZiOGE2Nzg0NWUyMzMxZGJlNmZkNmZkNiJ9fX0\"}]}},display:{Lore:[0:\"§7The Phantom Fisher is a legendary sea creature added in the Spooky\",1:\"§7Festival v2 update. It can only be caught from 1 hour before\",2:\"§7until 1 hour after the Spooky Festival by those above Fishing 21\",3:\"\",4:\"§c❤ Health§8: §c1,000,000\",5:\"\",6:\"§6§lLEGENDARY\"],Name:\"§3Phantom Fisherman (Sea Creature)\"},ExtraAttributes:{id:\"PHANTOM_FISHER_SC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Phantom Fisherman (Sea Creature)\",\"color\":\"dark_aqua\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Phantom Fisherman (Sea Creature)\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"The Phantom Fisher is a legendary sea creature added in the Spooky\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"Festival v2 update. It can only be caught from 1 hour before\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"until 1 hour after the Spooky Festival by those above Fishing 21\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❤ Health\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\": \\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"1,000,000\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PHANTOM_FISHER_SC\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§7The Phantom Fisher is a legendary sea creature added in the Spooky",
-    "§7Festival v2 update. It can only be caught from 1 hour before",
-    "§7until 1 hour after the Spooky Festival by those above Fishing 21",
-    "",
-    "§c❤ Health§8: §c1,000,000",
-    "",
-    "§6§lLEGENDARY"
+    "{\"text\":\"The Phantom Fisher is a legendary sea creature added in the Spooky\",\"color\":\"gray\"}",
+    "{\"text\":\"Festival v2 update. It can only be caught from 1 hour before\",\"color\":\"gray\"}",
+    "{\"text\":\"until 1 hour after the Spooky Festival by those above Fishing 21\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❤ Health\",\"color\":\"red\"},{\"text\":\": \",\"color\":\"dark_gray\"},{\"text\":\"1,000,000\",\"color\":\"red\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY\",\"color\":\"gold\",\"bold\":true}"
   ],
   "internalname": "PHANTOM_FISHER_SC",
   "clickcommand": "viewrecipe",
@@ -63,5 +63,8 @@
         }
       ]
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

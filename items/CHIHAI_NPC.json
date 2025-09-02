@@ -1,10 +1,10 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§9Chihai (NPC)",
-  "nbttag": "{SkullOwner:{Id:\"6d7a31c2-6e3d-2ff5-8094-8a024314c7e2\",Properties:{textures:[0:{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE3ZjdiZDEwMjYzMTExMWFhYTQyMjNjMmE3ZTY0MjhkMmE4YTk0YjBkODE0MDhlYzM1ZmMzZDVhZGQ3NWQwYjkifX19\"}]},Name:\"6d7a31c2-6e3d-2ff5-8094-8a024314c7e2\"},display:{Lore:[0:\"\"],Name:\"§9Chihai (NPC)\"},ExtraAttributes:{id:\"CHIHAI_NPC\"}}",
-  "damage": 3,
+  "itemid": "minecraft:player_head",
+  "displayname": "{\"text\":\"Chihai (NPC)\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:player_head\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Chihai (NPC)\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\"}\"],\"minecraft:custom_data\":{\"id\":\"CHIHAI_NPC\"}}}",
+  "damage": 0,
   "lore": [
-    ""
+    "{\"text\":\"\"}"
   ],
   "internalname": "CHIHAI_NPC",
   "clickcommand": "",
@@ -17,5 +17,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Chihai",
     "https://wiki.hypixel.net/Chihai"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:light_weighted_pressure_plate",
-  "displayname": "§fParkour Start/End",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Create the start/end of parkour\",1:\"§7courses on your private island!\",2:\"\",3:\"§7§4❣ §cRequires §aSocial Skill 1§c.\",4:\"§f§lCOMMON\"],Name:\"§fParkour Start/End\"},ExtraAttributes:{id:\"PARKOUR_CONTROLLER\"}}",
+  "displayname": "{\"text\":\"Parkour Start/End\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:light_weighted_pressure_plate\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Parkour Start/End\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Create the start/end of parkour\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"courses on your private island!\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"❣ \\\",\\\"color\\\":\\\"dark_red\\\"},{\\\"text\\\":\\\"Requires \\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"Social Skill 1\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"red\\\"}]}\",\"{\\\"text\\\":\\\"COMMON\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PARKOUR_CONTROLLER\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Create the start/end of parkour",
-    "§7courses on your private island!",
-    "",
-    "§7§4❣ §cRequires §aSocial Skill 1§c.",
-    "§f§lCOMMON"
+    "{\"text\":\"Create the start/end of parkour\",\"color\":\"gray\"}",
+    "{\"text\":\"courses on your private island!\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"❣ \",\"color\":\"dark_red\"},{\"text\":\"Requires \",\"color\":\"red\"},{\"text\":\"Social Skill 1\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"red\"}]}",
+    "{\"text\":\"COMMON\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "PARKOUR_CONTROLLER",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Parkour_Start/End",
     "https://wiki.hypixel.net/Parkour_Start/End"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

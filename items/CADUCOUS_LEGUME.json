@@ -1,18 +1,18 @@
 {
   "itemid": "minecraft:reeds",
-  "displayname": "§aCaducous Legume",
-  "nbttag": "{ExtraAttributes:{id:\"CADUCOUS_LEGUME\"},HideFlags:254,ItemModel:\"minecraft:sugar_cane\",display:{Lore:[0:\"§8Consumable\",1:\"\",2:\"§7Consume to gain §a+90ф Rift Time§7.\",3:\"§7May only be used once per visit in the §dRift§7.\",4:\"§aConsumed automatically when joining!\",5:\"\",6:\"§eRight-click to consume!\",7:\"\",8:\"§a§lUNCOMMON\"],Name:\"§aCaducous Legume\"},ench:[]}",
+  "displayname": "{\"text\":\"Caducous Legume\",\"color\":\"green\"}",
+  "nbttag": "{\"id\":\"minecraft:reeds\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Caducous Legume\\\",\\\"color\\\":\\\"green\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consumable\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Consume to gain \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+90ф Rift Time\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"May only be used once per visit in the \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"Rift\\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\".\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"Consumed automatically when joining!\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Right-click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"UNCOMMON\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"CADUCOUS_LEGUME\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Consumable",
-    "",
-    "§7Consume to gain §a+90ф Rift Time§7.",
-    "§7May only be used once per visit in the §dRift§7.",
-    "§aConsumed automatically when joining!",
-    "",
-    "§eRight-click to consume!",
-    "",
-    "§a§lUNCOMMON"
+    "{\"text\":\"Consumable\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Consume to gain \",\"color\":\"gray\"},{\"text\":\"+90ф Rift Time\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"May only be used once per visit in the \",\"color\":\"gray\"},{\"text\":\"Rift\",\"color\":\"light_purple\"},{\"text\":\".\",\"color\":\"gray\"}]}",
+    "{\"text\":\"Consumed automatically when joining!\",\"color\":\"green\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Right-click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true}"
   ],
   "internalname": "CADUCOUS_LEGUME",
   "clickcommand": "viewrecipe",
@@ -33,5 +33,8 @@
     "C1": "",
     "C2": "CADUCOUS_STEM:10",
     "C3": ""
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

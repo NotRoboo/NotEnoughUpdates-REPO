@@ -1,19 +1,19 @@
 {
-  "itemid": "minecraft:skull",
-  "displayname": "§fSkeleton Hat",
-  "nbttag": "{ExtraAttributes:{id:\"SKELETON_HAT\"},HideFlags:254,ItemModel:\"minecraft:skeleton_skull\",display:{Lore:[0:\"§7Speed: §a+2\",1:\"§7Intelligence: §a+10\",2:\"\",3:\"§7Your arrows have a §a20% §7chance to\",4:\"§7explode on impact dealing §a50 §7base\",5:\"§7Magic Damage to enemies within §a8\",6:\"§7blocks.\",7:\"\",8:\"§8This item can be reforged!\",9:\"§f§lCOMMON HELMET\"],Name:\"§fSkeleton Hat\"}}",
+  "itemid": "minecraft:skeleton_skull",
+  "displayname": "{\"text\":\"Skeleton Hat\",\"color\":\"white\"}",
+  "nbttag": "{\"id\":\"minecraft:skeleton_skull\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Skeleton Hat\\\",\\\"color\\\":\\\"white\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Speed: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+2\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Intelligence: \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"+10\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Your arrows have a \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"20% \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"chance to\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"explode on impact dealing \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"50 \\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"base\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Magic Damage to enemies within \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"8\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"blocks.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"This item can be reforged!\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"COMMON HELMET\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"SKELETON_HAT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7Speed: §a+2",
-    "§7Intelligence: §a+10",
-    "",
-    "§7Your arrows have a §a20% §7chance to",
-    "§7explode on impact dealing §a50 §7base",
-    "§7Magic Damage to enemies within §a8",
-    "§7blocks.",
-    "",
-    "§8This item can be reforged!",
-    "§f§lCOMMON HELMET"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Speed: \",\"color\":\"gray\"},{\"text\":\"+2\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Intelligence: \",\"color\":\"gray\"},{\"text\":\"+10\",\"color\":\"green\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Your arrows have a \",\"color\":\"gray\"},{\"text\":\"20% \",\"color\":\"green\"},{\"text\":\"chance to\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"explode on impact dealing \",\"color\":\"gray\"},{\"text\":\"50 \",\"color\":\"green\"},{\"text\":\"base\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Magic Damage to enemies within \",\"color\":\"gray\"},{\"text\":\"8\",\"color\":\"green\"}]}",
+    "{\"text\":\"blocks.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"This item can be reforged!\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"COMMON HELMET\",\"color\":\"white\",\"bold\":true}"
   ],
   "internalname": "SKELETON_HAT",
   "clickcommand": "viewrecipe",
@@ -34,5 +34,8 @@
     "C1": "BONE:1",
     "C2": "BONE:1",
     "C3": "BONE:1"
-  }
+  },
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

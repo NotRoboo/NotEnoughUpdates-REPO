@@ -1,19 +1,19 @@
 {
   "itemid": "minecraft:dirt",
-  "displayname": "§6Pesthunter\u0027s Lair Barn Skin",
-  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7§7Consume this item to unlock the\",1:\"§7§6Pesthunter\u0027s Lair Barn Skin §7on §aThe\",2:\"§aGarden§7!\",3:\"\",4:\"§eClick to consume!\",5:\"\",6:\"§6§lLEGENDARY COSMETIC\",7:\"\",8:\"§7Cost\",9:\"§21,500 Pests\"],Name:\"§6Pesthunter\u0027s Lair Barn Skin\"},ExtraAttributes:{id:\"PESTHUNTERS_LAIR_BARN_SKIN\"}}",
+  "displayname": "{\"text\":\"Pesthunter\u0027s Lair Barn Skin\",\"color\":\"gold\"}",
+  "nbttag": "{\"id\":\"minecraft:dirt\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Pesthunter\u0027s Lair Barn Skin\\\",\\\"color\\\":\\\"gold\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Consume this item to unlock the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Pesthunter\u0027s Lair Barn Skin \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"on \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"The\\\",\\\"color\\\":\\\"green\\\"}]}\",\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Garden\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"!\\\",\\\"color\\\":\\\"gray\\\"}]}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Click to consume!\\\",\\\"color\\\":\\\"yellow\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"LEGENDARY COSMETIC\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"Cost\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"1,500 Pests\\\",\\\"color\\\":\\\"dark_green\\\"}\"],\"minecraft:custom_data\":{\"id\":\"PESTHUNTERS_LAIR_BARN_SKIN\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§7§7Consume this item to unlock the",
-    "§7§6Pesthunter\u0027s Lair Barn Skin §7on §aThe",
-    "§aGarden§7!",
-    "",
-    "§eClick to consume!",
-    "",
-    "§6§lLEGENDARY COSMETIC",
-    "",
-    "§7Cost",
-    "§21,500 Pests"
+    "{\"text\":\"Consume this item to unlock the\",\"color\":\"gray\"}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Pesthunter\u0027s Lair Barn Skin \",\"color\":\"gold\"},{\"text\":\"on \",\"color\":\"gray\"},{\"text\":\"The\",\"color\":\"green\"}]}",
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Garden\",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"gray\"}]}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Click to consume!\",\"color\":\"yellow\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"LEGENDARY COSMETIC\",\"color\":\"gold\",\"bold\":true}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"Cost\",\"color\":\"gray\"}",
+    "{\"text\":\"1,500 Pests\",\"color\":\"dark_green\"}"
   ],
   "internalname": "PESTHUNTERS_LAIR_BARN_SKIN",
   "crafttext": "",
@@ -23,5 +23,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Pesthunter%27s_Lair_Barn_Skin",
     "https://wiki.hypixel.net/Pesthunter%27s_Lair_Barn_Skin"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

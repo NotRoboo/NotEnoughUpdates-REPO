@@ -1,14 +1,14 @@
 {
   "itemid": "minecraft:prismarine",
-  "displayname": "§9Prismapump",
-  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§6Ability: Pipeline §e§lRIGHT CLICK\",1:\"§7When used, pumps water in the\",2:\"§7direction the player was facing.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Prismapump\"},ExtraAttributes:{id:\"PRISMAPUMP\"}}",
-  "damage": 2,
+  "displayname": "{\"text\":\"Prismapump\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:prismarine\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Prismapump\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"\\\",\\\"extra\\\":[{\\\"text\\\":\\\"Ability: Pipeline \\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"RIGHT CLICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}]}\",\"{\\\"text\\\":\\\"When used, pumps water in the\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"direction the player was facing.\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"PRISMAPUMP\"},\"minecraft:hide_additional_tooltip\":{}}}",
+  "damage": 0,
   "lore": [
-    "§6Ability: Pipeline §e§lRIGHT CLICK",
-    "§7When used, pumps water in the",
-    "§7direction the player was facing.",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"\",\"extra\":[{\"text\":\"Ability: Pipeline \",\"color\":\"gold\"},{\"text\":\"RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true}]}",
+    "{\"text\":\"When used, pumps water in the\",\"color\":\"gray\"}",
+    "{\"text\":\"direction the player was facing.\",\"color\":\"gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "PRISMAPUMP",
   "crafttext": "",
@@ -18,5 +18,8 @@
   "info": [
     "https://hypixel-skyblock.fandom.com/wiki/Prismapump",
     "https://wiki.hypixel.net/Prismapump"
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }

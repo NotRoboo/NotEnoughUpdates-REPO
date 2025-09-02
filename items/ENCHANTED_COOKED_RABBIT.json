@@ -1,12 +1,12 @@
 {
   "itemid": "minecraft:cooked_rabbit",
-  "displayname": "§9Enchanted Cooked Rabbit",
-  "nbttag": "{ExtraAttributes:{id:\"ENCHANTED_COOKED_RABBIT\"},HideFlags:254,ItemModel:\"minecraft:cooked_rabbit\",display:{Lore:[0:\"§8Collection Item\",1:\"\",2:\"§9§lRARE\"],Name:\"§9Enchanted Cooked Rabbit\"},ench:[]}",
+  "displayname": "{\"text\":\"Enchanted Cooked Rabbit\",\"color\":\"blue\"}",
+  "nbttag": "{\"id\":\"minecraft:cooked_rabbit\",\"count\":1,\"components\":{\"minecraft:custom_name\":\"{\\\"text\\\":\\\"Enchanted Cooked Rabbit\\\",\\\"color\\\":\\\"blue\\\"}\",\"minecraft:lore\":[\"{\\\"text\\\":\\\"Collection Item\\\",\\\"color\\\":\\\"dark_gray\\\"}\",\"{\\\"text\\\":\\\"\\\"}\",\"{\\\"text\\\":\\\"RARE\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":true}\"],\"minecraft:custom_data\":{\"id\":\"ENCHANTED_COOKED_RABBIT\"},\"minecraft:hide_additional_tooltip\":{}}}",
   "damage": 0,
   "lore": [
-    "§8Collection Item",
-    "",
-    "§9§lRARE"
+    "{\"text\":\"Collection Item\",\"color\":\"dark_gray\"}",
+    "{\"text\":\"\"}",
+    "{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true}"
   ],
   "internalname": "ENCHANTED_COOKED_RABBIT",
   "clickcommand": "",
@@ -31,5 +31,8 @@
       "count": 1,
       "overrideOutputId": "ENCHANTED_COOKED_RABBIT"
     }
-  ]
+  ],
+  "format_version": 1,
+  "conversion_method": "modern_1215_components",
+  "converted_modern": true
 }
